@@ -1,4 +1,5 @@
-const appData = {
+
+                    const appData = {
     user: {
         name: "BENEDICT NELSON",
         progress: 68,
