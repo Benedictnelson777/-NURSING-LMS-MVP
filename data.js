@@ -1319,7 +1319,156 @@ const appData = {
                             { q: "Touching a patient without consent can be legally charged as:", options: ["Assault", "Battery", "Libel", "Slander"], correct: 1 },
                             { q: "The concept of 'Fidelity' in nursing ethics means:", options: ["Doing no harm", "Being fair", "Keeping promises", "Telling the truth"], correct: 2 },
                             { q: "Which is an example of an unintentional tort?", options: ["Malpractice", "False Imprisonment", "Assault", "Invasion of Privacy"], correct: 0 },
-                            { q: "HIPAA primarily protects:", options: ["Insurance companies", "Patient privacy", "Hospital revenue", "Doctor's rights"], correct: 1 }
+                            { q: "HIPAA primarily protects:", options: ["Insurance companies", "Patient privacy", "Hospital revenue", "Doctor's rights"], correct: 1 },
+                            { q: "The ICN Code of Ethics has how many principal elements?", options: ["Two", "Four", "Six", "Ten"], correct: 1 },
+                            { q: "Which nursing organization focuses on education standards?", options: ["ANA", "NLN", "ICN", "NCSBN"], correct: 1 },
+                            { q: "Which type of law deals with relationships between individuals?", options: ["Criminal Law", "Civil Law", "Public Law", "Constitutional Law"], correct: 1 },
+                            { q: "Which of the following describes the 'Art' of nursing?", options: ["Evidence-based practice", "Caring and compassion", "Technical skills", "Pathophysiology"], correct: 1 },
+                            { q: "Continuing education units (CEUs) are required for:", options: ["Licensure renewal", "Graduation", "Hiring", "Retirement"], correct: 0 },
+                            { q: "The NCLEX-RN is:", options: ["A graduation exam", "A licensure exam", "A job interview", "A performance review"], correct: 1 },
+                            { q: "Which theorist is known as the 'Lady with the Lamp'?", options: ["Clara Barton", "Florence Nightingale", "Dorothea Dix", "Mary Breckenridge"], correct: 1 },
+                            { q: "Nursing licensure provides protection to:", options: ["The nurse", "The public", "The hospital", "The doctor"], correct: 1 },
+                            { q: "Reciprocity allows a nurse to:", options: ["Work in another compact state without re-exam", "Retire early", "Prescribe medication", "Act as a doctor"], correct: 0 },
+                            { q: "Which standard of practice involves collecting data?", options: ["Assessment", "Diagnosis", "Planning", "Evaluation"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Ethics & Legal Issues',
+                        questions: [
+                            { q: "Veracity refers to:", options: ["Fairness", "Truthfulness", "Faithfulness", "Doing good"], correct: 1 },
+                            { q: "Which action violates patient privacy?", options: ["Discussing care in the cafeteria", "Documenting in the chart", "Giving report at bedside", "Closing the curtain"], correct: 0 },
+                            { q: "An Advance Directive includes:", options: ["Living Will and Power of Attorney", "Will and Testament", "Insurance policy", "DNR order only"], correct: 0 },
+                            { q: "Informed consent requires the patient to be:", options: ["Sedated", "Competent", "Coerced", "Related to the doctor"], correct: 1 },
+                            { q: "Who is responsible for obtaining informed consent?", options: ["The Nurse", "The Provider performing the procedure", "The Pharmacist", "The Social Worker"], correct: 1 },
+                            { q: "False imprisonment involves:", options: ["Locking a patient in a room without cause", "Arresting a patient", "Using a bed rail", "Sedation"], correct: 0 },
+                            { q: "Slander is:", options: ["Written defamation", "Spoken defamation", "Physical harm", "Threats"], correct: 1 },
+                            { q: "Which is a 'Sentinel Event'?", options: ["Patient fall with fracture", "Late medication", "Patient complaint", "Staff meeting"], correct: 0 },
+                            { q: "The Good Samaritan Law protects:", options: ["Nurses at work", "Volunteers providing emergency care", "Doctors only", "Hospitals"], correct: 1 },
+                            { q: "Non-maleficence means:", options: ["Do Good", "Do No Harm", "Be Fair", "Be Free"], correct: 1 },
+                            { q: "Ethical dilemmas occur when:", options: ["Two moral principles conflict", "The law is clear", "The patient agrees", "The nurse is tired"], correct: 0 },
+                            { q: "Advocacy involves:", options: ["Making decisions for the patient", "Supporting the patient's decisions", "Ignoring the patient", "Judging the patient"], correct: 1 },
+                            { q: "Which is an intentional tort?", options: ["Negligence", "Malpractice", "Assault", "Accident"], correct: 2 },
+                            { q: "Standards of Care are determined by:", options: ["The Nurse Practice Act", "Professional organizations", "Hospital policy", "All of the above"], correct: 3 },
+                            { q: "Which is a violation of professional boundaries?", options: ["Accepting a large cash gift from a patient", "Holding a patient's hand", "Listening to a patient's story", "Providing education"], correct: 0 },
+                            { q: "If a nurse suspects child abuse, they must:", options: ["Ignore it", "Report it to the authorities", "Ask the parents", "Wait for proof"], correct: 1 },
+                            { q: "Who owns the medical record?", options: ["The patient", "The facility", "The insurance", "The nurse"], correct: 1 },
+                            { q: "Patients have the right to access their records under:", options: ["HIPAA", "OSHA", "CDC", "WHO"], correct: 0 },
+                            { q: "A DNR order means:", options: ["Do Not Resuscitate", "Do Not Record", "Do Not Report", "Do Not React"], correct: 0 },
+                            { q: "Ethics committees exist to:", options: ["Punish staff", "Assist with complex ethical decisions", "Write laws", "Hire nurses"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Communication & SBAR',
+                        questions: [
+                            { q: "Which is a block to therapeutic communication?", options: ["Listening", "Reflecting", "Giving advice", "Silence"], correct: 2 },
+                            { q: "In SBAR, 'R' stands for:", options: ["Reason", "Result", "Recommendation", "Record"], correct: 2 },
+                            { q: "Which phase of the nurse-patient relationship involves termination?", options: ["Orientation", "Working", "Termination", "Pre-interation"], correct: 2 },
+                            { q: "When using an interpreter, the nurse should speak to:", options: ["The interpreter", "The patient", "The family", "The wall"], correct: 1 },
+                            { q: "Non-verbal communication includes:", options: ["Spoken words", "Tone of voice and body language", "Written notes", "Emails"], correct: 1 },
+                            { q: "Active listening demonstrates:", options: ["Boredom", "Respect and interest", "Superiority", "Impatience"], correct: 1 },
+                            { q: "The nurse creates a professional 'zone' of:", options: ["Personal space", "Intimate space", "Social space", "Public space"], correct: 0 }, // Personal is usually 1.5-4ft, therapeutic often enters personal.
+                            { q: "Which question is open-ended?", options: ["Are you in pain?", "Do you take insulin?", "Tell me about your pain.", "Is your name John?"], correct: 2 },
+                            { q: "Clarification is used to:", options: ["Confuse the patient", "Ensure understanding", "Change the subject", "Give orders"], correct: 1 },
+                            { q: "Restating involves:", options: ["Repeating the patient's exact words", "Paraphrasing the main idea", "Ignoring the statement", "Writing it down"], correct: 1 },
+                            { q: "Which is appropriate for a hearing-impaired patient?", options: ["Shouting", "Facing the patient and speaking clearly", "Using complex terms", "Speaking quickly"], correct: 1 },
+                            { q: "Empathy differs from sympathy in that empathy:", options: ["Shares the feelings", "Understands the feelings objectively", "Pities the patient", "Ignores the feelings"], correct: 1 },
+                            { q: "Assertive communication is:", options: ["Aggressive", "Passive", "Clear, direct, and respectful", "Manipulative"], correct: 2 },
+                            { q: "Which SBAR section contains the patient's vital signs?", options: ["Situation", "Background", "Assessment", "Recommendation"], correct: 2 },
+                            { q: "Conflict resolution starts with:", options: ["Avoiding the issue", "Open communication", "Reporting to a manager", "Quitting"], correct: 1 },
+                            { q: "Documentation is a form of:", options: ["Verbal communication", "Written communication", "Non-verbal communication", "Social media"], correct: 1 },
+                            { q: "Handoff reports should be:", options: ["Lengthy", "Standardized and concise (e.g., SBAR)", "Gossip-filled", "Oral only"], correct: 1 },
+                            { q: "Therapeutic silence allows:", options: ["Awkwardness", "Reflection", "Napping", "Distraction"], correct: 1 },
+                            { q: "Humor in nursing should be used:", options: ["Always", "Never", "Cautiously and appropriately", "To mock patients"], correct: 2 },
+                            { q: "When a patient is angry, the nurse should:", options: ["Argue back", "Listen and remain calm", "Leave the room immediately", "Call security first"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Roles, Leadership & Delegation',
+                        questions: [
+                            { q: "Which task can be delegated to a UAP (CNA)?", options: ["Assessment", "Teaching", "Medication administration", "Vital signs on a stable patient"], correct: 3 },
+                            { q: "The Five Rights of Delegation include Right Task, Right Circumstance, Right Person, Right Direction, and:", options: ["Right Time", "Right Supervision", "Right Place", "Right Patient"], correct: 1 },
+                            { q: "The primary role of the nurse manager is to:", options: ["Provide direct care", "Coordinate resources and staff", "Diagnose patients", "Clean rooms"], correct: 1 },
+                            { q: "Which leadership style invites input from the team?", options: ["Autocratic", "Democratic", "Laissez-faire", "Bureaucratic"], correct: 1 },
+                            { q: "Autocratic leadership is best for:", options: ["Creative tasks", "Emergency situations (Codes)", "Routine care", "Counseling"], correct: 1 },
+                            { q: "The RN cannot delegate:", options: ["Ambulation", "Feeding", "Evaluation/Assessment", "Bathing"], correct: 2 },
+                            { q: "Accountability means:", options: ["Blaming others", "Answering for one's own actions", "Following orders blindly", "Ignoring mistakes"], correct: 1 },
+                            { q: "Case Management focuses on:", options: ["One shift", "Continuity of care and cost-effectiveness", "Emergency care", "Surgery only"], correct: 1 },
+                            { q: "Collaboration involved working with:", options: ["Nurses only", "Doctors only", "The interdisciplinary team", "Insurance companies"], correct: 2 },
+                            { q: "A Magnet Hospital is recognized for:", options: ["High turnover", "Nursing excellence", "Low pay", "Poor outcomes"], correct: 1 },
+                            { q: "Which is a priority setting framework?", options: ["ABC (Airway, Breathing, Circulation)", "Alphabetical", "Room number", "Age"], correct: 0 },
+                            { q: "Triage calls for treating which patient first?", options: ["Minor cut", "Cardiac arrest/Chest pain", "Broken arm", "Sore throat"], correct: 1 },
+                            { q: "Transformational leaders:", options: ["Focus on tasks", "Inspire and motivate", "Avoid decisions", "Micro-manage"], correct: 1 },
+                            { q: "Scope of practice is determined by:", options: ["The Nurse Manager", "The State Nurse Practice Act", "The Doctor", "The Nurse"], correct: 1 },
+                            { q: "LPNs/LVNs can generally:", options: ["Administer IV push meds", "Perform initial admission assessments", "Administer oral medications", "Create the care plan"], correct: 2 },
+                            { q: "Quality Improvement (QI) uses data to:", options: ["Punish staff", "Improve patient outcomes", "Cut costs only", "Advertise"], correct: 1 },
+                            { q: "Root Cause Analysis is used after:", options: ["A success", "A Sentinel Event/Error", "A party", "A break"], correct: 1 },
+                            { q: "Prioritization principle: Acute before:", options: ["Chronic", "Critical", "Emergency", "Urgent"], correct: 0 },
+                            { q: "Prioritization principle: Systemic before:", options: ["Local", "General", "Holistic", "Global"], correct: 0 },
+                            { q: " Delegation requires the nurse to:", options: ["Walk away", "Follow up/Supervise", "Forget about it", "Do it themselves"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Cultural Competence & Compassion',
+                        questions: [
+                            { q: "Cultural competence is:", options: ["Knowing everything about all cultures", "Respecting and adapting to cultural needs", "Ignoring culture", "Teaching patients 'our' way"], correct: 1 },
+                            { q: "Stereotyping is:", options: ["Individualized care", "Generalizing assumptions about a group", "Evidence-based", "Respectful"], correct: 1 },
+                            { q: "Ethnocentrism is the belief that:", options: ["All cultures are equal", "One's own culture is superior", "Culture doesn't matter", "Diversity is good"], correct: 1 },
+                            { q: "In some cultures, making eye contact is considered:", options: ["Respectful", "Disrespectful/Aggressive", "Funny", "Required"], correct: 1 },
+                            { q: "When dietary restrictions exist (e.g., Kosher, Halal), the nurse should:", options: ["Ignore them", "Consult the dietician and accommodate", "Tell the patient to eat anyway", "Bring food from home"], correct: 1 },
+                            { q: "Holistic care considers:", options: ["Body only", "Mind and Body", "Body, Mind, and Spirit", "Disease only"], correct: 2 },
+                            { q: "Compassion fatigue is:", options: ["Loving the job", "Burnout from prolonged caring", "Tiredness from walking", "Sleepiness"], correct: 1 },
+                            { q: "Spiritual care aims to:", options: ["Convert the patient", "Support meaning and purpose", "Preach", "Dismiss beliefs"], correct: 1 },
+                            { q: "Hospice care focuses on:", options: ["Curative treatment", "Palliative/Comfort care", "Surgery", "Rehab"], correct: 1 },
+                            { q: "The mourning process is:", options: ["The same for everyone", "Unique to the individual", "Always 5 stages", "Fast"], correct: 1 },
+                            { q: "Which religion prohibits blood transfusions?", options: ["Catholicism", "Jehovah's Witnesses", "Islam", "Buddhism"], correct: 1 },
+                            { q: "Interpreter services should be used for:", options: ["Convenience", "Legal accuracy and understanding", "Short tasks", "Family members"], correct: 1 },
+                            { q: "Cultural assessment includes asking about:", options: ["Bank account", "Health beliefs and practices", "Political views", "Favorite color"], correct: 1 },
+                            { q: "Resilience is:", options: ["Breaking down", "Bouncing back from adversity", "Giving up", "Ignoring stress"], correct: 1 },
+                            { q: "Self-care for nurses is important to:", options: ["Look good", "Prevent burnout and ensure safe care", "Make money", "Waste time"], correct: 1 },
+                            { q: "Horizontal violence (incivility) in nursing is:", options: ["Bullying among peers", "Patient violence", "Doctor violence", "Physical fighting"], correct: 0 },
+                            { q: "Diversity in the workforce:", options: ["Complicates things", "Improves patient care and problem solving", "Is unnecessary", "Is illegal"], correct: 1 },
+                            { q: "Assessing for folk remedies is important to:", options: ["Laugh at them", "Check for interactions", "Ban them", "Sell them"], correct: 1 },
+                            { q: "Prayer requests should be:", options: ["Denied", "Facilitated if possible", "Mocked", "Recorded"], correct: 1 },
+                            { q: "The goal of transcultural nursing (Leininger) is:", options: ["Culturally congruent care", "Standardized care", "Westernized care", "No care"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -1463,7 +1612,156 @@ const appData = {
                             { q: "The belief that one's own culture is superior is called:", options: ["Relativism", "Ethnocentrism", "Pluralism", "Multiculturalism"], correct: 1 },
                             { q: "Medical Pluralism refers to:", options: ["Using multiple doctors", "Coexistence of different medical systems", "Having multiple insurance plans", "Treating multiple diseases"], correct: 1 },
                             { q: "Urbanization is generally associated with:", options: ["Decreased pollution", "Increased infectious disease transmission", "Lower stress levels", "Better air quality"], correct: 1 },
-                            { q: "Culture is best defined as:", options: ["Biological traits", "Shared beliefs, values, and practices", "Economic status", "Political affiliation"], correct: 1 }
+                            { q: "Culture is best defined as:", options: ["Biological traits", "Shared beliefs, values, and practices", "Economic status", "Political affiliation"], correct: 1 },
+                            { q: "The functionalist perspective views society as:", options: ["A struggle for power", "A complex system of parts working together", "Depending on symbols", "chaotic"], correct: 1 },
+                            { q: "Conflict theory perceives society as:", options: ["Stable", "Balanced", "A competition for resources", "Meaningless"], correct: 2 },
+                            { q: "Symbolic Interactionism focuses on:", options: ["Macro-level structures", "Micro-level interactions and meaning", "Global economics", "Genetics"], correct: 1 },
+                            { q: "Social mobility refers to:", options: ["Moving houses", "Movement up or down the social hierarchy", "Traveling abroad", "Walking ability"], correct: 1 },
+                            { q: "A Norm is:", options: ["A famous person", "A written law", "A rule or expectation for behavior", "A value"], correct: 2 },
+                            { q: "Which refers to a group set apart by race or culture?", options: ["Minority group", "Majority group", "Reference group", "Primary group"], correct: 0 },
+                            { q: "Demography is the study of:", options: ["Demons", "Democracy", "Human populations", "Geography"], correct: 2 },
+                            { q: "The 'Graying of Society' refers to:", options: ["Air pollution", "An aging population", "Depression", "Fashion trends"], correct: 1 },
+                            { q: "Globalization affects health through:", options: ["Spread of diseases", "Increased travel", "Economic interdependence", "All of the above"], correct: 3 },
+                            { q: "Stigma is:", options: ["A mark of disgrace", "A type of flower", "A medical tool", "A law"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Social Determinants of Health',
+                        questions: [
+                            { q: "Which factor affects health outcomes the most?", options: ["Clinical care", "Genetics", "Social and Economic Factors", "Luck"], correct: 2 },
+                            { q: "Food insecurity is associated with:", options: ["Obesity and Diabetes", "Better health", "Higher income", "More exercise"], correct: 0 },
+                            { q: "Health literacy is:", options: ["Reading a book", "Understanding health information to make decisions", "Being a doctor", "Speaking English"], correct: 1 },
+                            { q: "Access to green spaces correlates with:", options: ["Higher crime", "Better mental and physical health", "More pollution", "Lower property values"], correct: 1 },
+                            { q: "Discrimination acts as a stressor that:", options: ["Improves immunity", "Harms health", "Motivates people", "Has no effect"], correct: 1 },
+                            { q: "The 'Social Gradient' in health means:", options: ["Everyone has equal health", "The higher your social position, the better your health", "Rich people are sicker", "Health is random"], correct: 1 },
+                            { q: "Which affects a child's development most according to SDOH?", options: ["Eye color", "Early childhood education/environment", "Favorite toy", "Hair length"], correct: 1 },
+                            { q: "Transportation barriers can lead to:", options: ["Missed appointments", "More walking", "Less traffic", "Better health"], correct: 0 },
+                            { q: "Housing quality (e.g., lead paint, mold) is a:", options: ["Physical determinant", "Biological determinant", "Genetic determinant", "Personal choice"], correct: 0 },
+                            { q: "Which is a 'downstream' intervention?", options: ["Treating a heart attack", "Policy change", "Improving education", "Cleaning the air"], correct: 0 },
+                            { q: "Which is an 'upstream' intervention?", options: ["Prescribing insulin", "Surgery", "Improving minimum wage", "Bandaging a cut"], correct: 2 },
+                            { q: "Income inequality is linked to:", options: ["Worse population health", "Better population health", "No change", "More happiness"], correct: 0 },
+                            { q: "Social isolation in the elderly increases risk of:", options: ["Mortality", "Dementia", "Depression", "All of the above"], correct: 3 },
+                            { q: "Adverse Childhood Experiences (ACEs) are linked to:", options: ["Adult chronic disease", "Better adult health", "Success", "Nothing"], correct: 0 },
+                            { q: "Digital divide refers to:", options: ["Mathematics", "Unequal access to technology/internet", "Finger injuries", "Coding"], correct: 1 },
+                            { q: "Environmental Justice ensures:", options: ["Equal protection from environmental hazards", "More parks for rich people", "Recycling", "Planting trees"], correct: 0 },
+                            { q: "Employment conditions (occupational health) include:", options: ["Safety hazards", "Work-life balance", "Job security", "All of the above"], correct: 3 },
+                            { q: "Community safety impacts:", options: ["Physical activity levels", "Mental health", "Sleep", "All of the above"], correct: 3 },
+                            { q: "Access to affordable nutritious food is often limited in:", options: ["Food deserts", "Supermarkets", "Farms", "Restaurants"], correct: 0 },
+                            { q: "Social support networks provide:", options: ["Emotional and practical help", "Money", "Jobs", "Distraction"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Culture, Family & Society',
+                        questions: [
+                            { q: "Which parenting style is considered most effective?", options: ["Authoritarian", "Permissive", "Authoritative", "Neglectful"], correct: 2 },
+                            { q: "A matrifocal family is centered on:", options: ["The father", "The mother", "The children", "The grandparents"], correct: 1 },
+                            { q: "Which is a function of the family?", options: ["Socialization", "Economic support", "Emotional security", "All of the above"], correct: 3 },
+                            { q: "Cultural assimilation implies:", options: ["Retaining one's culture", "Giving up native culture for the dominant one", "Mixing cultures", "Ignoring culture"], correct: 1 },
+                            { q: "Acculturation means:", options: ["Adopting parts of a new culture while keeping old ones", "Rejecting new culture", "Becoming isolated", "Forgetting the past"], correct: 0 },
+                            { q: "Which denotes a marriage inside one's own group?", options: ["Exogamy", "Endogamy", "Polygamy", "Monogamy"], correct: 1 },
+                            { q: "Patriarchy refers to:", options: ["Mother rule", "Father/Male rule", "Child rule", "Equal rule"], correct: 1 },
+                            { q: "The 'Sandwich Generation' cares for:", options: ["Children and aging parents", "Pets", "Neighbors", "No one"], correct: 0 },
+                            { q: "Cultural Relativism is:", options: ["Judging culture by one's own standards", "Judging culture by its own standards", "Hating culture", "Ignoring culture"], correct: 1 },
+                            { q: "A subculture is:", options: ["A smaller group with distinct values within a larger culture", "Better than the main culture", "A bacterial growth", "Underground"], correct: 0 },
+                            { q: "Language is a key component of:", options: ["Biology", "Culture", "Geography", "Physics"], correct: 1 },
+                            { q: "Rituals are:", options: ["Standardized behaviors with symbolic meaning", "Random acts", "Habits", "Biological needs"], correct: 0 },
+                            { q: "Which religion influences dietary habits (e.g., no pork)?", options: ["Islam", "Hinduism", "Judaism", "All of the above"], correct: 3 }, // Hinduism is usually beef, but Islam/Judaism is pork. Q is vague but 3 catches the gist or Islam/Judaism specifically. 'All' includes religions that influence diet.
+                            { q: "Collectivist cultures prioritize:", options: ["The individual", "The group", "Money", "Competition"], correct: 1 },
+                            { q: "Individualist cultures prioritize:", options: ["The group", "Personal autonomy and achievement", "Tradition", "Elders"], correct: 1 },
+                            { q: "Gender roles are:", options: ["Determined by biology", "Socially constructed", "Fixed", "Universal"], correct: 1 },
+                            { q: "The 'Glass Ceiling' refers to:", options: ["Architecture", "Barriers to women's advancement", "Fragile roofs", "Transparency"], correct: 1 },
+                            { q: "Domestic violence is a:", options: ["Private matter", "Public health issue", "Cultural norm", "Legal right"], correct: 1 },
+                            { q: "Divorce rates are influenced by:", options: ["Laws", "Economics", "Cultural values", "All of the above"], correct: 3 },
+                            { q: "Cohabitation is:", options: ["Living together without marriage", "Living alone", "Living with parents", "Roommates"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Social Issues & Urbanization',
+                        questions: [
+                            { q: "Gentrification results in:", options: ["Lower rents", "Displacement of lower-income residents", "Less development", "More crime"], correct: 1 },
+                            { q: "Urban sprawl contributes to:", options: ["Walking", "Car dependency and pollution", "Small towns", "Better health"], correct: 1 },
+                            { q: "The 'Broken Windows' theory relates to:", options: ["Home repair", "Crime and disorder", "Glass manufacturing", "Computer operating systems"], correct: 1 },
+                            { q: "Homelessness is primarily caused by:", options: ["Laziness", "Lack of affordable housing", "Choice", "Weather"], correct: 1 },
+                            { q: "Epidemiological transition refers to the shift from:", options: ["Infectious to Chronic diseases", "Chronic to Infectious diseases", "Rural to Urban", "Young to Old"], correct: 0 },
+                            { q: "Malthusian theory predicts:", options: ["Population will outgrow food supply", "Technology saves us", "Peace", "Zero growth"], correct: 0 },
+                            { q: "The Dependency Ratio compares:", options: ["Workers to Non-workers (young/old)", "Men to Women", "Rich to Poor", "Sick to Healthy"], correct: 0 },
+                            { q: "Ageism is discrimination based on:", options: ["Race", "Gender", "Age", "Ability"], correct: 2 },
+                            { q: "Medicalization is:", options: ["Creating new medicines", "Defining non-medical problems as medical issues", "Building hospitals", "Studying medicine"], correct: 1 },
+                            { q: "The 'Opioid Crisis' is an example of:", options: ["A social problem with medical roots", "A crime wave", "A foreign invasion", "A success"], correct: 0 },
+                            { q: "Which is a 'Push factor' for migration?", options: ["Better jobs", "War/Conflict", "Good schools", "Freedom"], correct: 1 },
+                            { q: "Which is a 'Pull factor' for migration?", options: ["Famine", "Poverty", "Economic opportunity", "Persecution"], correct: 2 },
+                            { q: "Environmental Racism refers to:", options: ["Disproportionate exposure of minorities to pollutants", "Racist trees", "Clean environments for all", "Nature"], correct: 0 },
+                            { q: "Food deserts are usually found in:", options: ["Wealthy suburbs", "Low-income areas", "Farms", "Forests"], correct: 1 },
+                            { q: "Which is a latent function of education?", options: ["Learning math", "Childcare/Social networking", "Getting a degree", "Reading"], correct: 1 },
+                            { q: "Meritocracy assumes success is based on:", options: ["Wealth", "Family", "Ability and effort", "Luck"], correct: 2 },
+                            { q: "The 'School-to-Prison Pipeline' affects:", options: ["All students", "Disproportionately minority students", "Teachers", "Principals"], correct: 1 },
+                            { q: "Labeling Theory is associated with:", options: ["Deviance", "Fashion", "Cooking", "Shopping"], correct: 0 },
+                            { q: "Which creates a 'barrier to entry' in healthcare?", options: ["Universal coverage", "High cost/Insurance", "Too many doctors", "Free clinics"], correct: 1 },
+                            { q: "The 'Digital Divide' affects:", options: ["Only gamers", "Telehealth access and health seeking", "TV watching", "Radio"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Gender & Medical Anthropology',
+                        questions: [
+                            { q: "Medical Anthropology studies:", options: ["Bones", "How culture interacts with health/illness", "Ancient doctors", "Hospitals"], correct: 1 },
+                            { q: "A 'Folk Illness' is:", options: ["A fake illness", "A culture-bound syndrome", "A virus", "A broken bone"], correct: 1 },
+                            { q: "Curanderismo is a healing system from:", options: ["China", "Latin America", "India", "Africa"], correct: 1 },
+                            { q: "Ayurveda originates from:", options: ["China", "Latin America", "India", "Africa"], correct: 2 },
+                            { q: "The Placebo Effect demonstrates:", options: ["The power of belief/mind", "Drug efficacy", "Surgical skill", "Nothing"], correct: 0 },
+                            { q: "Gender stratification in medicine has historically:", options: ["Favored women", "Excluded women from high status roles", "Been equal", "Favored nurses"], correct: 1 },
+                            { q: "The 'Pink Collar' sector refers to:", options: ["Construction", "Jobs traditionally held by women", "Banking", "Tech"], correct: 1 },
+                            { q: "Intersectionality examines:", options: ["Roads", "Overlapping systems of oppression (race, class, gender)", "Biology", "Math"], correct: 1 },
+                            { q: "Which is a barrier to men seeking healthcare?", options: ["Masculinity norms (stoicism)", "Too much time", "Lack of money", "High pain tolerance"], correct: 0 },
+                            { q: "FGM (Female Genital Mutilation) is a practice rooted in:", options: ["Medical necessity", "Cultural tradition/Control", "Hygiene", "Religion (universal)"], correct: 1 },
+                            { q: "Maternal mortality rates are highest for:", options: ["White women", "Black women (in the US)", "Asian women", "Hispanic women"], correct: 1 },
+                            { q: "Implicit bias in healthcare leads to:", options: ["Equal care", "Disparities in treatment", "Better outcomes", "More friends"], correct: 1 },
+                            { q: "Shamanism involves:", options: ["A spiritual healer mediating between worlds", "Surgery", "Pills", "Exercise"], correct: 0 },
+                            { q: "Biomedicine focuses on:", options: ["Holistic care", "Physical causes/Treatment of disease", "Spirits", "Energy"], correct: 1 },
+                            { q: "Medicalization of childbirth has led to:", options: ["More home births", "More C-sections and interventions", "Less cost", "No change"], correct: 1 },
+                            { q: "Transgender health issues include:", options: ["Access to hormone therapy", "Discrimination", "Mental health disparities", "All of the above"], correct: 3 },
+                            { q: "The 'Second Shift' refers to:", options: ["Working two jobs", "Women working then doing housework", "Overtime", "Night shift"], correct: 1 },
+                            { q: "Patriarchal medicine often:", options: ["Listens to patients", "Dismisses women's pain", "Is collaborative", "Is cheap"], correct: 1 },
+                            { q: "Cultural Competence is crucial because:", options: ["It's the law", "It improves patient trust and outcomes", "It's trendy", "It's easy"], correct: 1 },
+                            { q: "Ethnomedicine is:", options: ["The study of traditional medicine", "Western medicine", "Fake medicine", "Online medicine"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -1628,7 +1926,156 @@ const appData = {
                             { q: "Which sleep stage is associated with vivid dreaming?", options: ["NREM Stage 1", "NREM Stage 3", "REM", "NREM Stage 2"], correct: 2 },
                             { q: "The fear of open or crowded spaces is known as:", options: ["Claustrophobia", "Agoraphobia", "Acrophobia", "Social Anxiety"], correct: 1 },
                             { q: "Maslow's highest level of need is:", options: ["Safety needs", "Love and belonging", "Self-actualization", "Physiological needs"], correct: 2 },
-                            { q: "Which neurotransmitter is most commonly associated with depression?", options: ["Dopamine", "Serotonin", "Acetylcholine", "GABA"], correct: 1 }
+                            { q: "Which neurotransmitter is most commonly associated with depression?", options: ["Dopamine", "Serotonin", "Acetylcholine", "GABA"], correct: 1 },
+                            { q: "Psychology is best defined as the scientific study of:", options: ["Mental disorders", "Behavior and mental processes", "Social groups", "Brain biology only"], correct: 1 },
+                            { q: "The variable manipulation by the researcher is called:", options: ["Dependent variable", "Independent variable", "Control variable", "Confounding variable"], correct: 1 },
+                            { q: "Gestalt psychology focuses on:", options: ["Elements of the mind", "The whole experience", "Unconscious conflict", "Measurable behavior"], correct: 1 },
+                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Temporal", "Occipital"], correct: 3 },
+                            { q: "Plasticity refers to:", options: ["The brain's ability to change and adapt", "Rigidity of thought", "Plastic surgery", "Artificial intelligence"], correct: 0 },
+                            { q: "Sensation refers to:", options: ["Interpreting stimuli", "Detecting stimuli", "Thinking about stimuli", "Ignoring stimuli"], correct: 1 },
+                            { q: "Perception refers to:", options: ["Detecting stimuli", "Interpreting and organizing sensory information", "Dreaming", "Reflexes"], correct: 1 },
+                            { q: "The absolute threshold is:", options: ["The maximum stimulation needed", "The minimum stimulation needed to detect a stimulus 50% of the time", "Pain tolerance", "A door"], correct: 1 },
+                            { q: "Circadian rhythms operate on a cycle of approximately:", options: ["1 hour", "12 hours", "24 hours", "1 month"], correct: 2 },
+                            { q: "Hypnosis is a state of:", options: ["Sleep", "Heightened suggestibility", "Unconsciousness", "Coma"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Development & Personality',
+                        questions: [
+                            { q: "Piaget's stage where children understand conservation is:", options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"], correct: 2 },
+                            { q: "Object permanence develops during which Piagetian stage?", options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"], correct: 0 },
+                            { q: "Vygotsky's 'Zone of Proximal Development' refers to:", options: ["What a learner can do alone", "What a learner can do with guidance", "What a learner cannot do", "Physical growth"], correct: 1 },
+                            { q: "Attachment theory was largely developed by:", options: ["Freud", "Bowlby and Ainsworth", "Skinner", "Maslow"], correct: 1 },
+                            { q: "The 'Big Five' personality traits include Openness, Conscientiousness, Extraversion, Agreeableness, and:", options: ["Neuroticism", "Nervousness", "Narcissism", "Niceness"], correct: 0 },
+                            { q: "In Freud's theory, the Ego uses defense mechanisms to reduce:", options: ["Pleasure", "Anxiety", "Reality", "Depression"], correct: 1 },
+                            { q: "Regression involves:", options: ["Forgetting memories", "Returning to an earlier stage of development", "Blaming others", "Making excuses"], correct: 1 },
+                            { q: "Kohlberg studied the development of:", options: ["Motor skills", "Language", "Moral reasoning", "Vision"], correct: 2 },
+                            { q: "The period of 'Emerging Adulthood' spans ages:", options: ["12-18", "18-29", "30-40", "65+"], correct: 1 },
+                            { q: "Fluid intelligence involves:", options: ["Accumulated knowledge", "Problem-solving and adaptability", "Vocabulary", "Facts"], correct: 1 },
+                            { q: "Crystallized intelligence involves:", options: ["Speed of processing", "Accumulated knowledge and verbal skills", "New learning", "Reaction time"], correct: 1 },
+                            { q: "Which parenting style is associated with high warmth and high control?", options: ["Authoritarian", "Authoritative", "Permissive", "Uninvolved"], correct: 1 },
+                            { q: "Teratogens are:", options: ["Healthy foods", "Agents that cause birth defects", "Stages of labor", "Newborn reflexes"], correct: 1 },
+                            { q: "The 'Rooting reflex' helps an infant:", options: ["Walk", "Find food/breast", "Grasp objects", "Sleep"], correct: 1 },
+                            { q: "According to Erikson, the crisis of late adulthood is:", options: ["Intimacy vs. Isolation", "Generativity vs. Stagnation", "Integrity vs. Despair", "Trust vs. Mistrust"], correct: 2 },
+                            { q: "Carl Rogers emphasized:", options: ["Unconditional positive regard", "Punishment", "Analysis of dreams", "Conditioning"], correct: 0 },
+                            { q: "Bandura's 'Bobo Doll' experiment demonstrated:", options: ["Operant conditioning", "Observational/Social learning", "Memory limits", "Obedience"], correct: 1 },
+                            { q: "Temperament refers to:", options: ["Learned behavior", "Biologically based style of reacting", "IQ", "Parenting"], correct: 1 },
+                            { q: "Denial is a defense mechanism where a person:", options: ["Refuses to accept reality", "Blames others", "Channels energy into work", "Sleeps excessively"], correct: 0 },
+                            { q: "The Rorschach Inkblot Test is a:", options: ["Objective test", "Projective test", "Math test", "Blood test"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Stress, Coping & Health',
+                        questions: [
+                            { q: "General Adaptation Syndrome (GAS) stages are:", options: ["Alarm, Resistance, Exhaustion", "Start, Stop, Repeat", "Stress, Panic, Calm", "Denial, Anger, Acceptance"], correct: 0 },
+                            { q: "Cortisol is known as the:", options: ["Sleep hormone", "Stress hormone", "Love hormone", "Hunger hormone"], correct: 1 },
+                            { q: "Type A personality is associated with higher risk of:", options: ["Cancer", "Coronary Heart Disease", "Diabetes", "Asthma"], correct: 1 },
+                            { q: "Learned Helplessness occurs when:", options: ["Someone chooses to be lazy", "Uncontrollable bad events lead to passive behavior", "Someone asks for help", "Stress is low"], correct: 1 },
+                            { q: "Biofeedback is used to:", options: ["Control voluntary muscles", "Gain control over involuntary bodily functions", "Measure weight", "Diagnose viral infections"], correct: 1 },
+                            { q: "Eustress is:", options: ["Bad stress", "Good/Motivating stress", "No stress", "Chronic stress"], correct: 1 },
+                            { q: "Daily hassles are:", options: ["Major life events", "Minor everyday irritations", "Catastrophes", "Rare occurrences"], correct: 1 },
+                            { q: "Social support is:", options: ["Only money", "Perceived comfort and assistance from others", "Social media likes", "Not important for health"], correct: 1 },
+                            { q: "Problem-focused coping involves:", options: ["Ignoring the problem", "Directly addressing the stressor", "Drinking alcohol", "Complaining"], correct: 1 },
+                            { q: "Emotion-focused coping involves:", options: ["Changing the stressor", "Managing the emotional distress", "Problem solving", "Studying"], correct: 1 },
+                            { q: "Psychoneuroimmunology studies the link between:", options: ["Brain and lungs", "Psychological processes and the immune system", "Muscles and bones", "Eyes and ears"], correct: 1 },
+                            { q: "Burnout is characterized by:", options: ["Increased energy", "Exhaustion, cynicism, and inefficacy", "Happiness", "Motivation"], correct: 1 },
+                            { q: "Resilience is the ability to:", options: ["Avoid all stress", "Bounce back from adversity", "Never feel pain", "Control others"], correct: 1 },
+                            { q: "Mindfulness meditation helps reduce stress by:", options: ["Ignoring thoughts", "Focusing on the present moment non-judgmentally", "Sleeping", "Thinking about the future"], correct: 1 },
+                            { q: "The 'Fight or Flight' response is mediated by the:", options: ["Parasympathetic Nervous System", "Sympathetic Nervous System", "Somatic Nervous System", "Digestive System"], correct: 1 },
+                            { q: "Chronic stress can suppress the:", options: ["Immune system", "Appetite", "Sleep need", "Aging process"], correct: 0 },
+                            { q: "Locus of Control refers to:", options: ["Where you live", "Belief about who controls events (Internal vs. External)", "Remote control", "Government"], correct: 1 },
+                            { q: "Optimism is linked to:", options: ["Poorer health", "Better health and longevity", "Unrealistic expectations", "Laziness"], correct: 1 },
+                            { q: "Post-Traumatic Stress Disorder (PTSD) involves:", options: ["Flashbacks and avoidance", "Forgetting the event", "Sleeping well", "Increased appetite"], correct: 0 },
+                            { q: "Health Behaviours are:", options: ["Genetically determined", "Actions taken to improve or maintain health", "Random", "Medical treatments"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Mental Health & Disorders',
+                        questions: [
+                            { q: "The DSM-5 is used for:", options: ["Prescribing medication", "Diagnosing mental disorders", "Brain surgery", "Evaluating nurses"], correct: 1 },
+                            { q: "Anxiety disorders are characterized by:", options: ["Sadness", "Excessive, persistent worry and fear", "Hearing voices", "Memory loss"], correct: 1 },
+                            { q: "Bipolar disorder involves swings between:", options: ["Happy and Sad", "Depression and Mania", "Anger and Fear", "Sleep and Wake"], correct: 1 },
+                            { q: "Schizophrenia positive symptoms include:", options: ["Flat affect", "Hallucinations and Delusions", "Social withdrawal", "Lack of motivation"], correct: 1 },
+                            { q: "Obsessive-Compulsive Disorder (OCD) features:", options: ["Unwanted thoughts (obsessions) and repetitive behaviors (compulsions)", "Laziness", "Multiple personalities", "Eating issues"], correct: 0 },
+                            { q: "Anorexia Nervosa involves:", options: ["Binge eating", "Restriction of food intake and fear of weight gain", "Picky eating", "Oversleeping"], correct: 1 },
+                            { q: "Bulimia Nervosa involves:", options: ["Starvation", "Binge eating followed by purging", "Healthy dieting", "Obesity"], correct: 1 },
+                            { q: "Major Depressive Disorder requires symptoms for at least:", options: ["1 day", "2 weeks", "6 months", "2 years"], correct: 1 },
+                            { q: "Panic Disorder is characterized by:", options: ["Constant worry", "Sudden, intense panic attacks", "Fear of heights", "Social shyness"], correct: 1 },
+                            { q: "Autism Spectrum Disorder is a:", options: ["Mood disorder", "Neurodevelopmental disorder", "Personality disorder", "Eating disorder"], correct: 1 },
+                            { q: "ADHD stands for:", options: ["Attention Deficit Hyperactivity Disorder", "Anxiety Depression Hypertensive Disorder", "Adult Daily Health Disease", "Active Diet Health Diet"], correct: 0 },
+                            { q: "Dissociative Identity Disorder was formerly known as:", options: ["Schizophrenia", "Multiple Personality Disorder", "Bipolar", "Amnesia"], correct: 1 },
+                            { q: "Personality disorders are:", options: ["Temporary", "Enduring, maladaptive patterns of behavior", "Easy to treat", "Rare"], correct: 1 },
+                            { q: "Borderline Personality Disorder involves:", options: ["Stability", "Instability in relationships, self-image, and affect", "Lack of emotion", "Excessive sleep"], correct: 1 },
+                            { q: "Antisocial Personality Disorder is often associated with:", options: ["Shyness", "Lack of empathy and disregard for rights of others", "Cleaning", "Fear"], correct: 1 },
+                            { q: "Cognitive Behavioral Therapy (CBT) focuses on:", options: ["Childhood trauma", "Changing negative thought patterns and behaviors", "Dream analysis", "Medication"], correct: 1 },
+                            { q: "Electroconvulsive Therapy (ECT) is used effectively for:", options: ["Mild anxiety", "Severe, treatment-resistant depression", "Headaches", "Cold"], correct: 1 },
+                            { q: "Substance Use Disorders are characterized by:", options: ["Choice", "Impaired control, social impairment, and risky use", "Bad habits", "Weakness"], correct: 1 },
+                            { q: "Deinstitutionalization led to:", options: ["More hospitals", "Closing of mental asylums and shift to community care", "Better care for all", "End of mental illness"], correct: 1 },
+                            { q: "Stigma against mental illness prevents people from:", options: ["Buying medicine", "Seeking help/treatment", "Using the internet", "Eating"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Social & Bio Psych',
+                        questions: [
+                            { q: "The Bystander Effect states that helping is _____ likely when more people are present.", options: ["More", "Less", "Equally", "Always"], correct: 1 },
+                            { q: "Fundamental Attribution Error involves overestimating:", options: ["Situational factors", "Dispositional (internal) factors", "Luck", "Difficulty"], correct: 1 },
+                            { q: "Cognitive Dissonance is:", options: ["Harmony in thoughts", "Discomfort from conflicting beliefs/behaviors", "Forgetting", "Headache"], correct: 1 },
+                            { q: "Social Loafing is tendency to work ____ in a group.", options: ["Harder", "Less hard", "Faster", "Better"], correct: 1 },
+                            { q: "Normative Social Influence is conformity to:", options: ["Be correct", "Gain approval/Avoid rejection", "Laws", "Science"], correct: 1 },
+                            { q: "Milgram's experiment studied:", options: ["Memory", "Obedience to authority", "Prison life", "Conformity"], correct: 1 },
+                            { q: "Zimbardo's Stanford Prison Experiment studied:", options: ["Social roles", "Diet", "Sleep", "Intelligence"], correct: 0 },
+                            { q: "Groupthink results in:", options: ["Better decisions", "Poor decisions due to desire for harmony", "Conflict", "Debate"], correct: 1 },
+                            { q: "Prejudice is an _____ while Discrimination is a _____.", options: ["Action; Attitude", "Attitude; Behavior", "Behavior; Belief", "Thought; Feeling"], correct: 1 },
+                            { q: "The Mere Exposure Effect means we prefer things we are:", options: ["New to", "Familiar with", "Scared of", "Bored by"], correct: 1 },
+                            { q: "Neurotransmitters are released into the:", options: ["Bloodstream", "Synapse", "Stomach", "Lungs"], correct: 1 },
+                            { q: "The Myelin Sheath:", options: ["Slows nerve impulses", "Speeds up nerve impulses", "Feeds the neuron", "Protects the brain"], correct: 1 },
+                            { q: "The Autonomic Nervous System controls:", options: ["Voluntary movement", "Involuntary functions (heart, digestion)", "Thinking", "Speech"], correct: 1 },
+                            { q: "The Endocrine System uses _____ to communicate.", options: ["Electrical signals", "Hormones", "Radio waves", "Sound"], correct: 1 },
+                            { q: "The Hippocampus is key for:", options: ["Hunger", "Memory formation", "Balance", "Vision"], correct: 1 },
+                            { q: "The Amygdala is linked to:", options: ["Emotion (fear/aggression)", "Logic", "Movement", "Breathing"], correct: 0 },
+                            { q: "Broca's Area is involved in:", options: ["Speech production", "Speech comprehension", "Vision", "Hearing"], correct: 0 },
+                            { q: "Wernicke's Area is involved in:", options: ["Speech production", "Language comprehension", "Taste", "Smell"], correct: 1 },
+                            { q: "Split-brain surgery severs the:", options: ["Cerebellum", "Corpus Callosum", "Brainstem", "Thalamus"], correct: 1 },
+                            { q: "Nature vs. Nurture debates:", options: ["Genetics vs. Environment", "Good vs. Evil", "Plants vs. Animals", "School vs. Home"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -1777,7 +2224,7 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Health Assessment',
+                        title: 'Quiz Bank 1: Introduction & Techniques',
                         questions: [
                             { q: "Which assessment technique involves listening to sounds produced by the body?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 3 },
                             { q: "When assessing the abdomen, which step comes second?", options: ["Palpation", "Auscultation", "Percussion", "Inspection"], correct: 1 },
@@ -1788,7 +2235,156 @@ const appData = {
                             { q: "Which cranial nerve is assessed by asking the patient to smile and frown?", options: ["CN V (Trigeminal)", "CN VII (Facial)", "CN III (Oculomotor)", "CN X (Vagus)"], correct: 1 },
                             { q: "A score of 15 on the Glasgow Coma Scale indicates:", options: ["Deep Coma", "Mild Impairment", "Fully Alert and Oriented", "Brain Death"], correct: 2 },
                             { q: "To assess for kidney tenderness, the nurse performs percussion at the:", options: ["Right Upper Quadrant", "Costovertebral Angle (CVA)", "Suprapubic Area", "Epigastric Area"], correct: 1 },
-                            { q: "Normal capillary refill time is:", options: ["Less than 1 second", "Less than 3 seconds", "Greater than 3 seconds", "Greater than 5 seconds"], correct: 1 }
+                            { q: "Normal capillary refill time is:", options: ["Less than 1 second", "Less than 3 seconds", "Greater than 3 seconds", "Greater than 5 seconds"], correct: 1 },
+                            { q: "Subjective data is:", options: ["What the nurse sees", "What the nurse smells", "What the patient says (symptoms)", "Lab values"], correct: 2 },
+                            { q: "Objective data includes:", options: ["Pain rating", "Feelings of dizziness", "Vital signs", "Nausea explanation"], correct: 2 },
+                            { q: "During inspection, the nurse should:", options: ["Turn off all lights", "Use touch only", "Look, listen, and smell", "Ignore the patient"], correct: 2 },
+                            { q: "Using the bell of the stethoscope is best for hearing:", options: ["High-pitched sounds (lung/bowel)", "Low-pitched sounds (murmurs/bruits)", "Talking", "Bones"], correct: 1 },
+                            { q: "Using the diaphragm of the stethoscope is best for hearing:", options: ["High-pitched sounds (Heart S1/S2, lungs)", "Low-pitched sounds", "Murmurs", "Nothing"], correct: 0 },
+                            { q: "Standard precautions should be used:", options: ["Only with infectious patients", "With every patient", "Only in the ER", "Never"], correct: 1 },
+                            { q: "Deep palpation is used to assess:", options: ["Skin temperature", "Organ size and masses", "Pulses", "Reflexes"], correct: 1 },
+                            { q: "Direct percussion involves:", options: ["Striking the finger against the body", "Striking the hand directly against the body tone", "Listening", "Looking"], correct: 1 },
+                            { q: "The most important action to prevent infection is:", options: ["Wearing gloves", "Wearing a mask", "Hand hygiene", "Staying home"], correct: 2 },
+                            { q: "The General Survey begins:", options: ["When taking vitals", "The moment the nurse meets the patient", "During the exam", "At discharge"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: General Survey & Skin/HEENT',
+                        questions: [
+                            { q: "Macules are:", options: ["Raised bumps", "Flat color changes < 1cm", "Pus-filled blisters", "Deep scars"], correct: 1 },
+                            { q: "Turgor checks for:", options: ["Temperature", "Dehydration", "Pain", "Color"], correct: 1 },
+                            { q: "Checking the six cardinal fields of gaze tests:", options: ["Visual acuity", "Extraocular movements", "Pupil reaction", "Color blindness"], correct: 1 },
+                            { q: "The Weber test assesses:", options: ["Vision", "Smell", "Lateralization of sound (Hearing)", "Touch"], correct: 2 },
+                            { q: "Otoscopy of an adult ear requires pulling the pinna:", options: ["Down and back", "Up and back", "Straight out", "Forward"], correct: 1 },
+                            { q: "The thyroid gland is palpated by asking the patient to:", options: ["Cough", "Swallow", "Hold breath", "Scream"], correct: 1 },
+                            { q: "Lymph nodes should normally be:", options: ["Hard and fixed", "Non-palpable or soft, movable, non-tender", "Large and red", "Painful"], correct: 1 },
+                            { q: "A 'bull's eye' rash is typical of:", options: ["Psoriasis", "Eczema", "Lyme Disease", "Acne"], correct: 2 },
+                            { q: "Alopecia refers to:", options: ["Excessive hair growth", "Hair loss", "Gray hair", "Dandruff"], correct: 1 },
+                            { q: "ABCDE of melanoma screening includes Asymmetry, Border, Color, Diameter, and:", options: ["Evolution", "Elevation", "Edges", "Erythema"], correct: 0 },
+                            { q: "Pupils that are 'fixed and dilated' may indicate:", options: ["Normal finding", "Brain injury/Increased ICP", "Glaucoma", "Fatigue"], correct: 1 },
+                            { q: "The Snellen chart tests:", options: ["Near vision", "Far vision", "Color vision", "Peripheral vision"], correct: 1 },
+                            { q: "Epistaxis means:", options: ["Ear infection", "Nosebleed", "Sore throat", "Eye pain"], correct: 1 },
+                            { q: "Thrush (Candidiasis) in the mouth appears as:", options: ["Black tongue", "White patches", "Red sores", "Bleeding gums"], correct: 1 },
+                            { q: "Presbycusis is:", options: ["Vision loss with age", "Hearing loss with age", "Smell loss", "Taste loss"], correct: 1 },
+                            { q: "A Bruit is a:", options: ["Normal heart sound", "Swooshing sound of turbulent blood flow", "Lung sound", "Bowel sound"], correct: 1 },
+                            { q: "Assessing the TMJ involves asking the patient to:", options: ["Open and close mouth", "Turn head", "Shrug shoulders", "Stick out tongue"], correct: 0 },
+                            { q: "Strabismus is:", options: ["Cross-eyed/misalignment", "Blindness", "Nearsightedness", "Farsightedness"], correct: 0 },
+                            { q: "Cyanosis in dark-skinned patients is best seen in:", options: ["The cheeks", "Oral mucosa and conjunctiva", "The arms", "The legs"], correct: 1 },
+                            { q: "Pruritus means:", options: ["Sweating", "Itching", "Pain", "Bleeding"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Respiratory & Cardiac',
+                        questions: [
+                            { q: "Bronchial breath sounds are normally heard over the:", options: ["Peripheral lung fields", "Trachea", "Base of lungs", "Back"], correct: 1 },
+                            { q: "Crackles (Rales) indicate:", options: ["Narrow airways", "Fluid in the alveoli", "Pleural friction", "Normal air"], correct: 1 },
+                            { q: "Wheezes are caused by:", options: ["Fluid", "Narrowed airways", "Mucus plug", "Collapsed lung"], correct: 1 },
+                            { q: "The PMI (Point of Maximal Impulse) is located at the:", options: ["5th Intercostal Space, Midclavicular Line", "2nd Intercostal Space", "Xiphoid Process", "Axilla"], correct: 0 },
+                            { q: "S1 (Lub) corresponds to closure of:", options: ["Aortic/Pulmonic valves", "Mitral/Tricuspid valves", "Arteries", "Veins"], correct: 1 },
+                            { q: "S2 (Dub) corresponds to closure of:", options: ["Aortic/Pulmonic valves", "Mitral/Tricuspid valves", "Arteries", "Veins"], correct: 0 },
+                            { q: "Homan's sign (pain on dorsiflexion) screens for:", options: ["DVT", "Stroke", "Heart Attack", "Fracture"], correct: 0 }, // Note: Homan's is often not recommended now due to clot dislodgement risk, but historically relevant for students to know (and know not to rely on/do aggressively).
+                            { q: "Orthopnea is:", options: ["Difficulty breathing when lying flat", "Fast breathing", "Slow breathing", "No breathing"], correct: 0 },
+                            { q: "Barrel chest is associated with:", options: ["Asthma", "COPD/Emphysema", "Pneumonia", "TB"], correct: 1 },
+                            { q: "Tactile Fremitus assesses for:", options: ["Temperature", "Vibration transmission", "Pain", "Fluid"], correct: 1 },
+                            { q: "Egophony involves:", options: ["Saying 'E'", "Saying '99'", "Whispering", "Coughing"], correct: 0 },
+                            { q: "Murmurs are graded on a scale of:", options: ["1-3", "1-6", "1-10", "A-F"], correct: 1 },
+                            { q: "Jugular Vein Distension (JVD) suggests:", options: ["Right-sided Heart Failure", "Dehydration", "Stroke", "Infection"], correct: 0 },
+                            { q: "Pulse Deficit is the difference between:", options: ["Systolic and Diastolic", "Apical and Radial pulse rates", "Right and Left arm BP", "Temp and Pulse"], correct: 1 },
+                            { q: "Intermittent Claudication is a sign of:", options: ["Venous insufficiency", "Arterial insufficiency", "Muscle strain", "Fracture"], correct: 1 },
+                            { q: "Allen test assesses patency of:", options: ["Radial/Ulnar arteries", "Carotid artery", "Femoral artery", "Aorta"], correct: 0 },
+                            { q: "Apnea is:", options: ["Fast breathing", "Slow breathing", "Cessation of breathing", "Deep breathing"], correct: 2 },
+                            { q: "Kussmaul respirations are:", options: ["Deep and rapid (DKA)", "Shallow", "Irregular", "Stopped"], correct: 0 },
+                            { q: "Edema is graded on a scale of:", options: ["1-10", "1+ to 4+", "A-D", "Mild/Severe"], correct: 1 },
+                            { q: "Thrills are:", options: ["Heard", "Palpable vibrations of a murmur", "Seen", "Smelled"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Abdominal & Neurological',
+                        questions: [
+                            { q: "Hyperactive bowel sounds are called:", options: ["Ileus", "Borborygmi", "Constipation", "Silence"], correct: 1 },
+                            { q: "Rebound tenderness (Blumberg's sign) suggests:", options: ["Gas", "Peritonitis/Appendicitis", "Ulcer", "Hernia"], correct: 1 },
+                            { q: "Positive Murphy's sign indicates:", options: ["Appendicitis", "Cholecystitis", "Pancreatitis", "Kidney stone"], correct: 1 },
+                            { q: "Correct order for abdomen:", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Random", "Palpate first"], correct: 1 },
+                            { q: "Romberg test assesses:", options: ["Balance", "Strength", "Vision", "Hearing"], correct: 0 },
+                            { q: "Babinski reflex is normal in:", options: ["Adults", "Infants", "Elderly", "Teens"], correct: 1 },
+                            { q: "Clonus is:", options: ["Rhythmic muscle contractions", "Muscle weakness", "Paralysis", "Numbness"], correct: 0 },
+                            { q: "Graphesthesia is ability to:", options: ["Recognize an object by touch", "Identify a number drawn on skin", "Feel pain", "See shapes"], correct: 1 },
+                            { q: "Stereognosis is ability to:", options: ["Recognize an object by touch", "Identify a number drawn on skin", "Hear sounds", "Balance"], correct: 0 },
+                            { q: "CN I is the _____ nerve.", options: ["Optic", "Olfactory", "Vagus", "Facial"], correct: 1 },
+                            { q: "Dysphagia is:", options: ["Difficulty swallowing", "Difficulty speaking", "Difficulty walking", "Difficulty seeing"], correct: 0 },
+                            { q: "Aphasia is:", options: ["Difficulty swallowing", "Difficulty with language/speech", "Blindness", "Deafness"], correct: 1 },
+                            { q: "Ascites is:", options: ["Gas", "Fluid accumulation in abdomen", "Fat", "Muscle"], correct: 1 },
+                            { q: "Melena refers to:", options: ["Black tarry stools", "Red blood in stool", "Clay colored stool", "Fatty stool"], correct: 0 },
+                            { q: "Which quadrant contains the Liver?", options: ["LUQ", "RUQ", "LLQ", "RLQ"], correct: 1 },
+                            { q: "Which quadrant contains the Appendix?", options: ["LUQ", "RUQ", "LLQ", "RLQ"], correct: 3 },
+                            { q: "McBurney's Point is associated with:", options: ["Liver", "Spleen", "Appendix", "Stomach"], correct: 2 },
+                            { q: "Hernia is:", options: ["A rash", "Protrusion of an organ through muscle wall", "A break", "A bruise"], correct: 1 },
+                            { q: "Nystagmus is:", options: ["Involuntary eye movement", "Eye pain", "Blindness", "Drooping eyelid"], correct: 0 },
+                            { q: "Ptosis is:", options: ["Drooping eyelid", "Eye infection", "Large pupil", "Small pupil"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Musculoskeletal & Life Span',
+                        questions: [
+                            { q: "Kyphosis is:", options: ["Swayback", "Hunchback (thoracic curvature)", "Lateral curvature", "Straight spine"], correct: 1 },
+                            { q: "Lordosis is often seen in:", options: ["Elderly", "Pregnant women/Toddlers", "Athletes", "Men"], correct: 1 },
+                            { q: "Scoliosis is:", options: ["Lateral curvature of spine", "Forward bend", "Backward bend", "Broken spine"], correct: 0 },
+                            { q: "Crepitus is:", options: ["Fluid", "Grating sound/feeling in joints", "Pain", "Muscle spasm"], correct: 1 },
+                            { q: "Abduction is moving a limb:", options: ["Towards the midline", "Away from the midline", "In circles", "Up"], correct: 1 },
+                            { q: "Adduction is moving a limb:", options: ["Towards the midline", "Away from the midline", "In circles", "Down"], correct: 0 },
+                            { q: "Osteoporosis increases risk of:", options: ["Fractures", "Muscle gain", "Flexibility", "Infection"], correct: 0 },
+                            { q: "Phalen's test checks for:", options: ["Carpal Tunnel Syndrome", "Fracture", "Arthritis", "Gout"], correct: 0 },
+                            { q: "Tinels sign checks for:", options: ["Carpal Tunnel Syndrome", "ACL tear", "Meniscus tear", "Bursitis"], correct: 0 },
+                            { q: "Gout is caused by:", options: ["Calcium", "Uric acid crystals", "Bacteria", "Virus"], correct: 1 },
+                            { q: "Fontanels in infants should be:", options: ["Bulging", "Sunken", "Flat and soft", "Hard"], correct: 2 },
+                            { q: "Moro reflex involves:", options: ["Sucking", "Startle response", "Stepping", "Grasping"], correct: 1 },
+                            { q: "Presbyopia involves difficulty seeing:", options: ["Far", "Near", "Colors", "Shapes"], correct: 1 },
+                            { q: "Changes in height in elderly are due to:", options: ["Bone growth", "Disc compression/osteoporosis", "Muscle loss", "Shoes"], correct: 1 },
+                            { q: "Activities of Daily Living (ADLs) include:", options: ["Bathing, Dressing, Eating", "Shopping, Cooking", "Driving", "Working"], correct: 0 },
+                            { q: "IADLs (Instrumental) include:", options: ["Bathing", "Managing finances/Shopping", "Sleeping", "Breathing"], correct: 1 },
+                            { q: "Tanner Stages describe:", options: ["Cognitive growth", "Physical puberty development", "Social skills", "Emotional health"], correct: 1 },
+                            { q: "Menopause typically occurs between ages:", options: ["20-30", "45-55", "60-70", "70+"], correct: 1 },
+                            { q: "Fall risk in elderly is increased by:", options: ["Polypharmacy", "Poor vision", "Unsafe environment", "All of the above"], correct: 3 },
+                            { q: "Functional Assessment focuses on:", options: ["Diagnosing disease", "Ability to perform self-care and daily tasks", "IQ testing", "Lab work"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -1955,18 +2551,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Med Surg I Review',
+                        title: 'Quiz Bank 1: Respiratory (COPD, Pneumonia, TB)',
                         questions: [
                             { q: "Which breathing technique is most beneficial for a patient with COPD?", options: ["Rapid shallow breathing", "Pursed-lip breathing", "Holding breath", "Inhale through mouth"], correct: 1 },
                             { q: "A patient with TB requires which type of isolation precautions?", options: ["Contact", "Droplet", "Airborne", "Standard"], correct: 2 },
+                            { q: "A barrel chest is a clinical manifestation of:", options: ["Asthma", "Emphysema", "Pneumonia", "Lung Cancer"], correct: 1 },
+                            { q: "Which of the following is optimal oxygen saturation for a COPD patient?", options: ["100%", "88-92%", "95-100%", "Below 80%"], correct: 1 },
+                            { q: "The primary cause of Chronic Bronchitis is:", options: ["Smoking/Irritants", "Bacteria", "Virus", "Genetics"], correct: 0 },
+                            { q: "Rust-colored sputum is commonly associated with:", options: ["Pneumococcal Pneumonia", "Asthma", "Tuberculosis", "Bronchitis"], correct: 0 },
+                            { q: "Which medication is a rescue inhaler for Asthma?", options: ["Salmeterol", "Albuterol", "Fluticasone", "Montelukast"], correct: 1 },
+                            { q: "The Mantoux (PPD) test screens for:", options: ["Pneumonia", "Tuberculosis", "Lung Cancer", "COPD"], correct: 1 },
+                            { q: "Induration of >10mm in a PPD test usually indicates:", options: ["Negative result", "Positive exposure/infection", "Allergy", "Vaccination"], correct: 1 },
+                            { q: "Cor Pulmonale is right-sided heart failure caused by:", options: ["Lung disease (Pulmonary Hypertension)", "Heart attack", "Stroke", "Kidney failure"], correct: 0 },
+                            { q: "A patient with pneumonia has consolidation. On percussion, you expect:", options: ["Resonance", "Dullness", "Tympany", "Hyperresonance"], correct: 1 },
+                            { q: "Which position helps maximize lung expansion?", options: ["Supine", "Prone", "High Fowler's", "Trendelenburg"], correct: 2 },
+                            { q: "Status Asthmaticus is:", options: ["Mild asthma", "Life-threatening unresponsive asthma attack", "Asthma cure", "Night time asthma"], correct: 1 },
+                            { q: "Isoniazid (INH) is used to treat:", options: ["Asthma", "Tuberculosis", "Pneumonia", "COPD"], correct: 1 },
+                            { q: "Potential side effect of Rifampin:", options: ["Orange body fluids", "Blue urine", "Green sputum", "Hearing loss"], correct: 0 },
+                            { q: "Wheezing is primarily caused by:", options: ["Fluid in alveoli", "Narrowed airways/Bronchoconstriction", "Pleural inflammation", "Collapsed lung"], correct: 1 },
+                            { q: "Incentive Spirometry is used to prevent:", options: ["Atelectasis/Pneumonia", "Asthma", "TB", "COPD"], correct: 0 },
+                            { q: "Clubbing of fingers indicates:", options: ["Acute infection", "Chronic hypoxia", "Trauma", "Anemia"], correct: 1 },
+                            { q: "Pack-years are calculated by:", options: ["Packs per day x Years smoking", "Packs per week x Years", "Cigarettes per day x Years", "Years smoking only"], correct: 0 },
+                            { q: "Venturi masks deliver:", options: ["Unpredictable oxygen", "Precise high-flow oxygen concentration", "Nebulizer treatment", "Room air"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Cardiovascular: HTN & Heart Failure',
+                        questions: [
                             { q: "The most common cause of Right-Sided Heart Failure is:", options: ["Hypertension", "Left-Sided Heart Failure", "Valve Disease", "Anemia"], correct: 1 },
+                            { q: "A common side effect of ACE inhibitors is:", options: ["Dry cough", "Bradycardia", "Hypokalemia", "Tachycardia"], correct: 0 },
+                            { q: "Left-Sided Heart Failure primarily causes symptoms in the:", options: ["Lungs (Pulmonary)", "Legs", "Liver", "Abdomen"], correct: 0 },
+                            { q: "Paroxysmal Nocturnal Dyspnea (PND) is associated with:", options: ["Heart Failure", "Asthma", "Pneumonia", "TB"], correct: 0 },
+                            { q: "Jugular Vein Distension (JVD) is a sign of:", options: ["Left HF", "Right HF", "Stroke", "MI"], correct: 1 },
+                            { q: "Which blood test confirms Heart Failure?", options: ["Troponin", "BNP (B-type Natriuretic Peptide)", "CK-MB", "D-Dimer"], correct: 1 },
+                            { q: "Systolic Blood Pressure represents:", options: ["Relaxation of heart", "Contraction of ventricles", "Atrial filling", "Valve closure"], correct: 1 },
+                            { q: "Prehypertension (Elevated) range is:", options: ["120-129/<80", "130-139/80-89", ">140/90", "<100/60"], correct: 0 },
+                            { q: "Which lifestyle change is most effective for HTN?", options: ["Weight loss", "Sodium restriction", "Exercise", "All of the above"], correct: 3 },
+                            { q: "Digoxin toxicity signs include:", options: ["Halo vision/Nausea", "Red urine", "Cough", "Edema"], correct: 0 },
+                            { q: "Furosemide (Lasix) is a _______ diuretic.", options: ["Loop", "Thiazide", "Potassium-sparing", "Osmotic"], correct: 0 },
+                            { q: "When giving Furosemide, monitor for:", options: ["Hyperkalemia", "Hypokalemia", "Hyponatremia", "Hypercalcemia"], correct: 1 },
+                            { q: "Beta-blockers (e.g., Metoprolol) work by:", options: ["Increasing HR", "Decreasing HR and contractility", "Dilating veins", "Increasing urine"], correct: 1 },
+                            { q: "Orthostatic Hypotension is:", options: ["High BP when standing", "Drop in BP when standing up", "BP > 180", "Low BP while sleeping"], correct: 1 },
+                            { q: "Which organ is NOT a primary target of HTN damage?", options: ["Kidneys", "Eyes", "Stomach", "Brain"], correct: 2 },
+                            { q: "Pink frothy sputum is a sign of:", options: ["Tuberculosis", "Pulmonary Edema (Severe Left HF)", "Pneumonia", "Bronchitis"], correct: 1 },
+                            { q: "Daily weight gain indicating fluid retention is:", options: [">1 lb in a week", ">2-3 lbs in a day or 5 lbs in a week", ">10 lbs in a day", ">1 oz in a day"], correct: 1 },
+                            { q: "Restricting sodium to _____ is recommended for HF/HTN.", options: ["<2g/day", "<5g/day", ">10g/day", "No restriction"], correct: 0 },
+                            { q: "Stage 1 Hypertension starts at:", options: ["120/80", "130/80", "140/90", "160/100"], correct: 1 }, // guidelines vary but 130/80 is ACC/AHA 2017
+                            { q: "Spironolactone is a __________ diuretic.", options: ["Loop", "Potassium-sparing", "Thiazide", "Osmotic"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Cardiovascular: CAD & Vascular',
+                        questions: [
                             { q: "Which lab value is most specific for myocardial damage (Heart Attack)?", options: ["CK-MB", "Myoglobin", "Troponin", "BNP"], correct: 2 },
-                            { q: "Intermittent claudication is a hallmark sign of:", options: ["Deep Vein Thrombosis", "Peripheral Arterial Disease", "Venous Insufficiency", "Lymphedema"], correct: 1 },
-                            { q: "Which medication class is used to treat Anaphylaxis?", options: ["Antihistamines", "Antibiotics", "Epinephrine", "Antivirals"], correct: 2 },
+                            { q: "Intermittent claudication is a hallmark sign of:", options: ["Deep Vein Thrombosis", "Peripheral Arterial Disease (PAD)", "Venous Insufficiency", "Lymphedema"], correct: 1 },
+                            { q: "Stable Angina is relieved by:", options: ["Rest and Nitroglycerin", "Walking", "Eating", "Nothing"], correct: 0 },
+                            { q: "NITROglycerin is administered:", options: ["Sublingually", "IM", "SubQ", "Orally (swallowed)"], correct: 0 },
+                            { q: "A classic sign of MI in men is:", options: ["Back pain", "Crushing chest pain radiating to left arm/jaw", "Headache", "Toe pain"], correct: 1 },
+                            { q: "MONA for MI stands for:", options: ["Morphine, Oxygen, Nitroglycerin, Aspirin", "Milk, OJ, Nap, Apple", "Massage, Oil, Nurse, Assistant", "Monitor, Observe, Note, Assess"], correct: 0 },
+                            { q: "Thrombolytics (tPA) are used to:", options: ["Prevent clots", "Dissolve existing clots", "Slow heart rate", "Lower BP"], correct: 1 },
+                            { q: "Deep Vein Thrombosis (DVT) risk factors do NOT include:", options: ["Immobility", "Surgery", "Walking daily", "oral contraceptives"], correct: 2 },
+                            { q: "A serious complication of DVT is:", options: ["Stroke", "Pulmonary Embolism (PE)", "MI", "HTN"], correct: 1 },
+                            { q: "Peripheral Arterial Disease (PAD) legs typically look:", options: ["Swollen and brown", "Pale, cool, hairless", "Red and warm", "Normal"], correct: 1 },
+                            { q: "Venous Insufficiency legs typically look:", options: ["Edematous with brown pigmentation", "Pale and cool", "Black/Gangrenous", "Atrophied"], correct: 0 },
+                            { q: "Which cholesterol is 'Good Cholesterol'?", options: ["LDL", "HDL", "VLDL", "Triglycerides"], correct: 1 },
+                            { q: "Raynaud's Phenomenon involves:", options: ["Vasospasm of digits (White/Blue/Red)", "Varicose veins", "DVT", "Aneurysm"], correct: 0 },
+                            { q: "Abdominal Aortic Aneurysm (AAA) should never be:", options: ["Auscultated", "Palpated deeply", "Inspected", "Measured"], correct: 1 },
+                            { q: "Buerger's Disease is strongly associated with:", options: ["Alcohol", "Tobacco smoking", "Sugar", "Fat"], correct: 1 },
+                            { q: "Homan's sign is:", options: ["Pain in calf on dorsiflexion", "Pain in chest", "Pain in arm", "Abdominal pain"], correct: 0 },
+                            { q: "Warfarin (Coumadin) is monitored by:", options: ["PT/INR", "aPTT", "Platelets", "Hgb"], correct: 0 },
+                            { q: "Heparin is monitored by:", options: ["PT/INR", "aPTT", "Platelets", "WBC"], correct: 1 },
+                            { q: "Vitamin K is the antidote for:", options: ["Heparin", "Warfarin", "Insulin", "Digoxin"], correct: 1 },
+                            { q: "Protamine Sulfate is the antidote for:", options: ["Heparin", "Warfarin", "Aspirin", "Tylenol"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Diabetes & Endocrine',
+                        questions: [
                             { q: "Hyperglycemia, ketosis, and acidosis are signs of:", options: ["Hypoglycemia", "DKA (Diabetic Ketoacidosis)", "HHNS", "Diabetes Insipidus"], correct: 1 },
+                            { q: "Classic 3 P's of Diabetes include:", options: ["Polyuria, Polydipsia, Polyphagia", "Pain, Pallor, Pulselessness", "Pink, Puffy, Pale", "Panic, Phobia, Paranoia"], correct: 0 },
+                            { q: "HbA1c measures glucose control over:", options: ["24 hours", "1 week", "2-3 months", "1 year"], correct: 2 },
+                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Absolute insulin deficiency", "Obesity", "Old age start"], correct: 1 },
+                            { q: "Hypoglycemia (Low Blood Sugar) symptoms include:", options: ["Hot, dry skin", "Cold, clammy, shaky, irritable", "Fruity breath", "Polyuria"], correct: 1 },
+                            { q: "Which insulin can be given IV?", options: ["NPH", "Regular", "Lantus", "Lispro"], correct: 1 },
+                            { q: "Lantus (Glargine) is which type of insulin?", options: ["Rapid", "Short", "Intermediate", "Long-acting/Basal"], correct: 3 },
+                            { q: "Metformin works by:", options: ["Increasing insulin production", "Decreasing liver glucose production", "Adding insulin", "Blocking carbs"], correct: 1 },
+                            { q: "Kussmaul respirations in DKA are compensatory to:", options: ["Blow off CO2 (Acid)", "Increase O2", "Cool the body", "Sleep"], correct: 0 },
+                            { q: "Graves' Disease is:", options: ["Hypothyroidism", "Hyperthyroidism", "Adrenal insufficiency", "Diabetes"], correct: 1 },
+                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hypothyroidism", "Hyperthyroidism", "Cushing's", "Addison's"], correct: 0 },
+                            { q: "Levothyroxine should be taken:", options: ["With food", "In the morning on empty stomach", "At bedtime", "With milk"], correct: 1 },
+                            { q: "Cushing's Syndrome is caused by excess:", options: ["Insulin", "Cortisol", "Thyroid hormone", "Growth hormone"], correct: 1 },
+                            { q: "Addison's Disease is deficiency of:", options: ["Cortisol/Aldosterone", "Insulin", "T3/T4", "Testosterone"], correct: 0 },
+                            { q: "A 'Buffalo Hump' and 'Moon Face' are signs of:", options: ["Addison's", "Cushing's", "Diabetes", "Hypothyroidism"], correct: 1 },
+                            { q: "Hypoparathyroidism can cause:", options: ["Hypercalcemia", "Hypocalcemia (Tetany)", "Hypernatremia", "Hypokalemia"], correct: 1 },
+                            { q: "Diabetes Insipidus involves deficiency of:", options: ["Insulin", "ADH (Antidiuretic Hormone)", "Cortisol", "TSH"], correct: 1 },
+                            { q: "SIADH causes:", options: ["Excessive urination", "Fluid retention and Dilutional Hyponatremia", "Dehydration", "High Sodium"], correct: 1 },
+                            { q: "Foot care for diabetics includes:", options: ["Soaking feet daily", "Walking barefoot", "Inspecting feet daily", "Cutting nails deep"], correct: 2 },
+                            { q: "Somogyi Effect is:", options: ["Morning hyperglycemia following night hypoglycemia", "Stable glucose", "Low morning sugar", "High insulin"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Perioperative & General',
+                        questions: [
+                            { q: "Which breathing technique is most beneficial for a patient with COPD?", options: ["Rapid shallow breathing", "Pursed-lip breathing", "Holding breath", "Inhale through mouth"], correct: 1 }, // Kept from original
+                            { q: "Which medication class is used to treat Anaphylaxis?", options: ["Antihistamines", "Antibiotics", "Epinephrine", "Antivirals"], correct: 2 },
                             { q: "Chvostek's sign involves twitching of the:", options: ["Arm", "Leg", "Facial muscles", "Hand"], correct: 2 },
                             { q: "Which blood type is the 'Universal Donor'?", options: ["Type AB Positive", "Type O Negative", "Type A Negative", "Type O Positive"], correct: 1 },
-                            { q: "A common side effect of ACE inhibitors is:", options: ["Dry cough", "Bradycardia", "Hypokalemia", "Tachycardia"], correct: 0 }
+                            { q: "Informed consent is primarily the responsibility of the:", options: ["Nurse", "Provider/Surgeon", "Patient", "Family"], correct: 1 },
+                            { q: "The nurse's role in informed consent is to:", options: ["Explain risks", "Witness the signature", "Force signing", "Decide surgery"], correct: 1 },
+                            { q: "Malignant Hyperthermia is a reaction to:", options: ["Antibiotics", "Anesthesia (Succinylcholine)", "Pain meds", "Latex"], correct: 1 },
+                            { q: "First sign of Malignant Hyperthermia is usually:", options: ["High fever", "Tachycardia and muscle rigidity/jaw spasm", "Low BP", "Rash"], correct: 1 },
+                            { q: "Dehiscence is:", options: ["Infection", "Separation of wound edges", "Protrusion of organs", "Bleeding"], correct: 1 },
+                            { q: "Evisceration is:", options: ["Separation of edges", "Protrusion of internal organs through wound", "Redness", "Swelling"], correct: 1 },
+                            { q: "If evisceration occurs, the nurse should:", options: ["Push it back in", "Cover with sterile saline-soaked gauze", "Leave it open", "Apply pressure"], correct: 1 },
+                            { q: "Post-op gas pain is best relieved by:", options: ["Ambulation", "Opioids", "Sleeping", "Eating"], correct: 0 },
+                            { q: "Time-Out in surgery is done to:", options: ["Take a break", "Verify correct patient, site, and procedure", "Eat lunch", "Clean instruments"], correct: 1 },
+                            { q: "General Anesthesia causes:", options: ["Loss of consciousness", "Numbing of legs only", "Sleepiness", "Local pain relief"], correct: 0 },
+                            { q: "Low potassium (Hypokalemia) can cause:", options: ["Dysrhythmias", "Seizures", "Edema", "Fever"], correct: 0 },
+                            { q: "High potassium (Hyperkalemia) can cause:", options: ["Cardiac Arrest", "Sleep", "Hunger", "Thirst"], correct: 0 },
+                            { q: "Isotonic IV fluids include:", options: ["0.9% Normal Saline", "0.45% Saline", "3% Saline", "D50"], correct: 0 },
+                            { q: "Hypotonic fluids (e.g., 0.45% NS) cause cells to:", options: ["Shrink", "Swell", "Stay same", "Die"], correct: 1 },
+                            { q: "Hypertonic fluids (e.g., 3% NS) cause cells to:", options: ["Shrink", "Swell", "Burst", "Grow"], correct: 0 },
+                            { q: "PCA pump stands for:", options: ["Patient Controlled Analgesia", "Pain Control Always", "Personal Care Assistant", "Primary Care Area"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -2123,18 +2868,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Anatomy II Review',
+                        title: 'Quiz Bank 1: Appendicular Skeleton',
                         questions: [
                             { q: "Which bone is the longest and strongest in the human body?", options: ["Humerus", "Tibia", "Femur", "Fibula"], correct: 2 },
-                            { q: "The 'Funny Bone' is actually which nerve causing sensation?", options: ["Radial", "Median", "Ulnar", "Sciatic"], correct: 2 },
-                            { q: "Which part of the brain controls balance and coordination?", options: ["Brainstem", "Cerebrum", "Cerebellum", "Thalamus"], correct: 2 },
-                            { q: "Sutures between skull bones are classified as which type of joint?", options: ["Diarthrosis", "Amphiarthrosis", "Synarthrosis", "Synovial"], correct: 2 },
-                            { q: "The 'Master Gland' of the endocrine system is the:", options: ["Thyroid", "Adrenal", "Pituitary", "Pancreas"], correct: 2 },
-                            { q: "Photoreceptors (Rods and Cones) are located in the:", options: ["Sclera", "Cornea", "Retina", "Lens"], correct: 2 },
-                            { q: "Which division of the ANS causes pupil dilation and increased heart rate?", options: ["Parasympathetic", "Sympathetic", "Somatic", "Enteric"], correct: 1 },
                             { q: "Carpal bones are found in the:", options: ["Ankle", "Wrist", "Forearm", "Foot"], correct: 1 },
+                            { q: "The Glenoid Cavity is part of which bone?", options: ["Scapula", "Humerus", "Clavicle", "Sternum"], correct: 0 },
+                            { q: "Which bone is located on the thumb side of the forearm?", options: ["Ulna", "Radius", "Humerus", "Femur"], correct: 1 },
+                            { q: "The Acetabulum articulates with the:", options: ["Humerus", "Femur", "Tibia", "Fibula"], correct: 1 },
+                            { q: "How many phalanges are in one hand?", options: ["10", "12", "14", "15"], correct: 2 },
+                            { q: "The 'Shin bone' is scientifically known as the:", options: ["Fibula", "Femur", "Tibia", "Patella"], correct: 2 },
+                            { q: "Which tarsal bone forms the heel?", options: ["Talus", "Calcaneus", "Navicular", "Cuboid"], correct: 1 },
+                            { q: "The lateral malleolus is part of the:", options: ["Tibia", "Fibula", "Femur", "Talus"], correct: 1 },
+                            { q: "Metacarpals are found in the:", options: ["Foot", "Hand/Palm", "Wrist", "Ankle"], correct: 1 },
+                            { q: "The clavicle articulates with the sternum and the:", options: ["Humerus", "Scapula (Acromion)", "Ribs", "Vertebrae"], correct: 1 },
+                            { q: "The Olecranon process acts as the:", options: ["Shoulder blade", "Elbow point", "Knee cap", "Ankle bone"], correct: 1 },
+                            { q: "Which bone is non-weight bearing in the leg?", options: ["Femur", "Tibia", "Fibula", "Patella"], correct: 2 },
+                            { q: "The Hallux refers to the:", options: ["Thumb", "Big toe", "Little finger", "Heel"], correct: 1 },
+                            { q: "The Ischial Tuberosity is also known as the:", options: ["Sit bone", "Hip bone", "Tail bone", "Pubic bone"], correct: 0 },
+                            { q: "The Pectoral Girdle consists of:", options: ["Clavicle and Scapula", "Sternum and Ribs", "Ilium and Ischium", "Femur and Tibia"], correct: 0 },
+                            { q: "The Pelvic Girdle consists of:", options: ["Two Coxal bones (Hip bones)", "Femur and Tibia", "Sacrum and Coccyx", "Ribs and Sternum"], correct: 0 },
+                            { q: "The Greater Trochanter is a landmark on the:", options: ["Humerus", "Femur", "Tibia", "Radius"], correct: 1 },
+                            { q: "Which is the largest sesamoid bone?", options: ["Patella", "Pisiform", "Hyoid", "Talus"], correct: 0 },
+                            { q: "There are _____ tarsal bones in each foot.", options: ["5", "7", "8", "10"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Joints & Muscles',
+                        questions: [
+                            { q: "Sutures between skull bones are classified as:", options: ["Diarthrosis", "Amphiarthrosis", "Synarthrosis", "Synovial"], correct: 2 },
+                            { q: "The knee joint is an example of a _____ joint.", options: ["Ball and Socket", "Hinge", "Pivot", "Gliding"], correct: 1 },
                             { q: "Which muscle type has intercalated discs?", options: ["Skeletal", "Smooth", "Cardiac", "Visceral"], correct: 2 },
-                            { q: "The largest nerve in the body is the:", options: ["Femoral", "Sciatic", "Vagus", "Phrenic"], correct: 1 }
+                            { q: "A fluid-filled sac that reduces friction in a joint is a:", options: ["Meniscus", "Bursa", "Ligament", "Tendon"], correct: 1 },
+                            { q: "Movement away from the midline is:", options: ["Adduction", "Abduction", "Flexion", "Extension"], correct: 1 },
+                            { q: "Straightening a limb at a joint is:", options: ["Flexion", "Extension", "Rotation", "Circumduction"], correct: 1 },
+                            { q: "Which muscle is the primary breathing muscle?", options: ["Intercostals", "Diaphragm", "Abs", "Pectoralis"], correct: 1 },
+                            { q: "The contractile unit of a muscle fiber is the:", options: ["Sarcomere", "Myofibril", "Actin", "Myosin"], correct: 0 },
+                            { q: "Thick filaments are composed of:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 1 },
+                            { q: "Calcium ions needed for muscle contraction are stored in the:", options: ["Nucleus", "Sarcoplasmic Reticulum", "Mitochondria", "Cytoplasm"], correct: 1 },
+                            { q: "Ligaments connect:", options: ["Muscle to Bone", "Bone to Bone", "Muscle to Muscle", "Bone to Skin"], correct: 1 },
+                            { q: "Tendons connect:", options: ["Muscle to Bone", "Bone to Bone", "Nerve to Muscle", "Bone to Joint"], correct: 0 },
+                            { q: "The Gastrocnemius muscle is located in the:", options: ["Thigh", "Calf", "Arm", "Back"], correct: 1 },
+                            { q: "The Deltoid muscle is used for:", options: ["Running", "Arm abduction/Injection site", "Smiling", "Breathing"], correct: 1 },
+                            { q: "Which movement involves pointing the toes downward?", options: ["Dorsiflexion", "Plantar flexion", "Inversion", "Eversion"], correct: 1 },
+                            { q: "Supination moves the palm to face:", options: ["Anteriorly/Up", "Posteriorly/Down", "Medially", "Laterally"], correct: 0 },
+                            { q: "The Gluteus Maximus extends the:", options: ["Knee", "Hip", "Elbow", "Neck"], correct: 1 },
+                            { q: "Sternocleidomastoid muscle is located in the:", options: ["Chest", "Neck", "Back", "Arm"], correct: 1 },
+                            { q: "Isometric contraction involves:", options: ["Changing length", "No change in length (Tension only)", "Movement", "Relaxation"], correct: 1 },
+                            { q: "Rotator cuff muscles stabilize the:", options: ["Hip", "Shoulder", "Knee", "Ankle"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Nervous System (CNS/PNS)',
+                        questions: [
+                            { q: "Which part of the brain controls balance and coordination?", options: ["Brainstem", "Cerebrum", "Cerebellum", "Thalamus"], correct: 2 },
+                            { q: "The 'Funny Bone' involves which nerve?", options: ["Radial", "Median", "Ulnar", "Sciatic"], correct: 2 },
+                            { q: "Which division of the ANS causes pupil dilation and increased heart rate?", options: ["Parasympathetic", "Sympathetic", "Somatic", "Enteric"], correct: 1 },
+                            { q: "The largest nerve in the body is the:", options: ["Femoral", "Sciatic", "Vagus", "Phrenic"], correct: 1 },
+                            { q: "The visual cortex is located in the:", options: ["Frontal Lobe", "Temporal Lobe", "Parietal Lobe", "Occipital Lobe"], correct: 3 },
+                            { q: "Broca's area is associated with:", options: ["Speech production", "Language comprehension", "Hearing", "Vision"], correct: 0 },
+                            { q: "The brainstem consists of Midbrain, Pons, and:", options: ["Thalamus", "Medulla Oblongata", "Cerebellum", "Hypothalamus"], correct: 1 },
+                            { q: "The vital centers for heart rate and breathing are in the:", options: ["Cerebrum", "Medulla Oblongata", "Cerebellum", "Thalamus"], correct: 1 },
+                            { q: "Cerebrospinal Fluid (CSF) is produced by:", options: ["Dura Mater", "Choroid Plexus", "Arachnoid Villi", "Sinuses"], correct: 1 },
+                            { q: "Which meninx is the tough outer layer?", options: ["Pia Mater", "Arachnoid Mater", "Dura Mater", "Alma Mater"], correct: 2 },
+                            { q: "Myelin sheaths in the CNS are formed by:", options: ["Schwann cells", "Oligodendrocytes", "Astrocytes", "Microglia"], correct: 1 },
+                            { q: "Saltatory conduction occurs at:", options: ["Soma", "Nodes of Ranvier", "Dendrites", "Synapse"], correct: 1 },
+                            { q: "Afferent neurons carry impulses:", options: ["Away from CNS", "Towards CNS (Sensory)", "Within CNS", "To muscles"], correct: 1 },
+                            { q: "Efferent neurons carry impulses:", options: ["Away from CNS (Motor)", "Towards CNS", "To skin", "To eyes"], correct: 0 },
+                            { q: "The parasympathetic nervous system is known as:", options: ["Fight or Flight", "Rest and Digest", "Stop and Go", "Run and Hide"], correct: 1 },
+                            { q: "Which neurotransmitter is key for muscle contraction?", options: ["Dopamine", "Serotonin", "Acetylcholine (ACh)", "GABA"], correct: 2 },
+                            { q: "CN X is the:", options: ["Olfactory", "Optic", "Vagus", "Facial"], correct: 2 },
+                            { q: "The Sciatic nerve runs down the:", options: ["Arm", "Posterior leg", "Anterior leg", "Neck"], correct: 1 },
+                            { q: "A reflex arc involves:", options: ["Brain processing first", "Bypassing the brain for speed", "Conscious thought", "Slow response"], correct: 1 },
+                            { q: "The Corpus Callosum connects:", options: ["Brain and Spine", "Left and Right Hemispheres", "Front and Back", "Eyes and Ears"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Special Senses',
+                        questions: [
+                            { q: "Photoreceptors (Rods and Cones) are located in the:", options: ["Sclera", "Cornea", "Retina", "Lens"], correct: 2 },
+                            { q: "The white part of the eye is the:", options: ["Iris", "Pupil", "Sclera", "Choroid"], correct: 2 },
+                            { q: "Which ossicle is attached to the tympanic membrane?", options: ["Stapes", "Incus", "Malleus", "Cochlea"], correct: 2 },
+                            { q: "Hearing receptors (Hair cells) are found in the:", options: ["Semicircular canals", "Organ of Corti (Cochlea)", "Vestibule", "Eustachian tube"], correct: 1 },
+                            { q: "Olfaction refers to:", options: ["Taste", "Smell", "Vision", "Touch"], correct: 1 },
+                            { q: "Gustation refers to:", options: ["Taste", "Smell", "Hearing", "Balance"], correct: 0 },
+                            { q: "The Eustachian tube connects the middle ear to the:", options: ["Brain", "Throat (Nasopharynx)", "Inner ear", "Eye"], correct: 1 },
+                            { q: "Rods are responsible for:", options: ["Color vision", "Vision in dim light (Black/White)", "Sharp vision", "Blind spots"], correct: 1 },
+                            { q: "Cones are responsible for:", options: ["Color vision", "Night vision", "Movement", "Peripheral vision"], correct: 0 },
+                            { q: "The blind spot is where:", options: ["Light hits the fovea", "The Optic Nerve exits the eye", "The pupil is closed", "The lens is cloudy"], correct: 1 },
+                            { q: "Dynamic equilibrium is sensed by the:", options: ["Cochlea", "Semicircular Canals", "Vestibule", "Ossicles"], correct: 1 },
+                            { q: "Static equilibrium is sensed by the:", options: ["Cochlea", "Semicircular Canals", "Vestibule (Utricle/Saccule)", "Tympanic membrane"], correct: 2 },
+                            { q: "The primary focus power of the eye comes from the:", options: ["Lens", "Cornea", "Retina", "Iris"], correct: 1 }, // Cornea does most refraction!
+                            { q: "Accommodation is the adjustment of the:", options: ["Pupil size", "Lens shape", "Eye color", "Eyelid position"], correct: 1 },
+                            { q: "Umami is the taste of:", options: ["Sweet", "Sour", "Savory/Meat", "Bitter"], correct: 2 },
+                            { q: "Tears are produced by the:", options: ["Salivary glands", "Lacrimal glands", "Pituitary gland", "Thyroid gland"], correct: 1 },
+                            { q: "Myopia is:", options: ["Farsightedness", "Nearsightedness", "Planesightedness", "Blindness"], correct: 1 },
+                            { q: "Hyperopia is:", options: ["Farsightedness", "Nearsightedness", "Astigmatism", "Cataracts"], correct: 0 },
+                            { q: "Presbyopia is loss of vision due to:", options: ["Aging (Lens elasticity loss)", "Infection", "Trauma", "Genetics"], correct: 0 },
+                            { q: "Tinnitus is:", options: ["Hearing loss", "Ringing in the ears", "Ear infection", "Vertigo"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Endocrine & Integration',
+                        questions: [
+                            { q: "The 'Master Gland' of the endocrine system is the:", options: ["Thyroid", "Adrenal", "Pituitary", "Pancreas"], correct: 2 },
+                            { q: "Insulin is produced by which cells in the pancreas?", options: ["Alpha", "Beta", "Delta", "Gamma"], correct: 1 },
+                            { q: "Glucagon acts to:", options: ["Lower blood sugar", "Raise blood sugar", "Store fat", "Build muscle"], correct: 1 },
+                            { q: "Calcitonin lowers blood calcium by:", options: ["Depositing it into bones", "Removing it from bones", "Excreting it in sweat", "Stopping digestion"], correct: 0 },
+                            { q: "Parathyroid Hormone (PTH) acts to:", options: ["Lower blood calcium", "Raise blood calcium", "Lower sodium", "Raise potassium"], correct: 1 },
+                            { q: "The Adrenal Medulla secretes:", options: ["Cortisol", "Aldosterone", "Epinephrine/Norepinephrine", "Androgens"], correct: 2 },
+                            { q: "Cortisol is known as the:", options: ["Stress hormone", "Sleep hormone", "Sex hormone", "Growth hormone"], correct: 0 },
+                            { q: "ADH promotes:", options: ["Water loss", "Water retention", "Salt loss", "Sugar retention"], correct: 1 },
+                            { q: "Oxytocin is involved in:", options: ["Labor contractions and milk let-down", "Growth", "Metabolism", "Sleep"], correct: 0 },
+                            { q: "T3 and T4 regulate:", options: ["Blood sugar", "Metabolism (BMR)", "Sleep", "Immunity"], correct: 1 },
+                            { q: "Melatonin is secreted by the:", options: ["Pineal Gland", "Pituitary Gland", "Thyroid", "Thymus"], correct: 0 },
+                            { q: "Testosterone is produced in the:", options: ["Ovaries", "Testes", "Liver", "Kidney"], correct: 1 },
+                            { q: "Estrogen and Progesterone are produced by the:", options: ["Ovaries", "Testes", "Uterus", "Fallopian tubes"], correct: 0 },
+                            { q: "The Thymus gland is important for:", options: ["Digestion", "Immune system (T-cell maturation)", "Reproduction", "Sensation"], correct: 1 },
+                            { q: "Goiter is enlargement of the:", options: ["Pituitary", "Thyroid", "Adrenal", "Pancreas"], correct: 1 },
+                            { q: "Aldosterone regulates:", options: ["Sodium and Potassium balance", "Sugar", "Calcium", "Chloride"], correct: 0 },
+                            { q: "Prolactin stimulates:", options: ["Uterine contractions", "Milk production", "Ovulation", "Sperm production"], correct: 1 },
+                            { q: "Negative Feedback loops:", options: ["Amplify changes", "Reverse changes to maintain homeostasis", "Cause disease", "Stop reflexes"], correct: 1 },
+                            { q: "Acromegaly is potential caused by excess:", options: ["Insulin", "Growth Hormone (Adult)", "Thyroid Hormone", "Cortisol"], correct: 1 },
+                            { q: "Type 1 Diabetes is caused by destruction of:", options: ["Alpha cells", "Beta cells", "Acini cells", "Liver cells"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -2285,18 +3179,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Advanced Physiology',
+                        title: 'Quiz Bank 1: Neuro: Neurons & Synapses',
                         questions: [
                             { q: "The resting membrane potential is primarily maintained by the:", options: ["Sodium-Potassium Pump", "Calcium Pump", "Chloride Channels", "Proton Pump"], correct: 0 },
                             { q: "Saltatory conduction occurs in:", options: ["Unmyelinated axons", "Myelinated axons", "Dendrites", "Cell bodies"], correct: 1 },
+                            { q: "Which ion influx is responsible for the depolarization phase of an action potential?", options: ["Potassium (K+)", "Sodium (Na+)", "Calcium (Ca++)", "Chloride (Cl-)"], correct: 1 },
+                            { q: "Repolarization is caused by the efflux of:", options: ["Sodium (Na+)", "Potassium (K+)", "Calcium", "Chloride"], correct: 1 },
+                            { q: "Hyperpolarization involves the membrane potential becoming:", options: ["More positive", "More negative", "Neutral", "Zero"], correct: 1 },
+                            { q: "Neurotransmitters are released from the presynaptic neuron via:", options: ["Endocytosis", "Exocytosis", "Diffusion", "Active transport"], correct: 1 },
+                            { q: "Calcium influx at the synaptic terminal triggers:", options: ["Repolarization", "Vesicle fusion and NT release", "Hyperpolarization", "Dendrite growth"], correct: 1 },
+                            { q: "GABA is the primary ______ neurotransmitter in the brain.", options: ["Excitatory", "Inhibitory", "Modulatory", "Sensory"], correct: 1 },
+                            { q: "Glutamate is the primary ______ neurotransmitter in the brain.", options: ["Excitatory", "Inhibitory", "Modulatory", "Motor"], correct: 0 },
+                            { q: "The space between two neurons is called the:", options: ["Axon", "Synaptic Cleft", "Dendrite", "Soma"], correct: 1 },
+                            { q: "Threshold potential is typically around:", options: ["-70mV", "-55mV", "+30mV", "0mV"], correct: 1 },
+                            { q: "The 'All-or-None' principle applies to:", options: ["Graded potentials", "Action potentials", "Resting potentials", "Synaptic potentials"], correct: 1 },
+                            { q: "Temporal summation involves:", options: ["Multiple neurons firing at once", "High frequency firing from one neuron", "Inhibition", "Dendrites"], correct: 1 },
+                            { q: "Spatial summation involves:", options: ["Multiple neurons firing at once", "One neuron firing slowly", "Repolarization", "Sleep"], correct: 0 },
+                            { q: "Acetylcholine is degraded by:", options: ["MAO", "Acetylcholinesterase", "COMT", "Dopamine"], correct: 1 },
+                            { q: "SSRI medications work by:", options: ["Blocking Serotonin reuptake", "Increasing GABA", "Blocking Dopamine", "Destroying enzymes"], correct: 0 },
+                            { q: "EPSP (Excitatory Postsynaptic Potential) causes:", options: ["Depolarization (closer to threshold)", "Hyperpolarization", "Repolarization", "Resting state"], correct: 0 },
+                            { q: "IPSP (Inhibitory Postsynaptic Potential) causes:", options: ["Depolarization", "Hyperpolarization (further from threshold)", "Action potential", "Contraction"], correct: 1 },
+                            { q: "Dopamine is associated with:", options: ["Pain", "Reward and movement", "Sleep", "Hunger"], correct: 1 },
+                            { q: "Which cells form the Blood-Brain Barrier?", options: ["Microglia", "Astrocytes", "Schwann cells", "Neurons"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Neuro: Brain & ANS',
+                        questions: [
                             { q: "Which brain lobe contains the primary motor cortex?", options: ["Parietal", "Frontal", "Temporal", "Occipital"], correct: 1 },
                             { q: "The 'Fight or Flight' response is mediated by the:", options: ["Parasympathetic Nervous System", "Sympathetic Nervous System", "Somatic Nervous System", "Enteric Nervous System"], correct: 1 },
-                            { q: "Which hormone regulates calcium levels in the blood?", options: ["Insulin", "Parathyroid Hormone (PTH)", "Thyroxine", "Aldosterone"], correct: 1 },
+                            { q: "The Wernicke's area is involved in:", options: ["Speech production", "Language comprehension", "Vision", "Movement"], correct: 1 },
+                            { q: "The cerebellum is primarily responsible for:", options: ["Emotion", "Coordination and balance", "Thinking", "Breathing"], correct: 1 },
+                            { q: "The hypothalamus regulates:", options: ["Homeostasis (Temp, Hunger, Thirst)", "Vision", "Hearing", "Muscle strength"], correct: 0 },
+                            { q: "The Parasympathetic system causes:", options: ["Pupil dilation", "Bronchoconstriction and bradycardia", "Tachycardia", "Sweating"], correct: 1 },
+                            { q: "The Sympathetic system causes:", options: ["Pupil constriction", "Bronchodilation and tachycardia", "Digestion", "Sleep"], correct: 1 },
+                            { q: "Muscarinic receptors bind:", options: ["Norepinephrine", "Acetylcholine", "Dopamine", "Serotonin"], correct: 1 },
+                            { q: "Adrenergic receptors (Alpha/Beta) bind:", options: ["Acetylcholine", "Norepinephrine/Epinephrine", "GABA", "Glutamate"], correct: 1 },
+                            { q: "Aphasia is a deficit in:", options: ["Walking", "Language", "Vision", "Hearing"], correct: 1 },
+                            { q: "The Basal Ganglia are involved in:", options: ["Smooth motor movement", "Sensory processing", "Hearing", "Smell"], correct: 0 },
+                            { q: "Parkinson's Disease involves loss of:", options: ["Serotonin", "Dopamine in Substantia Nigra", "GABA", "ACh"], correct: 1 },
+                            { q: "The Reticular Activating System (RAS) controls:", options: ["Sleep/Wakefulness and Arousal", "Hunger", "Thirst", "Balance"], correct: 0 },
+                            { q: "The Limbic System is the '_____' brain.", options: ["Thinking", "Emotional", "Motor", "Sensory"], correct: 1 },
+                            { q: "The Amygdala processes:", options: ["Fear and aggression", "Math", "Logic", "Vision"], correct: 0 },
+                            { q: "The Hippocampus is crucial for:", options: ["Movement", "Memory consolidation", "Breathing", "Heart rate"], correct: 1 },
+                            { q: "Dual Innervation means:", options: ["Organ receives both Sympathetic and Parasympathetic fibers", "Two brains", "Two hearts", "No nerves"], correct: 0 },
+                            { q: "Vagus Nerve stimulation causes:", options: ["Increased Heart Rate", "Decreased Heart Rate", "Panic", "Running"], correct: 1 },
+                            { q: "The primary sensory cortex is in the:", options: ["Frontal Lobe", "Parietal Lobe", "Occipital Lobe", "Temporal Lobe"], correct: 1 },
+                            { q: "Executive functions (planning, decision making) are in the:", options: ["Prefrontal Cortex", "Brainstem", "Cerebellum", "Spine"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Sensory Systems',
+                        questions: [
                             { q: "Sound waves are converted to neural signals in the:", options: ["Tympanic Membrane", "Ossicles", "Cochlea", "Semicircular Canals"], correct: 2 },
+                            { q: "Where are the receptors for hearing located?", options: ["Tympanic Membrane", "Semicircular Canals", "Cochlea (Organ of Corti)", "Vestibule"], correct: 2 },
+                            { q: "Phototransduction occurs in the:", options: ["Cornea", "Retina", "Lens", "Iris"], correct: 1 },
+                            { q: "Which photoreceptors are most sensitive to light (for night vision)?", options: ["Cones", "Rods", "Bipolar cells", "Ganglion cells"], correct: 1 },
+                            { q: "Which photoreceptors provide color vision and high acuity?", options: ["Rods", "Cones", "Amacrine cells", "Horizontal cells"], correct: 1 },
+                            { q: "Nociceptors detect:", options: ["Light", "Pain/Tissue damage", "Pressure", "Temperature"], correct: 1 },
+                            { q: "Proprioceptors detect:", options: ["Smell", "Body position and movement", "Taste", "Sound"], correct: 1 },
+                            { q: "The fovea centralis contains:", options: ["Only Rods", "Only Cones (High acuity)", "No receptors", "Blood vessels"], correct: 1 },
+                            { q: "Referred pain is:", options: ["Pain felt at site of injury", "Pain felt in a different location than source", "Fake pain", "Chronic pain"], correct: 1 },
+                            { q: "The Olfactory nerve passes through the:", options: ["Cribriform plate", "Optic chiasm", "Foramen magnum", "Ear"], correct: 0 },
+                            { q: "Gustatory cells detect:", options: ["Smell", "Taste chemicals", "Light", "Sound"], correct: 1 },
+                            { q: "The five basic tastes are Sweet, Sour, Salty, Bitter, and:", options: ["Spicy", "Umami", "Cold", "Hot"], correct: 1 },
+                            { q: "Accommodation of the lens is for:", options: ["Distance vision", "Near vision focusing", "Color", "Night vision"], correct: 1 },
+                            { q: "Astigmatism is caused by:", options: ["Cloudy lens", "Irregular curvature of cornea/lens", "Glaucoma", "Blindness"], correct: 1 },
+                            { q: "Glaucoma is characterized by:", options: ["High Intraocular Pressure", "Cloudy lens", "Detached retina", "Infection"], correct: 0 },
+                            { q: "Cataracts involve:", options: ["Clouding of the lens", "High pressure", "Retinal damage", "Eye color change"], correct: 0 },
+                            { q: "Sensorineural hearing loss involves damage to:", options: ["Eardrum", "Inner ear (Cochlea/Nerve)", "Outer ear", "Ear wax"], correct: 1 },
+                            { q: "Conduction hearing loss involves:", options: ["Brain damage", "Blockage of sound to inner ear", "Nerve damage", "Old age"], correct: 1 },
+                            { q: "The Vestibular system detects:", options: ["Sound", "Balance and Equilibrium", "Taste", "Touch"], correct: 1 },
+                            { q: "Otoliths are found in the:", options: ["Cochlea", "Vestibule (Utricle/Saccule)", "Semicircular canals", "Eardrum"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Endocrine & Integration',
+                        questions: [
+                            { q: "Which hormone regulates calcium levels in the blood?", options: ["Insulin", "Parathyroid Hormone (PTH)", "Thyroxine", "Aldosterone"], correct: 1 },
+                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Cortisol", "Insulin", "Epinephrine"], correct: 2 },
+                            { q: "Glucagon is secreted by:", options: ["Beta cells", "Alpha cells", "Delta cells", "Liver"], correct: 1 },
+                            { q: "Cortisol increases blood glucose by promoting:", options: ["Glycolysis", "Gluconeogenesis", "Glycogen synthesis", "Fat storage"], correct: 1 },
+                            { q: "Aldosterone causes the kidneys to:", options: ["Excrete Na+", "Reabsorb Na+ and Water", "Reabsorb K+", "Excrete Water"], correct: 1 },
+                            { q: "ADH (Vasopressin) acts on the:", options: ["Liver", "Kidney collecting ducts (Water reabsorption)", "Heart", "Lungs"], correct: 1 },
+                            { q: "The Hypothalamic-Pituitary axis controls:", options: ["Digestion", "Most endocrine glands", "Vision", "Hearing"], correct: 1 },
+                            { q: "Releasing hormones (e.g., TRH, CRH) come from the:", options: ["Anterior Pituitary", "Hypothalamus", "Thyroid", "Adrenal"], correct: 1 },
+                            { q: "Tropic hormones (e.g., TSH, ACTH) come from the:", options: ["Hypothalamus", "Anterior Pituitary", "Thyroid", "Liver"], correct: 1 },
+                            { q: "Iodine is required for synthesis of:", options: ["Insulin", "Thyroid Hormones (T3/T4)", "Cortisol", "GH"], correct: 1 },
+                            { q: "Hyperthyroidism symptoms include:", options: ["Weight gain", "Weight loss, heat intolerance, tachycardia", "Cold intolerance", "Sleepiness"], correct: 1 },
+                            { q: "Hypothyroidism symptoms include:", options: ["Weight loss", "Weight gain, cold intolerance, fatigue", "Heat intolerance", "Anxiety"], correct: 1 },
+                            { q: "Stress triggers the release of:", options: ["Insulin", "Cortisol and Epinephrine", "Melatonin", "Estrogen"], correct: 1 },
+                            { q: "The posterior pituitary stores:", options: ["GH and TSH", "ADH and Oxytocin", "Insulin", "Cortisol"], correct: 1 },
+                            { q: "Renin is released by kidneys in response to:", options: ["High BP", "Low BP/Low Sodium", "High Sodium", "Stress"], correct: 1 },
+                            { q: "Angiotensin II causes:", options: ["Vasodilation", "Vasoconstriction and Aldosterone release", "Urination", "Sleep"], correct: 1 },
+                            { q: "Erythropoietin (EPO) stimulates production of:", options: ["WBCs", "RBCs", "Platelets", "Clotting factors"], correct: 1 },
+                            { q: "Atrial Natriuretic Peptide (ANP) acts to:", options: ["Raise BP", "Lower BP (Excrete Na/Water)", "Retain water", "Increase HR"], correct: 1 },
+                            { q: "Leptin is produced by:", options: ["Stomach", "Adipose tissue (Fat)", "Brain", "Liver"], correct: 1 },
+                            { q: "Ghrelin stimulates:", options: ["Fullness", "Hunger", "Thirst", "Sleep"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Reproductive Physio',
+                        questions: [
                             { q: "Spermatogenesis occurs in the:", options: ["Epididymis", "Seminiferous Tubules", "Vas Deferens", "Prostate"], correct: 1 },
                             { q: "The proliferative phase of the uterine cycle corresponds to which ovarian phase?", options: ["Luteal", "Follicular", "Ovulation", "Menstrual"], correct: 1 },
-                            { q: "Enzymes increase reaction rates by:", options: ["Increasing temperature", "Lowering activation energy", "Changing pH", "Adding ATP"], correct: 1 },
-                            { q: "Glycolysis occurs in the:", options: ["Mitochondria", "Nucleus", "Cytoplasm", "Ribosome"], correct: 2 }
+                            { q: "What triggers ovulation?", options: ["FSH spike", "LH surge", "Progesterone drop", "Estrogen drop"], correct: 1 },
+                            { q: "Progesterone is primarily secreted by the:", options: ["Follicle", "Corpus Luteum", "Pituitary", "Hypothalamus"], correct: 1 },
+                            { q: "Fertilization typically occurs in the:", options: ["Uterus", "Fallopian Tube (Ampulla)", "Ovary", "Cervix"], correct: 1 },
+                            { q: "Implantation occurs in the:", options: ["Endometrium", "Myometrium", "Fallopian tube", "Cervix"], correct: 0 },
+                            { q: "hCG is produced by the:", options: ["Ovary", "Placenta/Trophoblast", "Pituitary", "Uterus"], correct: 1 },
+                            { q: "Testosterone is essential for:", options: ["Milk production", "Spermatogenesis & Male secondary characteristics", "Ovulation", "Menstruation"], correct: 1 },
+                            { q: "The Menstrual phase is triggered by:", options: ["LH surge", "Drop in Progesterone and Estrogen", "Rise in FSH", "Pregnancy"], correct: 1 },
+                            { q: "Sperm maturation occurs in the:", options: ["Seminiferous tubules", "Epididymis", "Vas deferens", "Urethra"], correct: 1 },
+                            { q: "The Acrosome reaction allows sperm to:", options: ["Swim", "Penetrate the egg", "Die", "Divide"], correct: 1 },
+                            { q: "Inhibin acts to inhibit:", options: ["LH", "FSH", "GnRH", "Testosterone"], correct: 1 },
+                            { q: "Menopause is defined as:", options: ["Irregular periods", "12 months without menstruation", "Hot flashes", "Infertility"], correct: 1 },
+                            { q: "Oxytocin's role in breastfeeding is:", options: ["Milk production", "Milk ejection (Let-down)", "Growth", "Taste"], correct: 1 },
+                            { q: "Prolactin's role in breastfeeding is:", options: ["Milk production", "Milk ejection", " Bonding", "Sleep"], correct: 0 },
+                            { q: "Capacitation is:", options: ["Sperm death", "Functional maturation of sperm in female tract", "Egg release", "Cell division"], correct: 1 },
+                            { q: "The Blastocyst implants into the uterus around day:", options: ["1", "3", "6-7", "14"], correct: 2 },
+                            { q: "Determination of sex is by:", options: ["Mother's egg", "Father's sperm (X or Y)", "Environment", "Temperature"], correct: 1 },
+                            { q: "Leydig cells produce:", options: ["Sperm", "Testosterone", "Fluid", "Inhibin"], correct: 1 },
+                            { q: "Sertoli cells function to:", options: ["Make testosterone", "Support/Nourish sperm (Nurse cells)", "Make blood", "Fight infection"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -2442,18 +3485,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Biochemistry Review',
+                        title: 'Quiz Bank 1: Metabolism Overview',
                         questions: [
                             { q: "Which molecule is the primary energy currency of the cell?", options: ["Glucose", "ATP", "NADH", "Pyruvate"], correct: 1 },
-                            { q: "Beta-oxidation is the process of breaking down:", options: ["Carbohydrates", "Proteins", "Fatty Acids", "Nucleic Acids"], correct: 2 },
+                            { q: "Anabolism refers to:", options: ["Breakdown of molecules", "Synthesis of complex molecules", "Digestion", "Excretion"], correct: 1 },
+                            { q: "Catabolism refers to:", options: ["Breakdown of molecules to release energy", "Building muscle", "DNA replication", "Photosynthesis"], correct: 0 },
+                            { q: "Glycolysis occurs in the:", options: ["Mitochondria", "Nucleus", "Cytoplasm", "Ribosome"], correct: 2 },
+                            { q: "The end product of aerobic glycolysis is:", options: ["Lactate", "Pyruvate", "Ethanol", "Acetyl-CoA"], correct: 1 },
+                            { q: "Under anaerobic conditions, pyruvate is converted to:", options: ["Acetyl-CoA", "Lactate", "Glucose", "Fat"], correct: 1 },
+                            { q: "The Krebs Cycle occurs in the:", options: ["Cytoplasm", "Mitochondrial Matrix", "Inner Mitochondrial Membrane", "Nucleus"], correct: 1 },
+                            { q: "The Electron Transport Chain is located in the:", options: ["Cytoplasm", "Outer Mitochondrial Membrane", "Inner Mitochondrial Membrane", "Lysosome"], correct: 2 },
+                            { q: "How many net ATP are produced in Glycolysis?", options: ["2", "4", "32", "36"], correct: 0 },
+                            { q: "Oxidative Phosphorylation requires:", options: ["Carbon Dioxide", "Oxygen", "Nitrogen", "Helium"], correct: 1 },
+                            { q: "Gluconeogenesis is the synthesis of glucose from:", options: ["Glycogen", "Non-carbohydrate sources (e.g., amino acids, lactate)", "Fatty acids only", "Starch"], correct: 1 },
+                            { q: "Glycogen is stored primarily in the:", options: ["Brain", "Liver and Muscles", "Kidneys", "Heart"], correct: 1 },
+                            { q: "Insulin stimulates:", options: ["Glycogenolysis", "Glycogenesis (Storage)", "Gluconeogenesis", "Lipolysis"], correct: 1 },
+                            { q: "Glucagon stimulates:", options: ["Glycogen breakdown (Glycogenolysis)", "Fat storage", "Protein synthesis", "Sleep"], correct: 0 },
+                            { q: "The Cori Cycle involves the transport of ______ to the liver.", options: ["Glucose", "Lactate", "Pyruvate", "Urea"], correct: 1 },
+                            { q: "ATP synthase uses a ______ gradient to make ATP.", options: ["Sodium", "Potassium", "Proton (H+)", "Calcium"], correct: 2 },
+                            { q: "Which coenzyme is reduced in the Krebs cycle?", options: ["ATP", "NAD+", "CoA", "Biotin"], correct: 1 },
+                            { q: "Beta-oxidation occurs in the:", options: ["Cytoplasm", "Mitochondria", "Nucleus", "ER"], correct: 1 },
+                            { q: "Ketone bodies are produced during:", options: ["High carb intake", "Starvation or uncontrolled diabetes", "Exercise", "Sleep"], correct: 1 },
+                            { q: "The breakdown of glucose is called:", options: ["Glycolysis", "Gluconeogenesis", "Glycogenolysis", "Proteolysis"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Carbohydrates & Respiration',
+                        questions: [
+                            { q: "Which sugar is the structural component of DNA?", options: ["Ribose", "Deoxyribose", "Glucose", "Fructose"], correct: 1 },
+                            { q: "Sucrose is a disaccharide of:", options: ["Glucose + Glucose", "Glucose + Fructose", "Glucose + Galactose", "Fructose + Galactose"], correct: 1 },
+                            { q: "Lactose is found in:", options: ["Fruit", "Milk", "Table sugar", "Meat"], correct: 1 },
+                            { q: "Starch is a polymer of:", options: ["Amnio acids", "Glucose", "Fatty acids", "Nucleotides"], correct: 1 },
+                            { q: "Which GLUT transporter is insulin-dependent?", options: ["GLUT1", "GLUT2", "GLUT4", "GLUT5"], correct: 2 },
+                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Lack of Insulin production", "Excess Insulin", "Obesity"], correct: 1 },
+                            { q: "Type 2 Diabetes is characterized by:", options: ["Autoimmune destruction", "Insulin resistance", "Low blood sugar", "Genetic mutation"], correct: 1 },
+                            { q: "HbA1c measures:", options: ["Acute blood sugar", "Average blood sugar over 3 months", "Insulin levels", "Ketones"], correct: 1 },
+                            { q: "Hypoglycemia is blood glucose below:", options: ["70 mg/dL", "100 mg/dL", "140 mg/dL", "200 mg/dL"], correct: 0 },
+                            { q: "Which organ relies almost exclusively on glucose?", options: ["Liver", "Heart", "Brain", "Muscle"], correct: 2 },
+                            { q: "The Hexose Monophosphate Shunt produces:", options: ["ATP", "NADPH and Ribose", "Lactate", "Urea"], correct: 1 },
+                            { q: "NADPH is essential for:", options: ["Fatty acid synthesis and antioxidant defense", "Glycolysis", "Muscle contraction", "Vision"], correct: 0 },
+                            { q: "Galactosemia is a defect in:", options: ["Glucose metabolism", "Galactose metabolism", "Fructose metabolism", "Lipid metabolism"], correct: 1 },
+                            { q: "Fructose is metabolized primarily in the:", options: ["Muscle", "Brain", "Liver", "Kidney"], correct: 2 },
+                            { q: "Which enzyme is the rate-limiting step of Glycolysis?", options: ["Hexokinase", "Phosphofructokinase-1 (PFK-1)", "Pyruvate Kinase", "Aldolase"], correct: 1 },
+                            { q: "Arsenic poisoning inhibits:", options: ["Glycolysis", "The Krebs Cycle/PDH Complex", "Fatty and synthesis", "DNA replication"], correct: 1 },
+                            { q: "Cyanide inhibits:", options: ["Complex IV of ETC", "Glycolysis", "Krebs Cycle", "ATP Synthase"], correct: 0 },
+                            { q: "Uncoupling agents cause:", options: ["ATP production", "Heat production instead of ATP", "Cold", "Sleep"], correct: 1 },
+                            { q: "Brown adipose tissue is rich in:", options: ["Glycogen", "Mitochondria (for heat)", "Water", "Protein"], correct: 1 },
+                            { q: "Normal fasting blood glucose is:", options: ["70-99 mg/dL", "100-125 mg/dL", "126+ mg/dL", "40-60 mg/dL"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Lipids & Proteins',
+                        questions: [
+                            { q: "Triglycerides are composed of:", options: ["Glycerol + 3 Fatty Acids", "Glucose + Fat", "Cholesterol + Protein", "Amino Acids"], correct: 0 },
+                            { q: "Saturated fatty acids have:", options: ["Double bonds", "No double bonds", "Triple bonds", "Rings"], correct: 1 },
+                            { q: "Unsaturated fatty acids are typically:", options: ["Solid at room temp", "Liquid at room temp (Oils)", "Toxic", "Gases"], correct: 1 },
+                            { q: "Which lipoprotein is 'Good Cholesterol'?", options: ["LDL", "HDL", "VLDL", "Chylomicrons"], correct: 1 },
+                            { q: "Which lipoprotein is 'Bad Cholesterol'?", options: ["LDL", "HDL", "IDL", "Albumin"], correct: 0 },
+                            { q: "Chylomicrons transport:", options: ["Dietary lipids", "Liver lipids", "Proteins", "Sugar"], correct: 0 },
+                            { q: "Beta-oxidation of a 16-carbon fatty acid yields _____ Acetyl-CoA.", options: ["8", "16", "32", "4"], correct: 0 },
+                            { q: "Ketogenesis occurs in the:", options: ["Muscle", "Liver mitochondria", "Brain", "Blood"], correct: 1 },
+                            { q: "Diabetic Ketoacidosis (DKA) results in:", options: ["Metabolic Alkalosis", "Metabolic Acidosis", "Respiratory Acidosis", "Respiratory Alkalosis"], correct: 1 },
+                            { q: "Essential fatty acids include:", options: ["Linoleic and Alpha-linolenic", "Stearic and Palmitic", "Cholesterol", "Glucose"], correct: 0 },
                             { q: "Which of the following is an essential amino acid?", options: ["Alanine", "Serine", "Leucine", "Glutamate"], correct: 2 },
+                            { q: "The bond between amino acids is a:", options: ["Peptide bond", "Ionic bond", "Glycosidic bond", "Ester bond"], correct: 0 },
+                            { q: "Which structure involves Alpha helices and Beta sheets?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 1 },
+                            { q: "Hemoglobin has which structure?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 3 },
+                            { q: "Denaturation of a protein involves loss of:", options: ["Primary structure", "Shape/Folded structure", "Peptide bonds", "Nitrogen"], correct: 1 },
+                            { q: "The Urea Cycle occurs in the:", options: ["Kidney", "Liver", "Brain", "Muscle"], correct: 1 },
+                            { q: "The Urea Cycle removes toxic ______ from the body.", options: ["Carbon", "Ammonia (NH3)", "Sulfur", "Oxygen"], correct: 1 },
+                            { q: "PKU (Phenylketonuria) is a defect in metabolizing:", options: ["Tyrosine", "Phenylalanine", "Alanine", "Leucine"], correct: 1 },
+                            { q: "Albumin functions to:", options: ["Clot blood", "Maintain oncotic pressure", "Carry oxygen", "Fight infection"], correct: 1 },
+                            { q: "Collagen is a major protein in:", options: ["Connective tissue", "Brain", "Blood", "Liver"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Enzymes & Genetics',
+                        questions: [
+                            { q: "Enzymes that add a phosphate group to a molecule are called:", options: ["Phosphatases", "Kinases", "Isomerases", "Ligases"], correct: 1 },
+                            { q: "The active site is where:", options: ["Inhibitors always bind", "Substrate binds", "DNA binds", "Waste exits"], correct: 1 },
+                            { q: "Competitive inhibitors bind to the:", options: ["Allosteric site", "Active site", "DNA", "Ribosome"], correct: 1 },
+                            { q: "Non-competitive inhibitors bind to the:", options: ["Active site", "Allosteric site", "Substrate", "Product"], correct: 1 },
+                            { q: "Isoenzymes are:", options: ["Same enzyme, different reaction", "Different forms of an enzyme catalyzing same reaction", "Dead enzymes", "Slow enzymes"], correct: 1 },
+                            { q: "Troponin is a marker for:", options: ["Liver damage", "Myocardial Infarction (Heart Attack)", "Kidney failure", "Stroke"], correct: 1 },
                             { q: "DNA replication is considered:", options: ["Conservative", "Semi-conservative", "Dispersive", "Non-conservative"], correct: 1 },
-                            { q: "Which RNA molecule carries the genetic code from the nucleus to the ribosome?", options: ["tRNA", "rRNA", "mRNA", "snRNA"], correct: 2 },
-                            { q: "Deficiency of Vitamin C causes:", options: ["Rickets", "Scurvy", "Beriberi", "Night blindness"], correct: 1 },
-                            { q: "A solution with a pH of 2 is:", options: ["Neutral", "Basic", "Acidic", "Buffered"], correct: 2 },
-                            { q: "Which enzyme is responsible for unwinding the DNA double helix?", options: ["Polymerase", "Ligase", "Helicase", "Primase"], correct: 2 },
+                            { q: "Which enzyme unzips DNA?", options: ["Ligase", "Helicase", "Polymerase", "Primase"], correct: 1 },
+                            { q: "DNA Polymerase adds nucleotides in which direction?", options: ["3' to 5'", "5' to 3'", "Randomly", "Both ways"], correct: 1 },
+                            { q: "Okazaki fragments are found on the:", options: ["Leading strand", "Lagging strand", "mRNA", "tRNA"], correct: 1 },
+                            { q: "Transcription occurs in the:", options: ["Cytoplasm", "Nucleus", "Ribosome", "ER"], correct: 1 },
+                            { q: "Which RNA carries the code?", options: ["mRNA", "tRNA", "rRNA", "siRNA"], correct: 0 },
+                            { q: "Introns are:", options: ["Coding regions", "Non-coding regions removed during splicing", "Proteins", "Enzymes"], correct: 1 },
+                            { q: "Translation occurs in the:", options: ["Nucleus", "Ribosome (Cytoplasm/RER)", "Mitochondria", "Golgi"], correct: 1 },
+                            { q: "The start codon is:", options: ["UAA", "AUG (Methionine)", "UAG", "UGA"], correct: 1 },
+                            { q: "A point mutation is:", options: ["Loss of a chromosome", "Change in a single nucleotide", "Duplication of a gene", "Inversion"], correct: 1 },
+                            { q: "PCR is a technique to:", options: ["Sequence proteins", "Amplify DNA", "Clone sheep", "Edit genes"], correct: 1 },
+                            { q: "Which vitamin is needed for blood clotting?", options: ["Vitamin A", "Vitamin K", "Vitamin C", "Vitamin D"], correct: 1 },
+                            { q: "Vitamin B12 deficiency causes:", options: ["Scurvy", "Pernicious Anemia", "Rickets", "Night blindness"], correct: 1 },
+                            { q: "Which mineral is part of Hemoglobin?", options: ["Zinc", "Iron", "Magnesium", "Copper"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Clinical Biochemistry',
+                        questions: [
                             { q: "Warburg effect describes cancer cells' preference for:", options: ["Aerobic Respiration", "Anaerobic Glycolysis", "Fatty Acid Oxidation", "Protein Catabolism"], correct: 1 },
-                            { q: "Enzymes that add a phosphate group to a molecule are called:", options: ["Phosphatases", "Kinases", "Isomerases", "Ligases"], correct: 1 }
+                            { q: "Jaundice is caused by accumulation of:", options: ["Urea", "Bilirubin", "Cholesterol", "Glucose"], correct: 1 },
+                            { q: "Gout is caused by accumulation of:", options: ["Urea", "Uric Acid", "Calcium", "Ammonia"], correct: 1 },
+                            { q: "Diabetes Insipidus involves a lack of:", options: ["Insulin", "ADH", "Glucagon", "Cortisol"], correct: 1 },
+                            { q: "Cushing's Syndrome is caused by excess:", options: ["Thyroid Hormone", "Cortisol", "Insulin", "Growth Hormone"], correct: 1 },
+                            { q: "Wilson's Disease involves accumulation of:", options: ["Iron", "Copper", "Zinc", "Lead"], correct: 1 },
+                            { q: "Hemophilia A is a deficiency of:", options: ["Factor VIII", "Factor IX", "Iron", "Platelets"], correct: 0 },
+                            { q: "Sickle Cell Anemia involves a mutation in:", options: ["Hemoglobin (Beta chain)", "Myoglobin", "Albumin", "Collagen"], correct: 0 },
+                            { q: "Cystic Fibrosis affects the transporter for:", options: ["Sodium", "Chloride (CFTR)", "Potassium", "Glucose"], correct: 1 },
+                            { q: "Tay-Sachs disease is a lipid storage disorder affecting the:", options: ["Liver", "Brain/Nervous System", "Heart", "Kidney"], correct: 1 },
+                            { q: "Which marker is used to screen for prostate cancer?", options: ["CEA", "PSA", "CA-125", "AFP"], correct: 1 },
+                            { q: "Elevated Amylase and Lipase indicate:", options: ["Liver failure", "Pancreatitis", "Kidney stones", "Heart attack"], correct: 1 },
+                            { q: "Creatinine levels are used to assess:", options: ["Liver function", "Kidney function", "Lung function", "Heart function"], correct: 1 },
+                            { q: "Elevated ALT and AST indicate:", options: ["Kidney damage", "Liver damage", "Brain damage", "Bone damage"], correct: 1 },
+                            { q: "Hyperkalemia refers to high levels of:", options: ["Sodium", "Potassium", "Calcium", "Magnesium"], correct: 1 },
+                            { q: "Hyponatremia refers to low levels of:", options: ["Sodium", "Potassium", "Chloride", "Calcium"], correct: 0 },
+                            { q: "Metabolic Acidosis is characterized by:", options: ["High pH, High HCO3", "Low pH, Low HCO3", "Low pH, High pCO2", "High pH, Low pCO2"], correct: 1 },
+                            { q: "Respiratory Alkalosis is caused by:", options: ["Hypoventilation", "Hyperventilation (blowing off CO2)", "Vomiting", "Diarrhea"], correct: 1 },
+                            { q: "The main extracellular cation is:", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 1 },
+                            { q: "The main intracellular cation is:", options: ["Sodium", "Potassium", "Chloride", "Phosphate"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -2614,18 +3806,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Immunology Fundamentals',
+                        title: 'Quiz Bank 1: Innate & Adaptive Immunity',
                         questions: [
                             { q: "Which of the following is part of the Innate Immune System?", options: ["T-Cells", "B-Cells", "Antibodies", "Skin and Mucous Membranes"], correct: 3 },
                             { q: "What is the main function of Plasma Cells?", options: ["Phagocytosis", "Secretion of Antibodies", "Direct killing of infected cells", "Antigen presentation"], correct: 1 },
-                            { q: "Herd immunity protects a population when:", options: ["Everyone is vaccinated", "A high percentage is immune", "No one is infected", "Antibiotics are available"], correct: 1 },
-                            { q: "An autoimmune disease occurs when:", options: ["The immune system is weak", "The body attacks its own cells", "Bacteria invade the blood", "Vaccines fail to work"], correct: 1 },
-                            { q: "Which type of blood cell releases histamine involved in allergic reactions?", options: ["Neutrophils", "Basophils/Mast Cells", "Macrophages", "Monocytes"], correct: 1 },
-                            { q: "The process of 'Opsonization' involves:", options: ["Killing virus-infected cells", "Coating pathogens to enhance phagocytosis", "Producing fever", "Replicating DNA"], correct: 1 },
                             { q: "Which immunoglobulin is the first to be produced in response to an infection?", options: ["IgG", "IgA", "IgM", "IgE"], correct: 2 },
-                            { q: "DiGeorge Syndrome is characterized by a deficiency in:", options: ["B-Cells", "T-Cells (Thymus aplasia)", "Phagocytes", "Complement proteins"], correct: 1 },
                             { q: "The 'Rubor' in inflammation refers to:", options: ["Swelling", "Pain", "Redness", "Heat"], correct: 2 },
-                            { q: "Which of the following is an example of Passive Artificial Immunity?", options: ["Vaccination", "Recovering from Chickenpox", "Breastfeeding", "Injection of Antivenom (IgG)"], correct: 3 }
+                            { q: "Which cell type is the primary target of the HIV virus?", options: ["Neutrophils", "CD4+ Helper T Cells", "B Cells", "Platelets"], correct: 1 },
+                            { q: "The complement system functions to:", options: ["Make antibodies", "Lyse bacteria and enhance phagocytosis", "Clot blood", "Transport Oxygen"], correct: 1 },
+                            { q: "Which of the following describes naturally acquired active immunity?", options: ["Breastfeeding", "Vaccination", "Infection and recovery", "Antivenom injection"], correct: 2 },
+                            { q: "Interferons are primarily produced in response to:", options: ["Bacteria", "Viruses", "Fungi", "Parasites"], correct: 1 },
+                            { q: "The primary lymphoid organs are:", options: ["Spleen and Lymph nodes", "Bone Marrow and Thymus", "Liver and Kidney", "Tonsils and Appendix"], correct: 1 },
+                            { q: "Which cells are capable of Antigen Presentation (APC)?", options: ["RBCs", "Dendritic Cells, Macrophages, B Cells", "Platelets", "Neurons"], correct: 1 },
+                            { q: "T-Cells mature in the:", options: ["Bone Marrow", "Thyroid", "Thymus", "Tonsils"], correct: 2 },
+                            { q: "Humoral Immunity is mediated by:", options: ["T-Cells", "B-Cells/Antibodies", "Macrophages", "NK Cells"], correct: 1 },
+                            { q: "Cell-Mediated Immunity is primarily the function of:", options: ["Antibodies", "T-Cells", "B-Cells", "Complement"], correct: 1 },
+                            { q: "NK (Natural Killer) cells are part of:", options: ["Adaptive Immunity", "Innate Immunity", "Humoral Immunity", "Autoimmunity"], correct: 1 },
+                            { q: "Fever is caused by release of:", options: ["Histamine", "Pyrogens (IL-1, IL-6)", "Antibodies", "Complement"], correct: 1 },
+                            { q: "The main phagocytic cell in acute inflammation is the:", options: ["Macrophage", "Neutrophil", "Lymphocyte", "Basophil"], correct: 1 },
+                            { q: "Chronic inflammation is characterized by infiltration of:", options: ["Neutrophils", "Macrophages and Lymphocytes", "RBCs", "Platelets"], correct: 1 },
+                            { q: "Which cytokine causes cachexia (wasting) in cancer/chronic disease?", options: ["IL-2", "TNF-alpha", "Interferon", "Growth Hormone"], correct: 1 },
+                            { q: "Toll-Like Receptors (TLRs) recognize:", options: ["Self-antigens", "PAMPs (Pathogen Associated Molecular Patterns)", "Antibodies", "Vitamins"], correct: 1 },
+                            { q: "The membrane attack complex (MAC) causes:", options: ["Opspzination", "Pore formation and cell lysis", "Fever", "Pain"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Antibodies & Hypersensitivity',
+                        questions: [
+                            { q: "Which immunoglobulin crosses the placenta?", options: ["IgM", "IgA", "IgG", "IgE"], correct: 2 },
+                            { q: "IgA is primarily found in:", options: ["Blood", "Secretions (Mucus, Milk, Tears)", "Bone Marrow", "Muscles"], correct: 1 },
+                            { q: "IgE is elevated in:", options: ["Bacterial infections", "Parasitic infections and Allergies", "Viral infections", "Autoimmune disease"], correct: 1 },
+                            { q: "The J-chain is associated with:", options: ["IgA and IgM", "IgG only", "IgE only", "IgD"], correct: 0 },
+                            { q: "Type I Hypersensitivity is mediated by:", options: ["IgG", "IgM", "IgE", "T-Cells"], correct: 2 },
+                            { q: "An example of Type II Hypersensitivity is:", options: ["Hay fever", "Hemolytic Transfusion Reaction", "Lupus", "Poison Ivy"], correct: 1 },
+                            { q: "Type III Hypersensitivity involves:", options: ["IgE", "Immune Complex Deposition", "T-Cells", "Macrophages"], correct: 1 },
+                            { q: "A positive Tuberculin (Mantoux) test is a:", options: ["Type I Reaction", "Type II Reaction", "Type III Reaction", "Type IV (Delayed) Reaction"], correct: 3 },
+                            { q: "Anaphylaxis is a severe form of:", options: ["Type I Hypersensitivity", "Type IV Hypersensitivity", "Autoimmunity", "Immunodeficiency"], correct: 0 },
+                            { q: "Erythroblastosis fetalis involves:", options: ["Rh incompatibility (Mom Rh-, Baby Rh+)", "ABO incompatibility", "Infection", "Genetic defect"], correct: 0 },
+                            { q: "Which drug is used to treat anaphylaxis?", options: ["Insulin", "Epinephrine", "Aspirin", "Antibiotics"], correct: 1 },
+                            { q: "Serum sickness is a classic example of:", options: ["Type I", "Type II", "Type III", "Type IV"], correct: 2 },
+                            { q: "Contact dermatitis (e.g., Nickel allergy) is:", options: ["Type I", "Type II", "Type III", "Type IV"], correct: 3 },
+                            { q: "Arthus reaction is:", options: ["Local Type III reaction", "Systemic Type I reaction", "Viral infection", "Cancer"], correct: 0 },
+                            { q: "Goodpasture's syndrome involves antibodies against:", options: ["DNA", "Glomerular Basement Membrane", "RBCs", "Platelets"], correct: 1 },
+                            { q: "Graves' disease is a:", options: ["Type II Hypersensitivity (Stimulating antibodies)", "Type I Allergy", "Type IV Reaction", "Infection"], correct: 0 },
+                            { q: "Mast cell degranulation releases:", options: ["Antibodies", "Histamine", "Complement", "Interferon"], correct: 1 },
+                            { q: "The Fc region of an antibody determines its:", options: ["Antigen binding specificity", "Class/Isotype (Biological function)", "Size", "Color"], correct: 1 },
+                            { q: "Monoclonal antibodies are produced by:", options: ["T Cells", "Hybridomas", "Macrophages", "Bacteria"], correct: 1 },
+                            { q: "Opsonization facilitates:", options: ["Phagocytosis", "Digestion", "Excretion", "Reproduction"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Immune Cells & Organs',
+                        questions: [
+                            { q: "The spleen functions to:", options: ["Produce T Cells", "Filter blood and remove old RBCs", "Filter lymph", "Digest food"], correct: 1 },
+                            { q: "MALT stands for:", options: ["Mucosa-Associated Lymphoid Tissue", "Major Antibody Lymphoid Type", "Multiple Antigen Linking Theory", "None"], correct: 0 },
+                            { q: "Peyer's patches are found in the:", options: ["Stomach", "Ileum (Small Intestine)", "Colon", "Thymus"], correct: 1 },
+                            { q: "Kupffer cells are macrophages located in the:", options: ["Lung", "Liver", "Brain", "Skin"], correct: 1 },
+                            { q: "Microglia are macrophages located in the:", options: ["Liver", "CNS/Brain", "Kidney", "Spleen"], correct: 1 },
+                            { q: "Langerhans cells are dendritic cells in the:", options: ["Blood", "Skin", "Gut", "Lungs"], correct: 1 },
+                            { q: "Which cells kill virus-infected cells without prior sensitization?", options: ["Cytotoxic T Cells", "Helper T Cells", "NK (Natural Killer) Cells", "B Cells"], correct: 2 },
+                            { q: "CD4 is a marker for:", options: ["Helper T Cells", "Cytotoxic T Cells", "B Cells", "Macrophages"], correct: 0 },
+                            { q: "CD8 is a marker for:", options: ["Helper T Cells", "Cytotoxic T Cells", "B Cells", "NK Cells"], correct: 1 },
+                            { q: "B Cells differentiate into:", options: ["T Cells", "Plasma Cells and Memory B Cells", "Macrophages", "Neutrophils"], correct: 1 },
+                            { q: "Hematopoiesis occurs in the:", options: ["Liver", "Red Bone Marrow", "Spleen", "Thymus"], correct: 1 },
+                            { q: "Megakaryocytes produce:", options: ["RBCs", "Platelets", "WBCs", "Plasma"], correct: 1 },
+                            { q: "The Thymus is most active during:", options: ["Old age", "Childhood", "Pregnancy", "Sleep"], correct: 1 },
+                            { q: "Lymph nodes filter:", options: ["Blood", "Lymph fluid", "Urine", "CSF"], correct: 1 },
+                            { q: "High endothelial venules (HEVs) allow:", options: ["Exit of loose cells", "Entry of lymphocytes into lymph nodes", "Blood clotting", "Gas change"], correct: 1 },
+                            { q: "Which cell is the most abundant leukocyte?", options: ["Lymphocyte", "Neutrophil", "Monocyte", "Eosinophil"], correct: 1 },
+                            { q: "Which cell attacks parasitic worms?", options: ["Neutrophil", "Eosinophil", "Basophil", "B Cell"], correct: 1 },
+                            { q: "Which cell is involved in blood clotting?", options: ["RBC", "Platelet", "WBC", "Plasma cell"], correct: 1 },
+                            { q: "MHC Class I is found on:", options: ["APCs only", "All nucleated cells", "RBCs only", "Bacteria"], correct: 1 },
+                            { q: "MHC Class II is found on:", options: ["All cells", "Antigen Presenting Cells (APCs) only", "Neurons", "Muscle"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Autoimmunity & Disorders',
+                        questions: [
+                            { q: "Rheumatoid Factor is an IgM antibody against:", options: ["DNA", "Fc portion of IgG", "Collagen", "TSH receptor"], correct: 1 },
+                            { q: "Systemic Lupus Erythematosus (SLE) is characterized by:", options: ["Butterfly rash and Anti-dsDNA antibodies", "Joint pain only", "Hair loss", "Fever"], correct: 0 },
+                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hyperthyroidism", "Hypothyroidism", "Goiter only", "Cancer"], correct: 1 },
+                            { q: "Myasthenia Gravis involves antibodies against:", options: ["Acetylcholine receptors", "Muscle fibers", "Nerves", "DNA"], correct: 0 },
+                            { q: "Multiple Sclerosis attacks:", options: ["Muscles", "Myelin sheath in CNS", "Peripheral nerves", "Joints"], correct: 1 },
+                            { q: "Sjogren's Syndrome affects:", options: ["Joints", "Exocrine glands (Tears/Saliva)", "Kidneys", "Lungs"], correct: 1 },
+                            { q: "SCID stands for:", options: ["Severe Combined Immunodeficiency", "Systemic Cell Immune Disorder", "Slow Cell Immune Death", "None"], correct: 0 },
+                            { q: "X-linked Agammaglobulinemia (Bruton's) involves:", options: ["Lack of T Cells", "Lack of B Cells/Antibodies", "Lack of Neutrophils", "Lack of Complement"], correct: 1 },
+                            { q: "Chronic Granulomatous Disease explains a defect in:", options: ["Phagocyte NADPH oxidase", "Antibody production", "T Cell activation", "Complement"], correct: 0 },
+                            { q: "HIV binds to which receptor?", options: ["CD8", "CD4 and CCR5/CXCR4", "MHC I", "Insulin receptor"], correct: 1 },
+                            { q: "Kaposi's Sarcoma is an opportunistic cancer caused by:", options: ["HIV", "HHV-8", "EBV", "HPV"], correct: 1 },
+                            { q: "Opportunistic infections in AIDS include:", options: ["Pneumocystis jirovecii (PCP)", "Common cold", "Flu", "Acne"], correct: 0 },
+                            { q: "Transplant rejection is primarily mediated by:", options: ["MHC/HLA incompatibility", "Blood type", "Age", "Gender"], correct: 0 },
+                            { q: "Graft-versus-Host Disease (GVHD) occurs primarily in:", options: ["Kidney transplants", "Bone Marrow transplants", "Skin grafts", "Heart transplants"], correct: 1 },
+                            { q: "Cyclosporine is an immunosuppressant that inhibits:", options: ["IL-2 production", "DNA synthesis", "Antibody binding", "Complement"], correct: 0 },
+                            { q: "Pemphigus vulgaris involves antibodies against:", options: ["Desmosomes (Skin adhesion)", "Basement membrane", "Nucleus", "Collagen"], correct: 0 },
+                            { q: "Celiac disease involves sensitivity to:", options: ["Lactose", "Gluten (Gliadin)", "Peanuts", "Soy"], correct: 1 },
+                            { q: "Addison's disease is autoimmune destruction of:", options: ["Thyroid", "Adrenal Cortex", "Pancreas", "Pituitary"], correct: 1 },
+                            { q: "Pernicious anemia involves antibodies against:", options: ["Intrinsic Factor/Parietal Cells", "RBCs", "Platelets", "Iron"], correct: 0 },
+                            { q: "Ankylosing Spondylitis is strongly associated with:", options: ["HLA-DR4", "HLA-B27", "HLA-DQ2", "HLA-A1"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Vaccines & Diagnostics',
+                        questions: [
+                            { q: "Herd immunity protects a population when:", options: ["Everyone is vaccinated", "A high percentage is immune", "No one is infected", "Antibiotics are available"], correct: 1 },
+                            { q: "Live attenuated vaccines provide:", options: ["Weak immunity", "Strong, long-lasting immunity", "Passive immunity", "Immediate protection"], correct: 1 },
+                            { q: "Which is a live attenuated vaccine?", options: ["Tetanus", "MMR (Measles, Mumps, Rubella)", "Flu shot (injected)", "Hepatitis B"], correct: 1 },
+                            { q: "Botox and Tetanus shots use:", options: ["Live bacteria", "Toxoids", "Killed bacteria", "Viruses"], correct: 1 },
+                            { q: "Adjuvants are added to vaccines to:", options: ["Kill the virus", "Enhance the immune response", "Preserve the vaccine", "Reduce pain"], correct: 1 },
+                            { q: "ELISA is a test used to detect:", options: ["DNA", "Antigens or Antibodies", "Cells", "Glucose"], correct: 1 },
+                            { q: "Western Blot is used to confirm:", options: ["Diabetes", "HIV infection (Protein detection)", "Pregnancy", "Flu"], correct: 1 },
+                            { q: "Flow Cytometry utilizes:", options: ["Lasers to count/sort cells", "Microscopes", "X-rays", "Sound waves"], correct: 0 },
+                            { q: "Titer refers to:", options: ["Concentration of antibody", "Number of cells", "Type of virus", "Vaccine dose"], correct: 0 },
+                            { q: "Sensitivity of a test refers to:", options: ["Ability to identify positives correctly (True Positive)", "Ability to identify negatives", "Cost", "Speed"], correct: 0 },
+                            { q: "Specificity of a test refers to:", options: ["True Positives", "Ability to identify negatives correctly (True Negative)", "Ease of use", "Pain"], correct: 1 },
+                            { q: "The Coombs test detects:", options: ["Antibodies on RBCs", "WBC count", "Platelet function", "Clotting time"], correct: 0 },
+                            { q: "Immunofluorescence uses:", options: ["Radioactivity", "Fluorescent dyes attached to antibodies", "Heat", "Sound"], correct: 1 },
+                            { q: "Seroconversion means:", options: ["Developing antibodies after exposure/vaccination", "Getting sick", "Dying", "Recovering"], correct: 0 },
+                            { q: "A booster shot is needed to:", options: ["Start immunity", "Re-stimulate memory cells", "Kill the virus", "Cure the disease"], correct: 1 },
+                            { q: "Conjugate vaccines link a weak antigen to a:", options: ["Strong protein carrier", "Fat", "Sugar", "Water"], correct: 0 },
+                            { q: "Which vaccine prevents cervical cancer?", options: ["Hep B", "HPV (Gardasil)", "Flu", "MMR"], correct: 1 },
+                            { q: "BCG vaccine is for:", options: ["Polio", "Tuberculosis", "Measles", "Mumps"], correct: 1 },
+                            { q: "Oral Polio Vaccine (Sabin) stimulates:", options: ["IgG only", "Mucosal IgA immunity", "IgE", "No immunity"], correct: 1 },
+                            { q: "Rhesus prophylaxis (RhoGAM) serves to:", options: ["Cure the baby", "Prevent Mom from making anti-Rh antibodies", "Vaccinate the baby", "Induce labor"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -2765,18 +4106,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Community Health Foundations',
+                        title: 'Quiz Bank 1: Foundations & Models',
                         questions: [
                             { q: "Which core function of public health involves collecting and analyzing data on the community's health?", options: ["Assurance", "Policy Development", "Assessment", "Enforcement"], correct: 2 },
+                            { q: "What is the primary goal of Community Health Nursing?", options: ["Treating acute illness in hospital", "Promoting health and preventing disease in populations", "Performing surgery", "Managing ICU patients"], correct: 1 },
+                            { q: "Which level of prevention involves immunizations?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 0 },
+                            { q: "Screening for hypertension is an example of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Health Promotion"], correct: 1 },
+                            { q: "Rehabilitation after a stroke is considered:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Palliative Care"], correct: 2 },
+                            { q: "Healthy People 2030 encompasses:", options: ["Global health goals", "National objectives for improving health", "Hospital protocols", "Insurance policies"], correct: 1 },
+                            { q: "The Health Belief Model predicts health behavior based on:", options: ["Perceived susceptibility and severity", "Income and education", "Age and gender", "Genetics"], correct: 0 },
+                            { q: "A 'Windshield Survey' involves:", options: ["Interviewing residents", "Observing the community while driving/walking", "Conducting a census", "Testing water quality"], correct: 1 },
+                            { q: "Which is a social determinant of health?", options: ["Blood pressure", "Access to healthy food", "Genetic mutation", "Cholesterol level"], correct: 1 },
+                            { q: "The 'Assurance' function of public health ensures:", options: ["Laws are passed", "Services are available and accessible", "Data is collected", "Research is funded"], correct: 1 },
+                            { q: "Florence Nightingale is known for her work in:", options: ["Pharmacology", "Sanitation and Statistics", "Surgery", "Psychiatry"], correct: 1 },
+                            { q: "Lillian Wald is considered the founder of:", options: ["Public Health Nursing", "Anesthesiology", "Midwifery", "Pediatrics"], correct: 0 },
+                            { q: "Health disparities refer to:", options: ["Differences in health outcomes between groups", "Hospital errors", "Doctor shortages", "Insurance costs"], correct: 0 },
+                            { q: "Cultural competence involved:", options: ["Speaking all languages", "Respecting and understanding diverse cultural health beliefs", "Ignoring culture", "Traveling abroad"], correct: 1 },
+                            { q: "Community-Based Participatory Research (CBPR) involves:", options: ["Researchers deciding everything", "Partnership between researchers and community members", "Animal testing", "Lab experiments"], correct: 1 },
+                            { q: "Which creates the greatest impact on population health?", options: ["Individual counseling", "Socioeconomic factors", "Clinical interventions", "Genetic testing"], correct: 1 },
+                            { q: "A 'Community Diagnosis' identifies:", options: ["Individual patient diseases", "Existing community health problems and risks", "Hospital budget issues", "Doctor schedules"], correct: 1 },
+                            { q: "Evaluation in the nursing process determines:", options: ["If goals were met", "The diagnosis", "The budget", "The staffing needs"], correct: 0 },
+                            { q: "Advocacy in community health means:", options: ["Speaking up for the population's needs", "Ignoring problems", "Making money", "Running for office"], correct: 0 },
+                            { q: "Ethics in public health balances:", options: ["Individual rights vs. Community good", "Cost vs. Profit", "Doctors vs. Nurses", "Hospitals vs. Clinics"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Epidemiology & Biostatistics',
+                        questions: [
+                            { q: "The Epidemiological Triad consists of:", options: ["Host, Agent, Environment", "Person, Place, Time", "Viral, Bacterial, Fungal", "Doctor, Nurse, Patient"], correct: 0 },
                             { q: "An outbreak of disease that spreads across several countries or continents is called a:", options: ["Epidemic", "Endemic", "Pandemic", "Sporadic"], correct: 2 },
-                            { q: "Which of the following is an example of Secondary Prevention?", options: ["Nutrition education", "Rehabilitation after stroke", "Screening for Hypertension", "Vaccination"], correct: 2 },
-                            { q: "The reservoir in the chain of infection refers to:", options: ["The place where the pathogen lives and grows", "The portal of exit", "The mode of transmission", "The susceptible host"], correct: 0 },
-                            { q: "Which agency is primarily responsible for workplace safety in the US?", options: ["CDC", "FDA", "OSHA", "EPA"], correct: 2 },
-                            { q: "Providing treatment for a patient with active Tuberculosis helps protect the community. This is an example of:", options: ["Primary Prevention", "Tertiary Prevention", "Quaternary Prevention", "Secondary Prevention (preventing spread)"], correct: 1 },
-                            { q: "The number of new cases of a disease in a specific time period is the:", options: ["Prevalence", "Incidence", "Morbidity rate", "Mortality rate"], correct: 1 },
-                            { q: "Which factor is NOT part of the Epidemiological Triad?", options: ["Host", "Agent", "Environment", "Time"], correct: 3 },
-                            { q: "School nurses are responsible for which of the following?", options: ["Prescribing medication", "Monitoring immunizations", "Diagnosing broken bones", "Performing surgeries"], correct: 1 },
-                            { q: "Home health nursing primarily focuses on:", options: ["Acute care in hospital", "Preventive care in clinics", "Skilled care in the patient's residence", "Emergency response"], correct: 2 }
+                            { q: "Endemic refers to a disease that is:", options: ["Always present in a population", "New and spreading fast", "Global", "Rare"], correct: 0 },
+                            { q: "Incidence refers to:", options: ["Total cases", "New cases in a period", "Deaths", "Cures"], correct: 1 },
+                            { q: "Prevalence refers to:", options: ["New cases", "Total existing cases at a point in time", "Future cases", "Past cases"], correct: 1 },
+                            { q: "Morbidity refers to:", options: ["Death rate", "Illness/Disease rate", "Birth rate", "Fertility rate"], correct: 1 },
+                            { q: "Mortality refers to:", options: ["Illness", "Death rate", "Hospitalization", "Recovery"], correct: 1 },
+                            { q: "A 'Vector' in disease transmission is typically:", options: ["A human carrier", "An insect or animal that transmits the pathogen", "The water supply", "Used needles"], correct: 1 },
+                            { q: "Herd immunity requires:", options: ["100% vaccination", "A high proportion of immune individuals", "Antibiotics", "Quarantine"], correct: 1 },
+                            { q: "The 'Web of Causation' model emphasizes:", options: ["Single cause for disease", "Multiple interconnected factors causing disease", "Germ theory only", "Genetic fate"], correct: 1 },
+                            { q: "Sensitivity of a screening test is its ability to:", options: ["Identify negative cases", "Identify true positives", "Save money", "Be painless"], correct: 1 },
+                            { q: "Specificity of a screening test is its ability to:", options: ["Identify true negatives", "Identify positives", "Be fast", "Be available"], correct: 0 },
+                            { q: "Descriptive epidemiology focuses on:", options: ["Testing hypotheses", "Who, What, Where, When", "Why and How", "Clinical trials"], correct: 1 },
+                            { q: "Analytic epidemiology focuses on:", options: ["Description", "Determinants (Why and How)", "Counting cases", "Reporting"], correct: 1 },
+                            { q: "A Cohort Study is:", options: ["Retrospective case review", "Prospective study following a group over time", "A snapshot in time", "An experiment"], correct: 1 },
+                            { q: "A Case-Control Study compares:", options: ["People with disease vs. People without", "Two treatment groups", "Young vs. Old", "Rich vs. Poor"], correct: 0 },
+                            { q: "Randomized Controlled Trials (RCTs) are considered:", options: ["Weak evidence", "Gold standard for efficacy", "Unethical", "Observational"], correct: 1 },
+                            { q: "Surveillance involves:", options: ["Spying on people", "Ongoing collection and analysis of health data", "One-time survey", "Arresting sick people"], correct: 1 },
+                            { q: "Attack Rate is:", options: ["Number of people exposed", "Percentage of exposed people who get sick", "Number of deaths", "Speed of spread"], correct: 1 },
+                            { q: "The Infant Mortality Rate is a key indicator of:", options: ["Hospital wealth", "Population health and well-being", "Teacher quality", "Road safety"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Vulnerable Pops & Environment',
+                        questions: [
+                            { q: "Which population is considered 'vulnerable' due to migratory patterns and pesticide exposure?", options: ["Urban office workers", "Migrant farm workers", "School children", "Hospital nurses"], correct: 1 },
+                            { q: "Environmental Justice ensures:", options: ["Fair treatment regarding environmental laws and hazards", "Free lawyers", "Clean parks", "Recycling"], correct: 0 },
+                            { q: "Lead poisoning in children primarily affects the:", options: ["Lungs", "Nervous System/Brain", "Skin", "Stomach"], correct: 1 },
+                            { q: "A major cause of homelessness is:", options: ["Choice", "Lack of affordable housing and mental illness", "Laziness", "Too many shelters"], correct: 1 },
+                            { q: "Rural populations often face barriers such as:", options: ["Too many doctors", "Distance/Transportation to care", "High pollution", "Overcrowding"], correct: 1 },
+                            { q: "Food deserts are areas with:", options: ["No food at all", "Lack of affordable, healthy/fresh food options", "Too many restaurants", "Desert climate"], correct: 1 },
+                            { q: "Which gas is the 'Silent Killer' in homes?", options: ["Oxygen", "Carbon Monoxide", "Nitrogen", "Helium"], correct: 1 },
+                            { q: "Radon gas exposure increases risk of:", options: ["Lung Cancer", "Skin Cancer", "Stomach Cancer", "Blindness"], correct: 0 },
+                            { q: "Potable water is:", options: ["Dirty water", "Safe to drink", "Salt water", "Ice"], correct: 1 },
+                            { q: "Occupational health nurses focus on:", options: ["Surgery", "Workplace safety and injury prevention", "Pediatrics", "Home visits"], correct: 1 },
+                            { q: "OSHA mandates that employers provide:", options: ["Free lunch", "Safe working environment (PPE, Training)", "Transportation", "Gym membership"], correct: 1 },
+                            { q: "Ergonomics helps prevent:", options: ["Infections", "Musculoskeletal injuries", "Hearing loss", "Stress"], correct: 1 },
+                            { q: "Asbestosis is caused by:", options: ["Smoking", "Inhaling asbestos fibers", "Coal dust", "Silica"], correct: 1 },
+                            { q: "The 'Precautionary Principle' suggests:", options: ["Taking action to prevent harm even if scientific evidence is not fully established", "Waiting for proof", "Doing nothing", "Ignoring risks"], correct: 0 },
+                            { q: "Climate change is associated with:", options: ["Fewer diseases", "Increased vector-borne diseases and heat-related illness", "Stable weather", "Cleaner air"], correct: 1 },
+                            { q: "Teen pregnancy rates are highest in:", options: ["High income areas", "Low socioeconomic areas", "Rural areas only", "Cities only"], correct: 1 },
+                            { q: "Elderly abuse is most often committed by:", options: ["Strangers", "Family members/Caregivers", "Nurses", "Doctors"], correct: 1 },
+                            { q: "Refugees often suffer from:", options: ["PTSD and communicable diseases", "Obesity", "Wealth", "Too much healthcare"], correct: 0 },
+                            { q: "Disability guidelines require:", options: ["Separate facilities", "Accessibility and accommodation (ADA)", "Isolation", "Institutionalization"], correct: 1 },
+                            { q: "Correctional nursing involves care for:", options: ["Police officers", "Incarcerated populations", "Judges", "Victims"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Communicable & Chronic Diseases',
+                        questions: [
+                            { q: "The incubation period is the time between:", options: ["Exposure and onset of symptoms", "Symptoms and death", "Diagnosis and cure", "Treatment and recovery"], correct: 0 },
+                            { q: "Which disease requires Airborne Precautions?", options: ["Flu", "Tuberculosis (TB)", "HIV", "MRSA"], correct: 1 },
+                            { q: "Directly Observed Therapy (DOT) is standard for:", options: ["Diabetes", "Tuberculosis", "Hypertension", "Asthma"], correct: 1 },
+                            { q: "Lyme disease is transmitted by:", options: ["Mosquitoes", "Ticks", "Fleas", "Flies"], correct: 1 },
+                            { q: "Human Papillomavirus (HPV) is linked to:", options: ["Lung cancer", "Cervical cancer", "Liver cancer", "Bone cancer"], correct: 1 },
+                            { q: "The leading cause of death in the US is:", options: ["Cancer", "Heart Disease", "Accidents", "Stroke"], correct: 1 },
+                            { q: "Metabolic Syndrome increases risk for:", options: ["Diabetes and Heart Disease", "Infection", "Fractures", "Allergies"], correct: 0 },
+                            { q: "Hypertension is defined as BP consistently above:", options: ["120/80", "130/80", "110/70", "100/60"], correct: 1 },
+                            { q: "Type 2 Diabetes is primarily preventable through:", options: ["Vaccines", "Diet and Exercise", "Antibiotics", "Surgery"], correct: 1 },
+                            { q: "Chlamydia and Gonorrhea are:", options: ["Viral STIs", "Bacterial STIs", "Fungal infections", "Parasites"], correct: 1 },
+                            { q: "Syphilis is treated with:", options: ["Aspirin", "Penicillin", "Insulin", "Radiation"], correct: 1 },
+                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to humans", "Animals to humans", "Plants to humans", "Soil to humans"], correct: 1 },
+                            { q: "West Nile Virus is transmitted by:", options: ["Ticks", "Mosquitoes", "Birds directly", "Spiders"], correct: 1 },
+                            { q: "HIV is transmitted via:", options: ["Casual contact", "Blood, semen, vaginal fluids, breast milk", "Airborne droplets", "Saliva"], correct: 1 },
+                            { q: "Hepatitis A is transmitted via:", options: ["Blood", "Fecal-Oral route", "Sexual contact", "Airborne"], correct: 1 },
+                            { q: "Hepatitis B and C are transmitted via:", options: ["Food", "Blood and Body Fluids", "Air", "Water"], correct: 1 },
+                            { q: "Pertussis (Whooping Cough) is prevented by:", options: ["MMR vaccine", "DTaP/Tdap vaccine", "Flu shot", "Polio vaccine"], correct: 1 },
+                            { q: "Varicella Zoster virus causes:", options: ["Measles", "Chickenpox and Shingles", "Mumps", "Rubella"], correct: 1 },
+                            { q: "Norovirus is a common cause of:", options: ["Pneumonia", "Gastroenteritis (Stomach Flu)", "Meningitis", "Rash"], correct: 1 },
+                            { q: "Antibiotic resistance is caused by:", options: ["Overuse/Misuse of antibiotics", "Vaccines", "Hand washing", "Probiotics"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Settings of Care',
+                        questions: [
+                            { q: "Home health nursing primarily focuses on:", options: ["Acute care in hospital", "Preventive care in clinics", "Skilled care in the patient's residence", "Emergency response"], correct: 2 },
+                            { q: "School nurses are responsible for:", options: ["Prescribing medication", "Monitoring immunizations and health education", "Diagnosing broken bones", "Performing surgeries"], correct: 1 },
+                            { q: "Hospice care focuses on:", options: ["Curing disease", "Comfort and Quality of Life (Palliative)", "Experimental treatments", "Surgery"], correct: 1 },
+                            { q: "To qualify for Medicare hospice benefit, prognosis must be:", options: ["< 3 months", "< 6 months", "< 1 year", "< 2 years"], correct: 1 },
+                            { q: "Faith Community Nursing (Parish Nursing) focuses on:", options: ["Physical care only", "Holistic care (Spirituality and Health)", "Surgery in church", "Preaching"], correct: 1 },
+                            { q: "Forensic nursing involves:", options: ["Care for victims/perpetrators of trauma/crime", "Autopsies only", "Lab work only", "Admin work"], correct: 0 },
+                            { q: "Disaster nursing triage tag 'Black' indicates:", options: ["Immediate", "Delayed", "Minor", "Deceased/Expectant"], correct: 3 },
+                            { q: "Disaster nursing triage tag 'Red' indicates:", options: ["Immediate threat of life (Treat first)", "Deceased", "Walking wounded", "Wait"], correct: 0 },
+                            { q: "Disaster nursing triage tag 'Green' indicates:", options: ["Critical", "Walking Wounded (Minor)", "Deceased", "Urgent"], correct: 1 },
+                            { q: "The 'Sandwich Generation' cares for:", options: ["Children only", "Aging parents and their own children", "Pets", "Nobody"], correct: 1 },
+                            { q: "Caregiver burnout signs include:", options: ["Happiness", "Exhaustion, irritability, withdrawal", "Energy", "Sleep"], correct: 1 },
+                            { q: "Public Health Clinics typically provide:", options: ["Organ transplants", "Immunizations, STI testing, WIC", "ICU care", "MRI scans"], correct: 1 },
+                            { q: "Head Start programs promote:", options: ["School readiness for low-income children", "College admission", "Job training", "Retirement"], correct: 0 },
+                            { q: "WIC provides nutrition for:", options: ["Everyone", "Women, Infants, and Children", "Men only", "Elderly"], correct: 1 },
+                            { q: "Rural Health Clinics receive funding to:", options: ["Make profit", "Improve access in underserved areas", "Conduct research", "Build skyscrapers"], correct: 1 },
+                            { q: "Telehealth uses technology to:", options: ["Replace doctors", "Provide care remotely", "Increase cost", "Delay care"], correct: 1 },
+                            { q: "OASIS is the data set used in:", options: ["Hospitals", "Home Health Care", "Schools", "Prisons"], correct: 1 },
+                            { q: "Case Management involves:", options: ["Diagnosing", "Coordinating care and resources", "Billing only", "Cleaning"], correct: 1 },
+                            { q: "Family as context means focusing on:", options: ["The family as the patient", "The individual client within the family", "Society", "Genetics"], correct: 1 },
+                            { q: "Genogram helps visualize:", options: ["Map of the neighborhood", "Family health history and relationships", "Genetic coding", "Insurance plan"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -2917,18 +4407,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Pediatric Nursing Essentials',
+                        title: 'Quiz Bank 1: Growth & Development',
                         questions: [
                             { q: "In which direction does infant growth and development proceed?", options: ["Feet to Head", "Cephalocaudal (Head to Toe)", "Distal to Proximal", "Randomly"], correct: 1 },
-                            { q: "Which fontanelle typically closes by 2 months of age?", options: ["Anterior", "Posterior", "Mastoid", "Sphenoid"], correct: 1 },
-                            { q: "The 'Tet Spell' (hypercyanotic spell) is associated with which congenital heart defect?", options: ["VSD", "ASD", "Tetralogy of Fallot", "PDA"], correct: 2 },
-                            { q: "What is the primary concern for a child with RSV/Bronchiolitis?", options: ["Dehydration", "Airway obstruction from mucus", "Hearing loss", "Skin rash"], correct: 1 },
-                            { q: "Which vaccine marks the start of the immunization schedule at birth?", options: ["MMR", "Hepatitis B", "Polio", "Rotavirus"], correct: 1 },
+                            { q: "At what age should an infant typically double their birth weight?", options: ["4 months", "6 months", "9 months", "12 months"], correct: 1 },
+                            { q: "Erikson's stage of development for a toddler (1-3 yrs) is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 1 },
+                            { q: "Erikson's stage of development for a school-age child (6-12 yrs) is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 3 },
                             { q: "A 4-year-old child believes their thoughts can cause events. This is called:", options: ["Logical reasoning", "Magical thinking", "Abstract thinking", "Egocentrism"], correct: 1 },
-                            { q: "What is the most accurate method to measure urine output in a non-potty trained infant?", options: ["Estimating wet diapers", "Weighing diapers", "Catheterization", "Asking parents"], correct: 1 },
-                            { q: "An infant with sunken fontanelles and dry mucous membranes is likely suffering from:", options: ["Overhydration", "Dehydration", "Meningitis", "Hydrocephalus"], correct: 1 },
+                            { q: "Which activity is developmentally appropriate for a school-age child?", options: ["Playing Peek-a-boo", "Parallel play with blocks", "Joining a sports team", "Building a complex identity"], correct: 2 },
+                            { q: "The 'Pincer Grasp' (using thumb and forefinger) typically develops by:", options: ["2 months", "6 months", "9-10 months", "18 months"], correct: 2 },
+                            { q: "An infant typically rolls from tummy to back at:", options: ["1 month", "4-5 months", "9 months", "12 months"], correct: 1 },
+                            { q: "Teenagers (12-18 yrs) are in Erikson's stage of:", options: ["Identity vs Role Confusion", "Intimacy vs Isolation", "Industry vs Inferiority", "Generativity vs Stagnation"], correct: 0 },
+                            { q: "Which reflex disappears around 4 months of age?", options: ["Blinking", "Moro (Startle)", "Gag", "Cough"], correct: 1 },
+                            { q: "Parallel play is most characteristic of which age group?", options: ["Infants", "Toddlers", "Preschoolers", "Adolescents"], correct: 1 },
+                            { q: "Cooperative play begins in which age group?", options: ["Infants", "Toddlers", "Preschoolers", "Teens"], correct: 2 },
+                            { q: "Object permanence (knowing an object exists when hidden) develops during:", options: ["Infancy (Sensorimotor)", "Preschool", "School Age", "Adolescence"], correct: 0 },
+                            { q: "A major developmental milestone at 12 months is:", options: ["Running", "Walking and saying first words", "Reading", "Tying shoes"], correct: 1 },
+                            { q: "Toilet training readiness usually occurs around:", options: ["6 months", "12 months", "18-24 months", "4 years"], correct: 2 },
+                            { q: "Which is a sign of puberty in females?", options: ["Voice change", "Breast bud development (Thelarche)", "Beard growth", "Shoulder broadening"], correct: 1 },
+                            { q: "Anticipatory guidance for a 6-month-old includes preventing:", options: ["Drowning in pools", "Falls and Choking", "Car accidents (driving)", "Drug abuse"], correct: 1 },
+                            { q: "Separation anxiety typically peaks around:", options: ["1 month", "6-8 months and 18 months", "5 years", "12 years"], correct: 1 },
+                            { q: "Which chart is used to track height and weight?", options: ["Snellen Chart", "Growth Chart (BMI)", "Apgar Score", "Glasgow Coma Scale"], correct: 1 },
+                            { q: "Failure to Thrive (FTT) describes:", options: ["Obesity", "Inadequate growth/weight gain", "Mental delays", "Hyperactivity"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Vitals & Assessment',
+                        questions: [
+                            { q: "Which fontanelle typically closes by 2 months of age?", options: ["Anterior", "Posterior", "Mastoid", "Sphenoid"], correct: 1 },
+                            { q: "The Anterior Fontanelle typically closes by:", options: ["2 months", "6 months", "12-18 months", "3 years"], correct: 2 },
                             { q: "When assessing a toddler, which part of the exam should be done last?", options: ["Listening to heart", "Listening to lungs", "Inspecting ears and throat", "Palpating abdomen"], correct: 2 },
-                            { q: "Which activity is developmentally appropriate for a school-age child?", options: ["Playing Peek-a-boo", "Parallel play with blocks", "Joining a sports team", "Building a complex identity"], correct: 2 }
+                            { q: "An infant with sunken fontanelles and dry mucous membranes is likely suffering from:", options: ["Overhydration", "Dehydration", "Meningitis", "Hydrocephalus"], correct: 1 },
+                            { q: "A bulging fontanelle in an infant may indicate:", options: ["Dehydration", "Increased Intracranial Pressure (ICP)", "Malnutrition", "Sleepiness"], correct: 1 },
+                            { q: "The apical pulse in a child under 7 is best auscultated at the:", options: ["5th Intercostal Space, Midclavicular Line", "4th Intercostal Space, Midclavicular Line", "2nd Intercostal Space", "Carotid artery"], correct: 1 },
+                            { q: "What is the most accurate method to measure urine output in a non-potty trained infant?", options: ["Estimating wet diapers", "Weighing diapers", "Catheterization", "Asking parents"], correct: 1 },
+                            { q: "Normal heart rate for a newborn is roughly:", options: ["60-80 bpm", "80-100 bpm", "110-160 bpm", "180-200 bpm"], correct: 2 },
+                            { q: "Blood pressure in children is generally:", options: ["Higher than adults", "Lower than adults", "Same as adults", "Unmeasurable"], correct: 1 },
+                            { q: "Head circumference is measured routinely until age:", options: ["1 year", "3 years", "5 years", "10 years"], correct: 1 },
+                            { q: "Which pain scale is appropriate for a 4-year-old?", options: ["Numeric (0-10)", "Wong-Baker FACES", "FLACC", "Word scale"], correct: 1 },
+                            { q: "The FLACC pain scale is used for:", options: ["Adolescents", "Non-verbal children/Infants", "Adults", "Elderly"], correct: 1 },
+                            { q: "When examining an ear in a child under 3, pull the pinna:", options: ["Up and Back", "Down and Back", "Forward", "Do not pull"], correct: 1 },
+                            { q: "When examining an ear in a child over 3, pull the pinna:", options: ["Up and Back", "Down and Back", "Forward", "Do not pull"], correct: 0 },
+                            { q: "Stridor is a high-pitched sound indicating:", options: ["Lower airway obstruction", "Upper airway obstruction", "Fluid in lungs", "Heart murmur"], correct: 1 },
+                            { q: "Retractions during breathing indicate:", options: ["Normal breathing", "Respiratory distress", "Happy child", "Sleeping"], correct: 1 },
+                            { q: "Cyanosis is a late sign of:", options: ["Hypoxia", "Fever", "Anemia", "Hunger"], correct: 0 },
+                            { q: "Capillary refill time should be:", options: ["< 2 seconds", "> 5 seconds", "> 10 seconds", "Doesn't matter"], correct: 0 },
+                            { q: "Which pulse is used for CPR in an infant?", options: ["Carotid", "Brachial", "Femoral", "Radial"], correct: 1 },
+                            { q: "Which pulse is used for CPR in a child (Puberty and older)?", options: ["Carotid", "Brachial", "Femoral", "Radial"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Respiratory & Cardiac Disorders',
+                        questions: [
+                            { q: "The 'Tet Spell' (hypercyanotic spell) is associated with which congenital heart defect?", options: ["VSD", "ASD", "Tetralogy of Fallot", "PDA"], correct: 2 },
+                            { q: "During a Tet Spell, the best position for the child is:", options: ["Lying flat", "Knee-chest (Squatting)", "Standing up", "Walking"], correct: 1 },
+                            { q: "What is the primary concern for a child with RSV/Bronchiolitis?", options: ["Dehydration", "Airway obstruction from mucus", "Hearing loss", "Skin rash"], correct: 1 },
+                            { q: "Which of the following is a sign of Epiglottitis?", options: ["Barking cough", "Drooling, Dysphagia, Distress", "Runny nose", "Ear pain"], correct: 1 },
+                            { q: "Important nursing intervention for Epiglottitis is:", options: ["Inspect the throat with a tongue blade", "Keep the child calm and do not inspect throat", "Lay the child flat", "Force feed"], correct: 1 },
+                            { q: "Croup (Laryngotracheobronchitis) is characterized by:", options: ["Wheezing", "Barking 'seal-like' cough", "High fever", "Drooling"], correct: 1 },
+                            { q: "Cystic Fibrosis is diagnosed via:", options: ["Blood test", "Sweat Chloride Test", "Urine test", "X-ray"], correct: 1 },
+                            { q: "In fetal circulation, what structure connects the Pulmonary Artery to the Aorta?", options: ["Foramen Ovale", "Ductus Venosus", "Ductus Arteriosus", "Vena Cava"], correct: 2 },
+                            { q: "Patent Ductus Arteriosus (PDA) causes a:", options: ["Left-to-Right Shunt (Increased pulmonary flow)", "Right-to-Left Shunt (Cyanosis)", "Stroke", "Heart attack"], correct: 0 },
+                            { q: "Coarctation of the Aorta is characterized by:", options: ["High BP in arms, Low BP in legs", "Low BP in arms, High BP in legs", "Equal BP", "No pulse"], correct: 0 },
+                            { q: "Kawasaki Disease presents with:", options: ["Strawberry tongue, fever > 5 days, rash", "Cool skin", "Hypothermia", "Cough"], correct: 0 },
+                            { q: "Rheumatic Fever is a complication of:", options: ["Staph infection", "Untreated Group A Strep throat", "Flu", "Chickenpox"], correct: 1 },
+                            { q: "Digoxin is held for an infant if the heart rate is:", options: ["< 60 bpm", "< 90-100 bpm", "< 120 bpm", "> 160 bpm"], correct: 1 },
+                            { q: "Albuterol is used for Asthma as a:", options: ["Long-acting controller", "Rescue bronchodilator", "Antibiotic", "Vitamin"], correct: 1 },
+                            { q: "Status Asthmaticus is:", options: ["Mild asthma", "A medical emergency unresponsive to treatment", "Controlled asthma", "Allergic rhinitis"], correct: 1 },
+                            { q: "Otitis Media is an infection of the:", options: ["Outer ear", "Middle ear", "Inner ear", "Nose"], correct: 1 },
+                            { q: "Tonsillectomy post-op care includes watching for:", options: ["Frequent swallowing (Bleeding)", "Snoring", "Thirst", "Talking"], correct: 0 },
+                            { q: "SIDS preventions include:", options: ["Side sleeping", "Back to sleep", "Tummy sleeping", "Soft bedding"], correct: 1 },
+                            { q: "Bronchopulmonary Dysplasia (BPD) is a chronic lung disease often seen in:", options: ["Full term babies", "Premature infants on ventilators", "Toddlers", "Teens"], correct: 1 },
+                            { q: "Which congenital defect involves an opening between the ventricles?", options: ["ASD", "VSD", "PDA", "Coarctation"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Fluids & Safety',
+                        questions: [
+                            { q: "Why do infants dehydrate faster than adults?", options: ["Lower metabolic rate", "Higher metabolic rate and larger body surface area", "More kidney function", "Less skin"], correct: 1 },
+                            { q: "The first sign of shock in a child is often:", options: ["Hypotension", "Tachycardia", "Bradycardia", "Fever"], correct: 1 },
+                            { q: "Mild dehydration is best treated with:", options: ["IV fluids", "Oral Rehydration Solution (ORS)", "Soda", "Water only"], correct: 1 },
+                            { q: "Severe dehydration requires:", options: ["ORS", "IV Bolus (Isotonic saline 20mL/kg)", "Rest", "Antibiotics"], correct: 1 },
+                            { q: "Potassium should NOT be added to IV fluids until:", options: ["The child has urinated", "The child feels better", "The fever is gone", "The BP is normal"], correct: 0 },
+                            { q: "A common cause of burns in toddlers is:", options: ["Chemicals", "Hot water/liquids (Scalds)", "Electricity", "Sun"], correct: 1 },
+                            { q: "To prevent accidental poisoning, parents should:", options: ["Keep meds on the counter", "Lock meds and chemicals away out of reach", "Tell child 'No'", "Hide them under the bed"], correct: 1 },
+                            { q: "Acetaminophen overdose damages the:", options: ["Kidneys", "Liver", "Heart", "Lungs"], correct: 1 },
+                            { q: "Lead poisoning is treated with:", options: ["Chelation therapy", "Antibiotics", "Dialysis", "Surgery"], correct: 0 },
+                            { q: "When riding in a car, an infant should face:", options: ["Forward", "Rear-facing", "Sideways", "Doesn't matter"], correct: 1 },
+                            { q: "The leading cause of death in adolescents is:", options: ["Cancer", "Motor Vehicle Accidents", "Heart disease", "Flu"], correct: 1 },
+                            { q: "Munchausen Syndrome by Proxy is:", options: ["Genetic", "Child abuse where caregiver fabricates illness", "Infection", "Accident"], correct: 1 },
+                            { q: "Shaken Baby Syndrome causes:", options: ["Broken legs", "Retinal hemorrhage and Brain injury", "Rash", "Fever"], correct: 1 },
+                            { q: "Which food is a high choking hazard for toddlers?", options: ["Mashed potatoes", "Hot dogs and grapes", "Yogurt", "Applesauce"], correct: 1 },
+                            { q: "Water safety for toddlers involves:", options: ["Swimming lessons only", "Constant supervision and fences", "Floaties", "Trusting the child"], correct: 1 },
+                            { q: "Hypospadias is a defect where the urethral opening is on the:", options: ["Dorsal side", "Ventral (underside) of the penis", "Side", "Tip"], correct: 1 },
+                            { q: "Cryptorchidism refers to:", options: ["Undescended testicles", "Hernia", "Kidney stones", "UTI"], correct: 0 },
+                            { q: "Wilms Tumor is a cancer of the:", options: ["Brain", "Kidney (Do not palpate abdomen)", "Bone", "Eye"], correct: 1 },
+                            { q: "Intussusception stool looks like:", options: ["Black tar", "Currant jelly", "Green slime", "White clay"], correct: 1 },
+                            { q: "Pyloric Stenosis presents with:", options: ["Projectile vomiting (Olive shaped mass)", "Diarrhea", "Fever", "Constipation"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Immunizations & Common Illnesses',
+                        questions: [
+                            { q: "Which vaccine marks the start of the immunization schedule at birth?", options: ["MMR", "Hepatitis B", "Polio", "Rotavirus"], correct: 1 },
+                            { q: "The MMR vaccine is first given at:", options: ["2 months", "6 months", "12-15 months", "4 years"], correct: 2 },
+                            { q: "Which vaccine prevents Whooping Cough?", options: ["Hib", "DTaP", "IPV", "Hep A"], correct: 1 },
+                            { q: "Varicella vaccine prevents:", options: ["Measles", "Chickenpox", "Mumps", "Flu"], correct: 1 },
+                            { q: "Rotavirus vaccine is given typically via which route?", options: ["IM injection", "Oral", "SQ injection", "IV"], correct: 1 },
+                            { q: "Sickle Cell Anemia crisis is precipitated by:", options: ["Rest", "Dehydration, Hypoxia, Stress", "Food", "Sleep"], correct: 1 },
+                            { q: "Hemophilia A is a deficiency of Factor:", options: ["VII", "VIII", "IX", "X"], correct: 1 },
+                            { q: "Leukemia is a cancer of the:", options: ["Bone", "Blood-forming tissues (Bone Marrow)", "Brain", "Skin"], correct: 1 },
+                            { q: "Symptoms of Meningitis include:", options: ["Stiff neck (Nuchal rigidity), fever, headache", "Diarrhea", "Cough", "Leg pain"], correct: 0 },
+                            { q: "Kernig's and Brudzinski's signs test for:", options: ["Hip dysplasia", "Meningitis", "Reflexes", "Hearing"], correct: 1 },
+                            { q: "Hip Dysplasia in infants is assessed using:", options: ["Ortolani and Barlow maneuvers", "Romberg test", "Snellen chart", "Hearing test"], correct: 0 },
+                            { q: "Scoliosis is:", options: ["Curvature of the spine", "Joint pain", "Flat feet", "Broken bone"], correct: 0 },
+                            { q: "Duchenne Muscular Dystrophy involves:", options: ["Weak bones", "Progressive muscle weakness (Gower's sign)", "Mental retardation", "Blindness"], correct: 1 },
+                            { q: "Impetigo is a skin infection characterized by:", options: ["Honey-colored crusts", "White patches", "Blue spots", "Red lines"], correct: 0 },
+                            { q: "Ringworm (Tinea Corporis) is caused by a:", options: ["Worm", "Fungus", "Virus", "Bacteria"], correct: 1 },
+                            { q: "Scabies involves:", options: ["Lice", "Mites burrowing under skin", "Fleas", "Ticks"], correct: 1 },
+                            { q: "Pediculosis Capitis is:", options: ["Head Lice", "Dandruff", "Ringworm", "Acne"], correct: 0 },
+                            { q: "Conjunctivitis is also known as:", options: ["Pink Eye", "Stye", "Glaucoma", "Cataract"], correct: 0 },
+                            { q: "Fifth Disease (Parvovirus B19) presents with:", options: ["Slapped cheek rash", "Strawberry tongue", "Sandpaper rash", "Blue spots"], correct: 0 },
+                            { q: "Hand-Foot-Mouth disease is caused by:", options: ["Coxsackievirus", "Herpes", "Flu", "Staph"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3071,18 +4710,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Clinical Nutrition',
+                        title: 'Quiz Bank 1: Macros & Dietary Guidelines',
                         questions: [
+                            { q: "Which macronutrient provides 9 kcal per gram?", options: ["Carbohydrate", "Protein", "Fat", "Alcohol"], correct: 2 },
+                            { q: "Which macronutrient is the body's primary energy source?", options: ["Fat", "Carbohydrate", "Protein", "Water"], correct: 1 },
+                            { q: "Proteins are composed of:", options: ["Fatty acids", "Amino acids", "Glucose", "Glycerol"], correct: 1 },
+                            { q: "Essential amino acids are those that:", options: ["The body makes naturally", "Must be obtained from the diet", "Are not needed", "Cause allergies"], correct: 1 },
+                            { q: "Saturated fats are typically found in:", options: ["Olive oil", "Animal products (meat/dairy)", "Avocados", "Nuts"], correct: 1 },
+                            { q: "Fiber is a type of:", options: ["Protein", "Fat", "Complex Carbohydrate", "Vitamin"], correct: 2 },
+                            { q: "The MyPlate guide suggests that half your plate should be:", options: ["Meat", "Grains", "Fruits and Vegetables", "Dairy"], correct: 2 },
+                            { q: "Which lipid is known as 'good cholesterol'?", options: ["LDL", "HDL", "Triglycerides", "Saturated Fat"], correct: 1 },
+                            { q: "Complete proteins contain:", options: ["All 9 essential amino acids", "No amino acids", "Only 2 amino acids", "Sugar"], correct: 0 },
+                            { q: "An example of a complex carbohydrate is:", options: ["Table sugar", "Whole wheat bread", "Honey", "Soda"], correct: 1 },
+                            { q: "Trans fats are dangerous because they:", options: ["Lower LDL", "Raise LDL and lower HDL", "Improve heart health", "Are natural"], correct: 1 },
+                            { q: "The recommended daily water intake is roughly:", options: ["1 cup", "2 liters (8 glasses)", "5 gallons", "10 liters"], correct: 1 },
+                            { q: "Glycogen is stored in:", options: ["The brain", "Liver and Muscles", "Stomach", "Kidneys"], correct: 1 },
+                            { q: "Which food group provides the most calcium?", options: ["Fruits", "Grains", "Dairy", "Meats"], correct: 2 },
+                            { q: "Refined grains have removed the:", options: ["Bran and Germ", "Endosperm", "Gluten", "Starch"], correct: 0 },
+                            { q: "Protein caloric density is:", options: ["4 kcal/g", "7 kcal/g", "9 kcal/g", "0 kcal/g"], correct: 0 },
+                            { q: "Carbohydrate caloric density is:", options: ["4 kcal/g", "7 kcal/g", "9 kcal/g", "0 kcal/g"], correct: 0 },
+                            { q: "Excess protein intake can strain the:", options: ["Lungs", "Kidneys", "Heart", "Eyes"], correct: 1 },
+                            { q: "Omega-3 fatty acids are found in:", options: ["Butter", "Fatty fish (Salmon) and Walnuts", "Candy", "Beef"], correct: 1 },
+                            { q: "The main function of protein is:", options: ["Energy storage", "Tissue building and repair", "Insulation", "Hydration"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Micros & Assessment',
+                        questions: [
+                            { q: "Which vitamin enhances the absorption of Iron?", options: ["Vitamin C", "Vitamin D", "Vitamin K", "Vitamin B12"], correct: 0 },
+                            { q: "Vitamin D deficiency causes:", options: ["Scurvy", "Rickets (soft bones)", "Beriberi", "Night blindness"], correct: 1 },
+                            { q: "Vitamin C deficiency causes:", options: ["Scurvy (bleeding gums)", "Rickets", "Pellagra", "Anemia"], correct: 0 },
+                            { q: "Vitamin K is essential for:", options: ["Vision", "Blood Clotting", "Bone health", "Energy production"], correct: 1 },
+                            { q: "Iron deficiency leads to:", options: ["Hypertension", "Anemia", "Obesity", "Diabetes"], correct: 1 },
+                            { q: "Sodium is critical for:", options: ["Vision", "Fluid balance and nerve transmission", "Bone strength", "Clotting"], correct: 1 },
+                            { q: "Excess sodium intake is linked to:", options: ["Hypotension", "Hypertension (High BP)", "Anemia", "Weight loss"], correct: 1 },
                             { q: "Which laboratory value is the best indicator of long-term nutritional status?", options: ["Pre-albumin", "Albumin", "Hemoglobin", "Transferrin"], correct: 1 },
+                            { q: "Pre-albumin is a better indicator of:", options: ["Hydration", "Recent nutritional status (short half-life)", "Long-term status", "Kidney function"], correct: 1 },
+                            { q: "A BMI of 27 is considered:", options: ["Underweight", "Normal", "Overweight", "Obese"], correct: 2 },
+                            { q: "A BMI > 30 is considered:", options: ["Normal", "Overweight", "Obese", "Underweight"], correct: 2 },
+                            { q: "Pernicious anemia is caused by a lack of:", options: ["Iron", "Vitamin B12 (Intrinsic Factor issue)", "Vitamin C", "Folate"], correct: 1 },
+                            { q: "Potassium is crucial for:", options: ["Bone health", "Heart function and muscle contraction", "Vision", "Digestion"], correct: 1 },
+                            { q: "Calcium usually requires which vitamin for absorption?", options: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"], correct: 2 },
+                            { q: "Anthropometric measurements include:", options: ["Blood tests", "Height, Weight, BMI, Skin fold", "X-rays", "Urine tests"], correct: 1 },
+                            { q: "Which sign indicates poor nutritional status?", options: ["Shiny hair", "Muscle wasting and poor skin turgor", "Clear eyes", "Strong nails"], correct: 1 },
+                            { q: "Dietary recall involves:", options: ["Blood draw", "Asking patient what they ate in past 24hrs", "Weighing the patient", "Testing urine"], correct: 1 },
+                            { q: "Folic Acid is crucial for preventing:", options: ["Neural Tube Defects (Spina Bifida)", "Scurvy", "Rickets", "Blindness"], correct: 0 },
+                            { q: "The most abundant mineral in the body is:", options: ["Iron", "Calcium", "Zinc", "Magnesium"], correct: 1 },
+                            { q: "Which vitamin is fat-soluble and stored in the liver?", options: ["Vitamin C", "Vitamin A", "Vitamin B12", "Folate"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Clinical Nutrition & Diets',
+                        questions: [
                             { q: "A patient with hypertension should be placed on which diet?", options: ["Low Residue", "DASH (Dietary Approaches to Stop Hypertension)", "High Protein", "Clear Liquid"], correct: 1 },
-                            { q: "During pregnancy, increased intake of Folic Acid prevents:", options: ["Anemia", "Neural Tube Defects", "Morning Sickness", "Gestational Diabetes"], correct: 1 },
-                            { q: "The temperature danger zone for food safety is:", options: ["0-32°F", "40-140°F", "150-200°F", "Above 212°F"], correct: 1 },
-                            { q: "Which vitamin is synthesized by the skin upon exposure to sunlight?", options: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"], correct: 2 },
-                            { q: "Marasmus is a deficiency of:", options: ["Protein only", "Calories (Total Energy)", "Vitamin C", "Iron"], correct: 1 },
-                            { q: "Which of the following is a symptom of hypoglycemia?", options: ["Bradycardia", "Sweating/Tremors", "Warm dry skin", "Fruity breath"], correct: 1 },
+                            { q: "A Renal Diet typically restricts:", options: ["Carbs", "Protein, Potassium, Sodium, Phosphorus", "Fats", "Water"], correct: 1 },
                             { q: "Patients with Celiac disease must avoid:", options: ["Dairy", "Gluten (Wheat, Barley, Rye)", "Peanuts", "Shellfish"], correct: 1 },
-                            { q: "Enteral nutrition (tube feeding) is contraindicated in patients with:", options: ["Throat cancer", "Paralytic ileus (non-functioning gut)", "Dysphagia", "Coma"], correct: 1 },
-                            { q: "Vitamin K is essential for:", options: ["Vision", "Blood Clotting", "Bone health", "Energy production"], correct: 1 }
+                            { q: "A Clear Liquid diet includes:", options: ["Milk", "Broth, Jello, Juice (no pulp), Water", "Yogurt", "Pudding"], correct: 1 },
+                            { q: "A Full Liquid diet includes:", options: ["Only water", "Clear liquids plus dairy/pudding", "Solid food", "Steak"], correct: 1 },
+                            { q: "Which nutrient affects blood glucose levels the most?", options: ["Proteins", "Fats", "Carbohydrates", "Vitamins"], correct: 2 },
+                            { q: "Carbohydrate counting is essential for patients with:", options: ["Diabetes", "Cancer", "Anemia", "Asthma"], correct: 0 },
+                            { q: "A Low Residue diet is often used for:", options: ["Constipation", "Crohn's Disease/Colitis flare-ups", "Diabetes", "Heart disease"], correct: 1 },
+                            { q: "Dysphagia diets require:", options: ["Thin liquids", "Thickened liquids and pureed food", "Dry toast", "Popcorn"], correct: 1 },
+                            { q: "Heart Healthy diets advocate avoiding:", options: ["Fiber", "Saturated and Trans Fats, excess Sodium", "Fruits", "Water"], correct: 1 },
+                            { q: "NPO means:", options: ["Eat freely", "Nothing by Mouth", "New Patient Order", "Non-Protein Only"], correct: 1 },
+                            { q: "A diabetic patient experiencing hypoglycemia should consume:", options: ["Insulin", "15g of fast-acting carbs (juice/candy)", "Steak", "Water"], correct: 1 },
+                            { q: "Which oil is lowest in saturated fat?", options: ["Coconut oil", "Butter", "Canola/Olive oil", "Lard"], correct: 2 },
+                            { q: "Vegetarians may need to supplement:", options: ["Vitamin C", "Vitamin B12", "Folate", "Vitamin E"], correct: 1 },
+                            { q: "Iron absorption is inhibited by:", options: ["Vitamin C", "Calcium/Dairy and Tea/Coffee", "Meat", "Fruits"], correct: 1 },
+                            { q: "Gout patients should avoid foods high in:", options: ["Purines (Organ meats, alcohol, sardines)", "Sugar", "Dairy", "Fiber"], correct: 0 },
+                            { q: "GERD patients should avoid:", options: ["Water", "Caffeine, Alcohol, Spicy/Acidic foods, Chocolate", "Bread", "Apples"], correct: 1 },
+                            { q: "Dumping syndrome prevention includes:", options: ["Eating fast", "Small frequent meals, avoid fluids with meals, low sugar", "Large meals", "High sugar"], correct: 1 },
+                            { q: "Sodium restriction is key for:", options: ["Osteoporosis", "Heart Failure and Hypertension", "Anemia", "Fractures"], correct: 1 },
+                            { q: "High fiber diet prevents:", options: ["Diarrhea", "Constipation and Diverticulosis", "Vomiting", "Fever"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Enteral/Parenteral & Life Cycle',
+                        questions: [
+                            { q: "Enteral nutrition (tube feeding) uses the:", options: ["Veins", "GI Tract", "Skin", "Lungs"], correct: 1 },
+                            { q: "Parenteral nutrition (TPN) uses the:", options: ["Stomach", "Central Vein (IV)", "Mouth", "Rectum"], correct: 1 },
+                            { q: "What is the primary risk associated with Total Parenteral Nutrition (TPN)?", options: ["Aspiration", "Infection (Sepsis) via central line", "Diarrhea", "Gastric Ulcers"], correct: 1 },
+                            { q: "A serious risk of Enteral feeding is:", options: ["Aspiration Pneumonia", "Sepsis", "Stroke", "Fever"], correct: 0 },
+                            { q: "To prevent aspiration with tube feeding, elevate HOB:", options: ["10 degrees", "30-45 degrees", "Flat", "Downward"], correct: 1 },
+                            { q: "Checking residual volume in tube feeding assesses:", options: ["Kidney function", "Gastric emptying/Tolerance", "Liver function", "Lung capacity"], correct: 1 },
+                            { q: "During pregnancy, caloric needs:", options: ["Decrease", "Stay the same", "Increase (especially 2nd/3rd trimester)", "Double"], correct: 2 },
+                            { q: "Infants should be exclusively breastfed for:", options: ["1 month", "6 months", "1 year", "2 years"], correct: 1 },
+                            { q: "Solid foods (Iron-fortified cereal) are introduced at:", options: ["2 months", "6 months", "12 months", "3 months"], correct: 1 },
+                            { q: "Elderly patients are at higher risk for:", options: ["Obesity", "Dehydration and Malnutrition", "Growing too fast", "Acne"], correct: 1 },
+                            { q: "Pica in pregnancy (eating non-food items) suggests:", options: ["Iron Deficiency Anemia", "Boredom", "Mental illness", "Progesterone excess"], correct: 0 },
+                            { q: "Toddlers are at risk for choking on:", options: ["Mashed potatoes", "Grapes, Hot dogs, Nuts", "Yogurt", "Soup"], correct: 1 },
+                            { q: "Adolescents often have deficiencies in:", options: ["Fat", "Calcium and Iron", "Sodium", "Sugar"], correct: 1 },
+                            { q: "The 'Failure to Thrive' in infants can be nutritional or:", options: ["Genetic", "Emotional/Psychosocial", "Infectious", "All of the above"], correct: 3 },
+                            { q: "Introducing cow's milk before 1 year can cause:", options: ["GI bleeding/Iron deficiency", "Strong bones", "Better sleep", "Faster growth"], correct: 0 },
+                            { q: "Honey should not be given to infants under 1 year due to:", options: ["Botulism risk", "Allergy", "Taste", "Sugar content"], correct: 0 },
+                            { q: "Gestational diabetes requires monitoring of:", options: ["Blood pressure", "Blood glucose and Carb intake", "Temperature", "Heart rate"], correct: 1 },
+                            { q: "Lactating women need increased:", options: ["Sleep only", "Hydration and Calories", "Sodium", "Caffeine"], correct: 1 },
+                            { q: "Which sense declines in elderly affecting intake?", options: ["Taste and Smell", "Hearing", "Touch", "Balance"], correct: 0 },
+                            { q: "Sarcopenia in elderly is loss of:", options: ["Bone", "Muscle mass", "Fat", "Hair"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Disorders & Safety',
+                        questions: [
+                            { q: "The temperature danger zone for food safety is:", options: ["0-32°F", "40-140°F", "150-200°F", "Above 212°F"], correct: 1 },
+                            { q: "Cross-contamination occurs when:", options: ["Food is cooked", "Raw meat touches ready-to-eat foods", "Hands are washed", "Food is frozen"], correct: 1 },
+                            { q: "Anorexia Nervosa is characterized by:", options: ["Binge eating", "Severe restriction and fear of weight gain", "Eating normal amounts", "Overexercising only"], correct: 1 },
+                            { q: "Bulimia Nervosa involves:", options: ["Starvation", "Binge eating followed by purging", "Normal eating", "Eating slowly"], correct: 1 },
+                            { q: "A physical sign of Bulimia is:", options: ["Obesity", "Dental erosion (from acid)", "Hives", "Fever"], correct: 1 },
+                            { q: "Marasmus is a deficiency of:", options: ["Protein only", "Calories (Total Energy)", "Vitamin C", "Iron"], correct: 1 },
+                            { q: "Kwashiorkor is a deficiency of:", options: ["Protein (causing edema/swollen belly)", "Calories", "Vitamin A", "Zinc"], correct: 0 },
+                            { q: "Salmonella is often associated with:", options: ["Canned goods", "Raw poultry and eggs", "Bread", "Fruit"], correct: 1 },
+                            { q: "E. Coli is often associated with:", options: ["Undercooked beef", "Rice", "Apples", "Cheese"], correct: 0 },
+                            { q: "Botulism is often associated with:", options: ["Improperly canned foods", "Chicken", "Milk", "Water"], correct: 0 },
+                            { q: "Listeria is dangerous for pregnant women and found in:", options: ["Cooked meat", "Deli meats and soft cheeses", "Bread", "Carrots"], correct: 1 },
+                            { q: "Hand washing should last at least:", options: ["5 seconds", "20 seconds", "1 minute", "2 minutes"], correct: 1 },
+                            { q: "To thaw frozen meat safely, use:", options: ["Countertop", "Refrigerator or cold water", "Sunlight", "Hot water"], correct: 1 },
+                            { q: "Nutritional screening must be done within:", options: ["24 hours of admission", "1 week", "1 month", "Never"], correct: 0 },
+                            { q: "A key sign of aspiration is:", options: ["Hunger", "Coughing while eating/drinking", "Thirst", "Sleepiness"], correct: 1 },
+                            { q: "Refeeding Syndrome can cause dangerous shifts in:", options: ["Sodium", "Electrolytes (Phos, K, Mg)", "Chlorine", "Iron"], correct: 1 },
+                            { q: "Lanugo (fine hair) is seen in patients with:", options: ["Obesity", "Anorexia Nervosa", "Diabetes", "Hypertension"], correct: 1 },
+                            { q: "Food labels are based on a daily diet of:", options: ["1000 calories", "2000 calories", "3000 calories", "5000 calories"], correct: 1 },
+                            { q: "Which population has the highest metabolic rate?", options: ["Elderly", "Infants", "Adults", "Teens"], correct: 1 },
+                            { q: "Obesity increases risk for:", options: ["Type 1 Diabetes", "Type 2 Diabetes, Heart Disease, Stroke", "Anorexia", "Infection"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3226,18 +5014,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Pharmacology Review',
+                        title: 'Quiz Bank 1: Foundations & ADME',
                         questions: [
+                            { q: "What is the primary organ responsible for drug metabolism?", options: ["Kidney", "Liver", "Stomach", "Lungs"], correct: 1 },
+                            { q: "What is the primary organ responsible for drug excretion?", options: ["Kidney", "Liver", "Skin", "Intestine"], correct: 0 },
                             { q: "The 'First Pass Effect' primarily affects drugs administered via which route?", options: ["Intravenous", "Oral", "Sublingual", "Transdermal"], correct: 1 },
-                            { q: "Which class of drugs is most commonly associated with Ototoxicity (hearing loss)?", options: ["Penicillins", "Aminoglycosides", "Macrolides", "Cephalosporins"], correct: 1 },
-                            { q: "Naloxone (Narcan) is the antidote for:", options: ["Benzodiazepines", "Opioids", "Acetaminophen", "Beta Blockers"], correct: 1 },
-                            { q: "A patient taking a MAOI should avoid foods containing:", options: ["Gluten", "Tyramine", "Lactose", "Vitamin K"], correct: 1 },
-                            { q: "The therapeutic range for Lithium is:", options: ["0.6 - 1.2 mEq/L", "2.0 - 3.0 mEq/L", "10 - 20 mEq/L", "0.1 - 0.5 mEq/L"], correct: 0 },
+                            { q: "Which route of administration has 100% bioavailability?", options: ["Oral", "Subcutaneous", "Intravenous", "Rectal"], correct: 2 },
+                            { q: "Half-life is defined as the time it takes for:", options: ["The drug to be absorbed", "50% of the drug to be eliminated from the body", "The drug to reach peak effect", "The patient to feel better"], correct: 1 },
+                            { q: "Pharmacokinetics refers to:", options: ["What the drug does to the body", "What the body does to the drug (ADME)", "Side effects", "Cost of drugs"], correct: 1 },
+                            { q: "Pharmacodynamics refers to:", options: ["Absorption", "Distribution", "What the drug does to the body (Mechanism of Action)", "Excretion"], correct: 2 },
+                            { q: "A drug that binds to a receptor and mimics the body's natural response is an:", options: ["Agonist", "Antagonist", "Blocker", "Inhibitor"], correct: 0 },
+                            { q: "A drug that blocks a receptor is called an:", options: ["Agonist", "Antagonist", "Synergist", "Protagonist"], correct: 1 },
+                            { q: "Teratogenic drugs cause:", options: ["Cancer", "Birth defects", "Sleepiness", "Liver damage"], correct: 1 },
+                            { q: "An idiosyncratic reaction is:", options: ["Predictable", "An allergic reaction", "An unexpected/unpredictable genetic reaction", "Common"], correct: 2 },
+                            { q: "The 'Therapeutic Index' measures:", options: ["Drug safety (Margin between effective and toxic dose)", "Cost", "Speed of onset", "Pill size"], correct: 0 },
+                            { q: "A 'Loading Dose' is given to:", options: ["Save money", "Reach therapeutic levels quickly", "reduce side effects", "Test allergies"], correct: 1 },
+                            { q: "Sublingual administration means placing the medication:", options: ["Under the tongue", "In the cheek", "On the skin", "In the rectum"], correct: 0 },
+                            { q: "Parenteral administration includes all EXCEPT:", options: ["Oral", "IV", "IM", "SQ"], correct: 0 },
+                            { q: "Which protein is most drugs bound to in the blood?", options: ["Hemoglobin", "Albumin", "Insulin", "Collagen"], correct: 1 },
+                            { q: "Low albumin levels can lead to:", options: ["Decreased drug effect", "Increased risk of toxicity (more free drug)", "No change", "Allergies"], correct: 1 },
+                            { q: "The 'Six Rights' of medication administration include Right Patient, Drug, Dose, Route, Time, and:", options: ["Doctor", "Documentation", "Insurance", "Diagnosis"], correct: 1 },
+                            { q: "Polypharmacy refers to:", options: ["Using one pharmacy", "The use of multiple medications concurrently", "Generic drugs", "Herbal remedies"], correct: 1 },
+                            { q: "A 'Black Box Warning' indicates:", options: ["The drug is expired", "Serious/Life-threatening risks", "It is expensive", "It creates a black box"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Antibiotics & Anti-Infectives',
+                        questions: [
+                            { q: "Which class of drugs is most commonly associated with Ototoxicity (hearing loss)?", options: ["Penicillins", "Aminoglycosides (e.g., Gentamicin)", "Macrolides", "Cephalosporins"], correct: 1 },
+                            { q: "A patient allergic to Penicillin has a risk of cross-hypersensitivity to:", options: ["Tetracyclines", "Cephalosporins", "Aminoglycosides", "Fluoroquinolones"], correct: 1 },
+                            { q: "Tetracyclines should be avoided in children and pregnant women because they cause:", options: ["Discoloration of teeth and bone defects", "Kidney failure", "Blindness", "Deafness"], correct: 0 },
+                            { q: "Red Man Syndrome is associated with rapid infusion of:", options: ["Penicillin", "Vancomycin", "Cipro", "Amoxicillin"], correct: 1 },
+                            { q: "Patients taking Metronidazole (Flagyl) must avoid:", options: ["Dairy", "Alcohol", "Sunlight", "Sugar"], correct: 1 },
+                            { q: "Which antibiotic carries a risk of tendon rupture?", options: ["Penicillin", "Fluoroquinolones (e.g., Ciprofloxacin)", "Macrolides", "Sulfa drugs"], correct: 1 },
+                            { q: "Sulfa drugs (Sulfonamides) often cause:", options: ["Crystalluria (drink limits)", "Stevens-Johnson Syndrome and Crystalluria", "Hearing loss", "Constipation"], correct: 1 },
+                            { q: "Rifampin, used for TB, causes body fluids to turn:", options: ["Blue", "Orange/Red", "Green", "Black"], correct: 1 },
+                            { q: "Isoniazid (INH) for TB requires monitoring of which organ?", options: ["Kidney", "Liver (Hepatotoxic)", "Heart", "Lungs"], correct: 1 },
+                            { q: "Antifungal drugs like Amphotericin B 'Amphoterrible' are known for being:", options: ["Delicious", "Nephrotoxic (Kidney toxic)", "Safe", "Weak"], correct: 1 },
+                            { q: "Peak and Trough levels are monitored for:", options: ["Tylenol", "Vancomycin and Gentamicin (Narrow therapeutic index)", "Amoxicillin", "Aspirin"], correct: 1 },
+                            { q: "Superinfections (e.g., Yeast infection, C. diff) occur because antibiotics:", options: ["Make bacteria stronger", "Kill normal flora", " contain sugar", "Are viruses"], correct: 1 },
+                            { q: "Which generation of Cephalosporins crosses the blood-brain barrier?", options: ["1st", "3rd and 4th", "None", "All"], correct: 1 },
+                            { q: "Zidovudine (AZT) is used to treat:", options: ["Flu", "HIV/AIDS", "TB", "Malaria"], correct: 1 },
+                            { q: "Acyclovir is the drug of choice for:", options: ["Bacterial infections", "Herpes Simplex and Varicella", "Fungal infections", "Flu"], correct: 1 },
+                            { q: "Nystatin is typically used for:", options: ["Oral Candidiasis (Thrush)", "Strep throat", "Acne", "Headache"], correct: 0 },
+                            { q: "When should culture and sensitivity samples be collected?", options: ["After starting antibiotics", "Before starting antibiotics", "During treatment", "Never"], correct: 1 },
+                            { q: "Photosensitivity is a common side effect of:", options: ["Tetracyclines and Sulfa drugs", "Penicillins", "Tylenol", "Advil"], correct: 0 },
+                            { q: "Linezolid (Zyvox) is used for:", options: ["Mild infections", "VRE and MRSA", "Viral infections", "Pain"], correct: 1 },
+                            { q: "Clindamycin carries a high risk of causing:", options: ["Headache", "C. Difficile colitis", "Blindness", "Gout"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Cardiovascular & Renal Drugs',
+                        questions: [
+                            { q: "Digoxin toxicity is often precipitated by:", options: ["Hyperkalemia", "Hypokalemia (Low Potassium)", "Hypernatremia", "Hyponatremia"], correct: 1 },
+                            { q: "Before administering Digoxin, the nurse must check:", options: ["BP", "Apical Pulse for 1 full minute", "Respirations", "Temperature"], correct: 1 },
+                            { q: "Nitroglycerin is used to treat:", options: ["Headache", "Angina Pectoris (Chest Pain)", "Stomach pain", "Fever"], correct: 1 },
+                            { q: "A common side effect of Nitroglycerin is:", options: ["Constipation", "Headache (Vasodilation)", "Hearing loss", "Rash"], correct: 1 },
                             { q: "ACE Inhibitors typically end in which suffix?", options: ["-olol", "-pril", "-sartan", "-pine"], correct: 1 },
-                            { q: "Which drug is used to treat anaphylactic shock?", options: ["Diphenhydramine", "Epinephrine", "Albuterol", "Prednisone"], correct: 1 },
-                            { q: "Digoxin toxicity is often precipitated by:", options: ["Hyperkalemia", "Hypokalemia", "Hypernatremia", "Hyponatremia"], correct: 1 },
-                            { q: "Which of the following is a fast-acting insulin?", options: ["Glargine (Lantus)", "Lispro (Humalog)", "NPH", "Detemir"], correct: 1 },
-                            { q: "Proton Pump Inhibitors (PPIs) work by:", options: ["Neutralizing stomach acid", "Blocking histamine receptors", "Inhibiting the H+/K+ ATPase pump", "Coating the stomach lining"], correct: 2 }
+                            { q: "A common annoying side effect of ACE inhibitors is:", options: ["Dry Cough", "Sneezing", "Hiccups", "Burping"], correct: 0 },
+                            { q: "Beta Blockers typically end in:", options: ["-olol", "-pril", "-sartan", "-pine"], correct: 0 },
+                            { q: "Beta Blockers are contraindicated in patients with:", options: ["Diabetes", "Asthma/COPD (can cause bronchoconstriction)", "Headache", "Gout"], correct: 1 },
+                            { q: "Calcium Channel Blockers typically end in:", options: ["-olol", "-pril", "-dipine (and Verapamil/Diltiazem)", "-statin"], correct: 2 },
+                            { q: "Furosemide (Lasix) is a:", options: ["Loop Diuretic", "Beta Blocker", "Antibiotic", "Vitamin"], correct: 0 },
+                            { q: "Spironolactone is a:", options: ["Loop Diuretic", "Potassium-Sparing Diuretic", "Beta Blocker", "ACE Inhibitor"], correct: 1 },
+                            { q: "Statins (e.g., Atorvastatin) are used to lower:", options: ["Blood pressure", "Cholesterol/Lipids", "Blood sugar", "Heart rate"], correct: 1 },
+                            { q: "A serious side effect of Statins is:", options: ["Rhabdomyolysis (Muscle breakdown)", "Cough", "Sleepiness", "Hunger"], correct: 0 },
+                            { q: "Thiazide diuretics often cause:", options: ["Hyperkalemia", "Hypokalemia", "Hypernatremia", "Weight gain"], correct: 1 },
+                            { q: "Clonidine effects:", options: ["Alpha-2 receptors (Lowers BP)", "Beta receptors", "Pain receptors", "Insulin"], correct: 0 },
+                            { q: "Warfarin (Coumadin) is monitored using:", options: ["PTT", "PT/INR", "Platelets", "WBC"], correct: 1 },
+                            { q: "Heparin is monitored using:", options: ["PTT (aPTT)", "INR", "RBC", "Potassium"], correct: 0 },
+                            { q: "The antidote for Warfarin is:", options: ["Protamine Sulfate", "Vitamin K", "Narcan", "Flumazenil"], correct: 1 },
+                            { q: "The antidote for Heparin is:", options: ["Vitamin K", "Protamine Sulfate", "Insulin", "Calcium"], correct: 1 },
+                            { q: "Alteplase (tPA) is a:", options: ["Blood thinner", "Thrombolytic (Clot buster)", "Vitamin", "Antibiotic"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: CNS & Psychotropics',
+                        questions: [
+                            { q: "The antidote for Opioid overdose is:", options: ["Vitamin K", "Naloxone (Narcan)", "Flumazenil", "Atropine"], correct: 1 },
+                            { q: "The antidote for Benzodiazepine overdose is:", options: ["Narcan", "Flumazenil (Romazicon)", "Vitamin K", "Digibind"], correct: 1 },
+                            { q: "A patient taking a MAOI should avoid foods containing:", options: ["Gluten", "Tyramine (Aged cheese, wine, salami)", "Lactose", "Vitamin K"], correct: 1 },
+                            { q: "The therapeutic range for Lithium is:", options: ["0.6 - 1.2 mEq/L", "2.0 - 3.0 mEq/L", "10 - 20 mEq/L", "0.1 - 0.5 mEq/L"], correct: 0 },
+                            { q: "Early signs of Lithium toxicity include:", options: ["Rash", "Tremors, Nausea, Confusion", "Hearing loss", "Cough"], correct: 1 },
+                            { q: "SSRIs (e.g., Fluoxetine) carry a risk of:", options: ["Serotonin Syndrome", "Red Man Syndrome", "Stevens-Johnson Syndrome", "Rickets"], correct: 0 },
+                            { q: "Levodopa/Carbidopa is used to treat:", options: ["Alzheimer's", "Parkinson's Disease", "Seizures", "Depression"], correct: 1 },
+                            { q: "Phenytoin (Dilantin) causes which common side effect?", options: ["Gingival Hyperplasia (Gum overgrowth)", "Hair loss", "Blindness", "Deafness"], correct: 0 },
+                            { q: "Benzodiazepines (e.g., Lorazepam) are used for:", options: ["Pain", "Anxiety and Seizures", "Infection", "Hypertension"], correct: 1 },
+                            { q: "Haloperidol is an:", options: ["Antidepressant", "Antipsychotic", "Antibiotic", "Antiviral"], correct: 1 },
+                            { q: "Extrapyramidal Symptoms (EPS) are a side effect of:", options: ["Antibiotics", "Antipsychotics", "Vitamins", "Laxatives"], correct: 1 },
+                            { q: "Tardive Dyskinesia involves:", options: ["Sleepiness", "Involuntary movements (lip smacking, tongue protrusion)", "Paralysis", "Blindness"], correct: 1 },
+                            { q: "Buspirone is used for:", options: ["Depression", "Anxiety (Non-sedating)", "Schizophrenia", "Bipolar"], correct: 1 },
+                            { q: "Zolpidem (Ambien) is used for:", options: ["Depression", "Insomnia", "Anxiety", "Pain"], correct: 1 },
+                            { q: "Disulfiram (Antabuse) is used for:", options: ["Alcohol cessation (causes sickness if alcohol consumed)", "Smoking cessation", "Drug overdose", "Pain"], correct: 0 },
+                            { q: "Donepezil (Aricept) is used for:", options: ["Parkinson's", "Alzheimer's Disease", "ALS", "MS"], correct: 1 },
+                            { q: "Methylphenidate (Ritalin) is a:", options: ["Depressant", "CNS Stimulant (ADHD)", "Opioid", "Benzo"], correct: 1 },
+                            { q: "A serious risk of Clozapine is:", options: ["Agranulocytosis (Low WBC)", "Anemia", "Hair growth", "Acne"], correct: 0 },
+                            { q: "Neuroleptic Malignant Syndrome (NMS) presents with:", options: ["Low fever", "High fever, muscle rigidity, altered mental status", "Rash", "Hunger"], correct: 1 },
+                            { q: "Tricyclic Antidepressants (TCAs) have mild or heavy anticholinergic effects?", options: ["Mild", "Heavy (Dry mouth, urinary retention, constipation)", "None", "Opposite"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Analgesics, Endocrine & Gastro',
+                        questions: [
+                            { q: "Acetaminophen (Tylenol) overdose causes damage to the:", options: ["Kidneys", "Liver", "Stomach", "Heart"], correct: 1 },
+                            { q: "The antidote for Acetaminophen overdose is:", options: ["Naloxone", "Acetylcysteine (Mucomyst)", "Vitamin K", "Charcoal"], correct: 1 },
+                            { q: "NSAIDs (e.g., Ibuprofen) can cause:", options: ["Liver failure", "GI Bleeding and Kidney damage", "Heart attack", "Stroke"], correct: 1 },
+                            { q: "Which of the following is a fast-acting insulin?", options: ["Glargine (Lantus)", "Lispro (Humalog)/Aspart", "NPH", "Detemir"], correct: 1 },
+                            { q: "Glargine (Lantus) is a:", options: ["Short acting insulin", "Long acting insulin (No peak)", "Intermediate acting", "Rapid acting"], correct: 1 },
+                            { q: "Metformin must be held before:", options: ["Sleep", "Contrast dye procedures (CT scan)", "Eating", "Walking"], correct: 1 },
+                            { q: "Levothyroxine should be taken:", options: ["With food", "In the morning on an empty stomach", "Before bed", "With milk"], correct: 1 },
+                            { q: "Prednisone (Corticosteroid) causes:", options: ["Hypoglycemia", "Hyperglycemia and Immunosuppression", "Weight loss", "Sleepiness"], correct: 1 },
+                            { q: "Proton Pump Inhibitors (PPIs) work by:", options: ["Neutralizing stomach acid", "Blocking histamine receptors", "Inhibiting the H+/K+ ATPase pump (Acid secretion)", "Coating the stomach lining"], correct: 2 },
+                            { q: "Omeprazole is a:", options: ["H2 Blocker", "PPI", "Antacid", "Antibiotic"], correct: 1 },
+                            { q: "Sucralfate works by:", options: ["Stopping acid", "Coating the stomach/ulcer ('Band-aid')", "Digesting food", "Killing bacteria"], correct: 1 },
+                            { q: "Ondansetron (Zofran) is used for:", options: ["Pain", "Nausea and Vomiting", "Diarrhea", "Fever"], correct: 1 },
+                            { q: "Loperamide (Imodium) is used for:", options: ["Constipation", "Diarrhea", "Vomiting", "Pain"], correct: 1 },
+                            { q: "Lactulose is used to lower levels of:", options: ["Sugar", "Ammonia (in Liver disease)", "Potassium", "Sodium"], correct: 1 },
+                            { q: "Desmopressin (DDAVP) is used for:", options: ["Diabetes Mellitus", "Diabetes Insipidus", "SIADH", "Cushing's"], correct: 1 },
+                            { q: "Propylthiouracil (PTU) is used for:", options: ["Hypothyroidism", "Hyperthyroidism", "Diabetes", "Addison's"], correct: 1 },
+                            { q: "Addison's Disease requires replacement of:", options: ["Insulin", "Steroids (Cortisol/Aldosterone)", "Thyroid hormone", "Estrogen"], correct: 1 },
+                            { q: "Bisphosphonates (Alendronate) require the patient to:", options: ["Lie down", "Sit upright for 30 mins after taking", "Eat a large meal", "Sleep"], correct: 1 },
+                            { q: "Allopurinol is used to prevent:", options: ["Pain", "Gout attacks (Lowers Uric Acid)", "Arthritis", "Headache"], correct: 1 },
+                            { q: "Which drug is used to treat anaphylactic shock?", options: ["Diphenhydramine", "Epinephrine", "Albuterol", "Prednisone"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3371,18 +5308,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: MedSurg II Advanced Concepts',
+                        title: 'Quiz Bank 1: Oncology & Endocrine',
                         questions: [
                             { q: "Which mnemonic is used to recognize the warning signs of cancer?", options: ["FAST", "CAUTION", "ABCDE", "RICE"], correct: 1 },
-                            { q: "A patient with a spinal cord injury at T6 or above is at risk for which life-threatening condition?", options: ["Autonomic Dysreflexia", "Spina Bifida", "Guillain-Barre Syndrome", "Myasthenia Gravis"], correct: 0 },
-                            { q: "In the Parkland Formula for burn resuscitation, what percentage of fluid is given in the first 8 hours?", options: ["25%", "33%", "50%", "100%"], correct: 2 },
-                            { q: "Cheyne-Stokes respirations are commonly observed in which stage of illness?", options: ["Acute infection", "Recovery", "End of Life", "Early diagnosis"], correct: 2 },
-                            { q: "Which electrolyte imbalance is common in the oliguric phase of Acute Kidney Injury?", options: ["Hypokalemia", "Hyperkalemia", "Hypercalcemia", "Hypernatremia"], correct: 1 },
-                            { q: "Graves' disease is an autoimmune form of:", options: ["Hypothyroidism", "Hyperthyroidism", "Addison's Disease", "Cushing's Syndrome"], correct: 1 },
-                            { q: "The 'FAST' acronym for stroke stands for:", options: ["Face, Arm, Speech, Time", "Face, Airway, Speech, Tongue", "First, Aid, Stroke, Treatment", "Face, Arms, Stomach, Toes"], correct: 0 },
+                            { q: "In the TNM staging system, what does 'N' stand for?", options: ["Neoplasm", "Node (Lymph)", "Number", "Necrosis"], correct: 1 },
+                            { q: "A benign tumor is characterized by:", options: ["Fast growth", "Encapsulated and non-invasive", "Invasive", "Metastasis"], correct: 1 },
+                            { q: "Metastasis refers to:", options: ["Cell death", "Spread of cancer to distant sites", "Tumor shrinkage", "Weight loss"], correct: 1 },
+                            { q: "Chemotherapy side effects often affect:", options: ["Only cancer cells", "Rapidly dividing cells (Hair, GI, Bone marrow)", "Muscles", "Teeth"], correct: 1 },
+                            { q: "What is the priority intervention for a patient with neutropenia (low WBC)?", options: ["High fiber diet", "Reverse isolation / Infection precautions", "Fluid restriction", "Vigorous exercise"], correct: 1 },
+                            { q: "Which type of diabetes involves autoimmune destruction of beta cells?", options: ["Type 1", "Type 2", "Gestational", "Insipidus"], correct: 0 },
                             { q: "A Hemoglobin A1C of 8.0% indicates:", options: ["Normal glucose control", "Pre-diabetes", "Poorly controlled Diabetes", "Hypoglycemia"], correct: 2 },
-                            { q: "The priority nursing intervention during a seizure is:", options: ["Restraining the patient", "Inserting an airway", "Protecting the head and airway safety", "Giving oral medication"], correct: 2 },
-                            { q: "Which type of shock is caused by severe allergic reaction?", options: ["Hypovolemic", "Septic", "Anaphylactic", "Cardiogenic"], correct: 2 }
+                            { q: "Kussmaul respirations are a sign of:", options: ["Hypoglycemia", "Diabetic Ketoacidosis (DKA)", "Heart failure", "Asthma"], correct: 1 },
+                            { q: "Which insulin can be given IV?", options: ["NPH", "Regular Insulin", "Glargine", "Lente"], correct: 1 },
+                            { q: "Graves' disease is an autoimmune form of:", options: ["Hypothyroidism", "Hyperthyroidism", "Addison's Disease", "Cushing's Syndrome"], correct: 1 },
+                            { q: "Common symptoms of Hypothyroidism include:", options: ["Weight loss, heat intolerance", "Weight gain, cold intolerance, fatigue", "Tachycardia", "Diarrhea"], correct: 1 },
+                            { q: "A goiter is an enlargement of the:", options: ["Liver", "Thyroid Gland", "Pancreas", "Spleen"], correct: 1 },
+                            { q: "Which lab value confirms Hypothyroidism?", options: ["High TSH, Low T3/T4", "Low TSH, High T3/T4", "High Glucose", "Low Calcium"], correct: 0 },
+                            { q: "Hyperosmolar Hyperglycemic Syndrome (HHS) occurs primarily in:", options: ["Type 1 Diabetes", "Type 2 Diabetes", "Gestational Diabetes", "Insipidus"], correct: 1 },
+                            { q: "Hypoglycemia is defined as blood glucose less than:", options: ["120 mg/dL", "100 mg/dL", "70 mg/dL", "200 mg/dL"], correct: 2 },
+                            { q: "Acromegaly is caused by excess:", options: ["Thyroid hormone", "Growth Hormone (GH)", "Insulin", "Cortisol"], correct: 1 },
+                            { q: "Addison's Disease is a deficiency of:", options: ["Insulin", "Adrenal Cortex hormones (Cortisol/Aldosterone)", "Thyroid hormone", "Glucagon"], correct: 1 },
+                            { q: "Cushings Syndrome symptoms include:", options: ["Weight loss", "Moon face, Buffalo hump, Purple Striae", "Low BP", "Bronze skin"], correct: 1 },
+                            { q: "Which electrolyte is critical to monitor after a thyroidectomy?", options: ["Sodium", "Calcium (risk of removing parathyroid)", "Potassium", "Chloride"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Neurology & Stroke',
+                        questions: [
+                            { q: "The 'FAST' acronym for stroke stands for:", options: ["Face, Arm, Speech, Time", "Face, Airway, Speech, Tongue", "First, Aid, Stroke, Treatment", "Face, Arms, Stomach, Toes"], correct: 0 },
+                            { q: "Which type of stroke is caused by a blood clot?", options: ["Hemorrhagic", "Ischemic", "TIA", "Silent"], correct: 1 },
+                            { q: "Tissue Plasminogen Activator (tPA) must be administered within how many hours of symptom onset?", options: ["12 hours", "3 - 4.5 hours", "24 hours", "1 week"], correct: 1 },
+                            { q: "Dysphagia places a stroke patient at high risk for:", options: ["Diarrhea", "Aspiration Pneumonia", "Hypertension", "Seizures"], correct: 1 },
+                            { q: "Expressive Aphasia (Broca's) means the patient:", options: ["Cannot understand speech", "Understands but cannot speak fluently", "Cannot see", "Cannot hear"], correct: 1 },
+                            { q: "The priority nursing intervention during a seizure is:", options: ["Restraining the patient", "Inserting an airway", "Protecting the head and airway safety (Turn to side)", "Giving oral medication"], correct: 2 },
+                            { q: "Status Epilepticus is considered a medical emergency if a seizure lasts longer than:", options: ["30 seconds", "1 minute", "5 minutes", "10 seconds"], correct: 2 },
+                            { q: "Which medication is commonly used to stop an active seizure?", options: ["Phenytoin", "Lorazepam (Ativan)", "Aspirin", "Tylenol"], correct: 1 },
+                            { q: "Parkinson's Disease is characterized by a lack of:", options: ["Serotonin", "Dopamine", "Acetylcholine", "GABA"], correct: 1 },
+                            { q: "A characteristic sign of Parkinson's is:", options: ["Flaccidity", "Pill-rolling tremor", "Hyperactivity", "Blindness"], correct: 1 },
+                            { q: "Multiple Sclerosis involves the destruction of:", options: ["Myelin Sheath", "Axons", "Dendrites", "Cell body"], correct: 0 },
+                            { q: "Guillain-Barre Syndrome often follows:", options: ["A diet change", "A Viral Infection", "Surgery", "Stress"], correct: 1 },
+                            { q: "Myasthenia Gravis affects:", options: ["Cardiac muscle", "Neuromuscular Junction (Weakness worsens with activity)", "Bones", "Skin"], correct: 1 },
+                            { q: "Increased Intracranial Pressure (ICP) is indicated by Cushing's Triad: High BP, Low Pulse, and:", options: ["Irregular Respirations", "High Fever", "Tachycardia", "Low BP"], correct: 0 },
+                            { q: "To decrease ICP, elevate the head of bed to:", options: ["0 degrees", "30 degrees", "90 degrees", "Trendelenburg"], correct: 1 },
+                            { q: "Meningitis is inflammation of the:", options: ["Brain tissue", "Protective membranes covering brain/spinal cord", "Spinal nerves", "Skull"], correct: 1 },
+                            { q: "A positive Kernig's sign indicates:", options: ["Stroke", "Meningitis", "Seizure", "Coma"], correct: 1 },
+                            { q: "Alzheimer's disease is the most common cause of:", options: ["Delirium", "Dementia", "Psychosis", "Depression"], correct: 1 },
+                            { q: "Glasgow Coma Scale (GCS) assesses:", options: ["Heart rate", "Level of Consciousness", "Pain", "Reflexes"], correct: 1 },
+                            { q: "The highest possible score on the GCS is:", options: ["10", "15", "20", "100"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Renal & Burn Care',
+                        questions: [
+                            { q: "Which electrolyte imbalance is common in the oliguric phase of Acute Kidney Injury?", options: ["Hypokalemia", "Hyperkalemia", "Hypercalcemia", "Hypernatremia"], correct: 1 },
+                            { q: "Pre-renal failure is caused by:", options: ["Kidney stones", "Decreased blood flow to kidneys (Dehydration/Hypotension)", "Toxic drugs", "Infection"], correct: 1 },
+                            { q: "In Chronic Kidney Disease (CKD), patients must limit intake of:", options: ["Carbs", "Protein, Potassium, Phosphorus", "Fats", "Vitamins"], correct: 1 },
+                            { q: "Erythropoietin is produced by the kidneys to stimulate:", options: ["WBC production", "RBC production", "Platelet production", "Clotting"], correct: 1 },
+                            { q: "Hemodialysis requires access via:", options: ["IV line", "AV Fistula or Graft", "NG tube", "Foley"], correct: 1 },
+                            { q: "To assess an AV fistula, the nurse should feel for a:", options: ["Pulse", "Thrill (Vibration)", "Heat", "Pain"], correct: 1 },
+                            { q: "In the Parkland Formula for burn resuscitation, what percentage of fluid is given in the first 8 hours?", options: ["25%", "33%", "50%", "100%"], correct: 2 },
+                            { q: "The 'Rule of Nines' is used to estimate:", options: ["Burn depth", "Total Body Surface Area (TBSA) burned", "Pain level", "Survival rate"], correct: 1 },
+                            { q: "A major complication of severe burns is:", options: ["Hypertension", "Hypovolemic Shock and Infection", "Obesity", "Diabetes"], correct: 1 },
+                            { q: "Which type of burn involves the epidermis and part of the dermis (blisters)?", options: ["1st Degree", "2nd Degree (Partial Thickness)", "3rd Degree", "4th Degree"], correct: 1 },
+                            { q: "Pain management for burn victims is best administered via:", options: ["Oral", "IV", "IM", "Topical"], correct: 1 },
+                            { q: "Escharotomy is performed to:", options: ["Remove skin", "Relieve pressure from circumferential burns", "Graft skin", "Clean wound"], correct: 1 },
+                            { q: "Nephrotic Syndrome is characterized by massive loss of:", options: ["Blood", "Protein (Proteinuria) causing edema", "Glucose", "Calcium"], correct: 1 },
+                            { q: "Glomerulonephritis is often caused by a recent:", options: ["Viral infection", "Strep Infection", "Fungal infection", "Surgery"], correct: 1 },
+                            { q: "Peritoneal Dialysis uses the:", options: ["Arm", "Peritoneum (Abdominal lining) as a filter", "Heart", "Lungs"], correct: 1 },
+                            { q: "Cloudy dialysate outflow in Peritoneal Dialysis indicates:", options: ["Success", "Peritonitis (Infection)", "Bleeding", "Normal finding"], correct: 1 },
+                            { q: "Kayexalate is given to treat:", options: ["Hyperkalemia", "Hypokalemia", "Hypernatremia", "High BP"], correct: 0 },
+                            { q: "Specific Gravity of urine measures:", options: ["Sugar", "Concentration ability of kidneys", "Bacteria", "Blood"], correct: 1 },
+                            { q: "Pyelonephritis is an infection of the:", options: ["Bladder", "Kidney", "Urethra", "Prostate"], correct: 1 },
+                            { q: "Renal Calculi is the medical term for:", options: ["Kidney failure", "Kidney Stones", "Cancer", "Infection"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Spinal Cord & Trauma',
+                        questions: [
+                            { q: "A patient with a spinal cord injury at T6 or above is at risk for which life-threatening condition?", options: ["Autonomic Dysreflexia", "Spina Bifida", "Guillain-Barre Syndrome", "Myasthenia Gravis"], correct: 0 },
+                            { q: "What is the priority intervention for Autonomic Dysreflexia?", options: ["Lie flat", "Sit the patient up (High Fowler's)", "Administer fluids", "Start CPR"], correct: 1 },
+                            { q: "Spinal shock is characterized by:", options: ["Spasticity", "Temporary loss of reflexes and sensation below injury", "High BP", "Fever"], correct: 1 },
+                            { q: "A C3-C5 injury affects:", options: ["Leg movement", "Respiratory function (Diaphragm)", "Bladder only", "Vision"], correct: 1 },
+                            { q: "Halo traction is used to stabilize the:", options: ["Femur", "Cervical Spine", "Lumbar Spine", "Arm"], correct: 1 },
+                            { q: "Which type of shock is caused by severe allergic reaction?", options: ["Hypovolemic", "Septic", "Anaphylactic", "Cardiogenic"], correct: 2 },
+                            { q: "Hypovolemic shock is caused by:", options: ["Infection", "Loss of blood/fluid volume", "Heart failure", "Spinal injury"], correct: 1 },
+                            { q: "Septic shock is caused by:", options: ["Allergy", "Systemic Infection", "Bleeding", "Heart attack"], correct: 1 },
+                            { q: "Neurogenic shock presents with:", options: ["Tachycardia", "Bradycardia and Hypotension", "Fever", "High BP"], correct: 1 },
+                            { q: "Cardiogenic shock is caused by:", options: ["Fluid loss", "Heart Pump Failure", "Allergy", "Infection"], correct: 1 },
+                            { q: "The 'Golden Hour' in trauma refers to:", options: ["Time to eat", "Critical first hour for treatment to improve survival", "Billing time", "Surgery time"], correct: 1 },
+                            { q: "Triage tag 'Black' indicates:", options: ["Minor injury", "Immediate threat", "Deceased or expectorant", "Delayed care"], correct: 2 },
+                            { q: "Triage tag 'Red' indicates:", options: ["Dead", "Immediate life-threatening need", "Walking wounded", "Wait"], correct: 1 },
+                            { q: "Flail chest is characterized by:", options: ["Cough", "Paradoxical chest movement (opposite to normal)", " Wheezing", "Rash"], correct: 1 },
+                            { q: "Tension Pneumothorax requires:", options: ["Antibiotics", "Needle Decompression / Chest Tube", "CPR", "Bandage"], correct: 1 },
+                            { q: "Compartment Syndrome is signaled by the 5 P's, including:", options: ["Pain (unrelieved), Pallor, Pulselessness", "Pink skin", "Pulse bounding", "Peace"], correct: 0 },
+                            { q: "Fat Embolism Syndrome is a risk after:", options: ["Head injury", "Long bone fracture (Femur)", "Abdominal surgery", "Burn"], correct: 1 },
+                            { q: "Rhabdomyolysis causes urine to turn:", options: ["Clear", "Tea-colored/Red-brown", "Blue", "Green"], correct: 1 },
+                            { q: "Primary Survey in trauma is:", options: ["Head-to-toe", "Airway, Breathing, Circulation, Disability, Exposure", "History taking", "Family call"], correct: 1 },
+                            { q: "Battle's Sign (bruising behind ear) indicates:", options: ["Stroke", "Basilar Skull Fracture", "Eye infection", "Nose bleed"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Palliative & Emergency',
+                        questions: [
+                            { q: "Cheyne-Stokes respirations are commonly observed in which stage of illness?", options: ["Acute infection", "Recovery", "End of Life", "Early diagnosis"], correct: 2 },
+                            { q: "Palliative care focuses on:", options: ["Curing the disease", "Symptom management and Quality of Life", "Surgery", "Experimental drugs"], correct: 1 },
+                            { q: "Hospice care is appropriate when life expectancy is less than:", options: ["1 year", "6 months", "1 month", "2 years"], correct: 1 },
+                            { q: "Which medication is commonly used for 'death rattle' (secretions)?", options: ["Morphine", "Atropine/Scopolamine (Anticholinergic)", "Tylenol", "Laxative"], correct: 1 },
+                            { q: "Advance Directives include:", options: ["Will", "Living Will and Power of Attorney for Healthcare", "Insurance", "Bank usage"], correct: 1 },
+                            { q: "The drug of choice for cardiac arrest (asystole) is:", options: ["Atropine", "Epinephrine", "Lidocaine", "Digoxin"], correct: 1 },
+                            { q: "Defibrillation is used for which rhythms?", options: ["Normal Sinus", "Asystole", "V-Fib and Pulseless V-Tach", "Bradycardia"], correct: 2 },
+                            { q: "In CPR, the compression to breath ratio for adults is:", options: ["15:2", "30:2", "5:1", "100:1"], correct: 1 },
+                            { q: "Naloxone (Narcan) is used for overdose of:", options: ["Benzos", "Opioids", "Tylenol", "Alcohol"], correct: 1 },
+                            { q: "Activated Charcoal is used to:", options: ["Start a fire", "Absorb ingested toxins/poisons", "Clean teeth", "Stop bleeding"], correct: 1 },
+                            { q: "Heimlich maneuver is used for:", options: ["Drowning", "Choking (Foreign Body Airway Obstruction)", "Cardiac arrest", "Stroke"], correct: 1 },
+                            { q: "Hypothermia treatment involves:", options: ["Rapid heating", "Passive and Active rewarming", "Cold water", "Ice"], correct: 1 },
+                            { q: "Heat Stroke is characterized by:", options: ["Sweating", "No sweating (Anhidrosis), High Temp, Confusion", " shivering", "Pale skin"], correct: 1 },
+                            { q: "Standard Precautions apply to:", options: ["Only HIV patients", "All patients", "Only surgery patients", "Only ER patients"], correct: 1 },
+                            { q: "Contact Precautions require:", options: ["Mask", "Gown and Gloves", "N95", "Goggles"], correct: 1 },
+                            { q: "Airborne Precautions (e.g., TB) require:", options: ["Surgical mask", "N95 Respirator and Negative Pressure Room", "Gown only", "Gloves only"], correct: 1 },
+                            { q: "Droplet Precautions (e.g., Flu) require:", options: ["Surgical Mask", "N95", "Full suit", "Nothing"], correct: 0 },
+                            { q: "Donning PPE order:", options: ["Gloves, Gown, Mask", "Gown, Mask, Goggles, Gloves", "Mask, Gloves, Gown", "Gloves first"], correct: 1 },
+                            { q: "Doffing PPE order:", options: ["Mask first", "Gloves, Goggles, Gown, Mask", "All at once", "Gown first"], correct: 1 },
+                            { q: "Post-exposure prophylaxis (PEP) is critical for needlestick injuries involving:", options: ["Flu", "HIV/Hepatitis B", "Cold", "Strep"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3516,18 +5602,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Microbiology Fundamentals',
+                        title: 'Quiz Bank 1: Bacteriology & Virology',
                         questions: [
                             { q: "Which shape describes cocci bacteria?", options: ["Rod-shaped", "Spherical", "Spiral", "Comma-shaped"], correct: 1 },
-                            { q: "Viruses are considered obligate intracellular parasites because they:", options: ["Kill only humans", "Cannot replicate without a host cell", "Are visible to the naked eye", "Have a cell wall"], correct: 1 },
-                            { q: "The single most important measure to prevent the spread of infection is:", options: ["Antibiotics", "Facemasks", "Hand Hygiene", "Isolation"], correct: 2 },
-                            { q: "Which immunoglobulin is the first responder to a new infection (acute phase)?", options: ["IgG", "IgA", "IgM", "IgE"], correct: 2 },
-                            { q: "Superbugs like MRSA are resistant to:", options: ["Vancomycin", "Methicillin", "All antibiotics", "Soap and water"], correct: 1 },
-                            { q: "Which of the following is caused by a fungal infection (Mycosis)?", options: ["Malaria", "Ringworm (Tinea)", "Influenza", "Tuberculosis"], correct: 1 },
-                            { q: "When collecting a blood culture, it is critical to:", options: ["Collect it after starting antibiotics", "Collect from only one site", "Collect from two different sites", "Freeze the sample immediately"], correct: 2 },
-                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to Humans", "Insects to Humans", "Animals to Humans", "Plants to Humans"], correct: 2 },
+                            { q: "Which shape describes bacilli bacteria?", options: ["Spherical", "Rod-shaped", "Spiral", "Square"], correct: 1 },
                             { q: "Gram positive bacteria stain which color?", options: ["Pink", "Purple", "Red", "Green"], correct: 1 },
-                            { q: "Alcohol-based hand sanitizer is INEFFECTIVE against which pathogen?", options: ["Influenza Virus", "Staphylococcus aureus", "Clostridium difficile (C. diff) spores", "E. coli"], correct: 2 }
+                            { q: "Gram negative bacteria stain which color?", options: ["Pink/Red", "Purple", "Blue", "Black"], correct: 0 },
+                            { q: "Viruses are considered obligate intracellular parasites because they:", options: ["Kill only humans", "Cannot replicate without a host cell", "Are visible to the naked eye", "Have a cell wall"], correct: 1 },
+                            { q: "Which structure determines if a bacteria is Gram Positive or Negative?", options: ["Ribosomes", "Cell Wall (Peptidoglycan thickness)", "Flagella", "DNA"], correct: 1 },
+                            { q: "Flagella are used for:", options: ["Reproduction", "Motility (Movement)", "Digestion", "Protection"], correct: 1 },
+                            { q: "Spores (Endospores) are produced by some bacteria to:", options: ["Reproduce", "Survive harsh conditions", "Eat", "Move"], correct: 1 },
+                            { q: "Clostridium difficile (C. diff) is an example of a:", options: ["Virus", "Spore-forming Bacteria", "Fungus", "Parasite"], correct: 1 },
+                            { q: "Which of the following contains DNA or RNA but not both?", options: ["Bacteria", "Viruses", "Fungi", "Protozoa"], correct: 1 },
+                            { q: "Retroviruses (like HIV) use which enzyme to convert RNA to DNA?", options: ["Polymerase", "Reverse Transcriptase", "Ligase", "Amylase"], correct: 1 },
+                            { q: "Bacteriophages are viruses that infect:", options: ["Humans", "Bacteria", "Plants", "Animals"], correct: 1 },
+                            { q: "The protein coat surrounding a virus is called a:", options: ["Cell wall", "Capsid", "Membrane", "Envelope"], correct: 1 },
+                            { q: "Binary fission is the method of reproduction for:", options: ["Humans", "Bacteria", "Viruses", "Plants"], correct: 1 },
+                            { q: "Acid-fast stain is used primarily to potential identify:", options: ["E. coli", "Mycobacterium tuberculosis", "Staph aureus", "Influenza"], correct: 1 },
+                            { q: "Normal flora are microbes that:", options: ["Cause disease", "Live in/on the body without causing disease (usually)", "Are always harmful", "Are viruses"], correct: 1 },
+                            { q: "An opportunistic infection occurs when:", options: ["A pathogen enters a healthy host", "Normal flora cause disease in an immunocompromised host", "You catch a cold", "You eat bad food"], correct: 1 },
+                            { q: "Streptococci are bacteria arranged in:", options: ["Clusters (Grape-like)", "Chains", "Pairs", "Singles"], correct: 1 },
+                            { q: "Staphylococci are bacteria arranged in:", options: ["Clusters (Grape-like)", "Chains", "Pairs", "Spirals"], correct: 0 },
+                            { q: "E. coli is a gram negative bacillus commonly found in the:", options: ["Lungs", "Intestine (Colon)", "Brain", "Heart"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Immunology & Infection Control',
+                        questions: [
+                            { q: "Which link in the chain of infection is broken by hand hygiene?", options: ["Reservoir", "Portal of Exit", "Mode of Transmission", "Portal of Entry"], correct: 2 },
+                            { q: "The single most important measure to prevent the spread of infection is:", options: ["Antibiotics", "Facemasks", "Hand Hygiene", "Isolation"], correct: 2 },
+                            { q: "Standard Precautions apply to:", options: ["Only HIV patients", "All patients", "Only surgery patients", "Only ER patients"], correct: 1 },
+                            { q: "Nosocomial infections are:", options: ["Community acquired", "Hospital Acquired Infections (HAI)", "Home remedies", "Viral only"], correct: 1 },
+                            { q: "Sterilization differs from disinfection because it:", options: ["Kills spores", "Is used on skin", "Is faster", "Uses less heat"], correct: 0 },
+                            { q: "An autoclave uses what method to sterilize?", options: ["chemicals", "Steam under pressure", "Radiation", "Dry heat"], correct: 1 },
+                            { q: "Which white blood cell is the primary phagocyte?", options: ["B-cell", "Neutrophil", "T-cell", "Basophil"], correct: 1 },
+                            { q: "Humoral immunity involves usually:", options: ["T-Cells", "B-Cells and Antibodies", "Skin", "Fever"], correct: 1 },
+                            { q: "Cell-mediated immunity involves:", options: ["Antibodies", "T-Cells", "Red Blood Cells", "Platelets"], correct: 1 },
+                            { q: "Which immunoglobulin is the first responder to a new infection (acute phase)?", options: ["IgG", "IgA", "IgM", "IgE"], correct: 2 },
+                            { q: "Which immunoglobulin provides long-term immunity (past infection/vaccine)?", options: ["IgG", "IgM", "IgE", "IgD"], correct: 0 },
+                            { q: "IgE is associated with:", options: ["Bacteria", "Allergic reactions and Parasitic infections", "Viruses", "Fungi"], correct: 1 },
+                            { q: "Artificial Active Immunity is acquired via:", options: ["Breastfeeding", "Vaccination", "Getting sick", "Antivenom"], correct: 1 },
+                            { q: "Natural Passive Immunity is acquired via:", options: ["Vaccination", "Breast milk / Placenta", "Getting sick", "Antibiotics"], correct: 1 },
+                            { q: "A fomite is:", options: ["A living vector", "An inanimate object that transmits infection (e.g., doorknob)", "A virus", "A bacteria"], correct: 1 },
+                            { q: "A vector is:", options: ["A doorknob", "A living carrier (e.g., Mosquito)", "A bacteria", "A fungus"], correct: 1 },
+                            { q: "Alcohol-based hand sanitizer is INEFFECTIVE against which pathogen?", options: ["Influenza Virus", "Staphylococcus aureus", "Clostridium difficile (C. diff) spores", "E. coli"], correct: 2 },
+                            { q: "Contact precautions are used for:", options: ["Flu", "MRSA and C. diff", "TB", "Measles"], correct: 1 },
+                            { q: "Airborne precautions are used for:", options: ["MRSA", "Tuberculosis (TB), Measles, Varicella", "Flu", "E. coli"], correct: 1 },
+                            { q: "Droplet precautions are used for:", options: ["TB", "Influenza, Meningitis", "C. diff", "Lice"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Common Pathogens & Mycology',
+                        questions: [
+                            { q: "Staphylococcus aureus is commonly associated with:", options: ["UTI", "Skin/Wound infections and MRSA", "Diarrhea", "Malaria"], correct: 1 },
+                            { q: "Escherichia coli (E. coli) is the most common cause of:", options: ["Pneumonia", "Urinary Tract Infections (UTI)", "Meningitis", "Acne"], correct: 1 },
+                            { q: "Helicobacter pylori (H. pylori) is associated with:", options: ["Lung cancer", "Peptic Ulcers / Gastritis", "Skin rash", "Hair loss"], correct: 1 },
+                            { q: "Streptococcus pyogenes (Group A Strep) causes:", options: ["Strep Throat", "UTI", "Diarrhea", "Flu"], correct: 0 },
+                            { q: "Candida albicans is a:", options: ["Bacteria", "Yeast (Fungus)", "Virus", "Parasite"], correct: 1 },
+                            { q: "Oral Candidiasis is also known as:", options: ["Ringworm", "Thrush", "Athlete's foot", "Acne"], correct: 1 },
+                            { q: "Tinea corporis is commonly known as:", options: ["Tapeworm", "Ringworm (Fungal infection)", "Hookworm", "Pinworm"], correct: 1 },
+                            { q: "Which of the following is caused by a fungal infection (Mycosis)?", options: ["Malaria", "Ringworm (Tinea)", "Influenza", "Tuberculosis"], correct: 1 },
+                            { q: "Pneumocystis jirovecii is an opportunistic fungus common in:", options: ["Athletes", "HIV/AIDS patients", "Children", "Elderly"], correct: 1 },
+                            { q: "Tuberculosis is caused by:", options: ["Virus", "Mycobacterium tuberculosis (Acid-fast bacteria)", "Fungus", "Parasite"], correct: 1 },
+                            { q: "Neisseria meningitidis causes:", options: ["Meningococcal Meningitis", "Pneumonia", "Gonorrhea", "Syphilis"], correct: 0 },
+                            { q: "Treponema pallidum causes:", options: ["Gonorrhea", "Syphilis", "Chlamydia", "Herpes"], correct: 1 },
+                            { q: "Borrelia burgdorferi causes:", options: ["Lyme Disease", "Rocky Mountain Spotted Fever", "Malaria", "Dengue"], correct: 0 },
+                            { q: "Varicella Zoster Virus causes:", options: ["Measles", "Chickenpox and Shingles", "Smallpox", "Rubella"], correct: 1 },
+                            { q: "Herpes Simplex Virus Type 1 (HSV-1) typically causes:", options: ["Genital herpes", "Cold sores (Oral)", "Shingles", "Warts"], correct: 1 },
+                            { q: "Human Papillomavirus (HPV) is associated with:", options: ["Flu", "Warts and Cervical Cancer", "HIV", "Hepatitis"], correct: 1 },
+                            { q: "Hepatitis B is transmitted via:", options: ["Fecal-Oral", "Blood and Body Fluids", "Air", "Water"], correct: 1 },
+                            { q: "Hepatitis A is transmitted via:", options: ["Blood", "Fecal-Oral route", "Needles", "Sexual contact"], correct: 1 },
+                            { q: "Influenza is a:", options: ["Bacterial infection", "Respiratory Virus", "Fungus", "Parasite"], correct: 1 },
+                            { q: "Salmonella is transmitted via:", options: ["Air", "Contaminated food (Poultry/Eggs)", "Blood", "Insects"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Parasitology & Diagnostics',
+                        questions: [
+                            { q: "Plasmodium species cause:", options: ["Dengue", "Malaria", "Yellow Fever", "Zika"], correct: 1 },
+                            { q: "The vector for Malaria is the:", options: ["Tsetse fly", "Female Anopheles Mosquito", "Tick", "Flea"], correct: 1 },
+                            { q: "Giardia lamblia causes:", options: ["Pneumonia", "Giardiasis (Diarrhea)", "Malaria", "Skin rash"], correct: 1 },
+                            { q: "Enterobius vermicularis is commonly known as:", options: ["Hookworm", "Pinworm", "Tapeworm", "Roundworm"], correct: 1 },
+                            { q: "The 'Scotch Tape Test' is used to diagnose:", options: ["Lice", "Pinworms", "Ringworm", "Scabies"], correct: 1 },
+                            { q: "Trichomonas vaginalis is a:", options: ["Bacteria", "Protozoan parasite (STI)", "Virus", "Fungus"], correct: 1 },
+                            { q: "Toxoplasma gondii is dangerous for pregnant women and is found in:", options: ["Dog saliva", "Cat feces", "Bird droppings", "Fish"], correct: 1 },
+                            { q: "Entamoeba histolytica causes:", options: ["Amoebic Dysentery", "Malaria", "Sleeping sickness", "Chagas disease"], correct: 0 },
+                            { q: "When collecting a blood culture, it is critical to:", options: ["Collect it after starting antibiotics", "Collect from only one site", "Collect from two different sites (Aerobic/Anaerobic)", "Freeze the sample immediately"], correct: 2 },
+                            { q: "A 'Sensitivity' test determines:", options: ["Which bacteria is present", "Which antibiotic kills the bacteria", "How many bacteria are present", "If the patient is allergic"], correct: 1 },
+                            { q: "A 'broad-spectrum' antibiotic kills:", options: ["Only Gram positive", "Only Gram negative", "A wide variety of bacteria", "Viruses"], correct: 2 },
+                            { q: "Empiric therapy means:", options: ["Treating based on lab results", "Treating based on educated guess before lab results", "Not treating", "Treating with placebo"], correct: 1 },
+                            { q: "ELISA and Western Blot are tests used for:", options: ["TB", "HIV diagnosis", "Flu", "Strep"], correct: 1 },
+                            { q: "A throat swab is commonly used to test for:", options: ["Flu", "Group A Strep", "TB", "HIV"], correct: 1 },
+                            { q: "Sputum samples for TB should be collected:", options: ["At night", "Early morning", "After eating", "After antibiotics"], correct: 1 },
+                            { q: "Clean catch midstream urine is used to prevent:", options: ["Spilling", "Contamination from skin flora", "Pain", "Bleeding"], correct: 1 },
+                            { q: "PCR (Polymerase Chain Reaction) detects:", options: ["Antibodies", "Genetic material (DNA/RNA) of the pathogen", "Proteins", "Sugar"], correct: 1 },
+                            { q: "The Mantoux test (PPD) screens for:", options: ["HIV", "Tuberculosis exposure", "Flu", "Hepatitis"], correct: 1 },
+                            { q: "Ova and Parasite (O&P) test uses which specimen?", options: ["Blood", "Stool", "Urine", "Sputum"], correct: 1 },
+                            { q: "Scabies is caused by a:", options: ["Fungus", "Mite (Sarcoptes scabiei)", "Virus", "Worm"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Sterilization & Emerging Diseases',
+                        questions: [
+                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to Humans", "Insects to Humans", "Animals to Humans", "Plants to Humans"], correct: 2 },
+                            { q: "Ebola is a:", options: ["Bacterial infection", "Viral Hemorrhagic Fever", "Fungal infection", "Parasite"], correct: 1 },
+                            { q: "Superbugs like MRSA are resistant to:", options: ["Vancomycin", "Methicillin/Oxacillin", "All antibiotics", "Soap and water"], correct: 1 },
+                            { q: "VRE stands for:", options: ["Very Resistant E. coli", "Vancomycin Resistant Enterococcus", "Viral RNA Element", "Virtual Reality"], correct: 1 },
+                            { q: "CRE (Carbapenem-resistant Enterobacteriaceae) is known as a:", options: ["Superbug (Nightmare bacteria)", "Probiotic", "Vitamin", "Virus"], correct: 0 },
+                            { q: "Antiseptics are used on:", options: ["Inanimate objects", "Living tissue (Skin)", "Floors", "Instruments"], correct: 1 },
+                            { q: "Disinfectants are used on:", options: ["Living tissue", "Inanimate objects/Surfaces", "Wounds", "Eyes"], correct: 1 },
+                            { q: "Pasteurization is used to:", options: ["Sterilize milk", "Reduce microbes in food/milk", "Freeze food", "Dry food"], correct: 1 },
+                            { q: "Prions cause which disease?", options: ["Flu", "Mad Cow Disease (Creutzfeldt-Jakob)", "Malaria", "TB"], correct: 1 },
+                            { q: "Prions are unique because they are:", options: ["Living cells", "Misfolded proteins (No DNA/RNA)", "Viruses", "Bacteria"], correct: 1 },
+                            { q: "The primary reservoir for West Nile Virus is:", options: ["Humans", "Birds", "Cows", "Fish"], correct: 1 },
+                            { q: "Zika virus is linked to which birth defect?", options: ["Autism", "Microcephaly", "Diabetes", "Asthma"], correct: 1 },
+                            { q: "COVID-19 is caused by:", options: ["Influenza", "SARS-CoV-2", "Rhinovirus", "Adenovirus"], correct: 1 },
+                            { q: "Which agency tracks disease outbreaks in the US?", options: ["FBI", "CDC", "CIA", "IRS"], correct: 1 },
+                            { q: "Endemic means a disease is:", options: ["Worldwide", "Constantly present in a specific population", "Gone", "New"], correct: 1 },
+                            { q: "Epidemic means:", options: ["Global outbreak", "Sudden increase in cases above normal", "Constantly present", "Animal disease"], correct: 1 },
+                            { q: "Pandemic means:", options: ["Local outbreak", "Worldwide epidemic", "Rare disease", "Animal disease"], correct: 1 },
+                            { q: "Herd immunity protects:", options: ["Only vaccinated people", "Unvaccinated people (when high % is immune)", "Animals", "Doctors"], correct: 1 },
+                            { q: "An attenuated vaccine contains:", options: ["Dead virus", "Weakened live virus", "Toxins", "Proteins"], correct: 1 },
+                            { q: "A toxoid vaccine (like Tetanus) contains:", options: ["Live virus", "Inactivated toxin", "Bacteria", "Fungus"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3664,18 +5899,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Parasitology Basics',
+                        title: 'Quiz Bank 1: Protozoa & Helminths',
                         questions: [
                             { q: "The definitive host of a parasite is the one where:", options: ["Asexual reproduction occurs", "Sexual reproduction occurs", "The parasite dies", "No reproduction occurs"], correct: 1 },
                             { q: "Which of the following is the drug of choice for treating Giardia?", options: ["Amoxicillin", "Metronidazole (Flagyl)", "Ciprofloxacin", "Acyclovir"], correct: 1 },
-                            { q: "Schistosomiasis uses which freshwater animal as an intermediate host?", options: ["Fish", "Frog", "Snail", "Crab"], correct: 2 },
-                            { q: "The 'Scotch Tape Test' is used to diagnose:", options: ["Hookworm", "Roundworm", "Pinworm (Enterobius)", "Tapeworm"], correct: 2 },
-                            { q: "Which vector transmits Leishmaniasis?", options: ["Tsetse Fly", "Sandfly", "Anopheles Mosquito", "Tick"], correct: 1 },
-                            { q: "Elephantiasis is a complication of which parasitic infection?", options: ["Malaria", "Filariasis", "Hookworm", "Giardiasis"], correct: 1 },
                             { q: "Eating undercooked pork is the primary risk factor for:", options: ["Taenia saginata", "Taenia solium", "Ascaris", "Schistosoma"], correct: 1 },
                             { q: "Hookworms enter the human body primarily through:", options: ["Ingesting eggs", "In halation", "Penetrating the skin (usually feet)", "Mosquito bite"], correct: 2 },
                             { q: "Which parasite invades the lungs causing Loeffler's syndrome?", options: ["Pinworm", "Giardia", "Ascaris lumbricoides", "Tapeworm"], correct: 2 },
-                            { q: "Malaria primarily destroys which type of blood cell?", options: ["White Blood Cells", "Red Blood Cells", "Platelets", "Plasma"], correct: 1 }
+                            { q: "Entamoeba histolytica causes:", options: ["Amoebic Dysentery", "Malaria", "Sleeping sickness", "Chagas disease"], correct: 0 },
+                            { q: "Enterobius vermicularis is commonly known as:", options: ["Hookworm", "Pinworm", "Tapeworm", "Roundworm"], correct: 1 },
+                            { q: "Schistosomiasis uses which freshwater animal as an intermediate host?", options: ["Fish", "Frog", "Snail", "Crab"], correct: 2 },
+                            { q: "Trichomonas vaginalis is typically transmitted via:", options: ["Contaminated water", "Sexual contact", "Mosquitoes", "Air"], correct: 1 },
+                            { q: "Giardia lamblia cysts are commonly found in:", options: ["Contaminated water (Streams/Lakes)", "Cooked meat", "Air", "Soil"], correct: 0 },
+                            { q: "Ascaris lumbricoides is transmitted via:", options: ["Fecal-Oral route (Ingesting eggs)", "Skin penetration", "Mosquitoes", "Ticks"], correct: 0 },
+                            { q: "Taenia saginata is acquired by eating:", options: ["Undercooked Pork", "Undercooked Beef", "Fish", "Plants"], correct: 1 },
+                            { q: "Neurocysticercosis is caused by the larval stage of:", options: ["Taenia solium (Pork Tapeworm)", "Taenia saginata", "Hookworm", "Pinworm"], correct: 0 },
+                            { q: "Which helminth migrates to the anus at night to lay eggs?", options: ["Ascaris", "Enterobius vermicularis (Pinworm)", "Hookworm", "Tapeworm"], correct: 1 },
+                            { q: "Strongyloides stercoralis (Threadworm) can cause:", options: ["Autoinfection", "Malaria", "Dengue", "Flu"], correct: 0 },
+                            { q: "Which protozoa causes 'Frothy, yellow-green' vaginal discharge?", options: ["Candida", "Trichomonas vaginalis", "Gardnerella", "Chlamydia"], correct: 1 },
+                            { q: "Toxoplasma gondii can traverse the placenta and cause:", options: ["Congenital Toxoplasmosis", "Flu", "Diarrhea", "Malaria"], correct: 0 },
+                            { q: "Cryptosporidium parvum is known for causing:", options: ["Severe diarrhea in HIV/AIDS patients", "Pneumonia", "Meningitis", "Rash"], correct: 0 },
+                            { q: "Balantidium coli is the only:", options: ["Ciliate protozoan pathogenic to humans", "Virus", "Worm", "Fungus"], correct: 0 },
+                            { q: "Which worm can cause rectal prolapse in heavy infections?", options: ["Trichuris trichiura (Whipworm)", "Pinworm", "Hookworm", "Tapeworm"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Malaria & Vectors',
+                        questions: [
+                            { q: "The infective stage of Malaria for humans injected by the mosquito is:", options: ["Merozoite", "Gametocyte", "Sporozoite", "Hypnozoite"], correct: 2 },
+                            { q: "Malaria primarily destroys which type of blood cell?", options: ["White Blood Cells", "Red Blood Cells", "Platelets", "Plasma"], correct: 1 },
+                            { q: "Which Plasmodium species is the most dangerous/lethal?", options: ["P. vivax", "P. ovale", "P. falciparum", "P. malariae"], correct: 2 },
+                            { q: "What is the vector for Sleeping Sickness (African Trypanosomiasis)?", options: ["Anopheles Mosquito", "Tsetse Fly", "Sandfly", "Tick"], correct: 1 },
+                            { q: "Which vector transmits Leishmaniasis?", options: ["Tsetse Fly", "Sandfly", "Anopheles Mosquito", "Tick"], correct: 1 },
+                            { q: "Dengue Fever is transmitted by:", options: ["Aedes Mosquito", "Anopheles Mosquito", "Tsetse Fly", "Lice"], correct: 0 },
+                            { q: "Yellow Fever is transmitted by:", options: ["Aedes Mosquito", "Tick", "Flea", "Lice"], correct: 0 },
+                            { q: "Chagas Disease (American Trypanosomiasis) is transmitted by:", options: ["Tsetse Fly", "Kissing Bug (Triatomine bug)", "Mosquito", "Flea"], correct: 1 },
+                            { q: "Lyme Disease is transmitted by:", options: ["Mosquito", "Ixodes Tick (Deer Tick)", "Flea", "Lice"], correct: 1 },
+                            { q: "The Plague (Yersinia pestis) is transmitted by:", options: ["Rat Fleas", "Ticks", "Mosquitoes", "Lice"], correct: 0 },
+                            { q: "River Blindness (Onchocerciasis) is transmitted by:", options: ["Blackfly (Simulium)", "Sandfly", "Tsetse Fly", "Mosquito"], correct: 0 },
+                            { q: "Pediculosis capitis refers to:", options: ["Body lice", "Head lice", "Pubic lice", "Scabies"], correct: 1 },
+                            { q: "Sarcoptes scabiei causes:", options: ["Lice", "Scabies", "Ringworm", "Acne"], correct: 1 },
+                            { q: "Myiasis is the infestation of tissue by:", options: ["Fly larvae (Maggots)", "Worms", "Ticks", "Mites"], correct: 0 },
+                            { q: "Zika Virus is primarily transmitted by:", options: ["Aedes Mosquito", "Anopheles Mosquito", "Ticks", "Fleas"], correct: 0 },
+                            { q: "West Nile Virus is maintained in a cycle between mosquitoes and:", options: ["Humans", "Birds", "Cows", "Pigs"], correct: 1 },
+                            { q: "Which mosquito bites primarily at night?", options: ["Aedes", "Anopheles", "Culex", "None"], correct: 1 },
+                            { q: "Hypnozoites (dormant liver stage) are found in which Malaria species?", options: ["P. falciparum", "P. vivax and P. ovale", "P. malariae", "P. knowlesi"], correct: 1 },
+                            { q: "Blackwater fever is a complication of:", options: ["Severe Malaria (Hemolysis)", "Dengue", "Typhoid", "Cholera"], correct: 0 },
+                            { q: "Control of potential vectors by draining standing water targets:", options: ["Mosquitoes", "Ticks", "Fleas", "Lice"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Neglected Tropical Diseases',
+                        questions: [
+                            { q: "Elephantiasis (Lymphatic Filariasis) is caused by:", options: ["Wuchereria bancrofti", "Ascaris", "Taenia", "Giardia"], correct: 0 },
+                            { q: "Which parasite causes Schistosomiasis Haematobium (Urinary)?", options: ["S. mansoni", "S. haematobium", "S. japonicum", "Fasciola"], correct: 1 },
+                            { q: "The drug of choice for Schistosomiasis is:", options: ["Albendazole", "Praziquantel", "Metronidazole", "Chloroquine"], correct: 1 },
+                            { q: "Dracunculus medinensis is also known as:", options: ["Guinea Worm", "Tapeworm", "Hookworm", "Pinworm"], correct: 0 },
+                            { q: "Guinea Worm is transmitted by drinking water containing:", options: ["Mosquito larvae", "Copepods (Water fleas) infected with larvae", "Bacteria", "Viruses"], correct: 1 },
+                            { q: "Trachoma causes blindness and is caused by:", options: ["Chlamydia trachomatis", "Virus", "Parasite", "Fungus"], correct: 0 },
+                            { q: "Leprosy (Hansen's Disease) is caused by:", options: ["Mycobacterium leprae", "Virus", "Parasite", "Fungus"], correct: 0 },
+                            { q: "Which of the following is a Soil-Transmitted Helminth (STH)?", options: ["Ascaris, Hookworm, Whipworm", "Tapeworm", "Pinworm", "Fluke"], correct: 0 },
+                            { q: "Mass Drug Administration (MDA) is often used to control:", options: ["Diabetes", "Neglected Tropical Diseases (NTDs)", "Cancer", "Heart disease"], correct: 1 },
+                            { q: "Visceral Leishmaniasis (Kala-azar) affects the:", options: ["Skin only", "Internal organs (Spleen, Liver, Bone Marrow)", "Lungs", "Brain"], correct: 1 },
+                            { q: "Cutaneous Leishmaniasis causes:", options: ["Skin ulcers", "Diarrhea", "Fever", "Cough"], correct: 0 },
+                            { q: "Sleeping Sickness (Trypanosoma brucei) affects the:", options: ["Lungs", "Central Nervous System (Sleep/Wake cycle)", "Stomach", "Kidneys"], correct: 1 },
+                            { q: "Chagas disease can cause chronic damage to the:", options: ["Heart (Cardiomyopathy) and Digestion", "Lungs", "Skin", "Bones"], correct: 0 },
+                            { q: "Fasciola hepatica is known as the:", options: ["Lung fluke", "Liver fluke", "Blood fluke", "Intestinal fluke"], correct: 1 },
+                            { q: "Paragonimus westermani affects the:", options: ["Liver", "Lungs (Lung Fluke)", "Brain", "Heart"], correct: 1 },
+                            { q: "Hydatid Cyst Disease is caused by:", options: ["Echinococcus granulosus (Dog Tapeworm)", "Taenia solium", "Ascaris", "Pinworm"], correct: 0 },
+                            { q: "Loa loa is known as the:", options: ["African Eye Worm", "Guinea Worm", "Heartworm", "Lungworm"], correct: 0 },
+                            { q: "Onchocerciasis causes:", options: ["River Blindness and Skin itching", "Deafness", "Paralysis", "Diarrhea"], correct: 0 },
+                            { q: "Buruli Ulcer is caused by:", options: ["Mycobacterium ulcerans", "Staph aureus", "E. coli", "Fungus"], correct: 0 },
+                            { q: "Yaws affects primarily the:", options: ["Skin, Bone, and Cartilage", "Lungs", "Heart", "Brain"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Parasitic Diagnostics & Treatment',
+                        questions: [
+                            { q: "The 'Scotch Tape Test' is used to diagnose:", options: ["Lice", "Pinworms (Enterobius)", "Ringworm", "Scabies"], correct: 1 },
+                            { q: "Stool Ova and Parasite (O&P) exam is used to find:", options: ["Viruses", "Eggs and Cyst/Trophozoites of parasites", "Bacteria", "Fungi"], correct: 1 },
+                            { q: "Thick and thin blood smears are the gold standard for diagnosing:", options: ["Flu", "Malaria", "HIV", "TB"], correct: 1 },
+                            { q: "Which characteristic of stool suggests Amoebic Dysentery?", options: ["Watery", "Bloody with mucus ('Raspberry jelly')", "Rice water", "Hard"], correct: 1 },
+                            { q: "Rice water stool is characteristic of:", options: ["Cholera", "Amoeba", "Giardia", "Salmonella"], correct: 0 },
+                            { q: "Steatorrhea (fatty stool) suggests:", options: ["Giardia", "Cholera", "Amoeba", "Malaria"], correct: 0 },
+                            { q: "Eosinophilia (high Eosinophils) in a CBC often indicates:", options: ["Bacterial infection", "Parasitic (Helminth) infection or Allergy", "Viral infection", "Fungal infection"], correct: 1 },
+                            { q: "Albendazole and Mebendazole are used to treat:", options: ["Viruses", "Nematodes (Roundworms)", "Bacteria", "Fungi"], correct: 1 },
+                            { q: "Metronidazole (Flagyl) is effective against:", options: ["Protozoa (Amoeba, Giardia, Trichomonas) and Anaerobes", "Viruses", "All worms", "Fungi"], correct: 0 },
+                            { q: "Praziquantel is the drug of choice for:", options: ["Roundworms", "Trematodes (Flukes) and Cestodes (Tapeworms)", "Protozoa", "Viruses"], correct: 1 },
+                            { q: "Chloroquine resistance is a major problem with:", options: ["Giardia", "P. falciparum (Malaria)", "Lice", "Scabies"], correct: 1 },
+                            { q: "Permethrin cream is used to treat:", options: ["Malaria", "Scabies and Lice", "Worms", "Amoeba"], correct: 1 },
+                            { q: "Ivermectin is used to treat:", options: ["River Blindness (Onchocerca) and Strongyloides", "Malaria", "TB", "Flu"], correct: 0 },
+                            { q: "Artemisinin-based Combination Therapy (ACT) is first-line for:", options: ["Uncomplicated P. falciparum Malaria", "Giardia", "Lice", "Worms"], correct: 0 },
+                            { q: "Primaquine is used to kill:", options: ["Adult worms", "Hypnozoites (Liver stage) of P. vivax/ovale", "Viruses", "Bacteria"], correct: 1 },
+                            { q: "Identify the parasite that causes 'Swimmer's Itch':", options: ["Animal Schistosomes", "Human Schistosomes", "Giardia", "Lice"], correct: 0 },
+                            { q: "Which diagnostic method is used for Chagas disease?", options: ["Blood smear", "Stool culture", "Urine test", "Xenodiagnosis (historical) / Serology"], correct: 3 },
+                            { q: "Kato-Katz technique is used to count:", options: ["Virus particles", "Helminth eggs in stool", "Bacteria", "WBCs"], correct: 1 },
+                            { q: "Knott's concentration technique detects:", options: ["Microfilariae in blood", "Malaria", "Amoeba", "Giardia"], correct: 0 },
+                            { q: "Rapid Diagnostic Tests (RDTs) for Malaria detect:", options: ["Parasite DNA", "Parasite Antigens", "Antibodies", "Liver enzymes"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Zoonosis & Advanced Parasitology',
+                        questions: [
+                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to Humans", "Insects to Humans", "Animals to Humans", "Plants to Humans"], correct: 2 },
+                            { q: "Which parasite causes 'Winterbottom's Sign' (swollen cervical nodes)?", options: ["Trypanosoma brucei (Sleeping Sickness)", "Plasmodium", "Leishmania", "Giardia"], correct: 0 },
+                            { q: "Romana's sign (unilateral eyelid swelling) is specific to:", options: ["Chagas Disease", "Malaria", "Sleeping Sickness", "Dengue"], correct: 0 },
+                            { q: "Calabar swellings are associated with:", options: ["Loa loa", "Onchocerca", "Wuchereria", "Dracunculus"], correct: 0 },
+                            { q: "Which parasite is associated with Bladder Cancer?", options: ["Schistosoma haematobium", "Schistosoma mansoni", "Fasciola", "Clonorchis"], correct: 0 },
+                            { q: "Clonorchis sinensis (Chinese Liver Fluke) is associated with:", options: ["Lung cancer", "Cholangiocarcinoma (Bile duct cancer)", "Liver cirrhosis", "Stomach cancer"], correct: 1 },
+                            { q: "Naegleria fowleri is known as the:", options: ["Brain-eating Amoeba", "Eye worm", "Lung fluke", "Liver fluke"], correct: 0 },
+                            { q: "Acanthamoeba causes:", options: ["Keratitis (Eye infection) often in contact lens wearers", "Diarrhea", "Pneumonia", "Malaria"], correct: 0 },
+                            { q: "Babesia microti infects RBCs and is transmitted by:", options: ["Mosquitoes", "Ixodes Ticks", "Fleas", "Lice"], correct: 1 },
+                            { q: "Diphyllobothrium latum is the:", options: ["Fish Tapeworm (causes B12 deficiency)", "Beef Tapeworm", "Pork Tapeworm", "Dog Tapeworm"], correct: 0 },
+                            { q: "Vit. B12 deficiency anemia is a complication of:", options: ["Diphyllobothrium latum", "Ascaris", "Hookworm", "Pinworm"], correct: 0 },
+                            { q: "Iron deficiency anemia is a major complication of heavy infection with:", options: ["Hookworms", "Pinworms", "Giardia", "Lice"], correct: 0 },
+                            { q: "Capillaria philippinensis is acquired by eating:", options: ["Raw fish", "Raw beef", "Raw pork", "Plants"], correct: 0 },
+                            { q: "Trichinella spiralis encysts in:", options: ["Liver", "Muscle tissue", "Brain", "Lungs"], correct: 1 },
+                            { q: "Trichinosis is acquired by eating:", options: ["Undercooked Pork/Game meat", "Beef", "Fish", "Vegetables"], correct: 0 },
+                            { q: "Anisakiasis is caused by eating:", options: ["Raw/Undercooked Seafood (Sushi)", "Pork", "Beef", "Chicken"], correct: 0 },
+                            { q: "Cutaneous Larva Migrans (Creeping Eruption) is caused by:", options: ["Animal Hookworms", "Human Hookworms", "Ascaris", "Pinworm"], correct: 0 },
+                            { q: "Visceral Larva Migrans is caused by:", options: ["Toxocara canis (Dog roundworm)", "Human roundworm", "Pinworm", "Tapeworm"], correct: 0 },
+                            { q: "Cysticercosis is caused by ingestion of:", options: ["T. solium eggs", "T. solium larvae in pork", "T. saginata eggs", "Basic food"], correct: 0 },
+                            { q: "Which forms of Leishmaniasis is most severe?", options: ["Cutaneous", "Mucocutaneous", "Visceral (Kala-azar)", "Diffuse"], correct: 2 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3807,18 +6191,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Advanced Pharmacology',
+                        title: 'Quiz Bank 1: Advanced Cardio & Renal',
                         questions: [
                             { q: "Which class of antihypertensives is known for causing a dry, persistent cough?", options: ["Beta Blockers", "Calcium Channel Blockers", "ACE Inhibitors", "Diuretics"], correct: 2 },
                             { q: "A patient on Spironolactone should avoid using:", options: ["Salt substitutes (often contain Potassium)", "Sugar substitutes", "Pepper", "Butter"], correct: 0 },
+                            { q: "What is the primary indication for Adenosine?", options: ["Bradycardia", "Supraventricular Tachycardia (SVT)", "Hypertension", "Pain"], correct: 1 },
+                            { q: "Digoxin toxicity is precipitated by which electrolyte imbalance?", options: ["Hyperkalemia", "Hypokalemia", "Hypercalcemia", "Hyponatremia"], correct: 1 },
+                            { q: "Nitroglycerin is used to treat:", options: ["Headache", "Angina Pectoris", "Hypertension", "Arrhythmia"], correct: 1 },
+                            { q: "A common side effect of Nitroglycerin is:", options: ["Constipation", "Headache", "Bradycardia", "Fever"], correct: 1 },
+                            { q: "Statins (e.g., Atorvastatin) are used to:", options: ["Lower blood pressure", "Lower cholesterol (Lipids)", "Thin blood", "Treat infection"], correct: 1 },
+                            { q: "Patients taking Statins should report:", options: ["Headache", "Muscle pain (Rhabdomyolysis)", "Cough", "Dry mouth"], correct: 1 },
+                            { q: "Which diuretic increases the risk of Hyperkalemia?", options: ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Bumetanide"], correct: 2 },
+                            { q: "Lisinopril works by acting on which system?", options: ["Sympathetic Nervous System", "RAAS (Renin-Angiotensin-Aldosterone System)", "Parasympathetic Nervous System", "Central Nervous System"], correct: 1 },
+                            { q: "What is the antidote for Warfarin (Coumadin)?", options: ["Protamine Sulfate", "Vitamin K", "Naloxone", "Flumazenil"], correct: 1 },
+                            { q: "What is the antidote for Heparin?", options: ["Vitamin K", "Protamine Sulfate", "Aspirin", "Insulin"], correct: 1 },
+                            { q: "Clopidogrel (Plavix) is an:", options: ["Anticoagulant", "Antiplatelet agent", "Antibiotic", "Antihypertensive"], correct: 1 },
+                            { q: "Furosemide (Lasix) should be pushed slowly IV to avoid:", options: ["Ototoxicity (Hearing loss)", "Blindness", "Liver failure", "Rash"], correct: 0 },
+                            { q: "Calcium Channel Blockers (e.g., Amlodipine) cause:", options: ["Vasoconstriction", "Vasodilation", "Increased HR", "Fluid retention"], correct: 1 },
+                            { q: "Which lab value is monitored for Warfarin therapy?", options: ["aPTT", "PT/INR", "Platelets", "WBC"], correct: 1 },
+                            { q: "Which lab value is monitored for Heparin therapy?", options: ["aPTT", "PT/INR", "Sodium", "Potassium"], correct: 0 },
+                            { q: "Atenolol is what type of drug?", options: ["ACE Inhibitor", "Beta Blocker", "Diuretic", "Steroid"], correct: 1 },
+                            { q: "Which drug is used for hypertensive crisis?", options: ["Aspirin", "Nitroprusside", "Tylenol", "Amoxicillin"], correct: 1 },
+                            { q: "Losartan is an example of an:", options: ["ACE Inhibitor", "ARB (Angiotensin Receptor Blocker)", "Beta Blocker", "CCB"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Psychotropic & Neuro Drugs',
+                        questions: [
                             { q: "The therapeutic serum level for Lithium is:", options: ["0.6 - 1.2 mEq/L", "2.0 - 3.5 mEq/L", "10 - 20 mEq/L", "0.1 - 0.5 mEq/L"], correct: 0 },
-                            { q: "Which medication is a rescue inhaler for acute asthma attacks?", options: ["Fluticasone (Steroid)", "Salmeterol (Long-acting)", "Albuterol (Short-acting Beta Agonist)", "Montelukast"], correct: 2 },
+                            { q: "Serotonin Syndrome is a potential risk when combining SSRIs with:", options: ["MAOIs / St. John's Wort", "NSAIDs", "Antibiotics", "Antihistamines"], correct: 0 },
+                            { q: "Which food must be avoided when taking MAOIs?", options: ["Leafy Greens", "Grapefruit", "Aged Cheese / Wine (Tyramine)", "Milk"], correct: 2 },
+                            { q: "Benzodiazepines (e.g., Lorazepam) work by enhancing:", options: ["Dopamine", "GABA", "Serotonin", "Norepinephrine"], correct: 1 },
+                            { q: "The antidote for Benzodiazepine overdose is:", options: ["Naloxone", "Flumazenil", "Vitamin K", "Atropine"], correct: 1 },
+                            { q: "Haloperidol (Haldol) can cause EPS (Extrapyramidal Symptoms), such as:", options: ["Diarrhea", "Dystonia and Tardive Dyskinesia", "Euphoria", "Weight loss"], correct: 1 },
+                            { q: "Clozapine carries a risk of:", options: ["Agranulocytosis (Low WBC)", "Hypertension", "Rash", "Blindness"], correct: 0 },
+                            { q: "Phenytoin (Dilantin) requires monitoring for:", options: ["Gingival Hyperplasia", "Dry skin", "Hair loss", "Cough"], correct: 0 },
+                            { q: "Carbidopa-Levodopa is used to treat:", options: ["Alzheimer's", "Parkinson's Disease", "Seizures", "Depression"], correct: 1 },
+                            { q: "Donepezil (Aricept) is used for:", options: ["Parkinson's", "Alzheimer's Disease", "ALS", "MS"], correct: 1 },
+                            { q: "TCAs (Tricyclic Antidepressants) have significant:", options: ["Anticholinergic effects (Dry mouth, Urine retention)", "Diarrhea", "Weight loss", "Insomnia"], correct: 0 },
+                            { q: "Buspirone is used for:", options: ["Depression", "Anxiety (Non-addictive)", "Psychosis", "Sleep"], correct: 1 },
+                            { q: "Methylphenidate (Ritalin) is a:", options: ["Depressant", "CNS Stimulant", "Opioid", "Benzo"], correct: 1 },
+                            { q: "Zolpidem (Ambien) is used for:", options: ["Anxiety", "Insomnia", "Depression", "Pain"], correct: 1 },
+                            { q: "Disulfiram (Antabuse) is used in:", options: ["Alcohol withdrawal", "Alcohol aversion therapy", "Opioid addiction", "Smoking cessation"], correct: 1 },
+                            { q: "Methadone is used for:", options: ["Alcohol detox", "Opioid maintenance therapy", "Smoking", "Stimulant detox"], correct: 1 },
+                            { q: "Naloxone (Narcan) works by:", options: ["Blocking opioid receptors", "Increasing serotonin", "Sedating the patient", "Stimulating breathing"], correct: 0 },
+                            { q: "Benztropine (Cogentin) is used to treat:", options: ["Pain", "EPS side effects of antipsychotics", "Depression", "Anxiety"], correct: 1 },
+                            { q: "Valproic Acid (Depakote) can be toxic to the:", options: ["Kidneys", "Liver (Hepatotoxicity)", "Lungs", "Heart"], correct: 1 },
+                            { q: "Gabapentin is frequently used for:", options: ["Hypertension", "Neuropathic Pain", "Depression", "Infection"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Endocrine & GI Drugs',
+                        questions: [
                             { q: "Omeprazole (Prilosec) is classified as a:", options: ["H2 Blocker", "Antacid", "Proton Pump Inhibitor (PPI)", "Antibiotic"], correct: 2 },
                             { q: "When administering Insulin Lispro (Humalog), when should the patient eat?", options: ["Within 15 minutes", "In 1 hour", "In 2 hours", "Whenever they want"], correct: 0 },
-                            { q: "Which antidote is used for Heparin overdose?", options: ["Vitamin K", "Protamine Sulfate", "Naloxone", "Flumazenil"], correct: 1 },
-                            { q: "Serotonin Syndrome is a potential risk when combining SSRIs with:", options: ["MAOIs", "NSAIDs", "Antibiotics", "Antihistamines"], correct: 0 },
-                            { q: "Which Beta Blocker is non-selective and should be used with caution in asthmatics?", options: ["Metoprolol", "Atenolol", "Propranolol", "Bisoprolol"], correct: 2 },
-                            { q: "What is the primary indication for Adenosine?", options: ["Bradycardia", "Supraventricular Tachycardia (SVT)", "Hypertension", "Pain"], correct: 1 }
+                            { q: "Metformin (Glucophage) should be held before:", options: ["Eating", "CT scans with contrast dye", "Sleeping", "Exercise"], correct: 1 },
+                            { q: "Long-term use of PPIs can lead to:", options: ["Weight gain", "Osteoporosis / Fractures", "High BP", "Diabetes"], correct: 1 },
+                            { q: "Sucralfate (Carafate) works by:", options: ["Neutralizing acid", "Coating the ulcer (Mucosal barrier)", "Stopping acid production", "Killing bacteria"], correct: 1 },
+                            { q: "Ondansetron (Zofran) works by blocking:", options: ["Dopamine", "Serotonin (5-HT3) receptors", "Histamine", "Acetylcholine"], correct: 1 },
+                            { q: "Lactulose is given to liver failure patients to reduce:", options: ["Glucose", "Ammonia levels", "Potassium", "Sodium"], correct: 1 },
+                            { q: "Pancrelipase should be taken:", options: ["On an empty stomach", "With every meal and snack", "At bedtime", "Once a week"], correct: 1 },
+                            { q: "Levothyroxine (Synthroid) is best taken:", options: ["With food", "In the morning on an empty stomach", "At bedtime", "With milk"], correct: 1 },
+                            { q: "Propylthiouracil (PTU) is used for:", options: ["Hypothyroidism", "Hyperthyroidism (Graves')", "Diabetes", "Addison's"], correct: 1 },
+                            { q: "Vasopressin (ADH) is used to treat:", options: ["Diabetes Mellitus", "Diabetes Insipidus", "SIADH", "Cushing's"], correct: 1 },
+                            { q: "Glucagon is used for:", options: ["Hyperglycemia", "Severe Hypoglycemia", "High BP", "Pain"], correct: 1 },
+                            { q: "Promethazine (Phenergan) carries a risk for:", options: ["Tissue necrosis if extravasated", "High BP", "Diarrhea", "Insomnia"], correct: 0 },
+                            { q: "Bismuth Subsalicylate (Pepto-Bismol) contains:", options: ["Antibiotics", "Aspirin-like compound (Salicylate)", "Tylenol", "Opioids"], correct: 1 },
+                            { q: "Loperamide (Imodium) is an:", options: ["Laxative", "Antidiarrheal", "Antiemetic", "Antibiotic"], correct: 1 },
+                            { q: "Docusate Sodium (Colace) is a:", options: ["Stimulant laxative", "Stool softener", "Bulk-forming laxative", "Osmotic laxative"], correct: 1 },
+                            { q: "Bisacodyl (Dulcolax) is a:", options: ["Stool softener", "Stimulant laxative", "Fiber supplement", "Enema"], correct: 1 },
+                            { q: "Misoprostol is contraindicated in:", options: ["Men", "Pregnancy (Induces labor)", "Elderly", "Children"], correct: 1 },
+                            { q: "Calcium Carbonate (Tums) is an:", options: ["H2 Blocker", "Antacid", "PPI", "Antibiotic"], correct: 1 },
+                            { q: "Regular Insulin is the only insulin that can be given:", options: ["SQ", "IV", "IM", "Orally"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Respiratory, Antibiotics & Critical Care',
+                        questions: [
+                            { q: "Which medication is a rescue inhaler for acute asthma attacks?", options: ["Fluticasone", "Salmeterol", "Albuterol (SABA)", "Montelukast"], correct: 2 },
+                            { q: "Theophylline toxicity level is above:", options: ["5 mcg/mL", "10 mcg/mL", "20 mcg/mL", "100 mcg/mL"], correct: 2 },
+                            { q: "Montelukast (Singulair) is a:", options: ["Steroid", "Leukotriene Modifier", "Beta Agonist", "Antihistamine"], correct: 1 },
+                            { q: "Acetylcysteine (Mucomyst) is the antidote for:", options: ["Aspirin", "Acetaminophen (Tylenol)", "Opioids", "Benzos"], correct: 1 },
+                            { q: "Vancomycin administration requires monitoring for:", options: ["Red Man Syndrome", "Blue Man Syndrome", "Green Man Syndrome", "Yellow Man Syndrome"], correct: 0 },
+                            { q: "Red Man Syndrome is caused by:", options: ["Allergy", "Rapid infusion of Vancomycin (Histamine release)", "Slow infusion", "Antibiotic resistance"], correct: 1 },
+                            { q: "Tetracyclines should not be given to:", options: ["Men", "Children < 8 and Pregnant women (Tooth discoloration)", "Elderly", "Teens"], correct: 1 },
+                            { q: "Fluoroquinolones (e.g., Ciprofloxacin) carry a black box warning for:", options: ["Liver failure", "Tendon Rupture", "Kidney stones", "Blindness"], correct: 1 },
+                            { q: "Metronidazole (Flagyl) interaction with alcohol causes:", options: ["Euphoria", "Disulfiram-like reaction (Severe Vomiting)", "Sleepiness", "Rash"], correct: 1 },
+                            { q: "Gentamicin can cause toxicity to:", options: ["Liver and Lungs", "Kidneys (Nephro) and Ears (Oto)", "Heart and Brain", "Skin and Eyes"], correct: 1 },
+                            { q: "Rifampin (TB drug) causes body fluids to turn:", options: ["Blue", "Orange/Red", "Green", "Black"], correct: 1 },
+                            { q: "Isoniazid (INH) depletes which vitamin?", options: ["Vitamin C", "Vitamin B6 (Pyridoxine)", "Vitamin D", "Vitamin A"], correct: 1 },
+                            { q: "Epinephrine is indicated for:", options: ["Headache", "Anaphylaxis and Cardiac Arrest", "Hypertension", "Sleep"], correct: 1 },
+                            { q: "Atropine is used for symptomatic:", options: ["Tachycardia", "Bradycardia", "Hypertension", "Fever"], correct: 1 },
+                            { q: "Dobutamine is used to treat:", options: ["Heart Failure (Increases contractility)", "High BP", "Pain", "Anxiety"], correct: 0 },
+                            { q: "Norepinephrine (Levophed) causes:", options: ["Vasodilation", "Vasoconstriction (Increases BP)", "Sedation", "Diuresis"], correct: 1 },
+                            { q: "Midazolam (Versed) is commonly used for:", options: ["Pain", "Procedural Sedation", "Antibiotic", "Blood thinning"], correct: 1 },
+                            { q: "Propofol is essentially:", options: ["Analgesic", "Sedative/Hypnotic (Milk of Amnesia)", "Antibiotic", "Vitamin"], correct: 1 },
+                            { q: "Succinylcholine is a:", options: ["Pain killer", "Paralytic (Neuromuscular Blocker)", "Sedative", "Antibiotic"], correct: 1 },
+                            { q: "Malignant Hyperthermia is triggered by:", options: ["Tylenol", "Inhaled anesthetics and Succinylcholine", "Opioids", "Benzos"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Toxicology & Special Populations',
+                        questions: [
+                            { q: "What is the antidote for Acetaminophen?", options: ["Naloxone", "Acetylcysteine", "Vitamin K", "Flumazenil"], correct: 1 },
+                            { q: "Activated Charcoal is most effective when given within:", options: ["1 hour of ingestion", "24 hours", "1 week", "1 month"], correct: 0 },
+                            { q: "Which drug is contraindicated in pregnancy (Category X)?", options: ["Tylenol", "Isotretinoin (Accutane)", "Penicillin", "Insulin"], correct: 1 },
+                            { q: "Which vaccine is contraindicated in pregnancy?", options: ["Flu shot", "MMR (Live virus)", "Tdap", "Hep B"], correct: 1 },
+                            { q: "In elderly patients, drug metabolism is often:", options: ["Faster", "Slower (Start low and go slow)", "Unchanged", "Does not occur"], correct: 1 },
+                            { q: "Polypharmacy refers to:", options: ["Using one pharmacy", "Use of multiple medications (Risk of interactions)", "Using generic drugs", "Using brand drugs"], correct: 1 },
+                            { q: "Chemotherapy drugs affect:", options: ["Only cancer cells", "Rapidly dividing cells (Bone marrow, GI, Hair)", "Only viruses", "Only bacteria"], correct: 1 },
+                            { q: "Filgrastim (Neupogen) stimulates production of:", options: ["RBCs", "WBCs (Neutrophils)", "Platelets", "Plasma"], correct: 1 },
+                            { q: "Epoetin Alfa (Epogen) stimulates production of:", options: ["RBCs", "WBCs", "Platelets", "Clotting factors"], correct: 0 },
+                            { q: "Cyclosporine is an:", options: ["Antibiotic", "Immunosuppressant (Anti-rejection)", "Antiviral", "Antifungal"], correct: 1 },
+                            { q: "Tamoxifen is used to treat:", options: ["Lung cancer", "Breast Cancer", "Prostate Cancer", "Brain cancer"], correct: 1 },
+                            { q: "Sildenafil (Viagra) should not be taken with:", options: ["Aspirin", "Nitrates (Severe hypotension)", "Tylenol", "Advil"], correct: 1 },
+                            { q: "Finasteride (Proscar) is used for:", options: ["BPH and Hair loss", "High BP", "Pain", "Infection"], correct: 0 },
+                            { q: "Oxybutynin is used for:", options: ["Overactive Bladder", "Constipation", "Diarrhea", "Cough"], correct: 0 },
+                            { q: "Biphosphonates (Alendronate) require the patient to:", options: ["Lie down", "Sit upright for 30 mins after taking", "Sleep", "Eat a large meal"], correct: 1 },
+                            { q: "Allopurinol is used to prevent:", options: ["Pain", "Gout (Uric acid buildup)", "Arthritis", "Fever"], correct: 1 },
+                            { q: "Colchicine is used for:", options: ["Acute Gout attacks", "Headache", "Infection", "High BP"], correct: 0 },
+                            { q: "Diphenhydramine (Benadryl) is an:", options: ["H1 Blocker (Antihistamine)", "H2 Blocker", "PPI", "Steroid"], correct: 0 },
+                            { q: "Which herbal supplement increases bleeding risk?", options: ["Garlic, Ginger, Ginkgo", "Calcium", "Iron", "Vitamin C"], correct: 0 },
+                            { q: "St. John's Wort interacts negatively with:", options: ["Tylenol", "SSRIs and many other drugs", "Aspirin", "Vitamins"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -3959,7 +6492,156 @@ const appData = {
                             { q: "Duchenne Muscular Dystrophy is characterized by which sign when standing up from the floor?", options: ["Kernig's Sign", "Brudzinski's Sign", "Gower's Sign", "Babinski Sign"], correct: 2 },
                             { q: "Koplik spots in the mouth are a hallmark of:", options: ["Chickenpox", "Mumps", "Measles (Rubeola)", "Rubella"], correct: 2 },
                             { q: "A baby with projectile vomiting and an olive-shaped mass in the epigastrium likely has:", options: ["GERD", "Pyloric Stenosis", "Hernia", "Gastritis"], correct: 1 },
-                            { q: "Hydrocephalus is treated with:", options: ["Antibiotics", "Diuretics", "Ventriculoperitoneal (VP) Shunt", "Radiation therapy"], correct: 2 }
+                            { q: "Hydrocephalus is treated with:", options: ["Antibiotics", "Diuretics", "Ventriculoperitoneal (VP) Shunt", "Radiation therapy"], correct: 2 },
+                            { q: "Patent Ductus Arteriosus (PDA) is a connection between the:", options: ["Aorta and Pulmonary Artery", "Atria", "Ventricles", "Veins"], correct: 0 },
+                            { q: "To close a PDA, which medication is often administered?", options: ["Prostaglandin E", "Indomethacin (NSAID)", "Digoxin", "Furosemide"], correct: 1 },
+                            { q: "Kawasaki Disease presents with:", options: ["Strawberry tongue and peeling hands/feet", "Sandpaper rash", "Hypothermia", "Low WBC"], correct: 0 },
+                            { q: "The primary treatment for Kawasaki Disease includes:", options: ["Antibiotics", "IVIG and High-dose Aspirin", "Antivirals", "Chemotherapy"], correct: 1 },
+                            { q: "Rheumatic Fever is primarily caused by:", options: ["Staph aureus", "Group A Beta-Hemolytic Streptococcus", "E. coli", "Virus"], correct: 1 },
+                            { q: "Rheumatic Heart Disease primarily affects which valve?", options: ["Tricuspid", "Mitral", "Pulmonary", "None"], correct: 1 },
+                            { q: "Sickle Cell Crisis (Vaso-occlusive) management priority is:", options: ["Antibiotics only", "Hydration and Pain Management", "Exercise", "Sun exposure"], correct: 1 },
+                            { q: "Hemophilia A is a deficiency of:", options: ["Factor VII", "Factor VIII", "Factor IX", "Factor X"], correct: 1 },
+                            { q: "Cystic Fibrosis affects which systems?", options: ["Respiratory and GI (Pancreas)", "Brain and Heart", "Kidney and Liver", "Skin and Bones"], correct: 0 },
+                            { q: "Sweat Chloride Test is diagnostic for:", options: ["Asthma", "Cystic Fibrosis", "Pneumonia", "TB"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Respiratory & GI Disorders',
+                        questions: [
+                            { q: "Epiglottitis is a medical emergency caused by:", options: ["Virus", "Haemophilus influenzae type b (Hib)", "Fungus", "Allergy"], correct: 1 },
+                            { q: "Bronchiolitis is most commonly caused by:", options: ["Influenza", "Respiratory Syncytial Virus (RSV)", "Streptococcus", "Staphylococcus"], correct: 1 },
+                            { q: "Which precaution is used for RSV?", options: ["Airborne", "Contact & Droplet", "Standard only", "Reverse isolation"], correct: 1 },
+                            { q: "Hirschsprung's Disease is also known as:", options: ["Congenital Aganglionic Megacolon", "Short Bowel Syndrome", "IBS", "Crohn's"], correct: 0 },
+                            { q: "A newborn failing to pass meconium within 24-48 hours may indicate:", options: ["Diarrhea", "Hirschsprung's Disease / Cystic Fibrosis", "Colic", "Normal finding"], correct: 1 },
+                            { q: "Celiac Disease requires a lifelong strict avoidance of:", options: ["Dairy", "Gluten (Wheat, Barley, Rye)", "Sugar", "Meat"], correct: 1 },
+                            { q: "Appendicitis pain typically localizes to:", options: ["Left Lower Quadrant", "McBurney's Point (RLQ)", "Epigastrium", "Right Upper Quadrant"], correct: 1 },
+                            { q: "Sudden relief of pain in Appendicitis may indicate:", options: ["Recovery", "Rupture (Perforation)", "Gas passing", "Muscle relaxation"], correct: 1 },
+                            { q: "Meckel's Diverticulum characteristic symptom is:", options: ["Painless rectal bleeding (Currant jelly)", "Vomiting", "Fever", "Cough"], correct: 0 },
+                            { q: "GERD in infants is managed by:", options: ["Laying flat", "Thickened feedings and upright positioning", "Surgery immediately", "Antibiotics"], correct: 1 },
+                            { q: "Biliary Atresia involves:", options: ["Blocked bile ducts", "Stomach ulcer", "Kidney stones", "Lung infection"], correct: 0 },
+                            { q: "Which sign indicates Esophageal Atresia/Tracheoesophageal Fistula (TEF)?", options: ["3 Cs: Coughing, Choking, Cyanosis with feeding", "Fever", "Diarrhea", "Rash"], correct: 0 },
+                            { q: "Status Asthmaticus is:", options: ["Controlled asthma", "Severe, unresponsive asthma attack", "Exercise induced asthma", "Night cough"], correct: 1 },
+                            { q: "Pancreatic enzymes for Cystic Fibrosis must be taken:", options: ["Before bed", "With every meal and snack", "Once a day", "Start of the week"], correct: 1 },
+                            { q: "Tonsillectomy post-op priority is checking for:", options: ["Hearing loss", "Bleeding (Frequent swallowing)", "Infection", "Pain"], correct: 1 },
+                            { q: "Otitis Media is more common in children due to:", options: ["Smaller ears", "Shorter, wider, and more horizontal Eustachian tubes", "Larger adenoids", "Teething"], correct: 1 },
+                            { q: "Mononucleosis (Kissing Disease) is caused by:", options: ["Cytomegalovirus", "Epstein-Barr Virus", "Herpes Simplex", "Adenovirus"], correct: 1 },
+                            { q: "Splenomegaly in Mono requires avoiding:", options: ["School", "Contact sports (Rupture risk)", "Swimming", "Sleeping"], correct: 1 },
+                            { q: "Pertussis is characterized by:", options: ["Barking cough", "Whooping cough", "Productive cough", "Dry cough"], correct: 1 },
+                            { q: "Foreign Body Aspiration is most common in:", options: ["Right mainstem bronchus", "Left mainstem bronchus", "Trachea", "Esophagus"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Neuro & Musculoskeletal',
+                        questions: [
+                            { q: "Spina Bifida Occulta often presents with:", options: ["Visible sac", "Dimple or hairy tuft at the base of spine", "Paralysis", "Open wound"], correct: 1 },
+                            { q: "Myelomeningocele involves protrusion of:", options: ["Meninges only", "Meninges and Spinal Cord/Nerves", "Muscle", "Bone"], correct: 1 },
+                            { q: "Nursing priority for Myelomeningocele sac pre-op:", options: ["Dry sterile dressing", "Moist sterile saline dressing", "Diapering tightly", "Leaving open to air"], correct: 1 },
+                            { q: "Latex allergy is common in children with:", options: ["Asthma", "Spina Bifida", "Diabetes", "Cancer"], correct: 1 },
+                            { q: "Cerebral Palsy is a non-progressive disorder of:", options: ["Intelligence", "Movement and Posture", "Sensation", "Vision"], correct: 1 },
+                            { q: "Reye's Syndrome is associated with using which drug during viral illness?", options: ["Tylenol", "Aspirin (Salicylates)", "Ibuprofen", "Antibiotics"], correct: 1 },
+                            { q: "Bacterial Meningitis CSF analysis shows:", options: ["High Glucose, Low Protein", "Low Glucose, High Protein, Cloudy", "Clear fluid", "Bloody fluid"], correct: 1 },
+                            { q: "Kernig's Sign involves:", options: ["Neck flexion", "Pain with extension of leg/knee", "Fanning toes", "Eye movement"], correct: 1 },
+                            { q: "Brudzinski's Sign involves:", options: ["Leg extension", "Involuntary hip/knee flexion when neck is flexed", "Arm tremor", "Walking"], correct: 1 },
+                            { q: "Febrile Seizures are common in:", options: ["Infants/Toddlers with rapid temp rise", "Teens", "Elderly", "Adults"], correct: 0 },
+                            { q: "Which type of seizure involves 'staring spells'?", options: ["Tonic-Clonic", "Absence Seizure (Petit Mal)", "Focal", "Myoclonic"], correct: 1 },
+                            { q: "Developmental Dysplasia of the Hip (DDH) sign:", options: ["Symmetrical folds", "Asymmetrical gluteal folds / Positive Ortolani click", "Straight legs", "No click"], correct: 1 },
+                            { q: "Pavlik Harness is worn:", options: ["Only at night", "23-24 hours a day", "During bathtime", "Once a week"], correct: 1 },
+                            { q: "Clubfoot (Talipes Equinovarus) is managed with:", options: ["Surgey only", "Serial Casting (Ponseti method)", "Wait and see", "Special shoes immediately"], correct: 1 },
+                            { q: "Osteogenesis Imperfecta exhibits:", options: ["Strong bones", "Brittle bones and Blue Sclera", "High fever", "Rash"], correct: 1 },
+                            { q: "Legg-Calve-Perthes Disease is:", options: ["Infection of bone", "Avascular Necrosis of the femoral head", "Cancer", "Fracture"], correct: 1 },
+                            { q: "Scoliosis screening involves:", options: ["X-ray only", "Adam's Forward Bend Test", "blood test", "MRI"], correct: 1 },
+                            { q: "Juvenile Idiopathic Arthritis (JIA) goals:", options: ["Curative", "Preserve joint function and control inflammation", "Bed rest", "Avoid all activity"], correct: 1 },
+                            { q: "Craniosynostosis is:", options: ["Premature closure of cranial sutures", "Late closure", "Large head", "Small head"], correct: 0 },
+                            { q: "Plagiocephaly (Flat head) is prevented by:", options: ["Surgery", "Tummy Time", "Helmets only", "Vitamins"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Oncology & Infectious Diseases',
+                        questions: [
+                            { q: "Acute Lymphoblastic Leukemia (ALL) impacts which cells?", options: ["Red Blood Cells", "Immature Lymphocytes (Lymphoblasts)", "Platelets", "Neutrophils"], correct: 1 },
+                            { q: "Retinoblastoma presents with:", options: ["Red eye", "Leukocoria (White pupillary reflex / 'Cat's eye')", "Pain", "Tearing"], correct: 1 },
+                            { q: "Osteosarcoma (Bone cancer) typically occurs in the:", options: ["Skull", "Metaphysis of long bones (Femur) in teens", "Ribs", "Spine"], correct: 1 },
+                            { q: "Ewing's Sarcoma arises in the:", options: ["Marrow space of bone", "Muscle", "Skin", "Brain"], correct: 0 },
+                            { q: "Tumor Lysis Syndrome causes:", options: ["Hypokalemia", "Hyperkalemia, Hyperuricemia, Hyperphosphatemia", "Hypocalcemia", "Normal labs"], correct: 1 },
+                            { q: "Neutropenic precautions include:", options: ["Fresh flowers allowed", "No fresh flowers/fruits, Mask wearing, Hand hygiene", "Sharing rooms", "Raw vegetables"], correct: 1 },
+                            { q: "Varicella (Chickenpox) is contagious until:", options: ["Fever stops", "All lesions have crusted over", "Rash appears", "1 week after rash"], correct: 1 },
+                            { q: "Rubella (German Measles) is dangerous primarily for:", options: ["Children", "Pregnant women (Teratogenic)", "Elderly", "Men"], correct: 1 },
+                            { q: "Fifth Disease (Parvovirus B19) presents with:", options: ["Slapped Cheek rash", "Sandpaper rash", "Vesicles", "Pustules"], correct: 0 },
+                            { q: "Roseola (Sixth Disease) presents with:", options: ["High fever followed by rash after fever breaks", "Rash then fever", "Cough", "Runny nose"], correct: 0 },
+                            { q: "Scarlet Fever is caused by:", options: ["Staph", "Group A Strep (Strep Throat)", "Virus", "Fungus"], correct: 1 },
+                            { q: "Signs of Scarlet Fever include:", options: ["Strawberry tongue and Sandpaper rash", "Blue rash", "Clear skin", "Itchy feet"], correct: 0 },
+                            { q: "Hand-Foot-Mouth Disease is caused by:", options: ["Coxsackievirus", "Herpes", "Flu virus", "Staph"], correct: 0 },
+                            { q: "Impetigo is characterized by:", options: ["Honey-colored crusts", "Silvery scales", "Blue spots", "Bruising"], correct: 0 },
+                            { q: "Tinea Capitis affects the:", options: ["Feet (Athlete's foot)", "Scalp (Ringworm)", "Body", "Groin"], correct: 1 },
+                            { q: "Lyme Disease target rash is called:", options: ["Butterfly rash", "Bull's eye rash (Erythema Migrans)", "Hives", "Petechiae"], correct: 1 },
+                            { q: "Rocky Mountain Spotted Fever is transmitted by:", options: ["Mosquitoes", "Ticks (Rickettsia rickettsii)", "Fleas", "Spiders"], correct: 1 },
+                            { q: "Pinworm tape test is best done:", options: ["Before bed", "Early morning before washing", "After school", "After bath"], correct: 1 },
+                            { q: "Scabies is treated with:", options: ["Steroids", "Permethrin cream (head to toe)", "Antibiotics", "Lotion"], correct: 1 },
+                            { q: "Pediculosis Capitis (Lice) requires removing:", options: ["Hair", "Nits (Eggs)", "Skin", "Clothes"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Critical Care & Child Abuse',
+                        questions: [
+                            { q: "Munchausen Syndrome by Proxy is:", options: ["Child faking illness", "Caregiver fabricating illness in child", "Genetic disorder", "Infection"], correct: 1 },
+                            { q: "Shaken Baby Syndrome primarily causes:", options: ["Fractured legs", "Subdural hematoma and Retinal hemorrhages", "Abdominal trauma", "Burns"], correct: 1 },
+                            { q: "Burns with a 'glove' or 'stocking' pattern suggest:", options: ["Accidental spill", "Intentional immersion", "Sunburn", "Chemical burn"], correct: 1 },
+                            { q: "Lead poisoning (Plumbism) affects which systems?", options: ["Liver", "Neurological (Brain) and Renal", "Lungs", "Skin"], correct: 1 },
+                            { q: "Chelation therapy is used for:", options: ["Iron deficiency", "Lead poisoning (High levels)", "Vitamin overdose", "Dehydration"], correct: 1 },
+                            { q: "SIDS prevention includes:", options: ["Prone sleeping", "Back to Sleep, Firm mattress, No loose bedding", "Soft bedding", "Co-sleeping"], correct: 1 },
+                            { q: "The Rule of Nines for burns in children assigns what % to the head?", options: ["9%", "18% (Larger than adults)", "4.5%", "1%"], correct: 1 },
+                            { q: "Parkland Formula calculates:", options: ["Calories", "Fluid resuscitation requirements for burns", "Drug dosages", "Oxygen needs"], correct: 1 },
+                            { q: "Anaphylaxis is treated immediately with:", options: ["Benadryl", "IM Epinephrine", "Steroids", "IV Fluids"], correct: 1 },
+                            { q: "Drowning priority at scene:", options: ["Dry warmth", "CPR / Rescue breathing", "Heimlich", "Chest X-ray"], correct: 1 },
+                            { q: "Hypovolemic shock in children presents early with:", options: ["Hypotension", "Tachycardia", "Bradycardia", "Polyuria"], correct: 1 },
+                            { q: "Acetaminophen overdose damages the:", options: ["Kidneys", "Liver", "Brain", "Heart"], correct: 1 },
+                            { q: "Aspirin overdose causes:", options: ["Liver failure", "Metabolic Acidosis and Tinnitus", "Constipation", "Rash"], correct: 1 },
+                            { q: "Corrosive ingestion (Bleach) management:", options: ["Induce vomiting", "Do NOT induce vomiting (Airway protection)", "Give water", "Give milk"], correct: 1 },
+                            { q: "Intraosseous (IO) access is used when:", options: ["Veins cannot be accessed in emergency", "Long term therapy needed", "Blood draw needed", "Always"], correct: 0 },
+                            { q: "Palliative care focuses on:", options: ["Cure", "Quality of life and Symptom management", "Surgery", "Experimental drugs"], correct: 1 },
+                            { q: "Regression (e.g., bedwetting) in a hospitalized child is:", options: ["Abnormal", "A normal coping mechanism", "Permanent", "Sign of abuse"], correct: 1 },
+                            { q: "To examine the ear of a child < 3 years, pull the pinna:", options: ["Up and back", "Down and back", "Straight out", "Forward"], correct: 1 },
+                            { q: "To examine the ear of a child > 3 years, pull the pinna:", options: ["Up and back", "Down and back", "Straight out", "Forward"], correct: 0 },
+                            { q: "FLACC scale is used for pain assessment in:", options: ["Adults", "Non-verbal children / Infants", "School age", "Teens"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -4086,18 +6768,167 @@ const appData = {
                     },
                     {
                         type: 'quiz',
-                        title: 'Quiz Bank 1: Communicable Diseases Review',
+                        title: 'Quiz Bank 1: Epidemiology & Prevention',
+                        questions: [
+                            { q: "Which of the following is NOT part of the Epidemiological Triad?", options: ["Host", "Agent", "Environment", "Treatment"], correct: 3 },
+                            { q: "The incubation period is the time between:", options: ["Exposure and onset of symptoms", "Symptoms and recovery", "Diagnosis and treatment", "Exposure and death"], correct: 0 },
+                            { q: "Primordial prevention emphasizes:", options: ["Treatment of disease", "Rehabilitation", "Prevention of risk factors (Policy/Environment)", "Early diagnosis"], correct: 2 },
+                            { q: "Screening tests (e.g., Pap smear) are examples of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Primordial Prevention"], correct: 1 },
+                            { q: "Immunization is an example of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Treatment"], correct: 0 },
+                            { q: "Which rate measures the number of NEW cases in a population?", options: ["Prevalence Rate", "Incidence Rate", "Mortality Rate", "Morbidity Rate"], correct: 1 },
+                            { q: "Prevalence refers to:", options: ["New cases only", "Total existing cases (New + Old) at a point in time", "Deaths", "Cures"], correct: 1 },
+                            { q: "An endemic disease is one that:", options: ["Spreads globally", "Is constantly present in a specific population/area", "Occurs in sudden outbreaks", "Is rare"], correct: 1 },
+                            { q: "A pandemic is:", options: ["An epidemic that spreads worldwide", "A local outbreak", "A disease affecting animals", "A non-communicable disease"], correct: 0 },
+                            { q: "Herd immunity protects the community when:", options: ["Everyone is sick", "A high percentage of the population is immune (Vaccinated)", "No one is vaccinated", "Antibiotics are used"], correct: 1 },
+                            { q: "The Chain of Infection includes all EXCEPT:", options: ["Reservoir", "Portal of Entry", "Hospital Administration", "Susceptible Host"], correct: 2 },
+                            { q: "Fomites are:", options: ["Living vectors", "Inanimate objects contaminated with pathogens", "Bacteria", "Food"], correct: 1 },
+                            { q: "Isolation refers to separating:", options: ["Healthy people exposed to disease", "Sick people with infectious disease", "Everyone", "Travelers"], correct: 1 },
+                            { q: "Quarantine refers to separating:", options: ["Sick people", "Healthy people who have been exposed", "Dead bodies", "Animals"], correct: 1 },
+                            { q: "Standard Precautions apply to:", options: ["Only HIV patients", "Only TB patients", "All patients regardless of diagnosis", "Only surgical patients"], correct: 2 },
+                            { q: "Hand hygiene is the single most important measure to prevent:", options: ["Cancer", "Nosocomial Infections (HAI)", "Diabetes", "Hypertension"], correct: 1 },
+                            { q: "Vertical transmission occurs from:", options: ["Person to person", "Mother to Child (Placenta/Breastmilk)", "Animal to Human", "Insect to Human"], correct: 1 },
+                            { q: "A carrier is a person who:", options: ["Is sick with symptoms", "Harbors the pathogen without symptoms but can transmit it", "Is immune", "Is dead"], correct: 1 },
+                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to Humans", "Animals to Humans", "Plants to Humans", "Soil to Humans"], correct: 1 },
+                            { q: "Attack rate is a special type of:", options: ["Prevalence", "Incidence rate used in outbreaks", "Mortality rate", "Birth rate"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: HIV, TB & Malaria',
                         questions: [
                             { q: "The 'Rice Water Stool' is a hallmark sign of which disease?", options: ["Typhoid", "Cholera", "Dysentery", "Amoebiasis"], correct: 1 },
-                            { q: "Which vector is responsible for transmitting Dengue Fever?", options: ["Anopheles", "Culex", "Aedes aegypti", "Tsetse Fly"], correct: 2 },
-                            { q: "The Mantoux test is used to screen for:", options: ["HIV", "Tuberculosis", "Leprosy", "Syphilis"], correct: 1 },
-                            { q: "Koplik's spots are pathognomonic for:", options: ["Rubella", "Measles (Rubeola)", "Chickenpox", "Mumps"], correct: 1 },
-                            { q: "Which of the following is a sexually transmitted infection caused by a bacteria?", options: ["Herpes", "Syphilis", "HIV", "Hepatitis B"], correct: 1 },
-                            { q: "The 'integrated disease surveillance and response' (IDSR) strategy aims to:", options: ["Treat all patients", "Detect and respond to disease outbreaks", "Provide vaccinations", "Educate the public"], correct: 1 },
-                            { q: "Neglected Tropical Diseases (NTDs) primarily affect:", options: ["Wealthy nations", "Urban populations", "Poor/marginalized populations", "Cold climates"], correct: 2 },
-                            { q: "Which of the following is NOT part of the Epidemiological Triad?", options: ["Host", "Agent", "Environment", "Treatment"], correct: 3 },
-                            { q: "Rabies is most commonly transmitted through:", options: ["Mosquito bites", "Contaminated water", "Animal bites/saliva", "Airborne droplets"], correct: 2 },
-                            { q: "The incubation period is the time between:", options: ["Exposure and onset of symptoms", "Symptoms and recovery", "Diagnosis and treatment", "Exposure and death"], correct: 0 }
+                            { q: "Which vector transmits Malaria?", options: ["Aedes", "Culex", "Anopheles", "Tsetse"], correct: 2 },
+                            { q: "The causative agent of Tuberculosis is:", options: ["Virus", "Mycobacterium tuberculosis", "Fungus", "Parasite"], correct: 1 },
+                            { q: "The cornerstone of TB control is:", options: ["Surgery", "DOTS (Directly Observed Treatment, Short-course)", "Isolation only", "Diet"], correct: 1 },
+                            { q: "Which drug is NOT part of the standard first-line anti-TB regimen?", options: ["Rifampicin", "Isoniazid", "Ciprofloxacin", "Ethambutol"], correct: 2 },
+                            { q: "GeneXpert is used for:", options: ["Rapid diagnosis of TB and Rifampicin resistance", "Malaria", "HIV", "Cholera"], correct: 0 },
+                            { q: "HIV attacks which cells primarily?", options: ["RBCs", "CD4+ T Cells", "Platelets", "Neurons"], correct: 1 },
+                            { q: "Which ARV drug class does Dolutegravir belong to?", options: ["NRTI", "NNRTI", "Integrase Inhibitor (INSTI)", "Protease Inhibitor"], correct: 2 },
+                            { q: "PrEP (Pre-Exposure Prophylaxis) is taken by:", options: ["HIV positive people", "HIV negative people at high risk", "Everyone", "Pregnant women only"], correct: 1 },
+                            { q: "PEP (Post-Exposure Prophylaxis) must be started within:", options: ["72 hours", "1 week", "24 hours", "1 month"], correct: 0 },
+                            { q: "The 95-95-95 targets refer to:", options: ["Malaria", "HIV/AIDS Global Goals", "TB", "Cholera"], correct: 1 },
+                            { q: "Viral Load suppression means the virus is:", options: ["Cured", "Undetectable and Untransmittable (U=U)", "Dead", "Sleeping"], correct: 1 },
+                            { q: "Cerebral Malaria is a severe complication caused by:", options: ["P. vivax", "P. falciparum", "P. ovale", "P. malariae"], correct: 1 },
+                            { q: "IPTp (Intermittent Preventive Treatment in pregnancy) uses:", options: ["Fansidar (SP)", "Chloroquine", "Quinine", "Artemether"], correct: 0 },
+                            { q: "MDR-TB is resistant to at least:", options: ["Isoniazid and Rifampicin", "Ethambutol", "Pyrazinamide", "Streptomycin"], correct: 0 },
+                            { q: "The Mantoux test is: ", options: ["Diagnostic for active TB", "Screening test for latent TB infection", "For Malaria", "For HIV"], correct: 1 },
+                            { q: "Kaposi's Sarcoma is an opportunistic cancer associated with:", options: ["Malaria", "Advanced HIV/AIDS", "TB", "Cholera"], correct: 1 },
+                            { q: "Cryptococcal Meningitis in HIV serves as an:", options: ["AIDS-defining illness", "Allergic reaction", "Early symptom", "Side effect"], correct: 0 },
+                            { q: "Oral Thrush (Candidiasis) is treated with:", options: ["Amoxicillin", "Nystatin / Fluconazole", "Panadol", "ORS"], correct: 1 },
+                            { q: "Co-infection is common between HIV and:", options: ["Malaria", "Tuberculosis", "Cholera", "Typhoid"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Viral Hemorrhagic Fevers & Zoonoses',
+                        questions: [
+                            { q: "Ebola is transmitted via:", options: ["Airborne", "Direct contact with body fluids", "Mosquitoes", "Water"], correct: 1 },
+                            { q: "The reservoir for Ebola and Marburg is believed to be:", options: ["Rats", "Fruit Bats", "Monkeys", "Birds"], correct: 1 },
+                            { q: "Safe and Dignified Burial (SDB) is crucial for controlling:", options: ["Cholera", "Ebola / Marburg", "Malaria", "Flu"], correct: 1 },
+                            { q: "Yellow Fever is transmitted by:", options: ["Anopheles", "Aedes aegypti", "Ticks", "Fleas"], correct: 1 },
+                            { q: "Rabies is 100% fatal once:", options: ["Bitten", "Symptoms appear", "Vaccinated", "Treated"], correct: 1 },
+                            { q: "Post-exposure prophylaxis for Rabies includes:", options: ["Antibiotics", "Rabies Vaccine + Immunoglobulin (RIG)", "Panadol", "Vitamin C"], correct: 1 },
+                            { q: "Brucellosis differs from other zoonoses because it is transmitted via:", options: ["Unpasteurized milk/dairy", "Mosquitoes", "Ticks", "Fleas"], correct: 0 },
+                            { q: "Anthrax can present in three forms: Cutaneous, GI, and:", options: ["Inhalational (Woolsorter's disease)", "Venereal", "Ocular", "Renal"], correct: 0 },
+                            { q: "Lassa Fever is transmitted by:", options: ["Mosquitoes", "Mastomys Rats (Urine/Feces)", "Bats", "Dogs"], correct: 1 },
+                            { q: "Rift Valley Fever primarily affects:", options: ["Poultry", "Livestock (Sheep/Cattle) and Humans", "Fish", "Plants"], correct: 1 },
+                            { q: "Dengue Fever is also known as:", options: ["Breakbone fever", "Sleeping sickness", "Black death", "Yellow fever"], correct: 0 },
+                            { q: "Current Ebola vaccines target which strain?", options: ["Sudan", "Zaire", "Bundibugyo", "Tai Forest"], correct: 1 },
+                            { q: "Marburg virus disease is clinically similar to:", options: ["Flu", "Ebola", "Malaria", "Typhoid"], correct: 1 },
+                            { q: "Plague (Yersinia pestis) is transmitted by:", options: ["Rat fleas", "Mosquitoes", "Ticks", "Tsetse flies"], correct: 0 },
+                            { q: "Bubonic plague presents with:", options: ["Buboes (Swollen, painful lymph nodes)", "Cough", "Rash", "Diarrhea"], correct: 0 },
+                            { q: "Pneumonic plague is transmitted:", options: ["Person to person via droplets (Airborne)", "By fleas", "By water", "By food"], correct: 0 },
+                            { q: "Leptospirosis is transmitted via:", options: ["Rat urine in water/soil", "Mosquitoes", "Ticks", "Bats"], correct: 0 },
+                            { q: "Handling bushmeat is a risk factor for:", options: ["Ebola", "Malaria", "Cholera", "Typhoid"], correct: 0 },
+                            { q: "Monkeypox (Mpox) presents with:", options: ["Pustular rash similar to smallpox", "Bleeding", "Jaundice", "Diarrhea"], correct: 0 },
+                            { q: "Which vector control method is used for Aedes mosquitoes?", options: ["Bed nets (night)", "Eliminating breeding sites (containers/tires)", "IRS", "Prophylaxis"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Enteric & NTDs',
+                        questions: [
+                            { q: "Cholera is caused by:", options: ["Vibrio cholerae", "Salmonella", "Shigella", "E. coli"], correct: 0 },
+                            { q: "The immediate priority in Cholera management is:", options: ["Antibiotics", "Rehydration (ORS/IV Fluids)", "Nutrition", "Isolation"], correct: 1 },
+                            { q: "Typhoid Fever is caused by:", options: ["Salmonella Typhi", "Vibrio", "Shigella", "Amoeba"], correct: 0 },
+                            { q: "Schistosomiasis causes:", options: ["Hematuria (Blood in urine)", "Diarrhea only", "Cough", "Rash"], correct: 0 },
+                            { q: "Trachoma is the leading cause of:", options: ["Infectious blindness", "Deafness", "Lameness", "Death"], correct: 0 },
+                            { q: "The SAFE strategy for Trachoma stands for:", options: ["Surgery, Antibiotics, Facial cleanliness, Environmental improvement", "Safety first", "Sanitation", "Soap"], correct: 0 },
+                            { q: "Dracunculiasis (Guinea Worm) is eradicated by:", options: ["Vaccine", "Filtering drinking water / Preventing entry into water", "Antibiotics", "Surgery"], correct: 1 },
+                            { q: "Soil Transmitted Helminths (STH) include:", options: ["Tapeworm", "Ascaris, Whipworm, Hookworm", "Flukes", "Pinworm"], correct: 1 },
+                            { q: "Mass Drug Administration (MDA) is the strategy for:", options: ["NTDs", "Diabetes", "Cancer", "Heart Disease"], correct: 0 },
+                            { q: "Praziquantel is the drug of choice for:", options: ["Malaria", "Schistosomiasis (Bilharzia)", "Typhoid", "Cholera"], correct: 1 },
+                            { q: "Dysentery is defined as:", options: ["Watery diarrhea", "Diarrhea with visible blood", "Vomiting", "Fever"], correct: 1 },
+                            { q: "Amoebic Dysentery is managed with:", options: ["Metronidazole", "Penicillin", "ORS only", "Surgery"], correct: 0 },
+                            { q: "Topical antibiotics (Tetracycline eye ointment) are used for:", options: ["Trachoma", "Cataracts", "Glaucoma", "Myopia"], correct: 0 },
+                            { q: "Leprosy (Hansen's Disease) primarily affects:", options: ["Skin and Peripheral Nerves", "Lungs", "Heart", "Liver"], correct: 0 },
+                            { q: "Leprosy is treated with:", options: ["MDT (Multi-Drug Therapy)", "Single antibiotic", "Surgery", "Herbal meds"], correct: 0 },
+                            { q: "Which disease is targeted for global eradication (near success)?", options: ["Measles", "Polio / Guinea Worm", "Flu", "HIV"], correct: 1 },
+                            { q: "Rotavirus is the most common cause of:", options: ["Severe diarrhea in children", "Cold", "Pneumonia", "Rash"], correct: 0 },
+                            { q: "Zinc supplementation in diarrhea helps to:", options: ["Reduce duration and severity", "Stop vomiting", "Kill bacteria", "Reduce fever"], correct: 0 },
+                            { q: "Handwashing with soap breaks the chain of infection at the:", options: ["Portal of Exit", "Mode of Transmission", "Portal of Entry", "All of the above"], correct: 1 },
+                            { q: "Open defecation free (ODF) status prevents:", options: ["Airborne diseases", "Fecal-oral diseases", "Vector-borne diseases", "Blood-borne diseases"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Surveillance & Outbreak Response',
+                        questions: [
+                            { q: "IDSR stands for:", options: ["International Disease Safety Rule", "Integrated Disease Surveillance and Response", "Internal Drug Safety Record", "Infectious Disease Staging Rule"], correct: 1 },
+                            { q: "An outbreak is defined as:", options: ["Any case of disease", "Occurrence of cases in excess of normal expectancy", "Death", "Pandemic"], correct: 1 },
+                            { q: "The first step in outbreak investigation is:", options: ["Confirm the existence of an outbreak / Diagnosis", "Analyze data", "Write report", "Train staff"], correct: 0 },
+                            { q: "A 'Case Definition' includes:", options: ["Name of patient", "Standard criteria (Time, Place, Person, Symptoms)", "Treatment plan", "Outcome"], correct: 1 },
+                            { q: "Contact tracing is vital for diseases like:", options: ["Ebola / COVID-19", "Malaria", "Diabetes", "Hypertension"], correct: 0 },
+                            { q: "NOTifiable diseases must be reported:", options: ["Immediately or within specified time", "When convenient", "Once a year", "Never"], correct: 0 },
+                            { q: "Weekly surveillance reports typically track:", options: ["Malaria, Dysentery, Pneumonia", "Cancer", "Diabetes", "Accidents"], correct: 0 },
+                            { q: "Immediate reporting is required for:", options: ["AFP (Polio), Cholera, VHFs", "Flu", "Headache", "Malaria"], correct: 0 },
+                            { q: "Case Fatality Rate (CFR) measures:", options: ["Severity / Virulence (Deaths among cases)", "Spread", "New cases", "Total cases"], correct: 0 },
+                            { q: "A propagated epidemic curve suggests:", options: ["Point source", "Person-to-person transmission", "Common vehicle", "Environmental source"], correct: 1 },
+                            { q: "A point source epidemic curve suggests:", options: ["Exposure to same source over short time", "Person to person", "Long duration", "Multiple sources"], correct: 0 },
+                            { q: "Surveillance involves:", options: ["Systematic data collection, analysis, interpretation, and dissemination", "Treatment", "Research only", "Teaching"], correct: 0 },
+                            { q: "Thresholds (Alert vs Action) help determine:", options: ["When to respond", "Who to hire", "Drug prices", "Patient names"], correct: 0 },
+                            { q: "Verbal Autopsy is used when:", options: ["Deaths occur outside health facilities", "In hospital", "For forensic cases", "Always"], correct: 0 },
+                            { q: "Rumor surveillance tracks:", options: ["Unofficial reports/community chatter", "Official data", "Lab results", "Drug stock"], correct: 0 },
+                            { q: "One Health surveillance integrates data from:", options: ["Human, Animal, and Environmental sectors", "Hospitals only", "Vets only", "Schools"], correct: 0 },
+                            { q: "Cross-border surveillance is important for:", options: ["Highly communicable / Traveling populations", "Local diseases", "Non-communicable diseases", "Injuries"], correct: 0 },
+                            { q: "Effective risk communication during outbreaks aims to:", options: ["Cause panic", "Build trust and inform public action", "Hide information", "Sell drugs"], correct: 1 },
+                            { q: "R0 (R-naught) indicates:", options: ["Fatality", "Reproduction number (Transmissibility)", "Severity", "Incubation"], correct: 1 },
+                            { q: "Ending an outbreak is declared when:", options: ["No cases for 2 incubation periods", "No cases for 1 week", "No deaths", "Everyone is cured"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -4226,7 +7057,156 @@ const appData = {
                             { q: "A 'Baraza' is a form of:", options: ["Medical treatment", "Community health education/meeting", "Surgical instrument", "Vaccination site"], correct: 1 },
                             { q: "Ventilated Improved Pit (VIP) latrines reduce smells primarily through:", options: ["Chemicals", "A vent pipe", "Regular emptying", "Deep pits"], correct: 1 },
                             { q: "In Occupational Health, fitting the worker to the job is NOT the goal. The goal is:", options: ["Firing the worker", "Fitting the job to the worker (Ergonomics)", "Ignoring the hazard", "Using more PPE"], correct: 1 },
-                            { q: "Community Diagnosis involves:", options: ["Diagnosing individuals", "Assessing the health status of a population", "Guessing health problems", "Hospital-based care"], correct: 1 }
+                            { q: "Community Diagnosis involves:", options: ["Diagnosing individuals", "Assessing the health status of a population", "Guessing health problems", "Hospital-based care"], correct: 1 },
+                            { q: "What is the primary indicator of a population's health status?", options: ["Maternal Mortality Rate", "Infant Mortality Rate (IMR)", "Crude Death Rate", "Birth Rate"], correct: 1 },
+                            { q: "The Family APGAR tool measures:", options: ["Family income", "Family Function / Adaptation", "Family tree", "Genetic risks"], correct: 1 },
+                            { q: "Focus Group Discussions (FGDs) are best used for:", options: ["Quantitative data", "Qualitative insights into community beliefs/practices", "Census taking", "Voting"], correct: 1 },
+                            { q: "The 'Windshield Survey' involves:", options: ["Interviewing drivers", "Systematic observation of a community from a moving vehicle", "Checking car safety", "Weather forecasting"], correct: 1 },
+                            { q: "Which is a characteristic of a 'Healthy Community'?", options: ["High hospital bed occupancy", "Availability of resources and community participation", "No diseases at all", "High doctor to patient ratio only"], correct: 1 },
+                            { q: "In the CHN bag, what is considered the 'Cleanest' part?", options: ["The outside pockets", "The bottom", "The center/inner part", "The straps"], correct: 2 },
+                            { q: "Handwashing in the home setting should last at least:", options: ["5 seconds", "20 seconds", "1 minute", "10 minutes"], correct: 1 },
+                            { q: "The primary health care (PHC) approach emphasizes:", options: ["Specialized care", "Curative care", "Accessibility, Affordability, and Community Participation", "Private insurance"], correct: 2 },
+                            { q: "Vitamin A supplementation is typically given to children every:", options: ["1 month", "6 months", "1 year", "5 years"], correct: 1 },
+                            { q: "Deworming in schools is an example of:", options: ["Primary Prevention", "Secondary Prevention (Mass Treatment)", "Tertiary Prevention", "Research"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Family & School Health',
+                        questions: [
+                            { q: "A Genogram must include at least how many generations?", options: ["One", "Two", "Three", "Four"], correct: 2 },
+                            { q: "The nuclear family consists of:", options: ["Parents, children, and grandparents", "Parents and their children", "Single parent and children", "Communal living"], correct: 1 },
+                            { q: "School Health Programs primarily focus on:", options: ["Teaching math", "Promoting health and preventing disease in the school setting", " Treating serious illnesses", "Hospital referrals"], correct: 1 },
+                            { q: "The 'Snellen Chart' checks for:", options: ["Hearing loss", "Visual Acuity", "Color blindness", "Height"], correct: 1 },
+                            { q: "Adolescent Friendly Health Services (AFHS) must be:", options: ["Expensive", "Judgmental", "Confidential and Non-judgmental", "Public"], correct: 2 },
+                            { q: "Feeding programs in schools help to improve:", options: ["Attendance and Concentration", "Sports performance only", "Teacher salaries", "School buildings"], correct: 0 },
+                            { q: "WASH in schools refers to:", options: ["Washing clothes", "Water, Sanitation, and Hygiene", "Walking And Sitting Healthy", "Working And Studying Hard"], correct: 1 },
+                            { q: "A major challenge in school health is:", options: ["Too much money", "Lack of resources/personnel", "Too many doctors", "Students are too healthy"], correct: 1 },
+                            { q: "Family health nursing views the family as:", options: ["A burden", "The unit of service", "Irrelevant", "Just individuals"], correct: 1 },
+                            { q: "Anticipatory guidance involves:", options: ["Waiting for problems to happen", "Preparing parents/families for upcoming developmental stages/risks", "Treating emergencies", "Ignoring risks"], correct: 1 },
+                            { q: "Menstrual Hygiene Management (MHM) in schools requires:", options: ["Free pads only", "Private, safe latrines and disposal facilities", "Nothing", "Separate schools"], correct: 1 },
+                            { q: "Jiggers (Tungiasis) infestation affects:", options: ["School attendance and self-esteem", "Hair growth", "Eyesight", "Digestion"], correct: 0 },
+                            { q: "Checking specifically for BCG scar is done to verify vaccination against:", options: ["Polio", "Tuberculosis", "Measles", "Tetanus"], correct: 1 },
+                            { q: "The 'School Health Policy' is usually developed by:", options: ["Students alone", "Ministry of Health and Ministry of Education", "Parents alone", "Foreign donors"], correct: 1 },
+                            { q: "Peer education is effective because:", options: ["It is cheap", "Young people often listen to and trust their peers", "Teachers are lazy", "Doctors are busy"], correct: 1 },
+                            { q: "A dysfunctional family may exhibit:", options: ["Open communication", "Inflexibility and poor problem solving", "Respect for boundaries", "Strong support systems"], correct: 1 },
+                            { q: "The 'Sandwich Generation' refers to:", options: ["People who like sandwiches", "Adults caring for both aging parents and their own children", "Teenagers", "Elderly"], correct: 1 },
+                            { q: "Extended family includes:", options: ["Neighbors", "Relatives beyond the nuclear family (Aunts, Uncles, Grandparents)", "Pets", "Friends"], correct: 1 },
+                            { q: "Single-parent families are at higher risk for:", options: ["Genetic diseases", "Economic strain and role overload", "Obesity", "Infection"], correct: 1 },
+                            { q: "Health promotion in the workplace includes:", options: ["Firing sick staff", "Smoking cessation and stress management programs", "Cutting wages", "Increasing hours"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Occupational & Environmental Health',
+                        questions: [
+                            { q: "Silicosis is an occupational lung disease caused by:", options: ["Cotton dust", "Silica dust (Mining/Quarrying)", "Asbestos", "Coal dust"], correct: 1 },
+                            { q: "Noise-Induced Hearing Loss (NIHL) is preventable by using:", options: ["Sunglasses", "Earplugs / Earmuffs", "Gloves", "Masks"], correct: 1 },
+                            { q: "Lead poisoning is a risk in which industry?", options: ["Battery manufacturing", "Food processing", "Textiles", "Software"], correct: 0 },
+                            { q: "Biological hazards in the workplace include:", options: ["Noise", "Viruses, Bacteria, Bloodborne pathogens", "Heat", "Chemicals"], correct: 1 },
+                            { q: "Ergonomics helps to prevent:", options: ["Infection", "Musculoskeletal Disorders (MSDs)", "Cancer", "Blindness"], correct: 1 },
+                            { q: "PPE stands for:", options: ["Personal Protective Equipment", "Public Private Enterprise", "People Protect Earth", "Private Patient Entry"], correct: 0 },
+                            { q: "Potable water is:", options: ["Safe to drink", "Safe to wash in only", "Salty", "Dirty"], correct: 0 },
+                            { q: "The most effective method of solid waste disposal for hazardous hospital waste is:", options: ["Open dumping", "Incineration", "Composting", "Landfill"], correct: 1 },
+                            { q: "Leachate is a liquid pollution associated with:", options: ["Air pollution", "Landfills/Dumpsites", "Rivers", "Oceans"], correct: 1 },
+                            { q: "Vector control involves managing:", options: ["Cars", "Insects/Animals that transmit disease", "Computers", "Sewage pipes"], correct: 1 },
+                            { q: "Chlorination of water kills:", options: ["All impurities", "Bacteria and Viruses", "Heavy metals", "Mud"], correct: 1 },
+                            { q: "The 'Built Environment' refers to:", options: ["Nature", "Human-made surroundings (Housing, Roads, Parks)", "Forests", "Oceans"], correct: 1 },
+                            { q: "Sick Building Syndrome causes symptoms related to:", options: ["Food poisoning", "Poor indoor air quality and ventilation", "Virus outbreak", "Noise"], correct: 1 },
+                            { q: "Asbestosis is caused by long-term exposure to:", options: ["Silica", "Asbestos fibers", "Coal", "Cotton"], correct: 1 },
+                            { q: "E-waste (Electronic waste) poses a risk due to:", options: ["Heavy metals (Lead, Mercury)", "Plastic", "Glass", "Paper"], correct: 0 },
+                            { q: "Food hygiene involves:", options: ["Eating fast", "Handling, preparing, and storing food safely", "Cooking only vegetables", "Drinking water"], correct: 1 },
+                            { q: "The 'Danger Zone' for bacterial growth in food is between:", options: ["0-10°C", "5-60°C", "100°C+", "-20°C"], correct: 1 },
+                            { q: "HACCP stands for:", options: ["Hazard Analysis and Critical Control Points", "Health And Care Control Plan", "Home Assessment Care Plan", "Hazard Assessment Chemical Protocol"], correct: 0 },
+                            { q: "Biomedical waste is color-coded. Yellow bins are for:", options: ["General waste", "Infectious/Hazardous waste", "Sharps", "Recyclables"], correct: 1 },
+                            { q: "Safety boxes are used specifically for:", options: ["Gloves", "Sharps (Needles/Blades)", "Bandages", "Medicines"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Disaster Nursing & Epidemiology',
+                        questions: [
+                            { q: "In the 'Red Tag' category of triage, patients have:", options: ["Minor injuries", "Life-threatening but treatable injuries (Immediate)", "Non-survivable injuries", "Stable injuries"], correct: 1 },
+                            { q: "Mitigation in disaster management means:", options: ["Responding to the disaster", "Preventing or reducing the impact of future disasters", "Rebuilding", "Triage"], correct: 1 },
+                            { q: "The 'Golden Hour' in trauma refers to:", options: ["The first hour after injury where treatment offers best survival chance", "Sunset", "Lunch break", "Billing time"], correct: 0 },
+                            { q: "Post-Traumatic Stress Disorder (PTSD) is a:", options: ["Physical injury", "Mental health condition triggered by a terrifying event", "Virus", "Allergy"], correct: 1 },
+                            { q: "Epidemiology is the study of:", options: ["Skin diseases", "Distribution and determinants of health-related states in populations", "Hospital management", "Insects"], correct: 1 },
+                            { q: "Mortality Rate refers to:", options: ["Sickness", "Death rate", "Birth rate", "Migration"], correct: 1 },
+                            { q: "A 'Sentinel Event' in public health is:", options: ["A normal occurrence", "An unexpected occurrence involving death or serious injury/risk (Signal)", "A holiday", "A meeting"], correct: 1 },
+                            { q: "Cluster sampling is used when:", options: ["The population is small", "The population is large and widely dispersed", "You want to test one person", "The population is sick"], correct: 1 },
+                            { q: "The 'Place' variable in epidemiology answers:", options: ["Who?", "When?", "Where?", "Why?"], correct: 2 },
+                            { q: "Disaster 'Recovery' phase focuses on:", options: ["Saving lives", "Restoring the community to normal or better (Build Back Better)", "Planning", "Warning"], correct: 1 },
+                            { q: "A 'Mass Casualty Incident' (MCI) is defined by:", options: ["Any accident", "Events where resources are overwhelmed by the number of casualties", "One death", "Traffic jam"], correct: 1 },
+                            { q: "Psychological First Aid (PFA) involves:", options: ["Therapy", "Comforting and helping people feel safe and connected", "Giving drugs", "Ignoring them"], correct: 1 },
+                            { q: "Debriefing for responders is important to:", options: ["Assign blame", "Process events and prevent burnout/PTSD", "Calculate costs", "Celebrate"], correct: 1 },
+                            { q: "Vulnerability analysis identifies:", options: ["Strong buildings", "Populations or assets susceptible to harm", "Rich people", "Hospitals"], correct: 1 },
+                            { q: "Capacity refers to:", options: ["Weakness", "Resources and strengths available to manage a disaster", "Volume of water", "Number of victims"], correct: 1 },
+                            { q: "Risk = Hazard x Vulnerability / [?]", options: ["Money", "Capacity", "Time", "Distance"], correct: 1 },
+                            { q: "Famine is a type of:", options: ["Sudden onset disaster", "Slow onset disaster", "Man-made disaster only", "Biological disaster"], correct: 1 },
+                            { q: "Camps for Internally Displaced Persons (IDPs) often face outbreaks of:", options: ["Obesity", "Cholera / Measles due to overcrowding", "Heart disease", "Cancer"], correct: 1 },
+                            { q: "Table-top exercises are used for:", options: ["Physical training", "Simulating emergency plans in a meeting setting", "Eating", "Building tables"], correct: 1 },
+                            { q: "The Sphere Standards set minimum standards for:", options: ["Humanitarian response", "Hospital building", "School curriculum", "Drug manufacturing"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: MCH & Health Education',
+                        questions: [
+                            { q: "Exclusive breastfeeding is recommended for:", options: ["3 months", "6 months", "1 year", "2 years"], correct: 1 },
+                            { q: "Kangaroo Mother Care (KMC) is effective for:", options: ["Large babies", "Low Birth Weight / Preterm infants", "Sick babies", "All babies"], correct: 1 },
+                            { q: "Focused Antenatal Care (FANC) recommends a minimum of:", options: ["1 visit", "4 visits (now 8 by WHO)", "10 visits", "Every week"], correct: 1 },
+                            { q: "Skilled Birth Attendance means delivery assisted by:", options: ["TBA", "Doctor, Midwife, or Nurse with midwifery skills", "Neighbor", "Self"], correct: 1 },
+                            { q: "Postnatal care (PNC) should begin:", options: ["Within 24 hours", "After 1 week", "After 6 weeks", "After 1 month"], correct: 0 },
+                            { q: "Family Planning 'Unmet Need' refers to women who:", options: ["Use contraceptives", "Want to stop/delay childbearing but are not using contraception", "Are pregnant", "Are infertile"], correct: 1 },
+                            { q: "Health Education aims to:", options: ["Force change", "Influence knowledge, attitudes, and practices (Behavior Change)", "Punish bad habits", "Sell products"], correct: 1 },
+                            { q: "A 'Teachable Moment' is:", options: ["School time", "A time when a person is most receptive to learning", "Exam time", "Sleeping time"], correct: 1 },
+                            { q: "Demonstration and Return Demonstration is best for teaching:", options: ["Facts", "Psychomotor skills (e.g., Insulin injection)", "Attitudes", "History"], correct: 1 },
+                            { q: "Visual aids (posters, flipcharts) helps to:", options: ["Distract people", "Reinforce the message and improve retention", "Cost money", "Decorate walls"], correct: 1 },
+                            { q: "Community Health Volunteers (CHVs) are:", options: ["Doctors", "Lay members of the community trained to provide basic health services", "Nurses", "Pharmacists"], correct: 1 },
+                            { q: "Male involvement in MCH is important for:", options: ["Decision making and support", "Nothing", "Creating conflict", "Driving the car"], correct: 0 },
+                            { q: "Obstetric Fistula is largely preventable by:", options: ["Antibiotics", "Timely access to Caesarean Section / Skilled delivery", "Diet", "Exercise"], correct: 1 },
+                            { q: "Maternal Mortality Ratio (MMR) is the number of maternal deaths per:", options: ["1,000 live births", "100,000 live births", "1,000,000 people", "100 women"], correct: 1 },
+                            { q: "Under-5 Mortality Rate measures:", options: ["Probability of dying between birth and 5 years", "Deaths in first month", "Stillbirths", "Adult deaths"], correct: 0 },
+                            { q: "Which nutrient prevents Neural Tube Defects?", options: ["Calcium", "Folic Acid", "Iron", "Vitamin C"], correct: 1 },
+                            { q: "Iron and Folic Acid Supplementation (IFAS) in pregnancy prevents:", options: ["Diabetes", "Anemia", "Hypertension", "Malaria"], correct: 1 },
+                            { q: "Essential Newborn Care includes:", options: ["Immediate bath", "Drying, Warming, Breastfeeding, Cord care", "Formula feeding", "Separation from mother"], correct: 1 },
+                            { q: "Health Literacy refers to:", options: ["Reading ability", "Ability to obtain, process, and understand health information", "Writing prescriptions", "Being a doctor"], correct: 1 },
+                            { q: "Social Mobilization involves:", options: ["Moving people", "Engaging all sectors of society to achieve a health goal", "Dancing", "Protesting"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -4363,7 +7343,156 @@ const appData = {
                             { q: "Which type of shock is characterized by massive vasodilation due to infection?", options: ["Hypovolemic", "Cardiogenic", "Septic", "Neurogenic"], correct: 2 },
                             { q: "Chemotherapy extravasation requires:", options: ["Applying heat", "Applying pressure", "Stopping the infusion immediately", "Run it slower"], correct: 2 },
                             { q: "The 'Time Out' procedure in surgery is designed to prevent:", options: ["Anesthesia complications", "Wrong site/Wrong patient surgery", "Infection", "Bleeding"], correct: 1 },
-                            { q: "A Glasgow Coma Scale (GCS) score of 8 or less indicates:", options: ["Mild injury", "Moderate injury", "Severe injury (Coma)", "Normal function"], correct: 2 }
+                            { q: "A Glasgow Coma Scale (GCS) score of 8 or less indicates:", options: ["Mild injury", "Moderate injury", "Severe injury (Coma)", "Normal function"], correct: 2 },
+                            { q: "In CPR, the compression to breath ratio for adults is:", options: ["15:2", "30:2", "5:1", "10:1"], correct: 1 },
+                            { q: "Defibrillation is indicated for which rhythm?", options: ["Asystole", "Ventricular Fibrillation (VF)", "Sinus Rhythm", "PEA"], correct: 1 },
+                            { q: "The first priority in any emergency situation is:", options: ["Airway", "Safety of the scene", "Circulation", "Call for help"], correct: 1 },
+                            { q: "A tension pneumothorax is treated immediately with:", options: ["Antibiotics", "Needle Decompression / Chest Tube", "Inhaler", "Cough syrup"], correct: 1 },
+                            { q: "Flail chest is characterized by:", options: ["Paradoxical chest movement", "Wheezing", "Stridor", "Absent breath sounds"], correct: 0 },
+                            { q: "Triage tagging: A patient with a simple fracture who can walk is tagged:", options: ["Red", "Yellow", "Green", "Black"], correct: 2 },
+                            { q: "Triage tagging: A patient with no pulse and no breathing is tagged:", options: ["Red", "Yellow", "Green", "Black"], correct: 3 },
+                            { q: "Anaphylactic shock is treated with:", options: ["Benadryl only", "Epinephrine IM", "Antibiotics", "Aspirin"], correct: 1 },
+                            { q: "Hypovolemic shock is most commonly caused by:", options: ["Heart failure", "Hemorrhage / Dehydration", "Infection", "Spinal injury"], correct: 1 },
+                            { q: "Beck's Triad (Hypotension, JVD, Muffled heart sounds) indicates:", options: ["Cardiac Tamponade", "Pneumothorax", "Stroke", "Heart Attack"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Perioperative & EENT',
+                        questions: [
+                            { q: "Informed consent is the responsibility of the:", options: ["Nurse", "Surgeon / Provider", "Anesthesiologist", "Receptionist"], correct: 1 },
+                            { q: "The nurse's role in informed consent is to:", options: ["Explain the procedure", "Witness the patient's signature and ensure understanding", "Force the patient to sign", "Select the surgery"], correct: 1 },
+                            { q: "NPO status pre-op is primarily to prevent:", options: ["Hunger", "Aspiration Pneumonia", "Dehydration", "Infection"], correct: 1 },
+                            { q: "Malignant Hyperthermia is a genetic reaction to:", options: ["Antibiotics", "Inhaled anesthetics and Succinylcholine", "Pain meds", "Latex"], correct: 1 },
+                            { q: "Early sign of Malignant Hyperthermia is:", options: ["High fever", "Tachycardia and Jaw Rigidity", "Hypotension", "Rash"], correct: 1 },
+                            { q: "Post-op, the priority assessment in PACU is:", options: ["Pain", "Airway / Respiratory Status", "Wound dressing", "Urine output"], correct: 1 },
+                            { q: "Dehiscence refers to:", options: ["Wound infection", "Separation of wound edges", "Protrusion of organs", "Bleeding"], correct: 1 },
+                            { q: "Evisceration refers to:", options: ["Separation of wound edges", "Protrusion of internal organs through wound", "Redness", "Swelling"], correct: 1 },
+                            { q: "Immediate nursing action for evisceration:", options: ["Push organs back in", "Cover with sterile saline-soaked gauze and call surgeon", "Leave it open", "Apply dry dressing"], correct: 1 },
+                            { q: "Cataracts cause vision to look:", options: ["Like a tunnel", "Cloudy / Blurry", "Black", "Wavy"], correct: 1 },
+                            { q: "Post-cataract surgery, the patient should avoid:", options: ["Sleeping", "Bending over, coughing, or straining (Increasing IOP)", "Eating", "Talking"], correct: 1 },
+                            { q: "Glaucoma is caused by:", options: ["Infection", "Increased Intraocular Pressure (IOP)", "Old age only", "Dry eyes"], correct: 1 },
+                            { q: "Open-angle Glaucoma is:", options: ["Painful", "Painless and gradual", "Sudden", "Temporary"], correct: 1 },
+                            { q: "Angle-closure Glaucoma is:", options: ["A medical emergency (Severe pain)", "Minor", "Chronic", "Itchy"], correct: 0 },
+                            { q: "Retinal Detachment presents with:", options: ["Pain", "Flashes of light and 'curtain' over vision", "Redness", "Tearing"], correct: 1 },
+                            { q: "Meniere's Disease triad involves:", options: ["Headache, Fever, Rash", "Vertigo, Tinnitus, Hearing Loss", "Pain, Blindness, Vomiting", "Cough, Cold, Flu"], correct: 1 },
+                            { q: "Otitis Media is diagnosed by observing a:", options: ["Red, bulging tympanic membrane", "Pearl grey eardrum", "Clear canal", "Wax buildup"], correct: 0 },
+                            { q: "Epistaxis (Nosebleed) management includes:", options: ["Tilting head back", "Leaning forward and pinching the soft part of the nose", "Lying down", "Blowing nose"], correct: 1 },
+                            { q: "Rinne Test compares:", options: ["Air vs Bone Conduction", "Right vs Left ear", "High vs Low pitch", "Loud vs Quiet"], correct: 0 },
+                            { q: "Weber Test checks for:", options: ["Lateralization of sound", "Pitch", "Volume", "Balance"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Shock & Burns',
+                        questions: [
+                            { q: "Neurogenic shock causes:", options: ["Tachycardia", "Bradycardia and Hypotension", "Fever", "Sweating"], correct: 1 },
+                            { q: "Cardiogenic shock is caused by:", options: ["Blood loss", "Pump failure (Heart attack)", "Infection", "Allergy"], correct: 1 },
+                            { q: "Septic shock leads to:", options: ["Vasoconstriction", "Systemic Vasodilation and vascular permeability", "High blood pressure", "Bradycardia"], correct: 1 },
+                            { q: "The goal of fluid resuscitation in shock is to maintain Mean Arterial Pressure (MAP) above:", options: ["40 mmHg", "65 mmHg", "100 mmHg", "120 mmHg"], correct: 1 },
+                            { q: "Urine output is the best indicator of:", options: ["Brain function", "Organ perfusion", "Pain level", "Temperature"], correct: 1 },
+                            { q: "First degree burn affects:", options: ["Epidermis only", "Dermis", "Muscle", "Bone"], correct: 0 },
+                            { q: "Second degree burn involves:", options: ["Dryness", "Blisters and pain (Dermis)", "Charred skin", "No pain"], correct: 1 },
+                            { q: "Third degree burn (Full thickness) is:", options: ["Painful", "Painless (Nerve damage) and leathery", "Red", "Blistered"], correct: 1 },
+                            { q: "Inhalation injury is suspected if:", options: ["Singed nasal hairs, soot in sputum, hoarse voice", "Leg pain", "Arm burn", "Hunger"], correct: 0 },
+                            { q: "Carbon Monoxide poisoning causes:", options: ["Cyanosis", "Cherry red skin", "Jaundice", "Pallor"], correct: 1 },
+                            { q: "Escharotomy is performed to:", options: ["Clean the wound", "Relieve pressure and restore circulation (Compartment syndrome)", "Remove blisters", "Look for infection"], correct: 1 },
+                            { q: "Topical antimicrobial often used for burns is:", options: ["Vaseline", "Silver Sulfadiazine", "Lotion", "Alcohol"], correct: 1 },
+                            { q: "Nutritional needs for burn patients increase for:", options: ["Protein and Calories", "Water only", "Vitamins only", "Fats"], correct: 0 },
+                            { q: "Colloid fluids (like Albumin) are given in burns:", options: ["Immediately", "After first 24 hours", "Never", "Instead of Lactated Ringers"], correct: 1 },
+                            { q: "Lactated Ringer's is preferred in burns because:", options: ["It is cheap", "It mimics plasma electrolytes and buffers acidosis", "It has sugar", "It is cold"], correct: 1 },
+                            { q: "Electrical burns carry a high risk of:", options: ["Cardiac Dysrhythmias", "Infection", "Bleeding", "Itching"], correct: 0 },
+                            { q: "The 'Rule of Nines' assigns what percentage to one arm?", options: ["4.5%", "9%", "18%", "1%"], correct: 1 },
+                            { q: "The 'Rule of Nines' assigns what percentage to the anterior torso?", options: ["9%", "18%", "36%", "1%"], correct: 1 },
+                            { q: "DIC (Disseminated Intravascular Coagulation) involves:", options: ["Bleeding only", "Clotting and Bleeding simultaneously", "Clotting only", "High BP"], correct: 1 },
+                            { q: "MODS stands for:", options: ["Multiple Organ Dysfunction Syndrome", "Main Organ Disease State", "Many Organs Dying Slow", "Medical One Day Surgery"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Orthopedics & Trauma',
+                        questions: [
+                            { q: "The 6 Ps of Neurovascular Assessment include Pain, Pallor, Pulselessness, Paresthesia, Paralysis, and:", options: ["Pressure", "Poikilothermia (Coolness)", "Position", "Power"], correct: 1 },
+                            { q: "Fat Embolism Syndrome is a complication of:", options: ["Rib fracture", "Long bone fractures (Femur)", "Skull fracture", "Finger fracture"], correct: 1 },
+                            { q: "Sign of Fat Embolism includes:", options: ["Petechial rash on chest", "Hives", "Bruising", "Swelling"], correct: 0 },
+                            { q: "Buck's Traction is a type of:", options: ["Skeletal traction", "Skin traction", "Manual traction", "Cast"], correct: 1 },
+                            { q: "Skeletal traction involves:", options: ["Pins/wires into bone", "Tape on skin", "Hands", "Velcro"], correct: 0 },
+                            { q: "Pin care priority is to prevent:", options: ["Rust", "Osteomyelitis (Bone infection)", "Pain", "Loose pins"], correct: 1 },
+                            { q: "Hip replacement precaution: Avoid hip flexion greater than:", options: ["30 degrees", "90 degrees", "180 degrees", "10 degrees"], correct: 1 },
+                            { q: "Hip replacement precaution: Avoid:", options: ["Walking", "Crossing legs (Adduction)", "Sleeping", "Sitting"], correct: 1 },
+                            { q: "Phantom Limb Pain is:", options: ["Imaginary", "Real pain sensation from severed nerve endings", "Seeking attention", "Psychological"], correct: 1 },
+                            { q: "Cast care: If a patient complains of a 'hot spot' under the cast, suspect:", options: ["Sweating", "Pressure ulcer", "Itching", "Healing"], correct: 1 },
+                            { q: "Osteoporosis puts patients at risk for:", options: ["Infection", "Pathologic fractures", "Bleeding", "Cancer"], correct: 1 },
+                            { q: "Osteomyelitis requires:", options: ["Short term antibiotics", "Long-term IV antibiotics (PICC line)", "Rest only", "Massage"], correct: 1 },
+                            { q: "Greenstick fracture occurs mostly in:", options: ["Elderly", "Children", "Athletes", "Soldiers"], correct: 1 },
+                            { q: "Comminuted fracture means:", options: ["Bone is bent", "Bone is shattered into fragments", "Skin is broken", "fracture is horizontal"], correct: 1 },
+                            { q: "Open (Compound) fracture carries high risk of:", options: ["Pain", "Infection/Osteomyelitis", "Deformity", "Bruising"], correct: 1 },
+                            { q: "RICE for sprains stands for:", options: ["Rest, Ice, Compression, Elevation", "Run, Ice, Cold, Eat", "Rest, Ibuprofen, Cold, Elevation", "Rub, Ice, Cover, Elevate"], correct: 0 },
+                            { q: "Carpal Tunnel Syndrome involves compression of the:", options: ["Ulnar nerve", "Median nerve", "Radial nerve", "Sciatic nerve"], correct: 1 },
+                            { q: "Positive Phalen's test suggests:", options: ["Fracture", "Carpal Tunnel Syndrome", "Arthritis", "Tendonitis"], correct: 1 },
+                            { q: "Gout is caused by buildup of:", options: ["Calcium", "Uric Acid", "Protein", "Sugar"], correct: 1 },
+                            { q: "Allopurinol is used to:", options: ["Relieve pain", "Prevent Gout attacks (lower uric acid)", "Treat inflammation", "Cure infection"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Oncology & Disaster Nursing',
+                        questions: [
+                            { q: "Metastasis means:", options: ["Cancer stay in one place", "Spread of cancer cells to distant sites", "Shrinking of tumor", "Cure"], correct: 1 },
+                            { q: "Benign tumors are:", options: ["Cancerous", "Non-cancerous and encapsulated", "Fast growing", "Invading"], correct: 1 },
+                            { q: "TNM Staging stands for:", options: ["Time, Number, Metastasis", "Tumor, Node, Metastasis", "Type, Name, Mode", "Tumor, Number, Mode"], correct: 1 },
+                            { q: "Biopsy is:", options: ["Blood test", "Definitive diagnosis for cancer (Tissue analysis)", "X-ray", "Surgery"], correct: 1 },
+                            { q: "Neutropenic precautions protect the patient from:", options: ["The nurse/environment (Reverse isolation)", "Radiation", "Falls", "Bleeding"], correct: 0 },
+                            { q: "Thrombocytopenia increases risk of:", options: ["Infection", "Bleeding", "Clotting", "Fatigue"], correct: 1 },
+                            { q: "Patient with radioactive implant (Brachytherapy): Nurse should limit time to:", options: ["30 mins per shift", "1 hour", "No limit", "5 mins"], correct: 0 },
+                            { q: "CAUTION warning signs of cancer: 'C' stands for:", options: ["Cough", "Change in bowel or bladder habits", "Cancer", "Cold"], correct: 1 },
+                            { q: "In Disaster Triage, 'Black' tag means:", options: ["Dead or unsalvageable", "Urgent", "Walking wounded", "Stable"], correct: 0 },
+                            { q: "Start Triage: If patient is not breathing, you open airway. If they start breathing, tag:", options: ["Red", "Black", "Green", "Yellow"], correct: 0 },
+                            { q: "Start Triage: If patient is not breathing, open airway. If still NOT breathing, tag:", options: ["Red", "Black", "Green", "Yellow"], correct: 1 },
+                            { q: "Anthrax is treated with:", options: ["Penicillin", "Ciprofloxacin / Doxycycline", "Antivirals", "Vitamins"], correct: 1 },
+                            { q: "Smallpox precautions are:", options: ["Contact", "Airborne and Contact", "Standard", "Droplet"], correct: 1 },
+                            { q: "Botulism causes:", options: ["Spastic paralysis", "Descending flaccid paralysis", "Seizures", "Running"], correct: 1 },
+                            { q: "Nerve agents (Sarin) cause symptoms: SLUDGE. 'S' is:", options: ["Salivation", "Sleep", "Snoring", "Sneezing"], correct: 0 },
+                            { q: "Treatment for Nerve Agent poisoning:", options: ["Morphine", "Atropine and Pralidoxime", "Narcan", "Epinephrine"], correct: 1 },
+                            { q: "Role of the nurse in disaster:", options: ["Run away", "Do the greatest good for the greatest number", "Treat everyone individually", "Panic"], correct: 1 },
+                            { q: "Internal radiation safety: Keep distance of:", options: ["1 foot", "6 feet", "10 feet", "20 feet"], correct: 1 },
+                            { q: "Chemo brain refers to:", options: ["Headache", "Cognitive impairment / Fog", "Brain tumor", "Stroke"], correct: 1 },
+                            { q: "Alopecia from chemo is usually:", options: ["Permanent", "Temporary", "Painful", "Rare"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -4503,13 +7632,162 @@ const appData = {
                             { q: "Late Decelerations on a fetal monitor indicate:", options: ["Head Compression", "Cord Compression", "Placental Insufficiency", "Normal finding"], correct: 2 },
                             { q: "RhoGAM is administered to:", options: ["Rh Positive moms", "Rh Negative moms carrying Rh Positive fetus", "All moms", "The baby"], correct: 1 },
                             { q: "Which Lochia is expected 1-3 days postpartum?", options: ["Lochia Serosa (Pink)", "Lochia Alba (White)", "Lochia Rubra (Red)", "No Lochia"], correct: 2 },
-                            { q: "The fundus should be at which level immediately after birth?", options: ["At the umbilicus", "3 cm above umbilicus", "Symphysis pubis", "Xyphoid process"], correct: 0 }
+                            { q: "The fundus should be at which level immediately after birth?", options: ["At the umbilicus", "3 cm above umbilicus", "Symphysis pubis", "Xyphoid process"], correct: 0 },
+                            { q: "Chadwick's sign refers to:", options: ["Softening of the cervix", "Bluish discoloration of the cervix/vagina", "Fetal movement", "Nausea"], correct: 1 },
+                            { q: "Quickening refers to:", options: ["First fetal movements felt by mother", "Labor pains", "Water breaking", "Rapid heart beat"], correct: 0 },
+                            { q: "The hormone responsible for maintaining pregnancy is:", options: ["Estrogen", "Progesterone", "Oxytocin", "Prolactin"], correct: 1 },
+                            { q: "At 20 weeks gestation, the fundal height should be at:", options: ["Symphysis pubis", "Umbilicus", "Xyphoid process", "Not palpable"], correct: 1 },
+                            { q: "Which vaccine is contraindicated during pregnancy?", options: ["Influenza (Shot)", "TdaP", "MMR (Live virus)", "Hepatitis B"], correct: 2 },
+                            { q: "Physiological anemia of pregnancy is caused by:", options: ["Iron loss", "Hemodilution (Plasma volume increases more than RBCs)", "Bleeding", "Poor diet"], correct: 1 },
+                            { q: "The 'Linea Nigra' is:", options: ["Stretch marks", "Dark line down the center of abdomen", "Mask of pregnancy", "Spider veins"], correct: 1 },
+                            { q: "Kick counts: A mother should report if she feels fewer than:", options: ["10 kicks in 2 hours", "50 kicks in 1 hour", "1 kick a day", "Continuous movement"], correct: 0 },
+                            { q: "Polyhydramnios means:", options: ["Too little amniotic fluid", "Too much amniotic fluid (>2000ml)", "Infection", "Bleeding"], correct: 1 },
+                            { q: "An NST (Non-stress test) is 'Reactive' if:", options: ["There are no accelerations", "There are 2 accelerations in 20 mins", "There are decelerations", "Baby is sleeping"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Labor & Delivery',
+                        questions: [
+                            { q: "True Labor is characterized by:", options: ["Irregular contractions that stop with walking", "Regular contractions causing cervical change", "Back pain only", "Water breaking only"], correct: 1 },
+                            { q: "The first stage of labor ends with:", options: ["Birth of baby", "Full dilation (10cm)", "Delivery of placenta", "Recovery"], correct: 1 },
+                            { q: "The second stage of labor ends with:", options: ["Birth of baby", "Full dilation", "Placental delivery", "Crowning"], correct: 0 },
+                            { q: "The third stage of labor involves:", options: ["Dilation", "Pushing", "Delivery of Placenta", "Breastfeeding"], correct: 2 },
+                            { q: "Effacement refers to:", options: ["Opening of cervix", "Thinning and shortening of the cervix", "Baby dropping", "Contractions"], correct: 1 },
+                            { q: "Station +2 means the presenting part is:", options: ["2 cm above ischial spines", "2 cm below ischial spines", "At spines", "Floating"], correct: 1 },
+                            { q: "The cardinal movement 'Engagement' means:", options: ["Baby is born", "The head has entered the pelvic inlet (Station 0)", "Rotation", "Flexion"], correct: 1 },
+                            { q: "LION protocol for fetal distress stands for:", options: ["Lie on side, IV fluids, Oxygen, Notify provider", "Lie back, Injection, Oral meds, Nurse", "Listen, Inspect, Observe, Note", "Labor, Induction, Oxytocin, Now"], correct: 0 },
+                            { q: "Which fetal presentation is breech?", options: ["Head first", "Buttocks or feet first", "Shoulder first", "Face first"], correct: 1 },
+                            { q: "Meconium-stained amniotic fluid indicates:", options: ["Infection", "Fetal stress/hypoxia (or post-maturity)", "Normal urine", "Bleeding"], correct: 1 },
+                            { q: "An episiotomy is:", options: ["A C-section", "Surgical cut to the perineum", "Tear", "Injection"], correct: 1 },
+                            { q: "After AROM (Artificial Rupture of Membranes), the FIRST nursing action is:", options: ["Check temperature", "Assess Fetal Heart Rate (check for cord prolapse)", "Change pads", "Document time"], correct: 1 },
+                            { q: "Variable decelerations are treated by:", options: ["Giving oxytocin", "Repositioning the mother (knee-chest)", "Speeding up IV", "Nothing"], correct: 1 },
+                            { q: "Early decelerations mirror contractions and indicate:", options: ["Cord compression", "Head compression (Benign)", "Hypoxia", "Acidosis"], correct: 1 },
+                            { q: "A Bishop Score evaluates:", options: ["Baby's health", "Cervical readiness for induction", "Pain level", "Placenta health"], correct: 1 },
+                            { q: "Oxytocin (Pitocin) is high alert because it can cause:", options: ["Hypotension", "Uterine Tachysystole / Rupture", "Sleepiness", "Fever"], correct: 1 },
+                            { q: "Epidural anesthesia main side effect is:", options: ["Hypertension", "Maternal Hypotension", "Headache", "Itching"], correct: 1 },
+                            { q: "Precipitous labor lasts:", options: ["More than 24 hours", "Less than 3 hours", "Exactly 12 hours", "1 week"], correct: 1 },
+                            { q: "The Valsalva maneuver (holding breath while pushing) should be:", options: ["Encouraged", "Discouraged (Open glottis pushing preferred)", "Mandatory", "Ignored"], correct: 1 },
+                            { q: "Nitrazine paper turns which color if membranes are ruptured (amniotic fluid)?", options: ["Yellow", "Blue", "Red", "Green"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Complications & High Risk',
+                        questions: [
+                            { q: "Preeclampsia classic triad (older criteria) includes:", options: ["Hypotension, Proteinuria, Edema", "Hypertension, Proteinuria, Edema", "Seizures, Coma, Death", "Bleeding, Pain, Shock"], correct: 1 },
+                            { q: "Magnesium Sulfate toxicity signs include:", options: ["Hyperreflexia", "Absent DTRs, Resp <12, Urine <30ml/hr", "Tachycardia", "Hypertension"], correct: 1 },
+                            { q: "Antidote for Magnesium Sulfate is:", options: ["Narcan", "Calcium Gluconate", "Vitamin K", "Protamine Sulfate"], correct: 1 },
+                            { q: "HELLP Syndrome stands for:", options: ["Hemolysis, Elevated Liver enzymes, Low Platelets", "High BP, Edema, Low Protein", "Headache, Eye pain, Low Pulse", "Heart, Ears, Lungs, Pancreas"], correct: 0 },
+                            { q: "Placenta Previa presents with:", options: ["Painful dark bleeding", "Painless bright red bleeding", "No bleeding", "Back pain"], correct: 1 },
+                            { q: "Abruptio Placentae presents with:", options: ["Painless bleeding", "Painful dark red bleeding and rigid abdomen", "Normal labor", "Fever"], correct: 1 },
+                            { q: "Ectopic pregnancy typically occurs in:", options: ["Ovary", "Fallopian Tube", "Cervix", "Abdomen"], correct: 1 },
+                            { q: "Cullen's sign (blueness around umbilicus) suggests:", options: ["Normal pregnancy", "Intra-abdominal bleeding (Ruptured Ectopic)", "Infection", "Twins"], correct: 1 },
+                            { q: "Hydatidiform Mole (Molar Pregnancy) resembles:", options: ["A normal baby", "Grape-like clusters", "A tumor", "Twin"], correct: 1 },
+                            { q: "Hyperemesis Gravidarum is:", options: ["Morning sickness", "Severe persistent vomiting leading to dehydration/ketosis", "Acid reflux", "Food poisoning"], correct: 1 },
+                            { q: "Gestational Diabetes increases risk for:", options: ["Small baby", "Macrosomia (Large baby)", "Hypoglycemia in mom", "Infection"], correct: 1 },
+                            { q: "Incompetent Cervix is treated with:", options: ["Bed rest only", "Cerclage (Stitch)", "Antibiotics", "Delivery"], correct: 1 },
+                            { q: "TORCH infections include Toxoplasmosis, Other, Rubella, Cytomegalovirus and:", options: ["Herpes Simplex", "HIV", "Hepatitis", "Human Papilloma Virus"], correct: 0 },
+                            { q: "Group B Strep (GBS) positive moms receive:", options: ["No treatment", "Prophylactic antibiotics in labor (Penicillin)", "C-section", "Vaccine"], correct: 1 },
+                            { q: "Prolapsed Cord requires:", options: ["Pushing cord back in", "Knee-chest position and lifting head off cord", "Walking", "Delivery naturally"], correct: 1 },
+                            { q: "Uterine Rupture sign:", options: ["Strong contractions", "Sudden cessation of contractions and sharp pain", "Water breaking", "Back pain"], correct: 1 },
+                            { q: "Shoulder Dystocia maneuver:", options: ["Fundal pressure", "McRoberts Maneuver (Legs flexed back)", "Pulling head", "Waiting"], correct: 1 },
+                            { q: "Disseminated Intravascular Coagulation (DIC) is:", options: ["Clotting disorder", "Pathological activation of clotting causing bleeding", "Infection", "Hypertension"], correct: 1 },
+                            { q: "Preterm Labor is labor before:", options: ["40 weeks", "37 weeks", "35 weeks", "20 weeks"], correct: 1 },
+                            { q: "Betamethasone is given in preterm labor to:", options: ["Stop labor", "Mature fetal lungs", "Prevent infection", "Sedate mom"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Postpartum & Newborn',
+                        questions: [
+                            { q: "A boggy uterus (atony) requires:", options: ["Rest", "Massage until firm", "Antibiotics", "Ice"], correct: 1 },
+                            { q: "Hemorrhage is defined as blood loss >:", options: ["200ml", "500ml (vaginal) / 1000ml (C-section)", "100ml", "2000ml"], correct: 1 },
+                            { q: "Mastitis is:", options: ["Breast engorgement", "Infection of breast tissue (Flu-like symptoms)", "Clogged duct", "Normal"], correct: 1 },
+                            { q: "Taking-In Phase (Rubin) focuses on:", options: ["Baby care", "Self-needs (food/sleep) and recounting birth", "Housework", "Family"], correct: 1 },
+                            { q: "APGAR score is assessed at:", options: ["1 and 5 minutes", "10 and 20 minutes", "Birth only", "1 hour"], correct: 0 },
+                            { q: "Acrocyanosis (blue hands/feet) in newborn is:", options: ["Emergency", "Normal in first 24-48 hours", "Heart defect", "Cold stress"], correct: 1 },
+                            { q: "Vitamin K is given to newborn to:", options: ["Prevent infection", "Prevent hemorrhagic disease (Clotting)", "Boost immunity", "Keep eyes clean"], correct: 1 },
+                            { q: "Erythromycin ointment prevents:", options: ["Blindness from Gonorrhea/Chlamydia", "Dry eyes", "Jaundice", "Infection"], correct: 0 },
+                            { q: "Moro Reflex is:", options: ["Sucking", "Startle reflex", "Grasping", "Stepping"], correct: 1 },
+                            { q: "Rooting reflex:", options: ["Turning head toward cheek touch", "Holding breath", "Crying", "Sleeping"], correct: 0 },
+                            { q: "Caput Succedaneum crosses the suture line? ", options: ["Yes (Edema)", "No (Hematoma)", "Maybe", "Never"], correct: 0 },
+                            { q: "Cephalohematoma:", options: ["Crosses suture lines", "Does NOT cross suture lines (Blood)", "Is brain swelling", "Is normal"], correct: 1 },
+                            { q: "Physiological Jaundice appears:", options: ["Within 24 hours (Pathological)", "After 24 hours", "At birth", "Never"], correct: 1 },
+                            { q: "Pathological Jaundice appears:", options: ["Within first 24 hours", "After 3 days", "After 1 week", "When teething"], correct: 0 },
+                            { q: "Cold Stress in newborn leads to:", options: ["Shivering", "Hypoglycemia, Hypoxia, Acidosis (Non-shivering thermogenesis)", "Fever", "Sleep"], correct: 1 },
+                            { q: "Normal Newborn Heart Rate:", options: ["60-100", "110-160", "80-120", "150-200"], correct: 1 },
+                            { q: "Normal Newborn Respiratory Rate:", options: ["12-20", "30-60", "20-40", "10-15"], correct: 1 },
+                            { q: "Surfactant prevents:", options: ["Infection", "Alveolar collapse (RDS)", "Bleeding", "Blindness"], correct: 1 },
+                            { q: "Small for Gestational Age (SGA) babies are at risk for:", options: ["Hypoglycemia and Polycythemia", "Diabetes", "Obesity", "Fractures"], correct: 0 },
+                            { q: "Large for Gestational Age (LGA) babies are at risk for:", options: ["Hypothermia", "Birth trauma (Shoulder dystocia) and Hypoglycemia", "Infection", "Anemia"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Fetal Development & Genetics',
+                        questions: [
+                            { q: "The placenta functions as which organ for the fetus?", options: ["Brain", "Lungs (Respiration)", "Stomach", "Heart"], correct: 1 },
+                            { q: "Foramen Ovale allows blood to shunt from:", options: ["Right Atrium to Left Atrium", "Pulmonary Artery to Aorta", "Liver to Vena Cava", "Ventricle to Atrium"], correct: 0 },
+                            { q: "Ductus Arteriosus shunts blood from:", options: ["Right Atrium to Left Atrium", "Pulmonary Artery to Aorta", "Liver to Heart", "Vein to Artery"], correct: 1 },
+                            { q: "Ductus Venosus bypasses the:", options: ["Lungs", "Liver", "Kidneys", "Brain"], correct: 1 },
+                            { q: "Which immunoglobulin crosses the placenta?", options: ["IgA", "IgG", "IgM", "IgE"], correct: 1 },
+                            { q: "XX chromosome pair results in:", options: ["Male", "Female", "Twins", "Turner syndrome"], correct: 1 },
+                            { q: "Fertilization normally occurs in the:", options: ["Uterus", "Distal 1/3 of Fallopian Tube (Ampulla)", "Cervix", "Ovary"], correct: 1 },
+                            { q: "Implantation occurs how many days after fertilization?", options: ["1 day", "7-10 days", "2 weeks", "1 month"], correct: 1 },
+                            { q: "Amniotic fluid functions to:", options: ["Feed baby", "Cushion, regulate temp, allow movement", "Provide oxygen", "Remove waste"], correct: 1 },
+                            { q: "Oligohydramnios is associated with malfunctions of which fetal organ?", options: ["Heart", "Kidneys (Renal agenesis)", "Lungs", "Brain"], correct: 1 },
+                            { q: "Teratogens are most damaging during:", options: ["Embryonic period (First 8 weeks)", "Fetal period", "Last trimester", "Birth"], correct: 0 },
+                            { q: "Fetal heart starts beating at:", options: ["2 weeks", "4 weeks", "12 weeks", "20 weeks"], correct: 1 },
+                            { q: "Lanugo is:", options: ["Cheesy coating", "Fine downy hair", "Skin color", "Fingernails"], correct: 1 },
+                            { q: "Vernix Caseosa is:", options: ["Hair", "White cheesy protective substance", "Meconium", "Blood"], correct: 1 },
+                            { q: "Surfactant production is usually sufficient by:", options: ["24 weeks", "35 weeks", "28 weeks", "40 weeks"], correct: 1 },
+                            { q: "Monozygotic twins come from:", options: ["Two eggs, two sperm", "One egg, one sperm (Identical)", "Two eggs, one sperm", "One egg, two sperm"], correct: 1 },
+                            { q: "Dizygotic twins are:", options: ["Identical", "Fraternal (Two eggs, Two sperm)", "Clones", "Rare"], correct: 1 },
+                            { q: "Trisomy 21 is also known as:", options: ["Edward's Syndrome", "Down Syndrome", "Patau Syndrome", "Turner Syndrome"], correct: 1 },
+                            { q: "Cystic Fibrosis is:", options: ["Autosomal Dominant", "Autosomal Recessive", "X-linked", "Random"], correct: 1 },
+                            { q: "Genetic counseling is recommended for mothers over age:", options: ["25", "35", "30", "20"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
             },
             {
-                id: 30304, code: "NUR 304", title: "Human Pathology", icon: "ph-skull", completed: false,
+                id: 30304, code: "NUR 304", title: "Human Pathology", icon: "ph-skull", completed: true,
                 content: [
                     {
                         type: 'intro',
@@ -4655,7 +7933,156 @@ const appData = {
                             { q: "The term 'Metaplasia' refers to:", options: ["Uncontrolled cell growth", "Reversible replacement of one adult cell type by another", "Decrease in cell size", "Cell death"], correct: 1 },
                             { q: "Carbon Monoxide poisoning causes the skin to turn:", options: ["Blue (Cyanotic)", "Pale", "Cherry Red", "Yellow (Jaundice)"], correct: 2 },
                             { q: "Coagulative Necrosis is most commonly associated with:", options: ["Brain infarction", "Tuberculosis", "Ischemia in solid organs (Heart/Kidney)", "Pancreatitis"], correct: 2 },
-                            { q: "Malignant tumors are characterized by:", options: ["Encapsulation", "Slow growth", "Invasion and Metastasis", "Well-differentiated cells"], correct: 2 }
+                            { q: "Malignant tumors are characterized by:", options: ["Encapsulation", "Slow growth", "Invasion and Metastasis", "Well-differentiated cells"], correct: 2 },
+                            { q: "Hypoxia is defined as:", options: ["Lack of blood flow", "Oxygen deficiency at the tissue level", "High blood pressure", "Low blood sugar"], correct: 1 },
+                            { q: "Which of the following is an irreversible sign of cell injury?", options: ["Cell swelling", "Fatty change", "Nuclear fragmentation (Karyorrhexis)", "Blebbing"], correct: 2 },
+                            { q: "Caseous necrosis ('cheese-like') is typical of which disease?", options: ["Gangrene", "Tuberculosis", "Heart attack", "Stroke"], correct: 1 },
+                            { q: "Edema is caused by:", options: ["Increased oncotic pressure", "Decreased hydrostatic pressure", "Lymphatic obstruction", "Increased red blood cells"], correct: 2 },
+                            { q: "Anaplasia refers to:", options: ["Lack of differentiation (hallmark of malignancy)", "Normal growth", "Cell death", "Pre-cancer"], correct: 0 },
+                            { q: "Granulation tissue is composed of:", options: ["Dead cells", "New blood vessels (angiogenesis) and fibroblasts", "Bone", "Fat"], correct: 1 },
+                            { q: "Keloids are formed by excessive deposition of:", options: ["Elastin", "Collagen", "Fibrin", "Fat"], correct: 1 },
+                            { q: "Lead poisoning is characterized by which finding in RBCs?", options: ["Basophilic stippling", "Sickling", "Enlargement", "Pallor"], correct: 0 },
+                            { q: "Liquefactive necrosis is most characteristic of:", options: ["Heart", "Kidney", "Brain", "Liver"], correct: 2 },
+                            { q: "Ischemia is:", options: ["Lack of Oxygen", "Reduced blood supply to a tissue", "Infection", "Trauma"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Inflammation & Repair',
+                        questions: [
+                            { q: "The primary cell of acute inflammation is the:", options: ["Macrophage", "Lymphocyte", "Neutrophil", "Eosinophil"], correct: 2 },
+                            { q: "Which is arguably the most important step for neutrophils to exit blood vessels?", options: ["Chemotaxis", "Diapedesis (Transmigration)", "Rolling", "Adhesion"], correct: 1 },
+                            { q: "Chronic inflammation is characterized by infiltration of:", options: ["Neutrophils", "Mononuclear cells (Macrophages/Lymphocytes)", "RBCs", "Platelets"], correct: 1 },
+                            { q: "What is the function of Histamine in inflammation?", options: ["Vasoconstriction", "Vasodilation and increased permeability", "Pain", "Fever"], correct: 1 },
+                            { q: "Healing by First Intention (Primary Union) occurs in:", options: ["Large open wounds", "Clean surgical incisions", "Infected wounds", "Burns"], correct: 1 },
+                            { q: "Healing by Second Intention involves:", options: ["Sutures", "Abundant granulation tissue and wound contraction", "Minimal scarring", "No inflammation"], correct: 1 },
+                            { q: "The cardinal sign 'Rubor' (Redness) is caused by:", options: ["Increased blood flow (Hyperemia)", "Edema", "Nerve stimulation", "Tissue death"], correct: 0 },
+                            { q: "The cardinal sign 'Tumor' (Swelling) is caused by:", options: ["Bleeding", "Exudation of fluid (Edema)", "Cell growth", "Fat"], correct: 1 },
+                            { q: "Which chemical mediator is most associated with PAIN?", options: ["Histamine", "Prostaglandins", "Complement", "Cytokines"], correct: 1 },
+                            { q: "Fever is produced by which substances acting on the hypothalamus?", options: ["Histamines", "Pyrogens (e.g., IL-1, TNF)", "Kinins", "Complement"], correct: 1 },
+                            { q: "Abscess formation is an example of:", options: ["Resolution", "Suppurative inflammation", "Regeneration", "Scarring"], correct: 1 },
+                            { q: "Dehiscence refers to:", options: ["Rupture of a wound", "Formation of a keloid", "Infection", "Healing"], correct: 0 },
+                            { q: "Which vitamin is essential for collagen synthesis?", options: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"], correct: 1 },
+                            { q: "Exudate is fluid that is:", options: ["Low in protein", "High in protein and cells (Inflammatory)", "Water only", "Blood only"], correct: 1 },
+                            { q: "Transudate is fluid that is:", options: ["Pus", "Low in protein (Hemodynamic imbalance)", "Infected", "Thick"], correct: 1 },
+                            { q: "Granulomatous inflammation is a distinct pattern of:", options: ["Acute inflammation", "Chronic inflammation (e.g., TB)", "Allergic reaction", "Viral infection"], correct: 1 },
+                            { q: "Giant cells are formed by the fusion of:", options: ["Neutrophils", "Macrophages", "Lymphocytes", "Platelets"], correct: 1 },
+                            { q: "Labile cells (like skin/gut epithelium) have what regenerative capacity?", options: ["None", "Limited", "Continuous proliferation", "Slow"], correct: 2 },
+                            { q: "Permanent cells (like neurons/cardiac muscle) have what regenerative capacity?", options: ["High", "Low", "None (Repair by scarring only)", "Variable"], correct: 2 },
+                            { q: "Fibrosis refers to:", options: ["Bone formation", "Deposition of collagen (Scarring)", "Fat buildup", "Fluid accumulation"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Hemodynamics & Neoplasia',
+                        questions: [
+                            { q: "A 'Red Infarct' typically occurs in:", options: ["Solid organs", "Loose tissues with dual blood supply (Lung/Intestine)", "Brain", "Heart"], correct: 1 },
+                            { q: "A 'White Infarct' occurs in:", options: ["Lungs", "Solid organs with end-arterial circulation (Heart/Spleen)", "Liver", "Intestine"], correct: 1 },
+                            { q: "Metastasis via the lymphatic system is most common for:", options: ["Carcinomas", "Sarcomas", "Leukemia", "Lymphoma"], correct: 0 },
+                            { q: "Metastasis via the blood (hematogenous) is most common for:", options: ["Carcinomas", "Sarcomas", "Skin cancer", "Brain tumors"], correct: 1 },
+                            { q: "Cachexia in cancer patients is due to:", options: ["Starvation", "Cytokines (TNF-alpha) and increased metabolic rate", "Depression", "Nausea"], correct: 1 },
+                            { q: "The TNM system stages cancer based on Tumor size, Nodes, and:", options: ["Metastasis", "Malignancy", "Mitosis", "Mutation"], correct: 0 },
+                            { q: "Deep Vein Thrombosis (DVT) carries a high risk of:", options: ["Stroke", "Pulmonary Embolism", "Heart Attack", "Gangrene"], correct: 1 },
+                            { q: "Fat Embolism Syndrome is associated with:", options: ["Obesity", "Fractures of long bones", "Surgery", "Diet"], correct: 1 },
+                            { q: "Which gene type normally inhibits cell division?", options: ["Proto-oncogenes", "Tumor Suppressor Genes (e.g., p53)", "Oncogenes", "Viral genes"], correct: 1 },
+                            { q: "p53 is known as the 'Guardian of the Genome' because it:", options: ["Promotes growth", "Induces apoptosis in DNA-damaged cells", "Causes cancer", "Prevents aging"], correct: 1 },
+                            { q: "Angiogenesis in tumors refers to:", options: ["Cell death", "Formation of new blood vessels to feed the tumor", "Metastasis", "Invasion"], correct: 1 },
+                            { q: "Teratoma is a tumor that:", options: ["Is always malignant", "Contains tissues from all three germ layers (e.g., hair, teeth)", "Is found in the lung", "Is fluid filled"], correct: 1 },
+                            { q: "Carcinoma in situ means:", options: ["It has spread", "Dysplastic cells have not breached the basement membrane", "It is benign", "It is large"], correct: 1 },
+                            { q: "Disseminated Intravascular Coagulation (DIC) involves:", options: ["Bleeding only", "Widespread micro-thrombi and consumption of clotting factors", "High platelets", "Thick blood"], correct: 1 },
+                            { q: "The term 'Petechiae' refers to:", options: ["Large bruises", "Pinpoint hemorrhages", "Swelling", "Redness"], correct: 1 },
+                            { q: "Ecchymosis is the medical term for:", options: ["A bruise", "A cut", "A scab", "A scar"], correct: 0 },
+                            { q: "Hyperemia is an active process due to:", options: ["Venous obstruction", "Arteriolar dilation", "Heart failure", "Shock"], correct: 1 },
+                            { q: "Congestion is a passive process due to:", options: ["Exercise", "Impaired venous outflow", "Arterial dilation", "Fever"], correct: 1 },
+                            { q: "Heart Failure Cells are hemosiderin-laden macrophages found in the:", options: ["Liver", "Lungs", "Heart", "Kidney"], correct: 1 },
+                            { q: "Ascites is edema fluid in the:", options: ["Lungs", "Peritoneal (Abdominal) cavity", "Brain", "Legs"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Immunopathology & Genetics',
+                        questions: [
+                            { q: "Systemic Lupus Erythematosus (SLE) is an example of:", options: ["Type I Hypersensitivity", "Type III Hypersensitivity (Immune Complex)", "Type IV Hypersensitivity", "Immunodeficiency"], correct: 1 },
+                            { q: "The 'Butterfly Rash' is characteristic of:", options: ["Syphilis", "Lupus (SLE)", "Measles", "Rosacea"], correct: 1 },
+                            { q: "Graves Disease involves auto-antibodies stimulating the:", options: ["Pancreas", "Thyroid Gland", "Adrenal Gland", "Liver"], correct: 1 },
+                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hyperthyroidism", "Hypothyroidism", "Goiter only", "Cancer"], correct: 1 },
+                            { q: "Rheumatoid Factor is an auto-antibody found in:", options: ["Gout", "Rheumatoid Arthritis", "Osteoarthritis", "Lupus"], correct: 1 },
+                            { q: "AIDS is caused by HIV infecting which cells?", options: ["Neutrophils", "CD4+ T-Helper Cells", "B-Cells", "RBCs"], correct: 1 },
+                            { q: "Which is an opportunistic infection common in AIDS?", options: ["Common cold", "Pneumocystis jirovecii Pneumonia (PCP)", "Strep throat", "Mild flu"], correct: 1 },
+                            { q: "Down Syndrome is usually caused by:", options: ["Trisomy 18", "Trisomy 21 (Nondisjunction)", "Monosomy X", "Gene deletion"], correct: 1 },
+                            { q: "Turner Syndrome genotype is:", options: ["XX", "XY", "XO (45,X)", "XXY"], correct: 2 },
+                            { q: "Klinefelter Syndrome genotype is:", options: ["XY", "XXY (47,XXY)", "XO", "XYY"], correct: 1 },
+                            { q: "Marfan Syndrome affects:", options: ["Fibrillin (Connective tissue)", "Collagen", "Muscle", "Nerves"], correct: 0 },
+                            { q: "Cystic Fibrosis mainly affects the:", options: ["Heart", "Lungs and Pancreas (Thick mucus)", "Brain", "Skin"], correct: 1 },
+                            { q: "Sickle Cell Anemia is caused by a mutation in:", options: ["Hemoglobin Beta chain", "Hemoglobin Alpha chain", "Platelets", "Plasma"], correct: 0 },
+                            { q: "Erythroblastosis Fetalis involves:", options: ["ABO incompatibility", "Rh Incompatibility (Mom Rh-, Baby Rh+)", "Iron deficiency", "Vitamin deficiency"], correct: 1 },
+                            { q: "Amyloidosis refers to the deposition of:", options: ["Fat", "Abnormal proteins (Amyloid)", "Calcium", "Sugar"], correct: 1 },
+                            { q: "Graft-vs-Host Disease (GVHD) occurs when:", options: ["Host rejects graft", "Donor T-cells attack the Host", "Graft dies", "Surgeon makes a mistake"], correct: 1 },
+                            { q: "Sjogren's Syndrome affects:", options: ["Joints only", "Salivary and Lacrimal glands (Dry eyes/Dry mouth)", "Skin", "Muscles"], correct: 1 },
+                            { q: "Anaphylaxis is treated immediately with:", options: ["Antihistamines", "Epinephrine", "Steroids", "Oxygen"], correct: 1 },
+                            { q: "Goodpasture Syndrome affects:", options: ["Skin", "Lungs and Kidneys", "Brain", "Heart"], correct: 1 },
+                            { q: "Which antibody crosses the placenta?", options: ["IgM", "IgA", "IgG", "IgE"], correct: 2 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Environmental & Nutritional',
+                        questions: [
+                            { q: "Minamata Disease was caused by poisoning with:", options: ["Lead", "Mercury", "Arsenic", "Cadmium"], correct: 1 },
+                            { q: "Itai-Itai Disease was caused by:", options: ["Lead", "Cadmium", "Mercury", "Copper"], correct: 1 },
+                            { q: "Rickets is caused by deficiency of:", options: ["Vitamin A", "Vitamin D (in children)", "Vitamin C", "Calcium only"], correct: 1 },
+                            { q: "Osteomalacia is:", options: ["Rickets in adults (Soft bones)", "Brittle bones", "Bone cancer", "Arthritis"], correct: 0 },
+                            { q: "Vitamin A deficiency leads to:", options: ["Bleeding", "Night Blindness / Xerophthalmia", "Rickets", "Anemia"], correct: 1 },
+                            { q: "Beriberi is caused by deficiency of:", options: ["Vitamin B1 (Thiamine)", "Vitamin B12", "Vitamin C", "Iron"], correct: 0 },
+                            { q: "Pellagra (4 Ds: Dermatitis, Diarrhea, Dementia, Death) is lack of:", options: ["Thiamine", "Niacin (Vitamin B3)", "Folate", "Zinc"], correct: 1 },
+                            { q: "Pernicious Anemia is lack of Intrinsic Factor needed to absorb:", options: ["Iron", "Vitamin B12", "Folate", "Calcium"], correct: 1 },
+                            { q: "Wilson Disease causes accumulation of:", options: ["Iron", "Copper", "Lead", "Zinc"], correct: 1 },
+                            { q: "Hemochromatosis causes accumulation of:", options: ["Iron", "Copper", "Lead", "Calcium"], correct: 0 },
+                            { q: "Kwashiorkor is predominantly a deficiency of:", options: ["Calories", "Protein (causes edema)", "Vitamins", "Fats"], correct: 1 },
+                            { q: "Marasmus is a deficiency of:", options: ["Protein only", "Total Calories (Starvation)", "Water", "Vitamins"], correct: 1 },
+                            { q: "Heat Stroke differs from Heat Exhaustion by the presence of:", options: ["Sweating", "Anahidrosis (Dry skin) and CNS changes", "Thirst", "Fatigue"], correct: 1 },
+                            { q: "Wet Beriberi affects the:", options: ["Nerves", "Heart (Cardiovascular system)", "Skin", "Bones"], correct: 1 },
+                            { q: "Korsakoff's psychosis is associated with:", options: ["Alcoholism and Thiamine deficiency", "Lead poisoning", "Trauma", "Genetic"], correct: 0 },
+                            { q: "Fetal Alcohol Syndrome causes:", options: ["Large head", "Microcephaly, facial abnormalities, growth retardation", "Normal growth", "Diabetes"], correct: 1 },
+                            { q: "Aflatoxin (from moldy grains) is a risk factor for:", options: ["Lung cancer", "Liver Cancer (Hepatocellular carcinoma)", "Stomach cancer", "Skin cancer"], correct: 1 },
+                            { q: "Basal Cell Carcinoma is related to exposure to:", options: ["Chemicals", "UV Radiation (Sun)", "Viruses", "Smoking"], correct: 1 },
+                            { q: "Mesothelioma is strictly linked to:", options: ["Smoking", "Asbestos", "Coal dust", "Silica"], correct: 1 },
+                            { q: "Obesity increases the risk of:", options: ["Type 1 Diabetes", "Type 2 Diabetes, Hypertension, Cancer", "Hypotension", "Anemia"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -4665,7 +8092,7 @@ const appData = {
                 code: "NUR 306",
                 title: "Midwifery II",
                 icon: "ph-baby",
-                completed: false,
+                completed: true,
                 description: "Comprehensive management of high-risk labor, delivery complications, and obstetric emergencies.",
                 content: [
                     {
@@ -4853,7 +8280,156 @@ const appData = {
                             { q: "Which type of breech presentation involves the hips flexed and knees extended (feet up by head)?", options: ["Complete Breech", "Frank Breech", "Footling Breech", "Kneeling Breech"], correct: 1 },
                             { q: "Magnesium Sulfate toxicity signs include:", options: ["Hyperreflexia", "Loss of Deep Tendon Reflexes (DTRs) and Respiratory Depression", "Tachycardia", "Hypertension"], correct: 1 },
                             { q: "The drug of choice to reverse Magnesium Sulfate toxicity is:", options: ["Naloxone", "Calcium Gluconate", "Vitamin K", "Protamine Sulfate"], correct: 1 },
-                            { q: "HELLP syndrome stands for:", options: ["Hemolysis, Elevated Liver enzymes, Low Platelets", "Hypertension, Edema, Low Protein", "Headache, Eye changes, Leg pain", "High Energy, Low Labor Pain"], correct: 0 }
+                            { q: "HELLP syndrome stands for:", options: ["Hemolysis, Elevated Liver enzymes, Low Platelets", "Hypertension, Edema, Low Protein", "Headache, Eye changes, Leg pain", "High Energy, Low Labor Pain"], correct: 0 },
+                            { q: "Placenta Accreta is a condition where:", options: ["Placenta detaches too early", "Placenta attaches too deeply into the uterine wall", "Placenta covers the cervix", "Placenta is small"], correct: 1 },
+                            { q: "Which of the following is contraindicated in Placenta Previa?", options: ["Bed rest", "Vaginal Exam (Digital)", "Cesarean section", "Ultrasound"], correct: 1 },
+                            { q: "A 'Board-like' rigid abdomen is a classic sign of:", options: ["Normal labor", "Placental Abruption", "Placenta Previa", "Braxton Hicks"], correct: 1 },
+                            { q: "DIC (Disseminated Intravascular Coagulation) is characterized by:", options: ["High blood pressure", "Simultaneous clotting and bleeding", "Low heart rate", "Fever"], correct: 1 },
+                            { q: "The Bishop Score is used to assess:", options: ["Fetal lung maturity", "Cervical readiness for induction", "Pain level", "Risk of PPH"], correct: 1 },
+                            { q: "A Bishop Score of 9 indicates:", options: ["Cervix is not ready", "High likelihood of successful induction", "Need for C-section", "Fetal distress"], correct: 1 },
+                            { q: "Which medication is a Prostaglandin used for cervical ripening?", options: ["Oxytocin", "Dinoprostone (Cervidil) / Misoprostol (Cytotec)", "Terbutaline", "Magnesium Sulfate"], correct: 1 },
+                            { q: "Ideally, the L/S ratio (Lecithin/Sphingomyelin) for fetal lung maturity should be:", options: ["1:1", "2:1", "1:2", "0:1"], correct: 1 },
+                            { q: "Fern test is used to detect:", options: ["Blood", "Rupture of Membranes (Amniotic fluid)", "Infection", "Protein"], correct: 1 },
+                            { q: "Leopold's Maneuvers are performed to determine:", options: ["Fetal Heart Rate", "Fetal Position and Presentation", "Dilation", "Contractions"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Operative Obstetrics',
+                        questions: [
+                            { q: "Which incision is most common for a C-Section?", options: ["Low Transverse (Pfannenstiel)", "Classical (Vertical)", "T-incision", "J-incision"], correct: 0 },
+                            { q: "A Classical (Vertical) incision increases the risk of:", options: ["Bleeding", "Uterine Rupture in future pregnancies", "Infection", "Pain"], correct: 1 },
+                            { q: "Vacuum-assisted delivery requires the fetus to be:", options: ["Breech", "Vertex (Head down) and engaged", "Transverse", "Floating"], correct: 1 },
+                            { q: "Forceps delivery can cause injury to which fetal nerve?", options: ["Sciatic", "Facial nerve (VII)", "Vagus", "Phrenic"], correct: 1 },
+                            { q: "VBAC stands for:", options: ["Vaginal Birth After Cesarean", "Very Big And Cute", "Vertical Birth And Complications", "Vacuum Birth Assessment Check"], correct: 0 },
+                            { q: "Which is a major risk associated with VBAC?", options: ["Infection", "Uterine Rupture", "Headache", "Nausea"], correct: 1 },
+                            { q: "External Cephalic Version (ECV) is attempted to turn a fetus from:", options: ["Vertex to Breech", "Breech/Transverse to Vertex", "Back to Front", "Left to Right"], correct: 1 },
+                            { q: "ECV is contraindication if there is:", options: ["Plenty of fluid", "Placenta Previa or Oligohydramnios", "Single fetus", "37 weeks gestation"], correct: 1 },
+                            { q: "An episiotomy that extends through the anal sphincter is a:", options: ["2nd Degree", "3rd Degree", "4th Degree", "1st Degree"], correct: 1 },
+                            { q: "Induction of labor is contraindicated in:", options: ["Post-dates", "Active genital herpes outbreak", "Preeclampsia", "PROM"], correct: 1 },
+                            { q: "When using Oxytocin (Pitocin), the nurse must monitor for:", options: ["Hypotension", "Uterine Tachysystole (>5 contractions in 10 min)", "Bradycardia (Maternal)", "Sleepiness"], correct: 1 },
+                            { q: "If uterine tachysystole occurs with Pitocin, the first action is:", options: ["Increase rate", "Stop the infusion", "Call doctor", "Document"], correct: 1 },
+                            { q: "Foley bulb induction works by:", options: ["releasing hormones", "Mechanical dilation of the cervix", "Breaking water", "Numbing cervix"], correct: 1 },
+                            { q: "Amniotomy refers to:", options: ["Ultrasound", "Artificial Rupture of Membranes (AROM)", "C-section", "Injection"], correct: 1 },
+                            { q: "The priority assessment immediately after Amniotomy is:", options: ["Temperature", "Fetal Heart Rate (Rule out cord prolapse)", "BP", "Pain"], correct: 1 },
+                            { q: "Suprapubic pressure is applied during Shoulder Dystocia to:", options: ["Push the baby back", "Dislodge the anterior shoulder from behind the pubic bone", "Cause pain", "Help placenta separate"], correct: 1 },
+                            { q: "Fundal pressure during Shoulder Dystocia is:", options: ["Recommended", "Contraindicated (Can wedge shoulder further)", "Optional", "Helpful"], correct: 1 },
+                            { q: "Zavanelli maneuver involves:", options: ["Pushing the fetal head back into the uterus (for C-section)", "Pulling legs", "Turning mom", "Squatting"], correct: 0 },
+                            { q: "Post-op C-section care includes monitoring for:", options: ["Ileus (Bowel sounds)", "DVT", "Hemorrhage", "All of the above"], correct: 3 },
+                            { q: "Spinal anesthesia block level should not go above:", options: ["Knees", "Umbilicus", "T4 (Nipple line) - Risk of respiratory compromise", "Neck"], correct: 2 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Complications of Labor',
+                        questions: [
+                            { q: "Preterm Labor is rare before:", options: ["20 weeks (Miscarriage)", "30 weeks", "35 weeks", "37 weeks"], correct: 0 },
+                            { q: "Fetal Fibronectin (fFN) test predicts:", options: ["Gender", "Risk of preterm delivery (Negative is good)", "Diabetes", "Down syndrome"], correct: 1 },
+                            { q: "Terbutaline is a beta-mimetic that causes:", options: ["Bradycardia", "Maternal Tachycardia", "Sedation", "Constipation"], correct: 1 },
+                            { q: "Nifedipine (calcium channel blocker) is used as a tocolytic to:", options: ["Increase BP", "Relax uterine muscle", "Cause contractions", "Stop bleeding"], correct: 1 },
+                            { q: "Chorioamnionitis is:", options: ["Infection of the amniotic fluid/membranes", "Infection of breast", "Infection of leg", "Infection of bladder"], correct: 0 },
+                            { q: "Signs of Chorioamnionitis include:", options: ["Maternal fever and fetal tachycardia", "Low BP", "Bradycardia", "Rash"], correct: 0 },
+                            { q: "Precipitous Labor is defined as labor lasting less than:", options: ["3 hours", "5 hours", "10 hours", "24 hours"], correct: 0 },
+                            { q: "Risk of Precipitous Labor includes:", options: ["Postpartum Hemorrhage (Uterine atony)", "Infection", "C-section", "Slow labor"], correct: 0 },
+                            { q: "Uterine Inversion is:", options: ["Walking backwards", "The uterus turning inside out (Medical emergency)", "Uterus tilting", "Prolapse"], correct: 1 },
+                            { q: "Which action can cause Uterine Inversion?", options: ["Pulling on the umbilical cord before placental separation", "Massage", "Breastfeeding", "Walking"], correct: 0 },
+                            { q: "Anaphylactoid Syndrome of Pregnancy is also known as:", options: ["PE", "Amniotic Fluid Embolism (AFE)", "Stroke", "Heart Attack"], correct: 1 },
+                            { q: "Signs of AFE include sudden:", options: ["Hypertension", "Hypoxia, Hypotension, Coagulopathy", "Fever", "Pain"], correct: 1 },
+                            { q: "Retained Placenta is diagnosed if placenta is not delivered within:", options: ["5 mins", "10 mins", "30 minutes", "1 hour"], correct: 2 },
+                            { q: "Placenta Accreta/Increta/Percreta carry high risk of:", options: ["Infection", "Hysterectomy (due to massive hemorrhage)", "Pain", "Vomiting"], correct: 1 },
+                            { q: "Vasa Previa occurs when:", options: ["Fetal vessels run over the internal os", "Placenta is low", "Cord is short", "Cord is long"], correct: 0 },
+                            { q: "Rupture of Vasa Previa leads to:", options: ["Maternal bleeding", "Rapid fetal exsanguination", "Infection", "Slow leak"], correct: 1 },
+                            { q: "Mono-Mono twins share:", options: ["Nothing", "Placenta and Amniotic Sac (High risk for cord entanglement)", "Just placenta", "Just sac"], correct: 1 },
+                            { q: "Twin-to-Twin Transfusion Syndrome (TTTS) occurs in:", options: ["Dizygotic twins", "Monochorionic twins", "All twins", "Boy/Girl twins"], correct: 1 },
+                            { q: "In TTTS, the donor twin is risk for:", options: ["Polycythemia", "Anemia and Growth Restriction", "Large size", "Heart failure"], correct: 1 },
+                            { q: "In TTTS, the recipient twin is at risk for:", options: ["Anemia", "Fluid overload and Heart Failure", "Small size", "Dehydration"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Abnormal Labor Patterns',
+                        questions: [
+                            { q: "Hypotonic Uterine Dysfunction involves:", options: ["Painful frequent contractions", "Weak, infrequent contractions", "Normal contractions", "No contractions"], correct: 1 },
+                            { q: "Management of Hypotonic Dysfunction usually involves:", options: ["Sedation", "Oxytocin augmentation / Amniotomy", "C-section immediately", "Bed rest"], correct: 1 },
+                            { q: "Hypertonic Uterine Dysfunction involves:", options: ["Weak contractions", "Painful, frequent, uncoordinated contractions (ineffective)", "No pain", "Rapid labor"], correct: 1 },
+                            { q: "Management of Hypertonic Dysfunction involves:", options: ["Oxytocin", "Therapeutic rest (Sedation) / Analgesia", "Walking", "Pushing"], correct: 1 },
+                            { q: "Cephalopelvic Disproportion (CPD) means:", options: ["Baby is too small", "Fetal head is too large for the maternal pelvis", "Pelvis is too big", "Cord is too long"], correct: 1 },
+                            { q: "Occiput Posterior (OP) position causes:", options: ["Pain-free labor", "'Back Labor' (severe back pain)", "Fast labor", "Face presentation"], correct: 1 },
+                            { q: "Nursing intervention for Back Labor (OP position):", options: ["Lay on back", "Counter-pressure on sacrum / Hands-and-knees position", "Sedation", "Walking"], correct: 1 },
+                            { q: "Macrosomia is defined as fetal weight >", options: ["2500g", "3000g", "4000g-4500g", "5000g"], correct: 2 },
+                            { q: "Macrosomia is a risk factor for:", options: ["Shoulder Dystocia", "Precipitous labor", "Small baby", "Easy delivery"], correct: 0 },
+                            { q: "Arrest of Dilation means:", options: ["Cervix stops opening", "Cervix closes", "Baby stops moving", "Water breaks"], correct: 0 },
+                            { q: "Arrest of Descent means:", options: ["Fetal head stops moving down", "Fetal head moves up", "Cervix closes", "Labor starts"], correct: 0 },
+                            { q: "Prolonged Latent Phase (>20h in primip) is managed by:", options: ["C-section", "Rest / Hydration", "Forceps", "Vacuum"], correct: 1 },
+                            { q: "Friedman's Curve is used to:", options: ["Measure belly", "Plot labor progress (Dilation/Descent vs Time)", "Measure heart rate", "Count kicks"], correct: 1 },
+                            { q: "Bandl's Ring is a sign of:", options: ["Normal labor", "Obstructed labor (Impending rupture)", "Placental separation", "Crowning"], correct: 1 },
+                            { q: "Secondary Arrest of labor is often caused by:", options: ["CPD", "Good contractions", "Empty bladder", "Walking"], correct: 0 },
+                            { q: "Trial of Labor (TOL) is:", options: ["Surprise labor", "Observation period to see if vaginal birth is possible", "C-section", "Home birth"], correct: 1 },
+                            { q: "A 'Compound Presentation' involves:", options: ["Head only", "Extremity (hand/arm) alongside the presenting part", "Breech", "Face"], correct: 1 },
+                            { q: "Management of cord prolapse includes placing mom in:", options: ["Supine", "Trendelenburg or Knee-Chest", "Standing", "Sitting"], correct: 1 },
+                            { q: "If meconium is present, the suctioning priority is:", options: ["Mouth then Nose", "Nose then Mouth", "Ears", "Eyes"], correct: 0 },
+                            { q: "Amnioinfusion is used to:", options: ["Add fluid to uterus (dilute meconium/relieve cord compression)", "Remove fluid", "Induce labor", "Stop bleeding"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Puerperal Complications',
+                        questions: [
+                            { q: "Postpartum Endometritis is:", options: ["Infection of the uterine lining", "Infection of breast", "Infection of bladder", "Infection of leg"], correct: 0 },
+                            { q: "Risk factor for Endometritis:", options: ["Vaginal birth", "C-Section / Prolonged ROM / Multiple exams", "Breastfeeding", "Ambulation"], correct: 1 },
+                            { q: "Signs of DVT include:", options: ["Unilateral leg pain, swelling, warmth", "Bilateral leg pain", "Cool skin", "Pale leg"], correct: 0 },
+                            { q: "Pulmonary Embolism signs:", options: ["Sudden dyspnea, chest pain, tachycardia", "Slow breathing", "Hunger", "Thirst"], correct: 0 },
+                            { q: "Management of DVT involves:", options: ["Massage", "Anticoagulation (Heparin) & Bed rest", "walking", "Heat"], correct: 1 },
+                            { q: "Postpartum 'Blues':", options: ["Lasts months", "Transient (few days), tearfulness, mood swings", "Requires meds", "Psychosis"], correct: 1 },
+                            { q: "Postpartum Depression (PPD):", options: ["Disappears in 2 days", "Persists >2 weeks, interferes with function", "Is normal", "Is rare"], correct: 1 },
+                            { q: "Postpartum Psychosis:", options: ["Medical Emergency (Hallucinations/Delusions)", "Mild sadness", "Common", "Safe"], correct: 0 },
+                            { q: "Late Postpartum Hemorrhage occurs:", options: ["Within 24 hours", "After 24 hours up to 6 weeks", "Before birth", "Never"], correct: 1 },
+                            { q: "Common cause of Late PPH:", options: ["Atony", "Retained placental fragments / Subinvolution", "Laceration", "Trauma"], correct: 1 },
+                            { q: "Subinvolution means:", options: ["Uterus returns to normal size", "Delayed return of uterus to normal size", "Prolapse", "Infection"], correct: 1 },
+                            { q: "Methergine is contraindicated in:", options: ["Hypotension", "Hypertension / Preeclampsia", "Bleeding", "Asthma"], correct: 1 },
+                            { q: "Hemabate (Carboprost) is contraindicated in:", options: ["Hypertension", "Asthma", "Diabetes", "Obesity"], correct: 1 },
+                            { q: "Misoprostol (Cytotec) for PPH is given:", options: ["IV", "Rectally (PR) / Orally", "IM", "SQ"], correct: 1 },
+                            { q: "Cystitis signs:", options: ["Frequency, urgency, dysuria", "Polyuria", "No pain", "Back pain only"], correct: 0 },
+                            { q: "Pyelonephritis signs:", options: ["Cystitis signs + Flank pain, High Fever, Chills", "Just urgency", "Headache", "Rash"], correct: 0 },
+                            { q: "Breast Abscess may require:", options: ["Antibiotics only", "Surgical drainage (I&D)", "Massage", "Ice"], correct: 1 },
+                            { q: "Vaginal Hematoma presents as:", options: ["Visible bleeding", "Severe perineal pain/pressure without visible bleeding", "Itching", "Numbness"], correct: 1 },
+                            { q: "Idiopathic Thrombocytopenic Purpura (ITP) causes:", options: ["Clotting", "Autoimmune platelet destruction (Bleeding)", "High platelets", "Infection"], correct: 1 },
+                            { q: "Von Willebrand Disease is:", options: ["Clotting factor deficiency", "Platelet defect", "Bleeding disorder (Factor VIII/vWF)", "Vitamin deficiency"], correct: 2 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -4863,7 +8439,7 @@ const appData = {
                 code: "NUR 309",
                 title: "Midwifery III (Puerperium)",
                 icon: "ph-baby",
-                completed: false,
+                completed: true,
                 description: "Care of the mother and newborn during the postpartum period, including physiological changes, complications, and family planning.",
                 content: [
                     {
@@ -5011,7 +8587,156 @@ const appData = {
                             { q: "Which position is recommended for a patient with Puerperal Sepsis (Endometritis)?", options: ["Supine", "Trendelenburg", "Semi-Fowler's (to promote drainage)", "Prone"], correct: 2 },
                             { q: "Signs of a Deep Vein Thrombosis (DVT) include:", options: ["Unilateral leg swelling, warmth, and redness", "Bilateral leg edema", "Cold, pale feet", "Decreased pulses"], correct: 0 },
                             { q: "Lochia Serosa typically lasts from:", options: ["Day 1-3", "Day 4-10", "Day 10-28", "6 weeks"], correct: 1 },
-                            { q: "Taking Combined Oral Contraceptives (Estrogen) too early postpartum can:", options: ["Cause hemorrhage", "Decrease milk supply", "Increase milk supply", "Cause infection"], correct: 1 }
+                            { q: "Taking Combined Oral Contraceptives (Estrogen) too early postpartum can:", options: ["Cause hemorrhage", "Decrease milk supply", "Increase milk supply", "Cause infection"], correct: 1 },
+                            { q: "The 'Taking-In' phase of maternal adaptation is characterized by:", options: ["Focus on self-needs (food, sleep) and passivity", "Focus on baby care", "Returning to work", "Independence"], correct: 0 },
+                            { q: "The 'Taking-Hold' phase is characterized by:", options: ["Dependency", "Desire to take charge of baby care and learn", "Postpartum depression", "Rejection of baby"], correct: 1 },
+                            { q: "Immediately after delivery, the fundus should be found:", options: ["At the Umbilicus or slightly below", "At the Xyphoid process", "At the symphysis pubis", "Not palpable"], correct: 0 },
+                            { q: "A full bladder often causes the uterus to:", options: ["Contract harder", "Deviate to the right and become boggy", "Shrink", "Bleed less"], correct: 1 },
+                            { q: "Which immunization is often given postpartum if the mother is non-immune?", options: ["Rubella (MMR)", "BCG", "Hepatitis A", "Polio"], correct: 0 },
+                            { q: "After receiving the Rubella vaccine, the mother should be taught to:", options: ["Stop breastfeeding", "Avoid pregnancy for at least 1 month (Teratogenic)", "Isolate from baby", "Take aspirin"], correct: 1 },
+                            { q: "Kegel exercises are taught to:", options: ["Strengthen abdominal muscles", "Strengthen pelvic floor muscles", "Lose weight", "Prevent DVT"], correct: 1 },
+                            { q: "Breast engorgement in non-breastfeeding mothers is managed with:", options: ["Pumping", "Warm compresses", "Ice packs and tight bra (Breast binding)", "Stimulation"], correct: 2 },
+                            { q: "Homan's sign is an assessment for:", options: ["Reflexes", "DVT (Pain in calf on dorsiflexion)", "Carpal tunnel", "Stroke"], correct: 1 },
+                            { q: "RhoGAM is indicated for:", options: ["Rh Positive mothers", "Rh Negative mothers with Rh Positive baby", "Rh Negative mothers with Rh Negative baby", "Fathers"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Newborn & Family Integration',
+                        questions: [
+                            { q: "Which reflex involves the infant turning their head when the cheek is stroked?", options: ["Moro", "Rooting", "Babinski", "Grasp"], correct: 1 },
+                            { q: "The 'Let-down reflex' is triggered by:", options: ["Estrogen", "Oxytocin", "Progesterone", "Insulin"], correct: 1 },
+                            { q: "Effective breastfeeding latch is indicated by:", options: ["Dimpling of cheeks", "Clicking sounds", "Audible swallowing and wide open mouth", "Pain"], correct: 2 },
+                            { q: "Colostrum is:", options: ["Mature milk", "First milk, yellow, high in antibodies (IgA) and protein", "Watery", "Formula"], correct: 1 },
+                            { q: "Rooming-in promotes:", options: ["Better sleep for mom", "Mother-infant bonding and breastfeeding success", "Infection control", "Less work for nurses"], correct: 1 },
+                            { q: "Sibling rivalry can be managed by:", options: ["Ignoring the older child", "Involving the sibling in care and providing a gift from baby", "Sending the sibling away", "Punishing jealousy"], correct: 1 },
+                            { q: "Acrocyanosis (blue hands and feet) in the first 24 hours is:", options: ["A medical emergency", "A normal finding", "A sign of heart defect", "Hypothermia"], correct: 1 },
+                            { q: "The umbilical cord stump typically falls off in:", options: ["2 days", "10-14 days", "1 month", "6 weeks"], correct: 1 },
+                            { q: "Newborns should sleep on their:", options: ["Stomach (Prone)", "Side", "Back (Supine)", "Parents bed"], correct: 2 },
+                            { q: "Meconium is usually passed within:", options: ["1 hour", "24-48 hours", "1 week", "1 month"], correct: 1 },
+                            { q: "Candidiasis (Thrush) in the newborn mouth presents as:", options: ["Yellow teeth", "White patches that cannot be wiped off", "Bleeding gums", "Red tongue"], correct: 1 },
+                            { q: "Treatment for oral candidiasis includes:", options: ["Antibiotics", "Nystatin (Antifungal)", "Water", "Soap"], correct: 1 },
+                            { q: "Physiologic Jaundice is caused by:", options: ["Liver failure", "Immature liver conjugating bilirubin from RBC breakdown", "Blood type incompatibility", "Infection"], correct: 1 },
+                            { q: "Kernicterus is:", options: ["Kidney failure", "Bilirubin encephalopathy (Brain damage)", "Liver disease", "Heart defect"], correct: 1 },
+                            { q: "Phototherapy nursing care involves:", options: ["Covering eyes and genitals", "Applying lotion", "Clothing the baby", "Keeping baby in dark"], correct: 0 },
+                            { q: "Erythema Toxicum is:", options: ["A dangerous infection", "Newborn rash (flea bite rash), benign", "Allergy", "Acne"], correct: 1 },
+                            { q: "Milia are:", options: ["White sebaceous cysts on nose/chin (Do not squeeze)", "Pimples", "Scars", "Moles"], correct: 0 },
+                            { q: "Which fontanel closes first?", options: ["Anterior", "Posterior", "Both at same time", "Never"], correct: 1 },
+                            { q: "The Anterior Fontanel (Diamond shape) closes by:", options: ["2 months", "12-18 months", "6 months", "3 years"], correct: 1 },
+                            { q: "Signs of hypoglycemia in a newborn include:", options: ["Jitteriness, lethargy, poor feeding", "Fever", "Crying", "Hyperactivity"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Postpartum Complications',
+                        questions: [
+                            { q: "The most common organism causing Mastitis is:", options: ["E. Coli", "Staphylococcus Aureus", "Streptococcus", "Candida"], correct: 1 },
+                            { q: "Subinvolution is commonly caused by:", options: ["Retained placental fragments and Infection", "Empty bladder", "Breastfeeding", "Exercise"], correct: 0 },
+                            { q: "Secondary (Late) Hemorrhage can occur up to:", options: ["24 hours", "6 weeks", "1 year", "3 days"], correct: 1 },
+                            { q: "Parametritis involves infections of the:", options: ["Endometrium", "Connective tissue of the broad ligament", "Vagina", "Breast"], correct: 1 },
+                            { q: "Virchow's Triad for DVT includes:", options: ["Stasis, Vessel wall injury, Hypercoagulability", "Pain, Pallor, Pulselessness", "Fever, Chills, Sweating", "Bleeding, Clotting, Bruising"], correct: 0 },
+                            { q: "If a PE is suspected, the immediate action is:", options: ["Check BP", "Raise head of bed and administer Oxygen", "Call family", "Palpate legs"], correct: 1 },
+                            { q: "Heparin antidote is:", options: ["Vitamin K", "Protamine Sulfate", "Narcan", "Calcium"], correct: 1 },
+                            { q: "Warfarin (Coumadin) antidote is:", options: ["Vitamin K", "Protamine Sulfate", "Iron", "Magnesium"], correct: 0 },
+                            { q: "Peripartum Cardiomyopathy is a form of:", options: ["Heart failure", "Heart attack", "Stroke", "Arrhythmia"], correct: 0 },
+                            { q: "Symptoms of Peripartum Cardiomyopathy include:", options: ["Chest pain", "Dyspnea, Edema, Fatigue", "Fever", "Rash"], correct: 1 },
+                            { q: "Postpartum Thyroiditis initially presents as:", options: ["Hypothyroidism", "Hyperthyroidism", "Normal thyroid", "Goiter"], correct: 1 },
+                            { q: "Sheehan's Syndrome involves:", options: ["Liver failure", "Pituitary necrosis due to severe hemorrhage/shock", "Kidney failure", "Heart failure"], correct: 1 },
+                            { q: "A symptom of Sheehan's Syndrome is:", options: ["High milk supply", "Failure to lactate (Agalactia) and Amenorrhea", "Heavy periods", "Hair growth"], correct: 1 },
+                            { q: "Puerperal fever is defined as temperature >38C (100.4F) on:", options: ["One occasion", "Any 2 of the first 10 days (excluding first 24h)", "First day only", "Discharge day"], correct: 1 },
+                            { q: "Wound dehiscence risk factors include:", options: ["Obesity, Diabetes, Infection", "Thinness, Youth", "Breastfeeding", "Rest"], correct: 0 },
+                            { q: "Treatment for a small Vulvar Hematoma often involves:", options: ["Surgery", "Ice packs and Analgesia", "Antibiotics", "Heat"], correct: 1 },
+                            { q: "Postpartum Urinary Retention may require:", options: ["Diuretics", "Catheterization", "Surgery", "Fluid restriction"], correct: 1 },
+                            { q: "Spinal Headaches are relieved by:", options: ["Sitting up", "Lying flat", "Walking", "Dark room"], correct: 1 },
+                            { q: "Treatment for severe Spinal Headache is:", options: ["Aspirin", "Epidural Blood Patch", "Antibiotics", "Massage"], correct: 1 },
+                            { q: "Choriocarcinoma is a malignancy associated with:", options: ["Molar Pregnancy", "Normal pregnancy", "Ectopic pregnancy", "Fibroids"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Mental Health & Ethics',
+                        questions: [
+                            { q: "Postpartum Psychosis differs from PPD by the presence of:", options: ["Sadness", "Delusions and Hallucinations", "Fatigue", "Anxiety"], correct: 1 },
+                            { q: "The priority in Postpartum Psychosis is:", options: ["Medication", "Safety of mother and infant (Hospitalization)", "Sleep", "Nutrition"], correct: 1 },
+                            { q: "Edinburgh Postnatal Depression Scale (EPDS) is a screening tool for:", options: ["PPD", "Psychosis", "Anxiety", "Bipolar"], correct: 0 },
+                            { q: "Bereavement care for fetal loss includes:", options: ["Removing the baby immediately", "Creating memories (photos, footprints) and allowing time to hold baby", "Not talking about it", "Sedating the mother"], correct: 1 },
+                            { q: "Cultural competence in postpartum care involves:", options: ["Treating everyone exactly the same", "Asking about and respecting cultural practices/beliefs", "Ignoring requests", "Teaching your own culture"], correct: 1 },
+                            { q: "In some cultures, the postpartum period is considered a 'Cold' state, requiring:", options: ["Cold foods", "Warm foods and keeping warm", "Ice packs", "Air conditioning"], correct: 1 },
+                            { q: "Informed consent for newborn procedures (e.g., Circ) must be obtained from:", options: ["Nurse", "Parents", "Doctor", "Grandparents"], correct: 1 },
+                            { q: "Autonomy in ethics refers to:", options: ["Doing good", "Right to self-determination", "Fairness", "Do no harm"], correct: 1 },
+                            { q: "Beneficence means:", options: ["Doing good/Acting in best interest", "Telling truth", "Keeping promises", "Fairness"], correct: 0 },
+                            { q: "Non-maleficence means:", options: ["Do not harm", "Do good", "Be fair", "Be honest"], correct: 0 },
+                            { q: "Veracity refers to:", options: ["Telling the truth", "Privacy", "Loyalty", "Justice"], correct: 0 },
+                            { q: "Fidelity refers to:", options: ["Faithfulness/Keeping promises", "Lying", "Stealing", "Cheating"], correct: 0 },
+                            { q: "Justice refers to:", options: ["Fairness in distribution of resources", "Being nice", "Following rules", "Judging"], correct: 0 },
+                            { q: "Paternalism occurs when:", options: ["Patients make choices", "Provider overrides patient for their 'own good'", "Family decides", "Legal system decides"], correct: 1 },
+                            { q: "A doula produces:", options: ["Medical care", "Physical and emotional support", "Diagnoses", "Medications"], correct: 1 },
+                            { q: "Surrogacy ethics often involve issues of:", options: ["Autonomy and Commodification", "Infection", "Pain", "Time"], correct: 0 },
+                            { q: "Adoption plans should be:", options: ["Kept secret", "Made by the birth mother without coercion", "Forced", "Decided by nurse"], correct: 1 },
+                            { q: "Child Protective Services (CPS) must be notified if:", options: ["House is messy", "Evidence of abuse or neglect is suspected", "Parents are poor", "Parents are young"], correct: 1 },
+                            { q: "Confidentiality relates to:", options: [" HIPAA / Patient Privacy", "Hospital rules", "Doctors orders", "Visitor policy"], correct: 0 },
+                            { q: "Emancipated minors can:", options: ["Drink alcohol", "Consent for their own and their baby's medical care", "Vote", "Drive"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Pharmacology & Nutrition',
+                        questions: [
+                            { q: "Increased calorie requirement for breastfeeding is approx:", options: ["100 kcal/day", "500 kcal/day", "1000 kcal/day", "2000 kcal/day"], correct: 1 },
+                            { q: "Fluid intake for breastfeeding moms should be:", options: ["Restricted", "Increased to thirst (2-3L/day)", "Decreased", "Water only"], correct: 1 },
+                            { q: "Iron supplements should be taken with:", options: ["Milk", "Vitamin C (Orange Juice)", "Tea", "Antacids"], correct: 1 },
+                            { q: "Simethicone is used postpartum for:", options: ["Pain", "Gas pain", "Constipation", "Bleeding"], correct: 1 },
+                            { q: "Docusate Sodium (Colace) is a:", options: ["Laxative stimulant", "Stool softener", "Pain killer", "Antibiotic"], correct: 1 },
+                            { q: "Tucks pads contain:", options: ["Alcohol", "Witch Hazel (for hemorrhoids/episiotomy)", "Iodine", "Soap"], correct: 1 },
+                            { q: "Dermoplast spray contains:", options: ["Antibiotic", "Benzocaine (Local anesthetic)", "Steroid", "Ice"], correct: 1 },
+                            { q: "Rubella vaccine is a:", options: ["Killed virus", "Live attenuated virus", "Toxoid", "Subunit"], correct: 1 },
+                            { q: "Which analgesic is commonly used for afterpains (cramping)?", options: ["Aspirin", "Ibuprofen (NSAID)", "Morphine", "Valium"], correct: 1 },
+                            { q: "Tranexamic Acid (TXA) is used in PPH to:", options: ["Contract uterus", "Inhibit fibrinolysis (stabilize clots)", "Thin blood", "Lower BP"], correct: 1 },
+                            { q: "Vitamin K (Phytonadione) is given via:", options: ["Oral", "IM injection (Vastus Lateralis)", "IV", "SQ"], correct: 1 },
+                            { q: "Erythromycin Ophthalmic Ointment is applied:", options: ["To skin", "Into lower conjunctival sac (Inner to outer)", "On tongue", "In ear"], correct: 1 },
+                            { q: "Hepatitis B vaccine is given:", options: ["At birth (<12 hours)", "At 1 year", "At 6 years", "Never"], correct: 0 },
+                            { q: "If mom is HBsAg Positive, baby also needs:", options: ["Antibiotics", "HBIG (Immunoglobulin) + Hep B Vaccine", "Isolation", "Blood transfusion"], correct: 1 },
+                            { q: "Neonatal Abstinence Syndrome (NAS) is treated with:", options: ["Morphine/Methadone taper & environmental control", "Stimulants", "Nothing", "Caffeine"], correct: 0 },
+                            { q: "Caffeine intake while breastfeeding should be:", options: ["Unlimited", "Moderate (<300mg)", "Avoided strictly", "IV"], correct: 1 },
+                            { q: "Alcohol in breastmilk clears:", options: ["Never", "As it clears from the blood", "After pumping", "Immediately"], correct: 1 },
+                            { q: "Smoking while breastfeeding is:", options: ["Recommended", "Discouraged (Risk of SIDS, low supply) but BF still better than formula if smoking continues", "Safe", "Beneficial"], correct: 1 },
+                            { q: "Metoclopramide (Reglan) is sometimes used off-label to:", options: ["Stop milk", "Increase milk supply (Galactogogue)", "Treat depression", "Sleep"], correct: 1 },
+                            { q: "Domperidone is used for:", options: ["Pain", "Increasing milk supply", "Infection", "Bleeding"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -5021,7 +8746,7 @@ const appData = {
                 code: "NUR 310",
                 title: "Research Methods",
                 icon: "ph-magnifying-glass",
-                completed: false,
+                completed: true,
                 description: "Introduction to the research process, ethics, design, and evidence-based practice in nursing.",
                 content: [
                     {
@@ -5160,7 +8885,260 @@ const appData = {
                             { q: "Which sampling method gives every member of the population an equal chance of being selected?", options: ["Convenience Sampling", "Purposive Sampling", "Simple Random Sampling", "Snowball Sampling"], correct: 2 },
                             { q: "The 'Belmont Report' is associated with:", options: ["Research Ethics (Beneficence, Justice, Respect)", "Statistical Analysis", "Qualitative Design", "Funding"], correct: 0 },
                             { q: "Reliability in a research instrument refers to its:", options: ["Accuracy", "Consistency", "Length", "Cost"], correct: 1 },
-                            { q: "Triangulation involves:", options: ["Using multiple data sources/methods to validate findings", "Using three researchers", "Using three participants", "Doing the study three times"], correct: 0 }
+                            { q: "Triangulation involves:", options: ["Using multiple data sources/methods to validate findings", "Using three researchers", "Using three participants", "Doing the study three times"], correct: 0 },
+                            { q: "A study that looks back in time to identify risk factors is:", options: ["Prospective", "Retrospective (Case-Control)", "Experimental", "Cross-sectional"], correct: 1 },
+                            { q: "The 'Hawthorne Effect' refers to:", options: ["Subjects changing behavior because they know they are being observed", "Researchers biasing results", "Instruments breaking", "Random error"], correct: 0 },
+                            { q: "Null Hypothesis (H0) states that:", options: ["There is NO relationship between variables", "There is a strong relationship", "The intervention works", "The study is valid"], correct: 0 },
+                            { q: "In an experiment, the Control Group receives:", options: ["The experimental intervention", "No intervention or Standard of Care (Placebo)", "Both interventions", "Double dose"], correct: 1 },
+                            { q: "A Likert Scale uses:", options: ["Yes/No answers", "Rated responses (e.g., Strongly Agree to Strongly Disagree)", "Open-ended text", "Drawings"], correct: 1 },
+                            { q: "Ethnography focuses on:", options: ["Lived experience", "Cultural patterns and lifeways", "Theory generation", "Historical data"], correct: 1 },
+                            { q: "Which is a 'vulnerable population' requiring extra ethical protection?", options: ["Healthy adults", "Prisoners, Children, Pregnant women", "University students", "Nurses"], correct: 1 },
+                            { q: "Informed Consent implies that the participant:", options: ["Is paid", "Understands the risks/benefits and agrees voluntarily", "Is forced", "Does not know the purpose"], correct: 1 },
+                            { q: "Validity refers to:", options: ["Consistency", "Whether the instrument measures what it is intended to measure", "Sample size", "Budget"], correct: 1 },
+                            { q: "Dissemination of findings can occur via:", options: ["Keeping a diary", "Publication in journals and Conferences", "Talking to self", "Deleting data"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Quantitative Research',
+                        questions: [
+                            { q: "Which design provides the strongest evidence for cause-and-effect?", options: ["Correlational", "Randomized Controlled Trial (RCT)", "Descriptive", "Case Study"], correct: 1 },
+                            { q: "A Correlational study examines:", options: ["Cause and effect", "Relationships/Associations between variables", "Lived experience", "Culture"], correct: 1 },
+                            { q: "The Independent Variable (IV) is:", options: ["The outcome", "The intervention or cause manipulated by the researcher", "The setting", "The error"], correct: 1 },
+                            { q: "The Dependent Variable (DV) is:", options: ["The intervention", "The outcome or effect being measured", "The researcher", "The participant"], correct: 1 },
+                            { q: "To reduce bias, a researcher should use:", options: ["Random assignment", "Hand-picking subjects", "Personal judgment", "Small samples"], correct: 0 },
+                            { q: "A Quasi-Experimental design lacks:", options: ["Manipulation", "Randomization", "A Dependent Variable", "Data"], correct: 1 },
+                            { q: "Cross-sectional studies collect data:", options: ["Over a long period of time", "At one single point in time", "Before and after an intervention", "Retrospectively"], correct: 1 },
+                            { q: "Longitudinal studies collect data:", options: ["Once", "Over an extended period of time (multiple data points)", "From animals", "Quickly"], correct: 1 },
+                            { q: "Internal Validity asks:", options: ["Can findings be generalized?", "Did the Independent Variable truly cause the change in the Dependent Variable?", "Is the instrument consistent?", "Is the topic interesting?"], correct: 1 },
+                            { q: "External Validity asks:", options: ["Did the IV cause the DV?", "Can the findings be generalized to the larger population?", "Is the math correct?", "Did the IRB approve?"], correct: 1 },
+                            { q: "A confounding variable is:", options: ["The main variable", "An extraneous factor that distorts the relationship between IV and DV", "The result", "The hypothesis"], correct: 1 },
+                            { q: "Power Analysis is used to determine:", options: ["Budget", "Required Sample Size", "Ethical approval", "Publication journal"], correct: 1 },
+                            { q: "Type I Error (Alpha error) is:", options: ["False Positive (Rejecting a true Null Hypothesis)", "False Negative", "Correct decision", "Sampling error"], correct: 0 },
+                            { q: "Type II Error (Beta error) is:", options: ["False Positive", "False Negative (Accepting a false Null Hypothesis/Missing an effect)", "Correct decision", "Data loss"], correct: 1 },
+                            { q: "A Cohort Study follows:", options: ["A group of people sharing a characteristic over time", "One person", "No one", "Random people"], correct: 0 },
+                            { q: "Attrition refers to:", options: ["Recruiting participants", "Loss of participants (Drop-outs) during a study", "Analyzing data", "Writing the report"], correct: 1 },
+                            { q: "Generalizability is the goal of:", options: ["Quantitative research", "Qualitative research", "Case studies", "Personal opinions"], correct: 0 },
+                            { q: "Surveys are a common method for:", options: ["Experimental manipulation", "Descriptive/Correlational data collection", "Qualitative depth", "Drug testing"], correct: 1 },
+                            { q: "Mean, Median, and Mode are measures of:", options: ["Dispersion", "Central Tendency", "Relationship", "Error"], correct: 1 },
+                            { q: "Standard Deviation measures:", options: ["Average", "Variability or spread of data around the mean", "Total sum", "Correlation"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Qualitative & Ethics',
+                        questions: [
+                            { q: "Phenomenology aims to understand:", options: ["Culture", "The 'Lived Experience' of a phenomenon", "Social processes", "Statistics"], correct: 1 },
+                            { q: "Grounded Theory aims to:", options: ["Describe culture", "Generate a theory about a social process from data", "Test drugs", "Count frequencies"], correct: 1 },
+                            { q: "Ethnography requires:", options: ["Short interviews", "Long-term immersion in the culture/fieldwork", "Surveys", "Lab work"], correct: 1 },
+                            { q: "Data Saturation is reached when:", options: ["The researcher is tired", "No new information/themes are emerging from data", "Budget runs out", "Time is up"], correct: 1 },
+                            { q: "Purposive Sampling involves:", options: ["Random selection", "Selecting participants who can best inform the research question", "Picking the first person seen", "Lottery"], correct: 1 },
+                            { q: "Snowball Sampling involves:", options: ["Cold weather", "Participants referring other potential participants", "Random numbers", "Cluster sampling"], correct: 1 },
+                            { q: "Bracketing in qualitative research means:", options: ["Grouping data", "Researcher setting aside their own biases/preconceptions", "Ignoring data", "Coding"], correct: 1 },
+                            { q: "The IRB (Institutional Review Board) primary purpose is to:", options: ["Publish papers", "Protect the rights and welfare of human subjects", "Fund research", "Design studies"], correct: 1 },
+                            { q: "Beneficence requires researchers to:", options: ["Maximize benefits and minimize harm", "Pay subjects", "Be honest", "Select fairly"], correct: 0 },
+                            { q: "Anonymity means:", options: ["Researcher knows the identity but keeps it secret", "Researcher cannot link data to the participant", "Participant uses a nickname", "Data is public"], correct: 1 },
+                            { q: "Confidentiality means:", options: ["Data is anonymous", "Researcher knows identity but protects the information", "Sharing with everyone", "No names ever"], correct: 1 },
+                            { q: "Vulnerable populations include:", options: ["Prisoners", "Children", "Mentally disabled", "All of the above"], correct: 3 },
+                            { q: "Assent refers to:", options: ["Parental permission", "A child's affirmative agreement to participate", "Legal consent", "Refusal"], correct: 1 },
+                            { q: "Research misconduct includes:", options: ["Fabrication, Falsification, Plagiarism", "Honest error", "Slight bias", "Publishing"], correct: 0 },
+                            { q: "Justice in the Belmont Report refers to:", options: ["Fair selection and distribution of burdens/benefits", "Doing good", "Autonomy", "Truth"], correct: 0 },
+                            { q: "Respect for Persons includes:", options: ["Right to self-determination (Autonomy)", "Right to money", "Right to fame", "Right to publish"], correct: 0 },
+                            { q: "Focus Groups are used to:", options: ["Test individuals", "Generate discussion utilizing group dynamics", "Test drugs", "Diagnose"], correct: 1 },
+                            { q: "Member Checking is used to:", options: ["Validate findings by returning to participants", "Check staff members", "Check math", "Edit grammar"], correct: 0 },
+                            { q: "Transferability in qualitative research is similar to:", options: ["Internal validity", "External validity (Generalizability)", "Reliability", "Objectivity"], correct: 1 },
+                            { q: "Credibility in qualitative research is similar to:", options: ["Internal Validity", "Reliability", "Objectivity", "Speed"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Evidence-Based Practice',
+                        questions: [
+                            { q: "The 'P' in PICO stands for:", options: ["Problem/Patient/Population", "Purpose", "Plan", "Protocol"], correct: 0 },
+                            { q: "The 'I' in PICO stands for:", options: ["Interest", "Intervention/Issue", "Idea", "Investigation"], correct: 1 },
+                            { q: "The 'C' in PICO stands for:", options: ["Conclusion", "Comparison", "Context", "Cost"], correct: 1 },
+                            { q: "The 'O' in PICO stands for:", options: ["Observation", "Outcome", "Opinion", "Organization"], correct: 1 },
+                            { q: "Which is the highest level of evidence?", options: ["Expert Opinion", "Single RCT", "Systematic Review / Meta-Analysis", "Case Study"], correct: 2 },
+                            { q: "A Systematic Review is:", options: ["A summary of one study", "A rigorous synthesis of all relevant studies on a topic", "A textbook chapter", "An opinion piece"], correct: 1 },
+                            { q: "A Meta-Analysis involves:", options: ["Qualitative themes", "Statistical combination of results from multiple studies", "One experiment", "Reviewing books"], correct: 1 },
+                            { q: "Clinical Guidelines are:", options: ["Laws", "Recommendations based on best evidence to guide practice", "Suggestions", "nurse opinions"], correct: 1 },
+                            { q: "Barriers to EBP include:", options: ["Lack of time, skills, or organizational support", "Too much evidence", "Patient willingness", "High salary"], correct: 0 },
+                            { q: "The first step in EBP is:", options: ["Searching for evidence", "Cultivating a spirit of inquiry / Asking the question", "Appraising evidence", "Implementing"], correct: 1 },
+                            { q: "Critically appraising evidence involves evaluating:", options: ["Author's name", "Validity, Reliability, and Applicability", "Journal color", "Length of article"], correct: 1 },
+                            { q: "Implementing EBP requires:", options: ["Ignoring patients", "Change in practice based on evidence", "Doing research", "Writing papers"], correct: 1 },
+                            { q: "Outcomes measurement evaluates:", options: ["Did the change improve patient care?", "Did the nurse like it?", "Did it cost more?", "Was it fast?"], correct: 0 },
+                            { q: "Peer Review means:", options: ["Friends reading it", "Experts in the field reviewing the manuscript for quality before publication", "Editor reading it", "Public reading it"], correct: 1 },
+                            { q: "Grey Literature includes:", options: ["Published journals", "Unpublished reports, theses, government docs", "Newspapers", "Blogs"], correct: 1 },
+                            { q: "MeSH terms are used for:", options: ["Cleaning", "Searching databases (Medical Subject Headings)", "Cooking", "Writing"], correct: 1 },
+                            { q: "CINAHL is:", options: ["A nursing journal", "A database of nursing and allied health literature", "A hospital", "A university"], correct: 1 },
+                            { q: "Boolean operators include:", options: ["Plus, Minus", "AND, OR, NOT", "If, Then", "Is, Are"], correct: 1 },
+                            { q: "Using 'AND' in a search:", options: ["Broadens results", "Narrows results (requires both terms)", "Excludes terms", "Changes spelling"], correct: 1 },
+                            { q: "Using 'OR' in a search:", options: ["Boradens results (contains either term)", "Narrows results", "Excludes terms", "Finishes search"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Data Analysis & Stats',
+                        questions: [
+                            { q: "Nominal data involves:", options: ["Categories/Names (e.g., Male/Female)", "Rankings", "Intervals", "True Zero"], correct: 0 },
+                            { q: "Ordinal data involves:", options: ["Categories", "Rankings/Order (e.g., Likert scale, Stage of cancer)", "Measurements", "Zero"], correct: 1 },
+                            { q: "Interval data has:", options: ["No zero", "Equal distance between points but NO absolute zero (Temp in F/C)", "True zero", "Categories"], correct: 1 },
+                            { q: "Ratio data has:", options: ["Categories", "Absolute Zero (e.g., Weight, Height, BP)", "No zero", "Rankings"], correct: 1 },
+                            { q: "The most frequent score in a distribution is the:", options: ["Mean", "Median", "Mode", "Range"], correct: 2 },
+                            { q: "The average score is the:", options: ["Mean", "Median", "Mode", "Standard Deviation"], correct: 0 },
+                            { q: "The middle score in a distribution is the:", options: ["Mean", "Median", "Mode", "Range"], correct: 1 },
+                            { q: "In a Normal Distribution (Bell Curve), the Mean, Median, and Mode are:", options: ["Different", "Equal (or very close)", "Far apart", "Zero"], correct: 1 },
+                            { q: "Correlation Coefficient (r) ranges from:", options: ["0 to 100", "-1.00 to +1.00", "0 to 10", "1 to 5"], correct: 1 },
+                            { q: "A correlation of +0.90 indicates:", options: ["Weak positive relationship", "Strong positive relationship", "Strong negative relationship", "No relationship"], correct: 1 },
+                            { q: "A correlation of -0.80 indicates:", options: ["Weak relationship", "Strong inverse/negative relationship", "Positive relationship", "Error"], correct: 1 },
+                            { q: "T-test measures:", options: ["Relationships", "Difference between two group means", "Variance of 3 groups", "Frequencies"], correct: 1 },
+                            { q: "ANOVA (Analysis of Variance) measures:", options: ["Difference between 2 groups", "Difference between 3 or more group means", "Correlation", "Regression"], correct: 1 },
+                            { q: "Chi-Square test checks for:", options: ["Differences in proportions/frequencies (Categorical data)", "Means", "Medians", "Standard deviations"], correct: 0 },
+                            { q: "Statistical Significance means:", options: ["The findings are important clinically", "The findings are unlikely to be due to chance (p < alpha)", "The findings are big", "The findings are true"], correct: 1 },
+                            { q: "Clinical Significance means:", options: ["The findings are statistical", "The findings have practical value for patient care", "The p-value is low", "The sample was large"], correct: 1 },
+                            { q: "Confidence Interval (CI) usually set at:", options: ["50%", "90%", "95% (or 99%)", "100%"], correct: 2 },
+                            { q: "Effect Size measures:", options: ["P-value", "The magnitude/strength of the relationship or difference", "Sample size", "Cost"], correct: 1 },
+                            { q: "Histogram is used to visualize:", options: ["Categorical data", "Frequency distribution of continuous data", "Relationships", "Words"], correct: 1 },
+                            { q: "Scatterplot is used to visualize:", options: ["Mean differences", "Relationship/Correlation between two variables", "Frequencies", "Pie chart"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Research Designs',
+                        questions: [
+                            { q: "Qualitative research primarily focuses on:", options: ["Numbers and statistics", "Lived experiences and meaning", "Cause and effect", "Testing drugs"], correct: 1 },
+                            { q: "Which design involves manipulation of an independent variable and randomization?", options: ["Correlational", "Experimental (RCT)", "Qualitative", "Cohort"], correct: 1 },
+                            { q: "A study looking back in time to identfy risk factors is a:", options: ["Prospective cohort", "Retrospective Case-Control", "RCT", "Cross-sectional"], correct: 1 },
+                            { q: "Cross-sectional studies collect data at:", options: ["Multiple points over years", "One specific point in time", "Birth only", "Death only"], correct: 1 },
+                            { q: "Phenomenology is a qualitative method used to study:", options: ["Cultures", "The lived experience of a specific phenomenon", "Historical documents", "Social processes"], correct: 1 },
+                            { q: "Ethnography involves:", options: [" immersing in a culture", "Testing blood", "Reviewing charts", "Surveys"], correct: 0 },
+                            { q: "Grounded Theory aims to:", options: ["Test a theory", "Develop a theory from data", "Prove a law", "Calculate an average"], correct: 1 },
+                            { q: "Which is a threat to internal validity?", options: ["Randomization", "History and Maturation", "Large sample size", "Double-blinding"], correct: 1 },
+                            { q: "Quasi-experimental designs lack:", options: ["Variables", "Randomization", "Measurement", "Hypothesis"], correct: 1 },
+                            { q: "A longitudinal study follows subjects:", options: ["Once", "Over a long period of time", "At one moment", "Never"], correct: 1 },
+                            { q: "Double-blind means:", options: ["Participants don't know the group", "Researchers don't know the group", "Neither participants nor researchers know who is in which group", "Everyone knows"], correct: 2 },
+                            { q: "The Control Group receives:", options: ["The experimental treatment", "Standard care or Placebo", "High dose", "Nothing"], correct: 1 },
+                            { q: "A confounding variable is:", options: ["The outcome", "The intervention", "An extraneous factor confusing the results", "The hypothesis"], correct: 2 },
+                            { q: "Which design provides the highest level of evidence?", options: ["Expert opinion", "Systematic Review / Meta-analysis", "Case study", "Cohort study"], correct: 1 },
+                            { q: "Triangulation involves:", options: ["Using multiple sources/methods to validate findings", "Using 3 researchers", "Drawing shapes", "Testing 3 drugs"], correct: 0 },
+                            { q: "A Pilot Study is:", options: ["A large study", "A small-scale preliminary study", "A study on pilots", "A failed study"], correct: 1 },
+                            { q: "Bracketing is used in qualitative research to:", options: ["Group numbers", "Set aside researcher bias/beliefs", "Calculate costs", "Secure funding"], correct: 1 },
+                            { q: "Meta-analysis combines:", options: ["Words", "Statistical results from multiple studies", "Opinions", "Theories"], correct: 1 },
+                            { q: "Attrition refers to:", options: ["Recruiting subjects", "Loss of participants (Dropouts)", "Analyzing data", "Publishing"], correct: 1 },
+                            { q: "Prospective studies look:", options: ["Backward", "Forward in time", "At the present only", "At random"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Sampling & Data Collection',
+                        questions: [
+                            { q: "Random sampling (Probability sampling) ensures:", options: ["Everyone has an equal chance of selection", "Only sick people are chosen", "Bias is improved", "Convenience"], correct: 0 },
+                            { q: "Convenience sampling involves:", options: ["Picking names from a hat", "Using most readily available subjects", "Stratifying by age", "Random numbers"], correct: 1 },
+                            { q: "Which is a probability sampling method?", options: ["Purposive", "Quota", "Stratified Random", "Snowball"], correct: 2 },
+                            { q: "Snowball sampling is useful for:", options: ["Large populations", "Hard-to-reach populations", "Average people", "Hospitals"], correct: 1 },
+                            { q: "Reliability refers to:", options: ["Accuracy", "Consistency/Repeatability", "Truthfulness", "Importance"], correct: 1 },
+                            { q: "Validity refers to:", options: ["Consistency", "Whether the instrument measures what it is supposed to measure (Accuracy)", "Cost", "Speed"], correct: 1 },
+                            { q: "Likert scale questions typically ask for:", options: ["Age", "Agreement level (Strongly Agree to Strongly Disagree)", "Yes/No", "Open text"], correct: 1 },
+                            { q: "Focus groups are used to:", options: ["Test drugs", "Generate deep discussion and insights", "Count heads", "Surgery"], correct: 1 },
+                            { q: "Selection bias occurs when:", options: ["Sample is representative", "Sample is not representative of the population", "Randomization is used", "Sample is large"], correct: 1 },
+                            { q: "Cronbach's Alpha measures:", options: ["Internal consistency reliability", "Validity", "Mean", "Variance"], correct: 0 },
+                            { q: "A good sample size is determined by:", options: ["Guessing", "Power Analysis", "Budget only", "Time"], correct: 1 },
+                            { q: "Response rate refers to:", options: ["How fast people run", "Percentage of people who complete the survey", "Accuracy of answers", "Number of questions"], correct: 1 },
+                            { q: "Observation as a data collection method carries the risk of:", options: ["Hawthorne Effect (Behavior change due to being watched)", "Sampling error", "Low cost", "No data"], correct: 0 },
+                            { q: "A 'Population' in research is:", options: ["Everyone in the world", "The entire group of interest", "The sample", "The control group"], correct: 1 },
+                            { q: "Inclusion criteria define:", options: ["Who cannot be in the study", "Characteristics required to be in the study", "The budget", "The results"], correct: 1 },
+                            { q: "Exclusion criteria are:", options: ["Characteristics that disqualify a person from the study", "Who is included", "The variables", "The hypothesis"], correct: 0 },
+                            { q: "Purposive sampling involves:", options: ["Random selection", "Selecting subjects based on specific needs/knowledge", "Accidental selection", "Lottery"], correct: 1 },
+                            { q: "Interviews can be:", options: ["Structured, Semi-structured, or Unstructured", "Only written", "Silent", "Automatic"], correct: 0 },
+                            { q: "The 'Instrument' in research usually refers to:", options: ["A scalpel", "The tool used to collect data (e.g., Survey)", "The piano", "The computer"], correct: 1 },
+                            { q: "Primary data is:", options: ["Collected by the researcher firsthand", "From existing records", "From books", "From rumors"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Ethics & Legal',
+                        questions: [
+                            { q: "Informed Consent requires:", options: ["Signature only", "Full disclosure, comprehension, and voluntary agreement", "Payment", "Witness"], correct: 1 },
+                            { q: "The Belmont Report principles are:", options: ["Faith, Hope, Charity", "Beneficence, Justice, Respect for Persons", "Liberty, Equality, Fraternity", "Truth, Justice, Way"], correct: 1 },
+                            { q: "Beneficence means:", options: ["Do no harm / Maximize benefits", "Fairness", "Autonomy", "Truth"], correct: 0 },
+                            { q: "Vulnerable populations include:", options: ["Healthy adults", "Children, Prisoners, Pregnant women, Mentally disabled", "Doctors", "Students"], correct: 1 },
+                            { q: "Anonymity means:", options: ["Researcher knows the identity but keeps it secret", "Researcher cannot link data to the participant", "Using nicknames", "Hiding faces"], correct: 1 },
+                            { q: "Confidentiality means:", options: ["No one knows", "Researcher protects the participant's identity", "Public data", "Sharing names"], correct: 1 },
+                            { q: "The IRB (Institutional Review Board) function is to:", options: ["Fund research", "Protect human subjects", "Write papers", "Hire staff"], correct: 1 },
+                            { q: "Coercion in research involves:", options: ["Paying a fair amount", "Forcing or unduly influencing participation", "Explaining risks", "Asking nicely"], correct: 1 },
+                            { q: "Assent is required from:", options: ["Adults", "Children (in addition to parental consent)", "Elderly", "Pets"], correct: 1 },
+                            { q: "Fabrication of data means:", options: ["Making up data", "Analyzing data", "Collecting data", "Cleaning data"], correct: 0 },
+                            { q: "Falsification of data means:", options: ["Making up data", "Manipulating/Changing data to fit hypothesis", "Losing data", "Reporting honestly"], correct: 1 },
+                            { q: "Plagiarism is:", options: ["Using another's work without credit", "Paraphrasing with citation", "Collaboration", "Original writing"], correct: 0 },
+                            { q: "Right to self-determination means participants can:", options: ["Withdraw at any time without penalty", "Change the study design", "Demand payment", "Sue"], correct: 0 },
+                            { q: "Justice in research ensures:", options: ["Everyone gets paid", "Fair distribution of burdens and benefits", "No one is hurt", "Speedy results"], correct: 1 },
+                            { q: "Debriefing is done:", options: ["Before study", "After study participation (esp. if deception was used)", "During study", "Never"], correct: 1 },
+                            { q: "Tuskegee Syphilis Study was unethical because:", options: ["Treatment was withheld", "It was too short", "It was expensive", "It used animals"], correct: 0 },
+                            { q: "Nuremberg Code resulted from:", options: ["Nazi medical experiments", "Tuskegee", "Willowbrook", "Helsinki"], correct: 0 },
+                            { q: "Helsinki Declaration focuses on:", options: ["Biomedical research ethics", "Trade", "War", "Environment"], correct: 0 },
+                            { q: "Therapeutic misconception occurs when:", options: ["Subjects believe research is treatment for their benefit", "Subjects hate research", "Researchers lie", "Treatment works"], correct: 0 },
+                            { q: "Conflict of Interest involves:", options: ["Fighting", "Financial/Personal interests biasing the research", "Boredom", "Teamwork"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Data Analysis & EBP',
+                        questions: [
+                            { q: "Descriptive statistics:", options: ["Test hypotheses", "Summarize and organize data (Mean, SD)", "Predict future", "Generalize"], correct: 1 },
+                            { q: "Inferential statistics:", options: ["Describe the sample", "Make generalizations about the population", "Are simple", "Are pictures"], correct: 1 },
+                            { q: "The 'Mean' is the:", options: ["Average", "Middle score", "Most frequent", "Range"], correct: 0 },
+                            { q: "The 'Median' is the:", options: ["Average", "Middle score", "Most frequent", "Total"], correct: 1 },
+                            { q: "The 'Mode' is the:", options: ["Average", "Middle score", "Most frequent score", "Range"], correct: 2 },
+                            { q: "Standard Deviation measures:", options: ["Central tendency", "Variability/Spread of data", "Accuracy", "Bias"], correct: 1 },
+                            { q: "P-value < 0.05 usually indicates:", options: ["Significant result", "Non-significant result", "Error", "Bias"], correct: 0 },
+                            { q: "Type I Error is:", options: ["False Positive (Rejecting a true null)", "False Negative", "Correct decision", "Missing data"], correct: 0 },
+                            { q: "Type II Error is:", options: ["False Positive", "False Negative (Accepting a false null)", "Correct decision", "Bad design"], correct: 1 },
+                            { q: "The Null Hypothesis states:", options: ["There is a relationship", "There is NO relationship/difference", "The intervention works", "The study is flawed"], correct: 1 },
+                            { q: "EBP Step 1 is:", options: ["Apply evidence", "Ask clinical question (PICO)", "Search", "Appraise"], correct: 1 },
+                            { q: "The highest level of evidence pyramid is:", options: ["RCT", "Systematic Review", "Expert Opinion", "Case control"], correct: 1 },
+                            { q: "Expert opinion is considered:", options: ["High level evidence", "Low level evidence", "No evidence", "Best evidence"], correct: 1 },
+                            { q: "Systematic Review involves:", options: ["One study", "Rigorous review of all relevant studies", "Book review", "Opinion"], correct: 1 },
+                            { q: "Clinical Guidelines are:", options: ["Laws", "Recommendations based on EBP", "Suggestions", "Rules"], correct: 1 },
+                            { q: "Outcomes research focuses on:", options: ["Process", "End results of care", "Cost only", "Staff satisfaction"], correct: 1 },
+                            { q: "Correlation does not imply:", options: ["Relationship", "Association", "Causation", "Strength"], correct: 2 },
+                            { q: "Ordinal data is:", options: ["Names", "Ranked order (1st, 2nd, 3rd)", "Numbers with intervals", "True zero"], correct: 1 },
+                            { q: "Nominal data is:", options: ["Categories/Names (Male/Female)", "Ranked", "Continuous", "Measured"], correct: 0 },
+                            { q: "Ratio data has:", options: ["No zero", "Absolute zero (e.g., Weight)", "Categories", "Ranks"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -5170,7 +9148,7 @@ const appData = {
                 code: "NUR 312",
                 title: "Gender, Sexual & Reproductive Rights",
                 icon: "ph-gender-intersex",
-                completed: false,
+                completed: true,
                 description: "Exploration of SRHR frameworks, gender-based violence, advocacy, and rights of vulnerable populations.",
                 content: [
                     {
@@ -5305,6 +9283,145 @@ const appData = {
                             { q: "Which population is often 'infantilized' regarding their sexual rights?", options: ["Adolescents", "Persons with Disabilities", "Elderly", "Men"], correct: 1 },
                             { q: "Youth-Friendly Services must be:", options: ["Expensive", "Accessible, Confidential, and Non-judgmental", "Located only in schools", "Requires parental consent for all ages"], correct: 1 },
                             { q: "Advocacy in nursing involves:", options: ["Making decisions for the patient", "Speaking up for the rights and choices of the patient", "Remaining silent", "Following orders blindly"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Gender Concepts & Violence',
+                        questions: [
+                            { q: "Sex refers to:", options: ["Socially constructed roles", "Biological characteristics (chromosomes, hormones, anatomy)", "How one feels", "Clothing choices"], correct: 1 },
+                            { q: "Gender refers to:", options: ["Biological anatomy", "Socially constructed roles, behaviors, and attributes", "XX or XY", "Medical diagnosis"], correct: 1 },
+                            { q: "Gender Stereotypes are:", options: ["Facts", "Harmful generalizations about differences between men and women", "Laws", "Good for health"], correct: 1 },
+                            { q: "Which is a form of Gender-Based Violence?", options: ["Physical, Sexual, Psychological, Economic", "Only physical", "Only sexual", "Fair treatment"], correct: 0 },
+                            { q: "FGM Type I (Clitoridectomy) involves:", options: ["Removal of the clitoral glans/hood", "Narrowing vaginal opening", "Pricking", "Burning"], correct: 0 },
+                            { q: "The role of the SANE (Sexual Assault Nurse Examiner) includes:", options: ["Judging the victim", "Collecting forensic evidence and providing compassionate care", "Arresting the perpetrator", "Ignoring the patient"], correct: 1 },
+                            { q: "In domestic violence screening, the nurse should:", options: ["Ask in front of the partner", "Ask privately and directly", "Wait for the patient to bring it up", "Call police immediately without consent"], correct: 1 },
+                            { q: "Economic violence aims to:", options: ["Help the victim save money", "Control the victim by limiting access to financial resources", "Pay bills", "Invest"], correct: 1 },
+                            { q: "Rape Trauma Syndrome is:", options: ["A legal term", "A psychological response to sexual assault (Acute and Reorganization phases)", "A physical injury", "A myth"], correct: 1 },
+                            { q: "Intimate Partner Violence (IPV) cycle includes:", options: ["Tension building, Explosion, Honeymoon", "Happiness only", "Fighting only", "Peace only"], correct: 0 },
+                            { q: "Coercive control is:", options: ["Physical hitting", "A pattern of intimidation, isolation, and control", "Love", "Protection"], correct: 1 },
+                            { q: "Medical evidence in rape cases should be stored in:", options: ["Plastic bags", "Paper bags (to prevent mold/degradation)", "Open air", "Water"], correct: 1 },
+                            { q: "Emergency Contraception (EC) is most effective if taken within:", options: ["1 week", "72-120 hours", "1 month", "1 year"], correct: 1 },
+                            { q: "PEP (Post-Exposure Prophylaxis) for HIV should be started within:", options: ["72 hours", "1 week", "10 days", "2 weeks"], correct: 0 },
+                            { q: "Psychological violence includes:", options: ["Hitting", "Gaslighting, insults, and humiliation", "Stealing money", "Rape"], correct: 1 },
+                            { q: "FGM Type 3 (Infibulation) causes:", options: ["Ease of birth", "Obstetric fistula, prolonged labor, urinary retention", "Hygiene", "Health"], correct: 1 },
+                            { q: "The 'Honeymoon Phase' of abuse involves:", options: ["Apologies and promises to change", "Beatings", "Tension", "Leaving"], correct: 0 },
+                            { q: "Grooming is a tactic used by predators to:", options: ["Clean up", "Build trust and lower defenses", "Scare", "Run away"], correct: 1 },
+                            { q: "Mandatory reporting laws usually apply to:", options: ["All adults", "Children and vulnerable adults/elderly", "No one", "Pets"], correct: 1 },
+                            { q: "Victim blaming sound like:", options: ["It's not your fault", "What were you wearing?", "I believe you", "You are safe now"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Rights & Frameworks',
+                        questions: [
+                            { q: "The Maputo Protocol guarantees women's right to:", options: ["Vote only", "Medical abortion in cases of rape, incest, or danger to health", "Travel", "Work"], correct: 1 },
+                            { q: "Sexual Rights include the right to:", options: ["Coerce others", "Decide freely on matters of sexuality", "Marry as a child", "Discriminate"], correct: 1 },
+                            { q: "Reproductive Rights include the right to:", options: ["Decide the number and spacing of children", "Force others to have kids", "Government control", "Free housing"], correct: 0 },
+                            { q: "ICPD Cairo (1994) defined Reproductive Health as:", options: ["Absence of disease", "Complete physical, mental, and social well-being in reproductive matters", "Population control", "Childbearing only"], correct: 1 },
+                            { q: "CEDAW is known as:", options: ["The International Bill of Rights for Women", "A trade deal", "A war treaty", "A bank"], correct: 0 },
+                            { q: "The 'Global Gag Rule' affects funding for:", options: ["Water", "Organizations that provide or discuss abortion", "Schools", "Roads"], correct: 1 },
+                            { q: "Universal Declaration of Human Rights Article 1 states:", options: ["All humans are born free and equal in dignity and rights", "Only men are free", "Rich people rule", "Might makes right"], correct: 0 },
+                            { q: "Accountability in SRHR means:", options: ["Punishing women", "Governments must explain their actions and performance", "Ignoring laws", "Secrecy"], correct: 1 },
+                            { q: "Non-discrimination implies equal care regardless of:", options: ["Payment", "Race, Gender, Sexual Orientation, Disability, etc.", "Clothing", "Time of day"], correct: 1 },
+                            { q: "The Right to Information ensures:", options: ["Gossip", "Access to accurate, scientific SRH info", "Censorship", "Lies"], correct: 1 },
+                            { q: "The Right to Privacy protects:", options: ["Criminals", "Confidentiality of medical records and choices", "Public figures", "None"], correct: 1 },
+                            { q: "Sustainable Development Goal (SDG) 5 focuses on:", options: ["Clean Water", "Gender Equality", "Zero Hunger", "Climate Action"], correct: 1 },
+                            { q: "SDG 3 Target 3.7 focuses on:", options: ["Universal access to sexual and reproductive health-care services", "Economy", "Oceans", "Cities"], correct: 0 },
+                            { q: "The 'Three Delays Model' explains maternal mortality as delays in:", options: ["Eating, Sleeping, Walking", "Deciding to seek care, Reaching care, Receiving care", "Paying, Parking, Filling forms", "None"], correct: 1 },
+                            { q: "Comprehensive Sexuality Education (CSE) teaches:", options: ["Sex only", "Cognitive, emotional, physical and social aspects of sexuality", "Abstinence only", "Biology only"], correct: 1 },
+                            { q: "Cultural relativism in human rights means:", options: ["Rights are universal", "Culture excuses rights violations", "Culture is irrelevant", "Rights don't exist"], correct: 1 },
+                            { q: "State obligation to 'Respect' rights means:", options: ["Do nothing", "Refrain from interfering with the enjoyment of rights", "Provide everything", "Control people"], correct: 1 },
+                            { q: "State obligation to 'Protect' rights means:", options: ["Prevent third parties from violating rights", "Ignore violations", "Protect the government", "Protect borders only"], correct: 0 },
+                            { q: "State obligation to 'Fulfill' rights means:", options: ["Take positive measures/facilitate enjoyment of rights", "Make promises", "Fill forms", "Full bellies"], correct: 0 },
+                            { q: "Rights-Based Approach prioritizes:", options: ["Charity", "Empowerment and Entitlement", "Dependency", "Efficiency only"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Adolescent & Vulnerable Populations',
+                        questions: [
+                            { q: "Youth-Friendly Services characteristic:", options: ["Wait times", "Provider is non-judgmental", "Expensive", "No privacy"], correct: 1 },
+                            { q: "Gillick Competence (Fraser Guidelines) refers to:", options: ["A child's ability to consent to medical treatment based on maturity/understanding", "Adults only", "Driving age", "Voting age"], correct: 0 },
+                            { q: "Age of Consent for sex vs Age of Access to services:", options: ["Are always the same", "Can differ, creating barriers", "Don't matter", "Are 21 everywhere"], correct: 1 },
+                            { q: "Barriers to adolescent SRH care include:", options: ["Cost, Stigma, Lack of confidentiality", "Too much information", "Understaffing only", "Good transport"], correct: 0 },
+                            { q: "Refugees face increased risk of:", options: ["Obesity", "Sexual violence and lack of sanitary supplies", "Too much healthcare", "Employment"], correct: 1 },
+                            { q: "Disability rights in SRH include:", options: ["Forced sterilization", "Right to accessible info and freedom from forced sterilization", "Being treated as children", "No rights"], correct: 1 },
+                            { q: "LGBTQIA+ individuals often face healthcare discrimination appearing as:", options: ["Welcoming staff", "Refusal of care, microaggressions, or pathologizing their identity", "Free care", "Priority"], correct: 1 },
+                            { q: "Comprehensive abortion care includes:", options: ["Counseling, Procedure, and Post-abortion contraception", "Judgment", "Reporting to police", "Danger"], correct: 0 },
+                            { q: "Sex workers have the right to:", options: ["Health services without discrimination", "Be arrested", "No rights", "Violence"], correct: 0 },
+                            { q: "Men who have sex with men (MSM) are a key population for:", options: ["Flu", "HIV prevention and treatment", "Diabetes", "Asthma"], correct: 1 },
+                            { q: "Transgender health needs include:", options: ["Hormone therapy and gender-affirming care", "Conversion therapy", "Ignoring gender", "Psychiatric hold"], correct: 0 },
+                            { q: "Adolescent pregnancy carries higher risk of:", options: ["Twins", "Pre-eclampsia, Fistula, Anemia", "Easy labor", "Diabetes"], correct: 1 },
+                            { q: "Unmet need for family planning is highest among:", options: ["Adolescents and unmarried women", "Older women", "Men", "Widows"], correct: 0 },
+                            { q: "PrEP (Pre-Exposure Prophylaxis) prevents:", options: ["Pregnancy", "HIV infection", "Gonorrhea", "Syphilis"], correct: 1 },
+                            { q: "Access to menstrual hygiene products is a matter of:", options: ["Luxury", "Human dignity and health", "Choice", "Fashion"], correct: 1 },
+                            { q: "Forced marriage is a violation of:", options: ["Tradition", "Human rights and bodily autonomy", "Parents rights", "Law"], correct: 1 },
+                            { q: "Harm reduction strategies focus on:", options: ["Judgment", "Reducing negative consequences (e.g., needle exchange)", "Stopping behavior immediately", "Punishment"], correct: 1 },
+                            { q: "Trauma-Informed Care asks:", options: ["What is wrong with you?", "What happened to you?", "Why did you do that?", "Are you lying?"], correct: 1 },
+                            { q: "Intersectionality considers:", options: ["Only gender", "Overlapping identities (Race, Class, Gender) aimed at understanding oppression", "Traffic lights", "Roads"], correct: 1 },
+                            { q: "Empowerment involves:", options: ["Giving power", "Process of gaining control over one's life and choices", "Taking power", "Ignoring power"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Maternal Rights & Advocacy',
+                        questions: [
+                            { q: "Obstetric Violence includes:", options: ["C-section", "Slapping, scolding, or non-consented procedures during birth", "Pain relief", "Monitoring"], correct: 1 },
+                            { q: "Respectful Maternity Care (RMC) emphasizes:", options: ["Dignity, Privacy, and Consent", "Speed", "Technology", "Cost"], correct: 0 },
+                            { q: "The right to a birth companion of choice is:", options: ["A luxury", "Evidence-based to improve outcomes", "Forbidden", "Dangerous"], correct: 1 },
+                            { q: "Advocacy for post-abortion care involves:", options: ["Judging the patient", "Ensuring life-saving treatment for complications", "Calling police", "Refusing care"], correct: 1 },
+                            { q: "Informed choice in family planning means:", options: ["Nurse decides", "Client understands all options/side effects and chooses freely", "Husband decides", "Government decides"], correct: 1 },
+                            { q: "The 'B' in BRAIDED (Informed Consent for Contraception) stands for:", options: ["Benefits", "Bad news", "Barrier", "Baby"], correct: 0 },
+                            { q: "The 'R' in BRAIDED stands for:", options: ["Right now", "Risks", "Rules", "Rare"], correct: 1 },
+                            { q: "Dual Protection refers to:", options: ["Two condoms", "Protection against Pregnancy AND STIs (e.g., Condoms)", "Two pills", "IUD plus Pill"], correct: 1 },
+                            { q: "Task-shifting in SRH allows:", options: ["Doctors to do less", "Nurses/Midwives to perform tasks (e.g., IUD insertion) to increase access", "Unqualified staff to work", "Quitting"], correct: 1 },
+                            { q: "Social accountability involves:", options: ["Citizens holding providers/government accountable", "Social media", "Being social", "Parties"], correct: 0 },
+                            { q: "Maternal Death Surveillance and Response (MDSR) aims to:", options: ["Count deaths", "Understand causes to prevent future deaths", "Blame staff", "Fill forms"], correct: 1 },
+                            { q: "Near-miss audit reviews:", options: ["Women who almost died but survived", "Deaths", "Births", "Missed appointments"], correct: 0 },
+                            { q: "Advocacy for Fistula prevention includes:", options: ["Stopping labor", "Delaying marriage/birth and accessing C-sections", "Home birth", "Herbal meds"], correct: 1 },
+                            { q: "Free maternity (Linda Mama) services aim to remove:", options: ["Barriers", "Financial barriers to access", "Quality", "Nurses"], correct: 1 },
+                            { q: "Kangaroo Mother Care (KMC) is a right for:", options: ["Preterm low birth weight babies", "Big babies", "Moms", "Dads"], correct: 0 },
+                            { q: "Silent/Stillbirth bereavement care requires:", options: ["Ignoring it", "Validation of loss and memory making", "Moving on", "Sedation"], correct: 1 },
+                            { q: "Postpartum family planning should be discussed:", options: ["At 6 weeks", "Antenatally and before discharge", "Never", "After next pregnancy"], correct: 1 },
+                            { q: "LARC stands for:", options: ["Long Acting Reversible Contraception (IUD/Implant)", "Large", "Last Resort", "Late"], correct: 0 },
+                            { q: "Emergency Obstetric Care (EmOC) must be available:", options: ["9-5", "24/7", "Weekends only", "Sometimes"], correct: 1 },
+                            { q: "Quality of Care framework includes:", options: ["Experience of Care and Clinical Care", "Color of walls", "Parking", "TV"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -5473,7 +9590,156 @@ const appData = {
                             { q: "Which screening test is primarily used for Cervical Cancer?", options: ["Mammogram", "Pap Smear", "CA-125", "Colonoscopy"], correct: 1 },
                             { q: "Postmenopausal bleeding is the cardinal symptom of:", options: ["Ovarian Cancer", "Endometrial Cancer", "Cervical Cancer", "Breast Cancer"], correct: 1 },
                             { q: "Hormone Replacement Therapy (HRT) in menopause is most effective for treating:", options: ["Osteoporosis", "Hot flashes and night sweats (Vasomotor symptoms)", "Breast cancer risk", "Infertility"], correct: 1 },
-                            { q: "Infertility is typically defined as failure to conceive after:", options: ["3 months of trying", "6 months of trying (>35 years) or 12 months (<35 years)", "2 years of trying", "1 month of trying"], correct: 1 }
+                            { q: "Infertility is typically defined as failure to conceive after:", options: ["3 months of trying", "6 months of trying (>35 years) or 12 months (<35 years)", "2 years of trying", "1 month of trying"], correct: 1 },
+                            { q: "Secondary Amenorrhea is defined as absence of menses for:", options: ["1 month", "3-6 months (in a woman who previously menstruated)", "1 year", "Life"], correct: 1 },
+                            { q: "A Rectocele is usually caused by:", options: ["Weakness in the posterior vaginal wall", "Weakness in anterior wall", "Uterine prolapse", "Surgical error"], correct: 0 },
+                            { q: "The most common symptom of Uterine Fibroids is:", options: ["Pain", "Menorrhagia (Heavy/Prolonged bleeding)", "Infertility", "Amenorrhea"], correct: 1 },
+                            { q: "Visual inspection of the cervix with Acetic Acid (VIA) turns abnormal cells:", options: ["Black", "White (Acetowhite)", "Red", "Blue"], correct: 1 },
+                            { q: "Dyspareunia refers to:", options: ["Painful menstruation", "Painful sexual intercourse", "Bleeding", "Infection"], correct: 1 },
+                            { q: "Which of these is a risk factor for Pelvic Organ Prolapse?", options: ["Nulliparity", "Multiparity (Multiple vaginal births)", "Low BMI", "Youth"], correct: 1 },
+                            { q: "Toxic Shock Syndrome (TSS) is associated with:", options: ["Pads", "Prolonged tampon use (Staph aureus)", "Condoms", "IUDs"], correct: 1 },
+                            { q: "Bacterial Vaginosis (BV) is characterized by:", options: ["Thick white discharge", "Fishy odor and clue cells", "Green frothy discharge", "Ulcers"], correct: 1 },
+                            { q: "Trichomoniasis is caused by a:", options: ["Bacteria", "Protozoan (Parasite)", "Virus", "Fungus"], correct: 1 },
+                            { q: "The HPV vaccine prevents:", options: ["HIV", "Cervical Cancer and Genital Warts", "Herpes", "Syphilis"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Infections & Oncology',
+                        questions: [
+                            { q: "Pelvic Inflammatory Disease (PID) often results from untreated:", options: ["UTI", "Chlamydia and Gonorrhea", "Yeast infection", "Flu"], correct: 1 },
+                            { q: "A serious long-term complication of PID is:", options: ["Weight gain", "Ectopic Pregnancy and Infertility", "Diabetes", "Hypertension"], correct: 1 },
+                            { q: "Syphilis is caused by:", options: ["Virus", "Treponema pallidum (Bacteria/Spirochete)", "Fungus", "Protozoa"], correct: 1 },
+                            { q: "Primary Syphilis presents with:", options: ["Rash", "Painless chancre (ulcer)", "Gumma", "Fever"], correct: 1 },
+                            { q: "Which High-Risk HPV strains are most responsible for Cervical Cancer?", options: ["6 and 11", "16 and 18", "1 and 2", "5 and 9"], correct: 1 },
+                            { q: "A radical hysterectomy involves removal of:", options: ["Uterus only", "Uterus, cervix, upper vagina, and parametrium", "Ovaries only", "Tubes only"], correct: 1 },
+                            { q: "Gestational Trophoblastic Disease (Molar Pregnancy) is marked by high levels of:", options: ["Estrogen", "hCG", "Progesterone", "FSH"], correct: 1 },
+                            { q: "Ovarian Cancer is difficult to diagnose early because:", options: ["It has no symptoms or vague GI symptoms", "It is rare", "Tests are expensive", "It mimics pregnancy"], correct: 0 },
+                            { q: "Risk factors for Endometrial Cancer include:", options: ["Obesity, Nulliparity, Unopposed Estrogen", "Smoking", "Thinness", "Multiparity"], correct: 0 },
+                            { q: "Vulvar Cancer often presents as:", options: ["Bleeding", "Persistent itch (Pruritus) or lump/ulcer on vulva", "Pain", "Discharge"], correct: 1 },
+                            { q: "Treatment for Gonorrhea usually involves:", options: ["Amoxicillin", "Ceftriaxone (IM) + Azithromycin/Doxycycline", "Panadol", "Water"], correct: 1 },
+                            { q: "Herpes Simplex Virus (HSV) Type 2 typically causes:", options: ["Cold sores", "Genital Herpes", "Chickenpox", "Shingles"], correct: 1 },
+                            { q: "Which STI is known as the 'Silent Disease' because it is often asymptomatic in women?", options: ["Syphilis", "Chlamydia", "Herpes", "HIV"], correct: 1 },
+                            { q: "Metronidazole (Flagyl) is the treatment of choice for:", options: ["Gonorrhea", "Trichomoniasis and Bacterial Vaginosis", "Chlamydia", "Syphilis"], correct: 1 },
+                            { q: "Discharge in Candidiasis (Yeast infection) is typically:", options: ["Green/Frothy", "Thick, white, curdy (Cottage cheese-like)", "Gray", "Clear"], correct: 1 },
+                            { q: "A Pap Smear collects cells from the:", options: ["Vagina", "Transformation Zone of the Cervix", "Uterus", "Ovaries"], correct: 1 },
+                            { q: "Cryotherapy treats cervical precipitants by:", options: ["Burning", "Freezing", "Cutting", "Laser"], correct: 1 },
+                            { q: "BRCA1 and BRCA2 gene mutations increase risk for:", options: ["Lung cancer", "Breast and Ovarian Cancer", "Liver cancer", "Bone cancer"], correct: 1 },
+                            { q: "Lymphedema is a potential complication of:", options: ["Hysterectomy", "Mastectomy with lymph node removal", "Pap smear", "Antibiotics"], correct: 1 },
+                            { q: "Tamoxifen is used in Breast Cancer to:", options: ["Kill cells", "Block estrogen receptors", "Increase estrogen", "Prevent infection"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Menstrual & Structural',
+                        questions: [
+                            { q: "Menorrhagia is:", options: ["No bleeding", "Heavy or prolonged menstrual bleeding", "Painful bleeding", "Spotting"], correct: 1 },
+                            { q: "Metrorrhagia is:", options: ["Heavy bleeding", "Bleeding between periods (Intermenstrual)", "Painful bleeding", "Late bleeding"], correct: 1 },
+                            { q: "Mittelschmerz refers to:", options: ["Menstrual pain", "Ovulation pain", "Back pain", "Headache"], correct: 1 },
+                            { q: "Premenstrual Dysphoric Disorder (PMDD) is:", options: ["Mild PMS", "Severe form of PMS with significant mood/behavioral impact", "Depression", "Anxiety"], correct: 1 },
+                            { q: "Adenomyosis differs from Fibroids because the tissue grows:", options: ["On the outside", "Into the myometrium (Muscle wall) diffusely", "In the cervix", "In the tubes"], correct: 1 },
+                            { q: "A Vesicovaginal Fistula (VVF) causes:", options: ["Fecal leakage", "Continuous leakage of urine from the vagina", "Constipation", "Retention"], correct: 1 },
+                            { q: "Reviewing the cause of VVF in developing countries, the leading factor is:", options: ["Surgery", "Obstructed Labor", "Trauma", "Cancer"], correct: 1 },
+                            { q: "Pessaries are used to treat:", options: ["Infection", "Pelvic Organ Prolapse (Support device)", "Cancer", "Pain"], correct: 1 },
+                            { q: "Stress Urinary Incontinence occurs with:", options: ["Sleep", "Sneezing, Coughing, laughing (Inc. intra-abdominal pressure)", "Urge", "Overflow"], correct: 1 },
+                            { q: "Kegel exercises strengthen the:", options: ["Abs", "Pelvic Floor Muscles (Pubococcygeus)", "Thighs", "Back"], correct: 1 },
+                            { q: "Imperforate Hymen presents in adolescence with:", options: ["Bleeding", "Amenorrhea and Cyclic Pain (Hematocolpos)", "Infection", "Diarrhea"], correct: 1 },
+                            { q: "Asherman's Syndrome involves:", options: ["Cysts", "Intrauterine adhesions/scarring (Synechiae) causing amenorrhea", "Fibroids", "Polyps"], correct: 1 },
+                            { q: "Chronic Pelvic Pain lasts longer than:", options: ["1 month", "6 months", "1 year", "2 weeks"], correct: 1 },
+                            { q: "Dysfunctional Uterine Bleeding (DUB) is usually related to:", options: ["Fibroids", "Hormonal imbalance (Anovulation)", "Trauma", "Infection"], correct: 1 },
+                            { q: "Luteal Phase Defect involves low levels of:", options: ["Estrogen", "Progesterone", "FSH", "LH"], correct: 1 },
+                            { q: "Chocolate Cyst is associated with:", options: ["PCOS", "Endometriosis (Endometrioma)", "Dermoid", "Functional cyst"], correct: 1 },
+                            { q: "Dermoid Cyst (Teratoma) may contain:", options: ["Fluid only", "Hair, teeth, sebum", "Blood", "Air"], correct: 1 },
+                            { q: "Ovarian Torsion is particular because it:", options: ["Is chronic", "Is a surgical emergency (Ischemia)", "Resolves itself", "Is painless"], correct: 1 },
+                            { q: "Colporrhaphy is a surgery to repair:", options: ["Cervix", "Vaginal wall defects (Cystocele/Rectocele)", "Uterus", "Ovary"], correct: 1 },
+                            { q: "Total Abdominal Hysterectomy (TAH) removes:", options: ["Uterus and Cervix", "Uterus only", "Tubes only", "Ovaries only"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Fertility & Menopause',
+                        questions: [
+                            { q: "Menopause is confirmed after:", options: ["6 months of no periods", "12 consecutive months of amenorrhea", "Hot flashes start", "Age 50"], correct: 1 },
+                            { q: "Surgical Menopause occurs after removal of:", options: ["Uterus", "Both Ovaries (Bilateral Oophorectomy)", "Cervix", "Tubes"], correct: 1 },
+                            { q: "Vasomotor symptoms of menopause include:", options: ["Bleeding", "Hot flashes and Night sweats", "Pain", "Vomiting"], correct: 1 },
+                            { q: "Vaginal atrophy in menopause is due to lack of:", options: ["Progesterone", "Estrogen", "Testosterone", "LH"], correct: 1 },
+                            { q: "Osteoporosis prevention in postmenopausal women includes:", options: ["Bed rest", "Weight-bearing exercise, Calcium, Vitamin D", "Avoid sun", "Smoking"], correct: 1 },
+                            { q: "Which drug is a Bisphosphonate used for Osteoporosis?", options: ["Estrogen", "Alendronate (Fosamax)", "Tamoxifen", "Panadol"], correct: 1 },
+                            { q: "Hysterosalpingogram (HSG) checks for:", options: ["Ovulation", "Tubal patency and uterine shape", " Sperm count", "Infection"], correct: 1 },
+                            { q: "Clomiphene Citrate (Clomid) is used to:", options: ["Prevent pregnancy", "Induce Ovulation", "Stop bleeding", "Treat pain"], correct: 1 },
+                            { q: "Intrauterine Insemination (IUI) involves:", options: ["IVF", "Placing sperm directly into the uterus", "Sex", "Surgery"], correct: 1 },
+                            { q: "In Vitro Fertilization (IVF) involves:", options: ["Fertilization inside the body", "Fertilization in a lab dish then embryo transfer", "Injections only", "Surrogacy"], correct: 1 },
+                            { q: "Ovarian Hyperstimulation Syndrome (OHSS) is a complication of:", options: ["Pill", "Fertility treatment", "Surgery", "Infection"], correct: 1 },
+                            { q: "Azoospermia means:", options: ["Low sperm", "No sperm in ejaculate", "Normal sperm", "Dead sperm"], correct: 1 },
+                            { q: "Basal Body Temperature (BBT) charts show a rise:", options: ["Before ovulation", "After ovulation (Progesterone effect)", "During menses", "Never"], correct: 1 },
+                            { q: "Spinnbarkeit sign refers to:", options: ["Breast tenderness", "Cervical mucus stretchability (Fertile window)", "Bleeding", "Pain"], correct: 1 },
+                            { q: "Ferning pattern is seen in:", options: ["Saliva", "Dried cervical mucus under microscope (Estrogen effect)", "Blood", "Urine"], correct: 1 },
+                            { q: "Post-coital test evaluates:", options: ["Sperm-mucus interaction", "Blood type", "DNA", "Hormones"], correct: 0 },
+                            { q: "Premature Ovarian Failure (POF) is menopause before age:", options: ["50", "40", "30", "60"], correct: 1 },
+                            { q: "What is the leading cause of female infertility?", options: ["Uterine anomalies", "Ovulatory disorders (e.g., PCOS) and Tubal factors", "Cervical factors", "Age"], correct: 1 },
+                            { q: "Fibroids can cause infertility by:", options: ["Infection", "Distorting the cavity or blocking tubes", "Killing sperm", "Stopping ovulation"], correct: 1 },
+                            { q: "Effectiveness of 'Pull-out' method (Withdrawal) is:", options: ["High", "Low (Pre-ejaculate contains sperm)", "100%", "Same as pill"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Breast & Procedures',
+                        questions: [
+                            { q: "Breast Self-Exam (BSE) involves palpating:", options: ["Nipple only", "All quadrants and the Tail of Spence (Axilla)", "Top only", "Bottom only"], correct: 1 },
+                            { q: "Peau d'orange (Orange peel skin) on the breast suggests:", options: ["Infection", "Inflammatory Breast Cancer", "Dry skin", "Eczema"], correct: 1 },
+                            { q: "Mammography screenings typically start at age:", options: ["20", "40-50 (Guidelines vary)", "60", "30"], correct: 1 },
+                            { q: "A Fine Needle Aspiration (FNA) is used to:", options: ["Treat cancer", "Sample cells from a lump/cyst", "Remove breast", "Inject dye"], correct: 1 },
+                            { q: "Sentinel Node Biopsy checks:", options: ["All nodes", "The first lymph node(s) draining the tumor", "Nodes in neck", "Nodes in groin"], correct: 1 },
+                            { q: "Mastectomy patients should avoid what on the affected arm?", options: ["Moving", "BP readings, Injections, Blood draws (Prevent Lymphedema)", "Lotion", "Sun"], correct: 1 },
+                            { q: "Dilation and Curettage (D&C) is used for:", options: ["Birth", "Diagnosis and treatment of uterine bleeding/Emptying uterus", "Infection", "Pain"], correct: 1 },
+                            { q: "Colposcopy is done:", options: ["Routine screening", "Follow-up for abnormal Pap smear (Magnified view of cervix)", "For pain", "For bleeding"], correct: 1 },
+                            { q: "Laparoscopy is:", options: ["Open surgery", "Minimally invasive surgery (Keyhole) often used for Endometriosis/Tubal Ligation", "X-ray", "Ultrasound"], correct: 1 },
+                            { q: "Hysteroscopy involves viewing the:", options: ["Stomach", "Inside of the uterus", "Bladder", "Rectum"], correct: 1 },
+                            { q: "Cone Biopsy (Conization) removes:", options: ["Ovary", "Cone-shaped piece of cervical tissue", "Fibroid", "Polyp"], correct: 1 },
+                            { q: "Risk of Cone Biopsy includes:", options: ["Infertility", "Cervical incompetence (Risk of preterm birth) and Bleeding", "Infection", "Pain"], correct: 1 },
+                            { q: "Myomectomy is the removal of:", options: ["Uterus", "Fibroids (preserving the uterus)", "Ovaries", "Cervix"], correct: 1 },
+                            { q: "Salpingectomy is removal of:", options: ["Ovaries", "Fallopian Tubes", "Uterus", "Cervix"], correct: 1 },
+                            { q: "Oophorectomy is removal of:", options: ["Tubes", "Ovaries", "Uterus", "Vagina"], correct: 1 },
+                            { q: "Tubal Ligation is a form of:", options: ["Temporary contraception", "Permanent sterilization", "Abortion", "Treatment"], correct: 1 },
+                            { q: "Mastitis is common in:", options: ["Menopause", "Lactating women", "Puberty", "Elderly"], correct: 1 },
+                            { q: "Breast Abscess usually requires:", options: ["Antibiotics only", "Incision and Drainage (I&D) + Antibiotics", "Mastectomy", "Ice"], correct: 1 },
+                            { q: "Intraductal Papilloma causes:", options: ["Pain", "Bloody nipple discharge", "Lump", "Fever"], correct: 1 },
+                            { q: "Paget's Disease of the nipple presents as:", options: ["Lump", "Eczema-like scaly lesion on nipple/areola", "Pain", "Discharge"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
@@ -5639,7 +9905,156 @@ const appData = {
                             { q: "Which test compares observed frequences to expected frequencies in categorical data?", options: ["T-Test", "ANOVA", "Chi-Square", "Regression"], correct: 2 },
                             { q: "If a 95% Confidence Interval for a Relative Risk includes the number 1 (e.g., 0.8 - 1.2), the result is:", options: ["Statistically Significant", "Not Statistically Significant", "Clinically Significant", "highly precise"], correct: 1 },
                             { q: "The Null Hypothesis (H0) typically states that:", options: ["There is a significant difference", "There is NO significant difference or relationship", "The intervention worked", "The data is skewed"], correct: 1 },
-                            { q: "Sensitivity of a screening test is the ability to:", options: ["Correctly identify those With the disease (True Positive rate)", "Correctly identify those Without the disease (True Negative rate)", "Predict the future", "Measure severity"], correct: 0 }
+                            { q: "Sensitivity of a screening test is the ability to:", options: ["Correctly identify those With the disease (True Positive rate)", "Correctly identify those Without the disease (True Negative rate)", "Predict the future", "Measure severity"], correct: 0 },
+                            { q: "Which of the following is an example of a continuous variable?", options: ["Gender", "Blood Type", "Systolic Blood Pressure", "Pain Score (Mild/Moderate/Severe)"], correct: 2 },
+                            { q: "The mode is defined as:", options: ["The arithmetic average", "The middle value", "The most frequently occurring value", "The difference between max and min"], correct: 2 },
+                            { q: "Which distribution shape is characterized by a long tail extending to the right?", options: ["Normal", "Positively Skewed", "Negatively Skewed", "Uniform"], correct: 1 },
+                            { q: "A p-value of 0.03 generally implies:", options: ["The results are due to chance", "The results are statistically significant", "The null hypothesis is true", "The study is invalid"], correct: 1 },
+                            { q: "In a box plot, the line inside the box represents the:", options: ["Mean", "Median", "Mode", "Standard Deviation"], correct: 1 },
+                            { q: "Which sampling method gives every member of the population an equal chance of selection?", options: ["Convenience sampling", "Quota sampling", "Simple random sampling", "Purposive sampling"], correct: 2 },
+                            { q: "The 'gold standard' study design for establishing causality is:", options: ["Case-Control Study", "Cohort Study", "Randomized Controlled Trial (RCT)", "Cross-Sectional Study"], correct: 2 },
+                            { q: "Which variable is manipulated by the researcher?", options: ["Dependent variable", "Independent variable", "Confounding variable", "Extraneous variable"], correct: 1 },
+                            { q: "Standard deviation is best described as a measure of:", options: ["Central tendency", "Dispersion or spread", "Skewness", "Correlation"], correct: 1 },
+                            { q: "Inter-rater reliability refers to:", options: ["Consistency of a measure over time", "Consistency between different observers/raters", "Internal consistency of survey items", "Validity of the instrument"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Descriptive Statistics',
+                        questions: [
+                            { q: "Which value divides a data set into two equal halves?", options: ["Mean", "Median", "Mode", "Variance"], correct: 1 },
+                            { q: "Percentiles describe:", options: ["The average score", "The relative position of a score within a distribution", "The spread of data", "The shape of the curve"], correct: 1 },
+                            { q: "Active range of motion measured in degrees is what type of data?", options: ["Nominal", "Ordinal", "Ratio", "Interval"], correct: 2 },
+                            { q: "A 'Z-score' indicates:", options: ["The number of standard deviations a point is from the mean", "The variance of the sample", "The probability of error", "The correlation coefficient"], correct: 0 },
+                            { q: "Which graphical display is best for continuous data?", options: ["Bar chart", "Pie chart", "Histogram", "Venn diagram"], correct: 2 },
+                            { q: "If a distribution is negatively skewed, the mean is usually:", options: ["Greater than the median", "Less than the median", "Equal to the median", "Greater than the mode"], correct: 1 },
+                            { q: "Kurtosis refers to:", options: ["The symmetry of the curve", "The 'peakedness' or flatness of the distribution", "The number of modes", "The range of the data"], correct: 1 },
+                            { q: "Which measure of spread is calculated by squaring the standard deviation?", options: ["Range", "Interquartile Range", "Variance", "Coefficient of Variation"], correct: 2 },
+                            { q: "The Interquartile Range (IQR) contains the middle ___ of the data.", options: ["25%", "50%", "68%", "95%"], correct: 1 },
+                            { q: "Which is most appropriate for describing the 'center' of skewed data?", options: ["Mean", "Median", "Mode", "Standard Deviation"], correct: 1 },
+                            { q: "In a standard normal distribution, the mean is always:", options: ["0", "1", "10", "100"], correct: 0 },
+                            { q: "Bar charts are preferred for:", options: ["Continuous data", "Categorical data", "Time series data", "Correlation data"], correct: 1 },
+                            { q: "A scatter plot is used to verify:", options: ["Distribution shape", "Relationship between two variables", "Difference between groups", "Frequency of categories"], correct: 1 },
+                            { q: "What is a major disadvantage of the Range?", options: ["Hard to calculate", "Uses all data points", "Highly sensitive to outliers", "Cannot be used for ratio data"], correct: 2 },
+                            { q: "If data is bimodal, it has:", options: ["No mode", "One mode", "Two modes", "A normal distribution"], correct: 2 },
+                            { q: "Relative frequency is:", options: ["The raw count", "The count divided by the total (usually percentage)", "The cumulative total", "The range divided by n"], correct: 1 },
+                            { q: "Categorical data is also known as:", options: ["Quantitative data", "Qualitative data", "Discrete numerical data", "Continuous data"], correct: 1 },
+                            { q: "The 50th percentile is equivalent to the:", options: ["Mean", "Median", "Mode", "First Quartile"], correct: 1 },
+                            { q: "Parameters describe ____; Statistics describe ____.", options: ["Samples; Populations", "Populations; Samples", "Variables; Constants", "Trends; Outliers"], correct: 1 },
+                            { q: "Stem-and-leaf plots preserve:", options: ["Only the summary statistics", "The individual data values", "Only the range", "Only the outliers"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Inferential Statistics',
+                        questions: [
+                            { q: "To compare the means of three or more independent groups, use:", options: ["T-test", "Chi-Square", "ANOVA", "Pearson Correlation"], correct: 2 },
+                            { q: "A Paired T-test is used for:", options: ["Independent groups", "Pre-test/Post-test on the same subjects", "Categorical data", "More than 2 groups"], correct: 1 },
+                            { q: "The probability of rejecting a true null hypothesis is called:", options: ["Bata", "Power", "Alpha (Type I error)", "Effect size"], correct: 2 },
+                            { q: "If the 95% Confidence Interval for a mean difference is [-2, 5], what can you conclude?", options: ["Significant difference exists", "No significant difference (contains 0)", "The mean is 3", "Sample size is too small"], correct: 1 },
+                            { q: "Power is the probability of:", options: ["Rejecting a true null", "Finding a difference if one actually exists (1 - Beta)", "Making a calculation error", "Publishing the study"], correct: 1 },
+                            { q: "Chi-square goodness of fit tests:", options: ["Differences in means", "If observed counts match expected distribution", "Correlation strength", "Variance homogeneity"], correct: 1 },
+                            { q: "Which assumption is NOT required for a standard T-test?", options: ["Normality", "Homogeneity of variance", "Independence of observations", "Sample size > 1000"], correct: 3 },
+                            { q: "The Mann-Whitney U test is the non-parametric equivalent of:", options: ["Paired T-test", "Independent T-test", "ANOVA", "Pearson r"], correct: 1 },
+                            { q: "Regression analysis allows us to:", options: ["Only check for association", "Predict the value of a dependent variable", "Prove causation", "Eliminate bias"], correct: 1 },
+                            { q: "In regression, R-squared represents:", options: ["Correlation coefficient", "Variance explained by the model", "The intercept", "The error term"], correct: 1 },
+                            { q: "Post-hoc tests are performed after:", options: ["Understanding the problem", "Getting a significant ANOVA result", "Rejection by a journal", "Designing the study"], correct: 1 },
+                            { q: "Degrees of freedom generally relate to:", options: ["Sample size", "Temperature", "Cost of study", "Bias"], correct: 0 },
+                            { q: "A 99% CI will be ____ than a 95% CI.", options: ["Narrower", "Wider", "Same width", "Less accurate"], correct: 1 },
+                            { q: "Effect size (e.g., Cohen's d) measures:", options: ["Statistical significance only", "Magnitude of the difference/relationship", "Sample size sufficiency", "P-value accuracy"], correct: 1 },
+                            { q: "Two-tailed tests check for:", options: ["Difference in one direction only", "Difference in either direction", "Only positive results", "Only negative results"], correct: 1 },
+                            { q: "The Fisher's Exact Test is used instead of Chi-Square when:", options: ["Sample sizes are very large", "Sample sizes are small (cell counts < 5)", "Data is continuous", "Data is ordinal"], correct: 1 },
+                            { q: "Homoscedasticity refers to:", options: ["Equal variances", "Different variances", "Normal distribution", "Linearity"], correct: 0 },
+                            { q: "Repeated Measures ANOVA is used when:", options: ["Groups are independent", "Subjects are measured multiple times over time", "Data is categorical", "N is equal in all groups"], correct: 1 },
+                            { q: "Logistic regression predicts for a ______ dependent variable.", options: ["Continuous", "Binary/Categorical", "Ordinal", "Nominal"], correct: 1 },
+                            { q: "Survival analysis (Kaplan-Meier) focuses on:", options: ["Quality of life", "Time-to-event data", "Cost effectiveness", "Prevalence"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Epidemiology & Critical Appraisal',
+                        questions: [
+                            { q: "Which study design is retrospective?", options: ["Cohort", "RCT", "Case-Control", "Cross-Sectional"], correct: 2 },
+                            { q: "Prevalence is most useful for:", options: ["Determining cause", "Planning healthcare resource needs", "Studying rare diseases", "Measuring risk"], correct: 1 },
+                            { q: "Relative Risk (RR) is calculated in:", options: ["Case-Control studies", "Cohort studies", "Cross-Sectional studies", "Case reports"], correct: 1 },
+                            { q: "Odds Ratio (OR) is used in Case-Control studies because:", options: ["Incidence cannot be calculated", "It is more accurate", "It is easier", "Prevalence is high"], correct: 0 },
+                            { q: "Which bias occurs when participants leave a study (drop out)?", options: ["Selection bias", "Recall bias", "Attrition bias", "Measurement bias"], correct: 2 },
+                            { q: "Numbers Needed to Treat (NNT) refers to:", options: ["Patients needed to prevent one bad outcome", "Cost of treatment", "Number of doctors required", "Sample size calculation"], correct: 0 },
+                            { q: "Validity refers to:", options: ["Consistency", "Accuracy/Truthfulness", "Precision", "Reliability"], correct: 1 },
+                            { q: "External Validity (Generalizability) asks:", options: ["Did the treatment work in the study?", "Can these results apply to the real world?", "Was the statistics correct?", "Was the protocol followed?"], correct: 1 },
+                            { q: "A Confounding Variable is:", options: ["The independent variable", "The outcome", "A third variable related to both exposure and outcome", "A measurement error"], correct: 2 },
+                            { q: "Meta-analysis involves:", options: ["Reviewing one paper", "Statistical pooling of results from multiple studies", "Qualitative synthesis", "Expert opinion"], correct: 1 },
+                            { q: "Which level of evidence is generally highest?", options: ["Expert Opinion", "Case Series", "Systematic Review of RCTs", "Single Cohort Study"], correct: 2 },
+                            { q: "Allocation concealment prevents bias during:", options: ["Data analysis", "Randomization/Enrollment", "Publication", "Hypothesis generation"], correct: 1 },
+                            { q: "Blinding (Masking) reduces:", options: ["Performance and Detection bias", "Selection bias", "Attrition bias", "Confounding"], correct: 0 },
+                            { q: "Intention-to-Treat (ITT) analysis includes:", options: ["Only those who finished", "Everyone randomized, regardless of completion", "Only the control group", "Only the intervention group"], correct: 1 },
+                            { q: "Incidence Rate assumes:", options: ["A static population", "Person-time contribution (dynamic population)", "All cases are old", " Prevalence is constant"], correct: 1 },
+                            { q: "The Hawthorne Effect describes:", options: ["Subject improvement due to being observed", "Placebo effect", "Researcher bias", "Regression to the mean"], correct: 0 },
+                            { q: "Sensitivity analysis in a study checks:", options: ["Emotional impact", "Robustness of results to changes in assumptions", "Cost", "Participant feelings"], correct: 1 },
+                            { q: "Publication bias refers to:", options: ["Journals preferring positive/significant results", "Fake data", "Plagiarism", "Reviewer errors"], correct: 0 },
+                            { q: "Which plot is used to detect publication bias?", options: ["Forest plot", "Funnel plot", "Scatter plot", "Box plot"], correct: 1 },
+                            { q: "Forest plots are typically seen in:", options: ["Case reports", "Meta-analyses", "Editorials", "Textbooks"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Data Types & Measurement',
+                        questions: [
+                            { q: "Likert scales (Strongly Agree to Strongly Disagree) are examples of:", options: ["Nominal data", "Ordinal data", "Interval data", "Ratio data"], correct: 1 },
+                            { q: "Temperature in Celsius is:", options: ["Nominal", "Ordinal", "Interval (no true zero)", "Ratio"], correct: 2 },
+                            { q: "Weight in kg is:", options: ["Nominal", "Ordinal", "Interval", "Ratio (has true zero)"], correct: 3 },
+                            { q: "Zip codes are:", options: ["Quantitative", "Nominal (Categorical labels)", "Ordinal", "Ratio"], correct: 1 },
+                            { q: "Which scale has defined magnitude between points but no true zero?", options: ["Nominal", "Ordinal", "Interval", "Ratio"], correct: 2 },
+                            { q: "Cronbach's Alpha measures:", options: ["Validity", "Internal consistency reliability", "Test-retest reliability", "Inter-rater reliability"], correct: 1 },
+                            { q: "Which error represents consistency without accuracy?", options: ["Random error", "Systematic error (Bias)", "Sampling error", "Human error"], correct: 1 },
+                            { q: "Construct Validity asks:", options: ["Does the test look right?", "Does it measure the theoretical concept it claims to?", "Does it predict future outcomes?", "Is it similar to existing tests?"], correct: 1 },
+                            { q: "Variable transformation (e.g., Log transform) is used to:", options: ["Falsify data", "Normalize skewed distributions", "Increase N", "Remove outliers only"], correct: 1 },
+                            { q: "Discrete data:", options: ["Can take any value (decimals)", "Can only take integer values (counts)", "Is always qualitative", "Is continuous"], correct: 1 },
+                            { q: "Binary data has how many categories?", options: ["One", "Two", "Three", "Infinite"], correct: 1 },
+                            { q: "Face Validity is:", options: ["The strongest form", "Subjective assessment that it 'looks' like it measures the construct", "Statistical proof", "Comparison to gold standard"], correct: 1 },
+                            { q: "Test-Retest reliability checks:", options: ["Stability over time", "Consistency across items", "Agreement between raters", "Accuracy"], correct: 0 },
+                            { q: "Which is a Ratio variable?", options: ["IQ Score", "Year of Birth", "Reaction Time", "Rank in class"], correct: 2 },
+                            { q: "Ordinal data allows:", options: ["Addition and subtraction", "Ranking/Ordering only", "Multiplication", "True zero comparison"], correct: 1 },
+                            { q: "A 'Floor Effect' occurs when:", options: ["Everybody scores high", "Everybody scores low (bottoms out)", "Scores are normal", "Data is missing"], correct: 1 },
+                            { q: "Sampling frame is:", options: ["The list of the entire population", "The list from which the sample is drawn", "The final sample", "The exclusion criteria"], correct: 1 },
+                            { q: "Stratified Random Sampling ensures:", options: ["Subgroups are represented proportionally", "Convenience", "Lowest cost", "Speed"], correct: 0 },
+                            { q: "Snowball sampling is useful for:", options: ["Large populations", "Hidden/Hard-to-reach populations", "Random trials", "Online surveys"], correct: 1 },
+                            { q: "Dichotomous variables are a type of:", options: ["Nominal variable", "Ratio variable", "Continuous variable", "Ordinal variable"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
                         ]
                     }
                 ]
@@ -5789,7 +10204,156 @@ const appData = {
                             { q: "Polypharmacy is typically defined as the concurrent use of:", options: ["2 or more meds", "5 or more medications", "10 or more meds", "Any meds"], correct: 1 },
                             { q: "A Living Will is a type of:", options: ["Financial will", "Advance Directive", "Power of Attorney", "Medical order"], correct: 1 },
                             { q: "Cheyne-Stokes respirations are characterized by:", options: ["Rapid deep breathing", "Periods of apnea alternating with deep, rapid breathing", "Slow shallow breathing", "Gasping"], correct: 1 },
-                            { q: "The primary goal of palliative care regarding symptoms is:", options: ["To cure the disease", "To sedate the patient", "To manage distress and improve quality of life", "To hasten death"], correct: 2 }
+                            { q: "The primary goal of palliative care regarding symptoms is:", options: ["To cure the disease", "To sedate the patient", "To manage distress and improve quality of life", "To hasten death"], correct: 2 },
+                            { q: "Which of the following is considered a 'Geriatric Syndrome'?", options: ["Hypertension", "Falls", "Diabetes", "Arthritis"], correct: 1 },
+                            { q: "Presbycusis refers to age-related loss of:", options: ["Vision", "Taste", "Hearing (high-frequency)", "Touch"], correct: 2 },
+                            { q: "Which medication side effect is particularly dangerous in the elderly due to fall risk?", options: ["Nausea", "Orthostatic Hypotension", "Dry mouth", "Constipation"], correct: 1 },
+                            { q: "Terminal restlessness or agitation is often treated with:", options: ["Morphine", "Haloperidol (Haldol) or Midazolam", "Furosemide", "Antibiotics"], correct: 1 },
+                            { q: "The most common form of dementia is:", options: ["Vascular Dementia", "Lewy Body Dementia", "Alzheimer's Disease", "Frontotemporal Dementia"], correct: 2 },
+                            { q: "Bereavement is:", options: ["The emotional response to loss", "The period of time after a death during which grief is experienced", "The outward expression of grief", "Pathological grief"], correct: 1 },
+                            { q: "Sarcopenia is:", options: ["Loss of bone density", "Loss of muscle mass and strength", "Loss of hair", "Loss of appetite"], correct: 1 },
+                            { q: "The main purpose of the Beers Criteria is to:", options: ["Guide alcohol consumption", "Identify potentially inappropriate medications for older adults", "Diagnose dementia", "Assess for falls"], correct: 1 },
+                            { q: "Which assessment tool is used to screen for cognitive impairment?", options: ["Braden Scale", "Morse Fall Scale", "Mini-Mental State Exam (MMSE)", "GCS"], correct: 2 },
+                            { q: "Xerostomia refers to:", options: ["Dry skin", "Dry eyes", "Dry mouth", "Constipation"], correct: 2 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Pain & Symptom Management',
+                        questions: [
+                            { q: "For continuous dull, aching pain, the preferred schedule for analgesics is:", options: ["PRN (As needed)", "Around the clock (ATC)", "Once a day", "Only when severe"], correct: 1 },
+                            { q: "Breakthrough pain is:", options: ["Pain that disappears", "A transient flare of pain despite baseline control", "Psychological pain", "Phantom pain"], correct: 1 },
+                            { q: "Which opioid toxicity symptom typically appears first?", options: ["Respiratory depression", "Sedation", "Constipation", "Nausea"], correct: 1 },
+                            { q: "The 'Death Rattle' is managed by:", options: ["IV Hydration", "Deep suctioning", "Anticholinergics (e.g., Atropine, Glycopyrrolate)", "Diuretics"], correct: 2 },
+                            { q: "Adjuvant analgesics include:", options: ["Tylenol", "Morphine", "Antidepressants and Anticonvulsants", "Placebos"], correct: 2 },
+                            { q: "To manage opioid-induced constipation, the nurse should anticipate:", options: ["Fiber alone", "Stimulant laxative + Stool softener", "Stopping the opioid", "Enemas only"], correct: 1 },
+                            { q: "Dyspnea in terminally ill patients is often relieved by:", options: ["High flow oxygen only", "Low dose opioids (Morphine)", "Bronchodilators", "CPR"], correct: 1 },
+                            { q: "Total Pain includes:", options: ["Physical only", "Physical and Mental", "Physical, Psychological, Social, and Spiritual", "Spiritual only"], correct: 2 },
+                            { q: "For nausea caused by gastric stasis, the drug of choice is:", options: ["Ondansetron", "Metoclopramide (Reglan)", "Haloperidol", "Dexamethasone"], correct: 1 },
+                            { q: "Palliative sedation is used for:", options: ["Euthanasia", "Refractory symptoms that cannot be controlled otherwise", "Convenience", "Sleeping at night"], correct: 1 },
+                            { q: "Non-pharmacological pain management includes:", options: ["Massage, Heat/Cold, Music", "Surgery", "Injections", "Pills"], correct: 0 },
+                            { q: "Neuropathic pain is often described as:", options: ["Aching", "Burning, shooting, or electric-shock like", "Cramping", "Throbbing"], correct: 1 },
+                            { q: "Equianalgesic tables are used to:", options: ["Calculate costs", "Convert doses when switching opioids or routes", "Check side effects", "Verify allergies"], correct: 1 },
+                            { q: "Which route is preferred for end-of-life pain management if oral is not possible?", options: ["IM", "Subcutaneous or IV", "Intraosseous", "Topical"], correct: 1 },
+                            { q: "Myoclonus (muscle twitching) may indicate:", options: ["Opioid toxicity/Neurotoxicity", "Improvement", "Relaxation", "Need for more opioid"], correct: 0 },
+                            { q: "Mottling of the skin usually indicates:", options: ["Fever", "Imminent death (decreased perfusion)", "Allergic reaction", "Infection"], correct: 1 },
+                            { q: "Terminal dehydration:", options: ["Is painful and must be treated", "May release natural endorphins and reduce secretions (beneficial)", "Causes swelling", "Is neglect"], correct: 1 },
+                            { q: "Haloperidol is often used in palliative care for:", options: ["Pain", "Nausea and Delirium", "Constipation", "Depression"], correct: 1 },
+                            { q: "Opioid rotation is done to:", options: ["Prevent addiction", "Improve pain control or reduce side effects", "Save money", "Confuse the body"], correct: 1 },
+                            { q: "Radiation therapy in palliative care is often used for:", options: ["Cure", "Bone pain relief (palliative radiation)", "Hair loss", "Surgery prep"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: End of Life & Ethics',
+                        questions: [
+                            { q: "A Durable Power of Attorney for Healthcare:", options: ["Handles money", "Designates an agent to make medical decisions if patient is incapacitated", "Is a doctor", "Is a lawyer"], correct: 1 },
+                            { q: "Voluntary Active Euthanasia involves:", options: ["Withdrawing treatment", "The clinician administering a lethal dose", "The patient taking the dose themselves", "Double effect"], correct: 1 },
+                            { q: "Physician-Assisted Suicide differs because:", options: ["The patient administers the lethal medication", "The doctor administers it", "It is legal everywhere", "It is involuntary"], correct: 0 },
+                            { q: "The Principle of Double Effect allows:", options: ["Giving a treatment (e.g., opioids) for good (pain relief) even if it has a foreseen bad side effect (resp. depression)", "Killing a patient", "Two treatments at once", "Ignoring side effects"], correct: 0 },
+                            { q: "Futility of care means:", options: ["Treatment is too expensive", "Treatment offers no reasonable hope of benefit/cure", "Family wants it", "Doctor is tired"], correct: 1 },
+                            { q: "Disenfranchised grief is:", options: ["Grief that is not socially sanctioned or openly acknowledged", "Normal grief", "Delayed grief", "Anticipatory grief"], correct: 0 },
+                            { q: "Spiritual distress may present as:", options: ["Pain", "Questioning meaning, anger at God, hopelessness", "Confusion", "Hunger"], correct: 1 },
+                            { q: "Cultural competence in end-of-life care requires:", options: ["Treating everyone the same", "Assessing individual preferences and respecting rituals", "Following hospital policy only", "Ignoring family"], correct: 1 },
+                            { q: "When a family asks 'How long do they have?', the best response is:", options: ["'Two days.'", "'I don't know.'", "'It's hard to predict, but here are the signs we are seeing...'", "'Ask the doctor.'"], correct: 2 },
+                            { q: "Hospice care is covered by insurance usually when prognosis is:", options: ["< 1 year", "< 6 months", "< 1 month", "Immediate"], correct: 1 },
+                            { q: "Post-mortem care should clearly include:", options: ["Removing all tubes immediately", "Respecting cultural practices and preparing body for family viewing", "Sending to morgue ASAP", "Leaving everything alone"], correct: 1 },
+                            { q: "If a DNR order is in place, and the patient chokes on food:", options: ["Do nothing", "Provide relief (Heimlich) as choking is not cardiac arrest", "Start CPR", "Call 911"], correct: 1 },
+                            { q: "Withdrawing life support is:", options: ["Murder", "Allowing natural death", "Suicide", "Negligence"], correct: 1 },
+                            { q: "Anticipatory grief helps families to:", options: ["Forget the patient", "Prepare emotionally for the loss", "Deny the reality", "Fight with staff"], correct: 1 },
+                            { q: "In pediatric palliative care, the unit of care is:", options: ["The child", "The child and family", "The parents", "The siblings"], correct: 1 },
+                            { q: "Moral distress in nurses occurs when:", options: ["They are tired", "They know the right action but are prevented from taking it", "They dislike the patient", "They are underpaid"], correct: 1 },
+                            { q: "Veracity refers to:", options: ["Doing good", "Telling the truth", "Doing no harm", "Fairness"], correct: 1 },
+                            { q: "Which religion typically requires the body not be left alone after death until burial?", options: ["Christianity", "Judaism", "Hinduism", "Buddhism"], correct: 1 },
+                            { q: "Terminal sedation refers to:", options: ["Sedation to unconsciousness to relieve intractable suffering", "Anesthesia", "Sleep aid", "Coma"], correct: 0 },
+                            { q: "The goal of a family conference is to:", options: ["Tell them what to do", "Ensure shared understanding and align goals of care", "Bill them", "Discharge the patient"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Geriatric Syndromes',
+                        questions: [
+                            { q: "Defined as age-related loss of muscle mass and strength:", options: ["Osteoporosis", "Sarcopenia", "Frailty", "Cachexia"], correct: 1 },
+                            { q: "Which is a major risk factor for falls in the elderly?", options: ["Hypertension", "Polypharmacy (>4 meds)", "High fiber diet", "Hearing aids"], correct: 1 },
+                            { q: "Urinary incontinence is:", options: ["A normal part of aging", "Always untreatable", "A common but abnormal geriatric syndrome", "Due to drinking water"], correct: 2 },
+                            { q: "Pressure ulcers are most caused by:", options: ["Dry skin", "Immobility and pressure", "Infection", "Age"], correct: 1 },
+                            { q: "Delirium differs from Dementia because Delirium is:", options: ["Chronic", "Acute and reversible", "Progressive", "Genetic"], correct: 1 },
+                            { q: "Sundowning refers to:", options: ["Waking up early", "Confusion/agitation worsening in late afternoon/evening", "Sleeping all day", "Visual impairment"], correct: 1 },
+                            { q: "Orthostatic hypotension is a drop in BP upon:", options: ["Sleeping", "Standing up", "Eating", "Exercising"], correct: 1 },
+                            { q: "Dysphagia increases the risk of:", options: ["Falls", "Aspiration pneumonia", "Hypertension", "Dementia"], correct: 1 },
+                            { q: "Failure to Thrive in the elderly includes:", options: ["Weight loss, decline in function, giving up", "Gaining weight", "Hypertension", "Infection"], correct: 0 },
+                            { q: "Which fracture is most common and debilitating in the elderly?", options: ["Wrist", "Hip", "Rib", "Ankle"], correct: 1 },
+                            { q: "Osteoporosis prevention includes:", options: ["Bed rest", "Calcium, Vitamin D, and Weight-bearing exercise", "Avoid sun", "Soft diet"], correct: 1 },
+                            { q: "Shingles (Herpes Zoster) is caused by reactivation of:", options: ["Measles", "Chickenpox (Varicella)", "Flu", "Herpes Simplex"], correct: 1 },
+                            { q: "Age-associated memory impairment is:", options: ["Alzheimer's", "Mild forgetfulness (names, keys) slower processing", "Complete amnesia", "Lewy Body"], correct: 1 },
+                            { q: "The 'Get Up and Go' test assesses:", options: ["Hearing", "Vision", "Mobility and Fall Risk", "Memory"], correct: 2 },
+                            { q: "Functional assessment measures ability to perform:", options: ["Calculations", "ADLs (Activities of Daily Living) and IADLs", "Sports", "Driving"], correct: 1 },
+                            { q: "Dehydration presents atypically in elderly as:", options: ["Thirst", "Confusion/Delirium", "Sweating", "Bloating"], correct: 1 },
+                            { q: "Constipation is often caused by:", options: ["High fiber", "Inactivity and low fluid intake", "Exercise", "Coffee"], correct: 1 },
+                            { q: "Silent MI (Heart Attack) in elderly may present as:", options: ["Crushing chest pain", "Weakness, fatigue, or confusion", "Headache", "Leg pain"], correct: 1 },
+                            { q: "Sleep changes in aging typically include:", options: ["More deep sleep", "Less deep sleep, frequent awakenings", "Needing 12 hours", "No changes"], correct: 1 },
+                            { q: "Elder mistreatment (abuse) can be:", options: ["Physical only", "Financial, Physical, Emotional, or Neglect", "Rare", "Always by strangers"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Psychosocial & Grief',
+                        questions: [
+                            { q: "Eirkson's stage for older adults is:", options: ["Intimacy vs Isolation", "Generativity vs Stagnation", "Integrity vs Despair", "Identity vs Confusion"], correct: 2 },
+                            { q: "Life Review (Reminiscence) therapy helps to:", options: ["Waste time", "Achieve ego integrity and find meaning", "Correct memory", "Make them sad"], correct: 1 },
+                            { q: "Social isolation in the elderly is linked to:", options: ["Better health", "Increased mortality and depression", "Wealth", "Independence"], correct: 1 },
+                            { q: "Complicated Grief is:", options: ["Normal", "Grief that is prolonged, disabling, and stops moving forward", "Brief", "Happy"], correct: 1 },
+                            { q: "Grandfamilies are:", options: ["Large families", "Grandparents raising grandchildren", "Rich families", "None of the above"], correct: 1 },
+                            { q: "Caregiver burnout signs include:", options: ["Energy", "Irritability, exhaustion, withdrawal", "Happiness", "Better sleep"], correct: 1 },
+                            { q: "Respite care is designed to:", options: ["Cure the patient", "Give the caregiver a break", "Hospitalize permanently", "Treat depression"], correct: 1 },
+                            { q: "The 'Sandwich Generation' cares for:", options: ["Children only", "Parents only", "Both children and aging parents simultaneously", "Pets"], correct: 2 },
+                            { q: "Spirituality in aging often:", options: ["Decreases", "Increases / becomes more important", "Disappears", "Is irrelevant"], correct: 1 },
+                            { q: "Depression in the elderly is:", options: ["Normal", "Treatable and Not a normal part of aging", "Untreatable", "Rare"], correct: 1 },
+                            { q: "Pseudodementia is:", options: ["Fake dementia", "Depression mimicking dementia (reversible)", "Alzheimer's", "Delirium"], correct: 1 },
+                            { q: "Legacy work involves:", options: ["Writing a will only", "Creating something to leave behind (letters, videos, memories)", "Cleaning house", "Working late"], correct: 1 },
+                            { q: "Validation Therapy is used for:", options: ["Depression", "Dementia (accepting their reality)", "Broken bones", "Diabetes"], correct: 1 },
+                            { q: "Widowhood effect refers to:", options: ["Increased probability of death after spouse dies", "Getting rich", "Moving away", "Remarrying"], correct: 0 },
+                            { q: "Retirement adjustment depends mostly on:", options: ["Age", "Health, finances, and social preparations", "Gender", "Weather"], correct: 1 },
+                            { q: "Suicide rate is highest in:", options: ["Teenage girls", "Elderly white men (>85)", "Middle aged women", "Young boys"], correct: 1 },
+                            { q: "Hoarding disorder in elderly may be related to:", options: ["Greed", "Anxiety, Control, or Dementia", "Laziness", "Wealth"], correct: 1 },
+                            { q: "Geriatric depression scale (GDS) is:", options: ["A blood test", "A screening tool (Yes/No questions)", "A physical exam", "A brain scan"], correct: 1 },
+                            { q: "Active Aging means:", options: ["Running marathons", "Optimizing opportunities for health, participation, and security", "Working forever", "Traveling"], correct: 1 },
+                            { q: "Filial piety refers to:", options: ["Respecting and caring for parents/elders", "Religious study", "Financial planning", "Legal laws"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10',
+                        questions: [
+                            { q: "Coming Soon...", options: ["Coming Soon..."], correct: 0 }
                         ]
                     }
                 ]
@@ -5797,9 +10361,9 @@ const appData = {
         ],
         year4: [
             {
-                id: 40400, code: "NUR 400", title: "Mental Health Nursing", icon: "ph-brain", completed: false,
+                id: 40400, code: "NUR 400", title: "Mental Health Nursing", icon: "ph-brain", completed: true,
                 content: [
-                    { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Content to be added.</p>' },
+                    { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Mental Health Nursing involves the care of patients with psychiatric disorders, focusing on therapeutic communication, psychopharmacology, and milieu therapy.</p>' },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Mental Health Nursing',
@@ -5813,15 +10377,164 @@ const appData = {
                             { q: "Defense Mechanisms are:", options: ["Conscious efforts to solve problems", "Unconscious strategies to reduce anxiety", "Physical barriers", "Medication side effects"], correct: 1 },
                             { q: "Displacement is defined as:", options: ["Returning to an earlier developmental stage", "Transferring feelings to a less threatening target", "Justifying unacceptable behavior", "Refusing to acknowledge reality"], correct: 1 },
                             { q: "Which personality disorder is characterized by instability in relationships, self-image, and affect, plus impulsivity?", options: ["Narcissistic", "Borderline Personality Disorder (BPD)", "Antisocial", "Schizoid"], correct: 1 },
-                            { q: "The priority nursing assessment for a client with Major Depressive Disorder is:", options: ["Sleep patterns", "Appetite", "Suicide risk", "Energy level"], correct: 2 }
+                            { q: "The priority nursing assessment for a client with Major Depressive Disorder is:", options: ["Sleep patterns", "Appetite", "Suicide risk", "Energy level"], correct: 2 },
+                            { q: "A client is pacing and wringing their hands. The nurse identifies this as:", options: ["Psychomotor retardation", "Psychomotor agitation", "Dystonia", "Akathisia"], correct: 1 },
+                            { q: "The nurse is caring for a client with anorexia nervosa. Which intervention is most appropriate?", options: ["Allow the client to eat in private", "Monitor the client for one hour after meals", "Discuss only food-related topics", "Weigh the client daily"], correct: 1 },
+                            { q: "Electroconvulsive Therapy (ECT) is primarily indicated for:", options: ["Mild anxiety", "Severe, treatment-resistant depression", "Personality disorders", "Phobias"], correct: 1 },
+                            { q: "A client taking an MAOI (e.g., Phenelzine) must avoid foods containing:", options: ["Gluten", "Tyramine (e.g., aged cheese, wine)", "Lactose", "Sugar"], correct: 1 },
+                            { q: "In therapeutic communication, 'Reflecting' involves:", options: ["Giving advice", "Directing back the client's ideas, feelings, or questions", "Changing the subject", "Silent listening"], correct: 1 },
+                            { q: "Confabulation is common in Korsakoff's syndrome and involves:", options: ["Lying maliciously", "Making up stories to fill memory gaps", "Forgetfulness", "Hallucinating"], correct: 1 },
+                            { q: "Agoraphobia is the fear of:", options: ["Spiders", "Heights", "Situations where escape might be difficult (e.g., crowds, open spaces)", "Flying"], correct: 2 },
+                            { q: "Tardive Dyskinesia involves:", options: ["Muscle stiffness", "Involuntary movements of the face/tongue (irreversible)", "Tremors", "Restlessness"], correct: 1 },
+                            { q: "Serotonin Syndrome causes:", options: ["Sedation", "Agitation, confusion, tachycardia, and hypertension", "Constipation", "Dry skin"], correct: 1 },
+                            { q: "Splitting is a defense mechanism commonly seen in:", options: ["Schizophrenia", "Borderline Personality Disorder", "Depression", "Anxiety"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Schizophrenia & Psychosis',
+                        questions: [
+                            { q: "A 'Delusion of Grandeur' involves:", options: ["Believing one is being persecuted", "Believing one has special powers or is a famous person", "Believing thoughts are being inserted", "Visual hallucinations"], correct: 1 },
+                            { q: "Negative symptoms of schizophrenia include:", options: ["Hallucinations", "Avolition (lack of motivation) and Alogia (poverty of speech)", "Delusions", "Agitation"], correct: 1 },
+                            { q: "Clozapine (Clozaril) requires monitoring of which lab value due to risk of Agranulocytosis?", options: ["RBCs", "White Blood Count (WBC) / ANC", "Platelets", "Sodium"], correct: 1 },
+                            { q: "Waxy Flexibility is a symptom of:", options: ["Catatonic Schizophrenia", "Paranoid Schizophrenia", "Bipolar", "Depression"], correct: 0 },
+                            { q: "The nurse asks a client, 'What brought you here?' and the client replies, 'A car, a star, a bar.' This is:", options: ["Neologism", "Clang Association", "Word Salad", "Echolalia"], correct: 1 },
+                            { q: "Neologisms are:", options: ["Repeating words", "Made-up words that have meaning only to the client", "Rhyming", "Mute behavior"], correct: 1 },
+                            { q: "Akathisia is best described as:", options: ["Muscle stiffness", "Internal restlessness and inability to sit still", "Tremor", "Sleepiness"], correct: 1 },
+                            { q: "A client believes the TV news anchor is sending them personal messages. This is a:", options: ["Delusion of Reference", "Delusion of Persecution", "Somatic Delusion", "Nihilistic Delusion"], correct: 0 },
+                            { q: "Schizoaffective Disorder involves:", options: ["Schizophrenia symptoms + Mood Disorder (Mania/Depression)", "Only schizophrenia", "Only mood disorder", "Substance abuse"], correct: 0 },
+                            { q: "Polydipsia (excessive water intake) in schizophrenia can lead to:", options: ["Dehydration", "Water Intoxication (Hyponatremia)", "Hypernatremia", "Diabetes"], correct: 1 },
+                            { q: "Which antipsychotic is a 'Typical' (First Generation)?", options: ["Risperidone", "Olanzapine", "Haloperidol (Haldol)", "Quetiapine"], correct: 2 },
+                            { q: "First generation antipsychotics mainly block:", options: ["Serotonin", "Dopamine D2 receptors", "GABA", "Histamine"], correct: 1 },
+                            { q: "A client stops speaking mid-sentence. This is:", options: ["Flight of ideas", "Thought Blocking", "Loose associations", "Tangentiality"], correct: 1 },
+                            { q: "Echolalia is:", options: ["Mimicking movements", "Mimicking words spoken by another", "Making up words", "Singing"], correct: 1 },
+                            { q: "Anticholinergic side effects include:", options: ["Diarrhea, drooling", "Dry mouth, urinary retention, constipation, blurred vision", "Sweating", "Vomiting"], correct: 1 },
+                            { q: "Benztropine (Cogentin) is used to treat:", options: ["Psychosis", "Extrapyramidal Side Effects (EPS)", "Depression", "Anxiety"], correct: 1 },
+                            { q: "In the prodromal phase of schizophrenia, the client usually experiences:", options: ["Full blown hallucinations", "Social withdrawal and deterioration in function", "Recovery", "Mania"], correct: 1 },
+                            { q: "A client says, 'The government put a chip in my brain.' This is a:", options: ["Delusion of Control", "Delusion of Grandeur", "Somatic Delusion", "Religious Delusion"], correct: 0 },
+                            { q: "Which is a 'Positive' symptom?", options: ["Flat affect", "Disorganized speech", "Anhedonia", "Social isolation"], correct: 1 },
+                            { q: "Management of auditory hallucinations includes:", options: ["Arguing with the voices", "Listening to music (distraction) and reality testing", "Isolation", "Sedation only"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Mood & Anxiety Disorders',
+                        questions: [
+                            { q: "Manic episodes are characterized by:", options: ["Low energy", "Flight of ideas, grandiosity, decreased need for sleep", "Weight gain", "Guilt"], correct: 1 },
+                            { q: "Bipolar I consists of:", options: ["Depression only", "At least one full Manic Episode", "Hypomania only", "Dysthymia"], correct: 1 },
+                            { q: "Bipolar II consists of:", options: ["Full Mania", "Hypomania and Major Depression", "Psychosis", "Schizophrenia"], correct: 1 },
+                            { q: "Cyclothymic Disorder is:", options: ["Severe Bipolar", "Chronic mood instability (hypomania/mild depression) for >2 years", "Seasonal depression", "Postpartum"], correct: 1 },
+                            { q: "Rapid Cycling Bipolar involves:", options: ["1 episode a year", "4 or more episodes in 12 months", "Hourly changes", "Daily changes"], correct: 1 },
+                            { q: "The priority in acute mania is:", options: ["Socialization", "Psychotherapy", "Safety and Nutrition (finger foods)", "Education"], correct: 2 },
+                            { q: "Persistent Depressive Disorder (Dysthymia) lasts for at least:", options: ["2 weeks", "6 months", "2 years", "5 years"], correct: 2 },
+                            { q: "Seasonal Affective Disorder (SAD) is often treated with:", options: ["ECT", "Light Therapy (Phototherapy)", "Isolation", "Vitamin C"], correct: 1 },
+                            { q: "Generalized Anxiety Disorder (GAD) is characterized by:", options: ["Panic attacks", "Excessive worry about many things for >6 months", "Fear of spiders", "Flashbacks"], correct: 1 },
+                            { q: "Panic Disorder involves:", options: ["Constant worry", "Recurrent unexpected panic attacks and fear of future attacks", "Specific phobias", "Obsessions"], correct: 1 },
+                            { q: "Obsessions in OCD are:", options: ["Repetitive behaviors", "Intrusive, unwanted thoughts/urges", " hallucinations", "Delusions"], correct: 1 },
+                            { q: "Compulsions in OCD are:", options: ["Thoughts", "Repetitive behaviors aimed at reducing anxiety", "Voices", "Fears"], correct: 1 },
+                            { q: "PTSD symptoms include:", options: ["Mania", "Flashbacks, avoidance, hyperarousal", "Memory gain", "Hunger"], correct: 1 },
+                            { q: "Conversion Disorder involves:", options: ["Faking illness", "Neurological symptoms (blindness/paralysis) without medical cause", "Pain", "Pretending"], correct: 1 },
+                            { q: "SSRIs (e.g., Fluoxetine/Prozac) take how long to fully work?", options: ["1 hour", "1-2 days", "4-6 weeks", "1 year"], correct: 2 },
+                            { q: "A black box warning for antidepressants concerns:", options: ["Weight gain", "Increased risk of suicidal thinking in young adults/teens", "Dry mouth", "Headache"], correct: 1 },
+                            { q: "Benzodiazepines (e.g., Xanax) are indicated for:", options: ["Long term anxiety", "Short term acute anxiety", "Depression", "Psychosis"], correct: 1 },
+                            { q: "Buspirone (Buspar) is different from Benzos because:", options: ["It is addictive", "It is non-sedating and non-addictive", "It works instantly", "It causes euphoria"], correct: 1 },
+                            { q: "Flooding (Implosion Therapy) involves:", options: ["Slow exposure", "Immediate exposure to the worst fear", "Talking", "Hypnosis"], correct: 1 },
+                            { q: "Systematic Desensitization involves:", options: ["Immediate exposure", "Gradual exposure + relaxation techniques", "Medication only", "Surgery"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Personality & Substance',
+                        questions: [
+                            { q: "Antisocial Personality Disorder is characterized by:", options: ["Shyness", "Disregard for rights of others, lack of remorse", "Clinginess", "Grandiosity"], correct: 1 },
+                            { q: "Histrionic Personality Disorder involves:", options: ["Social withdrawal", "Excessive emotionality and attention-seeking", "Suspicion", "Orderliness"], correct: 1 },
+                            { q: "Narcissistic Personality Disorder involves:", options: ["Lack of empathy and need for admiration", "Self-harm", "Fear of abandonment", "Hearing voices"], correct: 0 },
+                            { q: "Avoidant Personality Disorder is driven by:", options: ["Fear of rejection/criticism", "Lack of desire for relationships", "Suspicion", "Anger"], correct: 0 },
+                            { q: "Wernicke's Encephalopathy is caused by deficiency of:", options: ["Vitamin C", "Vitamin B1 (Thiamine)", "Vitamin B12", "Iron"], correct: 1 },
+                            { q: "If untreated, Wernicke's leads to:", options: ["Korsakoff's Psychosis (irreversible)", "Recovery", "Sleep", "Death"], correct: 0 },
+                            { q: "Disulfiram (Antabuse) works by:", options: ["Reducing cravings", "Causing severe illness if alcohol is consumed", "Blocking opioid receptors", "Sedation"], correct: 1 },
+                            { q: "Alcohol withdrawal delirium (DTs) typically starts:", options: ["Immediately", "48-72 hours after last drink", "1 week later", "Never"], correct: 1 },
+                            { q: "Opioid overdose triad:", options: ["Fever, Tachycardia, Hypertension", "Coma, Respiratory Depression, Pinpoint Pupils", "Seizures, Tremors, Anxiety", "Pain, Sweating, Diarrhea"], correct: 1 },
+                            { q: "The antidote for Opioid overdose is:", options: ["Flumazenil", "Naloxone (Narcan)", "Atropine", "Vitamin K"], correct: 1 },
+                            { q: "The antidote for Benzodiazepine overdose is:", options: ["Naloxone", "Flumazenil (Romazicon)", "Charcoal", "Milk"], correct: 1 },
+                            { q: "Methadone is used for:", options: ["Alcohol withdrawal", "Opioid maintenance therapy", "Stimulant overdose", "Sleep"], correct: 1 },
+                            { q: "Cocaine is a:", options: ["Depressant", "Stimulant", "Hallucinogen", "Opioid"], correct: 1 },
+                            { q: "Refeeding syndrome in Anorexia can cause deadly shifts in:", options: ["Sodium", "Potassium, Magnesium, and Phosphate", "Calcium", "Iron"], correct: 1 },
+                            { q: "Bulimia Nervosa involves:", options: ["Starvation", "Binge eating followed by purging (vomiting/laxatives)", "Pica", "Obesity"], correct: 1 },
+                            { q: "Russell's Sign is:", options: ["Calluses on knuckles from induced vomiting", "Yellow skin", "Bruises", "Hair loss"], correct: 0 },
+                            { q: "Lanugo in anorexia is:", options: ["Hair loss", "Fine, downy body hair", "Dry skin", "Acne"], correct: 1 },
+                            { q: "Appropriate nursing diagnosis for a manic client:", options: ["Risk for Injury", "Social Isolation", "Activity Intolerance", "Fatigue"], correct: 0 },
+                            { q: "Paranoid Personality Disorder involves:", options: ["Hallucinations", "Pervasive distrust and suspiciousness", "Shyness", "Lying"], correct: 1 },
+                            { q: "Dependent Personality Disorder involves:", options: ["Independence", "Excessive need to be taken care of", "Aggression", "Pride"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Psychopharmacology',
+                        questions: [
+                            { q: "SSRI discontinuation syndrome causes:", options: ["Happiness", "Flu-like symptoms, zaps, insomnia", "Sleep", "Hunger"], correct: 1 },
+                            { q: "Tricyclic Antidepressants (TCAs) have a risk of:", options: ["Weight loss", "Cardiotoxicity (Arrhythmias) in overdose", "Hypertension", "Addiction"], correct: 1 },
+                            { q: "Tyramine restricted diet is for:", options: ["SSRIs", "MAOIs", "Benzodiazepines", "Lithium"], correct: 1 },
+                            { q: "Therapeutic Lithium level maintenance:", options: ["0.6 - 1.2 mEq/L", "2.0 - 3.0", "10 - 20", "0.1 - 0.2"], correct: 0 },
+                            { q: "Signs of Lithium Toxicity encompass:", options: ["Dry mouth", "Coarse tremors, confusion, ataxia, vomiting", "Fine tremors", "Sleepiness"], correct: 1 },
+                            { q: "Valproic Acid (Depakote) requires monitoring of:", options: ["Kidneys", "Liver function and Platelets", "Heart", "Lungs"], correct: 1 },
+                            { q: "Lamotrigine (Lamictal) carries a risk of:", options: ["Weight gain", "Stevens-Johnson Syndrome (Rash)", "Hypertension", "Sedation"], correct: 1 },
+                            { q: "Methylphenidate (Ritalin) is a:", options: ["Depressant", "CNS Stimulant", "Antipsychotic", "Vitamin"], correct: 1 },
+                            { q: "When should Ritalin be administered?", options: ["At bedtime", "After breakfast/lunch (Not too late to avoid insomnia)", "With dinner", "Empty stomach"], correct: 1 },
+                            { q: "Common side effect of Electroconvulsive Therapy (ECT):", options: ["Long term amnesia", "Short term memory loss and headache", "Paralysis", "Blindness"], correct: 1 },
+                            { q: "Cognitive Behavioral Therapy (CBT) focuses on:", options: ["Past trauma", "Changing negative thought patterns and behaviors", "Dreams", "Medication"], correct: 1 },
+                            { q: "Dialectical Behavior Therapy (DBT) is effective for:", options: ["Schizophrenia", "Borderline Personality Disorder", "Bipolar", "ADHD"], correct: 1 },
+                            { q: "Milieu Therapy refers to:", options: ["Medication", "Structuring the environment to be therapeutic", "One-on-one therapy", "Family therapy"], correct: 1 },
+                            { q: "Before ECT, the client receives:", options: ["A heavy meal", "Muscle relaxant (Succinylcholine) and Anesthetic", "Nothing", "Aspirin"], correct: 1 },
+                            { q: "Bupropion (Wellbutrin) is contraindicated in:", options: ["Depression", "Seizure disorders and Eating disorders", "Smoking cessation", "Anxiety"], correct: 1 },
+                            { q: "Trazodone is often used for:", options: ["Mania", "Insomnia (sedating antidepressant)", "Energy", "Weight loss"], correct: 1 },
+                            { q: "Priapism (painful erection) is a rare emergency side effect of:", options: ["Prozac", "Trazodone", "Xanax", "Lithium"], correct: 1 },
+                            { q: "Ziprasidone (Geodon) must be taken:", options: ["Empty stomach", "With food (at least 500 calories)", "With symptom", "At night"], correct: 1 },
+                            { q: "Haloperidol Decanoate is:", options: ["A pill", "Long-acting injectable (Depot)", "IV only", "Syrup"], correct: 1 },
+                            { q: "Which lab to monitor for Clozapine?", options: ["ANC (Absolute Neutrophil Count)", "BUN", "TSH", "Lipids"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
             },
             {
-                id: 40401, code: "NUR 401", title: "Epidemiology", icon: "ph-globe", completed: false,
+                id: 40401, code: "NUR 401", title: "Epidemiology", icon: "ph-globe", completed: true,
                 content: [
-                    { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Content to be added.</p>' },
+                    { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Epidemiology is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems.</p>' },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Epidemiology Basics',
@@ -5835,43 +10548,171 @@ const appData = {
                             { q: "A 'Pandemic' is an epidemic that has:", options: ["Stopped spreading", "Spread over several countries or continents", "Affected only children", "No cure"], correct: 1 },
                             { q: "Which level of prevention involves screening and early detection (e.g., Pap smear)?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 1 },
                             { q: "The 'Web of Causation' model is used to explain:", options: ["Single cause diseases", "Complex chronic diseases with multiple risk factors", "Spider bites", " Infectious cycles"], correct: 1 },
-                            { q: "Mortality Rate refers to:", options: ["The number of deaths in a population", "The number of illnesses", "The birth rate", "The survival rate"], correct: 0 }
+                            { q: "Mortality Rate refers to:", options: ["The number of deaths in a population", "The number of illnesses", "The birth rate", "The survival rate"], correct: 0 },
+                            { q: "Primary Prevention examples include:", options: ["Chemotherapy", "Vaccination and Health Education", "Physical Therapy", "Screening"], correct: 1 },
+                            { q: "Tertiary Prevention aims to:", options: ["Prevent disease onset", "Detect disease early", "Reduce complications and rehabilitate", "Count cases"], correct: 2 },
+                            { q: "A 'Vector' in epidemiology is:", options: ["The cause", "The victim", "An organism that transmits the agent (e.g., Mosquito)", "The environment"], correct: 2 },
+                            { q: "Morbidity refers to:", options: ["Death", "Illness or disease state", "Happiness", "Births"], correct: 1 },
+                            { q: "A 'Carrier' is a person who:", options: ["Is sick in bed", "Harbors the infectious agent without signs of disease and can transmit it", "Is immune", "Is dead"], correct: 1 },
+                            { q: "The Incubation Period is the time between:", options: ["Exposure and Onset of Symptoms", "Symptoms and Death", "Diagnosis and Cure", "Birth and Death"], correct: 0 },
+                            { q: "Sporadic diseases occur:", options: ["Constantly", "Occasionally and irregularly", "Everywhere", "Never"], correct: 1 },
+                            { q: "Zoonosis means a disease transmitted from:", options: ["Humans to Humans", "Animals to Humans", "Plants to Humans", "Soil to Humans"], correct: 1 },
+                            { q: "Case Fatality Rate measures:", options: ["How infectious a disease is", "The severity/virulence (percentage of cases that die)", "How many people get sick", "How long it lasts"], correct: 1 },
+                            { q: "Determinants of health include:", options: ["Genetics only", "Biology, Behavior, Environment, and Social factors", "Luck", "Weather"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 2: Study Designs',
+                        questions: [
+                            { q: "Which study design is the 'Gold Standard' for testing new treatments?", options: ["Case-Control", "Cohort", "Randomized Controlled Trial (RCT)", "Cross-Sectional"], correct: 2 },
+                            { q: "A Cohort Study is:", options: ["Retrospective (looking back)", "Prospective (following a group forward in time)", "Only valid for one person", "Uses a survey"], correct: 1 },
+                            { q: "Case-Control Studies are best for:", options: ["Rare diseases", "Common diseases", "Testing drugs", "Calculating incidence"], correct: 0 },
+                            { q: "In a Case-Control study, we start with:", options: ["Exposure", "Disease (Cases) and No Disease (Controls)", "Randomization", "A hypothesis"], correct: 1 },
+                            { q: "Cross-Sectional Studies provide a:", options: ["Video of disease progression", "Snapshot of disease and exposure at one point in time", "Long term view", "Cure"], correct: 1 },
+                            { q: "Double-Blind means:", options: ["Participants are blind", "Researchers are blind", "Neither the participant nor the researcher knows who is getting the treatment", "Both know"], correct: 2 },
+                            { q: "Randomization is used to:", options: ["Confuse participants", "Eliminate bias and ensure groups are comparable", "Save money", "Speed up the study"], correct: 1 },
+                            { q: "Relative Risk (RR) is calculated in:", options: ["Case-Control Studies", "Cohort Studies", "Cross-Sectional", "Case Reports"], correct: 1 },
+                            { q: "Odds Ratio (OR) is calculated in:", options: ["Case-Control Studies", "RCTs", "Cohort Studies", "Future studies"], correct: 0 },
+                            { q: "Confounding bias occurs when:", options: ["The researcher mistakes a third variable for the cause", "The participant lies", "The machine breaks", "The sample is too small"], correct: 0 },
+                            { q: "Recall Bias is common in:", options: ["Cohort Studies", "Case-Control Studies (participants reporting past exposures)", "RCTs", "Future studies"], correct: 1 },
+                            { q: "Placebo Effect is:", options: ["No effect", "Improvement due to the belief in the treatment, not the treatment itself", "Side effects", "Worsening"], correct: 1 },
+                            { q: "Ecological Studies compare:", options: ["Individuals", "Populations or groups", "Animals", "Plants"], correct: 1 },
+                            { q: "Selection Bias occurs when:", options: ["Participants are chosen randomly", "The study population is not representative of the target population", "Everyone is included", "No one is included"], correct: 1 },
+                            { q: "Longitudinal studies involve:", options: ["One measurement", "Repeated observations of the same variables over long periods", "Short observations", "Guessing"], correct: 1 },
+                            { q: "Validity refers to:", options: ["Consistency", "Accuracy (measuring what it is supposed to measure)", "Cost", "Speed"], correct: 1 },
+                            { q: "Reliability refers to:", options: ["Accuracy", "Consistency/Reproducibility", "Truth", "Facts"], correct: 1 },
+                            { q: "An 'Outlier' is:", options: ["The average", "A data point that differs significantly from others", "A lie", "A mistake"], correct: 1 },
+                            { q: "Phase I Clinical Trials test:", options: ["Safety in a small group", "Efficacy in a large group", "Side effects in 1000s", "FDA approval"], correct: 0 },
+                            { q: "Phase IV Clinical Trials happen:", options: ["Before approval", "After the drug is on the market (Post-marketing surveillance)", "Never", "In animals"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 3: Biostatistics for Epi',
+                        questions: [
+                            { q: "To calculate Mean, you:", options: ["Find the middle number", "Identify the most frequent number", "Add all values and divide by the count", "Subtract the lowest from the highest"], correct: 2 },
+                            { q: "The Median is:", options: ["The average", "The middle value in a sorted list", "The most common value", "The range"], correct: 1 },
+                            { q: "The Mode is:", options: ["The average", "The middle", "The most frequently occurring value", "The standard deviation"], correct: 2 },
+                            { q: "Standard Deviation measures:", options: ["The average", "The spread or dispersion of data around the mean", "The total", "The error"], correct: 1 },
+                            { q: "A P-value < 0.05 usually indicates:", options: ["The result is statistically significant", "The result is due to chance", "The study is wrong", "The result is 5%"], correct: 0 },
+                            { q: "Confidence Interval (CI) usually uses what percentage?", options: ["50%", "90%", "95%", "100%"], correct: 2 },
+                            { q: "If a Relative Risk (RR) = 1, it means:", options: ["Increased risk", "Decreased risk", "No association (risk is same in exposed and unexposed)", "Error"], correct: 2 },
+                            { q: "If RR > 1, it implies:", options: ["Protective effect", "Risk factor (Positive association)", "Null hypothesis", "Confusion"], correct: 1 },
+                            { q: "If RR < 1, it implies:", options: ["Protective factor (Negative association)", "Risk factor", "No effect", "Danger"], correct: 0 },
+                            { q: "Type I Error (Alpha) is:", options: ["False Negative", "False Positive (Rejecting a true null hypothesis)", "Correct", "Missing data"], correct: 1 },
+                            { q: "Type II Error (Beta) is:", options: ["False Negative (Failing to reject a false null hypothesis)", "False Positive", "Correct", "Too much data"], correct: 0 },
+                            { q: "Sensitivity is the ability of a test to:", options: ["Identify true negatives", "Identify true positives (correctly identify those with disease)", "Be cheap", "Be fast"], correct: 1 },
+                            { q: "Specificity is the ability of a test to:", options: ["Identify true negatives (correctly identify those without disease)", "Identify true positives", "Be painful", "Be slow"], correct: 0 },
+                            { q: "Positive Predictive Value (PPV) answers:", options: ["'How many people are sick?'", "'If I test positive, what is the probability I actually have the disease?'", "'Is the test cheap?'", "'Is the test fast?'"], correct: 1 },
+                            { q: "The Null Hypothesis (H0) states:", options: ["There is a difference", "There is NO difference or association", "The drug works", "Smoking causes cancer"], correct: 1 },
+                            { q: "Correlation does not imply:", options: ["Association", "Relation", "Causation", "Connection"], correct: 2 },
+                            { q: "A Bell Curve represents:", options: ["Normal Distribution", "Skewed data", "Outliers", "Errors"], correct: 0 },
+                            { q: "Chi-Square test compares:", options: ["Means", "Categorical variables (proportions)", "Medians", "Time"], correct: 1 },
+                            { q: "T-test compares:", options: ["Means of two groups", "Proportions", "Medians", "Three groups"], correct: 0 },
+                            { q: "Power of a study is the probability of:", options: ["Finding an effect if it truly exists (1 - Beta)", "Making a mistake", "Spending money", "Publishing"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 4: Outbreak Investigation',
+                        questions: [
+                            { q: "The first step in an outbreak investigation is usually:", options: ["Define a case", "Verify the diagnosis", "Establish the existence of an outbreak", "Find the index case"], correct: 2 },
+                            { q: "An 'Index Case' is:", options: ["The researcher", "The first case identified", "The last case", "The control"], correct: 1 },
+                            { q: "An 'Epi Curve' is a graph showing:", options: ["Location of cases", "Number of cases over time", "Severity", "Age"], correct: 1 },
+                            { q: "A Point Source outbreak Epi Curve typically looks like:", options: ["Sharp rise and gradual fall", "Flat line", "Multiple peaks", "Random dots"], correct: 0 },
+                            { q: "A Propagated (Person-to-Person) outbreak Epi Curve shows:", options: ["One peak", "Progressively taller peaks one incubation period apart", "Flat line", "No pattern"], correct: 1 },
+                            { q: "Attack Rate is calculated as:", options: ["(Ill / Total at risk) x 100", "(Dead / Ill) x 100", "Total / Ill", "Ill x 100"], correct: 0 },
+                            { q: "Active Surveillance involves:", options: ["Waiting for reports", "Public health staff contacting providers/labs to find cases", "Watching TV", "Reading papers"], correct: 1 },
+                            { q: "Passive Surveillance involves:", options: ["Mandated reporting by providers to health department", "Going out to find cases", "Testing everyone", "Ignoring cases"], correct: 0 },
+                            { q: "Sentinel Surveillance involves:", options: ["Monitoring specific key sites (e.g., certain clinics) to estimate wider trends", "Using soldiers", "Watching borders", "Testing water"], correct: 0 },
+                            { q: "A 'Line List' is:", options: ["A queue", "A table summarizing information about each case", "A drawing", "A list of rules"], correct: 1 },
+                            { q: "Which is a 'Person' variable in descriptive epi?", options: ["Summer", "Age, Sex, Race", "Location", "Altitude"], correct: 1 },
+                            { q: "Which is a 'Place' variable?", options: ["Gender", "Geographic location", "Time of day", "Season"], correct: 1 },
+                            { q: "Cluster refers to:", options: ["A group of cases in a specific time and place", "A type of nut", "A graph", "A single case"], correct: 0 },
+                            { q: "Hypothesis generation uses:", options: ["Analytical Epi", "Descriptive Epi (Person, Place, Time)", "Guesses", "Magic"], correct: 1 },
+                            { q: "Risk Ratio is used in Cohort studies to:", options: ["Quantify the strength of association", "Count people", "Test blood", "Diagnose"], correct: 0 },
+                            { q: "Isolation separates:", options: ["Sick people from healthy people", "Exposed people from healthy people", "Doctors from patients", "Children from adults"], correct: 0 },
+                            { q: "Quarantine separates:", options: ["Sick people", "Exposed (but not yet ill) people to see if they become sick", "Animals", "Food"], correct: 1 },
+                            { q: "Fomite transmission involves:", options: ["Insects", "Inanimate objects (e.g., doorknobs, towels)", "Air", "Water"], correct: 1 },
+                            { q: "Droplet transmission usually requires being within:", options: ["10 feet", "3 feet (1 meter)", "Any distance", "Touching"], correct: 1 },
+                            { q: "Airborne transmission (e.g., TB, Measles) involves:", options: ["Large drops", "Droplet nuclei suspended in air for long periods", "Touch", "Food"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 5: Screening & Public Health',
+                        questions: [
+                            { q: "Reliability of a screening test is also known as:", options: ["Validity", "Precision/Repeatability", "Accuracy", "Bias"], correct: 1 },
+                            { q: "Which bias makes screening look better because it detects slow-growing cancers?", options: ["Lead-time bias", "Length-time bias", "Selection bias", "Recall bias"], correct: 1 },
+                            { q: "Lead-time bias occurs when:", options: ["Screening detects disease earlier, making survival look longer without actual cure", "The test is wrong", "People live longer naturally", "Researchers lie"], correct: 0 },
+                            { q: "Criteria for a good screening program (Wilson & Jungner) include:", options: ["Disease is rare", "Disease is serious, has a detectable preclinical phase, and treatment exists", "Treatment is expensive", "Test is painful"], correct: 1 },
+                            { q: "Social Determinants of Health include:", options: ["DNA", "Education, Housing, Income, Access to Care", "Weather", "Time"], correct: 1 },
+                            { q: "Health Disparity refers to:", options: ["Equal health", "Preventable differences in the burden of disease between populations", "Genetic differences", "Personal choice"], correct: 1 },
+                            { q: "The epidemiological transition describes the shift from:", options: ["Infectious to Chronic diseases", "Chronic to Infectious", "Life to Death", "Rural to Urban"], correct: 0 },
+                            { q: "DALY stands for:", options: ["Daily Active Life Year", "Disability-Adjusted Life Year", "Death And Life Year", "Disease Adjusted Level Year"], correct: 1 },
+                            { q: "One DALY represents:", options: ["One year of healthy life lost", "One dollar spent", "One new case", "One death"], correct: 0 },
+                            { q: "Primary Health Care (Alma Ata) emphasizes:", options: ["Specialized hospitals", "Health for All, community participation, and equity", "Private doctors", "Technology"], correct: 1 },
+                            { q: "The Sustainable Development Goals (SDG) Goal 3 is:", options: ["No Poverty", "Good Health and Well-being", "Quality Education", "Clean Water"], correct: 1 },
+                            { q: "Maternal Mortality Ratio is deaths per:", options: ["1,000 live births", "100,000 live births", "1,000,000 people", "100 women"], correct: 1 },
+                            { q: "Infant Mortality Rate is deaths of infants under:", options: ["1 month", "1 year", "5 years", "10 years"], correct: 1 },
+                            { q: "Under-5 Mortality Rate is a key indicator of:", options: ["Hospital success", "Child well-being and social development", "School quality", "Technology"], correct: 1 },
+                            { q: "Vital Statistics include:", options: ["Sports scores", "Births, Deaths, Marriages, Divorces", "Weather", "Stock market"], correct: 1 },
+                            { q: "Demographic Transition Model explains:", options: ["Changes in birth/death rates as countries develop", "Changes in disease", "Changes in leaders", "Changes in money"], correct: 0 },
+                            { q: "Population Pyramid shape for a developing country is usually:", options: ["Wide base (High birth rate)", "Rectangular", "Inverted", "Narrow base"], correct: 0 },
+                            { q: "Basic Reproductive Number (R0) represents:", options: ["Number of deaths", "Average number of secondary cases produced by one case in a susceptible population", "Number of recoveries", "Number of vaccinations"], correct: 1 },
+                            { q: "If R0 < 1, the epidemic will:", options: ["Grow", "Die out", "Stay the same", "Explode"], correct: 1 },
+                            { q: "Public Health Surveillance is defined as:", options: ["Spying", "Ongoing systematic collection, analysis, and interpretation of health data", "Watching doctors", "Reading charts"], correct: 1 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 6: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 7: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 8: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 9: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
+                        ]
+                    },
+                    {
+                        type: 'quiz',
+                        title: 'Quiz Bank 10: Coming Soon',
+                        questions: [
+                            { q: "This quiz bank is under development. Check back later!", options: ["Back to Menu"], correct: 0 }
                         ]
                     }
                 ]
             },
             {
-                id: 40402, code: "NUR 402", title: "Med Surg Specialties 1", icon: "ph-stethoscope", completed: false,
+                id: 40402, code: "NUR 402", title: "Med Surg Specialties 1", icon: "ph-heartbeat", completed: true,
                 content: [
                     { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Content to be added.</p>' },
                     { type: 'text', title: 'Lecture 1', body: '<h3>Lecture 1</h3><p>Content to be added.</p>' },
                     { type: 'text', title: 'Lecture 2', body: '<h3>Lecture 2</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 3', body: '<h3>Lecture 3</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 4', body: '<h3>Lecture 4</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 5', body: '<h3>Lecture 5</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 6', body: '<h3>Lecture 6</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 7', body: '<h3>Lecture 7</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 8', body: '<h3>Lecture 8</h3><p>Content to be added.</p>' },
-                    { type: 'text', title: 'Lecture 9', body: '<h3>Lecture 9</h3><p>Content to be added.</p>' },
-                    {
-                        type: 'quiz',
-                        title: 'Quiz Bank 1: Med Surg Specialties',
-                        questions: [
-                            { q: "A patient with acute pancreatitis has a positive Cullen's sign. This is described as:", options: ["Blue discoloration around the umbilicus", "Flank bruising", "Right upper quadrant pain", "Rebound tenderness"], correct: 0 },
-                            { q: "Which lab value is most specific for myocardial damage (Heart Attack)?", options: ["CK-MB", "Troponin", "Myoglobin", "LDH"], correct: 1 },
-                            { q: "In a patient with a tension pneumothorax, the trachea deviates:", options: ["Towards the affected side", "Away from the affected side", "Does not move", "Backwards"], correct: 1 },
-                            { q: "The priority assessment for a patient with a new cast is:", options: ["Neurovascular status (CMS check)", "Cleanliness of the cast", "Itching", "Color of the cast"], correct: 0 },
-                            { q: "Which type of burn is painless due to destruction of nerve endings?", options: ["First Degree (Superficial)", "Second Degree (Partial Thickness)", "Third Degree (Full Thickness)", "Sunburn"], correct: 2 },
-                            { q: "A patient with liver cirrhosis has high ammonia levels. Which medication is anticipated?", options: ["Lactulose", "Furosemide", "Metoprolol", "Insulin"], correct: 0 },
-                            { q: "Cushing's Syndrome is caused by an excess of:", options: ["Thyroid hormone", "Insulin", "Cortisol", "Growth Hormone"], correct: 2 },
-                            { q: "A patient with Addisons disease requires:", options: ["Fluid restriction", "Lifelong steroid replacement", "Low salt diet", "fluid removal"], correct: 1 },
-                            { q: "Which heart rhythm is a 'sawtooth' pattern?", options: ["Atrial Fibrillation", "Atrial Flutter", "Ventricular Tachycardia", "Sinus Bradycardia"], correct: 1 },
-                            { q: "The classic sign of a Basilar Skull Fracture is:", options: ["Battle's Sign (bruising behind ear)", "Butterfly rash", "Moon face", "Buffalo Hump"], correct: 0 }
-                        ]
-                    }
+                    { q: "Which heart rhythm is a 'sawtooth' pattern?", options: ["Atrial Fibrillation", "Atrial Flutter", "Ventricular Tachycardia", "Sinus Bradycardia"], correct: 1 },
+                    { q: "The classic sign of a Basilar Skull Fracture is:", options: ["Battle's Sign (bruising behind ear)", "Butterfly rash", "Moon face", "Buffalo Hump"], correct: 0 }
                 ]
             }
-        ],
+        ]
     },
     exams: {
         nclex: [
