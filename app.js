@@ -16,12 +16,39 @@ function init() {
     loadState(); // Load saved progress
     setupNavigation();
     setupSidebar();
+
+    // Check for mobile and auto-collapse
+    if (window.innerWidth <= 768) {
+        sidebar.classList.add('collapsed');
+    }
+
     renderDashboard();
 }
 
 function setupSidebar() {
     sidebarToggle.addEventListener('click', () => {
         sidebar.classList.toggle('collapsed');
+    });
+
+    const mobileToggle = document.getElementById('mobile-menu-toggle');
+    if (mobileToggle) {
+        mobileToggle.addEventListener('click', () => {
+            // On mobile, "collapsed" means hidden. So toggling it shows/hides it.
+            sidebar.classList.toggle('collapsed');
+        });
+    }
+
+    // Close sidebar when clicking outside on mobile (optional but good UX)
+    // Or simpler: close sidebar when clicking a nav item on mobile
+
+    // Update nav click to close sidebar on mobile
+    const navLinks = document.querySelectorAll('.nav-item, .nav-item a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                sidebar.classList.add('collapsed'); // Hide sidebar
+            }
+        });
     });
 }
 
