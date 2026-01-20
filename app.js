@@ -38,8 +38,18 @@ function setupSidebar() {
         });
     }
 
-    // Close sidebar when clicking outside on mobile (optional but good UX)
-    // Or simpler: close sidebar when clicking a nav item on mobile
+    // Close sidebar when clicking outside on mobile
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+            // If sidebar is OPEN (not collapsed)
+            if (!sidebar.classList.contains('collapsed')) {
+                // If click is NOT inside sidebar AND NOT on the mobile toggle button
+                if (!sidebar.contains(e.target) && !mobileToggle.contains(e.target)) {
+                    sidebar.classList.add('collapsed');
+                }
+            }
+        }
+    });
 
     // Update nav click to close sidebar on mobile
     const navLinks = document.querySelectorAll('.nav-item, .nav-item a');
