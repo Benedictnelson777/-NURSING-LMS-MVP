@@ -24,6 +24,18 @@
     --transition: all 0.3s ease;
 }
 
+body.dark-theme {
+    --bg-body: #121212;
+    --bg-surface: #1E1E1E;
+    --text-main: #E0E0E0;
+    --text-muted: #B0B0B0;
+    --border-light: #333333;
+    --primary-light: #1D2D2B;
+    /* Darker tint of primary */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -148,6 +160,26 @@ body {
 .nav-links {
     list-style: none;
     flex: 1;
+    overflow-y: auto;
+    padding-right: 4px;
+    /* Prevent content jumping when scrollbar appears */
+
+    /* Modern Scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-light) transparent;
+}
+
+.nav-links::-webkit-scrollbar {
+    width: 4px;
+}
+
+.nav-links::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.nav-links::-webkit-scrollbar-thumb {
+    background-color: var(--border-light);
+    border-radius: 4px;
 }
 
 .nav-label {
@@ -831,10 +863,254 @@ body {
         margin: 1rem auto;
     }
 
-    /* Breadcrumbs */
     .breadcrumbs {
         padding: 0 1rem 1rem 1rem;
         font-size: 0.8rem;
         flex-wrap: wrap;
     }
+}
+
+/* =========================================
+   Settings View Styles
+   ========================================= */
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-main);
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    background: var(--bg-body);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    color: var(--text-main);
+    font-size: 1rem;
+    font-family: var(--font-main);
+    transition: var(--transition);
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.2);
+}
+
+/* Toggle Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--border-light);
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: var(--primary);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--primary);
+}
+
+input:checked+.slider:before {
+    transform: translateX(24px);
+}
+
+/* Danger Button */
+.btn-danger {
+    background-color: #ffebee;
+    color: var(--accent-red);
+    border: 1px solid var(--accent-red);
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-danger:hover {
+    background-color: var(--accent-red);
+    color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border-light);
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-body);
+    color: var(--text-main);
+    border-color: var(--text-muted);
+}
+
+/* =========================================
+   Onboarding Modal Styles
+   ========================================= */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 2000;
+    display: flex;
+    /* controlled by JS, usually none */
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.onboarding-content {
+    background: var(--bg-surface);
+    width: 90%;
+    max-width: 500px;
+    padding: 2.5rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.onboarding-step {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onboarding-step.active {
+    display: flex;
+}
+
+.onboarding-step h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+}
+
+.onboarding-step p {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.step-indicator {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.step-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--border-light);
+    transition: var(--transition);
+}
+
+.step-dot.active {
+    background-color: var(--primary);
+    width: 24px;
+    border-radius: 4px;
+}
+
+/* Choice Grid for Theme Selection */
+.choice-grid {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.choice-card {
+    flex: 1;
+    padding: 1.5rem;
+    border: 2px solid var(--border-light);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.choice-card i {
+    font-size: 2rem;
+    color: var(--text-muted);
+}
+
+.choice-card:hover {
+    border-color: var(--primary);
+    background-color: var(--bg-body);
+}
+
+.choice-card.selected {
+    border-color: var(--primary);
+    background-color: var(--primary-light);
+}
+
+.choice-card.selected i,
+.choice-card.selected div {
+    color: var(--primary-dark);
+    font-weight: 600;
 }
