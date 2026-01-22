@@ -1,7 +1,7 @@
 const appData = {
     user: {
         name: "BENEDICT NELSON",
-        progress: 68,
+        progress: 0,
         streak: {
             count: 67,
             lastLogin: "2026-01-07" // Match today's date for 'active' state demo
@@ -520,7 +520,7 @@ const appData = {
                             </div>
 
                             <ul>
-                                <li><strong>Temperature:</strong> Normal range 36.5°C - 37.5°C.</li>
+                                <li><strong>Temperature:</strong> Normal range 36.5Â°C - 37.5Â°C.</li>
                                 <li><strong>Pulse:</strong> 60 - 100 bpm (Adults).</li>
                                 <li><strong>Respiration:</strong> 12 - 20 breaths/min.</li>
                                 <li><strong>Blood Pressure:</strong> < 120/80 mmHg.</li>
@@ -629,7 +629,7 @@ const appData = {
                             { q: "The 'S' in SBAR communication stands for:", options: ["Subjective", "Situation", "Safety", "Standard"], correct: 1 },
                             { q: "Which position is best for a patient wishing to sleep but at risk for aspiration?", options: ["Supine", "Prone", "Semi-Fowler's", "Sims'"], correct: 2 },
                             { q: "Using the principles of body mechanics, the nurse should:", options: ["Bend at the waist", "Keep the load close to the body", "Twist while lifting", "Lift with the back muscles"], correct: 1 },
-                            { q: "A patient's temperature is 39.5°C. This is termed:", options: ["Hypothermia", "Febrile (Pyrexia)", "Afebrile", "Hyperthermia"], correct: 1 },
+                            { q: "A patient's temperature is 39.5Â°C. This is termed:", options: ["Hypothermia", "Febrile (Pyrexia)", "Afebrile", "Hyperthermia"], correct: 1 },
                             { q: "Which of the following serves as a reservoir in the chain of infection?", options: ["The patient's bedside table", "Handwashing", "Gloves", "The exit portal"], correct: 0 },
                             { q: "The nurse is preparing to wash hands. The first step is to:", options: ["Apply soap", "Wet hands", "Dry hands", "Turn off faucet"], correct: 1 },
                             { q: "Which documentation method focuses only on abnormal findings?", options: ["Source-oriented", "Problem-oriented", "Charting by Exception", "Focus charting"], correct: 2 },
@@ -4619,7 +4619,7 @@ const appData = {
                         title: 'Module 4: Body Mass Index (BMI)',
                         body: `
                             <h3>Weight Management</h3>
-                            <p><strong>Formula:</strong> Weight (kg) / Height (m)².</p>
+                            <p><strong>Formula:</strong> Weight (kg) / Height (m)Â².</p>
                             
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">BMI Categories</h4>
@@ -4693,7 +4693,7 @@ const appData = {
                         title: 'Module 10: Food Safety',
                         body: `
                             <h3>Preventing Illness</h3>
-                            <p><strong>Temperature Danger Zone:</strong> 40°F - 140°F (4°C - 60°C).</p>
+                            <p><strong>Temperature Danger Zone:</strong> 40Â°F - 140Â°F (4Â°C - 60Â°C).</p>
                             <p><strong>Cross-contamination:</strong> Raw meat vs Veggies.</p>
                             <p><strong>Hand Hygiene:</strong> 20 seconds warm water and soap.</p>
                         `
@@ -4816,7 +4816,7 @@ const appData = {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Disorders & Safety',
                         questions: [
-                            { q: "The temperature danger zone for food safety is:", options: ["0-32°F", "40-140°F", "150-200°F", "Above 212°F"], correct: 1 },
+                            { q: "The temperature danger zone for food safety is:", options: ["0-32Â°F", "40-140Â°F", "150-200Â°F", "Above 212Â°F"], correct: 1 },
                             { q: "Cross-contamination occurs when:", options: ["Food is cooked", "Raw meat touches ready-to-eat foods", "Hands are washed", "Food is frozen"], correct: 1 },
                             { q: "Anorexia Nervosa is characterized by:", options: ["Binge eating", "Severe restriction and fear of weight gain", "Eating normal amounts", "Overexercising only"], correct: 1 },
                             { q: "Bulimia Nervosa involves:", options: ["Starvation", "Binge eating followed by purging", "Normal eating", "Eating slowly"], correct: 1 },
@@ -4913,7 +4913,7 @@ const appData = {
                         title: 'Module 3: Drug Half-Life & Dosing',
                         body: `
                             <h3>Time vs Concentration</h3>
-                            <p><strong>Half-Life (t½):</strong> Time required for drug concentration to decrease by 50%.</p>
+                            <p><strong>Half-Life (tÂ½):</strong> Time required for drug concentration to decrease by 50%.</p>
                             
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">Elimination Curve</h4>
@@ -5185,6 +5185,7 @@ const appData = {
                     {
                         type: 'intro',
                         title: 'Module 1: Oncology Nursing',
+                        videoId: 'kYk2h7-c_ps', // Simple Nursing: Cancer & Oncology Nursing
                         body: `
                             <h3>Cancer Biology</h3>
                             <p>Uncontrolled cell growth. Benign vs Malignant.</p>
@@ -5479,6 +5480,7 @@ const appData = {
                     {
                         type: 'intro',
                         title: 'Module 1: World of Microbes',
+                        videoId: 'a2E_Vd7h7CE', // Ninja Nerd: Microbiology Introduction
                         body: `
                             <h3>Introduction</h3>
                             <p>Study of microscopic organisms: Bacteria, Viruses, Fungi, Parasites.</p>
@@ -7116,7 +7118,7 @@ const appData = {
                             { q: "Asbestosis is caused by long-term exposure to:", options: ["Silica", "Asbestos fibers", "Coal", "Cotton"], correct: 1 },
                             { q: "E-waste (Electronic waste) poses a risk due to:", options: ["Heavy metals (Lead, Mercury)", "Plastic", "Glass", "Paper"], correct: 0 },
                             { q: "Food hygiene involves:", options: ["Eating fast", "Handling, preparing, and storing food safely", "Cooking only vegetables", "Drinking water"], correct: 1 },
-                            { q: "The 'Danger Zone' for bacterial growth in food is between:", options: ["0-10°C", "5-60°C", "100°C+", "-20°C"], correct: 1 },
+                            { q: "The 'Danger Zone' for bacterial growth in food is between:", options: ["0-10Â°C", "5-60Â°C", "100Â°C+", "-20Â°C"], correct: 1 },
                             { q: "HACCP stands for:", options: ["Hazard Analysis and Critical Control Points", "Health And Care Control Plan", "Home Assessment Care Plan", "Hazard Assessment Chemical Protocol"], correct: 0 },
                             { q: "Biomedical waste is color-coded. Yellow bins are for:", options: ["General waste", "Infectious/Hazardous waste", "Sharps", "Recyclables"], correct: 1 },
                             { q: "Safety boxes are used specifically for:", options: ["Gloves", "Sharps (Needles/Blades)", "Bandages", "Medicines"], correct: 1 }
@@ -7787,7 +7789,7 @@ const appData = {
                 ]
             },
             {
-                id: 30304, code: "NUR 304", title: "Human Pathology", icon: "ph-skull", completed: true,
+                id: 30304, code: "NUR 304", title: "Human Pathology", icon: "ph-skull", completed: false,
                 content: [
                     {
                         type: 'intro',
@@ -8092,7 +8094,7 @@ const appData = {
                 code: "NUR 306",
                 title: "Midwifery II",
                 icon: "ph-baby",
-                completed: true,
+                completed: false,
                 description: "Comprehensive management of high-risk labor, delivery complications, and obstetric emergencies.",
                 content: [
                     {
@@ -8439,7 +8441,7 @@ const appData = {
                 code: "NUR 309",
                 title: "Midwifery III (Puerperium)",
                 icon: "ph-baby",
-                completed: true,
+                completed: false,
                 description: "Care of the mother and newborn during the postpartum period, including physiological changes, complications, and family planning.",
                 content: [
                     {
@@ -8508,7 +8510,7 @@ const appData = {
                         title: 'Module 5: Puerperal Sepsis',
                         body: `
                             <h3>Infection in the Puerperium</h3>
-                            <p>Temperature >38°C on 2 separate occasions after first 24h. Major cause: Endometritis.</p>
+                            <p>Temperature >38Â°C on 2 separate occasions after first 24h. Major cause: Endometritis.</p>
                             <p><strong>Signs:</strong> Foul lochia, tender uterus, fever, tachycardia.</p>
                             <p><strong>Management:</strong> IV Antibiotics (Clindamycin + Gentamicin), Semi-Fowler's position (drainage).</p>
                         `
@@ -8518,7 +8520,7 @@ const appData = {
                         title: 'Module 6: Thromboembolic Disorders',
                         body: `
                             <h3>Hypercoagulability of Pregnancy</h3>
-                            <p>Increased clotting factors persist postpartum. Risk of DVT → PE.</p>
+                            <p>Increased clotting factors persist postpartum. Risk of DVT â†’ PE.</p>
                             <p><strong>Prevention:</strong> Early ambulation, SCDs, Hydration.</p>
                             <p><strong>Pulmonary Embolism (PE):</strong> Dyspnea, Chest pain, Hypoxia. Emergency!</p>
                         `
@@ -8551,7 +8553,7 @@ const appData = {
                         body: `
                             <h3>Contraception</h3>
                             <p>Ovulation can resume before menses (as early as 3 weeks in non-lactating). LAM (Lactational Amenorrhea Method) works if exclusive BF <6mo.</p>
-                            <p><strong>Options:</strong> POPs (Mini-pill) safe for BF. Estrogen decreases milk supply – avoid COCs until milk established (>6wks). IUDs safe.</p>
+                            <p><strong>Options:</strong> POPs (Mini-pill) safe for BF. Estrogen decreases milk supply â€“ avoid COCs until milk established (>6wks). IUDs safe.</p>
                         `
                     },
                     {
@@ -8746,7 +8748,7 @@ const appData = {
                 code: "NUR 310",
                 title: "Research Methods",
                 icon: "ph-magnifying-glass",
-                completed: true,
+                completed: false,
                 description: "Introduction to the research process, ethics, design, and evidence-based practice in nursing.",
                 content: [
                     {
@@ -9148,7 +9150,7 @@ const appData = {
                 code: "NUR 312",
                 title: "Gender, Sexual & Reproductive Rights",
                 icon: "ph-gender-intersex",
-                completed: true,
+                completed: false,
                 description: "Exploration of SRHR frameworks, gender-based violence, advocacy, and rights of vulnerable populations.",
                 content: [
                     {
@@ -9761,7 +9763,7 @@ const appData = {
                             <ul>
                                 <li><strong>Nominal:</strong> Categories with no order (e.g., Blood Type A/B/O, Gender).</li>
                                 <li><strong>Ordinal:</strong> Ordered categories with unequal intervals (e.g., Pain Scale 0-10, Stages of Cancer).</li>
-                                <li><strong>Interval:</strong> Ordered with equal intervals, no true zero (e.g., Temperature in °C).</li>
+                                <li><strong>Interval:</strong> Ordered with equal intervals, no true zero (e.g., Temperature in Â°C).</li>
                                 <li><strong>Ratio:</strong> Ordered, equal intervals, true zero (e.g., Weight, Blood Pressure, Hemoglobin).</li>
                             </ul>
                             <p><em>Example:</em> "Stage 2 Hypertension" is Ordinal; "140 mmHg" is Ratio.</p>
@@ -9840,7 +9842,7 @@ const appData = {
                         title: 'Module 7: Non-Parametric Tests',
                         body: `
                             <h3>Comparing Categories (Non-Normal Data)</h3>
-                            <p><strong>Chi-Square (χ²):</strong> Tests relationship between two categorical variables.</p>
+                            <p><strong>Chi-Square (Ï‡Â²):</strong> Tests relationship between two categorical variables.</p>
                             <p><em>Example:</em> Is there an association between Smoking (Yes/No) and Lung Cancer (Yes/No)? categories vs categories.</p>
                         `
                     },
@@ -9854,7 +9856,7 @@ const appData = {
                                 <li><em>Positive correlation:</em> As Salt intake goes up, BP goes up.</li>
                                 <li><em>Negative correlation:</em> As Exercise goes up, BMI goes down.</li>
                             </ul>
-                            <p><strong>Correlation ≠ Causation!</strong></p>
+                            <p><strong>Correlation â‰  Causation!</strong></p>
                         `
                     },
                     {
@@ -10361,7 +10363,7 @@ const appData = {
         ],
         year4: [
             {
-                id: 40400, code: "NUR 400", title: "Mental Health Nursing", icon: "ph-brain", completed: true,
+                id: 40400, code: "NUR 400", title: "Mental Health Nursing", icon: "ph-brain", completed: false,
                 content: [
                     { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Mental Health Nursing involves the care of patients with psychiatric disorders, focusing on therapeutic communication, psychopharmacology, and milieu therapy.</p>' },
                     {
@@ -10532,7 +10534,7 @@ const appData = {
                 ]
             },
             {
-                id: 40401, code: "NUR 401", title: "Epidemiology", icon: "ph-globe", completed: true,
+                id: 40401, code: "NUR 401", title: "Epidemiology", icon: "ph-globe", completed: false,
                 content: [
                     { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Epidemiology is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems.</p>' },
                     {
@@ -10703,9 +10705,9 @@ const appData = {
                 ]
             },
             {
-                id: 40402, code: "NUR 402", title: "Med Surg Specialties 1", icon: "ph-heartbeat", completed: true,
+                id: 40402, code: "NUR 402", title: "Med Surg Specialties 1", icon: "ph-heartbeat", completed: false,
                 content: [
-                    { type: 'text', title: 'Introduction', body: '<h3>Introduction</h3><p>Content to be added.</p>' },
+                    { type: 'text', title: 'Introduction', videoId: 'qj1s0k_0h8', body: '<h3>Introduction to Med Surg</h3><p>Watch this comprehensive review on Heart Failure by Simple Nursing.</p>' },
                     { type: 'text', title: 'Lecture 1', body: '<h3>Lecture 1</h3><p>Content to be added.</p>' },
                     { type: 'text', title: 'Lecture 2', body: '<h3>Lecture 2</h3><p>Content to be added.</p>' },
                     { q: "Which heart rhythm is a 'sawtooth' pattern?", options: ["Atrial Fibrillation", "Atrial Flutter", "Ventricular Tachycardia", "Sinus Bradycardia"], correct: 1 },
@@ -10720,17 +10722,17 @@ const appData = {
                 id: 'bank1',
                 title: 'Test Bank 1: Comprehensive NCLEX Review',
                 questions: [
-                    { id: 1, question: "A nurse is assigned four clients. Which client should the nurse assess first?", options: ["A client with COPD and an O2 saturation of 92%", "A client with pneumonia and a fever of 38.1°C (100.6°F)", "A client with a femur fracture reporting a pain level of 7/10", "A client with asthma reporting shortness of breath and audible inspiratory stridor"], correct: 3 },
+                    { id: 1, question: "A nurse is assigned four clients. Which client should the nurse assess first?", options: ["A client with COPD and an O2 saturation of 92%", "A client with pneumonia and a fever of 38.1Â°C (100.6Â°F)", "A client with a femur fracture reporting a pain level of 7/10", "A client with asthma reporting shortness of breath and audible inspiratory stridor"], correct: 3 },
                     { id: 2, question: "A client is prescribed digoxin 0.25 mg PO daily. Which assessment finding requires the nurse to withhold the dose and notify the provider?", options: ["Serum potassium 3.8 mEq/L", "Apical pulse 52 beats/min", "Blood pressure 140/90 mmHg", "Digoxin level 0.9 ng/mL"], correct: 1 },
                     { id: 3, question: "A client is receiving IV potassium chloride (KCl) for hypokalemia. The client complains of burning at the IV site. What is the most appropriate nursing action?", options: ["Stop the infusion and discontinue the IV immediately", "Slow the rate of the infusion", "Apply a warm compress to the site while the infusion continues", "Administer the medication via IV push instead"], correct: 1 },
                     { id: 4, question: "A nurse observes a pattern of Variable Decelerations on the fetal monitor strip. What is the priority nursing intervention?", options: ["Administer oxygen via face mask", "Reposition the mother to her side or knee-chest position", "Prepare for an immediate C-section", "Document the finding as normal"], correct: 1 },
-                    { id: 5, question: "A client with schizophrenia says, 'The FBI is monitoring my thoughts through the television.' What is the best response by the nurse?", options: ["'The FBI has better things to do than watch you.'", "'That must be frightening, but the television is turned off.'", "'Let’s turn on the TV and prove they aren't there.'", "'You need to take your medication so these thoughts go away.'"], correct: 1 },
+                    { id: 5, question: "A client with schizophrenia says, 'The FBI is monitoring my thoughts through the television.' What is the best response by the nurse?", options: ["'The FBI has better things to do than watch you.'", "'That must be frightening, but the television is turned off.'", "'Letâ€™s turn on the TV and prove they aren't there.'", "'You need to take your medication so these thoughts go away.'"], correct: 1 },
                     { id: 6, question: "A client with Type 1 Diabetes is found unresponsive with cool, clammy skin. Which action should the nurse take first?", options: ["Administer 10 units of Regular insulin", "Check the blood glucose level", "Administer 50% Dextrose IV push", "Call the provider"], correct: 2 },
                     { id: 7, question: "A nurse enters a room and finds a fire in the trash can. According to the RACE acronym, what is the first action?", options: ["Activate the fire alarm", "Extinguish the fire", "Rescue the client from the room", "Close the door to confine the fire"], correct: 2 },
                     { id: 8, question: "A client has a new colostomy. Which finding indicates a need for immediate intervention?", options: ["The stoma is beefy red", "The stoma is edematous (swollen) in the first 24 hours", "The stoma is purple or black", "There is a small amount of bleeding when touched"], correct: 2 },
                     { id: 9, question: "A client with Acute Kidney Injury (AKI) has a serum potassium level of 6.5 mEq/L. The nurse should prepare to administer which medication first to protect the heart?", options: ["Sodium Polystyrene Sulfonate (Kayexalate)", "Furosemide (Lasix)", "IV Calcium Gluconate", "Regular Insulin with Dextrose"], correct: 2 },
                     { id: 10, question: "A client is admitted with suspected active Tuberculosis (TB). Which isolation precaution is required?", options: ["Contact Precautions", "Droplet Precautions", "Airborne Precautions", "Standard Precautions only"], correct: 2 },
-                    { id: 11, question: "A nurse is caring for a client with increased Intracranial Pressure (ICP). Which position is most appropriate?", options: ["High Fowler’s (90 degrees)", "Trendelenburg (head down)", "Supine with head flat", "Semi-Fowler’s (head of bed elevated 30 degrees)"], correct: 3 },
+                    { id: 11, question: "A nurse is caring for a client with increased Intracranial Pressure (ICP). Which position is most appropriate?", options: ["High Fowlerâ€™s (90 degrees)", "Trendelenburg (head down)", "Supine with head flat", "Semi-Fowlerâ€™s (head of bed elevated 30 degrees)"], correct: 3 },
                     { id: 12, question: "A client on Warfarin (Coumadin) asks about diet. Which statement indicates the client understands the teaching?", options: ["'I will eat plenty of spinach and kale to stay healthy.'", "'I will avoid all green vegetables.'", "'I will maintain a consistent intake of green leafy vegetables.'", "'I need to increase my Vitamin K intake.'"], correct: 2 },
                     { id: 13, question: "Which task is appropriate for the nurse to delegate to a Licensed Practical Nurse (LPN/LVN)?", options: ["Assessing a newly admitted client", "Administering IV push pain medication", "Administering a routine oral medication to a stable client", "Developing the plan of care"], correct: 2 },
                     { id: 14, question: "A 2-year-old is brought to the ER with a 'barking' cough and inspiratory stridor. What is the most likely diagnosis?", options: ["Epiglottitis", "Croup (Laryngotracheobronchitis)", "Asthma", "Bronchiolitis"], correct: 1 },
@@ -10752,7 +10754,7 @@ const appData = {
                     { id: 4, question: "A client taking Lithium Carbonate for Bipolar Disorder presents with vomiting, diarrhea, and slurred speech. The lithium level is 2.0 mEq/L. What is the nurse's interpretation?", options: ["The level is therapeutic; treat the side effects", "The level is slightly elevated but requires no action", "The level indicates severe toxicity", "The level is too low; the dose needs increasing"], correct: 2 },
                     { id: 5, question: "A client with a lower leg cast reports severe pain that is unrelieved by pain medication. The toes are pale and cool. What complication does the nurse suspect?", options: ["Deep Vein Thrombosis (DVT)", "Osteomyelitis", "Compartment Syndrome", "Pressure ulcer"], correct: 2 },
                     { id: 6, question: "A nurse is caring for a client with severe COPD. The client is prescribed Oxygen. Which flow rate is generally most appropriate to prevent suppressing the respiratory drive?", options: ["2 L/min via nasal cannula", "6 L/min via simple face mask", "10 L/min via non-rebreather", "5 L/min via nasal cannula"], correct: 0 },
-                    { id: 7, question: "A client recently had a thyroidectomy. The nurse assesses the client for Trousseau’s sign. How is this performed?", options: ["Tap the facial nerve in front of the ear", "Inflate a BP cuff above systolic pressure for 3 minutes", "Ask the client to touch their chin to their chest", "Dorsiflex the foot briskly"], correct: 1 },
+                    { id: 7, question: "A client recently had a thyroidectomy. The nurse assesses the client for Trousseauâ€™s sign. How is this performed?", options: ["Tap the facial nerve in front of the ear", "Inflate a BP cuff above systolic pressure for 3 minutes", "Ask the client to touch their chin to their chest", "Dorsiflex the foot briskly"], correct: 1 },
                     { id: 8, question: "A client is admitted with suspected appendicitis. The client suddenly reports that the pain has completely stopped. What does this likely indicate?", options: ["The appendix has healed", "The appendix has ruptured", "The medication is working", "It was likely just gas pain"], correct: 1 },
                     { id: 9, question: "Fifteen minutes after starting a blood transfusion, the client complains of lower back pain and chills. What is the priority action?", options: ["Slow the infusion rate", "Administer diphenhydramine (Benadryl)", "Stop the transfusion immediately", "Assess vital signs"], correct: 2 },
                     { id: 10, question: "A 4-week-old infant presents with projectile vomiting immediately after feeding. The nurse palpates an olive-shaped mass in the right upper quadrant. What is the likely diagnosis?", options: ["GERD", "Pyloric Stenosis", "Intussusception", "Hirschsprung's disease"], correct: 1 },
@@ -10765,7 +10767,7 @@ const appData = {
                     { id: 17, question: "Which toy is most appropriate for a 6-month-old infant?", options: ["A push-pull toy", "A mobile with contrasting colors", "Large, soft blocks", "A puzzle with large pieces"], correct: 2 },
                     { id: 18, question: "A client has burns on the front of the torso and the front of both arms. Using the Rule of Nines, what is the TBSA (Total Body Surface Area) burned?", options: ["18%", "27%", "36%", "45%"], correct: 1 },
                     { id: 19, question: "Two nurses are arguing loudly at the nurses' station about the schedule. What is the charge nurse's best action?", options: ["Ignore the argument; they will work it out", "Tell them to stop immediately and return to work", "Move the discussion to a private area such as the break room", "Report them to the nurse manager"], correct: 2 },
-                    { id: 20, question: "A client is receiving chemotherapy and has a platelet count of 20,000/mm³. Which intervention is most important?", options: ["Provide a soft-bristle toothbrush", "Encourage vigorous flossing", "Administer aspirin for headaches", "Monitor temperature every 4 hours"], correct: 0 }
+                    { id: 20, question: "A client is receiving chemotherapy and has a platelet count of 20,000/mmÂ³. Which intervention is most important?", options: ["Provide a soft-bristle toothbrush", "Encourage vigorous flossing", "Administer aspirin for headaches", "Monitor temperature every 4 hours"], correct: 0 }
                 ]
             },
             {
@@ -10785,7 +10787,7 @@ const appData = {
                     { id: 11, question: "A child with Kawasaki Disease is prescribed high-dose Aspirin. The parents ask why, as they were told aspirin is bad for children. What is the nurse's explanation?", options: ["'It helps lower the high fever associated with this disease.'", "'It is used to prevent aneurysm formation and blood clots.'", "'It is a mistake; I will call the doctor.'", "'It treats the joint pain.'"], correct: 1 },
                     { id: 12, question: "A client 2 hours postpartum has a large amount of lochia rubra and a boggy uterus. The nurse massages the fundus but it remains boggy. The bladder is empty. Which medication does the nurse anticipate?", options: ["Terbutaline", "Methylergonovine (Methergine)", "Magnesium Sulfate", "Betamethasone"], correct: 1 },
                     { id: 13, question: "A client has a serum sodium level of 115 mEq/L (Hyponatremia). Which system should the nurse prioritize during assessment?", options: ["Gastrointestinal", "Neurological", "Integumentary", "Respiratory"], correct: 1 },
-                    { id: 14, question: "A nurse is suctioning a client with a tracheostomy. What is the maximum duration for each suction pass?", options: ["5 seconds", "10–15 seconds", "30 seconds", "Until secretions are clear"], correct: 1 },
+                    { id: 14, question: "A nurse is suctioning a client with a tracheostomy. What is the maximum duration for each suction pass?", options: ["5 seconds", "10â€“15 seconds", "30 seconds", "Until secretions are clear"], correct: 1 },
                     { id: 15, question: "A client presents an Advance Directive that states 'Do Not Resuscitate' (DNR). The family insists the nurse perform CPR if the client stops breathing. What should the nurse do?", options: ["Honor the family's wishes as they are next of kin", "Call security", "Honor the client's Advance Directive and do not perform CPR", "Perform CPR but stop if the doctor arrives"], correct: 2 },
                     { id: 16, question: "A client with Sickle Cell Anemia is admitted in a Vaso-Occlusive crisis. Which intervention is the priority?", options: ["Administer IV fluids and pain medication", "Administer iron supplements", "Apply cold compresses to painful joints", "Encourage ambulation"], correct: 0 },
                     { id: 17, question: "A client has a Central Venous Pressure (CVP) of 2 mm Hg. What does this indicate?", options: ["Fluid volume overload", "Right ventricular failure", "Fluid volume deficit (Hypovolemia)", "Normal finding"], correct: 2 },
