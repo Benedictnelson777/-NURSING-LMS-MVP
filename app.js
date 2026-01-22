@@ -1,8 +1,14 @@
 // App State
 const state = {
     currentView: 'dashboard',
-    user: appData.user
+    user: appData.user,
+    theme: 'light' // Default theme
 };
+
+// Ensure examSchedule exists immediately
+if (!state.user.examSchedule) {
+    state.user.examSchedule = [];
+}
 
 // DOM Elements
 const contentArea = document.getElementById('content-area');
@@ -13,17 +19,176 @@ const sidebarToggle = document.getElementById('sidebar-toggle');
 
 // Initialize
 function init() {
+    const isFirstRun = !localStorage.getItem('nurseBuddyState');
+
     loadState(); // Load saved progress
+    checkAndUpdateStreak(); // Update streak logic
     setupNavigation();
     setupSidebar();
+    renderSidebarProfile(); // Update sidebar with user data
 
     // Check for mobile and auto-collapse
     if (window.innerWidth <= 768) {
         sidebar.classList.add('collapsed');
     }
 
-    renderDashboard();
+    if (isFirstRun) {
+        renderOnboarding();
+    } else {
+        renderDashboard();
+    }
 }
+
+function renderSidebarProfile() {
+    const nameEl = document.querySelector('.user-profile .name');
+    const roleEl = document.querySelector('.user-profile .role');
+    const imgEl = document.querySelector('.user-profile img');
+
+    if (nameEl) nameEl.textContent = state.user.name;
+    if (roleEl) {
+        // Format year: "year-1" -> "Year 1"
+        const yearParts = (state.user.year || 'year-1').split('-');
+        const yearNum = yearParts[1] || '1';
+        roleEl.textContent = `Student • Year ${yearNum}`;
+    }
+    if (imgEl) {
+        // regenerate avatar based on new name
+        imgEl.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(state.user.name)}&background=random&color=fff`;
+    }
+}
+
+// Onboarding Logic
+let currentStep = 1;
+let onboardingData = {
+    name: 'Nurse Student',
+    year: state.user.year || 'year-1',
+    theme: 'light'
+};
+
+function renderOnboarding() {
+    const modal = document.getElementById('onboarding-modal');
+    modal.style.display = 'flex';
+
+    showStep(1);
+}
+
+function showStep(step) {
+    currentStep = step;
+    const content = document.querySelector('.onboarding-content');
+
+    let html = '';
+
+    if (step === 1) {
+        html = `
+            <div class="onboarding-step active">
+                <i class="ph ph-heartbeat" style="font-size: 4rem; color: var(--primary); margin-bottom: 1rem;"></i>
+                <h2>Welcome to NurseBuddy</h2>
+                <p>Your ultimate companion for nursing excellence. Master your curriculum and ace your exams.</p>
+                
+                <div class="step-indicator">
+                    <div class="step-dot active"></div>
+                    <div class="step-dot"></div>
+                    <div class="step-dot"></div>
+                </div>
+
+                <button class="btn-primary" onclick="showStep(2)" style="width: 100%;">Get Started</button>
+            </div>
+        `;
+    } else if (step === 2) {
+        html = `
+            <div class="onboarding-step active">
+                <h2>About You</h2>
+                <p>Let's personalize your experience.</p>
+                
+                <div class="form-group" style="text-align: left; margin-bottom: 1.5rem;">
+                    <label class="form-label">What should we call you?</label>
+                    <input type="text" class="form-input" id="onboard-name" placeholder="Enter your name" value="${onboardingData.name}">
+                </div>
+
+                <div class="form-group" style="text-align: left; margin-bottom: 2rem;">
+                    <label class="form-label">Current Academic Year</label>
+                    <select class="form-input" id="onboard-year">
+                        <option value="year-1">Year 1</option>
+                        <option value="year-2">Year 2</option>
+                        <option value="year-3" selected>Year 3</option>
+                        <option value="year-4">Year 4</option>
+                    </select>
+                </div>
+                
+                <div class="step-indicator">
+                    <div class="step-dot"></div>
+                    <div class="step-dot active"></div>
+                    <div class="step-dot"></div>
+                </div>
+
+                <button class="btn-primary" onclick="saveStep2()" style="width: 100%;">Next</button>
+            </div>
+        `;
+    } else if (step === 3) {
+        html = `
+            <div class="onboarding-step active">
+                <h2>Choose Your Style</h2>
+                <p>Select the theme that fits your vibe.</p>
+                
+                <div class="choice-grid">
+                    <div class="choice-card ${onboardingData.theme === 'light' ? 'selected' : ''}" onclick="selectTheme('light')">
+                        <i class="ph ph-sun"></i>
+                        <div>Light Mode</div>
+                    </div>
+                    <div class="choice-card ${onboardingData.theme === 'dark' ? 'selected' : ''}" onclick="selectTheme('dark')">
+                        <i class="ph ph-moon"></i>
+                        <div>Dark Mode</div>
+                    </div>
+                </div>
+                
+                <div class="step-indicator">
+                    <div class="step-dot"></div>
+                    <div class="step-dot"></div>
+                    <div class="step-dot active"></div>
+                </div>
+
+                <button class="btn-primary" onclick="finishOnboarding()" style="width: 100%;">Start Learning</button>
+            </div>
+        `;
+    }
+
+    content.innerHTML = html;
+}
+
+// Global functions for onboarding interaction
+window.saveStep2 = function () {
+    const nameInput = document.getElementById('onboard-name').value;
+    const yearInput = document.getElementById('onboard-year').value;
+
+    if (nameInput) onboardingData.name = nameInput;
+    if (yearInput) onboardingData.year = yearInput; // Can be used to set initial view in future
+
+    showStep(3);
+};
+
+window.selectTheme = function (theme) {
+    onboardingData.theme = theme;
+    applyTheme(theme); // Instant preview
+    showStep(3); // Re-render to show selection
+};
+
+window.finishOnboarding = function () {
+    // Save to state
+    state.user.name = onboardingData.name;
+    state.user.year = onboardingData.year;
+    state.theme = onboardingData.theme;
+
+    saveState();
+    renderSidebarProfile(); // Sync sidebar
+
+    // Animate out
+    const modal = document.getElementById('onboarding-modal');
+    modal.style.opacity = '0';
+    setTimeout(() => {
+        modal.style.display = 'none';
+        renderDashboard();
+    }, 300);
+};
 
 function setupSidebar() {
     sidebarToggle.addEventListener('click', () => {
@@ -79,9 +244,13 @@ function saveState() {
 
     const stateToSave = {
         user: {
+            name: state.user.name, // Save name
+            year: state.user.year, // Save year
             progress: state.user.progress,
-            streak: state.user.streak
+            streak: state.user.streak,
+            examSchedule: state.user.examSchedule || []
         },
+        theme: state.theme, // Save theme
         units: unitsState
     };
 
@@ -97,8 +266,20 @@ function loadState() {
 
         // Restore User
         if (parsed.user) {
+            if (parsed.user.name) state.user.name = parsed.user.name; // Restore name
+            if (parsed.user.year) state.user.year = parsed.user.year; // Restore year
             state.user.progress = parsed.user.progress || 0;
             if (parsed.user.streak) state.user.streak = parsed.user.streak;
+            state.user.examSchedule = parsed.user.examSchedule || [];
+        }
+
+        // Ensure default
+        if (!state.user.examSchedule) state.user.examSchedule = [];
+
+        // Restore Theme
+        if (parsed.theme) {
+            state.theme = parsed.theme;
+            applyTheme(state.theme);
         }
 
         // Restore Units
@@ -177,6 +358,10 @@ function handleRoute(view) {
         pageTitle.textContent = view === 'nclex' ? 'NCLEX Prep' : 'NCK Exam Prep';
         renderBreadcrumbs(['Home', 'Exams', pageTitle.textContent]);
         renderExam(view);
+    } else if (view === 'settings') {
+        pageTitle.textContent = 'Settings';
+        renderBreadcrumbs(['Home', 'Settings']);
+        renderSettings();
     }
 }
 
@@ -353,8 +538,6 @@ window.loadUnitContent = function (unitId, index) {
     unit.currContentIndex = index;
     saveState(); // Save progress
 
-    // Re-render sidebar active state (REMOVED logic since sidebar is gone)
-
     const content = unit.content[index];
     const display = document.getElementById('unit-content-display');
 
@@ -469,11 +652,136 @@ function isStreakActive() {
     return state.user.streak.lastLogin === today;
 }
 
+function checkAndUpdateStreak() {
+    // Ensure streak object exists
+    if (!state.user.streak) {
+        state.user.streak = { count: 1, lastLogin: new Date().toISOString().split('T')[0] };
+        saveState();
+        return;
+    }
+
+    const today = new Date().toISOString().split('T')[0];
+    const lastLogin = state.user.streak.lastLogin;
+
+    // If already logged in today, do nothing
+    if (lastLogin === today) {
+        return;
+    }
+
+    // Parse dates to compare
+    // Note: Date.parse or new Date("YYYY-MM-DD") is usually UTC. 
+    // We want difference in calendar days.
+    const d1 = new Date(lastLogin);
+    const d2 = new Date(today);
+
+    // Difference in milliseconds
+    const diffTime = Math.abs(d2 - d1);
+    // Difference in days (approx)
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    if (diffDays === 1) {
+        // Consecutive day
+        state.user.streak.count++;
+    } else {
+        // Missed > 1 day, reset
+        state.user.streak.count = 1;
+    }
+
+    state.user.streak.lastLogin = today;
+    saveState();
+}
+
 function calculateYearProgress(year) {
     const units = appData.units[`year${year}`];
     if (!units || units.length === 0) return 0;
     const completed = units.filter(u => u.completed).length;
     return Math.round((completed / units.length) * 100);
+}
+
+// Exam Scheduler Logic
+window.handleAddExam = function () {
+    const titleInput = document.getElementById('new-exam-title');
+    const dateInput = document.getElementById('new-exam-date');
+
+    const title = titleInput.value;
+    const date = dateInput.value;
+
+    if (!title || !date) {
+        alert("Please enter both a title and a date.");
+        return;
+    }
+
+    // Ensure array exists
+    if (!state.user.examSchedule) state.user.examSchedule = [];
+
+    state.user.examSchedule.push({ id: Date.now(), title, date });
+    state.user.examSchedule.sort((a, b) => new Date(a.date) - new Date(b.date));
+    saveState();
+    renderSettings(); // Re-render list
+};
+
+window.deleteExam = function (id) {
+    state.user.examSchedule = state.user.examSchedule.filter(e => e.id !== id);
+    saveState();
+    renderSettings();
+};
+
+function getNextExam() {
+    if (!state.user.examSchedule || state.user.examSchedule.length === 0) return null;
+
+    // Normalize today to start of day for comparison
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const upcoming = state.user.examSchedule.filter(e => {
+        // Create date from string YYYY-MM-DD which is usually UTC, 
+        // but let's treat it simply.
+        // Actually new Date("YYYY-MM-DD") is UTC. 
+        // Let's use simple string comparison or fix time.
+        // Easiest: append T00:00:00 to ensure local or just compare timestamps.
+        const examDate = new Date(e.date + 'T00:00:00');
+        return examDate >= today;
+    });
+
+    return upcoming.length > 0 ? upcoming[0] : null;
+}
+
+function renderNextExamWidget() {
+    const next = getNextExam();
+    if (!next) {
+        return `
+            <div class="card">
+                 <div class="card-icon" style="background: #FFF3E0; color: #E9C46A;">
+                    <i class="ph ph-calendar-check"></i>
+                </div>
+                <h3>Next Exam</h3>
+                <h4 class="stat-value" style="font-size: 1.5rem; color: var(--text-muted); margin: 0.5rem 0;">No Exams</h4>
+                <p>Schedule one in Settings</p>
+            </div>
+        `;
+    }
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const examDate = new Date(next.date + 'T00:00:00');
+
+    const diffTime = examDate - today;
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    let dayText = `${diffDays} Days`;
+    if (diffDays === 0) dayText = "Today";
+    if (diffDays === 1) dayText = "Tomorrow";
+
+    return `
+        <div class="card">
+            <div class="card-icon" style="background: #FFF3E0; color: #E9C46A;">
+                <i class="ph ph-clock-countdown"></i>
+            </div>
+            <h3>Next Exam</h3>
+            <h4 class="stat-value">${dayText}</h4>
+            <p>${next.title}</p>
+        </div>
+    `;
 }
 
 function renderDashboard() {
@@ -521,14 +829,8 @@ function renderDashboard() {
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-icon" style="background: #FFF3E0; color: #E9C46A;">
-                    <i class="ph ph-clock-countdown"></i>
-                </div>
-                <h3>Next Exam</h3>
-                <h4 class="stat-value">3 Days</h4>
-                <p>Pharmacology I - Midterm</p>
-            </div>
+            ${renderNextExamWidget()}
+
 
         </div>
 
@@ -834,6 +1136,212 @@ window.finishExam = function () {
 
     contentArea.innerHTML = html;
 };
+
+/* =========================================
+   Settings & Theme Logic
+   ========================================= */
+
+function applyTheme(theme) {
+    if (theme === 'dark') {
+        document.body.classList.add('dark-theme');
+    } else {
+        document.body.classList.remove('dark-theme');
+    }
+}
+
+window.toggleTheme = function () {
+    state.theme = state.theme === 'light' ? 'dark' : 'light';
+    applyTheme(state.theme);
+    saveState();
+};
+
+window.updateUserName = function (input) {
+    const newName = input.value.trim();
+    if (newName) {
+        state.user.name = newName;
+        appData.user.name = newName; // Ensure data model is synced
+        saveState();
+        renderSidebarProfile(); // Sync sidebar immediately
+        // Optional: show a toast or feedback
+    }
+};
+
+window.resetProgress = function () {
+    if (confirm("Are you sure you want to reset ALL progress? This cannot be undone.")) {
+        localStorage.removeItem('nurseBuddyState');
+        location.reload();
+    }
+};
+
+window.exportData = function () {
+    const data = localStorage.getItem('nurseBuddyState');
+    if (!data) {
+        alert("No progress data found to export.");
+        return;
+    }
+
+    const blob = new Blob([data], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `nursebuddy_backup_${new Date().toISOString().split('T')[0]}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+};
+
+window.triggerImport = function () {
+    document.getElementById('import-file').click();
+};
+
+window.importData = function (input) {
+    const file = input.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function (e) {
+        try {
+            const json = JSON.parse(e.target.result);
+            // Basic validation
+            if (json.user && json.units) {
+                localStorage.setItem('nurseBuddyState', JSON.stringify(json));
+                alert("Data imported successfully! The app will now reload.");
+                location.reload();
+            } else {
+                alert("Invalid backup file. Please use a valid NurseBuddy JSON file.");
+            }
+        } catch (err) {
+            console.error(err);
+            alert("Error reading file. It may be corrupted.");
+        }
+    };
+    reader.readAsText(file);
+};
+
+function renderSettings() {
+    const html = `
+        <div class="settings-container" style="max-width: 600px; margin: 0 auto; padding-bottom: 3rem;">
+            
+            <!-- Appearance -->
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="ph ph-paint-brush"></i> Appearance
+                </h3>
+                
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div style="font-weight: 600; margin-bottom: 0.25rem;">Dark Mode</div>
+                        <div style="color: var(--text-muted); font-size: 0.9rem;">Switch between light and dark themes</div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" ${state.theme === 'dark' ? 'checked' : ''} onchange="toggleTheme()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Profile -->
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="ph ph-user-circle"></i> Profile
+                </h3>
+                
+                <div class="form-group">
+                    <label class="form-label">Display Name</label>
+                    <input type="text" class="form-input" value="${state.user.name}" 
+                        onchange="updateUserName(this)" placeholder="Enter your name">
+                </div>
+            </div>
+
+            <!-- Exam Scheduler -->
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="ph ph-calendar-plus"></i> Exam Scheduler
+                </h3>
+                
+                <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                    <input type="text" id="new-exam-title" class="form-input" placeholder="Exam Name" style="flex: 2;">
+                    <input type="date" id="new-exam-date" class="form-input" style="flex: 1;">
+                    <button class="btn-primary" onclick="handleAddExam()">Add</button>
+                </div>
+
+                <div class="exam-list">
+                    ${state.user.examSchedule && state.user.examSchedule.length > 0
+            ? state.user.examSchedule.map(exam => `
+                            <div class="exam-item">
+                                <div class="exam-info">
+                                    <span class="exam-title">${exam.title}</span>
+                                    <span class="exam-date">${new Date(exam.date).toLocaleDateString()}</span>
+                                </div>
+                                <button class="icon-btn" onclick="deleteExam(${exam.id})" style="color: var(--accent-red); border-color: transparent;">
+                                    <i class="ph ph-trash"></i>
+                                </button>
+                            </div>
+                        `).join('')
+            : '<p style="color: var(--text-muted); font-size: 0.9rem;">No upcoming exams scheduled.</p>'
+        }
+                </div>
+            </div>
+
+            <!-- Data Management -->
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="ph ph-database"></i> Data Management
+                </h3>
+                
+                <div style="background: var(--bg-body); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.5rem;">
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">
+                        Backup your progress or restore from a previous save file.
+                    </p>
+                    <div style="display: flex; gap: 1rem;">
+                        <button class="btn-primary" onclick="exportData()" style="flex: 1;">
+                            <i class="ph ph-download-simple"></i> Export Data
+                        </button>
+                        <button class="btn-secondary" onclick="triggerImport()" style="flex: 1;">
+                            <i class="ph ph-upload-simple"></i> Import Data
+                        </button>
+                        <input type="file" id="import-file" class="hidden-input" accept=".json" onchange="importData(this)">
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid var(--border-light); margin-top: 1rem;">
+                    <div>
+                        <div style="font-weight: 600; margin-bottom: 0.25rem; color: var(--accent-red);">Danger Zone</div>
+                        <div style="color: var(--text-muted); font-size: 0.9rem;">Permanently delete all progress</div>
+                    </div>
+                    <button class="btn-danger" onclick="resetProgress()">Reset App</button>
+                </div>
+            </div>
+
+            <!-- Support -->
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="ph ph-headset"></i> Support
+                </h3>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div style="font-weight: 600; margin-bottom: 0.25rem;">Chat with Building Team</div>
+                        <div style="color: var(--text-muted); font-size: 0.9rem;">Report bugs or request features</div>
+                    </div>
+                    <button class="btn-secondary" onclick="window.open('https://wa.me/254700648622?text=Hello%20Building%20Team')">
+                        <i class="ph ph-whatsapp-logo"></i> Chat Now
+                    </button>
+                </div>
+            </div>
+
+            <!-- About -->
+            <div style="text-align: center; color: var(--text-muted); padding: 1rem;">
+                <h4 style="margin-bottom: 0.5rem; font-weight: 600;">NurseBuddy v1.2</h4>
+                <p style="font-size: 0.9rem;">Designed for Nursing Excellence</p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem;">&copy; Benedict Nelson 2026</p>
+            </div>
+
+        </div>
+    `;
+
+    contentArea.innerHTML = html;
+}
 
 // Start App
 init();
