@@ -27,6 +27,11 @@ function init() {
     setupSidebar();
     renderSidebarProfile(); // Update sidebar with user data
 
+    // Initialize quiz stats object if it doesn't exist
+    if (!state.user.quizStats) {
+        state.user.quizStats = {};
+    }
+
     // Check for mobile and auto-collapse
     if (window.innerWidth <= 768) {
         sidebar.classList.add('collapsed');
@@ -81,8 +86,10 @@ function showStep(step) {
     if (step === 1) {
         html = `
             <div class="onboarding-step active">
-                <i class="ph ph-heartbeat" style="font-size: 4rem; color: var(--primary); margin-bottom: 1rem;"></i>
-                <h2>Welcome to NurseBuddy</h2>
+                <div style="width: 80px; height: 80px; margin: 0 auto 1rem; border-radius: 16px; overflow: hidden; background: var(--bg-surface);">
+                    <img src="logo.png" alt="Nurse Rafiki Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h2>Welcome to Nurse Rafiki</h2>
                 <p>Your ultimate companion for nursing excellence. Master your curriculum and ace your exams.</p>
                 
                 <div class="step-indicator">
@@ -201,6 +208,35 @@ function setupSidebar() {
             // On mobile, "collapsed" means hidden. So toggling it shows/hides it.
             sidebar.classList.toggle('collapsed');
         });
+    }
+
+    // Swipe gestures for mobile sidebar
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, false);
+
+    document.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipeGesture();
+    }, false);
+
+    function handleSwipeGesture() {
+        if (window.innerWidth <= 768) {
+            const swipeDistance = touchEndX - touchStartX;
+            const SWIPE_THRESHOLD = 50; // Minimum distance to trigger swipe
+
+            // Swipe Right: Open Sidebar
+            if (swipeDistance > SWIPE_THRESHOLD && touchStartX < 50) {
+                sidebar.classList.remove('collapsed');
+            }
+            // Swipe Left: Close Sidebar
+            else if (swipeDistance < -SWIPE_THRESHOLD) {
+                sidebar.classList.add('collapsed');
+            }
+        }
     }
 
     // Close sidebar when clicking outside on mobile
@@ -591,60 +627,151 @@ window.completeLessonAndNext = function (unitId, currentIndex) {
     }
 };
 
+let unitQuizState = null;
+
 function renderUnitQuiz(container, quizContent, unitId) {
-    // Reuse quiz container style but adapted for inside unit view
+    unitQuizState = {
+        unitId: unitId,
+        quizContent: quizContent,
+        answers: new Array(quizContent.questions.length).fill(null),
+        container: container,
+        lessonIndex: appData.units.year1[0].content.length - 1
+    };
+
+    renderUnitQuizQuestions();
+}
+
+window.renderUnitQuizQuestions = function () {
+    if (!unitQuizState) return;
+    const { container, quizContent, answers } = unitQuizState;
+
     container.innerHTML = `
         <div class="content-header">
             <h2>${quizContent.title}</h2>
             <p>Complete this quiz to finish the unit.</p>
         </div>
-        <div style="max-width: 700px; margin: 0 auto;">
+        <div style="max-width: 700px; margin: 0 auto; padding-bottom: 2rem;" id="unit-quiz-wrapper">
             ${quizContent.questions.map((q, qIdx) => `
                 <div class="quiz-question-block" style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">${qIdx + 1}. ${q.q}</h3>
+                    <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">${qIdx + 1}. ${q.q || q.question}</h3>
                     <div class="quiz-options">
                         ${q.options.map((opt, oIdx) => `
-                            <div class="quiz-option" id="q${qIdx}_opt${oIdx}" 
-                                onclick="checkUnitQuizAnswer(this, ${qIdx}, ${oIdx}, ${q.correct})">
+                            <div class="quiz-option ${answers[qIdx] === oIdx ? 'selected' : ''}" 
+                                style="${answers[qIdx] === oIdx ? 'background: var(--primary-light); border-color: var(--primary); color: var(--primary-dark);' : ''}"
+                                onclick="selectUnitQuizAnswer(${qIdx}, ${oIdx})">
                                 ${opt}
                             </div>
                         `).join('')}
                     </div>
-                    <div id="feedback_q${qIdx}" style="margin-top: 0.5rem; display: none;"></div>
                 </div>
             `).join('')}
             
             <button class="btn-primary" style="width: 100%; margin-top: 2rem;" 
-                onclick="completeLessonAndNext(${unitId}, ${appData.units.year1[0].content.length - 1})">
-                Submit & Finish Unit
+                onclick="submitUnitQuiz()">
+                Submit Quiz
             </button>
         </div>
     `;
-}
+};
 
-window.checkUnitQuizAnswer = function (elem, qIdx, oIdx, correctIdx) {
-    // Simple immediate feedback for demo
-    const feedback = document.getElementById(`feedback_q${qIdx}`);
-    feedback.style.display = 'block';
+window.selectUnitQuizAnswer = function (qIdx, oIdx) {
+    if (!unitQuizState) return;
+    unitQuizState.answers[qIdx] = oIdx;
+    renderUnitQuizQuestions();
+};
 
-    // Reset siblings
-    const parent = elem.parentElement;
-    Array.from(parent.children).forEach(child => {
-        child.style.backgroundColor = 'transparent';
-        child.style.borderColor = 'var(--border-light)';
-        child.style.color = 'var(--text-main)';
+window.submitUnitQuiz = function () {
+    if (!unitQuizState) return;
+
+    const { container, quizContent, answers, unitId, lessonIndex } = unitQuizState;
+    let score = 0;
+
+    quizContent.questions.forEach((q, idx) => {
+        const correctAnswer = q.correct !== undefined ? q.correct : q.answer;
+        if (answers[idx] === correctAnswer) score++;
     });
 
-    if (oIdx === correctIdx) {
-        elem.style.backgroundColor = 'var(--primary)';
-        elem.style.borderColor = 'var(--primary)';
-        elem.style.color = 'white';
-        feedback.innerHTML = '<span style="color: var(--primary); font-weight: bold;">Correct!</span>';
-    } else {
-        elem.style.backgroundColor = '#FFEBEE';
-        elem.style.borderColor = 'var(--accent-red)';
-        feedback.innerHTML = '<span style="color: var(--accent-red); font-weight: bold;">Incorrect.</span>';
+    const percentage = Math.round((score / quizContent.questions.length) * 100);
+
+    // Update Stats per Unit Quiz
+    if (!state.user.quizStats) state.user.quizStats = {};
+    const quizTitle = quizContent.title || 'Unit Quiz';
+    if (!state.user.quizStats[quizTitle]) {
+        state.user.quizStats[quizTitle] = { attempts: 0, bestScore: 0, lastScore: 0 };
     }
+    state.user.quizStats[quizTitle].attempts++;
+    state.user.quizStats[quizTitle].lastScore = percentage;
+    if (percentage > state.user.quizStats[quizTitle].bestScore) {
+        state.user.quizStats[quizTitle].bestScore = percentage;
+    }
+    saveState();
+
+    container.innerHTML = `
+        <div class="exam-results-container" style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <div class="card" style="padding: 3rem; margin-bottom: 2rem;">
+                <div style="font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 1rem;">Quiz Results</div>
+                <div style="font-size: 4rem; font-weight: 700; color: ${percentage >= 80 ? 'var(--primary)' : 'var(--accent-red)'}; margin-bottom: 0.5rem;">
+                    ${percentage}%
+                </div>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                    You scored ${score} out of ${quizContent.questions.length}
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <button class="btn-primary" onclick="reviewUnitQuiz()">Review Answers</button>
+                    <button class="btn-secondary" onclick="renderUnitQuizQuestions()">Retake Quiz</button>
+                </div>
+                <br>
+                <button class="btn-text" style="margin-top: 1rem;" 
+                    onclick="completeLessonAndNext(${unitId}, ${lessonIndex})">
+                    Finish Unit & Dashboard
+                </button>
+            </div>
+        </div>
+    `;
+};
+
+window.reviewUnitQuiz = function () {
+    if (!unitQuizState) return;
+
+    const { container, quizContent, answers, unitId, lessonIndex } = unitQuizState;
+    let feedbackHtml = '';
+
+    quizContent.questions.forEach((q, idx) => {
+        const userAnswer = answers[idx];
+        const correctAnswer = q.correct !== undefined ? q.correct : q.answer;
+        const isCorrect = userAnswer === correctAnswer;
+
+        feedbackHtml += `
+            <div class="card" style="margin-bottom: 1rem; border-left: 4px solid ${isCorrect ? 'var(--primary)' : 'var(--accent-red)'}">
+                <div style="font-weight: 600; margin-bottom: 0.5rem;">Q${idx + 1}: ${q.q || q.question}</div>
+                <div style="display: flex; gap: 1rem; font-size: 0.9rem;">
+                    <span style="color: ${isCorrect ? 'var(--primary)' : 'var(--accent-red)'}">
+                        Your Answer: ${userAnswer !== null ? q.options[userAnswer] : 'Skipped'}
+                    </span>
+                    ${!isCorrect ? `<span style="color: var(--text-muted)">Correct: ${q.options[correctAnswer]}</span>` : ''}
+                </div>
+            </div>
+        `;
+    });
+
+    container.innerHTML = `
+        <div class="exam-results-container" style="max-width: 800px; margin: 0 auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h3 style="text-align: left; margin: 0;">Detailed Review</h3>
+                <button class="btn-secondary" onclick="submitUnitQuiz()">Back to Score</button>
+            </div>
+            
+            <div style="text-align: left;">
+                ${feedbackHtml}
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem; margin-bottom: 3rem;">
+                <button class="btn-primary" onclick="completeLessonAndNext(${unitId}, ${lessonIndex})">
+                    Finish Unit & Dashboard
+                </button>
+            </div>
+        </div>
+    `;
 };
 function isStreakActive() {
     if (!state.user.streak) return false;
@@ -1086,12 +1213,63 @@ window.prevExamQuestion = function () {
 window.finishExam = function () {
     const questions = appData.exams[examState.type][examState.bankIndex].questions;
     let score = 0;
+
+    // Calculate score
+    questions.forEach((q, idx) => {
+        const userAnswer = examState.answers[idx];
+        const isCorrect = userAnswer === q.correct;
+        if (isCorrect) score++;
+    });
+
+    const percentage = Math.round((score / questions.length) * 100);
+
+    // Update Stats per Exam Bank
+    if (!state.user.quizStats) state.user.quizStats = {};
+    const exam = appData.exams[examState.type][examState.bankIndex];
+    const quizTitle = exam ? exam.title : 'Exam Bank';
+    if (!state.user.quizStats[quizTitle]) {
+        state.user.quizStats[quizTitle] = { attempts: 0, bestScore: 0, lastScore: 0 };
+    }
+    state.user.quizStats[quizTitle].attempts++;
+    state.user.quizStats[quizTitle].lastScore = percentage;
+    if (percentage > state.user.quizStats[quizTitle].bestScore) {
+        state.user.quizStats[quizTitle].bestScore = percentage;
+    }
+
+    // Save initial state/completion
+    saveState();
+
+    const html = `
+        <div class="exam-results-container" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <div class="card" style="padding: 3rem; margin-bottom: 2rem;">
+                <div style="font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 1rem;">Exam Results</div>
+                <div style="font-size: 4rem; font-weight: 700; color: ${percentage >= 80 ? 'var(--primary)' : 'var(--accent-red)'}; margin-bottom: 0.5rem;">
+                    ${percentage}%
+                </div>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                    You scored ${score} out of ${questions.length}
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <button class="btn-primary" onclick="reviewExam()">Review Answers</button>
+                    <button class="btn-secondary" onclick="renderExam('${examState.type}')">Retake Exam</button>
+                </div>
+                <br>
+                <button class="btn-text" onclick="state.currentView='dashboard'; handleRoute('dashboard')" style="margin-top: 1rem;">Back to Dashboard</button>
+            </div>
+        </div>
+    `;
+
+    contentArea.innerHTML = html;
+};
+
+// New function to display the detailed review
+window.reviewExam = function () {
+    const questions = appData.exams[examState.type][examState.bankIndex].questions;
     let feedbackHtml = '';
 
     questions.forEach((q, idx) => {
         const userAnswer = examState.answers[idx];
         const isCorrect = userAnswer === q.correct;
-        if (isCorrect) score++;
 
         feedbackHtml += `
             <div class="card" style="margin-bottom: 1rem; border-left: 4px solid ${isCorrect ? 'var(--primary)' : 'var(--accent-red)'}">
@@ -1106,30 +1284,19 @@ window.finishExam = function () {
         `;
     });
 
-    const percentage = Math.round((score / questions.length) * 100);
-
-    // Save completion (could enhance saveState to store exam history)
-    // For now just updating progress if needed or just saving state as "active" isn't really needed since exams are ephemeral sessions usually
-    // But let's call saveState to ensure any other side effects are safe
-    saveState();
-
     const html = `
-        <div class="exam-results-container" style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <div class="card" style="padding: 3rem; margin-bottom: 2rem;">
-                <div style="font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 1rem;">Exam Results</div>
-                <div style="font-size: 4rem; font-weight: 700; color: ${percentage >= 80 ? 'var(--primary)' : 'var(--accent-red)'}; margin-bottom: 0.5rem;">
-                    ${percentage}%
-                </div>
-                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
-                    You scored ${score} out of ${questions.length}
-                </p>
-                <button class="btn-primary" onclick="renderExam('${examState.type}')">Retake Exam</button>
-                <button class="btn-text" onclick="state.currentView='dashboard'; handleRoute('dashboard')">Back to Dashboard</button>
+        <div class="exam-results-container" style="max-width: 800px; margin: 0 auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h3 style="text-align: left; margin: 0;">Detailed Review</h3>
+                <button class="btn-secondary" onclick="finishExam()">Back to Score</button>
             </div>
-
-            <h3 style="text-align: left; margin-bottom: 1rem;">Detailed Review</h3>
+            
             <div style="text-align: left;">
                 ${feedbackHtml}
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem; margin-bottom: 3rem;">
+                <button class="btn-primary" onclick="state.currentView='dashboard'; handleRoute('dashboard')">Finish Review</button>
             </div>
         </div>
     `;
@@ -1209,7 +1376,7 @@ window.importData = function (input) {
                 alert("Data imported successfully! The app will now reload.");
                 location.reload();
             } else {
-                alert("Invalid backup file. Please use a valid NurseBuddy JSON file.");
+                alert("Invalid backup file. Please use a valid Nurse Rafiki JSON file.");
             }
         } catch (err) {
             console.error(err);
@@ -1220,9 +1387,44 @@ window.importData = function (input) {
 };
 
 function renderSettings() {
+    let quizStatsHtml = '';
+    if (state.user.quizStats && Object.keys(state.user.quizStats).length > 0) {
+        quizStatsHtml = Object.keys(state.user.quizStats).map(quizTitle => {
+            const stats = state.user.quizStats[quizTitle];
+            return `
+                <div style="background: var(--bg-body); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+                    <div style="font-weight: 600;">${quizTitle}</div>
+                    <div style="display: flex; gap: 1.5rem; text-align: right;">
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Attempts</div>
+                            <div style="font-weight: 600;">${stats.attempts}</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Best</div>
+                            <div style="font-weight: 600; color: ${stats.bestScore >= 80 ? 'var(--primary)' : 'var(--accent-red)'};">${stats.bestScore}%</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    } else {
+        quizStatsHtml = '<p style="color: var(--text-muted); font-size: 0.9rem;">No quizzes taken yet. Complete a test bank or unit quiz to see your stats here.</p>';
+    }
+
     const html = `
         <div class="settings-container" style="max-width: 600px; margin: 0 auto; padding-bottom: 3rem;">
             
+            <!-- Statistics -->
+            <div class="card" style="margin-bottom: 2rem;">
+                <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="ph ph-chart-bar"></i> Quiz Performance
+                </h3>
+                
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                    ${quizStatsHtml}
+                </div>
+            </div>
+
             <!-- Appearance -->
             <div class="card" style="margin-bottom: 2rem;">
                 <h3 style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
@@ -1332,7 +1534,7 @@ function renderSettings() {
 
             <!-- About -->
             <div style="text-align: center; color: var(--text-muted); padding: 1rem;">
-                <h4 style="margin-bottom: 0.5rem; font-weight: 600;">NurseBuddy v1.2</h4>
+                <h4 style="margin-bottom: 0.5rem; font-weight: 600;">Nurse Rafiki v1.2</h4>
                 <p style="font-size: 0.9rem;">Designed for Nursing Excellence</p>
                 <p style="font-size: 0.8rem; margin-top: 0.5rem;">&copy; Benedict Nelson 2026</p>
             </div>
@@ -1341,6 +1543,206 @@ function renderSettings() {
     `;
 
     contentArea.innerHTML = html;
+}
+
+// =========================================
+// AI Chatbot Integration
+// =========================================
+
+// Store chat history temporarily in session
+let aiChatHistory = [
+    { role: 'assistant', content: 'Hello! I am Nurse Rafiki AI. I can help answer questions about your coursework, NCLEX prep, or explain complex nursing concepts. How can I assist you today?' }
+];
+
+function renderAIChat() {
+    contentArea.innerHTML = `
+        <div class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be injected here -->
+            </div>
+            
+            <div class="chat-input-area">
+                <div class="chat-input-wrapper">
+                    <textarea id="ai-chat-input" placeholder="Ask Nurse Rafiki AI a question..." rows="1" oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+                    <button id="ai-send-btn" class="send-btn" onclick="handleSendAIMessage()">
+                        <i class="ph ph-paper-plane-right"></i>
+                    </button>
+                </div>
+                <div class="ai-disclaimer">
+                    <i class="ph ph-warning"></i> <strong>Disclaimer:</strong> This is an AI assistant and can make mistakes. Please verify critical medical or clinical information with official textbooks, instructors, or medical professionals.
+                </div>
+            </div>
+        </div>
+    `;
+
+    renderChatHistory();
+
+    // Add Enter key listener for the textarea
+    const inputField = document.getElementById('ai-chat-input');
+    inputField.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            handleSendAIMessage();
+        }
+    });
+
+    // Auto-focus input
+    inputField.focus();
+}
+
+function renderChatHistory() {
+    const messagesContainer = document.getElementById('chat-messages');
+    if (!messagesContainer) return;
+
+    messagesContainer.innerHTML = aiChatHistory.map(msg => createChatMessageHTML(msg.role, msg.content)).join('');
+    scrollToBottom();
+}
+
+function createChatMessageHTML(role, content) {
+    const isUser = role === 'user';
+
+    let avatarHTML = '';
+    if (isUser) {
+        // Use the user's avatar
+        avatarHTML = `<div class="chat-avatar"><img src="https://ui-avatars.com/api/?name=${encodeURIComponent(state.user.name)}&background=random&color=fff" alt="User"></div>`;
+    } else {
+        // Use AI avatar
+        avatarHTML = `<div class="chat-avatar"><i class="ph ph-sparkle"></i></div>`;
+    }
+
+    // Apply basic markdown formatting for bold and code blocks
+    let formattedContent = content
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\n/g, '<br>');
+
+    return `
+        <div class="chat-message ${isUser ? 'user' : 'ai'}">
+            ${avatarHTML}
+            <div class="chat-bubble">
+                <p>${formattedContent}</p>
+            </div>
+        </div>
+    `;
+}
+
+function scrollToBottom() {
+    const messagesContainer = document.getElementById('chat-messages');
+    if (messagesContainer) {
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+}
+
+async function handleSendAIMessage() {
+    const inputField = document.getElementById('ai-chat-input');
+    const sendBtn = document.getElementById('ai-send-btn');
+    const message = inputField.value.trim();
+
+    if (!message) return;
+
+    // 1. Add User Message to UI and History
+    aiChatHistory.push({ role: 'user', content: message });
+    inputField.value = '';
+    inputField.style.height = '54px'; // Reset height
+    renderChatHistory();
+
+    // Disable input while fetching
+    inputField.disabled = true;
+    sendBtn.disabled = true;
+
+    // 2. Add Loading Indicator
+    const messagesContainer = document.getElementById('chat-messages');
+    const loadingHTML = `
+        <div class="chat-message ai" id="ai-loading">
+            <div class="chat-avatar"><i class="ph ph-sparkle"></i></div>
+            <div class="chat-bubble">
+                <div class="typing-indicator">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+        </div>
+    `;
+    messagesContainer.insertAdjacentHTML('beforeend', loadingHTML);
+    scrollToBottom();
+
+    // 3. Fetch from OpenAI API
+    try {
+        let apiKey = localStorage.getItem('openai_api_key');
+
+        if (!apiKey) {
+            apiKey = prompt("Please enter your OpenAI API Key to use the Nursebuddy AI features (This is stored locally in your browser):");
+            if (apiKey) {
+                localStorage.setItem('openai_api_key', apiKey);
+            } else {
+                throw new Error("API Key required to function.");
+            }
+        }
+
+        const response = await fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${apiKey}`
+            },
+            body: JSON.stringify({
+                model: 'gpt-4o-mini',
+                messages: [
+                    {
+                        role: 'system',
+                        content: 'You are Nurse Rafiki AI, a helpful, encouraging, and accurate tutor for nursing students. Provide clear, concise answers related to nursing concepts, NCLEX preparation, and medical terminology. Always remind the student that you are an AI tutor, and they should verify critical clinical info.'
+                    },
+                    ...aiChatHistory
+                ],
+                max_tokens: 500
+            })
+        });
+
+        if (!response.ok) {
+            if (response.status === 401) {
+                localStorage.removeItem('openai_api_key'); // clear invalid key
+                throw new Error("Invalid API Key. Please refresh and try again.");
+            }
+            throw new Error(`API Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const aiResponse = data.choices[0].message.content;
+
+        // 4. Remove loading, add AI response to UI and History
+        document.getElementById('ai-loading').remove();
+        aiChatHistory.push({ role: 'assistant', content: aiResponse });
+        renderChatHistory();
+
+    } catch (error) {
+        console.error("AI Fetch Error:", error);
+
+        const loadingEl = document.getElementById('ai-loading');
+        if (loadingEl) loadingEl.remove();
+
+        // Add error message to chat
+        const errorMsg = `Sorry, I encountered an error: ${error.message}. Please try again later.`;
+        aiChatHistory.push({ role: 'assistant', content: errorMsg });
+        renderChatHistory();
+    } finally {
+        // Re-enable input
+        inputField.disabled = false;
+        sendBtn.disabled = false;
+        inputField.focus();
+    }
+}
+
+// Service Worker Registration for PWA
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+        }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+        });
+    });
 }
 
 // Start App
