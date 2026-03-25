@@ -284,8 +284,7 @@ function saveState() {
             year: state.user.year, // Save year
             progress: state.user.progress,
             streak: state.user.streak,
-            examSchedule: state.user.examSchedule || [],
-            isPremium: state.user.isPremium || false
+            examSchedule: state.user.examSchedule || []
         },
         theme: state.theme, // Save theme
         units: unitsState
@@ -307,8 +306,6 @@ function loadState() {
             if (parsed.user.year) state.user.year = parsed.user.year; // Restore year
             state.user.progress = parsed.user.progress || 0;
             if (parsed.user.streak) state.user.streak = parsed.user.streak;
-            state.user.examSchedule = parsed.user.examSchedule || [];
-            if (parsed.user.isPremium !== undefined) state.user.isPremium = parsed.user.isPremium;
         }
 
         // Ensure default
@@ -1332,26 +1329,17 @@ function renderExam(type) {
             
             <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
                 ${banks.map((bank, index) => {
-        const isLocked = bank.isPremium && !state.user.isPremium;
         return `
                     <div class="card" style="display: flex; flex-direction: column; height: 100%; position: relative;">
-                        ${bank.isPremium ? `<div style="position: absolute; top: 1.5rem; right: 1.5rem; color: var(--primary); font-size: 1.25rem;"><i class="ph ${isLocked ? 'ph-lock-key' : 'ph-crown'}"></i></div>` : ''}
                         <div style="margin-bottom: 1rem;">
-                            <span class="unit-tag">${bank.isPremium ? 'Premium' : `Test Bank ${index + 1}`}</span>
+                            <span class="unit-tag">Test Bank ${index + 1}</span>
                             <h3 style="margin-top: 0.5rem; margin-bottom: 0.5rem; padding-right: 2rem;">${bank.title}</h3>
                             <p style="font-size: 0.9rem; color: var(--text-muted);">${bank.questions.length} Questions</p>
                         </div>
-                        ${isLocked ? `
-                        <button class="btn-primary" style="margin-top: auto; justify-content: center; background-color: var(--primary-light); color: var(--primary-dark); border: none;"
-                            onclick="showSubscriptionModal()">
-                            <i class="ph ph-lock-key-open" style="margin-right: 5px;"></i> Unlock Premium
-                        </button>
-                        ` : `
                         <button class="btn-primary" style="margin-top: auto; justify-content: center;"
                             onclick="startExam('${type}', ${index})">
                             Start Exam
                         </button>
-                        `}
                     </div>
                 `}).join('')}
             </div>
@@ -1360,28 +1348,6 @@ function renderExam(type) {
 
     contentArea.innerHTML = html;
 }
-
-window.showSubscriptionModal = function () {
-    document.getElementById('subscription-modal').style.display = 'flex';
-};
-
-window.closeSubscriptionModal = function () {
-    document.getElementById('subscription-modal').style.display = 'none';
-};
-
-window.subscribeToPremium = function () {
-    state.user.isPremium = true;
-    saveState();
-    closeSubscriptionModal();
-
-    // Show success message
-    alert("Welcome to Premium! You now have access to all specialized test banks.");
-
-    // Re-render the exam view to unlock buttons
-    if (state.currentView === 'nclex' || state.currentView === 'nck') {
-        renderExam(state.currentView);
-    }
-};
 
 window.startExam = function (type, bankIndex) {
     const questions = appData.exams[type][bankIndex].questions;
@@ -1994,16 +1960,7 @@ async function handleSendAIMessage() {
     }
 }
 
-// Service Worker Registration for PWA
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').then(registration => {
-            console.log('SW registered: ', registration);
-        }).catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
-        });
-    });
-}
+
 
 // Start App
 init();
