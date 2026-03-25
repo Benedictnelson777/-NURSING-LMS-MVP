@@ -757,6 +757,401 @@ body {
 }
 
 /* =========================================
+   CLT: Unit Overview — Sections & Progress
+   ========================================= */
+
+/* Unit progress bar at top of overview */
+.unit-progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--border-light);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.unit-progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+    border-radius: 3px;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.unit-progress-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TOC Section headers */
+.toc-section {
+    margin-bottom: 1.5rem;
+}
+
+.toc-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    background: var(--bg-body);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    user-select: none;
+    transition: var(--transition);
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+}
+
+.toc-section-header:hover {
+    border-color: var(--primary-light);
+    background: var(--primary-light);
+}
+
+.toc-section-header h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-muted);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.toc-section-header h4 i {
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+.toc-section-header .section-count {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    background: var(--bg-surface);
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.toc-section-header .chevron {
+    transition: transform 0.3s ease;
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.toc-section.collapsed .toc-section-header .chevron {
+    transform: rotate(-90deg);
+}
+
+.toc-section-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    max-height: 2000px;
+    opacity: 1;
+}
+
+.toc-section.collapsed .toc-section-items {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+}
+
+/* Lesson status indicators */
+.lesson-status {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+.lesson-status.completed {
+    background: var(--primary);
+    color: white;
+}
+
+.lesson-status.in-progress {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    border: 2px solid var(--primary);
+}
+
+.lesson-status.not-started {
+    background: var(--bg-body);
+    color: var(--text-muted);
+    border: 2px solid var(--border-light);
+}
+
+/* =========================================
+   CLT: Key Takeaways Box
+   ========================================= */
+
+.key-takeaways {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(42, 157, 143, 0.06), rgba(42, 157, 143, 0.12));
+    border: 1px solid rgba(42, 157, 143, 0.2);
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.key-takeaways::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(to bottom, var(--primary), var(--primary-dark));
+    border-radius: 4px 0 0 4px;
+}
+
+.key-takeaways-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--primary-dark);
+}
+
+.key-takeaways-header .takeaway-icon {
+    font-size: 1.3rem;
+    width: 32px;
+    height: 32px;
+    background: var(--primary-light);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key-takeaways ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.key-takeaways li {
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+.key-takeaways li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* =========================================
+   CLT: Quiz Rationale Card
+   ========================================= */
+
+.rationale-card {
+    margin-top: 0.75rem;
+    padding: 1rem 1rem 1rem 1.25rem;
+    background: linear-gradient(135deg, rgba(233, 196, 106, 0.08), rgba(233, 196, 106, 0.15));
+    border: 1px solid rgba(233, 196, 106, 0.3);
+    border-radius: var(--radius-md);
+    position: relative;
+    overflow: hidden;
+}
+
+.rationale-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--accent);
+}
+
+.rationale-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.rationale-header i {
+    font-size: 1rem;
+    color: var(--accent);
+}
+
+.rationale-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+/* =========================================
+   CLT: NCLEX-Style Quiz
+   ========================================= */
+
+.nclex-progress {
+    margin: 1.5rem 0;
+}
+
+.nclex-progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--border-light);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.nclex-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+    border-radius: 3px;
+    transition: width 0.4s ease;
+}
+
+.nclex-progress-label {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.nclex-question-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.nclex-question-number {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.nclex-question-text {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: var(--text-main);
+}
+
+/* Option with letter prefix */
+.quiz-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 1rem;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.quiz-option:hover {
+    background-color: var(--primary-light);
+    border-color: var(--primary);
+}
+
+.quiz-option.selected {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.option-letter {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--bg-body);
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+.quiz-option.selected .option-letter {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.option-text {
+    flex: 1;
+}
+
+/* Navigation buttons */
+.nclex-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Question dots */
+.nclex-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.nclex-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--border-light);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.nclex-dot.active {
+    background: var(--primary);
+    transform: scale(1.3);
+    box-shadow: 0 0 6px rgba(42, 157, 143, 0.4);
+}
+
+.nclex-dot.answered {
+    background: var(--primary-light);
+    border: 1px solid var(--primary);
+}
+
+.nclex-dot.answered.active {
+    background: var(--primary);
+}
+
+/* =========================================
    Responsive Design
    ========================================= */
 
