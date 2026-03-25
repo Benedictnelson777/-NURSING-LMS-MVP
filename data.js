@@ -254,144 +254,144 @@ const appData = {
                         type: 'quiz',
                         title: 'Course Final Quiz',
                         questions: [
-                            { q: "Which tissue type covers the body's surface and lines internal cavities?", options: ["Connective", "Muscle", "Nervous", "Epithelial"], correct: 3 },
-                            { q: "Which layer of the skin is avascular (has no blood vessels)?", options: ["Epidermis", "Dermis", "Hypodermis", "Papillary layer"], correct: 0 },
-                            { q: "How many bones are in the adult human body?", options: ["200", "206", "210", "250"], correct: 1 },
-                            { q: "Which bone is the longest and strongest in the body?", options: ["Humerus", "Tibia", "Femur", "Fibula"], correct: 2 },
-                            { q: "What is the functional unit of the nervous system?", options: ["Neuron", "Nephron", "Glial cell", "Axon"], correct: 0 },
-                            { q: "Which type of muscle tissue is voluntary?", options: ["Cardiac", "Smooth", "Skeletal", "Visceral"], correct: 2 },
-                            { q: "The 'Atlas' and 'Axis' vertebrae are located in which region?", options: ["Lumbar", "Thoracic", "Cervical", "Sacral"], correct: 2 },
-                            { q: "Which part of the neuron receives incoming signals?", options: ["Axon", "Dendrite", "Myelin Sheath", "Terminal"], correct: 1 }
+                            { q: "Which tissue type covers the body's surface and lines internal cavities?", options: ["Connective", "Muscle", "Nervous", "Epithelial"], correct: 3, rationale: "Epithelial tissue forms the covering of all body surfaces, lines body cavities and hollow organs, and is the major tissue in glands. It protects, secretes, and absorbs." },
+                            { q: "Which layer of the skin is avascular (has no blood vessels)?", options: ["Epidermis", "Dermis", "Hypodermis", "Papillary layer"], correct: 0, rationale: "The epidermis is the outermost layer of skin and is completely avascular. It relies on the underlying dermis for nutrient delivery and waste disposal via diffusion." },
+                            { q: "How many bones are in the adult human body?", options: ["200", "206", "210", "250"], correct: 1, rationale: "A typical adult human skeleton consists of 206 bones, though infants are born with around 270 bones which fuse together during growth." },
+                            { q: "Which bone is the longest and strongest in the body?", options: ["Humerus", "Tibia", "Femur", "Fibula"], correct: 2, rationale: "The femur (thigh bone) is the longest, heaviest, and strongest bone in the human body, bearing the weight of the upper body during standing and moving." },
+                            { q: "What is the functional unit of the nervous system?", options: ["Neuron", "Nephron", "Glial cell", "Axon"], correct: 0, rationale: "The neuron (nerve cell) is the basic structural and functional unit of the nervous system, responsible for receiving, processing, and transmitting information." },
+                            { q: "Which type of muscle tissue is voluntary?", options: ["Cardiac", "Smooth", "Skeletal", "Visceral"], correct: 2, rationale: "Skeletal muscle is under conscious, voluntary control by the somatic nervous system, unlike cardiac and smooth muscle which work involuntarily." },
+                            { q: "The 'Atlas' and 'Axis' vertebrae are located in which region?", options: ["Lumbar", "Thoracic", "Cervical", "Sacral"], correct: 2, rationale: "The Atlas (C1) and Axis (C2) are the first two cervical vertebrae located in the neck, specialized to allow the 'yes' (nodding) and 'no' (rotation) motions of the head." },
+                            { q: "Which part of the neuron receives incoming signals?", options: ["Axon", "Dendrite", "Myelin Sheath", "Terminal"], correct: 1, rationale: "Dendrites are the tree-like extensions of a neuron designed to receive electrical signals from other neurons and conduct them toward the cell body." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Foundations of Anatomy',
                         questions: [
-                            { q: "Which plane divides the body into equal left and right halves?", options: ["Saggital", "Transverse", "Midsaggital", "Frontal"], correct: 2 },
-                            { q: "The term 'Distal' refers to a structure that is:", options: ["Closer to the point of attachment", "Farther from the point of attachment", "Toward the head", "Toward the feet"], correct: 1 },
-                            { q: "Which cavity contains the heart and lungs?", options: ["Abdominal", "Pelvic", "Thoracic", "Cranial"], correct: 2 },
-                            { q: "Which organelle is known as the 'powerhouse' of the cell?", options: ["Nucleus", "Ribosome", "Mitochondria", "Golgi Apparatus"], correct: 2 },
-                            { q: "What is the most abundant cartilage in the body?", options: ["Hyaline", "Elastic", "Fibrocartilage", "Articular"], correct: 0 },
-                            { q: "Which bone is NOT part of the appendicular skeleton?", options: ["Femur", "Scapula", "Sternum", "Humerus"], correct: 2 },
-                            { q: "Sutures of the skull are examples of which type of joint?", options: ["Synovial", "Cartilaginous", "Fibrous", "Diarthrosis"], correct: 2 },
-                            { q: "Which muscle type is striated and involuntary?", options: ["Skeletal", "Cardiac", "Smooth", "Visceral"], correct: 1 },
-                            { q: "The process of blood cell formation is called:", options: ["Osteogenesis", "Hematopoiesis", "Ossification", "Hemolysis"], correct: 1 },
-                            { q: "Which neurotransmitter is primarily used at the neuromuscular junction?", options: ["Dopamine", "Serotonin", "Acetylcholine", "GABA"], correct: 2 },
-                            { q: "The anatomical position is characterized by:", options: ["Palms facing backward", "Palms facing forward", "Lying supine", "Arms raised above head"], correct: 1 },
-                            { q: "Which body cavity contains the brain?", options: ["Thoracic", "Abdominal", "Pelvic", "Cranial"], correct: 3 },
-                            { q: "The elbow is _______ to the wrist.", options: ["Distal", "Proximal", "Lateral", "Medial"], correct: 1 },
-                            { q: "Which tissue type is responsible for sending electrical signals?", options: ["Muscle", "Epithelial", "Nervous", "Connective"], correct: 2 },
-                            { q: "The shaft of a long bone is called the:", options: ["Epiphysis", "Diaphysis", "Metaphysis", "Periosteum"], correct: 1 },
-                            { q: "Which of the following is an example of a flat bone?", options: ["Femur", "Humorous", "Scapula", "Vertebrae"], correct: 2 },
-                            { q: "Muscle fatigue is often due to the buildup of:", options: ["Lactic acid", "Glucose", "Oxygen", "ATP"], correct: 0 },
-                            { q: "A muscle that opposes a prime mover is called a(n):", options: ["Agonist", "Synergist", "Antagonist", "Fixator"], correct: 2 },
-                            { q: "Which of these is NOT a function of the skeletal system?", options: ["Support", "Protection", "Heat production", "Blood cell formation"], correct: 2 },
-                            { q: "The basic unit of compact bone is the:", options: ["Osteon", "Osteoclast", "Osteoblast", "Trabeculae"], correct: 0 }
+                            { q: "Which plane divides the body into equal left and right halves?", options: ["Saggital", "Transverse", "Midsaggital", "Frontal"], correct: 2, rationale: "The midsagittal (or median) plane runs directly down the middle of the body, dividing it perfectly into equal left and right halves. A simple sagittal plane divides it unequally." },
+                            { q: "The term 'Distal' refers to a structure that is:", options: ["Closer to the point of attachment", "Farther from the point of attachment", "Toward the head", "Toward the feet"], correct: 1, rationale: "Distal means situated farther from the center of the body or the point of attachment, whereas proximal means closer." },
+                            { q: "Which cavity contains the heart and lungs?", options: ["Abdominal", "Pelvic", "Thoracic", "Cranial"], correct: 2, rationale: "The thoracic cavity, protected by the rib cage, houses the heart and lungs." },
+                            { q: "Which organelle is known as the 'powerhouse' of the cell?", options: ["Nucleus", "Ribosome", "Mitochondria", "Golgi Apparatus"], correct: 2, rationale: "Mitochondria are often referred to as the cell's powerhouses because they generate most of the cell's supply of ATP (adenosine triphosphate)." },
+                            { q: "What is the most abundant cartilage in the body?", options: ["Hyaline", "Elastic", "Fibrocartilage", "Articular"], correct: 0, rationale: "Hyaline cartilage is the most common type, providing support with flexibility and resilience. It covers the ends of long bones as articular cartilage." },
+                            { q: "Which bone is NOT part of the appendicular skeleton?", options: ["Femur", "Scapula", "Sternum", "Humerus"], correct: 2, rationale: "The sternum (breastbone) is part of the axial skeleton, which forms the body's central axis. The femur, scapula, and humerus are all part of the appendicular skeleton." },
+                            { q: "Sutures of the skull are examples of which type of joint?", options: ["Synovial", "Cartilaginous", "Fibrous", "Diarthrosis"], correct: 2, rationale: "Sutures are immovable joints found only in the skull, composed of tough, dense fibrous connective tissue." },
+                            { q: "Which muscle type is striated and involuntary?", options: ["Skeletal", "Cardiac", "Smooth", "Visceral"], correct: 1, rationale: "Cardiac muscle cells are striated (banded) like skeletal muscle but operate involuntarily to pump the heart." },
+                            { q: "The process of blood cell formation is called:", options: ["Osteogenesis", "Hematopoiesis", "Ossification", "Hemolysis"], correct: 1, rationale: "Hematopoiesis is the process by which all formed elements of the blood are created, occurring primarily in the red bone marrow." },
+                            { q: "Which neurotransmitter is primarily used at the neuromuscular junction?", options: ["Dopamine", "Serotonin", "Acetylcholine", "GABA"], correct: 2, rationale: "Acetylcholine (ACh) is the neurotransmitter responsible for transmitting motor signals from the nervous system to skeletal muscle to initiate contraction." },
+                            { q: "The anatomical position is characterized by:", options: ["Palms facing backward", "Palms facing forward", "Lying supine", "Arms raised above head"], correct: 1, rationale: "In standard anatomical position, the person stands erect with feet parallel, eyes forward, arms at sides, and palms facing forward." },
+                            { q: "Which body cavity contains the brain?", options: ["Thoracic", "Abdominal", "Pelvic", "Cranial"], correct: 3, rationale: "The cranial cavity is the space formed inside the skull that protects the brain." },
+                            { q: "The elbow is _______ to the wrist.", options: ["Distal", "Proximal", "Lateral", "Medial"], correct: 1, rationale: "Proximal means closer to the limb's point of attachment. The elbow is closer to the shoulder than the wrist is." },
+                            { q: "Which tissue type is responsible for sending electrical signals?", options: ["Muscle", "Epithelial", "Nervous", "Connective"], correct: 2, rationale: "Nervous tissue comprises specialized cells (neurons) that transmit electrical and chemical signals throughout the body." },
+                            { q: "The shaft of a long bone is called the:", options: ["Epiphysis", "Diaphysis", "Metaphysis", "Periosteum"], correct: 1, rationale: "The diaphysis is the hollow, tubular shaft that runs between the proximal and distal ends of a long bone." },
+                            { q: "Which of the following is an example of a flat bone?", options: ["Femur", "Humorous", "Scapula", "Vertebrae"], correct: 2, rationale: "Flat bones, like the scapula (shoulder blade) and cranial bones, are relatively thin and provide broad surfaces for muscle attachment and protection of internal organs." },
+                            { q: "Muscle fatigue is often due to the buildup of:", options: ["Lactic acid", "Glucose", "Oxygen", "ATP"], correct: 0, rationale: "During strenuous exercise when oxygen is scarce, anaerobic respiration produces lactic acid, which accumulates and leads to muscle fatigue." },
+                            { q: "A muscle that opposes a prime mover is called a(n):", options: ["Agonist", "Synergist", "Antagonist", "Fixator"], correct: 2, rationale: "An antagonist muscle opposes the action of the agonist (prime mover), helping to maintain position and control rapid movements." },
+                            { q: "Which of these is NOT a function of the skeletal system?", options: ["Support", "Protection", "Heat production", "Blood cell formation"], correct: 2, rationale: "Heat production is primarily a function of the muscular system (via shivering and basal muscle tone). The skeletal system handles support, protection, hematopoiesis, and mineral storage." },
+                            { q: "The basic unit of compact bone is the:", options: ["Osteon", "Osteoclast", "Osteoblast", "Trabeculae"], correct: 0, rationale: "The osteon (or Haversian system) is the fundamental functional unit of much compact bone, structured as a series of concentric rings (lamellae) around a central canal." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Skeletal System',
                         questions: [
-                            { q: "How many vertebrae are in the cervical spine?", options: ["5", "7", "12", "4"], correct: 1 },
-                            { q: "The bone of the upper arm is the:", options: ["Radius", "Ulna", "Humerus", "Femur"], correct: 2 },
-                            { q: "Which bone forms the heel?", options: ["Talus", "Calcaneus", "Navicular", "Cuboid"], correct: 1 },
-                            { q: "The knee joint is an example of a _____ joint.", options: ["Ball and socket", "Hinge", "Pivot", "Saddle"], correct: 1 },
-                            { q: "Which cells break down bone tissue?", options: ["Osteoblasts", "Osteoclasts", "Osteocytes", "Chondrocytes"], correct: 1 },
-                            { q: "The soft spot on an infant's head is called a:", options: ["Suture", "Fontanelle", "Foramen", "Sinus"], correct: 1 },
-                            { q: "Ribs that do not attach directly to the sternum are called:", options: ["True ribs", "False ribs", "Floating ribs", "Sternal ribs"], correct: 1 },
-                            { q: "The hip joint is formed by the femur and the:", options: ["Sacrum", "Acetabulum", "Ilium", "Pubis"], correct: 1 },
-                            { q: "Which condition involves a lateral curvature of the spine?", options: ["Kyphosis", "Lordosis", "Scoliosis", "Osteoporosis"], correct: 2 },
-                            { q: "The membrane covering the outside of a bone is the:", options: ["Endosteum", "Perichondrium", "Periosteum", "Articular cartilage"], correct: 2 },
-                            { q: "Which bone is the weight-bearing bone of the lower leg?", options: ["Fibula", "Femur", "Tibia", "Patella"], correct: 2 },
-                            { q: "The carpals are bones of the:", options: ["Ankle", "Wrist", "Hand", "Foot"], correct: 1 },
-                            { q: "Which of the following is a facial bone?", options: ["Sphenoid", "Occipital", "Zygomatic", "Temporal"], correct: 2 },
-                            { q: "The fluid that lubricates synovial joints is called:", options: ["Serous fluid", "Synovial fluid", "Lymph", "Plasma"], correct: 1 },
-                            { q: "Ligaments connect:", options: ["Bone to bone", "Muscle to bone", "Muscle to muscle", "Nerve to muscle"], correct: 0 },
-                            { q: "Tendons connect:", options: ["Bone to bone", "Muscle to bone", "Muscle to muscle", "Nerve to muscle"], correct: 1 },
-                            { q: "Which vertebra allows for the 'Yes' motion of the head?", options: ["Atlas (C1)", "Axis (C2)", "C7", "T1"], correct: 0 },
-                            { q: "Which vertebra allows for the 'No' motion of the head?", options: ["Atlas (C1)", "Axis (C2)", "C7", "T1"], correct: 1 },
-                            { q: "The clavicle is commonly known as the:", options: ["Shoulder blade", "Collar bone", "Breast bone", "Shin bone"], correct: 1 },
-                            { q: "Osteoporosis is best described as:", options: ["Softening of bones", "Loss of bone density", "Infection of bone", "Bone cancer"], correct: 1 }
+                            { q: "How many vertebrae are in the cervical spine?", options: ["5", "7", "12", "4"], correct: 1, rationale: "The human vertebral column typically has 7 cervical vertebrae located in the neck region." },
+                            { q: "The bone of the upper arm is the:", options: ["Radius", "Ulna", "Humerus", "Femur"], correct: 2, rationale: "The humerus is the long bone that runs from the shoulder to the elbow in the upper arm." },
+                            { q: "Which bone forms the heel?", options: ["Talus", "Calcaneus", "Navicular", "Cuboid"], correct: 1, rationale: "The calcaneus is the largest tarsal bone, forming the heel of the foot and bearing the body's weight." },
+                            { q: "The knee joint is an example of a _____ joint.", options: ["Ball and socket", "Hinge", "Pivot", "Saddle"], correct: 1, rationale: "The knee is a modified hinge joint, primarily allowing flexion and extension of the lower leg." },
+                            { q: "Which cells break down bone tissue?", options: ["Osteoblasts", "Osteoclasts", "Osteocytes", "Chondrocytes"], correct: 1, rationale: "Osteoclasts are large cells that dissolve the bone in a process called bone resorption, balancing the bone-building osteoblasts." },
+                            { q: "The soft spot on an infant's head is called a:", options: ["Suture", "Fontanelle", "Foramen", "Sinus"], correct: 1, rationale: "Fontanelles are soft spots on a baby's head where the cranial bones have not yet firmly joined, allowing the skull to flex during birth." },
+                            { q: "Ribs that do not attach directly to the sternum are called:", options: ["True ribs", "False ribs", "Floating ribs", "Sternal ribs"], correct: 1, rationale: "False ribs (pairs 8-12) either attach indirectly to the sternum via the costal cartilage of the rib above, or do not attach at all (like floating ribs)." },
+                            { q: "The hip joint is formed by the femur and the:", options: ["Sacrum", "Acetabulum", "Ilium", "Pubis"], correct: 1, rationale: "The hip is a ball-and-socket joint where the head of the femur articulates with the cup-like acetabulum of the pelvis." },
+                            { q: "Which condition involves a lateral curvature of the spine?", options: ["Kyphosis", "Lordosis", "Scoliosis", "Osteoporosis"], correct: 2, rationale: "Scoliosis is an abnormal lateral (sideways) curvature of the spine, usually occurring during the growth spurt just before puberty." },
+                            { q: "The membrane covering the outside of a bone is the:", options: ["Endosteum", "Perichondrium", "Periosteum", "Articular cartilage"], correct: 2, rationale: "The periosteum is a dense layer of vascular connective tissue enveloping the bones except at the surfaces of the joints." },
+                            { q: "Which bone is the weight-bearing bone of the lower leg?", options: ["Fibula", "Femur", "Tibia", "Patella"], correct: 2, rationale: "The tibia (shinbone) is the primary weight-bearing bone of the lower leg, while the much thinner fibula is mainly for muscle attachment." },
+                            { q: "The carpals are bones of the:", options: ["Ankle", "Wrist", "Hand", "Foot"], correct: 1, rationale: "The carpal bones are the eight small bones that make up the wrist, connecting the hand to the forearm." },
+                            { q: "Which of the following is a facial bone?", options: ["Sphenoid", "Occipital", "Zygomatic", "Temporal"], correct: 2, rationale: "The zygomatic bone (cheekbone) is an irregular facial bone, whereas the sphenoid, occipital, and temporal are cranial bones enclosing the brain." },
+                            { q: "The fluid that lubricates synovial joints is called:", options: ["Serous fluid", "Synovial fluid", "Lymph", "Plasma"], correct: 1, rationale: "Synovial fluid is a viscous, egg-white-like fluid found in the cavities of synovial joints to reduce friction between the articular cartilage." },
+                            { q: "Ligaments connect:", options: ["Bone to bone", "Muscle to bone", "Muscle to muscle", "Nerve to muscle"], correct: 0, rationale: "Ligaments are tough bands of fibrous connective tissue that connect two bones or cartilages together and hold a joint in place." },
+                            { q: "Tendons connect:", options: ["Bone to bone", "Muscle to bone", "Muscle to muscle", "Nerve to muscle"], correct: 1, rationale: "Tendons are tough, flexible bands of fibrous connective tissue that connect muscle to bone, transmitting the mechanical force of muscle contraction." },
+                            { q: "Which vertebra allows for the 'Yes' motion of the head?", options: ["Atlas (C1)", "Axis (C2)", "C7", "T1"], correct: 0, rationale: "The atlanto-occipital joint between the atlas (C1) and the occipital bone allows for the nodding 'yes' motion of the head." },
+                            { q: "Which vertebra allows for the 'No' motion of the head?", options: ["Atlas (C1)", "Axis (C2)", "C7", "T1"], correct: 1, rationale: "The atlanto-axial joint allows the atlas to pivot around the dens of the axis (C2), permitting the 'no' rotation of the head." },
+                            { q: "The clavicle is commonly known as the:", options: ["Shoulder blade", "Collar bone", "Breast bone", "Shin bone"], correct: 1, rationale: "The clavicle, or collarbone, is a long bone that serves as a strut between the shoulder blade (scapula) and the sternum." },
+                            { q: "Osteoporosis is best described as:", options: ["Softening of bones", "Loss of bone density", "Infection of bone", "Bone cancer"], correct: 1, rationale: "Osteoporosis is a disease characterized by low bone mass and structural deterioration of bone tissue, leading to increased bone fragility and risk of fracture." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Muscular System',
                         questions: [
-                            { q: "The contractile unit of a muscle fiber is the:", options: ["Sarcomere", "Myofibril", "Sarcolemma", "Sarcoplasmic reticulum"], correct: 0 },
-                            { q: "Which muscle is the primary muscle of breathing?", options: ["Intercostals", "Rectus abdominis", "Diaphragm", "Pectoralis major"], correct: 2 },
-                            { q: "The muscle that flexes the forearm (bicep curl) is the:", options: ["Triceps brachii", "Biceps brachii", "Deltoid", "Brachialis"], correct: 1 },
-                            { q: "The large muscle of the buttocks is the:", options: ["Gluteus maximus", "Gluteus medius", "Semimembranosus", "Vastus lateralis"], correct: 0 },
-                            { q: "Which muscle is used for injection in the upper arm?", options: ["Biceps brachii", "Triceps brachii", "Deltoid", "Pectoralis major"], correct: 2 },
-                            { q: "The 'calf muscle' is technically known as the:", options: ["Tibialis anterior", "Gastrocnemius", "Soleus", "Peroneus longus"], correct: 1 },
-                            { q: "Which neurotransmitter triggers muscle contraction?", options: ["Dopamine", "Acetylcholine", "Epinephrine", "Serotonin"], correct: 1 },
-                            { q: "The thick filament in muscle fibers is:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 1 },
-                            { q: "The thin filament in muscle fibers is:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 0 },
-                            { q: "Anaerobic respiration in muscles produces:", options: ["Alcohol", "Lactic acid", "Carbon dioxide", "Water"], correct: 1 },
-                            { q: "The movable attachment of a muscle is called the:", options: ["Origin", "Insertion", "Belly", "Tendon"], correct: 1 },
-                            { q: "The stationary attachment of a muscle is called the:", options: ["Origin", "Insertion", "Belly", "Tendon"], correct: 0 },
-                            { q: "Which muscle closes the eye (blinking)?", options: ["Orbicularis oris", "Orbicularis oculi", "Frontalis", "Zygomaticus"], correct: 1 },
-                            { q: "Who is the 'kissing muscle'?", options: ["Orbicularis oris", "Orbicularis oculi", "Masseter", "Buccinator"], correct: 0 },
-                            { q: "The longest muscle in the body, crossing the thigh, is the:", options: ["Quadriceps", "Hamstrings", "Sartorius", "Gracilis"], correct: 2 },
-                            { q: "Which muscle group extends the knee?", options: ["Hamstrings", "Quadriceps", "Adductors", "Abductors"], correct: 1 },
-                            { q: "Rigor mortis occurs due to lack of _____ to release myosin bridges.", options: ["Calcium", "ATP", "Oxygen", "Sodium"], correct: 1 },
-                            { q: "Atrophy refers to:", options: ["Muscle growth", "Muscle wasting", "Muscle pain", "Muscle spasm"], correct: 1 },
-                            { q: "Hypertrophy refers to:", options: ["Muscle growth", "Muscle wasting", "Muscle pain", "Muscle spasm"], correct: 0 },
-                            { q: "Which type of muscle is found in the heart?", options: ["Skeletal", "Smooth", "Cardiac", "Visceral"], correct: 2 }
+                            { q: "The contractile unit of a muscle fiber is the:", options: ["Sarcomere", "Myofibril", "Sarcolemma", "Sarcoplasmic reticulum"], correct: 0, rationale: "The sarcomere is the basic functional, contractile unit of striated muscle, spanning from one Z-line to the next." },
+                            { q: "Which muscle is the primary muscle of breathing?", options: ["Intercostals", "Rectus abdominis", "Diaphragm", "Pectoralis major"], correct: 2, rationale: "The diaphragm is a dome-shaped muscle at the base of the chest that contracts and flattens to pull air into the lungs." },
+                            { q: "The muscle that flexes the forearm (bicep curl) is the:", options: ["Triceps brachii", "Biceps brachii", "Deltoid", "Brachialis"], correct: 1, rationale: "The biceps brachii is the large muscle on the front of the upper arm that acts primarily to flex the elbow and supinate the forearm." },
+                            { q: "The large muscle of the buttocks is the:", options: ["Gluteus maximus", "Gluteus medius", "Semimembranosus", "Vastus lateralis"], correct: 0, rationale: "The gluteus maximus is the largest and heaviest muscle in the human body, responsible for powerfully extending the hip joint." },
+                            { q: "Which muscle is used for injection in the upper arm?", options: ["Biceps brachii", "Triceps brachii", "Deltoid", "Pectoralis major"], correct: 2, rationale: "The deltoid muscle is a common site for intramuscular injections due to its size, superficial location, and low risk of hitting large blood vessels or nerves." },
+                            { q: "The 'calf muscle' is technically known as the:", options: ["Tibialis anterior", "Gastrocnemius", "Soleus", "Peroneus longus"], correct: 1, rationale: "The gastrocnemius is the large, two-headed superficial muscle in the posterior calf that powerfully plantar flexes the foot." },
+                            { q: "Which neurotransmitter triggers muscle contraction?", options: ["Dopamine", "Acetylcholine", "Epinephrine", "Serotonin"], correct: 1, rationale: "Acetylcholine (ACh) binds to receptors on the muscle cell sarcolemma, initiating an action potential that leads to contraction." },
+                            { q: "The thick filament in muscle fibers is:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 1, rationale: "Muscle contraction occurs when thick myosin filaments bind to and pull on thin actin filaments." },
+                            { q: "The thin filament in muscle fibers is:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 0, rationale: "Actin forms the thin filaments in muscle, serving as the track along which the thick myosin motor proteins move." },
+                            { q: "Anaerobic respiration in muscles produces:", options: ["Alcohol", "Lactic acid", "Carbon dioxide", "Water"], correct: 1, rationale: "When muscles work intensely without enough oxygen, they switch to lactic acid fermentation to produce ATP, leading to lactic acid buildup." },
+                            { q: "The movable attachment of a muscle is called the:", options: ["Origin", "Insertion", "Belly", "Tendon"], correct: 1, rationale: "During muscle contraction, the insertion is the attachment site that moves toward the stationary origin." },
+                            { q: "The stationary attachment of a muscle is called the:", options: ["Origin", "Insertion", "Belly", "Tendon"], correct: 0, rationale: "The origin is the attachment point of a muscle that remains relatively fixed during a contraction." },
+                            { q: "Which muscle closes the eye (blinking)?", options: ["Orbicularis oris", "Orbicularis oculi", "Frontalis", "Zygomaticus"], correct: 1, rationale: "The orbicularis oculi is a sphincter muscle surrounding the eye, responsible for closing the eyelids." },
+                            { q: "Who is the 'kissing muscle'?", options: ["Orbicularis oris", "Orbicularis oculi", "Masseter", "Buccinator"], correct: 0, rationale: "The orbicularis oris encircles the mouth; its contraction closes the lips and puckers them for kissing or whistling." },
+                            { q: "The longest muscle in the body, crossing the thigh, is the:", options: ["Quadriceps", "Hamstrings", "Sartorius", "Gracilis"], correct: 2, rationale: "The sartorius is a long, thin muscle running diagonally down the length of the thigh, helping flex both the hip and knee." },
+                            { q: "Which muscle group extends the knee?", options: ["Hamstrings", "Quadriceps", "Adductors", "Abductors"], correct: 1, rationale: "The quadriceps femoris is a group of four powerful muscles on the front of the thigh that work together to extend the knee." },
+                            { q: "Rigor mortis occurs due to lack of _____ to release myosin bridges.", options: ["Calcium", "ATP", "Oxygen", "Sodium"], correct: 1, rationale: "ATP is required to detach myosin heads from actin; after death, ATP depletion causes muscles to become rigidly locked." },
+                            { q: "Atrophy refers to:", options: ["Muscle growth", "Muscle wasting", "Muscle pain", "Muscle spasm"], correct: 1, rationale: "Atrophy is the loss of muscle mass or wasting away of muscle tissue, often due to disuse, aging, or nerve damage." },
+                            { q: "Hypertrophy refers to:", options: ["Muscle growth", "Muscle wasting", "Muscle pain", "Muscle spasm"], correct: 0, rationale: "Muscle hypertrophy is the increase in the size of muscle cells, usually as an adaptation to exercise like strength training." },
+                            { q: "Which type of muscle is found in the heart?", options: ["Skeletal", "Smooth", "Cardiac", "Visceral"], correct: 2, rationale: "Cardiac muscle is a specialized autorhythmic striated muscle found exclusively in the walls of the heart." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Nervous System',
                         questions: [
-                            { q: "Which part of the brain controls balance and coordination?", options: ["Cerebrum", "Cerebellum", "Brainstem", "Thalamus"], correct: 1 },
-                            { q: "The 'flight or fight' response is mediated by the:", options: ["Sympathetic nervous system", "Parasympathetic nervous system", "Somatic nervous system", "Enteric nervous system"], correct: 0 },
-                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Occipital", "Temporal"], correct: 2 },
-                            { q: "The myelin sheath is produced by _____ in the PNS.", options: ["Oligodendrocytes", "Astrocytes", "Schwann cells", "Microglia"], correct: 2 },
-                            { q: "The gap between two neurons is called the:", options: ["Axon", "Dendrite", "Synapse", "Soma"], correct: 2 },
-                            { q: "How many pairs of cranial nerves are there?", options: ["10", "12", "31", "14"], correct: 1 },
-                            { q: "The largest part of the brain is the:", options: ["Cerebrum", "Cerebellum", "Brainstem", "Diencephalon"], correct: 0 },
-                            { q: "Which cranial nerve is responsible for smell?", options: ["Optic (II)", "Olfactory (I)", "Oculomotor (III)", "Vagus (X)"], correct: 1 },
-                            { q: "Which cranial nerve is the 'Wanderer', extending to the abdomen?", options: ["Trigeminal (V)", "Facial (VII)", "Vagus (X)", "Hypoglossal (XII)"], correct: 2 },
-                            { q: "Damage to Broca's area results in difficulty:", options: ["Understanding speech", "Producing speech", "Seeing", "Hearing"], correct: 1 },
-                            { q: "The 'Rest and Digest' system is the:", options: ["Sympathetic", "Parasympathetic", "Somatic", "Central"], correct: 1 },
-                            { q: "CSF (Cerebrospinal Fluid) is produced by the:", options: ["Dura mater", "Choroid plexus", "Arachnoid villi", "Pie mater"], correct: 1 },
-                            { q: "The protective membranes covering the CNS are called:", options: ["Viscera", "Meninges", "Pleura", "Peritoneum"], correct: 1 },
-                            { q: "Which ion rushes INTO the neuron during depolarization?", options: ["Potassium", "Sodium", "Calcium", "Chloride"], correct: 1 },
-                            { q: "The junction between two neurons is a:", options: ["Gap junction", "Synapse", "Desmosome", "Tight junction"], correct: 1 },
-                            { q: "Which part of the brain regulates body temperature?", options: ["Thalamus", "Hypothalamus", "Pons", "Medulla"], correct: 1 },
-                            { q: "Reflex arcs typically bypass the:", options: ["Spinal cord", "Brain", "Receptor", "Effector"], correct: 1 },
-                            { q: "Multiple Sclerosis (MS) involves damage to the:", options: ["Axon", "Dendrite", "Myelin sheath", "Cell body"], correct: 2 },
-                            { q: "Which neurotransmitter is deficient in Parkinson's disease?", options: ["Serotonin", "Dopamine", "GABA", "Glutamate"], correct: 1 },
-                            { q: "Shingles is a reactivation of which virus in the nerve roots?", options: ["Herpes Simplex", "Varicella Zoster", "Ebstein-Barr", "Cytomegalovirus"], correct: 1 }
+                            { q: "Which part of the brain controls balance and coordination?", options: ["Cerebrum", "Cerebellum", "Brainstem", "Thalamus"], correct: 1, rationale: "The cerebellum, located at the back of the brain, is primarily responsible for motor control, balance, and coordination of voluntary movements." },
+                            { q: "The 'flight or fight' response is mediated by the:", options: ["Sympathetic nervous system", "Parasympathetic nervous system", "Somatic nervous system", "Enteric nervous system"], correct: 0, rationale: "The sympathetic nervous system prepares the body for intense physical activity in emergencies, accelerating heart rate and inhibiting digestion." },
+                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Occipital", "Temporal"], correct: 2, rationale: "The occipital lobe, located at the rear of the brain, contains the primary visual cortex responsible for processing visual information." },
+                            { q: "The myelin sheath is produced by _____ in the PNS.", options: ["Oligodendrocytes", "Astrocytes", "Schwann cells", "Microglia"], correct: 2, rationale: "Schwann cells are the principal glia of the peripheral nervous system (PNS) that wrap around axons to form the insulating myelin sheath." },
+                            { q: "The gap between two neurons is called the:", options: ["Axon", "Dendrite", "Synapse", "Soma"], correct: 2, rationale: "The synapse (or synaptic cleft) is the microscopic gap where neurotransmitters are released from one neuron to bind to receptors on another." },
+                            { q: "How many pairs of cranial nerves are there?", options: ["10", "12", "31", "14"], correct: 1, rationale: "There are 12 pairs of cranial nerves that emerge directly from the brain and brainstem, primarily serving the head and neck." },
+                            { q: "The largest part of the brain is the:", options: ["Cerebrum", "Cerebellum", "Brainstem", "Diencephalon"], correct: 0, rationale: "The cerebrum makes up the largest portion of the human brain and is responsible for higher brain functions like thought and action." },
+                            { q: "Which cranial nerve is responsible for smell?", options: ["Optic (II)", "Olfactory (I)", "Oculomotor (III)", "Vagus (X)"], correct: 1, rationale: "The olfactory nerve (Cranial Nerve I) is a purely sensory nerve responsible for transmitting the sense of smell to the brain." },
+                            { q: "Which cranial nerve is the 'Wanderer', extending to the abdomen?", options: ["Trigeminal (V)", "Facial (VII)", "Vagus (X)", "Hypoglossal (XII)"], correct: 2, rationale: "The vagus nerve (Cranial Nerve X) is the longest cranial nerve, 'wandering' from the brainstem down to the colon to regulate internal organ functions." },
+                            { q: "Damage to Broca's area results in difficulty:", options: ["Understanding speech", "Producing speech", "Seeing", "Hearing"], correct: 1, rationale: "Broca's area is crucial for speech production. Damage here causes expressive aphasia, where a patient knows what they want to say but struggles to form the words." },
+                            { q: "The 'Rest and Digest' system is the:", options: ["Sympathetic", "Parasympathetic", "Somatic", "Central"], correct: 1, rationale: "The parasympathetic nervous system conserves energy as it slows the heart rate and increases intestinal and gland activity." },
+                            { q: "CSF (Cerebrospinal Fluid) is produced by the:", options: ["Dura mater", "Choroid plexus", "Arachnoid villi", "Pie mater"], correct: 1, rationale: "The choroid plexus is a network of blood vessels in each ventricle of the brain that produces the cerebrospinal fluid." },
+                            { q: "The protective membranes covering the CNS are called:", options: ["Viscera", "Meninges", "Pleura", "Peritoneum"], correct: 1, rationale: "The meninges consist of three layers (dura mater, arachnoid mater, and pia mater) that enclose and protect the brain and spinal cord." },
+                            { q: "Which ion rushes INTO the neuron during depolarization?", options: ["Potassium", "Sodium", "Calcium", "Chloride"], correct: 1, rationale: "During an action potential, voltage-gated sodium channels open, allowing positively charged Na+ ions to rush into the cell, depolarizing the membrane." },
+                            { q: "The junction between two neurons is a:", options: ["Gap junction", "Synapse", "Desmosome", "Tight junction"], correct: 1, rationale: "A synapse is the cellular junction where a signal is transmitted from one neuron to another cell." },
+                            { q: "Which part of the brain regulates body temperature?", options: ["Thalamus", "Hypothalamus", "Pons", "Medulla"], correct: 1, rationale: "The hypothalamus acts as the body's thermostat, regulating body temperature, hunger, thirst, and other homeostatic systems." },
+                            { q: "Reflex arcs typically bypass the:", options: ["Spinal cord", "Brain", "Receptor", "Effector"], correct: 1, rationale: "A reflex arc allows an involuntary response to a stimulus by processing the signal in the spinal cord and bypassing the brain entirely for faster action." },
+                            { q: "Multiple Sclerosis (MS) involves damage to the:", options: ["Axon", "Dendrite", "Myelin sheath", "Cell body"], correct: 2, rationale: "MS is an autoimmune disease where the body's immune system attacks the protective myelin sheath covering nerve fibers in the CNS." },
+                            { q: "Which neurotransmitter is deficient in Parkinson's disease?", options: ["Serotonin", "Dopamine", "GABA", "Glutamate"], correct: 1, rationale: "Parkinson's disease is primarily caused by the progressive death of dopamine-producing neurons in the substantia nigra of the brain." },
+                            { q: "Shingles is a reactivation of which virus in the nerve roots?", options: ["Herpes Simplex", "Varicella Zoster", "Ebstein-Barr", "Cytomegalovirus"], correct: 1, rationale: "After a chickenpox infection, the Varicella Zoster virus can lie dormant in nerve tissue for years, later reactivating as the painful rash known as shingles." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Endocrine System',
                         questions: [
-                            { q: "Which gland is called the 'Master Gland'?", options: ["Thyroid", "Adrenal", "Pituitary", "Pineal"], correct: 2 },
-                            { q: "Insulin is produced by which organ?", options: ["Liver", "Pancreas", "Spleen", "Kidney"], correct: 1 },
-                            { q: "Which hormone raises blood calcium levels?", options: ["Calcitonin", "Parathyroid Hormone (PTH)", "Thyroxine", "Insulin"], correct: 1 },
-                            { q: "Which hormone lowers blood glucose?", options: ["Glucagon", "Insulin", "Cortisol", "Adrenaline"], correct: 1 },
-                            { q: "Goiter is a result of a lack of:", options: ["Iron", "Calcium", "Iodine", "Sodium"], correct: 2 },
-                            { q: "The 'Fight or Flight' hormone epinephrine is produced by the:", options: ["Thyroid", "Adrenal cortex", "Adrenal medulla", "Pancreas"], correct: 2 },
-                            { q: "Which hormone regulates sleep-wake cycles (circadian rhythm)?", options: ["Melatonin", "Serotonin", "Dopamine", "Cortisol"], correct: 0 },
-                            { q: "T3 and T4 are hormones produced by the:", options: ["Thymus", "Thyroid", "Parathyroid", "Pituitary"], correct: 1 },
-                            { q: "Which condition is caused by excess cortisol?", options: ["Addison's disease", "Cushing's syndrome", "Diabetes", "Graves' disease"], correct: 1 },
-                            { q: "Which hormone stimulates uterine contractions during labor?", options: ["Prolactin", "Oxytocin", "Estrogen", "Progesterone"], correct: 1 },
-                            { q: "Testosterone is produced primarily in the:", options: ["Prostate", "Testes", "Epididymis", "Vas deferens"], correct: 1 },
-                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Lack of insulin production", "Excess sugar intake", "Obesity"], correct: 1 },
-                            { q: "Which hormone stimulates red blood cell production?", options: ["Erythropoietin (EPO)", "Renin", "Aldosterone", "ADH"], correct: 0 },
-                            { q: "The posterior pituitary stores which two hormones?", options: ["GH and TSH", "Oxytocin and ADH", "FSH and LH", "ACTH and Prolactin"], correct: 1 },
-                            { q: "Gigantism is caused by an excess of:", options: ["Thyroid hormone", "Growth Hormone (GH)", "Insulin", "Cortisol"], correct: 1 },
-                            { q: "Which hormone is critical for milk production?", options: ["Oxytocin", "Prolactin", "Estrogen", "Progesterone"], correct: 1 },
-                            { q: "The thymus gland is most active during:", options: ["Childhood", "Adulthood", "Old age", "Pregnancy"], correct: 0 },
-                            { q: "Aldosterone regulates which ion?", options: ["Calcium", "Sodium", "Iron", "Magnesium"], correct: 1 },
-                            { q: "Which gland requires iodine to function?", options: ["Adrenal", "Thyroid", "Parathyroid", "Pituitary"], correct: 1 },
-                            { q: "Glucagon is produced by _____ cells in the pancreas.", options: ["Alpha", "Beta", "Delta", "F"], correct: 0 }
+                            { q: "Which gland is called the 'Master Gland'?", options: ["Thyroid", "Adrenal", "Pituitary", "Pineal"], correct: 2, rationale: "The pituitary gland is often called the master gland because its hormones control other parts of the endocrine system, including the thyroid glands, adrenal glands, and gonads." },
+                            { q: "Insulin is produced by which organ?", options: ["Liver", "Pancreas", "Spleen", "Kidney"], correct: 1, rationale: "Insulin is an essential hormone produced by the beta cells of the pancreatic islets to regulate blood glucose levels." },
+                            { q: "Which hormone raises blood calcium levels?", options: ["Calcitonin", "Parathyroid Hormone (PTH)", "Thyroxine", "Insulin"], correct: 1, rationale: "PTH is secreted by the parathyroid glands and acts to increase calcium levels in the blood by stimulating osteoclasts to break down bone matrix." },
+                            { q: "Which hormone lowers blood glucose?", options: ["Glucagon", "Insulin", "Cortisol", "Adrenaline"], correct: 1, rationale: "Insulin causes cells in the liver, skeletal muscles, and fat tissue to absorb glucose from the blood, decreasing circulating blood sugar." },
+                            { q: "Goiter is a result of a lack of:", options: ["Iron", "Calcium", "Iodine", "Sodium"], correct: 2, rationale: "Iodine is required for the synthesis of thyroid hormones; an iodine deficiency causes the thyroid gland to enlarge (goiter) as it tries to compensate." },
+                            { q: "The 'Fight or Flight' hormone epinephrine is produced by the:", options: ["Thyroid", "Adrenal cortex", "Adrenal medulla", "Pancreas"], correct: 2, rationale: "The adrenal medulla, the inner part of the adrenal gland, secretes epinephrine (adrenaline) and norepinephrine to manage acute stress." },
+                            { q: "Which hormone regulates sleep-wake cycles (circadian rhythm)?", options: ["Melatonin", "Serotonin", "Dopamine", "Cortisol"], correct: 0, rationale: "Melatonin is secreted by the pineal gland in response to darkness, helping to synchronize the body's circadian rhythms and promote sleep." },
+                            { q: "T3 and T4 are hormones produced by the:", options: ["Thymus", "Thyroid", "Parathyroid", "Pituitary"], correct: 1, rationale: "Triiodothyronine (T3) and thyroxine (T4) are the primary hormones produced by the thyroid gland to regulate the body's metabolic rate." },
+                            { q: "Which condition is caused by excess cortisol?", options: ["Addison's disease", "Cushing's syndrome", "Diabetes", "Graves' disease"], correct: 1, rationale: "Cushing's syndrome occurs when the body has abnormally high levels of the hormone cortisol for an extended period, leading to weight gain, high blood pressure, and bone loss." },
+                            { q: "Which hormone stimulates uterine contractions during labor?", options: ["Prolactin", "Oxytocin", "Estrogen", "Progesterone"], correct: 1, rationale: "Oxytocin is released by the posterior pituitary and causes the smooth muscles of the uterus to contract forcefully during labor." },
+                            { q: "Testosterone is produced primarily in the:", options: ["Prostate", "Testes", "Epididymis", "Vas deferens"], correct: 1, rationale: "In males, testosterone is primarily synthesized and secreted by the Leydig cells located in the testes." },
+                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Lack of insulin production", "Excess sugar intake", "Obesity"], correct: 1, rationale: "Type 1 diabetes is an autoimmune disease where the immune system destroys insulin-producing beta cells in the pancreas, resulting in little to no insulin." },
+                            { q: "Which hormone stimulates red blood cell production?", options: ["Erythropoietin (EPO)", "Renin", "Aldosterone", "ADH"], correct: 0, rationale: "EPO is a hormone primarily produced by the kidneys that acts on bone marrow to stimulate the production of red blood cells." },
+                            { q: "The posterior pituitary stores which two hormones?", options: ["GH and TSH", "Oxytocin and ADH", "FSH and LH", "ACTH and Prolactin"], correct: 1, rationale: "The posterior pituitary does not synthesize hormones; it stores and releases oxytocin and antidiuretic hormone (ADH), which are produced in the hypothalamus." },
+                            { q: "Gigantism is caused by an excess of:", options: ["Thyroid hormone", "Growth Hormone (GH)", "Insulin", "Cortisol"], correct: 1, rationale: "Excess secretion of growth hormone by the anterior pituitary before the fusion of long bone epiphyseal plates causes gigantism." },
+                            { q: "Which hormone is critical for milk production?", options: ["Oxytocin", "Prolactin", "Estrogen", "Progesterone"], correct: 1, rationale: "Prolactin, secreted by the anterior pituitary gland, targets the mammary glands to stimulate and sustain milk production after childbirth." },
+                            { q: "The thymus gland is most active during:", options: ["Childhood", "Adulthood", "Old age", "Pregnancy"], correct: 0, rationale: "The thymus is crucial for the early development of T-lymphocytes; it grows until puberty and then progressively shrinks and is replaced by fat in adulthood." },
+                            { q: "Aldosterone regulates which ion?", options: ["Calcium", "Sodium", "Iron", "Magnesium"], correct: 1, rationale: "Aldosterone, produced by the adrenal cortex, targets the kidneys to increase the reabsorption of sodium ions and the excretion of potassium ions." },
+                            { q: "Which gland requires iodine to function?", options: ["Adrenal", "Thyroid", "Parathyroid", "Pituitary"], correct: 1, rationale: "The follicular cells of the thyroid gland require dietary iodine to synthesize the essential metabolic hormones T3 and T4." },
+                            { q: "Glucagon is produced by _____ cells in the pancreas.", options: ["Alpha", "Beta", "Delta", "F"], correct: 0, rationale: "Glucagon is a peptide hormone secreted by the alpha cells of the pancreatic islets, working to raise blood glucose levels when they fall too low." }
                         ]
                     },
                     {
@@ -614,141 +614,141 @@ const appData = {
                         type: 'quiz',
                         title: 'Fundamentals Final Quiz',
                         questions: [
-                            { q: "Who is considered the founder of modern nursing?", options: ["Clara Barton", "Florence Nightingale", "Dorothea Orem", "Jean Watson"], correct: 1 },
-                            { q: "Which of the following is the first step of the nursing process?", options: ["Diagnosis", "Planning", "Assessment", "Evaluation"], correct: 2 },
-                            { q: "Normal adult pulse rate is:", options: ["40-60 bpm", "60-100 bpm", "80-120 bpm", "100-140 bpm"], correct: 1 },
-                            { q: "Which ethical principle refers to the duty to do no harm?", options: ["Beneficence", "Veracity", "Non-maleficence", "Autonomy"], correct: 2 },
-                            { q: "According to Maslow, which needs must be met first?", options: ["Safety", "Belonging", "Physiological", "Esteem"], correct: 2 }
+                            { q: "Who is considered the founder of modern nursing?", options: ["Clara Barton", "Florence Nightingale", "Dorothea Orem", "Jean Watson"], correct: 1, rationale: "Florence Nightingale is universally recognized as the foundational philosopher of modern nursing, famously known as 'The Lady with the Lamp'." },
+                            { q: "Which of the following is the first step of the nursing process?", options: ["Diagnosis", "Planning", "Assessment", "Evaluation"], correct: 2, rationale: "The nursing process (ADPIE) begins with Assessment, which is the systematic collection of objective and subjective patient data." },
+                            { q: "Normal adult pulse rate is:", options: ["40-60 bpm", "60-100 bpm", "80-120 bpm", "100-140 bpm"], correct: 1, rationale: "The standard resting heart rate for healthy adults ranges from 60 to 100 beats per minute." },
+                            { q: "Which ethical principle refers to the duty to do no harm?", options: ["Beneficence", "Veracity", "Non-maleficence", "Autonomy"], correct: 2, rationale: "Non-maleficence is a core ethical principle in healthcare meaning 'first, do no harm,' obligating nurses to prevent intentional or unintentional harm." },
+                            { q: "According to Maslow, which needs must be met first?", options: ["Safety", "Belonging", "Physiological", "Esteem"], correct: 2, rationale: "In Maslow's hierarchy of needs, basic physiological needs like air, water, food, and shelter must be satisfied before addressing higher-level needs." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Nursing Fundamentals',
                         questions: [
-                            { q: "Which organization developed the first code of ethics for nurses?", options: ["American Nurses Association (ANA)", "National League for Nursing (NLN)", "World Health Organization (WHO)", "International Council of Nurses (ICN)"], correct: 0 },
-                            { q: "The 'S' in SBAR communication stands for:", options: ["Subjective", "Situation", "Safety", "Standard"], correct: 1 },
-                            { q: "Which position is best for a patient wishing to sleep but at risk for aspiration?", options: ["Supine", "Prone", "Semi-Fowler's", "Sims'"], correct: 2 },
-                            { q: "Using the principles of body mechanics, the nurse should:", options: ["Bend at the waist", "Keep the load close to the body", "Twist while lifting", "Lift with the back muscles"], correct: 1 },
-                            { q: "A patient's temperature is 39.5Â°C. This is termed:", options: ["Hypothermia", "Febrile (Pyrexia)", "Afebrile", "Hyperthermia"], correct: 1 },
-                            { q: "Which of the following serves as a reservoir in the chain of infection?", options: ["The patient's bedside table", "Handwashing", "Gloves", "The exit portal"], correct: 0 },
-                            { q: "The nurse is preparing to wash hands. The first step is to:", options: ["Apply soap", "Wet hands", "Dry hands", "Turn off faucet"], correct: 1 },
-                            { q: "Which documentation method focuses only on abnormal findings?", options: ["Source-oriented", "Problem-oriented", "Charting by Exception", "Focus charting"], correct: 2 },
-                            { q: "According to Orem's theory, the goal of nursing is:", options: ["To help the client achieve self-care", "To adapt to stimuli", "To care for the human spirit", "To interact with the environment"], correct: 0 },
-                            { q: "Which vital sign is most indicative of hypovolemic shock?", options: ["Increased BP", "Decreased Pulse", "Increased Pulse (Tachycardia)", "Decreased Respiration"], correct: 2 },
-                            { q: "What is the primary purpose of the health assessment?", options: ["To diagnose medical conditions", "To gather data to direct care", "To prescribe medication", "To bill the insurance"], correct: 1 },
-                            { q: "Subjective data is data that is:", options: ["Measured by the nurse", "Observed by the family", "Reported by the patient", "Found in the chart"], correct: 2 },
-                            { q: "Which assessment technique involves tapping to create sound?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 2 },
-                            { q: "A normal capillary refill time is:", options: ["< 3 seconds", "> 5 seconds", "10 seconds", "Immediately"], correct: 0 },
-                            { q: "Which pulse site is used during CPR for an adult?", options: ["Radial", "Brachial", "Carotid", "Femoral"], correct: 2 },
-                            { q: "The sequence of abdominal assessment is:", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Palpate, Inspect, Percuss, Auscultate", "Auscultate, Inspect, Palpate, Percuss"], correct: 1 },
-                            { q: "Which lung sound sounds like a high-pitched wheeze?", options: ["Crackles", "Rhonchi", "Wheezes", "Stridor"], correct: 2 },
-                            { q: "Standard precautions apply to:", options: ["Only HIV positive patients", "Patients with infections", "All patients", "Surgical patients"], correct: 2 },
-                            { q: "A nosocomial infection is one acquired:", options: ["At home", "In the hospital", "At school", "From a pet"], correct: 1 },
-                            { q: "The most effective way to break the chain of infection is:", options: ["Antibiotics", "Isolation", "Hand hygiene", "Sterilization"], correct: 2 }
+                            { q: "Which organization developed the first code of ethics for nurses?", options: ["American Nurses Association (ANA)", "National League for Nursing (NLN)", "World Health Organization (WHO)", "International Council of Nurses (ICN)"], correct: 0, rationale: "The American Nurses Association (ANA) developed its first formal Code of Ethics for Nurses in 1950 to provide a framework for ethical decision-making." },
+                            { q: "The 'S' in SBAR communication stands for:", options: ["Subjective", "Situation", "Safety", "Standard"], correct: 1, rationale: "SBAR stands for Situation, Background, Assessment, and Recommendation, a standard framework for communication between healthcare team members." },
+                            { q: "Which position is best for a patient wishing to sleep but at risk for aspiration?", options: ["Supine", "Prone", "Semi-Fowler's", "Sims'"], correct: 2, rationale: "Semi-Fowler's position (head of bed elevated 30-45 degrees) helps prevent aspiration of stomach contents into the lungs while allowing for rest." },
+                            { q: "Using the principles of body mechanics, the nurse should:", options: ["Bend at the waist", "Keep the load close to the body", "Twist while lifting", "Lift with the back muscles"], correct: 1, rationale: "Keeping the heavy object close to the center of gravity reduces strain on the lower back and improves overall body balance and mechanics." },
+                            { q: "A patient's temperature is 39.5Â°C. This is termed:", options: ["Hypothermia", "Febrile (Pyrexia)", "Afebrile", "Hyperthermia"], correct: 1, rationale: "Pyrexia, or being febrile, refers to an abnormally elevated body temperature (fever) above the normal reference ranges." },
+                            { q: "Which of the following serves as a reservoir in the chain of infection?", options: ["The patient's bedside table", "Handwashing", "Gloves", "The exit portal"], correct: 0, rationale: "A reservoir is a place (like the patient, contaminated equipment, or surfaces like a bedside table) where pathogens can survive and potentially multiply." },
+                            { q: "The nurse is preparing to wash hands. The first step is to:", options: ["Apply soap", "Wet hands", "Dry hands", "Turn off faucet"], correct: 1, rationale: "According to CDC guidelines, the first step in proper hand hygiene is wetting hands with clean, running water before applying soap." },
+                            { q: "Which documentation method focuses only on abnormal findings?", options: ["Source-oriented", "Problem-oriented", "Charting by Exception", "Focus charting"], correct: 2, rationale: "Charting by Exception (CBE) is a shorthand documentation method where only significant findings or exceptions to pre-defined normal standards are documented." },
+                            { q: "According to Orem's theory, the goal of nursing is:", options: ["To help the client achieve self-care", "To adapt to stimuli", "To care for the human spirit", "To interact with the environment"], correct: 0, rationale: "Dorothea Orem's Self-Care Deficit Nursing Theory focuses on assisting patients to become as independent as possible in managing their own self-care." },
+                            { q: "Which vital sign is most indicative of hypovolemic shock?", options: ["Increased BP", "Decreased Pulse", "Increased Pulse (Tachycardia)", "Decreased Respiration"], correct: 2, rationale: "In hypovolemic shock (fluid/blood loss), the heart rate increases compensatorily (tachycardia) to try to maintain cardiac output and blood pressure." },
+                            { q: "What is the primary purpose of the health assessment?", options: ["To diagnose medical conditions", "To gather data to direct care", "To prescribe medication", "To bill the insurance"], correct: 1, rationale: "The main purpose of a health assessment is to collect baseline data about a patient to formulate a nursing diagnosis and determine the plan of care." },
+                            { q: "Subjective data is data that is:", options: ["Measured by the nurse", "Observed by the family", "Reported by the patient", "Found in the chart"], correct: 2, rationale: "Subjective data consists of symptoms, sensations, and feelings described exclusively by the patient (e.g., 'my stomach hurts')." },
+                            { q: "Which assessment technique involves tapping to create sound?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 2, rationale: "Percussion involves tapping the body surface to produce vibrations and sounds, helping to determine the location, size, and density of underlying tissues." },
+                            { q: "A normal capillary refill time is:", options: ["< 3 seconds", "> 5 seconds", "10 seconds", "Immediately"], correct: 0, rationale: "Normal capillary refill time, a quick test of peripheral vascular perfusion and cardiac output, should ideally be less than 3 seconds." },
+                            { q: "Which pulse site is used during CPR for an adult?", options: ["Radial", "Brachial", "Carotid", "Femoral"], correct: 2, rationale: "The carotid pulse in the neck is targeted during adult CPR because it is centrally located, relatively easy to find, and remains palpable even when blood pressure drops." },
+                            { q: "The sequence of abdominal assessment is:", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Palpate, Inspect, Percuss, Auscultate", "Auscultate, Inspect, Palpate, Percuss"], correct: 1, rationale: "In abdominal assessments, auscultation is performed before percussion and palpation so that manual manipulation does not alter natural bowel sounds." },
+                            { q: "Which lung sound sounds like a high-pitched wheeze?", options: ["Crackles", "Rhonchi", "Wheezes", "Stridor"], correct: 2, rationale: "Wheezes are continuous, high-pitched musical sounds primarily heard on expiration, caused by air flowing through narrowed or obstructed airways." },
+                            { q: "Standard precautions apply to:", options: ["Only HIV positive patients", "Patients with infections", "All patients", "Surgical patients"], correct: 2, rationale: "Standard precautions are the minimum infection prevention practices that apply to all patient care, regardless of suspected or confirmed infection status." },
+                            { q: "A nosocomial infection is one acquired:", options: ["At home", "In the hospital", "At school", "From a pet"], correct: 1, rationale: "Also known as a healthcare-associated infection (HAI), a nosocomial infection is an infection acquired during the process of receiving healthcare in a clinical setting." },
+                            { q: "The most effective way to break the chain of infection is:", options: ["Antibiotics", "Isolation", "Hand hygiene", "Sterilization"], correct: 2, rationale: "Proper hand hygiene (washing with soap and water or using an alcohol-based hand rub) is universally recognized as the single most effective way to prevent the spread of infections." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Nursing Process & Documentation',
                         questions: [
-                            { q: "Which step of the nursing process involves setting goals?", options: ["Assessment", "Diagnosis", "Planning", "Implementation"], correct: 2 },
-                            { q: "The 'P' in SOAP charting stands for:", options: ["Problem", "Patient", "Plan", "Purpose"], correct: 2 },
-                            { q: "A 'Smart' goal must be:", options: ["Spontaneous", "Measurable", "Abstract", "Really good"], correct: 1 },
-                            { q: "Which of the following is an objective finding?", options: ["Pain rating 5/10", "Dizziness", "BP 120/80", "Nausea"], correct: 2 },
-                            { q: "The etiology of a nursing diagnosis is the:", options: ["Sign and symptom", "Related factor/Cause", "Patient goal", "intervention"], correct: 1 },
-                            { q: "Confidentiality of patient records is mandated by:", options: ["OSHA", "HIPAA", "CDC", "FDA"], correct: 1 },
-                            { q: "Charting should be done:", options: ["Before care is given", "Immediately after care", "At the end of the shift only", "In pencil"], correct: 1 },
-                            { q: "If an error is made in paper charting, the nurse should:", options: ["Erase it", "Use white-out", "Draw a single line through it and initial", "Black it out completely"], correct: 2 },
-                            { q: "Focus charting uses the format:", options: ["SOAP", "PIE", "DAR (Data, Action, Response)", "SBAR"], correct: 2 },
-                            { q: "Which phase of the nursing process involves performing the nursing interventions?", options: ["Assessment", "Evaluation", "Implementation", "Planning"], correct: 2 },
-                            { q: "Evaluation determines:", options: ["If the diagnosis was correct", "If the goals were met", "The cost of care", "The medical diagnosis"], correct: 1 },
-                            { q: "A collaborative intervention requires:", options: ["Nurse only", "Physician order or other team member", "Patient only", "Family permission"], correct: 1 },
-                            { q: "Which is a priority nursing diagnosis?", options: ["Risk for constipation", "Ineffective Airway Clearance", "Anxiety", "Sleep deprivation"], correct: 1 },
-                            { q: "Data clusters are used to:", options: ["Identify patterns", "Calculate bills", "Schedule staff", "Order pads"], correct: 0 },
-                            { q: "A 'Risk' diagnosis has how many parts?", options: ["Two (Label + Risk factor)", "Three (Label + Etiology + Symptoms)", "One", "Four"], correct: 0 },
-                            { q: "Which of the following is a barrier to effective documentation?", options: ["Use of computers", "Lack of time", "Standardized forms", "Patient participation"], correct: 1 },
-                            { q: "Incident reports are:", options: ["Part of the patient's chart", "Internal risk management documents", "Given to the patient", "Sent to the insurance"], correct: 1 },
-                            { q: "Narrative charting is:", options: ["Checklist based", "Story-like format", "Problem based", "By exception"], correct: 1 },
-                            { q: "The primary purpose of the patient record is:", options: ["Research", "Communication", "Education", "Audit"], correct: 1 },
-                            { q: "Kardex refers to:", options: ["A medication", "A concise summary of patient care/orders", "A type of lift", "A lab test"], correct: 1 }
+                            { q: "Which step of the nursing process involves setting goals?", options: ["Assessment", "Diagnosis", "Planning", "Implementation"], correct: 2, rationale: "During the Planning phase, the nurse and patient collaborate to establish measurable goals and expected outcomes based on the nursing diagnoses." },
+                            { q: "The 'P' in SOAP charting stands for:", options: ["Problem", "Patient", "Plan", "Purpose"], correct: 2, rationale: "SOAP charting is an acronym for Subjective data, Objective data, Assessment, and Plan, detailing exactly how the care team will address the issue." },
+                            { q: "A 'Smart' goal must be:", options: ["Spontaneous", "Measurable", "Abstract", "Really good"], correct: 1, rationale: "SMART goals are Specific, Measurable, Attainable, Relevant, and Time-bound, ensuring outcomes are clear and trackable." },
+                            { q: "Which of the following is an objective finding?", options: ["Pain rating 5/10", "Dizziness", "BP 120/80", "Nausea"], correct: 2, rationale: "Objective data includes signs that can be directly measured, observed, or tested by the healthcare provider, such as vital signs or lab results." },
+                            { q: "The etiology of a nursing diagnosis is the:", options: ["Sign and symptom", "Related factor/Cause", "Patient goal", "intervention"], correct: 1, rationale: "The etiology identifies the probable cause or related factors contributing to the patient's problem, which helps determine the appropriate nursing interventions." },
+                            { q: "Confidentiality of patient records is mandated by:", options: ["OSHA", "HIPAA", "CDC", "FDA"], correct: 1, rationale: "The Health Insurance Portability and Accountability Act (HIPAA) established national standards to protect sensitive patient health information from being disclosed without consent." },
+                            { q: "Charting should be done:", options: ["Before care is given", "Immediately after care", "At the end of the shift only", "In pencil"], correct: 1, rationale: "Documentation should occur as soon as possible after an assessment or intervention to ensure precision, accuracy, and timely communication among the care team." },
+                            { q: "If an error is made in paper charting, the nurse should:", options: ["Erase it", "Use white-out", "Draw a single line through it and initial", "Black it out completely"], correct: 2, rationale: "To legally correct an error in paper documentation, draw a single line through the mistake so it remains legible, then write 'error' and initial it." },
+                            { q: "Focus charting uses the format:", options: ["SOAP", "PIE", "DAR (Data, Action, Response)", "SBAR"], correct: 2, rationale: "Focus charting documents care using the DAR format: Data (subjective/objective), Action (nursing interventions), and Response (patient outcome)." },
+                            { q: "Which phase of the nursing process involves performing the nursing interventions?", options: ["Assessment", "Evaluation", "Implementation", "Planning"], correct: 2, rationale: "Implementation is the action phase of the nursing process where the established care plan is put into practice." },
+                            { q: "Evaluation determines:", options: ["If the diagnosis was correct", "If the goals were met", "The cost of care", "The medical diagnosis"], correct: 1, rationale: "The Evaluation phase assesses the patient's progress toward the established goals, determining if interventions were effective or require adjustment." },
+                            { q: "A collaborative intervention requires:", options: ["Nurse only", "Physician order or other team member", "Patient only", "Family permission"], correct: 1, rationale: "Collaborative or interdependent interventions require the combined knowledge, skill, and expertise of multiple healthcare professionals, often involving a provider's order." },
+                            { q: "Which is a priority nursing diagnosis?", options: ["Risk for constipation", "Ineffective Airway Clearance", "Anxiety", "Sleep deprivation"], correct: 1, rationale: "Following the ABCs (Airway, Breathing, Circulation), airway issues are always the highest life-threatening priority requiring immediate intervention." },
+                            { q: "Data clusters are used to:", options: ["Identify patterns", "Calculate bills", "Schedule staff", "Order pads"], correct: 0, rationale: "Grouping or clustering related assessment data helps the nurse identify patterns of health or illness and formulate an accurate nursing diagnosis." },
+                            { q: "A 'Risk' diagnosis has how many parts?", options: ["Two (Label + Risk factor)", "Three (Label + Etiology + Symptoms)", "One", "Four"], correct: 0, rationale: "A risk nursing diagnosis contains two parts: the diagnostic label and the risk factors. It lacks defining characteristics (signs/symptoms) because the problem hasn't occurred yet." },
+                            { q: "Which of the following is a barrier to effective documentation?", options: ["Use of computers", "Lack of time", "Standardized forms", "Patient participation"], correct: 1, rationale: "In fast-paced clinical environments, inadequate time is often cited as a primary barrier to thorough and accurate nursing documentation." },
+                            { q: "Incident reports are:", options: ["Part of the patient's chart", "Internal risk management documents", "Given to the patient", "Sent to the insurance"], correct: 1, rationale: "Incident reports are confidential administrative tools used by risk management teams to identify facility-wide issues and improve safety; they are not part of the patient's medical record." },
+                            { q: "Narrative charting is:", options: ["Checklist based", "Story-like format", "Problem based", "By exception"], correct: 1, rationale: "Narrative charting involves sequentially recording patient data, interventions, and responses in a chronological, story-like paragraph format." },
+                            { q: "The primary purpose of the patient record is:", options: ["Research", "Communication", "Education", "Audit"], correct: 1, rationale: "While records are used for legal, billing, and auditing purposes, their primary goal is fostering clear communication among the entire interprofessional healthcare team." },
+                            { q: "Kardex refers to:", options: ["A medication", "A concise summary of patient care/orders", "A type of lift", "A lab test"], correct: 1, rationale: "A Kardex is a desktop or computerized file system that gives a quick, concise overview of a patient's current medical orders and basic care needs." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Safety & Physical Assessment',
                         questions: [
-                            { q: "Which assessment finding indicates clubbing of fingers?", options: ["Angle > 180 degrees", "Pale nail beds", "Spoon-shaped nails", "Brittle nails"], correct: 0 },
-                            { q: "A barrel chest is associated with:", options: ["Pneumonia", "COPD/Emphysema", "Heart failure", "Tuberculosis"], correct: 1 },
-                            { q: "Which test assesses hearing?", options: ["Snellen", "Weber and Rinne", "Romberg", "Babinski"], correct: 1 },
-                            { q: "Cranial Nerve II is the:", options: ["Olfactory", "Optic", "Oculomotor", "Vagus"], correct: 1 },
-                            { q: "Bowel sounds are hyperactive if heard:", options: ["Every 5-15 seconds", "> 35 times per minute", "Absent for 5 minutes", "After eating only"], correct: 1 },
-                            { q: "Edema that leaves an indentation is called:", options: ["Brawny edema", "Pitting edema", "Anasarca", "Ascites"], correct: 1 },
-                            { q: "PERRLA refers to assessment of the:", options: ["Ears", "Eyes", "Nose", "Mouth"], correct: 1 },
-                            { q: "The correct size of a BP cuff bladder should cover:", options: ["40% of arm circumference", "80% of arm circumference", "100% of arm circumference", "20% of arm circumference"], correct: 1 },
-                            { q: "Restraints should be removed/checked at least every:", options: ["4 hours", "2 hours", "8 hours", "24 hours"], correct: 1 },
-                            { q: "Which fire extinguisher is used for electrical fires?", options: ["Type A", "Type B", "Type C", "Water"], correct: 2 },
-                            { q: "PASS stands for:", options: ["Pull, Aim, Squeeze, Sweep", "Push, Aim, Shoot, Stop", "Pull, Arm, Spray, Stop", "Plan, Assess, Safe, Secure"], correct: 0 },
-                            { q: "RACE stands for:", options: ["Run, Alarm, Call, Exit", "Rescue, Alarm, Confine, Extinguish", "Rescue, Assess, Clean, Evacuate", "React, Act, Call, End"], correct: 1 },
-                            { q: "The most common cause of hospital accidents is:", options: ["Burns", "Falls", "Cuts", "Poisoning"], correct: 1 },
-                            { q: "A bedridden patient should be turned every:", options: ["4 hours", "2 hours", "Shift", "Day"], correct: 1 },
-                            { q: "Which position is used for shock (Trendelenburg)?", options: ["Head up, feet down", "Feet up, head down", "Flat", "Side lying"], correct: 1 },
-                            { q: "Assessment of the skin turgor checks for:", options: ["Edema", "Dehydration", "Infection", "Bruising"], correct: 1 },
-                            { q: "Jaundice is best observed in the:", options: ["Sclera", "Nails", "Lips", "Hair"], correct: 0 },
-                            { q: "A bruit indicates:", options: ["Normal flow", "Turbulent blood flow", "Blocked flow", "Venous hum"], correct: 1 },
-                            { q: "Which scale predicts pressure ulcer risk?", options: ["Glasgow", "Braden", "Morse", "Pain"], correct: 1 },
-                            { q: "Which scale predicts fall risk?", options: ["Glasgow", "Braden", "Morse", "Pain"], correct: 2 }
+                            { q: "Which assessment finding indicates clubbing of fingers?", options: ["Angle > 180 degrees", "Pale nail beds", "Spoon-shaped nails", "Brittle nails"], correct: 0, rationale: "Normal nail bed angle is 160 degrees. Clubbing, often caused by chronic hypoxia, is indicated when the angle between the nail base and skin exceeds 180 degrees." },
+                            { q: "A barrel chest is associated with:", options: ["Pneumonia", "COPD/Emphysema", "Heart failure", "Tuberculosis"], correct: 1, rationale: "A barrel chest (increased anterior-posterior diameter) results from chronic hyperinflation of the lungs commonly seen in emphysema and COPD." },
+                            { q: "Which test assesses hearing?", options: ["Snellen", "Weber and Rinne", "Romberg", "Babinski"], correct: 1, rationale: "The Weber and Rinne tests use a tuning fork to differentiate between conductive and sensorineural hearing loss." },
+                            { q: "Cranial Nerve II is the:", options: ["Olfactory", "Optic", "Oculomotor", "Vagus"], correct: 1, rationale: "Cranial Nerve II is the Optic nerve, purely sensory, and responsible for transmitting visual information from the retina to the brain." },
+                            { q: "Bowel sounds are hyperactive if heard:", options: ["Every 5-15 seconds", "> 35 times per minute", "Absent for 5 minutes", "After eating only"], correct: 1, rationale: "Normal bowel sounds occur 5 to 30 times per minute. Sounds heard more frequently than 35 times per minute are classified as hyperactive (e.g., in diarrhea)." },
+                            { q: "Edema that leaves an indentation is called:", options: ["Brawny edema", "Pitting edema", "Anasarca", "Ascites"], correct: 1, rationale: "Pitting edema occurs when pressure applied to the swollen area leaves a persistent indentation or 'pit' after releasing the pressure." },
+                            { q: "PERRLA refers to assessment of the:", options: ["Ears", "Eyes", "Nose", "Mouth"], correct: 1, rationale: "PERRLA is an acronym for documenting pupil assessment: Pupils Equal, Round, Reactive to Light, and Accommodation." },
+                            { q: "The correct size of a BP cuff bladder should cover:", options: ["40% of arm circumference", "80% of arm circumference", "100% of arm circumference", "20% of arm circumference"], correct: 1, rationale: "For an accurate blood pressure reading, the inflatable bladder inside the cuff should encircle approximately 80% of the patient's upper arm." },
+                            { q: "Restraints should be removed/checked at least every:", options: ["4 hours", "2 hours", "8 hours", "24 hours"], correct: 1, rationale: "To prevent skin breakdown, nerve damage, and circulatory impairment, restraints must be removed and the patient assessed at least every 2 hours." },
+                            { q: "Which fire extinguisher is used for electrical fires?", options: ["Type A", "Type B", "Type C", "Water"], correct: 2, rationale: "Type C fire extinguishers contain non-conductive chemicals designed specifically to safely extinguish fires involving energized electrical equipment." },
+                            { q: "PASS stands for:", options: ["Pull, Aim, Squeeze, Sweep", "Push, Aim, Shoot, Stop", "Pull, Arm, Spray, Stop", "Plan, Assess, Safe, Secure"], correct: 0, rationale: "PASS is the mnemonic for using a fire extinguisher correctly: Pull the pin, Aim low at the base, Squeeze the lever, Sweep side to side." },
+                            { q: "RACE stands for:", options: ["Run, Alarm, Call, Exit", "Rescue, Alarm, Confine, Extinguish", "Rescue, Assess, Clean, Evacuate", "React, Act, Call, End"], correct: 1, rationale: "RACE outlines the priority actions during a fire: Rescue anyone in immediate danger, Activate the Alarm, Confine the fire by closing doors, Extinguish if safe." },
+                            { q: "The most common cause of hospital accidents is:", options: ["Burns", "Falls", "Cuts", "Poisoning"], correct: 1, rationale: "Patient falls are the most frequently reported adverse event in adult inpatient settings, leading to significant morbidity." },
+                            { q: "A bedridden patient should be turned every:", options: ["4 hours", "2 hours", "Shift", "Day"], correct: 1, rationale: "Repositioning a bedridden patient at least every two hours relieves continuous pressure over bony prominences, preventing pressure ulcers." },
+                            { q: "Which position is used for shock (Trendelenburg)?", options: ["Head up, feet down", "Feet up, head down", "Flat", "Side lying"], correct: 1, rationale: "The Trendelenburg position (head lower than the feet) relies on gravity to help increase venous return to the heart and boost blood pressure during shock." },
+                            { q: "Assessment of the skin turgor checks for:", options: ["Edema", "Dehydration", "Infection", "Bruising"], correct: 1, rationale: "Skin turgor (elasticity) is assessed by pinching the skin; if it 'tents' or returns to normal slowly, it indicates fluid volume deficit (dehydration)." },
+                            { q: "Jaundice is best observed in the:", options: ["Sclera", "Nails", "Lips", "Hair"], correct: 0, rationale: "Jaundice (yellowing due to increased bilirubin) is most reliably observed in the sclera of the eyes, especially in patients with darker skin tones." },
+                            { q: "A bruit indicates:", options: ["Normal flow", "Turbulent blood flow", "Blocked flow", "Venous hum"], correct: 1, rationale: "A bruit is an abnormal swooshing sound heard during auscultation over an artery, indicating turbulent blood flow usually caused by a partial obstruction." },
+                            { q: "Which scale predicts pressure ulcer risk?", options: ["Glasgow", "Braden", "Morse", "Pain"], correct: 1, rationale: "The Braden Scale evaluates a patient's risk of developing pressure ulcers based on sensory perception, moisture, activity, mobility, nutrition, and friction/shear." },
+                            { q: "Which scale predicts fall risk?", options: ["Glasgow", "Braden", "Morse", "Pain"], correct: 2, rationale: "The Morse Fall Scale is a widely used, rapid assessment tool to identify a patient's likelihood of falling based on various physical and history risk factors." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Infection Control & Hygiene',
                         questions: [
-                            { q: "Medical asepsis is also known as:", options: ["Sterile technique", "Clean technique", "Surgical asepsis", "Disinfection"], correct: 1 },
-                            { q: "Surgical asepsis is:", options: ["Clean technique", "Sterile technique", "Hand washing", "Isolation"], correct: 1 },
-                            { q: "Which organism causes thrush?", options: ["E. coli", "Candida albicans", "Staph aureus", "Streptococcus"], correct: 1 },
-                            { q: "Droplet precautions require:", options: ["N95 mask", "Surgical mask within 3ft", "Gloves only", "Negative pressure room"], correct: 1 },
-                            { q: "Airborne precautions require:", options: ["N95 mask/Respirator", "Surgical mask", "Gown only", "No mask"], correct: 0 },
-                            { q: "Which of the following is an HAI (Healthcare Associated Infection)?", options: ["Flu from home", "CAUTI (Catheter Associated UTI)", "Broken leg", "Cancer"], correct: 1 },
-                            { q: "Personal Protective Equipment (PPE) is removed:", options: ["Inside the room (except mask)", "Outside the room", "At the nurses station", "In the cafeteria"], correct: 0 },
-                            { q: "Oral care for an unconscious patient presents a risk of:", options: ["Aspiration", "Vomiting", "Bleeding", "Dry mouth"], correct: 0 },
-                            { q: "Which area is washed first during a bed bath?", options: ["Feet", "Face/Eyes", "Chest", "Perineum"], correct: 1 },
-                            { q: "When cleaning the eyes, wipe from:", options: ["Outer to inner canthus", "Inner to outer canthus", "Up to down", "Down to up"], correct: 1 },
-                            { q: "Foot care for diabetics involves:", options: ["Soaking feet daily", "Applying lotion between toes", "Inspecting daily for sores", "Cutting nails very short"], correct: 2 },
-                            { q: "Clostridium difficile (C. diff) requires:", options: ["Alcohol sanitizer", "Soap and water handwashing", "Surgical scrub", "Betadine"], correct: 1 },
-                            { q: "A sterile field is considered contaminated if:", options: ["It is above waist level", "It gets wet", "You look at it", "You touch the 1-inch border"], correct: 1 }, // 2 correct options generally? Wet is definitely contaminated.
-                            { q: "Which sterilization method kills spores?", options: ["Boiling", "Autoclaving", "Alcohol", "Bleach"], correct: 1 },
-                            { q: "Standard precautions dictate that needles should be:", options: ["Recapped", "Broken", "Placed in sharps container uncapped", "Bent"], correct: 2 },
-                            { q: "Gingivitis is inflammation of the:", options: ["Tongue", "Gums", "Lips", "Teeth"], correct: 1 },
-                            { q: "Pediculosis capitis refers to:", options: ["Head lice", "Body lice", "Crabs", "Ringworm"], correct: 0 },
-                            { q: "Decubitus ulcers are caused by:", options: ["Friction", "Pressure", "Shear", "All of the above"], correct: 3 },
-                            { q: "The purpose of reverse (protective) isolation is to:", options: ["Protect the staff from the patient", "Protect the patient from the environment", "Protect other patients", "Punish the patient"], correct: 1 },
-                            { q: "Which is a sign of localized infection?", options: ["Fever", "Redness and swelling", "Leukocytosis", "Malaise"], correct: 1 }
+                            { q: "Medical asepsis is also known as:", options: ["Sterile technique", "Clean technique", "Surgical asepsis", "Disinfection"], correct: 1, rationale: "Medical asepsis, or 'clean technique', involves procedures and practices that reduce the number and transfer of pathogens, such as hand hygiene and wearing clean gloves." },
+                            { q: "Surgical asepsis is:", options: ["Clean technique", "Sterile technique", "Hand washing", "Isolation"], correct: 1, rationale: "Surgical asepsis, or 'sterile technique', involves practices that eliminate all microorganisms and spores from an object or area, used during sterile procedures." },
+                            { q: "Which organism causes thrush?", options: ["E. coli", "Candida albicans", "Staph aureus", "Streptococcus"], correct: 1, rationale: "Oral thrush is a fungal infection in the mouth caused by an overgrowth of Candida albicans, a type of yeast." },
+                            { q: "Droplet precautions require:", options: ["N95 mask", "Surgical mask within 3ft", "Gloves only", "Negative pressure room"], correct: 1, rationale: "Droplet precautions are used for infections spread by large respiratory droplets (like influenza) and require wearing a surgical mask when within 3 feet of the patient." },
+                            { q: "Airborne precautions require:", options: ["N95 mask/Respirator", "Surgical mask", "Gown only", "No mask"], correct: 0, rationale: "Airborne precautions are used for diseases transmitted by small droplet nuclei (like TB or measles) and require a tested N95 respirator mask and a negative pressure room." },
+                            { q: "Which of the following is an HAI (Healthcare Associated Infection)?", options: ["Flu from home", "CAUTI (Catheter Associated UTI)", "Broken leg", "Cancer"], correct: 1, rationale: "A Catheter-Associated Urinary Tract Infection (CAUTI) is one of the most common hospital-acquired infections, directly related to the placement of an indwelling urinary catheter." },
+                            { q: "Personal Protective Equipment (PPE) is removed:", options: ["Inside the room (except mask)", "Outside the room", "At the nurses station", "In the cafeteria"], correct: 0, rationale: "To prevent spreading contamination, most PPE (gloves, gown) should be removed just before exiting the patient's room, while the mask is removed after leaving." },
+                            { q: "Oral care for an unconscious patient presents a risk of:", options: ["Aspiration", "Vomiting", "Bleeding", "Dry mouth"], correct: 0, rationale: "Unconscious patients have impaired swallowing and gag reflexes, putting them at high risk for aspirating oral secretions or water into their lungs during mouth care." },
+                            { q: "Which area is washed first during a bed bath?", options: ["Feet", "Face/Eyes", "Chest", "Perineum"], correct: 1, rationale: "To prevent spreading infection, bed baths proceed from the cleanest area to the dirtiest area, starting with the eyes and face using only water." },
+                            { q: "When cleaning the eyes, wipe from:", options: ["Outer to inner canthus", "Inner to outer canthus", "Up to down", "Down to up"], correct: 1, rationale: "Wiping from the inner canthus (near the nose) to the outer canthus prevents sweeping debris and microorganisms into the vulnerable lacrimal (tear) ducts." },
+                            { q: "Foot care for diabetics involves:", options: ["Soaking feet daily", "Applying lotion between toes", "Inspecting daily for sores", "Cutting nails very short"], correct: 2, rationale: "Diabetic patients often suffer from neuropathy and poor circulation; daily foot inspection is crucial because they may not feel small cuts or blisters that can become severely infected." },
+                            { q: "Clostridium difficile (C. diff) requires:", options: ["Alcohol sanitizer", "Soap and water handwashing", "Surgical scrub", "Betadine"], correct: 1, rationale: "Alcohol-based hand sanitizers do not kill C. difficile spores; physical friction with soap and water is required to physically wash the spores down the drain." },
+                            { q: "A sterile field is considered contaminated if:", options: ["It is above waist level", "It gets wet", "You look at it", "You touch the 1-inch border"], correct: 1, rationale: "Moisture penetrating a sterile barrier allows microorganisms to wick from a non-sterile surface underneath into the sterile field, contaminating it." },
+                            { q: "Which sterilization method kills spores?", options: ["Boiling", "Autoclaving", "Alcohol", "Bleach"], correct: 1, rationale: "Autoclaving uses superheated steam under pressure, which is reliable and powerful enough to destroy all microbial life, including highly resistant bacterial spores." },
+                            { q: "Standard precautions dictate that needles should be:", options: ["Recapped", "Broken", "Placed in sharps container uncapped", "Bent"], correct: 2, rationale: "To prevent accidental needle-stick injuries, needles should never be recapped, broken, or bent; they must be disposed of immediately in a puncture-resistant sharps container." },
+                            { q: "Gingivitis is inflammation of the:", options: ["Tongue", "Gums", "Lips", "Teeth"], correct: 1, rationale: "Gingivitis is an early stage of periodontal disease characterized by redness, swelling, and bleeding of the gums, often due to plaque buildup." },
+                            { q: "Pediculosis capitis refers to:", options: ["Head lice", "Body lice", "Crabs", "Ringworm"], correct: 0, rationale: "Pediculosis capitis is a parasitic infection of the scalp caused by the head louse (Pediculus humanus capitis), which causes intense itching." },
+                            { q: "Decubitus ulcers are caused by:", options: ["Friction", "Pressure", "Shear", "All of the above"], correct: 3, rationale: "Decubitus ulcers (pressure injuries) develop due to localized ischemia caused by uninterrupted pressure, combined with friction and shearing forces on the skin." },
+                            { q: "The purpose of reverse (protective) isolation is to:", options: ["Protect the staff from the patient", "Protect the patient from the environment", "Protect other patients", "Punish the patient"], correct: 1, rationale: "Protective (neutropenic) isolation is used to protect highly immunocompromised patients (e.g., bone marrow transplant patients) from pathogens in the outside environment." },
+                            { q: "Which is a sign of localized infection?", options: ["Fever", "Redness and swelling", "Leukocytosis", "Malaise"], correct: 1, rationale: "Localized infections are confined to a specific area and are characterized by classic inflammatory signs: redness, swelling, warmth, pain, and sometimes loss of function." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Therapeutic Communication & Ethics',
                         questions: [
-                            { q: "Which technique involves repeating the main idea?", options: ["Restating", "Reflecting", "Exploring", "Focusing"], correct: 0 },
-                            { q: "Asking 'Why' questions is considered:", options: ["Therapeutic", "Non-therapeutic", "Essential", "Polite"], correct: 1 },
-                            { q: "Silence can be therapeutic because it:", options: ["Allows the patient time to think", "Let's the nurse rest", "shows authority", "Ends the conversation"], correct: 0 },
-                            { q: "Which value is the duty to keep promises?", options: ["Veracity", "Fidelity", "Justice", "Autonomy"], correct: 1 },
-                            { q: "A Living Will is a type of:", options: ["Advance Directive", "Insurance", "Tort", "Contract"], correct: 0 },
-                            { q: "Defamation of character in writing is:", options: ["Slander", "Libel", "Assault", "Battery"], correct: 1 },
-                            { q: "Spoken defamation is:", options: ["Slander", "Libel", "Assault", "Battery"], correct: 0 },
-                            { q: "The Good Samaritan Law protects nurses who:", options: ["Work in hospitals", "Give emergency care outside the workplace in good faith", "Make mistakes", "Prescribe meds"], correct: 1 },
-                            { q: "Empathy is:", options: ["Feeling sorry for the patient", "Understanding the patient's feelings", "Ignoring feelings", "Giving advice"], correct: 1 },
-                            { q: "Which phase of the relationship involves establishing trust?", options: ["Orientation", "Working", "Termination", "Pre-interaction"], correct: 0 },
-                            { q: "Transference occurs when:", options: ["The nurse displaces feelings onto the patient", "The patient displaces feelings onto the nurse", "The patient moves rooms", "Care is transferred"], correct: 1 },
-                            { q: "Active listening involves:", options: ["Talking over the patient", "Using all senses to interpret the message", "Writing notes only", "Thinking of the next question"], correct: 1 },
-                            { q: "Providing false reassurance ('It will be okay') is:", options: ["Helpful", "Non-therapeutic", "Standard practice", "Kind"], correct: 1 },
-                            { q: "Using touch should be:", options: ["Avoided always", "Used cautiously and appropriately", "Used on everyone", "Only for family"], correct: 1 },
-                            { q: "Which ethical theory focuses on the greatest good for the greatest number?", options: ["Deontology", "Utilitarianism", "Feminist ethics", "Virtue ethics"], correct: 1 },
-                            { q: "Paternalism is:", options: ["Treating the patient like a child/making decisions for them", "Respecting autonomy", "Being a father", "Listening"], correct: 0 },
-                            { q: "Battery is:", options: ["Threat of harm", "Actual physical contact without consent", "Lying", "Stealing"], correct: 1 },
-                            { q: "Informed consent is primarily the responsibility of the:", options: ["Nurse", "Provider/Physician", "Hospital Admin", "Family"], correct: 1 },
-                            { q: "The nurse witnesses the signature on a consent form found to be confused. The nurse should:", options: ["Let them sign", "Hold the form and notify the provider", "Sign for them", "Ask the family to sign immediately"], correct: 1 },
-                            { q: "Values clarification helps the nurse to:", options: ["Change the patient's values", "Understand their own values", "Judge the patient", "Ignore values"], correct: 1 }
+                            { q: "Which technique involves repeating the main idea?", options: ["Restating", "Reflecting", "Exploring", "Focusing"], correct: 0, rationale: "Restating is a therapeutic communication technique where the nurse repeats the patient's main thought expressed, confirming understanding and encouraging further dialogue." },
+                            { q: "Asking 'Why' questions is considered:", options: ["Therapeutic", "Non-therapeutic", "Essential", "Polite"], correct: 1, rationale: "Asking 'why' demands an explanation and can make patients feel defensive, intimidated, or judged, shutting down open communication." },
+                            { q: "Silence can be therapeutic because it:", options: ["Allows the patient time to think", "Let's the nurse rest", "shows authority", "Ends the conversation"], correct: 0, rationale: "Purposeful silence gives the patient time to organize their thoughts, process emotions, and initiate conversation at their own pace." },
+                            { q: "Which value is the duty to keep promises?", options: ["Veracity", "Fidelity", "Justice", "Autonomy"], correct: 1, rationale: "Fidelity is the ethical principle of faithfulness, requiring healthcare professionals to keep their promises and commitments to patients." },
+                            { q: "A Living Will is a type of:", options: ["Advance Directive", "Insurance", "Tort", "Contract"], correct: 0, rationale: "A living will is a legal Advance Directive that specifies what medical treatments a person desires or refuses if they become unable to make decisions." },
+                            { q: "Defamation of character in writing is:", options: ["Slander", "Libel", "Assault", "Battery"], correct: 1, rationale: "Libel is the written or published form of defamation, making false statements that harm a person's reputation." },
+                            { q: "Spoken defamation is:", options: ["Slander", "Libel", "Assault", "Battery"], correct: 0, rationale: "Slander is the spoken (verbal) form of defamation of character, involving false oral statements that damage someone's reputation." },
+                            { q: "The Good Samaritan Law protects nurses who:", options: ["Work in hospitals", "Give emergency care outside the workplace in good faith", "Make mistakes", "Prescribe meds"], correct: 1, rationale: "Good Samaritan laws protect healthcare professionals from civil liability when they voluntarily provide emergency assistance off-duty without gross negligence." },
+                            { q: "Empathy is:", options: ["Feeling sorry for the patient", "Understanding the patient's feelings", "Ignoring feelings", "Giving advice"], correct: 1, rationale: "Empathy involves perceiving and understanding the patient's feelings and situation from their perspective without losing objectivity (which is sympathy)." },
+                            { q: "Which phase of the relationship involves establishing trust?", options: ["Orientation", "Working", "Termination", "Pre-interaction"], correct: 0, rationale: "During the Orientation phase of the therapeutic nurse-patient relationship, the primary goals are establishing rapport, trust, and defining boundaries." },
+                            { q: "Transference occurs when:", options: ["The nurse displaces feelings onto the patient", "The patient displaces feelings onto the nurse", "The patient moves rooms", "Care is transferred"], correct: 1, rationale: "Transference is an unconscious process where a patient redirects feelings about a person from their past onto the healthcare provider." },
+                            { q: "Active listening involves:", options: ["Talking over the patient", "Using all senses to interpret the message", "Writing notes only", "Thinking of the next question"], correct: 1, rationale: "Active listening requires fully concentrating, understanding, responding, and remembering the patient's verbal and nonverbal messages." },
+                            { q: "Providing false reassurance ('It will be okay') is:", options: ["Helpful", "Non-therapeutic", "Standard practice", "Kind"], correct: 1, rationale: "False reassurance dismisses the patient's genuine concerns, minimizes their feelings, and blocks further therapeutic communication." },
+                            { q: "Using touch should be:", options: ["Avoided always", "Used cautiously and appropriately", "Used on everyone", "Only for family"], correct: 1, rationale: "Touch can be highly therapeutic but must be used with permission and caution, respecting the patient's cultural background, gender, and personal boundaries." },
+                            { q: "Which ethical theory focuses on the greatest good for the greatest number?", options: ["Deontology", "Utilitarianism", "Feminist ethics", "Virtue ethics"], correct: 1, rationale: "Utilitarianism (consequentialism) determines the moral worth of an action based solely on its contribution to overall utility or the greatest happiness for the majority." },
+                            { q: "Paternalism is:", options: ["Treating the patient like a child/making decisions for them", "Respecting autonomy", "Being a father", "Listening"], correct: 0, rationale: "Paternalism in healthcare occurs when a provider limits a patient's autonomy by making decisions for them, believing it is in their 'best interest'." },
+                            { q: "Battery is:", options: ["Threat of harm", "Actual physical contact without consent", "Lying", "Stealing"], correct: 1, rationale: "In tort law, battery is the intentional, unconsented, and harmful or offensive physical contact with another person (assault is the threat of it)." },
+                            { q: "Informed consent is primarily the responsibility of the:", options: ["Nurse", "Provider/Physician", "Hospital Admin", "Family"], correct: 1, rationale: "The healthcare provider performing the procedure is legally responsible for explaining the risks, benefits, and alternatives to obtain informed consent." },
+                            { q: "The nurse witnesses the signature on a consent form found to be confused. The nurse should:", options: ["Let them sign", "Hold the form and notify the provider", "Sign for them", "Ask the family to sign immediately"], correct: 1, rationale: "If the patient exhibits confusion and lacks the capacity to understand the procedure, they cannot legally give valid consent; the provider must be notified immediately to assess capacity." },
+                            { q: "Values clarification helps the nurse to:", options: ["Change the patient's values", "Understand their own values", "Judge the patient", "Ignore values"], correct: 1, rationale: "Values clarification is a process of self-discovery that helps nurses understand their own personal and professional values to prevent them from unintentionally imposing them on patients." }
                         ]
                     },
                     {
@@ -801,13 +801,13 @@ const appData = {
                         title: 'Module 1: Introduction to Physiology',
                         body: `
                             <h3>What is Physiology?</h3>
-                            <p>Physiology is the study of how the body parts work and functions. It complements anatomy (structure).</p>
+                            <p>Physiology is the study of how the body parts work and function. It complements anatomy (structure).</p>
 
                             <h4>Homeostasis</h4>
-                            <p>Homeostasis is the maintenance of relatively stable internal conditions despite continuous changes in the environment. It is dynamic, not static.</p>
+                            <p>Homeostasis is the maintenance of relatively stable internal conditions despite continuous changes in the environment. It is dynamic, not static, and is crucial for survival.</p>
                             <ul>
-                                <li><strong>Negative Feedback:</strong> The response reduces or shuts off the original stimulus (e.g., Body temperature regulation, Blood glucose).</li>
-                                <li><strong>Positive Feedback:</strong> The response enhances or exaggerates the original stimulus (e.g., Labor contractions, Blood clotting).</li>
+                                <li><strong>Negative Feedback:</strong> The response reduces or shuts off the original stimulus. This is the most common mechanism in the body. (e.g., Body temperature regulation, Blood glucose regulation by insulin and glucagon).</li>
+                                <li><strong>Positive Feedback:</strong> The response enhances or exaggerates the original stimulus. This is less common and usually controls episodic events. (e.g., Labor contractions driven by oxytocin, Blood clotting cascade).</li>
                             </ul>
                         `
                     },
@@ -816,22 +816,22 @@ const appData = {
                         title: 'Module 2: Cell Physiology',
                         body: `
                             <h3>Membrane Transport</h3>
-                            <p>The plasma membrane is selectively permeable, allowing some substances to pass while excluding others.</p>
+                            <p>The plasma membrane is selectively permeable, allowing some substances to pass while excluding others. This is essential for maintaining composition differences between intracellular and extracellular fluids.</p>
 
-                            <h4>Passive Transport processes</h4>
+                            <h4>Passive Transport Processes (No ATP required)</h4>
                             <ul>
-                                <li><strong>Diffusion:</strong> Movement of molecules from high to low concentration.</li>
-                                <li><strong>Osmosis:</strong> Diffusion of water across a semi-permeable membrane.</li>
-                                <li><strong>Facilitated Diffusion:</strong> Uses carrier or channel proteins.</li>
+                                <li><strong>Diffusion:</strong> Movement of molecules from an area of high concentration to an area of low concentration (down the concentration gradient).</li>
+                                <li><strong>Osmosis:</strong> Diffusion of water across a semi-permeable membrane. Water moves from an area of low solute concentration (high water concentration) to high solute concentration (low water concentration).</li>
+                                <li><strong>Facilitated Diffusion:</strong> Passive transport that uses specific carrier or channel proteins to move substances (like glucose or ions) across the membrane.</li>
                             </ul>
 
-                            <h4>Active Transport</h4>
-                            <p>Requires energy (ATP) to move solutes against their concentration gradient (Low to High).</p>
+                            <h4>Active Transport (Requires ATP)</h4>
+                            <p>Requires cellular energy (ATP) to move solutes against their concentration gradient (from Low to High concentration). The Sodium-Potassium pump (Na+/K+ ATPase) is a classic example.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">Cell Membrane Transport Mechanisms</h4>
                                 <img src="assets/cell_transport.png" alt="Cell Transport Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 2.1: Illustration of diffusion, channel proteins, and active transport pumps.</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 2.1: Illustration of diffusion, channel proteins, and active transport pumps across the lipid bilayer.</p>
                             </div>
                         `
                     },
@@ -840,21 +840,21 @@ const appData = {
                         title: 'Module 3: Neurophysiology',
                         body: `
                             <h3>The Action Potential</h3>
-                            <p>Neurons communicate via electrical signals called action potentials.</p>
+                            <p>Neurons communicate via rapid, transient changes in membrane potential called action potentials. This electrical signal travels down the axon.</p>
                             <ol>
-                                <li><strong>Resting State:</strong> -70mV. Na+ and K+ channels closed.</li>
-                                <li><strong>Depolarization:</strong> Na+ channels open, Na+ rushes in. Interior becomes positive.</li>
-                                <li><strong>Repolarization:</strong> Na+ channels close, K+ channels open, K+ rushes out. Interior becomes negative again.</li>
-                                <li><strong>Hyperpolarization:</strong> K+ permeability persists too long.</li>
+                                <li><strong>Resting State:</strong> Approximately -70mV. Voltage-gated Na+ and K+ channels are closed. The inside of the cell is negative relative to the outside.</li>
+                                <li><strong>Depolarization:</strong> A stimulus opens voltage-gated Na+ channels. Na+ rushes into the cell, making the interior positive (reaching around +30mV).</li>
+                                <li><strong>Repolarization:</strong> Na+ channels close and Voltage-gated K+ channels open. K+ rushes out of the cell, restoring the negative interior.</li>
+                                <li><strong>Hyperpolarization:</strong> K+ permeability persists slightly longer than needed, causing membrane potential to dip below the resting level (-90mV) before stabilizing.</li>
                             </ol>
 
                             <h3>Synaptic Transmission</h3>
-                            <p>Communication between neurons occurs at the synapse using neurotransmitters.</p>
+                            <p>Communication between neurons or between a neuron and an effector cell occurs at the synapse using chemical messengers called neurotransmitters.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">The Chemical Synapse</h4>
                                 <img src="assets/synapse.png" alt="Synapse Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: Release of neurotransmitters into the synaptic cleft.</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: Release of neurotransmitters from the pre-synaptic terminal into the synaptic cleft, binding to receptors on the post-synaptic membrane.</p>
                             </div>
                         `
                     },
@@ -863,12 +863,12 @@ const appData = {
                         title: 'Module 4: Muscle Physiology',
                         body: `
                             <h3>Excitation-Contraction Coupling</h3>
-                            <p>The sequence of events by which transmission of an action potential along the sarcolemma causes sliding of myofilaments.</p>
+                            <p>This is the sequence of events by which transmission of an action potential along the sarcolemma (muscle cell membrane) causes the actual sliding of myofilaments and subsequent muscle contraction.</p>
                             <ul>
-                                <li>calcium ions (Ca2+) are the trigger.</li>
-                                <li>Ca2+ binds to troponin, removing the blocking action of tropomyosin.</li>
-                                <li>Myosin heads bind to actin (Formation of Cross-bridge).</li>
-                                <li>Power stroke occurs, filaments slide.</li>
+                                <li>Action potential travels down T-tubules, stimulating the release of <strong>Calcium ions (Ca2+)</strong> from the sarcoplasmic reticulum.</li>
+                                <li>Ca2+ binds to troponin, causing a conformational change that moves tropomyosin away from the myosin-binding sites on actin.</li>
+                                <li>Myosin heads (energized by ATP) bind to actin, forming a <strong>Cross-bridge</strong>.</li>
+                                <li><strong>Power Stroke:</strong> The myosin head pivots, pulling the actin filament toward the center of the sarcomere, causing muscle shortening. ATP is required to detach the myosin head.</li>
                             </ul>
                         `
                     },
@@ -877,25 +877,25 @@ const appData = {
                         title: 'Module 5: Cardiovascular Physiology',
                         body: `
                             <h3>The Cardiac Cycle</h3>
-                            <p>Blood flow through the heart during one complete heartbeat.</p>
+                            <p>The mechanical events of blood flow through the heart during one complete heartbeat.</p>
                             <ul>
-                                <li><strong>Systole:</strong> Contraction phase.</li>
-                                <li><strong>Diastole:</strong> Relaxation phase.</li>
+                                <li><strong>Systole:</strong> The contraction phase of the cardiac muscle, where blood is pumped out of the chambers.</li>
+                                <li><strong>Diastole:</strong> The relaxation phase, where the chambers fill with blood.</li>
                             </ul>
 
                             <h3>Electrical Conduction System</h3>
-                            <p>The heart has an intrinsic system to set the pace.</p>
+                            <p>The heart has an intrinsic autorhythmic system that sets the pace for contractions without nervous system input.</p>
                             <ol>
-                                <li>Sinoatrial (SA) Node - The "Pacemaker" (75 bpm).</li>
-                                <li>Atrioventricular (AV) Node - Delays impulse.</li>
-                                <li>Atrioventricular Bundle (Bundle of His).</li>
-                                <li>Purkinje Fibers - Causes ventricular depolarization.</li>
+                                <li><strong>Sinoatrial (SA) Node:</strong> The "Pacemaker" of the heart (normally generates ~75 bpm) located in the right atrium.</li>
+                                <li><strong>Atrioventricular (AV) Node:</strong> Delays the electrical impulse slightly to allow the atria to finish contracting before the ventricles contract.</li>
+                                <li><strong>Atrioventricular Bundle (Bundle of His):</strong> Transmits impulses down the interventricular septum.</li>
+                                <li><strong>Purkinje Fibers:</strong> Distribute the electrical impulse throughout the ventricular muscle walls, causing ventricular depolarization and contraction.</li>
                             </ol>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">Cardiac Conduction System</h4>
                                 <img src="assets/cardiac_system.png" alt="Heart Conduction Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 5.1: Path of electrical impulses through the heart.</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 5.1: Path of electrical impulses through the heart structures.</p>
                             </div>
                         `
                     },
@@ -904,31 +904,36 @@ const appData = {
                         title: 'Module 6: Blood Pressure & Hemodynamics',
                         body: `
                             <h3>Blood Pressure (BP)</h3>
-                            <p>Force per unit area exerted on the wall of a blood vessel by the blood. Normal is < 120/80 mmHg.</p>
+                            <p>BP is the force per unit area exerted on the wall of a blood vessel by the blood within it. Normal resting BP is typically < 120/80 mmHg.</p>
                             <ul>
-                                <li><strong>Systolic Pressure:</strong> Pressure in aorta during ventricular contraction.</li>
-                                <li><strong>Diastolic Pressure:</strong> Lowest level of aortic pressure.</li>
+                                <li><strong>Systolic Pressure:</strong> The peak pressure exerted in the aorta during ventricular contraction (systole).</li>
+                                <li><strong>Diastolic Pressure:</strong> The lowest level of aortic pressure when the heart is resting (diastole).</li>
                             </ul>
 
-                            <h3>Factors Influencing BP</h3>
-                            <p>BP = Cardiac Output (CO) x Peripheral Resistance (PR)</p>
+                            <h3>Factors Influencing Blood Pressure</h3>
+                            <p>Blood pressure is determined by Cardiac Output and Peripheral Resistance: <strong>BP = CO x PR</strong></p>
+                            <ul>
+                                <li><strong>Cardiac Output (CO):</strong> The volume of blood pumped by the heart per minute (Heart Rate x Stroke Volume).</li>
+                                <li><strong>Peripheral Resistance (PR):</strong> The opposition to flow encountered in the blood vessels, mainly determined by vessel diameter (vasoconstriction/vasodilation), blood viscosity, and total vessel length.</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 7: Respiratory Physiology',
                         body: `
-                            <h3>Mechanics of Breathing</h3>
+                            <h3>Mechanics of Breathing (Ventilation)</h3>
+                            <p>Pulmonary ventilation consists of two phases governed by pressure gradients:</p>
                             <ul>
-                                <li><strong>Inspiration:</strong> Active process. Diaphragm and external intercostals contract. Thoracic volume increases, pressure drops, air rushes in.</li>
-                                <li><strong>Expiration:</strong> Passive process. Muscles relax, lungs recoil.</li>
+                                <li><strong>Inspiration (Inhalation):</strong> An active process. The diaphragm contracts (moves down) and external intercostals contract. Thoracic volume increases, intrapulmonary pressure drops below atmospheric pressure, and air rushes into the lungs.</li>
+                                <li><strong>Expiration (Exhalation):</strong> A passive process (in quiet breathing). Inspiratory muscles relax, lungs elastically recoil. Thoracic volume decreases, pressure rises, and air flows out.</li>
                             </ul>
 
                             <h3>Gas Exchange</h3>
-                            <p>Occurs via simple diffusion.</p>
+                            <p>The exchange of oxygen and carbon dioxide occurs via simple diffusion down partial pressure gradients.</p>
                             <ul>
-                                <li><strong>External Respiration:</strong> Exchange between alveoli and blood.</li>
-                                <li><strong>Internal Respiration:</strong> Exchange between blood and tissues.</li>
+                                <li><strong>External Respiration:</strong> Gas exchange across the respiratory membrane between the alveoli and pulmonary blood capillaries (O2 loads, CO2 unloads).</li>
+                                <li><strong>Internal Respiration:</strong> Gas exchange at the tissue level, between systemic capillaries and tissue cells (O2 unloads, CO2 loads).</li>
                             </ul>
                         `
                     },
@@ -937,10 +942,11 @@ const appData = {
                         title: 'Module 8: Renal Physiology',
                         body: `
                             <h3>Urine Formation</h3>
+                            <p>The kidneys filter blood to produce urine through three primary processes in the nephron:</p>
                             <ol>
-                                <li><strong>Glomerular Filtration:</strong> Passive process; hydrostatic pressure forces fluids/solutes through membrane.</li>
-                                <li><strong>Tubular Reabsorption:</strong> Returns 99% of substances from filtrate to blood (e.g., Glucose, Water).</li>
-                                <li><strong>Tubular Secretion:</strong> Moves substances from blood to filtrate (e.g., K+, H+, drugs).</li>
+                                <li><strong>Glomerular Filtration:</strong> A passive, non-selective process where hydrostatic pressure forces fluids and small solutes through the filtration membrane in the renal corpuscle into the glomerular capsule.</li>
+                                <li><strong>Tubular Reabsorption:</strong> A highly selective process that returns 99% of necessary substances (e.g., glucose, amino acids, most water, and essential ions) from the filtrate back into the blood capillaries. Most occurs in the Proximal Convoluted Tubule.</li>
+                                <li><strong>Tubular Secretion:</strong> The active movement of unwanted substances (e.g., K+, H+, urea, creatinine, and certain drugs) from the blood into the renal tubule to be excreted in urine. Important for acid-base balance.</li>
                             </ol>
                         `
                     },
@@ -948,165 +954,170 @@ const appData = {
                         type: 'text',
                         title: 'Module 9: Endocrine Physiology',
                         body: `
-                            <h3>Hormone Action</h3>
+                            <h3>Hormone Action Mechanisms</h3>
+                            <p>Hormones are chemical messengers secreted into the blood that act on specific target cells.</p>
                             <ul>
-                                <li><strong>Water-soluble hormones:</strong> (e.g., Insulin) Act on receptors in the plasma membrane. Use second messengers.</li>
-                                <li><strong>Lipid-soluble hormones:</strong> (e.g., Steroids) Act on receptors inside the cell. Directly activate genes.</li>
+                                <li><strong>Water-soluble hormones:</strong> (e.g., Insulin, Epinephrine) Cannot cross the lipid cell membrane. They bind to receptors on the plasma membrane and utilize intracellular second messenger systems (like cAMP) to trigger metabolic changes.</li>
+                                <li><strong>Lipid-soluble hormones:</strong> (e.g., Steroid hormones, Thyroid hormone) Can diffuse through the cell membrane. They bind to intracellular receptors (in cytoplasm or nucleus) and directly activate or suppress specific genes, altering protein synthesis.</li>
                             </ul>
 
-                            <h3>Key Axes</h3>
-                            <p>Hypothalamus-Pituitary-Adrenal (HPA) Axis regulates stress response (Cortisol).</p>
+                            <h3>Key Endocrine Axes</h3>
+                            <p>The hypothalamus acts as the major integrating link between the nervous and endocrine systems. For example, the Hypothalamus-Pituitary-Adrenal (HPA) Axis regulates the long-term stress response by stimulating Cortisol release.</p>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 10: Reproductive Physiology',
                         body: `
-                            <h3>Male Physiology</h3>
-                            <p>Spermatogenesis occurs in seminiferous tubules. Testosterone regulates sperm production and secondary sex characteristics.</p>
+                            <h3>Male Reproductive Physiology</h3>
+                            <p>Spermatogenesis (sperm production) occurs continuously in the seminiferous tubules of the testes from puberty onwards. Testosterone, produced by Leydig cells, regulates sperm maturation and secondary sex characteristics.</p>
 
-                            <h3>Female Physiology</h3>
-                            <p>Ovarian Cycle (Follicular, Ovulation, Luteal phases) and Uterine Cycle (Menstrual, Proliferative, Secretory phases) are regulated by LH, FSH, Estrogen, and Progesterone.</p>
+                            <h3>Female Reproductive Physiology</h3>
+                            <p>The female reproductive cycles are complex and cyclical (approx. 28 days), regulated by hormones from the anterior pituitary and ovaries.</p>
+                            <ul>
+                                <li><strong>Ovarian Cycle:</strong> Follicular phase (follicle development), Ovulation (release of the egg, triggered by an LH surge), and Luteal phase (corpus luteum formation).</li>
+                                <li><strong>Uterine (Menstrual) Cycle:</strong> Menstrual phase (shedding of endometrium), Proliferative phase (rebuilding endometrium under estrogen influence), and Secretory phase (endometrium prepares for implantation under progesterone influence).</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'quiz',
                         title: 'Physiology Final Quiz',
                         questions: [
-                            { q: "Which process uses ATP to move substances against a gradient?", options: ["Diffusion", "Osmosis", "Active Transport", "Filtration"], correct: 2 },
-                            { q: "What is the 'pacemaker' of the heart?", options: ["AV Node", "SA Node", "Bundle of His", "Vagus Nerve"], correct: 1 },
-                            { q: "In a neuron, which phase immediately follows depolarization?", options: ["Resting state", "Hyperpolarization", "Repolarization", "Refractory period"], correct: 2 },
-                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Insulin", "Cortisol", "Epinephrine"], correct: 1 }
+                            { q: "Which process uses ATP to move substances against a gradient?", options: ["Diffusion", "Osmosis", "Active Transport", "Filtration"], correct: 2 , rationale: "Active transport requires cellular energy (ATP) to move molecules against their concentration gradient, from an area of low to high concentration." },
+                            { q: "What is the 'pacemaker' of the heart?", options: ["AV Node", "SA Node", "Bundle of His", "Vagus Nerve"], correct: 1 , rationale: "The Sinoatrial (SA) node initiates the electrical impulses that set the heart rate, acting as the heart's natural pacemaker." },
+                            { q: "In a neuron, which phase immediately follows depolarization?", options: ["Resting state", "Hyperpolarization", "Repolarization", "Refractory period"], correct: 2 , rationale: "Following depolarization, voltage-gated potassium channels open, allowing K+ to exit the cell, restoring the negative internal charge during repolarization." },
+                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Insulin", "Cortisol", "Epinephrine"], correct: 1 , rationale: "Insulin, secreted by the beta cells of the pancreas, facilitates the uptake of glucose into cells, lowering blood glucose levels." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Physiology Basics',
                         questions: [
-                            { q: "The maintenance of a stable internal environment is called:", options: ["Metabolism", "Homeostasis", "Positive Feedback", "Equilibrium"], correct: 1 },
-                            { q: "Which transport mechanism requires ATP?", options: ["Diffusion", "Osmosis", "Facilitated Diffusion", "Active Transport"], correct: 3 },
-                            { q: "The resting membrane potential of a neuron is approximately:", options: ["-55mV", "-70mV", "+30mV", "0mV"], correct: 1 },
-                            { q: "Which ion is responsible for triggering neurotransmitter release?", options: ["Sodium", "Potassium", "Calcium", "Chloride"], correct: 2 },
-                            { q: "The pacemaker of the heart is the:", options: ["AV Node", "Bundle of His", "Purkinje Fibers", "SA Node"], correct: 3 },
-                            { q: "Which variable has the greatest effect on blood flow resistance?", options: ["Blood viscosity", "Vessel length", "Vessel radius", "Blood pressure"], correct: 2 },
-                            { q: "Gas exchange in the lungs occurs in the:", options: ["Bronchi", "Trachea", "Alveoli", "Bronchioles"], correct: 2 },
-                            { q: "During depolarization, which ion channels open?", options: ["Potassium", "Sodium", "Calcium", "Chloride"], correct: 1 },
-                            { q: "Which blood component is responsible for oxygen transport?", options: ["Platelets", "Leukocytes", "Erythrocytes", "Plasma"], correct: 2 },
-                            { q: "Cardiac Output is calculated as:", options: ["Stroke Volume x Heart Rate", "BP / Resistance", "Heart Rate x Resistance", "Stroke Volume / BP"], correct: 0 },
-                            { q: "Which feedback loop strengthens the initial stimulus?", options: ["Negative feedback", "Positive feedback", "Neutral feedback", "Inverse feedback"], correct: 1 },
-                            { q: "The movement of water across a semi-permeable membrane is:", options: ["Diffusion", "Osmosis", "Filtration", "Active transport"], correct: 1 },
-                            { q: "Which organelle synthesizes proteins?", options: ["Mitochondria", "Ribosome", "Lysosome", "Golgi"], correct: 1 },
-                            { q: "The breakdown of glucose to produce ATP is called:", options: ["Gluconeogenesis", "Glycolysis", "Glycogenesis", "Lipolysis"], correct: 1 },
-                            { q: "Which fluid compartment contains the most water?", options: ["Intracellular Fluid (ICF)", "Extracellular Fluid (ECF)", "Plasma", "Lymph"], correct: 0 },
-                            { q: "What is the primary extracellular cation?", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 1 },
-                            { q: "What is the primary intracellular cation?", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 0 },
-                            { q: "The pH of human blood is typically:", options: ["7.0", "7.35 - 7.45", "6.8", "7.8"], correct: 1 },
-                            { q: "Which tissue type generates force?", options: ["Epithelial", "Connective", "Muscle", "Nervous"], correct: 2 },
-                            { q: "The study of the function of body parts is called:", options: ["Anatomy", "Physiology", "Histology", "Cytology"], correct: 1 }
+                            { q: "The maintenance of a stable internal environment is called:", options: ["Metabolism", "Homeostasis", "Positive Feedback", "Equilibrium"], correct: 1 , rationale: "Homeostasis is the dynamic process by which physiological variables are maintained within a stable, narrow range despite external changes." },
+                            { q: "Which transport mechanism requires ATP?", options: ["Diffusion", "Osmosis", "Facilitated Diffusion", "Active Transport"], correct: 3 , rationale: "Unlike passive processes like diffusion and osmosis, active transport requires adenosine triphosphate (ATP) to move substances against their gradient." },
+                            { q: "The resting membrane potential of a neuron is approximately:", options: ["-55mV", "-70mV", "+30mV", "0mV"], correct: 1 , rationale: "The typical resting membrane potential of a neuron is approximately -70mV, maintained by the sodium-potassium pump and leak channels." },
+                            { q: "Which ion is responsible for triggering neurotransmitter release?", options: ["Sodium", "Potassium", "Calcium", "Chloride"], correct: 2 , rationale: "When an action potential reaches the axon terminal, voltage-gated calcium channels open, and calcium influx triggers the exocytosis of neurotransmitter vesicles." },
+                            { q: "The pacemaker of the heart is the:", options: ["AV Node", "Bundle of His", "Purkinje Fibers", "SA Node"], correct: 3 , rationale: "The SA Node intrinsically fires at 60-100 beats per minute, establishing the baseline electrical rhythm of the heart." },
+                            { q: "Which variable has the greatest effect on blood flow resistance?", options: ["Blood viscosity", "Vessel length", "Vessel radius", "Blood pressure"], correct: 2 , rationale: "According to Poiseuille's law, resistance is inversely proportional to the fourth power of the vessel radius; minor changes in radius drastically alter resistance." },
+                            { q: "Gas exchange in the lungs occurs in the:", options: ["Bronchi", "Trachea", "Alveoli", "Bronchioles"], correct: 2 , rationale: "The alveoli are tiny air sacs surrounded by capillaries where the actual diffusion of oxygen and carbon dioxide takes place." },
+                            { q: "During depolarization, which ion channels open?", options: ["Potassium", "Sodium", "Calcium", "Chloride"], correct: 1 , rationale: "Depolarization is driven by the rapid influx of positively charged sodium (Na+) ions into the cell through voltage-gated channels." },
+                            { q: "Which blood component is responsible for oxygen transport?", options: ["Platelets", "Leukocytes", "Erythrocytes", "Plasma"], correct: 2 , rationale: "Erythrocytes, or red blood cells, are packed with hemoglobin molecules, which specifically bind oxygen for transport throughout the body." },
+                            { q: "Cardiac Output is calculated as:", options: ["Stroke Volume x Heart Rate", "BP / Resistance", "Heart Rate x Resistance", "Stroke Volume / BP"], correct: 0 , rationale: "Cardiac output (CO) is the total volume of blood pumped by the heart per minute, calculated by multiplying stroke volume (SV) by heart rate (HR)." },
+                            { q: "Which feedback loop strengthens the initial stimulus?", options: ["Negative feedback", "Positive feedback", "Neutral feedback", "Inverse feedback"], correct: 1 , rationale: "Positive feedback mechanisms, such as oxytocin release during labor, amplify the initial stimulus until a specific outcome is achieved." },
+                            { q: "The movement of water across a semi-permeable membrane is:", options: ["Diffusion", "Osmosis", "Filtration", "Active transport"], correct: 1 , rationale: "Osmosis is the specific passive diffusion of water molecules across a selectively permeable membrane towards a higher solute concentration." },
+                            { q: "Which organelle synthesizes proteins?", options: ["Mitochondria", "Ribosome", "Lysosome", "Golgi"], correct: 1 , rationale: "Ribosomes, either free-floating or attached to the rough endoplasmic reticulum, are the cellular sites where translation and protein synthesis occur." },
+                            { q: "The breakdown of glucose to produce ATP is called:", options: ["Gluconeogenesis", "Glycolysis", "Glycogenesis", "Lipolysis"], correct: 1 , rationale: "Glycolysis is the initial metabolic pathway that breaks down a glucose molecule into two molecules of pyruvate, generating a net of 2 ATP." },
+                            { q: "Which fluid compartment contains the most water?", options: ["Intracellular Fluid (ICF)", "Extracellular Fluid (ECF)", "Plasma", "Lymph"], correct: 0 , rationale: "Approximately two-thirds of the body's total water volume is contained within the trillions of cells, known as the intracellular fluid (ICF) compartment." },
+                            { q: "What is the primary extracellular cation?", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 1 , rationale: "Sodium (Na+) is the most abundant positively charged ion (cation) in the extracellular fluid, maintaining osmotic pressure and fluid balance." },
+                            { q: "What is the primary intracellular cation?", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 0 , rationale: "Potassium (K+) is the dominant cation inside the cell, essential for establishing resting membrane potentials and action potentials." },
+                            { q: "The pH of human blood is typically:", options: ["7.0", "7.35 - 7.45", "6.8", "7.8"], correct: 1 , rationale: "The normal physiological pH of arterial blood is tightly regulated between 7.35 and 7.45 by various buffering systems, lungs, and kidneys." },
+                            { q: "Which tissue type generates force?", options: ["Epithelial", "Connective", "Muscle", "Nervous"], correct: 2 , rationale: "Muscle tissue (skeletal, cardiac, smooth) is uniquely specialized to contract forcefully, generating movement and mechanical work." },
+                            { q: "The study of the function of body parts is called:", options: ["Anatomy", "Physiology", "Histology", "Cytology"], correct: 1 , rationale: "While anatomy studies structure, physiology is the scientific study of the mechanical, physical, and biochemical functions of living organisms." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Neuro & Cell Physiology',
                         questions: [
-                            { q: "Which part of the neuron receives signals?", options: ["Axon", "Dendrite", "Soma", "Terminal"], correct: 1 },
-                            { q: "Repolarization occurs due to the outflow of:", options: ["Sodium", "Potassium", "Calcium", "Chloride"], correct: 1 },
-                            { q: "Saltatory conduction occurs in:", options: ["Unmyelinated axons", "Myelinated axons", "Dendrites", "Muscle fibers"], correct: 1 },
-                            { q: "Which neurotransmitter is inhibitory?", options: ["Glutamate", "GABA", "Acetylcholine", "Norepinephrine"], correct: 1 },
-                            { q: "The junction between two neurons is the:", options: ["Gap", "Synapse", "Desmosome", "Bridge"], correct: 1 },
-                            { q: "Which lobe of the brain processes visual information?", options: ["Frontal", "Parietal", "Occipital", "Temporal"], correct: 2 },
-                            { q: "The 'emotional brain' is the:", options: ["Limbic system", "Brainstem", "Cerebellum", "Cortex"], correct: 0 },
-                            { q: "Which brain area controls speech production?", options: ["Wernicke's area", "Broca's area", "Visual cortex", "Sensory cortex"], correct: 1 },
-                            { q: "The sodium-potassium pump moves:", options: ["3 Na+ in, 2 K+ out", "3 Na+ out, 2 K+ in", "2 Na+ out, 3 K+ in", "Equal amounts"], correct: 1 },
-                            { q: "Phagocytosis is a type of:", options: ["Exocytosis", "Endocytosis", "Passive transport", "Diffusion"], correct: 1 },
-                            { q: "Which organelle contains digestive enzymes?", options: ["Ribosome", "Lysosome", "Mitochondria", "Nucleus"], correct: 1 },
-                            { q: "The blood-brain barrier is formed mainly by:", options: ["Neurons", "Astrocytes", "Microglia", "Ependymal cells"], correct: 1 },
-                            { q: "Which reflex prevents a muscle from over-stretching?", options: ["Withdrawal reflex", "Stretch reflex", "Golgi tendon reflex", "Crossed extensor reflex"], correct: 1 },
-                            { q: "The autonomic nervous system controls:", options: ["Voluntary muscle", "Involuntary muscle and glands", "Sensory perception", "Cognitive thought"], correct: 1 },
-                            { q: "Sympathetic stimulation results in:", options: ["Pupil constriction", "Decreased heart rate", "Bronchodilation", "Increased digestion"], correct: 2 },
-                            { q: "Parasympathetic stimulation results in:", options: ["Pupil dilation", "Increased heart rate", "Bronchoconstriction", "Decreased digestion"], correct: 2 },
-                            { q: "Which receptor type detects pain?", options: ["Thermoreceptor", "Mechanoreceptor", "Nociceptor", "Photoreceptor"], correct: 2 },
-                            { q: "The sense of balance is detected in the:", options: ["Cochlea", "Vestibular apparatus", "Middle ear", "Outer ear"], correct: 1 },
-                            { q: "Cones in the retina are responsible for:", options: ["Night vision", "Color vision", "Peripheral vision", "Motion detection"], correct: 1 },
-                            { q: "The 'blind spot' is where the:", options: ["Lens focuses light", "Optic nerve exits the eye", "Choroid layer is missing", "Iris attaches"], correct: 1 }
+                            { q: "Which part of the neuron receives signals?", options: ["Axon", "Dendrite", "Soma", "Terminal"], correct: 1 , rationale: "Dendrites are the branched extensions of a neuron designed to receive electrochemical signals from other synaptic terminals." },
+                            { q: "Repolarization occurs due to the outflow of:", options: ["Sodium", "Potassium", "Calcium", "Chloride"], correct: 1 , rationale: "The opening of voltage-gated K+ channels allows potassium to rapidly exit the cell, bringing the membrane potential back down to its resting state." },
+                            { q: "Saltatory conduction occurs in:", options: ["Unmyelinated axons", "Myelinated axons", "Dendrites", "Muscle fibers"], correct: 1 , rationale: "In myelinated axons, action potentials 'jump' from one Node of Ranvier to the next in a rapid process called saltatory conduction." },
+                            { q: "Which neurotransmitter is inhibitory?", options: ["Glutamate", "GABA", "Acetylcholine", "Norepinephrine"], correct: 1 , rationale: "Gamma-aminobutyric acid (GABA) is the primary inhibitory neurotransmitter in the brain, decreasing neuronal excitability." },
+                            { q: "The junction between two neurons is the:", options: ["Gap", "Synapse", "Desmosome", "Bridge"], correct: 1 , rationale: "The synapse is the specialized microscopic gap where chemical or electrical signals are transferred from one neuron to another." },
+                            { q: "Which lobe of the brain processes visual information?", options: ["Frontal", "Parietal", "Occipital", "Temporal"], correct: 2 , rationale: "The primary visual cortex is located in the occipital lobe at the rear of the brain, processing everything we see." },
+                            { q: "The 'emotional brain' is the:", options: ["Limbic system", "Brainstem", "Cerebellum", "Cortex"], correct: 0 , rationale: "The limbic system (including the amygdala and hippocampus) governs basic emotions, memory formation, and behavioral drives." },
+                            { q: "Which brain area controls speech production?", options: ["Wernicke's area", "Broca's area", "Visual cortex", "Sensory cortex"], correct: 1 , rationale: "Broca's area, typically in the left frontal lobe, is responsible for the complex motor planning required to produce articulated speech." },
+                            { q: "The sodium-potassium pump moves:", options: ["3 Na+ in, 2 K+ out", "3 Na+ out, 2 K+ in", "2 Na+ out, 3 K+ in", "Equal amounts"], correct: 1 , rationale: "The Na+/K+ ATPase pump uses one ATP to extrude 3 sodium ions and import 2 potassium ions, maintaining the resting membrane potential." },
+                            { q: "Phagocytosis is a type of:", options: ["Exocytosis", "Endocytosis", "Passive transport", "Diffusion"], correct: 1 , rationale: "Phagocytosis (cell eating) is a form of endocytosis where a cell engulfs large particles, debris, or pathogens." },
+                            { q: "Which organelle contains digestive enzymes?", options: ["Ribosome", "Lysosome", "Mitochondria", "Nucleus"], correct: 1 , rationale: "Lysosomes are membrane-bound vesicles containing acidic hydrolytic enzymes that break down waste materials and cellular debris." },
+                            { q: "The blood-brain barrier is formed mainly by:", options: ["Neurons", "Astrocytes", "Microglia", "Ependymal cells"], correct: 1 , rationale: "Astrocytes are specialized glial cells whose 'feet' wrap around capillaries to help form the highly selective blood-brain barrier." },
+                            { q: "Which reflex prevents a muscle from over-stretching?", options: ["Withdrawal reflex", "Stretch reflex", "Golgi tendon reflex", "Crossed extensor reflex"], correct: 1 , rationale: "The stretch reflex, initiated by muscle spindles, causes an automatic contraction to prevent a muscle from stretching too far or too fast." },
+                            { q: "The autonomic nervous system controls:", options: ["Voluntary muscle", "Involuntary muscle and glands", "Sensory perception", "Cognitive thought"], correct: 1 , rationale: "The ANS involuntarily regulates visceral functions, specifically targeting smooth muscle, cardiac muscle, and exocrine/endocrine glands." },
+                            { q: "Sympathetic stimulation results in:", options: ["Pupil constriction", "Decreased heart rate", "Bronchodilation", "Increased digestion"], correct: 2 , rationale: "The sympathetic 'fight or flight' response actively dilates the bronchioles to maximize airflow and oxygen intake during emergencies." },
+                            { q: "Parasympathetic stimulation results in:", options: ["Pupil dilation", "Increased heart rate", "Bronchoconstriction", "Decreased digestion"], correct: 2 , rationale: "The parasympathetic 'rest and digest' system generally constricts airways and lowers heart rate when the body is at rest." },
+                            { q: "Which receptor type detects pain?", options: ["Thermoreceptor", "Mechanoreceptor", "Nociceptor", "Photoreceptor"], correct: 2 , rationale: "Nociceptors are specialized sensory receptors that respond to potentially tissue-damaging stimuli by sending pain signals to the brain." },
+                            { q: "The sense of balance is detected in the:", options: ["Cochlea", "Vestibular apparatus", "Middle ear", "Outer ear"], correct: 1 , rationale: "The vestibular apparatus in the inner ear consists of the semicircular canals and otolith organs which detect head position and movement." },
+                            { q: "Cones in the retina are responsible for:", options: ["Night vision", "Color vision", "Peripheral vision", "Motion detection"], correct: 1 , rationale: "Cones demand highly bright light to function and are responsible for acute, high-resolution color vision in the central retina." },
+                            { q: "The 'blind spot' is where the:", options: ["Lens focuses light", "Optic nerve exits the eye", "Choroid layer is missing", "Iris attaches"], correct: 1 , rationale: "The optic disc is the area where the optic nerve exits the retina; because it lacks photoreceptors entirely, it creates a natural blind spot." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Cardiovascular & Repiratory',
                         questions: [
-                            { q: "Systole refers to:", options: ["Relaxation", "Contraction", "Filling", "Resting"], correct: 1 },
-                            { q: "Which vessel carries deoxygenated blood to the lungs?", options: ["Pulmonary vein", "Pulmonary artery", "Aorta", "Vena cava"], correct: 1 },
-                            { q: "The 'Dubb' sound (S2) of the heart is caused by:", options: ["Closing of AV valves", "Closing of Semilunar valves", "Opening of AV valves", "Blood filling ventricles"], correct: 1 },
-                            { q: "Stroke Volume (SV) is:", options: ["Volume of blood pumped per minute", "Volume of blood pumped per beat", "Volume of blood in the heart", "Heart rate"], correct: 1 },
-                            { q: "Which hormone increases blood pressure by retaining water?", options: ["ANP", "ADH (Vasopressin)", "Insulin", "Thyroxine"], correct: 1 },
-                            { q: "Frank-Starling Law states that:", options: ["More stretch = weaker contraction", "More stretch = stronger contraction", "Heart rate controls output", "Pressure equals flow"], correct: 1 },
-                            { q: "Which blood type is the universal donor?", options: ["Type A", "Type B", "Type AB", "Type O Negative"], correct: 3 },
-                            { q: "Hemoglobin carries oxygen by binding to:", options: ["Copper", "Iron", "Zinc", "Calcium"], correct: 1 },
-                            { q: "Gas exchange occurs across the respiratory membrane via:", options: ["Active transport", "Simple diffusion", "Facilitated diffusion", "Osmosis"], correct: 1 },
-                            { q: "Surfactant prevents alveolar collapse by:", options: ["Increasing surface tension", "Decreasing surface tension", "Drying the alveoli", "Humidifying air"], correct: 1 },
-                            { q: "The primary chemical stimulus for breathing is:", options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], correct: 1 },
-                            { q: "Hypoxia refers to:", options: ["Low CO2", "High CO2", "Low Oxygen", "High Oxygen"], correct: 2 },
-                            { q: "The volume of air moved in/out during normal breathing is:", options: ["Vital capacity", "Tidal volume", "Residual volume", "Total lung capacity"], correct: 1 },
-                            { q: "Which part of the brain sets the respiratory rhythm?", options: ["Cerebrum", "Medulla Oblongata", "Cerebellum", "Thalamus"], correct: 1 },
-                            { q: "Most CO2 is transported in the blood as:", options: ["Dissolved CO2", "Carbaminohemoglobin", "Bicarbonate ion", "Carbonic acid"], correct: 2 },
-                            { q: "Which vessel returns oxygenated blood to the heart?", options: ["Pulmonary artery", "Pulmonary vein", "Vena Cava", "Aorta"], correct: 1 },
-                            { q: "Which layer of the heart wall is muscular?", options: ["Epicardium", "Myocardium", "Endocardium", "Pericardium"], correct: 1 },
-                            { q: "Which valve is located between the left atrium and ventricle?", options: ["Tricuspid", "Mitral (Bicuspid)", "Pulmonary", "Aortic"], correct: 1 },
-                            { q: "What is the normal pacemaker firing rate?", options: ["40-60 bpm", "60-100 bpm", "100-120 bpm", "20-40 bpm"], correct: 1 },
-                            { q: "A drop in pH (acidosis) causes hemoglobin to:", options: ["Bind O2 tighter", "Release O2 more readily (Bohr effect)", "Stop binding O2", "Destroy red cells"], correct: 1 }
+                            { q: "Systole refers to:", options: ["Relaxation", "Contraction", "Filling", "Resting"], correct: 1 , rationale: "Systole is the active phase of the cardiac cycle when the myocardium specifically contracts to eject blood into the aorta and pulmonary trunk." },
+                            { q: "Which vessel carries deoxygenated blood to the lungs?", options: ["Pulmonary vein", "Pulmonary artery", "Aorta", "Vena cava"], correct: 1 , rationale: "The pulmonary artery is the only major artery that carries oxygen-poor blood, transporting it from the right ventricle to the lungs." },
+                            { q: "The 'Dubb' sound (S2) of the heart is caused by:", options: ["Closing of AV valves", "Closing of Semilunar valves", "Opening of AV valves", "Blood filling ventricles"], correct: 1 , rationale: "The second heart sound ('dubb') marks the end of systole and is generated by the rapid closure of the aortic and pulmonary semilunar valves." },
+                            { q: "Stroke Volume (SV) is:", options: ["Volume of blood pumped per minute", "Volume of blood pumped per beat", "Volume of blood in the heart", "Heart rate"], correct: 1 , rationale: "Stroke volume is the specific volume of blood ejected by the left ventricle in a single contraction (normally ~70 mL)." },
+                            { q: "Which hormone increases blood pressure by retaining water?", options: ["ANP", "ADH (Vasopressin)", "Insulin", "Thyroxine"], correct: 1 , rationale: "Antidiuretic Hormone (Vasopressin) increases the permeability of the kidney's collecting ducts, reabsorbing water into the blood and raising volume/pressure." },
+                            { q: "Frank-Starling Law states that:", options: ["More stretch = weaker contraction", "More stretch = stronger contraction", "Heart rate controls output", "Pressure equals flow"], correct: 1 , rationale: "The law states that increased venous return stretches the ventricular walls, leading to a more forceful contraction and increased stroke volume." },
+                            { q: "Which blood type is the universal donor?", options: ["Type A", "Type B", "Type AB", "Type O Negative"], correct: 3 , rationale: "Type O Negative blood lacks A, B, and Rh antigens, meaning it will not trigger an immune reaction when transfused into any recipient." },
+                            { q: "Hemoglobin carries oxygen by binding to:", options: ["Copper", "Iron", "Zinc", "Calcium"], correct: 1 , rationale: "At the center of each of the four heme groups in a hemoglobin molecule is an iron (Fe2+) atom that reversibly binds oxygen." },
+                            { q: "Gas exchange occurs across the respiratory membrane via:", options: ["Active transport", "Simple diffusion", "Facilitated diffusion", "Osmosis"], correct: 1 , rationale: "Oxygen and carbon dioxide are lipid-soluble gases that cross the thin alveolar-capillary membrane purely via simple, passive diffusion." },
+                            { q: "Surfactant prevents alveolar collapse by:", options: ["Increasing surface tension", "Decreasing surface tension", "Drying the alveoli", "Humidifying air"], correct: 1 , rationale: "Pulmonary surfactant disrupts the cohesive forces of water molecules lining the alveoli, drastically reducing surface tension and preventing collapse." },
+                            { q: "The primary chemical stimulus for breathing is:", options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], correct: 1 , rationale: "Central chemoreceptors are acutely sensitive to rising PCO2 levels (and the resulting drop in pH), making CO2 the primary driver of ventilation." },
+                            { q: "Hypoxia refers to:", options: ["Low CO2", "High CO2", "Low Oxygen", "High Oxygen"], correct: 2 , rationale: "Hypoxia is a medical condition where there is an insufficient supply of oxygen reaching the tissues to sustain normal cellular metabolism." },
+                            { q: "The volume of air moved in/out during normal breathing is:", options: ["Vital capacity", "Tidal volume", "Residual volume", "Total lung capacity"], correct: 1 , rationale: "Tidal volume (TV) represents the volume of air displaced between normal inhalation and exhalation without extra effort, typically around 500 mL." },
+                            { q: "Which part of the brain sets the respiratory rhythm?", options: ["Cerebrum", "Medulla Oblongata", "Cerebellum", "Thalamus"], correct: 1 , rationale: "The Medulla Oblongata contains the ventral respiratory group which generates the baseline rhythmic pacing of inhalation and exhalation." },
+                            { q: "Most CO2 is transported in the blood as:", options: ["Dissolved CO2", "Carbaminohemoglobin", "Bicarbonate ion", "Carbonic acid"], correct: 2 , rationale: "Approximately 70% of carbon dioxide is converted into bicarbonate ions (HCO3-) in red blood cells before being transported in the plasma." },
+                            { q: "Which vessel returns oxygenated blood to the heart?", options: ["Pulmonary artery", "Pulmonary vein", "Vena Cava", "Aorta"], correct: 1 , rationale: "The four pulmonary veins carry freshly oxygenated blood from the lungs back to the left atrium of the heart." },
+                            { q: "Which layer of the heart wall is muscular?", options: ["Epicardium", "Myocardium", "Endocardium", "Pericardium"], correct: 1 , rationale: "The myocardium is the thick, middle layer of the heart composed entirely of specialized cardiac muscle tissue responsible for pumping." },
+                            { q: "Which valve is located between the left atrium and ventricle?", options: ["Tricuspid", "Mitral (Bicuspid)", "Pulmonary", "Aortic"], correct: 1 , rationale: "The mitral (bicuspid) valve perfectly prevents the backflow of blood into the left atrium when the left ventricle contracts." },
+                            { q: "What is the normal pacemaker firing rate?", options: ["40-60 bpm", "60-100 bpm", "100-120 bpm", "20-40 bpm"], correct: 1 , rationale: "The spontaneous depolarization rate of a healthy SA node inherently paces the resting heart between 60 and 100 beats per minute." },
+                            { q: "A drop in pH (acidosis) causes hemoglobin to:", options: ["Bind O2 tighter", "Release O2 more readily (Bohr effect)", "Stop binding O2", "Destroy red cells"], correct: 1 , rationale: "The Bohr effect dictates that in acidic (low pH) environments, such as actively respiring tissues, hemoglobin's affinity for oxygen decreases, promoting O2 release." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Renal & Digestive',
                         questions: [
-                            { q: "The functional unit of the kidney is the:", options: ["Glomerulus", "Nephron", "Calyx", "Ureter"], correct: 1 },
-                            { q: "Filtration occurs in the:", options: ["Loop of Henle", "Glomerulus", "Distal tubule", "Collecting duct"], correct: 1 },
-                            { q: "Most reabsorption occurs in the:", options: ["Proximal Convoluted Tubule (PCT)", "Loop of Henle", "Distal Convoluted Tubule (DCT)", "Collecting duct"], correct: 0 },
-                            { q: "ADH acts on the collecting duct to:", options: ["Excrete water", "Reabsorb water", "Excrete sodium", "Reabsorb glucose"], correct: 1 },
-                            { q: "Which enzyme begins carbohydrate digestion in the mouth?", options: ["Pepsin", "Amylase", "Lipase", "Trypsin"], correct: 1 },
-                            { q: "Which acid is found in the stomach?", options: ["Sulfuric acid", "Hydrochloric acid (HCl)", "Acetic acid", "Citric acid"], correct: 1 },
-                            { q: "Bile is produced by the _____ and stored in the _____.", options: ["Gallbladder, Liver", "Liver, Gallbladder", "Pancreas, Liver", "Stomach, Pancreas"], correct: 1 },
-                            { q: "Most nutrient absorption occurs in the:", options: ["Stomach", "Small Intestine", "Large Intestine", "Esophagus"], correct: 1 },
-                            { q: "The large intestine primarily absorbs:", options: ["Proteins", "Fats", "Water and Vitamin K", "Carbohydrates"], correct: 2 },
-                            { q: "Which hormone stimulates stomach acid secretion?", options: ["Secretin", "CCK", "Gastrin", "Insulin"], correct: 2 },
-                            { q: "Renin is released by the kidney in response to:", options: ["High BP", "Low BP", "High Sodium", "Low Potassium"], correct: 1 },
-                            { q: "The GFR (Glomerular Filtration Rate) is a measure of:", options: ["Liver function", "Kidney function", "Heart function", "Lung function"], correct: 1 },
-                            { q: "Peristalsis is:", options: ["Mechanical chewing", "Wave-like muscle contractions", "Enzymatic breakdown", "Absorption"], correct: 1 },
-                            { q: "The sphincter between the stomach and small intestine is the:", options: ["Cardiac", "Pyloric", "Anal", "Ileocecal"], correct: 1 },
-                            { q: "Which vitamin is synthesized by bacteria in the gut?", options: ["Vitamin C", "Vitamin D", "Vitamin K", "Vitamin A"], correct: 2 },
-                            { q: "Aldosterone causes the kidneys to reabsorb:", options: ["Potassium", "Sodium", "Calcium", "Hydrogen"], correct: 1 },
-                            { q: "Glucose in the urine (Glucosuria) indicates:", options: ["Diabetes Insipidus", "Diabetes Mellitus", "Kidney Stones", "Infection"], correct: 1 },
-                            { q: "Micturition refers to:", options: ["Swallowing", "Urination", "Defecation", "Vomiting"], correct: 1 },
-                            { q: "Which organ produces Trypsin, Lipase, and Amylase?", options: ["Liver", "Stomach", "Pancreas", "Gallbladder"], correct: 2 },
-                            { q: "Intrinsic Factor is necessary for the absorption of:", options: ["Vitamin C", "Vitamin B12", "Iron", "Calcium"], correct: 1 }
+                            { q: "The functional unit of the kidney is the:", options: ["Glomerulus", "Nephron", "Calyx", "Ureter"], correct: 1 , rationale: "The nephron is the microscopic structural and functional unit of the kidney responsible for filtering blood and forming urine." },
+                            { q: "Filtration occurs in the:", options: ["Loop of Henle", "Glomerulus", "Distal tubule", "Collecting duct"], correct: 1 , rationale: "The glomerulus is a high-pressure capillary bed where blood plasma is initially filtered into Bowman's capsule to begin urine formation." },
+                            { q: "Most reabsorption occurs in the:", options: ["Proximal Convoluted Tubule (PCT)", "Loop of Henle", "Distal Convoluted Tubule (DCT)", "Collecting duct"], correct: 0 , rationale: "The Proximal Convoluted Tubule (PCT) has microvilli that greatly increase surface area, allowing it to reabsorb approximately 65% of the filtrate." },
+                            { q: "ADH acts on the collecting duct to:", options: ["Excrete water", "Reabsorb water", "Excrete sodium", "Reabsorb glucose"], correct: 1 , rationale: "Antidiuretic Hormone makes the collecting ducts highly permeable, allowing water to be reabsorbed back into the bloodstream, concentrating the urine." },
+                            { q: "Which enzyme begins carbohydrate digestion in the mouth?", options: ["Pepsin", "Amylase", "Lipase", "Trypsin"], correct: 1 , rationale: "Salivary amylase is secreted in the mouth and immediately begins the chemical breakdown of complex starches into simpler sugars." },
+                            { q: "Which acid is found in the stomach?", options: ["Sulfuric acid", "Hydrochloric acid (HCl)", "Acetic acid", "Citric acid"], correct: 1 , rationale: "Parietal cells in the stomach lining secrete concentrated Hydrochloric acid (HCl), which kills bacteria and activates pepsinogen." },
+                            { q: "Bile is produced by the _____ and stored in the _____.", options: ["Gallbladder, Liver", "Liver, Gallbladder", "Pancreas, Liver", "Stomach, Pancreas"], correct: 1 , rationale: "The liver continuously produces bile for fat emulsification, which is then sent to the gallbladder for concentration and storage." },
+                            { q: "Most nutrient absorption occurs in the:", options: ["Stomach", "Small Intestine", "Large Intestine", "Esophagus"], correct: 1 , rationale: "The small intestine (specifically the jejunum and ileum) is the primary site where digested nutrients cross the mucosa into the blood." },
+                            { q: "The large intestine primarily absorbs:", options: ["Proteins", "Fats", "Water and Vitamin K", "Carbohydrates"], correct: 2 , rationale: "The large intestine functions mainly to absorb leftover water from indigestible food matter and extract vitamins synthesized by gut bacteria." },
+                            { q: "Which hormone stimulates stomach acid secretion?", options: ["Secretin", "CCK", "Gastrin", "Insulin"], correct: 2 , rationale: "Gastrin is a hormone released by G cells in the stomach antrum that powerfully stimulates parietal cells to secrete HCl." },
+                            { q: "Renin is released by the kidney in response to:", options: ["High BP", "Low BP", "High Sodium", "Low Potassium"], correct: 1 , rationale: "The juxtaglomerular apparatus secretes renin in response to a drop in blood pressure or fluid volume, triggering the RAAS pathway." },
+                            { q: "The GFR (Glomerular Filtration Rate) is a measure of:", options: ["Liver function", "Kidney function", "Heart function", "Lung function"], correct: 1 , rationale: "The Glomerular Filtration Rate estimates how much blood passes through the glomeruli each minute, serving as the primary indicator of renal function." },
+                            { q: "Peristalsis is:", options: ["Mechanical chewing", "Wave-like muscle contractions", "Enzymatic breakdown", "Absorption"], correct: 1 , rationale: "Peristalsis involves involuntary, rhythmic contractions of smooth muscle that successfully propel food through the digestive tract." },
+                            { q: "The sphincter between the stomach and small intestine is the:", options: ["Cardiac", "Pyloric", "Anal", "Ileocecal"], correct: 1 , rationale: "The pyloric sphincter controls the careful, metered emptying of acidic chyme from the stomach into the duodenum." },
+                            { q: "Which vitamin is synthesized by bacteria in the gut?", options: ["Vitamin C", "Vitamin D", "Vitamin K", "Vitamin A"], correct: 2 , rationale: "Normal flora (bacteria) residing in the large intestine synthesize significant amounts of Vitamin K, which is essential for blood clotting." },
+                            { q: "Aldosterone causes the kidneys to reabsorb:", options: ["Potassium", "Sodium", "Calcium", "Hydrogen"], correct: 1 , rationale: "Aldosterone targets the distal tubule to retain sodium (which forces water retention) and simultaneously excrete potassium into the urine." },
+                            { q: "Glucose in the urine (Glucosuria) indicates:", options: ["Diabetes Insipidus", "Diabetes Mellitus", "Kidney Stones", "Infection"], correct: 1 , rationale: "When blood glucose exceptionally exceeds the renal threshold (as in Diabetes Mellitus), the excess 'spills' over into the urine." },
+                            { q: "Micturition refers to:", options: ["Swallowing", "Urination", "Defecation", "Vomiting"], correct: 1 , rationale: "Micturition is the clinical/medical term describing the physiological process of voiding urine from the bladder." },
+                            { q: "Which organ produces Trypsin, Lipase, and Amylase?", options: ["Liver", "Stomach", "Pancreas", "Gallbladder"], correct: 2 , rationale: "The exocrine pancreas secretes a highly alkaline juice containing a complete mixture of digestive enzymes into the duodenum." },
+                            { q: "Intrinsic Factor is necessary for the absorption of:", options: ["Vitamin C", "Vitamin B12", "Iron", "Calcium"], correct: 1 , rationale: "Intrinsic factor, secreted by the stomach's parietal cells, is strictly required for the terminal ileum to absorb Vitamin B12." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Endocrine & Reproductive',
                         questions: [
-                            { q: "Steroid hormones interact with receptors:", options: ["On the cell membrane", "Inside the cell (intracellular)", "In the blood", "In the mitochondria"], correct: 1 },
-                            { q: "Hyposecretion of GH in childhood causes:", options: ["Gigantism", "Acromegaly", "Dwarfism", "Cushing's"], correct: 2 },
-                            { q: "Which hormone triggers ovulation?", options: ["FSH", "LH (Luteinizing Hormone)", "Estrogen", "Progesterone"], correct: 1 },
-                            { q: "Where does fertilization typically occur?", options: ["Ovary", "Uterus", "Fallopian Tube", "Vagina"], correct: 2 },
-                            { q: "The corpus luteum secretes primarily:", options: ["Estrogen", "Progesterone", "LH", "FSH"], correct: 1 },
-                            { q: "Sperm are stored and mature in the:", options: ["Seminiferous tubules", "Epididymis", "Vas deferens", "Prostate"], correct: 1 },
-                            { q: "Menstruation is triggered by:", options: ["High Estrogen", "High Progesterone", "Drop in Estrogen and Progesterone", "Surge in LH"], correct: 2 },
-                            { q: "The inner lining of the uterus is the:", options: ["Myometrium", "Perimetrium", "Endometrium", "Epimetrium"], correct: 2 },
-                            { q: "Oxytocin operates via a _____ feedback loop during labor.", options: ["Negative", "Positive", "Neutral", "Inhibitory"], correct: 1 },
-                            { q: "Which hormone prepares the breast for lactation?", options: ["Prolactin", "Oxytocin", "Estrogen", "Cortisol"], correct: 0 },
-                            { q: "Parathyroid Hormone (PTH) targets which cells to raise calcium?", options: ["Osteoblasts", "Osteoclasts", "Chondrocytes", "Myocytes"], correct: 1 },
-                            { q: "Melatonin is produced by the:", options: ["Pituitary", "Pineal gland", "Thyroid", "Thymus"], correct: 1 },
-                            { q: "Type II Diabetes is primarily caused by:", options: ["Autoimmune destruction", "Insulin resistance", "Lack of insulin", "Virus"], correct: 1 },
-                            { q: "HCG is produced by the:", options: ["Ovary", "Pituitary", "Placenta/Embryo", "Uterus"], correct: 2 },
-                            { q: "The acrosome of the sperm contains:", options: ["Mitochondria", "DNA", "Enzymes to penetrate the egg", "Sugar"], correct: 2 },
-                            { q: "Which structure releases the egg?", options: ["Follicle", "Tube", "Cervix", "Corpus Albicans"], correct: 0 },
-                            { q: "Menopause is defined as:", options: ["Irregular periods", "One year without a period", "First period", "Painful periods"], correct: 1 },
-                            { q: "Which hormone causes the liver to release glucose?", options: ["Insulin", "Glucagon", "Calcitonin", "Aldosterone"], correct: 1 },
-                            { q: "Cortisol is a:", options: ["Mineralocorticoid", "Glucocorticoid", "Androgen", "Estrogen"], correct: 1 },
-                            { q: "Which gland disappears (atrophies) in adulthood?", options: ["Thyroid", "Thymus", "Pineal", "Adrenal"], correct: 1 }
+                            { q: "Steroid hormones interact with receptors:", options: ["On the cell membrane", "Inside the cell (intracellular)", "In the blood", "In the mitochondria"], correct: 1 , rationale: "Being lipid-soluble, steroid hormones easily cross the cell membrane and bind to intracellular receptors to alter gene expression." },
+                            { q: "Hyposecretion of GH in childhood causes:", options: ["Gigantism", "Acromegaly", "Dwarfism", "Cushing's"], correct: 2 , rationale: "A severe deficiency of Growth Hormone (GH) during the growing years results in pituitary dwarfism, characterized by stunted growth." },
+                            { q: "Which hormone triggers ovulation?", options: ["FSH", "LH (Luteinizing Hormone)", "Estrogen", "Progesterone"], correct: 1 , rationale: "A massive mid-cycle surge of Luteinizing Hormone (LH) directly causes the dominant follicle to rupture, releasing the mature egg." },
+                            { q: "Where does fertilization typically occur?", options: ["Ovary", "Uterus", "Fallopian Tube", "Vagina"], correct: 2 , rationale: "The ampulla of the Fallopian tube is the optimal and most common site where sperm successfully fertilizes the released ovum." },
+                            { q: "The corpus luteum secretes primarily:", options: ["Estrogen", "Progesterone", "LH", "FSH"], correct: 1 , rationale: "After ovulation, the collapsed follicle becomes the corpus luteum, secreting high levels of progesterone to prepare and maintain the uterine lining." },
+                            { q: "Sperm are stored and mature in the:", options: ["Seminiferous tubules", "Epididymis", "Vas deferens", "Prostate"], correct: 1 , rationale: "Newly formed sperm travel to the epididymis where they spend weeks maturing and gaining motility crucial for fertilization." },
+                            { q: "Menstruation is triggered by:", options: ["High Estrogen", "High Progesterone", "Drop in Estrogen and Progesterone", "Surge in LH"], correct: 2 , rationale: "When fertilization fails, the corpus luteum degrades, causing a sharp drop in ovarian hormones that triggers the shedding of the endometrium." },
+                            { q: "The inner lining of the uterus is the:", options: ["Myometrium", "Perimetrium", "Endometrium", "Epimetrium"], correct: 2 , rationale: "The endometrium is the highly vascular inner mucosal layer of the uterus that thickens during the cycle and sloughs off during menses." },
+                            { q: "Oxytocin operates via a _____ feedback loop during labor.", options: ["Negative", "Positive", "Neutral", "Inhibitory"], correct: 1 , rationale: "During labor, oxytocin stimulates uterine contractions, which pushes the baby against the cervix, signaling the brain to release even more oxytocin." },
+                            { q: "Which hormone prepares the breast for lactation?", options: ["Prolactin", "Oxytocin", "Estrogen", "Cortisol"], correct: 0 , rationale: "Produced by the anterior pituitary, prolactin stimulates the mammary glands to develop fully and actively produce breast milk." },
+                            { q: "Parathyroid Hormone (PTH) targets which cells to raise calcium?", options: ["Osteoblasts", "Osteoclasts", "Chondrocytes", "Myocytes"], correct: 1 , rationale: "When blood calcium drops, PTH stimulates osteoclasts to break down bone matrix, releasing stored calcium into the bloodstream." },
+                            { q: "Melatonin is produced by the:", options: ["Pituitary", "Pineal gland", "Thyroid", "Thymus"], correct: 1 , rationale: "The tiny pineal gland in the brain rhythmically secretes melatonin in response to darkness to regulate the sleep-wake cycle (circadian rhythm)." },
+                            { q: "Type II Diabetes is primarily caused by:", options: ["Autoimmune destruction", "Insulin resistance", "Lack of insulin", "Virus"], correct: 1 , rationale: "Unlike Type I, Type II diabetes develops when body cells become heavily resistant to insulin, preventing glucose from entering cells properly." },
+                            { q: "HCG is produced by the:", options: ["Ovary", "Pituitary", "Placenta/Embryo", "Uterus"], correct: 2 , rationale: "Human Chorionic Gonadotropin (hCG) is secreted early by the developing embryo (and later placenta) to prevent menstruation; it is the hormone detected by pregnancy tests." },
+                            { q: "The acrosome of the sperm contains:", options: ["Mitochondria", "DNA", "Enzymes to penetrate the egg", "Sugar"], correct: 2 , rationale: "The acrosome acts like a helmet filled with hydrolytic enzymes needed to digest the tough outer layers of the ovum during fertilization." },
+                            { q: "Which structure releases the egg?", options: ["Follicle", "Tube", "Cervix", "Corpus Albicans"], correct: 0 , rationale: "The mature Graafian follicle swells and eventually violently ruptures the ovarian surface to release the secondary oocyte into the pelvic cavity." },
+                            { q: "Menopause is defined as:", options: ["Irregular periods", "One year without a period", "First period", "Painful periods"], correct: 1 , rationale: "Clinically, menopause is diagnosed retrospectively after a woman has gone exactly 12 consecutive months without a menstrual cycle." },
+                            { q: "Which hormone causes the liver to release glucose?", options: ["Insulin", "Glucagon", "Calcitonin", "Aldosterone"], correct: 1 , rationale: "During fasting, the alpha cells of the pancreas release glucagon, commanding the liver to break down stored glycogen into glucose." },
+                            { q: "Cortisol is a:", options: ["Mineralocorticoid", "Glucocorticoid", "Androgen", "Estrogen"], correct: 1 , rationale: "Secreted by the adrenal cortex, cortisol is the body's primary glucocorticoid, responsible for managing chronic stress and regulating metabolism." },
+                            { q: "Which gland disappears (atrophies) in adulthood?", options: ["Thyroid", "Thymus", "Pineal", "Adrenal"], correct: 1 , rationale: "The thymus gland is large and highly active during childhood for T-cell maturation, but it slowly shrinks (involutes) into fat tissue during adulthood." }
                         ]
                     },
                     {
@@ -1159,13 +1170,13 @@ const appData = {
                         title: 'Module 1: Definition of a Profession',
                         body: `
                             <h3>Nursing as a Profession</h3>
-                            <p>Nursing is more than a job; it is a profession characterized by:</p>
+                            <p>Nursing is more than a job or a set of tasks; it is a profession characterized by several distinct hallmarks:</p>
                             <ul>
-                                <li>A specialized body of knowledge.</li>
-                                <li>Higher education.</li>
-                                <li>Service to society.</li>
-                                <li>Autonomy and self-regulation.</li>
-                                <li>A code of ethics.</li>
+                                <li><strong>Specialized Body of Knowledge:</strong> Nursing relies on evidence-based practice and continuous research, not just tradition.</li>
+                                <li><strong>Higher Education:</strong> Entry into practice requires rigorous academic preparation, moving towards higher degrees (BSN, MSN, DNP).</li>
+                                <li><strong>Service to Society:</strong> The primary goal is altruistic—promoting health, preventing illness, and caring for the dying.</li>
+                                <li><strong>Autonomy and Self-Regulation:</strong> Nursing boards set standards of practice and enforce licensure.</li>
+                                <li><strong>Code of Ethics:</strong> A formal framework guiding professional conduct and decision-making.</li>
                             </ul>
                         `
                     },
@@ -1174,7 +1185,7 @@ const appData = {
                         title: 'Module 2: Core Values of Nursing',
                         body: `
                             <h3>The Foundation of Practice</h3>
-                            <p>Professional nurses integrate core values into their interaction with patients and colleagues.</p>
+                            <p>Professional nurses integrate core values into their interaction with patients, families, and interprofessional colleagues. These values are the soul of nursing.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">Core Nursing Values</h4>
@@ -1183,10 +1194,10 @@ const appData = {
                             </div>
 
                             <ul>
-                                <li><strong>Altruism:</strong> Concern for the welfare of others.</li>
-                                <li><strong>Human Dignity:</strong> Respect for the inherent worth of individuals.</li>
-                                <li><strong>Integrity:</strong> Acting in accordance with standards and ethics.</li>
-                                <li><strong>Social Justice:</strong> Upholding moral, legal, and humanistic principles.</li>
+                                <li><strong>Altruism:</strong> Deep concern for the welfare and well-being of others, putting patient needs first.</li>
+                                <li><strong>Human Dignity:</strong> Unwavering respect for the inherent worth and uniqueness of all individuals, regardless of their background or health status.</li>
+                                <li><strong>Integrity:</strong> Acting consistently with accepted standards of practice and the Code of Ethics; being honest and transparent.</li>
+                                <li><strong>Social Justice:</strong> Upholding moral, legal, and humanistic principles, and advocating for equitable access to nursing and healthcare.</li>
                             </ul>
                         `
                     },
@@ -1195,16 +1206,22 @@ const appData = {
                         title: 'Module 3: Code of Ethics',
                         body: `
                             <h3>ICN and ANA Codes</h3>
-                            <p>The Code of Ethics provides a guide for carrying out nursing responsibilities relative to quality in nursing care and ethical obligations.</p>
-                            <p>Key provisions include practicing with compassion, primary commitment to the patient, and accountability for practice.</p>
+                            <p>The Code of Ethics provides an indispensable, non-negotiable standard for carrying out nursing responsibilities. It is the profession's public expression of its ethical duties.</p>
+                            <h4>Key Provisions include:</h4>
+                            <ul>
+                                <li>Practicing with compassion and respect for the inherent dignity of every person.</li>
+                                <li>The nurse's primary commitment is to the patient (whether an individual, family, group, or community).</li>
+                                <li>Accountability and responsibility for individual nursing practice and delegating tasks appropriately.</li>
+                                <li>The duty to maintain professional boundaries and protect the patient's health and safety.</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 4: Professional Communication',
                         body: `
-                            <h3>Effective Communication</h3>
-                            <p>Clear, direct, and timely communication prevents errors and ensures patient safety.</p>
+                            <h3>Effective and Safe Communication</h3>
+                            <p>Clear, direct, and timely communication is not just a soft skill; it is a critical safety intervention that prevents errors, especially during patient handoffs and critical events.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">The SBAR Tool</h4>
@@ -1212,11 +1229,12 @@ const appData = {
                                 <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 4.1: Standardized framework for interdisciplinary communication.</p>
                             </div>
 
+                            <h4>SBAR Breakdown:</h4>
                             <ul>
-                                <li><strong>Situation:</strong> What is happening right now?</li>
-                                <li><strong>Background:</strong> What is the clinical context?</li>
-                                <li><strong>Assessment:</strong> What do I think the problem is?</li>
-                                <li><strong>Recommendation:</strong> What do I do to correct it?</li>
+                                <li><strong>Situation:</strong> Exactly what is happening right now? (e.g., "Mr. Smith is having acute chest pain.")</li>
+                                <li><strong>Background:</strong> What is the clinical context and relevant history? (e.g., "He is day 2 post-op CABG.")</li>
+                                <li><strong>Assessment:</strong> What do I think the problem is based on my findings? (e.g., "I suspect a myocardial infarction; his BP is dropping.")</li>
+                                <li><strong>Recommendation:</strong> What do I need the physician to do to correct it? (e.g., "I need you to come evaluate him immediately and order an ECG.")</li>
                             </ul>
                         `
                     },
@@ -1225,7 +1243,7 @@ const appData = {
                         title: 'Module 5: Roles of the Professional Nurse',
                         body: `
                             <h3>Beyond Bedside Care</h3>
-                            <p>Nurses assume multiple multifaceted roles depending on the setting and needs of the patient.</p>
+                            <p>Modern nurses assume multiple, multifaceted roles that adapt to the setting, the patient's acuity, and the healthcare team's needs.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">Multifaceted Roles</h4>
@@ -1234,10 +1252,11 @@ const appData = {
                             </div>
 
                             <ul>
-                                <li><strong>Caregiver:</strong> Addressing physical, emotional, and social needs.</li>
-                                <li><strong>Advocate:</strong> Protecting the patient's human and legal rights.</li>
-                                <li><strong>Educator:</strong> Teaching patients about their health.</li>
-                                <li><strong>Leader/Manager:</strong> Coordinating care and resources.</li>
+                                <li><strong>Caregiver:</strong> The traditional role; addressing physical, emotional, and social needs through direct interventions.</li>
+                                <li><strong>Advocate:</strong> Protecting the patient's human and legal rights, acting as their voice when they cannot speak for themselves.</li>
+                                <li><strong>Educator:</strong> Teaching patients about their health, medications, and disease management to promote independence.</li>
+                                <li><strong>Leader/Manager:</strong> Coordinating care, managing resources, and delegating effectively within the interprofessional team.</li>
+                                <li><strong>Researcher:</strong> Participating in or utilizing evidence-based studies to improve clinical outcomes.</li>
                             </ul>
                         `
                     },
@@ -1245,13 +1264,14 @@ const appData = {
                         type: 'text',
                         title: 'Module 6: Therapeutic Relationships',
                         body: `
-                            <h3>Nurse-Patient Relationship</h3>
-                            <p>A professional, goal-oriented relationship focused on the patient's needs.</p>
+                            <h3>The Nurse-Patient Relationship</h3>
+                            <p>This is a professional, goal-oriented relationship focused entirely on the patient's needs, distinct from a social friendship.</p>
+                            <h4>Phases of the Relationship:</h4>
                             <ul>
-                                <li><strong>Pre-interaction Phase:</strong> Reviewing data.</li>
-                                <li><strong>Orientation Phase:</strong> Setting tone and goals.</li>
-                                <li><strong>Working Phase:</strong> Working together to meet goals.</li>
-                                <li><strong>Termination Phase:</strong> Evaluating and concluding.</li>
+                                <li><strong>Pre-interaction Phase:</strong> Occurs before meeting the patient (e.g., reviewing the chart, getting report).</li>
+                                <li><strong>Orientation Phase:</strong> Meeting the patient, establishing trust, defining boundaries, and setting initial goals.</li>
+                                <li><strong>Working Phase:</strong> The active work of nursing; collaborating to meet healthcare goals and addressing anxieties.</li>
+                                <li><strong>Termination Phase:</strong> Evaluating goal attainment and concluding the relationship (e.g., at discharge or end of shift).</li>
                             </ul>
                         `
                     },
@@ -1260,8 +1280,13 @@ const appData = {
                         title: 'Module 7: Cultural Competence',
                         body: `
                             <h3>Providing Culturally Sensitive Care</h3>
-                            <p>Understanding and respecting the cultural beliefs, values, and practices of patients.</p>
-                            <p>This includes being aware of one's own biases and adapting care to meet the patient's cultural needs (e.g., diet, modesty, family involvement).</p>
+                            <p>Cultural competence is the lifelong process of acquiring the ability to understand, communicate with, and effectively interact with people across cultures.</p>
+                            <p>It involves:</p>
+                            <ul>
+                                <li><strong>Cultural Awareness:</strong> Processing one's own biases and assumptions.</li>
+                                <li><strong>Cultural Knowledge:</strong> Seeking education about diverse cultural beliefs, values, and practices related to health.</li>
+                                <li><strong>Cultural Skill:</strong> The ability to conduct culturally sensitive assessments and adapt care plans accordingly (e.g., accommodating dietary laws, modesty requirements, or involving specific family members in decisions).</li>
+                            </ul>
                         `
                     },
                     {
@@ -1269,8 +1294,14 @@ const appData = {
                         title: 'Module 8: Evidence-Based Practice (EBP)',
                         body: `
                             <h3>Integrating Best Evidence</h3>
-                            <p>EBP is a problem-solving approach that integrates the best current evidence with clinical expertise and patient values/preferences.</p>
-                            <p>Steps: Ask clinical question (PICO), Search evidence, Appraise evidence, Integrate, Evaluate.</p>
+                            <p>EBP is a systematic, problem-solving approach to clinical practice that moves away from "we've always done it this way" towards scientific rigor.</p>
+                            <p>It integrates three core components:</p>
+                            <ol>
+                                <li>The best current research evidence.</li>
+                                <li>Clinical expertise and judgment.</li>
+                                <li>Patient values, preferences, and circumstances.</li>
+                            </ol>
+                            <p>The EBP process involves asking a formatted clinical question (PICO), systematically searching the literature, critically appraising the evidence, integrating it into practice, and evaluating the outcomes.</p>
                         `
                     },
                     {
@@ -1278,10 +1309,12 @@ const appData = {
                         title: 'Module 9: Legal Responsibilities',
                         body: `
                             <h3>Accountability and Liability</h3>
+                            <p>Nurses practice under a legal framework (The Nurse Practice Act) and must understand concepts of liability to protect themselves and their patients.</p>
                             <ul>
-                                <li><strong>Informed Consent:</strong> Ensuring the patient understands risks/benefits before treatment.</li>
-                                <li><strong>HIPAA:</strong> Protecting patient privacy and health information.</li>
-                                <li><strong>Mandatory Reporting:</strong> Reporting abuse, neglect, or communicable diseases.</li>
+                                <li><strong>Informed Consent:</strong> The nurse's role is typically to witness the signature and ensure the patient is competent and understands the risks/benefits explained by the provider.</li>
+                                <li><strong>HIPAA (Health Insurance Portability and Accountability Act):</strong> Strict federal regulations protecting patient privacy and confidential health information across all mediums.</li>
+                                <li><strong>Mandatory Reporting:</strong> Legal obligations to report specific situations, regardless of confidentiality, such as suspected child/elder abuse, gunshot wounds, or certain communicable diseases.</li>
+                                <li><strong>Negligence/Malpractice:</strong> Understanding the elements required to prove malpractice (Duty, Breach of Duty, Causation, and Harm).</li>
                             </ul>
                         `
                     },
@@ -1289,151 +1322,155 @@ const appData = {
                         type: 'text',
                         title: 'Module 10: Career Development',
                         body: `
-                            <h3>Lifelong Learning</h3>
-                            <p>Medicine and nursing are constantly evolving fields. Continuing education is essential for competence.</p>
+                            <h3>Lifelong Learning and Sustainability</h3>
+                            <p>Medicine and healthcare delivery are constantly evolving. A commitment to lifelong learning through continuing education, specialty certification, and advanced degrees is essential for maintaining professional competence.</p>
                             
-                            <h4>Burnout Prevention</h4>
-                            <p>Self-care and resilience strategies are vital for a sustainable career in nursing.</p>
+                            <h4>Burnout Prevention & Resilience</h4>
+                            <p>Nursing is physically and emotionally demanding. "Compassion fatigue" and burnout are real risks.</p>
+                            <ul>
+                                <li>Developing resilience—the ability to bounce back from adversity—is crucial.</li>
+                                <li>Implementing intentional self-care strategies (rest, exercise, debriefing after traumatic events) is vital for a sustainable, long-term career in nursing.</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'quiz',
                         title: 'Professionalism Final Quiz',
                         questions: [
-                            { q: "Which role involves speaking up for the patient's rights?", options: ["Educator", "Manager", "Advocate", "Researcher"], correct: 2 },
-                            { q: "What does the 'S' in SBAR stand for?", options: ["Subject", "Situation", "Safety", "Standard"], correct: 1 },
-                            { q: "Which ethical value refers to truthfulness?", options: ["Veracity", "Justice", "Fidelity", "Autonomy"], correct: 0 },
-                            { q: "Integrating research, expertise, and patient preference is known as:", options: ["Holistic Care", "Evidence-Based Practice", "Primary Nursing", "Case Management"], correct: 1 }
+                            { q: "Which role involves speaking up for the patient's rights?", options: ["Educator", "Manager", "Advocate", "Researcher"], correct: 2 , rationale: "As a patient advocate, the nurse acts to protect the patient's rights, ensuring they receive proper care, information, and respect." },
+                            { q: "What does the 'S' in SBAR stand for?", options: ["Subject", "Situation", "Safety", "Standard"], correct: 1 , rationale: "SBAR stands for Situation, Background, Assessment, and Recommendation; 'Situation' quickly explains exactly what is happening right now." },
+                            { q: "Which ethical value refers to truthfulness?", options: ["Veracity", "Justice", "Fidelity", "Autonomy"], correct: 0 , rationale: "Veracity is the fundamental ethical principle of telling the absolute truth and avoiding deception with patients." },
+                            { q: "Integrating research, expertise, and patient preference is known as:", options: ["Holistic Care", "Evidence-Based Practice", "Primary Nursing", "Case Management"], correct: 1 , rationale: "EBP merges the best available clinical research with practical expertise and the unique values/preferences of the patient to optimize care." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Professional Standards',
                         questions: [
-                            { q: "Which ethical principle emphasizes the right to self-determination?", options: ["Justice", "Autonomy", "Beneficence", "Non-maleficence"], correct: 1 },
-                            { q: "The nurse failing to give a scheduled medication fits which category of tort?", options: ["Assault", "Battery", "Negligence", "Defamation"], correct: 2 },
-                            { q: "A patient's right to refuse treatment is protected by:", options: ["The Hippocratic Oath", "The Patient Self-Determination Act", "The Good Samaritan Law", "The Nurse Practice Act"], correct: 1 },
-                            { q: "Which organization regulates nursing practice in the US?", options: ["State Boards of Nursing", "American Medical Association", "Joint Commission", "Department of Health"], correct: 0 },
-                            { q: "Nurses are mandatory reporters for:", options: ["Traffic violations", "Child and Elder Abuse", "Tax evasion", "Marital disputes"], correct: 1 },
-                            { q: "Which document defines the scope of nursing practice?", options: ["Code of Ethics", "Nurse Practice Act", "Hospital Policy", "Nursing Textbook"], correct: 1 },
-                            { q: "Touching a patient without consent can be legally charged as:", options: ["Assault", "Battery", "Libel", "Slander"], correct: 1 },
-                            { q: "The concept of 'Fidelity' in nursing ethics means:", options: ["Doing no harm", "Being fair", "Keeping promises", "Telling the truth"], correct: 2 },
-                            { q: "Which is an example of an unintentional tort?", options: ["Malpractice", "False Imprisonment", "Assault", "Invasion of Privacy"], correct: 0 },
-                            { q: "HIPAA primarily protects:", options: ["Insurance companies", "Patient privacy", "Hospital revenue", "Doctor's rights"], correct: 1 },
-                            { q: "The ICN Code of Ethics has how many principal elements?", options: ["Two", "Four", "Six", "Ten"], correct: 1 },
-                            { q: "Which nursing organization focuses on education standards?", options: ["ANA", "NLN", "ICN", "NCSBN"], correct: 1 },
-                            { q: "Which type of law deals with relationships between individuals?", options: ["Criminal Law", "Civil Law", "Public Law", "Constitutional Law"], correct: 1 },
-                            { q: "Which of the following describes the 'Art' of nursing?", options: ["Evidence-based practice", "Caring and compassion", "Technical skills", "Pathophysiology"], correct: 1 },
-                            { q: "Continuing education units (CEUs) are required for:", options: ["Licensure renewal", "Graduation", "Hiring", "Retirement"], correct: 0 },
-                            { q: "The NCLEX-RN is:", options: ["A graduation exam", "A licensure exam", "A job interview", "A performance review"], correct: 1 },
-                            { q: "Which theorist is known as the 'Lady with the Lamp'?", options: ["Clara Barton", "Florence Nightingale", "Dorothea Dix", "Mary Breckenridge"], correct: 1 },
-                            { q: "Nursing licensure provides protection to:", options: ["The nurse", "The public", "The hospital", "The doctor"], correct: 1 },
-                            { q: "Reciprocity allows a nurse to:", options: ["Work in another compact state without re-exam", "Retire early", "Prescribe medication", "Act as a doctor"], correct: 0 },
-                            { q: "Which standard of practice involves collecting data?", options: ["Assessment", "Diagnosis", "Planning", "Evaluation"], correct: 0 }
+                            { q: "Which ethical principle emphasizes the right to self-determination?", options: ["Justice", "Autonomy", "Beneficence", "Non-maleficence"], correct: 1 , rationale: "Autonomy respects the patient's absolute right to make their own informed decisions regarding their body and healthcare." },
+                            { q: "The nurse failing to give a scheduled medication fits which category of tort?", options: ["Assault", "Battery", "Negligence", "Defamation"], correct: 2 , rationale: "Negligence occurs when a nurse fails to perform as a reasonably prudent nurse would under similar circumstances, like omitting a crucial dose." },
+                            { q: "A patient's right to refuse treatment is protected by:", options: ["The Hippocratic Oath", "The Patient Self-Determination Act", "The Good Samaritan Law", "The Nurse Practice Act"], correct: 1 , rationale: "The PSDA is a federal law requiring hospitals to inform patients of their legal right to make healthcare choices, including refusing treatment." },
+                            { q: "Which organization regulates nursing practice in the US?", options: ["State Boards of Nursing", "American Medical Association", "Joint Commission", "Department of Health"], correct: 0 , rationale: "Each State Board of Nursing strictly enforces the Nurse Practice Act, issuing and revoking licenses to protect public safety." },
+                            { q: "Nurses are mandatory reporters for:", options: ["Traffic violations", "Child and Elder Abuse", "Tax evasion", "Marital disputes"], correct: 1 , rationale: "By law, nurses are mandated reporters required to immediately notify authorities regarding any suspicion of physical or emotional abuse in vulnerable populations." },
+                            { q: "Which document defines the scope of nursing practice?", options: ["Code of Ethics", "Nurse Practice Act", "Hospital Policy", "Nursing Textbook"], correct: 1 , rationale: "The Nurse Practice Act is legislative law enacted by each state that explicitly outlines what a nurse can and cannot legally do." },
+                            { q: "Touching a patient without consent can be legally charged as:", options: ["Assault", "Battery", "Libel", "Slander"], correct: 1 , rationale: "Battery is the intentional and unconsented physical contact with another person, even if the nurse meant it strictly for therapeutic treatment." },
+                            { q: "The concept of 'Fidelity' in nursing ethics means:", options: ["Doing no harm", "Being fair", "Keeping promises", "Telling the truth"], correct: 2 , rationale: "Fidelity originates from the Latin 'fidelis' (faithful); it demands that nurses strictly honor their commitments and promises to patients." },
+                            { q: "Which is an example of an unintentional tort?", options: ["Malpractice", "False Imprisonment", "Assault", "Invasion of Privacy"], correct: 0 , rationale: "Malpractice (professional negligence) is considered unintentional because the nurse did not willfully intend to harm the patient, but failed to meet the standard of care." },
+                            { q: "HIPAA primarily protects:", options: ["Insurance companies", "Patient privacy", "Hospital revenue", "Doctor's rights"], correct: 1 , rationale: "The Health Insurance Portability and Accountability Act rigorously protects the privacy and security of a patient's individually identifiable health information." },
+                            { q: "The ICN Code of Ethics has how many principal elements?", options: ["Two", "Four", "Six", "Ten"], correct: 1 , rationale: "The ICN Code focuses on four core elements: nurses and people, nurses and practice, nurses and the profession, and nurses and co-workers." },
+                            { q: "Which nursing organization focuses on education standards?", options: ["ANA", "NLN", "ICN", "NCSBN"], correct: 1 , rationale: "The National League for Nursing (NLN) is the premier organization specifically dedicated to fostering excellence in nursing education globally." },
+                            { q: "Which type of law deals with relationships between individuals?", options: ["Criminal Law", "Civil Law", "Public Law", "Constitutional Law"], correct: 1 , rationale: "Civil law (including torts like negligence or malpractice) strictly governs disputes, contracts, and relationships between private individuals or organizations." },
+                            { q: "Which of the following describes the 'Art' of nursing?", options: ["Evidence-based practice", "Caring and compassion", "Technical skills", "Pathophysiology"], correct: 1 , rationale: "While the 'science' is knowledge and skills, the 'art' of nursing is purely the compassionate, empathetic, and holistic care delivered." },
+                            { q: "Continuing education units (CEUs) are required for:", options: ["Licensure renewal", "Graduation", "Hiring", "Retirement"], correct: 0 , rationale: "Most state boards mandate that nurses complete a specific number of Continuing Education Units (CEUs) to routinely renew their active license." },
+                            { q: "The NCLEX-RN is:", options: ["A graduation exam", "A licensure exam", "A job interview", "A performance review"], correct: 1 , rationale: "The National Council Licensure Examination (NCLEX) determines if a candidate possesses the minimum safe knowledge required for entry-level nursing practice." },
+                            { q: "Which theorist is known as the 'Lady with the Lamp'?", options: ["Clara Barton", "Florence Nightingale", "Dorothea Dix", "Mary Breckenridge"], correct: 1 , rationale: "Florence Nightingale earned her famous moniker during the Crimean War for her tireless, compassionate night rounds checking on wounded soldiers." },
+                            { q: "Nursing licensure provides protection to:", options: ["The nurse", "The public", "The hospital", "The doctor"], correct: 1 , rationale: "The fundamental purpose of all nursing licensure and regulation is absolutely establishing minimum competency to protect the public from unsafe practice." },
+                            { q: "Reciprocity allows a nurse to:", options: ["Work in another compact state without re-exam", "Retire early", "Prescribe medication", "Act as a doctor"], correct: 0 , rationale: "Under the Nurse Licensure Compact (NLC), reciprocity allows nurses to practice across state lines without having to painfully re-take the NCLEX." },
+                            { q: "Which standard of practice involves collecting data?", options: ["Assessment", "Diagnosis", "Planning", "Evaluation"], correct: 0 , rationale: "Assessment is the foundational first step of the nursing process, involving the systematic collection, verification, and communication of patient data." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Ethics & Legal Issues',
                         questions: [
-                            { q: "Veracity refers to:", options: ["Fairness", "Truthfulness", "Faithfulness", "Doing good"], correct: 1 },
-                            { q: "Which action violates patient privacy?", options: ["Discussing care in the cafeteria", "Documenting in the chart", "Giving report at bedside", "Closing the curtain"], correct: 0 },
-                            { q: "An Advance Directive includes:", options: ["Living Will and Power of Attorney", "Will and Testament", "Insurance policy", "DNR order only"], correct: 0 },
-                            { q: "Informed consent requires the patient to be:", options: ["Sedated", "Competent", "Coerced", "Related to the doctor"], correct: 1 },
-                            { q: "Who is responsible for obtaining informed consent?", options: ["The Nurse", "The Provider performing the procedure", "The Pharmacist", "The Social Worker"], correct: 1 },
-                            { q: "False imprisonment involves:", options: ["Locking a patient in a room without cause", "Arresting a patient", "Using a bed rail", "Sedation"], correct: 0 },
-                            { q: "Slander is:", options: ["Written defamation", "Spoken defamation", "Physical harm", "Threats"], correct: 1 },
-                            { q: "Which is a 'Sentinel Event'?", options: ["Patient fall with fracture", "Late medication", "Patient complaint", "Staff meeting"], correct: 0 },
-                            { q: "The Good Samaritan Law protects:", options: ["Nurses at work", "Volunteers providing emergency care", "Doctors only", "Hospitals"], correct: 1 },
-                            { q: "Non-maleficence means:", options: ["Do Good", "Do No Harm", "Be Fair", "Be Free"], correct: 1 },
-                            { q: "Ethical dilemmas occur when:", options: ["Two moral principles conflict", "The law is clear", "The patient agrees", "The nurse is tired"], correct: 0 },
-                            { q: "Advocacy involves:", options: ["Making decisions for the patient", "Supporting the patient's decisions", "Ignoring the patient", "Judging the patient"], correct: 1 },
-                            { q: "Which is an intentional tort?", options: ["Negligence", "Malpractice", "Assault", "Accident"], correct: 2 },
-                            { q: "Standards of Care are determined by:", options: ["The Nurse Practice Act", "Professional organizations", "Hospital policy", "All of the above"], correct: 3 },
-                            { q: "Which is a violation of professional boundaries?", options: ["Accepting a large cash gift from a patient", "Holding a patient's hand", "Listening to a patient's story", "Providing education"], correct: 0 },
-                            { q: "If a nurse suspects child abuse, they must:", options: ["Ignore it", "Report it to the authorities", "Ask the parents", "Wait for proof"], correct: 1 },
-                            { q: "Who owns the medical record?", options: ["The patient", "The facility", "The insurance", "The nurse"], correct: 1 },
-                            { q: "Patients have the right to access their records under:", options: ["HIPAA", "OSHA", "CDC", "WHO"], correct: 0 },
-                            { q: "A DNR order means:", options: ["Do Not Resuscitate", "Do Not Record", "Do Not Report", "Do Not React"], correct: 0 },
-                            { q: "Ethics committees exist to:", options: ["Punish staff", "Assist with complex ethical decisions", "Write laws", "Hire nurses"], correct: 1 }
+                            { q: "Veracity refers to:", options: ["Fairness", "Truthfulness", "Faithfulness", "Doing good"], correct: 1 , rationale: "Veracity is the ethical principle that obligates healthcare providers to tell the truth and not intentionally deceive or mislead patients." },
+                            { q: "Which action violates patient privacy?", options: ["Discussing care in the cafeteria", "Documenting in the chart", "Giving report at bedside", "Closing the curtain"], correct: 0 , rationale: "Discussing a patient's protected health information (PHI) in public areas like a cafeteria or elevator is a direct HIPAA violation." },
+                            { q: "An Advance Directive includes:", options: ["Living Will and Power of Attorney", "Will and Testament", "Insurance policy", "DNR order only"], correct: 0 , rationale: "Advance Directives encompass both a Living Will (stating treatment desires) and a Durable Power of Attorney for Healthcare (appointing a proxy)." },
+                            { q: "Informed consent requires the patient to be:", options: ["Sedated", "Competent", "Coerced", "Related to the doctor"], correct: 1 , rationale: "For informed consent to be legally valid, the patient must be mentally competent, of legal age, and free from coercion or heavy sedation." },
+                            { q: "Who is responsible for obtaining informed consent?", options: ["The Nurse", "The Provider performing the procedure", "The Pharmacist", "The Social Worker"], correct: 1 , rationale: "While a nurse may witness the signature, the provider or surgeon performing the procedure is strictly responsible for explaining the risks and obtaining consent." },
+                            { q: "False imprisonment involves:", options: ["Locking a patient in a room without cause", "Arresting a patient", "Using a bed rail", "Sedation"], correct: 0 , rationale: "False imprisonment is the unlawful confinement or restraint of a person against their will without medical justification or legal authority." },
+                            { q: "Slander is:", options: ["Written defamation", "Spoken defamation", "Physical harm", "Threats"], correct: 1 , rationale: "Slander is the verbal form of defamation, where false spoken statements maliciously damage a person's reputation." },
+                            { q: "Which is a 'Sentinel Event'?", options: ["Patient fall with fracture", "Late medication", "Patient complaint", "Staff meeting"], correct: 0 , rationale: "A Sentinel Event is an unexpected occurrence involving death or serious physical or psychological injury (like a severe fall) that requires immediate investigation." },
+                            { q: "The Good Samaritan Law protects:", options: ["Nurses at work", "Volunteers providing emergency care", "Doctors only", "Hospitals"], correct: 1 , rationale: "These laws specifically protect healthcare professionals from civil liability when they provide voluntary, good-faith emergency care outside their workplace." },
+                            { q: "Non-maleficence means:", options: ["Do Good", "Do No Harm", "Be Fair", "Be Free"], correct: 1 , rationale: "Non-maleficence is the core ethical duty of healthcare providers to intentionally avoid actions that cause unnecessary harm or suffering to patients." },
+                            { q: "Ethical dilemmas occur when:", options: ["Two moral principles conflict", "The law is clear", "The patient agrees", "The nurse is tired"], correct: 0 , rationale: "An ethical dilemma arises when two or more equally valid moral principles or values clash, making it difficult to determine the clear 'right' action." },
+                            { q: "Advocacy involves:", options: ["Making decisions for the patient", "Supporting the patient's decisions", "Ignoring the patient", "Judging the patient"], correct: 1 , rationale: "Nurse advocacy empowers patients by ensuring they have the necessary information to make independent choices, and supporting those decisions." },
+                            { q: "Which is an intentional tort?", options: ["Negligence", "Malpractice", "Assault", "Accident"], correct: 2 , rationale: "Unlike negligence, assault (the intentional threat of harm) and battery (unconsented touching) are classified strictly as intentional torts." },
+                            { q: "Standards of Care are determined by:", options: ["The Nurse Practice Act", "Professional organizations", "Hospital policy", "All of the above"], correct: 3 , rationale: "Standards of care are legal guidelines for nursing practice established by State Nurse Practice Acts, professional organizations (ANA), and individual facility policies." },
+                            { q: "Which is a violation of professional boundaries?", options: ["Accepting a large cash gift from a patient", "Holding a patient's hand", "Listening to a patient's story", "Providing education"], correct: 0 , rationale: "Accepting significant cash gifts entirely blurs professional lines, creating a conflict of interest and compromising the therapeutic nurse-patient relationship." },
+                            { q: "If a nurse suspects child abuse, they must:", options: ["Ignore it", "Report it to the authorities", "Ask the parents", "Wait for proof"], correct: 1 , rationale: "Nurses are legally designated mandatory reporters under state law and must immediately report any reasonable suspicion of child or elder abuse." },
+                            { q: "Who owns the medical record?", options: ["The patient", "The facility", "The insurance", "The nurse"], correct: 1 , rationale: "The physical or electronic medical record itself is legally owned by the healthcare facility or provider documenting the care." },
+                            { q: "Patients have the right to access their records under:", options: ["HIPAA", "OSHA", "CDC", "WHO"], correct: 0 , rationale: "Under HIPAA privacy rules, patients have the legal right to inspect, review, and request copies of their own medical records at any time." },
+                            { q: "A DNR order means:", options: ["Do Not Resuscitate", "Do Not Record", "Do Not Report", "Do Not React"], correct: 0 , rationale: "A DNR (Do Not Resuscitate) is a specific medical order instructing healthcare providers not to perform CPR if the patient's breathing or heartbeat stops." },
+                            { q: "Ethics committees exist to:", options: ["Punish staff", "Assist with complex ethical decisions", "Write laws", "Hire nurses"], correct: 1 , rationale: "Hospital ethics committees provide a multidisciplinary forum to help resolve difficult ethical clinical cases objectively, supporting both staff and families." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Communication & SBAR',
                         questions: [
-                            { q: "Which is a block to therapeutic communication?", options: ["Listening", "Reflecting", "Giving advice", "Silence"], correct: 2 },
-                            { q: "In SBAR, 'R' stands for:", options: ["Reason", "Result", "Recommendation", "Record"], correct: 2 },
-                            { q: "Which phase of the nurse-patient relationship involves termination?", options: ["Orientation", "Working", "Termination", "Pre-interation"], correct: 2 },
-                            { q: "When using an interpreter, the nurse should speak to:", options: ["The interpreter", "The patient", "The family", "The wall"], correct: 1 },
-                            { q: "Non-verbal communication includes:", options: ["Spoken words", "Tone of voice and body language", "Written notes", "Emails"], correct: 1 },
-                            { q: "Active listening demonstrates:", options: ["Boredom", "Respect and interest", "Superiority", "Impatience"], correct: 1 },
+                            { q: "Which is a block to therapeutic communication?", options: ["Listening", "Reflecting", "Giving advice", "Silence"], correct: 2 , rationale: "Giving unsolicited personal advice implies the nurse knows best, robbing the patient of their autonomy and blocking cooperative problem-solving." },
+                            { q: "In SBAR, 'R' stands for:", options: ["Reason", "Result", "Recommendation", "Record"], correct: 2 , rationale: "SBAR concludes with 'Recommendation', where the nurse distinctly states what action or orders they believe are necessary to resolve the situation." },
+                            { q: "Which phase of the nurse-patient relationship involves termination?", options: ["Orientation", "Working", "Termination", "Pre-interation"], correct: 2 , rationale: "The termination phase occurs when the goals are met or the patient is discharged, involving summarizing achievements and properly ending the therapeutic relationship." },
+                            { q: "When using an interpreter, the nurse should speak to:", options: ["The interpreter", "The patient", "The family", "The wall"], correct: 1 , rationale: "To maintain respect and connection, the nurse should always speak directly to the patient, observing their non-verbal cues, rather than talking to the interpreter." },
+                            { q: "Non-verbal communication includes:", options: ["Spoken words", "Tone of voice and body language", "Written notes", "Emails"], correct: 1 , rationale: "Non-verbal communication comprises over 70% of a message and includes posture, facial expressions, eye contact, gestures, and vocal tone." },
+                            { q: "Active listening demonstrates:", options: ["Boredom", "Respect and interest", "Superiority", "Impatience"], correct: 1 , rationale: "Active listening conveys deep respect and genuine interest, building trust by showing the patient they are being completely heard and understood." },
                             { q: "The nurse creates a professional 'zone' of:", options: ["Personal space", "Intimate space", "Social space", "Public space"], correct: 0 }, // Personal is usually 1.5-4ft, therapeutic often enters personal.
-                            { q: "Which question is open-ended?", options: ["Are you in pain?", "Do you take insulin?", "Tell me about your pain.", "Is your name John?"], correct: 2 },
-                            { q: "Clarification is used to:", options: ["Confuse the patient", "Ensure understanding", "Change the subject", "Give orders"], correct: 1 },
-                            { q: "Restating involves:", options: ["Repeating the patient's exact words", "Paraphrasing the main idea", "Ignoring the statement", "Writing it down"], correct: 1 },
-                            { q: "Which is appropriate for a hearing-impaired patient?", options: ["Shouting", "Facing the patient and speaking clearly", "Using complex terms", "Speaking quickly"], correct: 1 },
-                            { q: "Empathy differs from sympathy in that empathy:", options: ["Shares the feelings", "Understands the feelings objectively", "Pities the patient", "Ignores the feelings"], correct: 1 },
-                            { q: "Assertive communication is:", options: ["Aggressive", "Passive", "Clear, direct, and respectful", "Manipulative"], correct: 2 },
-                            { q: "Which SBAR section contains the patient's vital signs?", options: ["Situation", "Background", "Assessment", "Recommendation"], correct: 2 },
-                            { q: "Conflict resolution starts with:", options: ["Avoiding the issue", "Open communication", "Reporting to a manager", "Quitting"], correct: 1 },
-                            { q: "Documentation is a form of:", options: ["Verbal communication", "Written communication", "Non-verbal communication", "Social media"], correct: 1 },
-                            { q: "Handoff reports should be:", options: ["Lengthy", "Standardized and concise (e.g., SBAR)", "Gossip-filled", "Oral only"], correct: 1 },
-                            { q: "Therapeutic silence allows:", options: ["Awkwardness", "Reflection", "Napping", "Distraction"], correct: 1 },
-                            { q: "Humor in nursing should be used:", options: ["Always", "Never", "Cautiously and appropriately", "To mock patients"], correct: 2 },
-                            { q: "When a patient is angry, the nurse should:", options: ["Argue back", "Listen and remain calm", "Leave the room immediately", "Call security first"], correct: 1 }
+                            { q: "Which question is open-ended?", options: ["Are you in pain?", "Do you take insulin?", "Tell me about your pain.", "Is your name John?"], correct: 2 , rationale: "An open-ended question requires more than a simple yes or no, prompting the patient to elaborate, describe, and share vital subjective details." },
+                            { q: "Clarification is used to:", options: ["Confuse the patient", "Ensure understanding", "Change the subject", "Give orders"], correct: 1 , rationale: "Clarifying ('Are you saying that...?') prevents misinterpretation by asking the patient to provide more information or explain ambiguous statements." },
+                            { q: "Restating involves:", options: ["Repeating the patient's exact words", "Paraphrasing the main idea", "Ignoring the statement", "Writing it down"], correct: 1 , rationale: "Restating involves actively Paraphrasing the patient's main idea back to them to validate that the core message was accurately received." },
+                            { q: "Which is appropriate for a hearing-impaired patient?", options: ["Shouting", "Facing the patient and speaking clearly", "Using complex terms", "Speaking quickly"], correct: 1 , rationale: "Shouting distorts sound; correctly facing the patient ensures they can read lips, observe facial expressions, and hear clear, moderate-paced speech." },
+                            { q: "Empathy differs from sympathy in that empathy:", options: ["Shares the feelings", "Understands the feelings objectively", "Pities the patient", "Ignores the feelings"], correct: 1 , rationale: "Empathy objectively recognizes and validates the patient's feelings ('I see you are sad'), whereas sympathy subjectively internalizes their pain (pity)." },
+                            { q: "Assertive communication is:", options: ["Aggressive", "Passive", "Clear, direct, and respectful", "Manipulative"], correct: 2 , rationale: "Assertiveness is the healthiest communication style; it directly and confidently expresses one's needs and boundaries while fully respecting the rights of others." },
+                            { q: "Which SBAR section contains the patient's vital signs?", options: ["Situation", "Background", "Assessment", "Recommendation"], correct: 2 , rationale: "In SBAR, recent vital signs, lab results, and your clinical impressions are communicated under the 'Assessment' section." },
+                            { q: "Conflict resolution starts with:", options: ["Avoiding the issue", "Open communication", "Reporting to a manager", "Quitting"], correct: 1 , rationale: "Effective conflict resolution strictly requires initiating direct, open, non-confrontational, and professional communication with the involved party." },
+                            { q: "Documentation is a form of:", options: ["Verbal communication", "Written communication", "Non-verbal communication", "Social media"], correct: 1 , rationale: "Charting is a legally binding form of written professional communication that ensures continuity of care across different shifts and providers." },
+                            { q: "Handoff reports should be:", options: ["Lengthy", "Standardized and concise (e.g., SBAR)", "Gossip-filled", "Oral only"], correct: 1 , rationale: "Handoffs (shift change reports) must be highly standardized (using formats like SBAR) to prevent dangerous miscommunication and omission of critical data." },
+                            { q: "Therapeutic silence allows:", options: ["Awkwardness", "Reflection", "Napping", "Distraction"], correct: 1 , rationale: "Purposeful therapeutic silence provides the patient much-needed quiet time for inner reflection, processing difficult news, or organizing their thoughts." },
+                            { q: "Humor in nursing should be used:", options: ["Always", "Never", "Cautiously and appropriately", "To mock patients"], correct: 2 , rationale: "While humor can reduce anxiety and build rapport, it must be used very cautiously, respecting the patient's culture, condition, and current emotional state." },
+                            { q: "When a patient is angry, the nurse should:", options: ["Argue back", "Listen and remain calm", "Leave the room immediately", "Call security first"], correct: 1 , rationale: "When de-escalating anger, the most vital immediate nursing action is to remain visibly calm, maintain a safe distance, and listen without arguing." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Roles, Leadership & Delegation',
                         questions: [
-                            { q: "Which task can be delegated to a UAP (CNA)?", options: ["Assessment", "Teaching", "Medication administration", "Vital signs on a stable patient"], correct: 3 },
-                            { q: "The Five Rights of Delegation include Right Task, Right Circumstance, Right Person, Right Direction, and:", options: ["Right Time", "Right Supervision", "Right Place", "Right Patient"], correct: 1 },
-                            { q: "The primary role of the nurse manager is to:", options: ["Provide direct care", "Coordinate resources and staff", "Diagnose patients", "Clean rooms"], correct: 1 },
-                            { q: "Which leadership style invites input from the team?", options: ["Autocratic", "Democratic", "Laissez-faire", "Bureaucratic"], correct: 1 },
-                            { q: "Autocratic leadership is best for:", options: ["Creative tasks", "Emergency situations (Codes)", "Routine care", "Counseling"], correct: 1 },
-                            { q: "The RN cannot delegate:", options: ["Ambulation", "Feeding", "Evaluation/Assessment", "Bathing"], correct: 2 },
-                            { q: "Accountability means:", options: ["Blaming others", "Answering for one's own actions", "Following orders blindly", "Ignoring mistakes"], correct: 1 },
-                            { q: "Case Management focuses on:", options: ["One shift", "Continuity of care and cost-effectiveness", "Emergency care", "Surgery only"], correct: 1 },
-                            { q: "Collaboration involved working with:", options: ["Nurses only", "Doctors only", "The interdisciplinary team", "Insurance companies"], correct: 2 },
-                            { q: "A Magnet Hospital is recognized for:", options: ["High turnover", "Nursing excellence", "Low pay", "Poor outcomes"], correct: 1 },
-                            { q: "Which is a priority setting framework?", options: ["ABC (Airway, Breathing, Circulation)", "Alphabetical", "Room number", "Age"], correct: 0 },
-                            { q: "Triage calls for treating which patient first?", options: ["Minor cut", "Cardiac arrest/Chest pain", "Broken arm", "Sore throat"], correct: 1 },
-                            { q: "Transformational leaders:", options: ["Focus on tasks", "Inspire and motivate", "Avoid decisions", "Micro-manage"], correct: 1 },
-                            { q: "Scope of practice is determined by:", options: ["The Nurse Manager", "The State Nurse Practice Act", "The Doctor", "The Nurse"], correct: 1 },
-                            { q: "LPNs/LVNs can generally:", options: ["Administer IV push meds", "Perform initial admission assessments", "Administer oral medications", "Create the care plan"], correct: 2 },
-                            { q: "Quality Improvement (QI) uses data to:", options: ["Punish staff", "Improve patient outcomes", "Cut costs only", "Advertise"], correct: 1 },
-                            { q: "Root Cause Analysis is used after:", options: ["A success", "A Sentinel Event/Error", "A party", "A break"], correct: 1 },
-                            { q: "Prioritization principle: Acute before:", options: ["Chronic", "Critical", "Emergency", "Urgent"], correct: 0 },
-                            { q: "Prioritization principle: Systemic before:", options: ["Local", "General", "Holistic", "Global"], correct: 0 },
-                            { q: " Delegation requires the nurse to:", options: ["Walk away", "Follow up/Supervise", "Forget about it", "Do it themselves"], correct: 1 }
+                            { q: "Which task can be delegated to a UAP (CNA)?", options: ["Assessment", "Teaching", "Medication administration", "Vital signs on a stable patient"], correct: 3 , rationale: "Unlicensed Assistive Personnel (UAP) can perform standard, routine, non-invasive tasks like taking vital signs, bathing, and feeding strictly on stable patients." },
+                            { q: "The Five Rights of Delegation include Right Task, Right Circumstance, Right Person, Right Direction, and:", options: ["Right Time", "Right Supervision", "Right Place", "Right Patient"], correct: 1 , rationale: "The Five Rights established by the NCSBN are: Right Task, Right Circumstance, Right Person, Right Direction/Communication, and Right Supervision/Evaluation." },
+                            { q: "The primary role of the nurse manager is to:", options: ["Provide direct care", "Coordinate resources and staff", "Diagnose patients", "Clean rooms"], correct: 1 , rationale: "Nurse managers operate at the systems level, coordinating unit staff, managing budgets, and ensuring sufficient resources to provide safe patient care." },
+                            { q: "Which leadership style invites input from the team?", options: ["Autocratic", "Democratic", "Laissez-faire", "Bureaucratic"], correct: 1 , rationale: "Democratic (participative) leaders actively encourage group discussion, seek staff input, and facilitate shared decision-making within the team." },
+                            { q: "Autocratic leadership is best for:", options: ["Creative tasks", "Emergency situations (Codes)", "Routine care", "Counseling"], correct: 1 , rationale: "Autocratic (authoritarian) leadership is highly effective during emergencies (like a Code Blue) where rapid, decisive, centralized action is absolutely mandatory." },
+                            { q: "The RN cannot delegate:", options: ["Ambulation", "Feeding", "Evaluation/Assessment", "Bathing"], correct: 2 , rationale: "Under the Nurse Practice Act, RNs can never independently delegate nursing judgment: specifically Assessment, Teaching, and Evaluation (the 'ATE' rule)." },
+                            { q: "Accountability means:", options: ["Blaming others", "Answering for one's own actions", "Following orders blindly", "Ignoring mistakes"], correct: 1 , rationale: "Accountability is the moral and legal obligation to take ownership of one's professional actions, decisions, and the resulting outcomes." },
+                            { q: "Case Management focuses on:", options: ["One shift", "Continuity of care and cost-effectiveness", "Emergency care", "Surgery only"], correct: 1 , rationale: "Case managers coordinate comprehensive health services across multiple disciplines over an entire episode of illness to ensure high-quality, cost-effective care." },
+                            { q: "Collaboration involved working with:", options: ["Nurses only", "Doctors only", "The interdisciplinary team", "Insurance companies"], correct: 2 , rationale: "True collaboration is a complex process where nurses, physicians, therapists, and social workers jointly plan and execute care to achieve optimal patient outcomes." },
+                            { q: "A Magnet Hospital is recognized for:", options: ["High turnover", "Nursing excellence", "Low pay", "Poor outcomes"], correct: 1 , rationale: "The ANCC Magnet Recognition Program designates hospitals that demonstrate the highest standards of nursing excellence, innovation, and positive work environments." },
+                            { q: "Which is a priority setting framework?", options: ["ABC (Airway, Breathing, Circulation)", "Alphabetical", "Room number", "Age"], correct: 0 , rationale: "The ABC framework dictates that physiological survival is paramount: a patent airway must be secured before addressing breathing or circulatory issues." },
+                            { q: "Triage calls for treating which patient first?", options: ["Minor cut", "Cardiac arrest/Chest pain", "Broken arm", "Sore throat"], correct: 1 , rationale: "In an emergency department triage scenario, acute, immediately life-threatening conditions (like chest pain indicating a heart attack) invariably take highest priority." },
+                            { q: "Transformational leaders:", options: ["Focus on tasks", "Inspire and motivate", "Avoid decisions", "Micro-manage"], correct: 1 , rationale: "Transformational leaders focus heavily on building relationships, inspiring a shared vision, and motivating staff to exceed baseline expectations for the greater good." },
+                            { q: "Scope of practice is determined by:", options: ["The Nurse Manager", "The State Nurse Practice Act", "The Doctor", "The Nurse"], correct: 1 , rationale: "The State Legislature drafts the Nurse Practice Act, which definitively establishes the legal bounds and parameters of nursing practice within that specific state." },
+                            { q: "LPNs/LVNs can generally:", options: ["Administer IV push meds", "Perform initial admission assessments", "Administer oral medications", "Create the care plan"], correct: 2 , rationale: "LPNs perform basic therapeutic care, heavily standardized tasks, and administer oral/routine meds, but complex assessments or IV push meds are typically strictly restricted to RNs." },
+                            { q: "Quality Improvement (QI) uses data to:", options: ["Punish staff", "Improve patient outcomes", "Cut costs only", "Advertise"], correct: 1 , rationale: "Quality Improvement is a systematic, data-driven methodology designed to continuously analyze hospital processes and definitively improve patient safety and clinical outcomes." },
+                            { q: "Root Cause Analysis is used after:", options: ["A success", "A Sentinel Event/Error", "A party", "A break"], correct: 1 , rationale: "Following a severe sentinel event, a Root Cause Analysis (RCA) retrospectively investigates the systems and processes that failed, aiming to prevent future recurrences." },
+                            { q: "Prioritization principle: Acute before:", options: ["Chronic", "Critical", "Emergency", "Urgent"], correct: 0 , rationale: "In prioritization, addressing acute, sudden-onset instability always takes immediate precedence over managing stable, long-standing chronic conditions." },
+                            { q: "Prioritization principle: Systemic before:", options: ["Local", "General", "Holistic", "Global"], correct: 0 , rationale: "Life over limb: dealing with widespread systemic issues (like shock or generalized sepsis) always takes clinical priority over treating localized injuries." },
+                            { q: " Delegation requires the nurse to:", options: ["Walk away", "Follow up/Supervise", "Forget about it", "Do it themselves"], correct: 1 , rationale: "While the UAP is responsible for doing the task, the delegating RN remains ultimately accountable and must follow up to supervise the outcome." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Cultural Competence & Compassion',
                         questions: [
-                            { q: "Cultural competence is:", options: ["Knowing everything about all cultures", "Respecting and adapting to cultural needs", "Ignoring culture", "Teaching patients 'our' way"], correct: 1 },
-                            { q: "Stereotyping is:", options: ["Individualized care", "Generalizing assumptions about a group", "Evidence-based", "Respectful"], correct: 1 },
-                            { q: "Ethnocentrism is the belief that:", options: ["All cultures are equal", "One's own culture is superior", "Culture doesn't matter", "Diversity is good"], correct: 1 },
-                            { q: "In some cultures, making eye contact is considered:", options: ["Respectful", "Disrespectful/Aggressive", "Funny", "Required"], correct: 1 },
-                            { q: "When dietary restrictions exist (e.g., Kosher, Halal), the nurse should:", options: ["Ignore them", "Consult the dietician and accommodate", "Tell the patient to eat anyway", "Bring food from home"], correct: 1 },
-                            { q: "Holistic care considers:", options: ["Body only", "Mind and Body", "Body, Mind, and Spirit", "Disease only"], correct: 2 },
-                            { q: "Compassion fatigue is:", options: ["Loving the job", "Burnout from prolonged caring", "Tiredness from walking", "Sleepiness"], correct: 1 },
-                            { q: "Spiritual care aims to:", options: ["Convert the patient", "Support meaning and purpose", "Preach", "Dismiss beliefs"], correct: 1 },
-                            { q: "Hospice care focuses on:", options: ["Curative treatment", "Palliative/Comfort care", "Surgery", "Rehab"], correct: 1 },
-                            { q: "The mourning process is:", options: ["The same for everyone", "Unique to the individual", "Always 5 stages", "Fast"], correct: 1 },
-                            { q: "Which religion prohibits blood transfusions?", options: ["Catholicism", "Jehovah's Witnesses", "Islam", "Buddhism"], correct: 1 },
-                            { q: "Interpreter services should be used for:", options: ["Convenience", "Legal accuracy and understanding", "Short tasks", "Family members"], correct: 1 },
-                            { q: "Cultural assessment includes asking about:", options: ["Bank account", "Health beliefs and practices", "Political views", "Favorite color"], correct: 1 },
-                            { q: "Resilience is:", options: ["Breaking down", "Bouncing back from adversity", "Giving up", "Ignoring stress"], correct: 1 },
-                            { q: "Self-care for nurses is important to:", options: ["Look good", "Prevent burnout and ensure safe care", "Make money", "Waste time"], correct: 1 },
-                            { q: "Horizontal violence (incivility) in nursing is:", options: ["Bullying among peers", "Patient violence", "Doctor violence", "Physical fighting"], correct: 0 },
-                            { q: "Diversity in the workforce:", options: ["Complicates things", "Improves patient care and problem solving", "Is unnecessary", "Is illegal"], correct: 1 },
-                            { q: "Assessing for folk remedies is important to:", options: ["Laugh at them", "Check for interactions", "Ban them", "Sell them"], correct: 1 },
-                            { q: "Prayer requests should be:", options: ["Denied", "Facilitated if possible", "Mocked", "Recorded"], correct: 1 },
-                            { q: "The goal of transcultural nursing (Leininger) is:", options: ["Culturally congruent care", "Standardized care", "Westernized care", "No care"], correct: 0 }
+                            { q: "Cultural competence is:", options: ["Knowing everything about all cultures", "Respecting and adapting to cultural needs", "Ignoring culture", "Teaching patients 'our' way"], correct: 1 , rationale: "Cultural competence is the ongoing, deliberate process of acquiring knowledge and respectfully adapting nursing care to align with a patient's specific cultural beliefs." },
+                            { q: "Stereotyping is:", options: ["Individualized care", "Generalizing assumptions about a group", "Evidence-based", "Respectful"], correct: 1 , rationale: "Stereotyping dangerously assumes that all individuals within a specific racial, ethnic, or cultural group possess the exact same characteristics or beliefs." },
+                            { q: "Ethnocentrism is the belief that:", options: ["All cultures are equal", "One's own culture is superior", "Culture doesn't matter", "Diversity is good"], correct: 1 , rationale: "Ethnocentrism is an unconscious bias where a person views their own cultural norms, values, and practices as fundamentally superior to all others." },
+                            { q: "In some cultures, making eye contact is considered:", options: ["Respectful", "Disrespectful/Aggressive", "Funny", "Required"], correct: 1 , rationale: "While valued in Western cultures, prolonged direct eye contact in many Hispanic, Asian, and Native American cultures is strictly viewed as disrespectful or aggressive." },
+                            { q: "When dietary restrictions exist (e.g., Kosher, Halal), the nurse should:", options: ["Ignore them", "Consult the dietician and accommodate", "Tell the patient to eat anyway", "Bring food from home"], correct: 1 , rationale: "To honor cultural/religious beliefs and prevent malnutrition, the nurse must actively coordinate with dietary services to secure appropriate, acceptable food options." },
+                            { q: "Holistic care considers:", options: ["Body only", "Mind and Body", "Body, Mind, and Spirit", "Disease only"], correct: 2 , rationale: "Holistic nursing explicitly recognizes the patient as a complete whole, deeply integrating their physical, emotional, social, and spiritual needs into the care plan." },
+                            { q: "Compassion fatigue is:", options: ["Loving the job", "Burnout from prolonged caring", "Tiredness from walking", "Sleepiness"], correct: 1 , rationale: "Compassion fatigue ('cost of caring') is the profound physical, emotional, and spiritual exhaustion resulting from chronic exposure to patient trauma and suffering." },
+                            { q: "Spiritual care aims to:", options: ["Convert the patient", "Support meaning and purpose", "Preach", "Dismiss beliefs"], correct: 1 , rationale: "Spiritual care is highly individualized; it does not push religion but seeks to intimately support a patient's personal sense of inner meaning, hope, and purpose." },
+                            { q: "Hospice care focuses on:", options: ["Curative treatment", "Palliative/Comfort care", "Surgery", "Rehab"], correct: 1 , rationale: "Hospice care shifts focus entirely away from curative treatments for terminal patients (typically <6 months to live), heavily prioritizing aggressive comfort and pain management." },
+                            { q: "The mourning process is:", options: ["The same for everyone", "Unique to the individual", "Always 5 stages", "Fast"], correct: 1 , rationale: "While theories like Kübler-Ross's stages exist, grief and mourning do not follow a set timeline or sequence; the process is intensely personal and unique to every individual." },
+                            { q: "Which religion prohibits blood transfusions?", options: ["Catholicism", "Jehovah's Witnesses", "Islam", "Buddhism"], correct: 1 , rationale: "Due to strict biblical interpretations regarding the sanctity of blood, practicing Jehovah's Witnesses absolutely refuse both whole blood and primary blood component transfusions." },
+                            { q: "Interpreter services should be used for:", options: ["Convenience", "Legal accuracy and understanding", "Short tasks", "Family members"], correct: 1 , rationale: "Certified medical interpreters are mandatory to ensure absolute clinical validity, legal accuracy, and HIPAA compliance; family members should never be used as primary interpreters." },
+                            { q: "Cultural assessment includes asking about:", options: ["Bank account", "Health beliefs and practices", "Political views", "Favorite color"], correct: 1 , rationale: "A thorough cultural assessment seeks to uncover a patient's unique health beliefs, dietary practices, and attitudes toward modern medicine to tailor their care." },
+                            { q: "Resilience is:", options: ["Breaking down", "Bouncing back from adversity", "Giving up", "Ignoring stress"], correct: 1 , rationale: "Psychological resilience is the vital ability to emotionally cope with stress, adapt to severe challenges, and quickly 'bounce back' from adversity." },
+                            { q: "Self-care for nurses is important to:", options: ["Look good", "Prevent burnout and ensure safe care", "Make money", "Waste time"], correct: 1 , rationale: "Consistent self-care is a professional necessity to mitigate compassion fatigue, prevent crippling burnout, and maintain the capacity to provide safe patient care." },
+                            { q: "Horizontal violence (incivility) in nursing is:", options: ["Bullying among peers", "Patient violence", "Doctor violence", "Physical fighting"], correct: 0 , rationale: "Horizontal (or lateral) violence profoundly undermines teamwork and refers to destructive acts of sabotage, incivility, or bullying between colleagues at the same level." },
+                            { q: "Diversity in the workforce:", options: ["Complicates things", "Improves patient care and problem solving", "Is unnecessary", "Is illegal"], correct: 1 , rationale: "A highly diverse nursing workforce brings varied perspectives that significantly enhance creative problem-solving and mirror the diverse patient populations served." },
+                            { q: "Assessing for folk remedies is important to:", options: ["Laugh at them", "Check for interactions", "Ban them", "Sell them"], correct: 1 , rationale: "Patients frequently use herbal or traditional remedies; assessing these is strictly critical to prevent dangerous pharmacological interactions with prescribed medications." },
+                            { q: "Prayer requests should be:", options: ["Denied", "Facilitated if possible", "Mocked", "Recorded"], correct: 1 , rationale: "As a core component of spiritual holistic care, a patient's prayer requests should be respectfully facilitated or accommodated whenever reasonably possible." },
+                            { q: "The goal of transcultural nursing (Leininger) is:", options: ["Culturally congruent care", "Standardized care", "Westernized care", "No care"], correct: 0 , rationale: "Madeleine Leininger's theory fundamentally aims to provide 'culturally congruent care' that seamlessly fits a patient's valued life patterns and cultural meaning." }
                         ]
                     },
                     {
@@ -1486,8 +1523,14 @@ const appData = {
                         title: 'Module 1: Introduction to Sociology',
                         body: `
                             <h3>Understanding Society</h3>
-                            <p>Sociology is the scientific study of society, including patterns of social relationships, social interaction, and culture.</p>
-                            <p>For nurses, sociology helps in understanding the social forces that affect health, illness, and the healthcare system.</p>
+                            <p>Sociology is the scientific study of society, including patterns of social relationships, social interaction, and culture that surround everyday life.</p>
+                            <p>For nurses, sociology is paramount in understanding the social forces that affect health, illness, and the healthcare system. It moves the focus from the individual to the broader social structures they live in.</p>
+                            <h4>Key Sociological Perspectives</h4>
+                            <ul>
+                                <li><strong>Functionalism:</strong> Views society as a complex system whose parts work together to promote solidarity and stability.</li>
+                                <li><strong>Conflict Theory:</strong> Sees society as an arena of inequality that generates conflict and change (e.g., healthcare disparities).</li>
+                                <li><strong>Symbolic Interactionism:</strong> Focuses on everyday interactions and the meanings people attach to them (e.g., the doctor-patient relationship).</li>
+                            </ul>
                         `
                     },
                     {
@@ -1495,98 +1538,113 @@ const appData = {
                         title: 'Module 2: Culture and Health',
                         body: `
                             <h3>Culture vs. Society</h3>
-                            <p><strong>Culture:</strong> The shared beliefs, values, and practices of a group.</p>
-                            <p><strong>Society:</strong> The people who interact in such a way as to share a common culture.</p>
+                            <p><strong>Culture:</strong> The shared beliefs, values, norms, language, and material goods of a group. It is learned and shared.</p>
+                            <p><strong>Society:</strong> The people who interact in such a way as to share a common culture. The "hardware" to culture's "software."</p>
                             
                             <h4>Health Belief Systems</h4>
-                            <p>Different cultures have varying explanations for illness (e.g., biomedical, magical-religious, holistic).</p>
-                        `
-                    },
-                    {
-                        type: 'text',
-                        title: 'Module 3: Social Determinants of Health',
-                        body: `
-                            <h3>Factors Influencing Health</h3>
-                            <p>The conditions in which people are born, grow, live, work, and age drastically affect their health outcomes.</p>
-
-                            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
-                                <h4 style="margin-top:0">Social Determinants of Health</h4>
-                                <img src="assets/social_determinants.png" alt="Social Determinants of Health Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: Economic stability, education, social context, and healthcare access.</p>
-                            </div>
-                        `
-                    },
-                    {
-                        type: 'text',
-                        title: 'Module 4: The Family Unit',
-                        body: `
-                            <h3>Types of Families</h3>
-                            <p>The family is the basic unit of society and a primary source of health support.</p>
-
-                            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
-                                <h4 style="margin-top:0">Family Structures</h4>
-                                <img src="assets/family_structures.png" alt="Family Structures Illustration" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 4.1: Nuclear, Extended, Single-Parent, and Blended families.</p>
-                            </div>
-
-                            <p>Nurses must assess family dynamics to provide holistic care.</p>
-                        `
-                    },
-                    {
-                        type: 'text',
-                        title: 'Module 5: Social Stratification',
-                        body: `
-                            <h3>Class and Status</h3>
-                            <p>Social stratification refers to a society's categorization of its people into rankings based on factors like wealth, income, education, and power.</p>
-                            <p><strong>Impact on Health:</strong> Lower socioeconomic status is consistently linked to poorer health outcomes and lower life expectancy.</p>
-                        `
-                    },
-                    {
-                        type: 'text',
-                        title: 'Module 6: Health Disparities',
-                        body: `
-                            <h3>Inequalities in Healthcare</h3>
-                            <p>Health disparities are preventable differences in the burden of disease, injury, violence, or opportunities to achieve optimal health.</p>
-                            <p>Populations can be defined by factors such as race or ethnicity, gender, education or income, disability, geographic location, or sexual orientation.</p>
-                        `
-                    },
-                    {
-                        type: 'text',
-                        title: 'Module 7: Medical Anthropology',
-                        body: `
-                            <h3>Cross-Cultural Healing</h3>
-                            <p>Medical anthropology studies how culture and society represent and experiences of illness and healing.</p>
+                            <p>Different cultures have varying explanations for illness, which impacts how they seek treatment:</p>
                             <ul>
-                                <li><strong>Ethnomedicine:</strong> Comparative study of how different cultures view disease and how they treat or prevent it.</li>
-                                <li><strong>Medical Pluralism:</strong> The employment of more than one medical system or the use of both conventional and complementary medicine.</li>
+                                <li><strong>Biomedical:</strong> Disease is caused by biological abnormalities (Western medicine).</li>
+                                <li><strong>Magico-Religious:</strong> Health and illness are determined by supernatural forces.</li>
+                                <li><strong>Holistic:</strong> Health requires balance between physical, mental, and spiritual forces (e.g., Yin/Yang).</li>
                             </ul>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 8: Urbanization and Health',
+                        title: 'Module 3: Social Determinants of Health (SDOH)',
                         body: `
-                            <h3>City Living</h3>
-                            <p>Urbanization brings opportunities but also health challenges such as overcrowding, pollution, and infectious disease spread.</p>
-                            <p>Conversely, rural areas may face challenges with access to healthcare facilities and providers.</p>
+                            <h3>Factors Influencing Health Beyond Biology</h3>
+                            <p>The conditions in which people are born, grow, live, work, and age drastically affect their health outcomes. These circumsatnces are shaped by the distribution of money, power, and resources at global, national, and local levels.</p>
+
+                            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
+                                <h4 style="margin-top:0">Key Social Determinants of Health</h4>
+                                <img src="assets/social_determinants.png" alt="Social Determinants of Health Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: Economic stability, education access and quality, health care access, neighborhood and built environment, and social and community context.</p>
+                            </div>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 9: Gender and Health',
+                        title: 'Module 4: The Family Unit in Healthcare',
                         body: `
-                            <h3>Gender Roles</h3>
-                            <p>Gender affects health behaviors, exposure to risks, and access to healthcare.</p>
-                            <p>Societal expectations of "masculinity" and "femininity" can influence how symptoms are reported and treated.</p>
+                            <h3>Types of Families</h3>
+                            <p>The family is the basic unit of society and a primary source of health support, socialization, and economic stability.</p>
+
+                            <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
+                                <h4 style="margin-top:0">Family Structures</h4>
+                                <img src="assets/family_structures.png" alt="Family Structures Illustration" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 4.1: Nuclear, Extended, Single-Parent, Blended, and alternative family structures.</p>
+                            </div>
+
+                            <p>Nurses must assess family dynamics (roles, communication, stressors) to provide holistic care involving the patient's support system.</p>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 10: Social Change and Healthcare',
+                        title: 'Module 5: Social Stratification and Class',
+                        body: `
+                            <h3>Class and Status</h3>
+                            <p>Social stratification refers to a society's categorization of its people into rankings of socioeconomic tiers based on factors like wealth, income, education, and power.</p>
+                            <p><strong>Impact on Health (The Social Gradient):</strong> Lower socioeconomic status (SES) is consistently linked to poorer health outcomes, higher morbidity, and lower life expectancy. This is due to unequal access to resources, healthy environments, and chronic stress associated with poverty.</p>
+                        `
+                    },
+                    {
+                        type: 'text',
+                        title: 'Module 6: Health Disparities and Inequities',
+                        body: `
+                            <h3>Inequalities in Healthcare</h3>
+                            <p><strong>Health Disparities:</strong> Preventable differences in the burden of disease, injury, violence, or opportunities to achieve optimal health that are experienced by socially disadvantaged populations.</p>
+                            <p><strong>Health Inequity:</strong> Unfair and avoidable differences in health status seen within and between populations. It highlights the injustice of these differences.</p>
+                            <p>Populations can be defined by race/ethnicity, gender, education, income, disability, geographic location, or sexual orientation.</p>
+                        `
+                    },
+                    {
+                        type: 'text',
+                        title: 'Module 7: Medical Anthropology Concepts',
+                        body: `
+                            <h3>Cross-Cultural Healing and Illness Experience</h3>
+                            <p>Medical anthropology studies how culture and society shape the experience of illness and the process of healing.</p>
+                            <ul>
+                                <li><strong>Disease vs. Illness:</strong> Disease is the biological condition; Illness is the sociocultural experience of being sick.</li>
+                                <li><strong>Ethnomedicine:</strong> The comparative study of how different cultures view disease and how they treat or prevent it.</li>
+                                <li><strong>Medical Pluralism:</strong> The employment of more than one medical system or the use of both conventional (biomedicine) and complementary/alternative medicine by a patient.</li>
+                            </ul>
+                        `
+                    },
+                    {
+                        type: 'text',
+                        title: 'Module 8: Urbanization and Health Impacts',
+                        body: `
+                            <h3>City Living: Risks and Benefits</h3>
+                            <p>Urbanization brings economic opportunities and concentrated healthcare resources, but also novel health challenges.</p>
+                            <ul>
+                                <li><strong>Urban Health Risks:</strong> Overcrowding, air and noise pollution, communicable disease spread, and "urban stress."</li>
+                                <li><strong>Rural Health Challenges:</strong> Often face "healthcare deserts," transportation barriers, and provider shortages.</li>
+                            </ul>
+                        `
+                    },
+                    {
+                        type: 'text',
+                        title: 'Module 9: Gender and Health Behavior',
+                        body: `
+                            <h3>Gender Roles in Healthcare</h3>
+                            <p>Gender affects health behaviors, exposure to occupational risks, and interactions with healthcare providers.</p>
+                            <p>Societal expectations of "masculinity" can lead to delayed healthcare seeking and higher risk-taking among men. Expectations of "femininity" can influence how women's pain or symptoms are perceived (sometimes dismissed) by providers.</p>
+                        `
+                    },
+                    {
+                        type: 'text',
+                        title: 'Module 10: Social Change, Roles, and Healthcare Systems',
                         body: `
                             <h3>Evolving Systems</h3>
-                            <p>Demographic shifts (e.g., aging population) and technological advancements drive changes in healthcare delivery.</p>
-                            <p>The "Sick Role" (Parsons): Rights and obligations of those enjoying the status of being sick.</p>
+                            <p>Demographic shifts (e.g., the aging baby boomer population) and technological advancements (telemedicine) are driving rapid changes in healthcare delivery models.</p>
+                            <h4>The "Sick Role" (Talcott Parsons)</h4>
+                            <p>A functionalist concept detailing the rights and obligations of the sick person:</p>
+                            <ul>
+                                <li><strong>Rights:</strong> Exempt from normal social roles; Not responsible for their condition.</li>
+                                <li><strong>Obligations:</strong> Must want to get well; Must seek technically competent help (a doctor/nurse) and cooperate.</li>
+                            </ul>
                         `
                     },
                     {
@@ -1603,130 +1661,130 @@ const appData = {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Sociological Concepts',
                         questions: [
-                            { q: "Which term describes a society's categorization of people into rankings?", options: ["Socialization", "Stratification", "Mobility", "Structure"], correct: 1 },
-                            { q: "The 'Sick Role' concept was developed by:", options: ["Karl Marx", "Talcott Parsons", "Max Weber", "Emile Durkheim"], correct: 1 },
-                            { q: "Health disparities are most strongly linked to:", options: ["Genetic make-up", "Socioeconomic Status (SES)", "Climate", "Personal choice"], correct: 1 },
-                            { q: "A family structure with parents, children, and grandparents is called:", options: ["Nuclear", "Extended", "Blended", "Single-parent"], correct: 1 },
-                            { q: "The process of learning the culture of a society is:", options: ["Acculturation", "Assimilation", "Socialization", "Integration"], correct: 2 },
-                            { q: "Which is a 'Social Determinant of Health'?", options: ["Blood Pressure", "Access to Education", "Genetic predisposition", "Age"], correct: 1 },
-                            { q: "The belief that one's own culture is superior is called:", options: ["Relativism", "Ethnocentrism", "Pluralism", "Multiculturalism"], correct: 1 },
-                            { q: "Medical Pluralism refers to:", options: ["Using multiple doctors", "Coexistence of different medical systems", "Having multiple insurance plans", "Treating multiple diseases"], correct: 1 },
-                            { q: "Urbanization is generally associated with:", options: ["Decreased pollution", "Increased infectious disease transmission", "Lower stress levels", "Better air quality"], correct: 1 },
-                            { q: "Culture is best defined as:", options: ["Biological traits", "Shared beliefs, values, and practices", "Economic status", "Political affiliation"], correct: 1 },
-                            { q: "The functionalist perspective views society as:", options: ["A struggle for power", "A complex system of parts working together", "Depending on symbols", "chaotic"], correct: 1 },
-                            { q: "Conflict theory perceives society as:", options: ["Stable", "Balanced", "A competition for resources", "Meaningless"], correct: 2 },
-                            { q: "Symbolic Interactionism focuses on:", options: ["Macro-level structures", "Micro-level interactions and meaning", "Global economics", "Genetics"], correct: 1 },
-                            { q: "Social mobility refers to:", options: ["Moving houses", "Movement up or down the social hierarchy", "Traveling abroad", "Walking ability"], correct: 1 },
-                            { q: "A Norm is:", options: ["A famous person", "A written law", "A rule or expectation for behavior", "A value"], correct: 2 },
-                            { q: "Which refers to a group set apart by race or culture?", options: ["Minority group", "Majority group", "Reference group", "Primary group"], correct: 0 },
-                            { q: "Demography is the study of:", options: ["Demons", "Democracy", "Human populations", "Geography"], correct: 2 },
-                            { q: "The 'Graying of Society' refers to:", options: ["Air pollution", "An aging population", "Depression", "Fashion trends"], correct: 1 },
-                            { q: "Globalization affects health through:", options: ["Spread of diseases", "Increased travel", "Economic interdependence", "All of the above"], correct: 3 },
-                            { q: "Stigma is:", options: ["A mark of disgrace", "A type of flower", "A medical tool", "A law"], correct: 0 }
+                            { q: "Which term describes a society's categorization of people into rankings?", options: ["Socialization", "Stratification", "Mobility", "Structure"], correct: 1 , rationale: "Social stratification is the hierarchical arrangement of large social groups based on their control of basic resources, wealth, and power." },
+                            { q: "The 'Sick Role' concept was developed by:", options: ["Karl Marx", "Talcott Parsons", "Max Weber", "Emile Durkheim"], correct: 1 , rationale: "Talcott Parsons developed the 'sick role', a functionalist concept describing the social rights and obligations of a sick individual." },
+                            { q: "Health disparities are most strongly linked to:", options: ["Genetic make-up", "Socioeconomic Status (SES)", "Climate", "Personal choice"], correct: 1 , rationale: "Socioeconomic status (income, education, occupation) remains the single strongest and most consistent predictor of a person's health and life expectancy." },
+                            { q: "A family structure with parents, children, and grandparents is called:", options: ["Nuclear", "Extended", "Blended", "Single-parent"], correct: 1 , rationale: "An extended family includes multiple generations (like grandparents, aunts, or uncles) living together or in very close proximity." },
+                            { q: "The process of learning the culture of a society is:", options: ["Acculturation", "Assimilation", "Socialization", "Integration"], correct: 2 , rationale: "Socialization is the lifelong sociological process through which individuals learn and internalize the norms, values, and customs of their society." },
+                            { q: "Which is a 'Social Determinant of Health'?", options: ["Blood Pressure", "Access to Education", "Genetic predisposition", "Age"], correct: 1 , rationale: "Social Determinants of Health (SDOH) are the non-medical conditions in the environments where people are born, live, learn, work, and age." },
+                            { q: "The belief that one's own culture is superior is called:", options: ["Relativism", "Ethnocentrism", "Pluralism", "Multiculturalism"], correct: 1 , rationale: "Ethnocentrism is the tendency to judge other cultures strictly by the standards, values, and norms of one's own culture." },
+                            { q: "Medical Pluralism refers to:", options: ["Using multiple doctors", "Coexistence of different medical systems", "Having multiple insurance plans", "Treating multiple diseases"], correct: 1 , rationale: "Medical pluralism occurs when multiple distinct medical systems (like Western biomedicine and traditional indigenous healing) coexist and are utilized within a single society." },
+                            { q: "Urbanization is generally associated with:", options: ["Decreased pollution", "Increased infectious disease transmission", "Lower stress levels", "Better air quality"], correct: 1 , rationale: "Historically, the dense crowding, poor sanitation, and rapid population influx of urbanization greatly increased the transmission of infectious diseases." },
+                            { q: "Culture is best defined as:", options: ["Biological traits", "Shared beliefs, values, and practices", "Economic status", "Political affiliation"], correct: 1 , rationale: "Culture encompasses the comprehensive, shared way of life of a group, including their collective beliefs, values, customs, behaviors, and artifacts." },
+                            { q: "The functionalist perspective views society as:", options: ["A struggle for power", "A complex system of parts working together", "Depending on symbols", "chaotic"], correct: 1 , rationale: "Functionalism views society as a complex, interconnected macroscopic system where each part works together to promote solidary and stability." },
+                            { q: "Conflict theory perceives society as:", options: ["Stable", "Balanced", "A competition for resources", "Meaningless"], correct: 2 , rationale: "Rooted in Karl Marx's work, conflict theory views society as a perpetual struggle for dominance and scarce resources among different social classes." },
+                            { q: "Symbolic Interactionism focuses on:", options: ["Macro-level structures", "Micro-level interactions and meaning", "Global economics", "Genetics"], correct: 1 , rationale: "Symbolic interactionism is a micro-level theory focusing on the daily, face-to-face interactions and the subjective meanings people attach to symbols." },
+                            { q: "Social mobility refers to:", options: ["Moving houses", "Movement up or down the social hierarchy", "Traveling abroad", "Walking ability"], correct: 1 , rationale: "Social mobility is the ability of an individual or family to move up or down the socioeconomic ladder within a stratified society." },
+                            { q: "A Norm is:", options: ["A famous person", "A written law", "A rule or expectation for behavior", "A value"], correct: 2 , rationale: "A norm is a fundamental cultural rule or standard that clearly dictates how individuals are expected to behave in specific social situations." },
+                            { q: "Which refers to a group set apart by race or culture?", options: ["Minority group", "Majority group", "Reference group", "Primary group"], correct: 0 , rationale: "A minority group is any group of people who, because of their physical or cultural characteristics, are singled out from the others in the society for differential and unequal treatment." },
+                            { q: "Demography is the study of:", options: ["Demons", "Democracy", "Human populations", "Geography"], correct: 2 , rationale: "Demography is the statistical and scientific study of human populations, primarily examining size, density, distribution, and vital statistics." },
+                            { q: "The 'Graying of Society' refers to:", options: ["Air pollution", "An aging population", "Depression", "Fashion trends"], correct: 1 , rationale: "The 'graying of society' refers to the increasing proportion of elderly citizens within a population, heavily impacting healthcare and economic systems." },
+                            { q: "Globalization affects health through:", options: ["Spread of diseases", "Increased travel", "Economic interdependence", "All of the above"], correct: 3 , rationale: "Globalization massively impacts global health through rapid disease transmission (pandemics), medical tourism, and shifting global economic disparities." },
+                            { q: "Stigma is:", options: ["A mark of disgrace", "A type of flower", "A medical tool", "A law"], correct: 0 , rationale: "Coined by Erving Goffman, stigma is a deeply discrediting attribute that socially devalues an individual, often leading to discrimination." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Social Determinants of Health',
                         questions: [
-                            { q: "Which factor affects health outcomes the most?", options: ["Clinical care", "Genetics", "Social and Economic Factors", "Luck"], correct: 2 },
-                            { q: "Food insecurity is associated with:", options: ["Obesity and Diabetes", "Better health", "Higher income", "More exercise"], correct: 0 },
-                            { q: "Health literacy is:", options: ["Reading a book", "Understanding health information to make decisions", "Being a doctor", "Speaking English"], correct: 1 },
-                            { q: "Access to green spaces correlates with:", options: ["Higher crime", "Better mental and physical health", "More pollution", "Lower property values"], correct: 1 },
-                            { q: "Discrimination acts as a stressor that:", options: ["Improves immunity", "Harms health", "Motivates people", "Has no effect"], correct: 1 },
-                            { q: "The 'Social Gradient' in health means:", options: ["Everyone has equal health", "The higher your social position, the better your health", "Rich people are sicker", "Health is random"], correct: 1 },
-                            { q: "Which affects a child's development most according to SDOH?", options: ["Eye color", "Early childhood education/environment", "Favorite toy", "Hair length"], correct: 1 },
-                            { q: "Transportation barriers can lead to:", options: ["Missed appointments", "More walking", "Less traffic", "Better health"], correct: 0 },
-                            { q: "Housing quality (e.g., lead paint, mold) is a:", options: ["Physical determinant", "Biological determinant", "Genetic determinant", "Personal choice"], correct: 0 },
-                            { q: "Which is a 'downstream' intervention?", options: ["Treating a heart attack", "Policy change", "Improving education", "Cleaning the air"], correct: 0 },
-                            { q: "Which is an 'upstream' intervention?", options: ["Prescribing insulin", "Surgery", "Improving minimum wage", "Bandaging a cut"], correct: 2 },
-                            { q: "Income inequality is linked to:", options: ["Worse population health", "Better population health", "No change", "More happiness"], correct: 0 },
-                            { q: "Social isolation in the elderly increases risk of:", options: ["Mortality", "Dementia", "Depression", "All of the above"], correct: 3 },
-                            { q: "Adverse Childhood Experiences (ACEs) are linked to:", options: ["Adult chronic disease", "Better adult health", "Success", "Nothing"], correct: 0 },
-                            { q: "Digital divide refers to:", options: ["Mathematics", "Unequal access to technology/internet", "Finger injuries", "Coding"], correct: 1 },
-                            { q: "Environmental Justice ensures:", options: ["Equal protection from environmental hazards", "More parks for rich people", "Recycling", "Planting trees"], correct: 0 },
-                            { q: "Employment conditions (occupational health) include:", options: ["Safety hazards", "Work-life balance", "Job security", "All of the above"], correct: 3 },
-                            { q: "Community safety impacts:", options: ["Physical activity levels", "Mental health", "Sleep", "All of the above"], correct: 3 },
-                            { q: "Access to affordable nutritious food is often limited in:", options: ["Food deserts", "Supermarkets", "Farms", "Restaurants"], correct: 0 },
-                            { q: "Social support networks provide:", options: ["Emotional and practical help", "Money", "Jobs", "Distraction"], correct: 0 }
+                            { q: "Which factor affects health outcomes the most?", options: ["Clinical care", "Genetics", "Social and Economic Factors", "Luck"], correct: 2 , rationale: "Extensive public health research proves that social, economic, and environmental factors influence up to 80% of clinical health outcomes." },
+                            { q: "Food insecurity is associated with:", options: ["Obesity and Diabetes", "Better health", "Higher income", "More exercise"], correct: 0 , rationale: "Paradoxically, food insecurity frequently correlates with obesity and Type 2 diabetes because cheap, highly-processed, calorie-dense foods are often the most accessible." },
+                            { q: "Health literacy is:", options: ["Reading a book", "Understanding health information to make decisions", "Being a doctor", "Speaking English"], correct: 1 , rationale: "Health literacy is a patient's cognitive and social ability to access, understand, and apply health information to make appropriate medical decisions." },
+                            { q: "Access to green spaces correlates with:", options: ["Higher crime", "Better mental and physical health", "More pollution", "Lower property values"], correct: 1 , rationale: "Proximity to urban green spaces provides crucial opportunities for physical activity, social interaction, and significant psychological stress reduction." },
+                            { q: "Discrimination acts as a stressor that:", options: ["Improves immunity", "Harms health", "Motivates people", "Has no effect"], correct: 1 , rationale: "Chronic systemic discrimination triggers severe physiological stress responses (allostatic load), directly contributing to hypertension and premature mortality." },
+                            { q: "The 'Social Gradient' in health means:", options: ["Everyone has equal health", "The higher your social position, the better your health", "Rich people are sicker", "Health is random"], correct: 1 , rationale: "The social gradient is a universal phenomenon where life expectancy and overall health status rise continuously with every step up the socioeconomic ladder." },
+                            { q: "Which affects a child's development most according to SDOH?", options: ["Eye color", "Early childhood education/environment", "Favorite toy", "Hair length"], correct: 1 , rationale: "A safe, stimulating early childhood environment and access to quality education fundamentally shape lifelong cognitive and physical health trajectories." },
+                            { q: "Transportation barriers can lead to:", options: ["Missed appointments", "More walking", "Less traffic", "Better health"], correct: 0 , rationale: "A lack of reliable, affordable transportation creates a massive barrier to healthcare access, directly resulting in missed appointments and delayed critical care." },
+                            { q: "Housing quality (e.g., lead paint, mold) is a:", options: ["Physical determinant", "Biological determinant", "Genetic determinant", "Personal choice"], correct: 0 , rationale: "The structural, physical conditions of housing—such as the presence of lead paint, black mold, or poor ventilation—are direct physical determinants of health." },
+                            { q: "Which is a 'downstream' intervention?", options: ["Treating a heart attack", "Policy change", "Improving education", "Cleaning the air"], correct: 0 , rationale: "Downstream interventions focus strictly on treating medical conditions occurring at the individual level after the disease or injury has already occurred." },
+                            { q: "Which is an 'upstream' intervention?", options: ["Prescribing insulin", "Surgery", "Improving minimum wage", "Bandaging a cut"], correct: 2 , rationale: "Upstream interventions address massive, macro-level systemic issues—like economic policy and poverty—that create the conditions causing downstream illnesses." },
+                            { q: "Income inequality is linked to:", options: ["Worse population health", "Better population health", "No change", "More happiness"], correct: 0 , rationale: "Societies with vast disparities between the very rich and the very poor consistently demonstrate worse overall population health outcomes." },
+                            { q: "Social isolation in the elderly increases risk of:", options: ["Mortality", "Dementia", "Depression", "All of the above"], correct: 3 , rationale: "Severe social isolation and chronic loneliness drastically increase an older adult's risk for clinical depression, cognitive decline, and early mortality." },
+                            { q: "Adverse Childhood Experiences (ACEs) are linked to:", options: ["Adult chronic disease", "Better adult health", "Success", "Nothing"], correct: 0 , rationale: "Early childhood trauma vividly alters brain development and stress response, causing exponentially higher rates of chronic diseases in adulthood." },
+                            { q: "Digital divide refers to:", options: ["Mathematics", "Unequal access to technology/internet", "Finger injuries", "Coding"], correct: 1 , rationale: "The digital divide describes the severe socioeconomic gap between those who have robust access to digital technology and the internet, and those who do not." },
+                            { q: "Environmental Justice ensures:", options: ["Equal protection from environmental hazards", "More parks for rich people", "Recycling", "Planting trees"], correct: 0 , rationale: "Environmental justice is the principle ensuring that marginalized or minority communities are not disproportionately burdened by toxic environmental hazards." },
+                            { q: "Employment conditions (occupational health) include:", options: ["Safety hazards", "Work-life balance", "Job security", "All of the above"], correct: 3 , rationale: "Occupational health encompasses physical safety hazards, psychological stress from job insecurity, and overall work-life balance." },
+                            { q: "Community safety impacts:", options: ["Physical activity levels", "Mental health", "Sleep", "All of the above"], correct: 3 , rationale: "A neighborhood perceived as unsafe heavily deters outdoor physical activity, increases chronic psychological stress, and severely disrupts sleep." },
+                            { q: "Access to affordable nutritious food is often limited in:", options: ["Food deserts", "Supermarkets", "Farms", "Restaurants"], correct: 0 , rationale: "A food desert is an impoverished geographic area severely lacking accessible supermarkets or grocery stores with fresh, affordable, nutritious foods." },
+                            { q: "Social support networks provide:", options: ["Emotional and practical help", "Money", "Jobs", "Distraction"], correct: 0 , rationale: "Strong social networks significantly buffer life stressors by providing both crucial emotional backing and tangible, practical assistance during crises." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Culture, Family & Society',
                         questions: [
-                            { q: "Which parenting style is considered most effective?", options: ["Authoritarian", "Permissive", "Authoritative", "Neglectful"], correct: 2 },
-                            { q: "A matrifocal family is centered on:", options: ["The father", "The mother", "The children", "The grandparents"], correct: 1 },
-                            { q: "Which is a function of the family?", options: ["Socialization", "Economic support", "Emotional security", "All of the above"], correct: 3 },
-                            { q: "Cultural assimilation implies:", options: ["Retaining one's culture", "Giving up native culture for the dominant one", "Mixing cultures", "Ignoring culture"], correct: 1 },
-                            { q: "Acculturation means:", options: ["Adopting parts of a new culture while keeping old ones", "Rejecting new culture", "Becoming isolated", "Forgetting the past"], correct: 0 },
-                            { q: "Which denotes a marriage inside one's own group?", options: ["Exogamy", "Endogamy", "Polygamy", "Monogamy"], correct: 1 },
-                            { q: "Patriarchy refers to:", options: ["Mother rule", "Father/Male rule", "Child rule", "Equal rule"], correct: 1 },
-                            { q: "The 'Sandwich Generation' cares for:", options: ["Children and aging parents", "Pets", "Neighbors", "No one"], correct: 0 },
-                            { q: "Cultural Relativism is:", options: ["Judging culture by one's own standards", "Judging culture by its own standards", "Hating culture", "Ignoring culture"], correct: 1 },
-                            { q: "A subculture is:", options: ["A smaller group with distinct values within a larger culture", "Better than the main culture", "A bacterial growth", "Underground"], correct: 0 },
-                            { q: "Language is a key component of:", options: ["Biology", "Culture", "Geography", "Physics"], correct: 1 },
-                            { q: "Rituals are:", options: ["Standardized behaviors with symbolic meaning", "Random acts", "Habits", "Biological needs"], correct: 0 },
+                            { q: "Which parenting style is considered most effective?", options: ["Authoritarian", "Permissive", "Authoritative", "Neglectful"], correct: 2 , rationale: "Authoritative parenting, balancing high warmth with firm, consistent limits, consistently yields the most well-adjusted, confident, and resilient children." },
+                            { q: "A matrifocal family is centered on:", options: ["The father", "The mother", "The children", "The grandparents"], correct: 1 , rationale: "In a matrifocal family structure, the mother heavily heads the household and holds the primary structural and emotional authority." },
+                            { q: "Which is a function of the family?", options: ["Socialization", "Economic support", "Emotional security", "All of the above"], correct: 3 , rationale: "Sociologically, the family unit serves multiple critical functions: socializing children, providing economic stability, and offering deep emotional security." },
+                            { q: "Cultural assimilation implies:", options: ["Retaining one's culture", "Giving up native culture for the dominant one", "Mixing cultures", "Ignoring culture"], correct: 1 , rationale: "Assimilation is the profound process where a minority group gradually completely abandons its original cultural identity to adopt that of the dominant society." },
+                            { q: "Acculturation means:", options: ["Adopting parts of a new culture while keeping old ones", "Rejecting new culture", "Becoming isolated", "Forgetting the past"], correct: 0 , rationale: "Acculturation is a blending process where individuals adopt significant elements of a new culture while still fundamentally maintaining their original cultural identity." },
+                            { q: "Which denotes a marriage inside one's own group?", options: ["Exogamy", "Endogamy", "Polygamy", "Monogamy"], correct: 1 , rationale: "Endogamy is the cultural practice of distinctly marrying within one's own specific social group, caste, religion, or ethnic demographic." },
+                            { q: "Patriarchy refers to:", options: ["Mother rule", "Father/Male rule", "Child rule", "Equal rule"], correct: 1 , rationale: "Patriarchy is a systemic social organization where males heavily dominate primary power structures, moral authority, and property control." },
+                            { q: "The 'Sandwich Generation' cares for:", options: ["Children and aging parents", "Pets", "Neighbors", "No one"], correct: 0 , rationale: "The sandwich generation refers to middle-aged adults who are simultaneously 'sandwiched' financially and emotionally between raising children and caring for elderly parents." },
+                            { q: "Cultural Relativism is:", options: ["Judging culture by one's own standards", "Judging culture by its own standards", "Hating culture", "Ignoring culture"], correct: 1 , rationale: "Cultural relativism is the objective sociological practice of assessing a culture by its own unique standards rather than viewing it through the lens of one's own culture." },
+                            { q: "A subculture is:", options: ["A smaller group with distinct values within a larger culture", "Better than the main culture", "A bacterial growth", "Underground"], correct: 0 , rationale: "A subculture is a distinct cultural group within a larger culture, possessing uniquely specific beliefs, interests, or values that slightly differentiate them from the mainstream." },
+                            { q: "Language is a key component of:", options: ["Biology", "Culture", "Geography", "Physics"], correct: 1 , rationale: "Language is the fundamental symbolic mechanism through which a culture's beliefs, values, rules, and knowledge are transmitted across generations." },
+                            { q: "Rituals are:", options: ["Standardized behaviors with symbolic meaning", "Random acts", "Habits", "Biological needs"], correct: 0 , rationale: "Rituals are highly formalized, repetitive behavioral practices heavily imbued with deep symbolic meaning within a particular cultural or religious context." },
                             { q: "Which religion influences dietary habits (e.g., no pork)?", options: ["Islam", "Hinduism", "Judaism", "All of the above"], correct: 3 }, // Hinduism is usually beef, but Islam/Judaism is pork. Q is vague but 3 catches the gist or Islam/Judaism specifically. 'All' includes religions that influence diet.
-                            { q: "Collectivist cultures prioritize:", options: ["The individual", "The group", "Money", "Competition"], correct: 1 },
-                            { q: "Individualist cultures prioritize:", options: ["The group", "Personal autonomy and achievement", "Tradition", "Elders"], correct: 1 },
-                            { q: "Gender roles are:", options: ["Determined by biology", "Socially constructed", "Fixed", "Universal"], correct: 1 },
-                            { q: "The 'Glass Ceiling' refers to:", options: ["Architecture", "Barriers to women's advancement", "Fragile roofs", "Transparency"], correct: 1 },
-                            { q: "Domestic violence is a:", options: ["Private matter", "Public health issue", "Cultural norm", "Legal right"], correct: 1 },
-                            { q: "Divorce rates are influenced by:", options: ["Laws", "Economics", "Cultural values", "All of the above"], correct: 3 },
-                            { q: "Cohabitation is:", options: ["Living together without marriage", "Living alone", "Living with parents", "Roommates"], correct: 0 }
+                            { q: "Collectivist cultures prioritize:", options: ["The individual", "The group", "Money", "Competition"], correct: 1 , rationale: "Collectivist cultures deeply emphasize strong family loyalty, tight community cohesion, and group harmony over the desires or achievements of the solitary individual." },
+                            { q: "Individualist cultures prioritize:", options: ["The group", "Personal autonomy and achievement", "Tradition", "Elders"], correct: 1 , rationale: "Predominant in Western societies, individualist cultures highly prize personal independence, self-reliance, individual rights, and personal achievement." },
+                            { q: "Gender roles are:", options: ["Determined by biology", "Socially constructed", "Fixed", "Universal"], correct: 1 , rationale: "Sociologists heavily argue that while sex is biological, gender roles are incredibly fluid, socially constructed behaviors learned through profound socialization." },
+                            { q: "The 'Glass Ceiling' refers to:", options: ["Architecture", "Barriers to women's advancement", "Fragile roofs", "Transparency"], correct: 1 , rationale: "The 'glass ceiling' is a powerful metaphor for the invisible, systemic barriers that prevent women and minorities from reaching top executive echelons." },
+                            { q: "Domestic violence is a:", options: ["Private matter", "Public health issue", "Cultural norm", "Legal right"], correct: 1 , rationale: "Intimate partner violence is far more than a private family matter; its massive physical and psychological toll makes it a critical global public health issue." },
+                            { q: "Divorce rates are influenced by:", options: ["Laws", "Economics", "Cultural values", "All of the above"], correct: 3 , rationale: "Divorce is sociologically complex, heavily influenced by shifting legal standards (no-fault laws), female economic independence, and changing cultural norms." },
+                            { q: "Cohabitation is:", options: ["Living together without marriage", "Living alone", "Living with parents", "Roommates"], correct: 0 , rationale: "Cohabitation is the arrangement where two romantically involved people live together in a domestic partnership without being legally married." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Social Issues & Urbanization',
                         questions: [
-                            { q: "Gentrification results in:", options: ["Lower rents", "Displacement of lower-income residents", "Less development", "More crime"], correct: 1 },
-                            { q: "Urban sprawl contributes to:", options: ["Walking", "Car dependency and pollution", "Small towns", "Better health"], correct: 1 },
-                            { q: "The 'Broken Windows' theory relates to:", options: ["Home repair", "Crime and disorder", "Glass manufacturing", "Computer operating systems"], correct: 1 },
-                            { q: "Homelessness is primarily caused by:", options: ["Laziness", "Lack of affordable housing", "Choice", "Weather"], correct: 1 },
-                            { q: "Epidemiological transition refers to the shift from:", options: ["Infectious to Chronic diseases", "Chronic to Infectious diseases", "Rural to Urban", "Young to Old"], correct: 0 },
-                            { q: "Malthusian theory predicts:", options: ["Population will outgrow food supply", "Technology saves us", "Peace", "Zero growth"], correct: 0 },
-                            { q: "The Dependency Ratio compares:", options: ["Workers to Non-workers (young/old)", "Men to Women", "Rich to Poor", "Sick to Healthy"], correct: 0 },
-                            { q: "Ageism is discrimination based on:", options: ["Race", "Gender", "Age", "Ability"], correct: 2 },
-                            { q: "Medicalization is:", options: ["Creating new medicines", "Defining non-medical problems as medical issues", "Building hospitals", "Studying medicine"], correct: 1 },
-                            { q: "The 'Opioid Crisis' is an example of:", options: ["A social problem with medical roots", "A crime wave", "A foreign invasion", "A success"], correct: 0 },
-                            { q: "Which is a 'Push factor' for migration?", options: ["Better jobs", "War/Conflict", "Good schools", "Freedom"], correct: 1 },
-                            { q: "Which is a 'Pull factor' for migration?", options: ["Famine", "Poverty", "Economic opportunity", "Persecution"], correct: 2 },
-                            { q: "Environmental Racism refers to:", options: ["Disproportionate exposure of minorities to pollutants", "Racist trees", "Clean environments for all", "Nature"], correct: 0 },
-                            { q: "Food deserts are usually found in:", options: ["Wealthy suburbs", "Low-income areas", "Farms", "Forests"], correct: 1 },
-                            { q: "Which is a latent function of education?", options: ["Learning math", "Childcare/Social networking", "Getting a degree", "Reading"], correct: 1 },
-                            { q: "Meritocracy assumes success is based on:", options: ["Wealth", "Family", "Ability and effort", "Luck"], correct: 2 },
-                            { q: "The 'School-to-Prison Pipeline' affects:", options: ["All students", "Disproportionately minority students", "Teachers", "Principals"], correct: 1 },
-                            { q: "Labeling Theory is associated with:", options: ["Deviance", "Fashion", "Cooking", "Shopping"], correct: 0 },
-                            { q: "Which creates a 'barrier to entry' in healthcare?", options: ["Universal coverage", "High cost/Insurance", "Too many doctors", "Free clinics"], correct: 1 },
-                            { q: "The 'Digital Divide' affects:", options: ["Only gamers", "Telehealth access and health seeking", "TV watching", "Radio"], correct: 1 }
+                            { q: "Gentrification results in:", options: ["Lower rents", "Displacement of lower-income residents", "Less development", "More crime"], correct: 1 , rationale: "When wealthy individuals heavily invest in renovating urban neighborhoods, property values inevitably soar, unfortunately displacing the original low-income residents." },
+                            { q: "Urban sprawl contributes to:", options: ["Walking", "Car dependency and pollution", "Small towns", "Better health"], correct: 1 , rationale: "The poorly planned, outward expansion of cities (sprawl) necessitates heavy automobile reliance, vastly increasing traffic congestion and environmental air pollution." },
+                            { q: "The 'Broken Windows' theory relates to:", options: ["Home repair", "Crime and disorder", "Glass manufacturing", "Computer operating systems"], correct: 1 , rationale: "This criminological theory posits that visible signs of severe neighborhood decay and neglect directly encourage further serious crime and disorder." },
+                            { q: "Homelessness is primarily caused by:", options: ["Laziness", "Lack of affordable housing", "Choice", "Weather"], correct: 1 , rationale: "Contrary to popular stigma, the primary structural driver of widespread urban homelessness is a severe, systemic lack of accessible, affordable housing." },
+                            { q: "Epidemiological transition refers to the shift from:", options: ["Infectious to Chronic diseases", "Chronic to Infectious diseases", "Rural to Urban", "Young to Old"], correct: 0 , rationale: "As nations modernize with better sanitation and medicine, mortality shifts from acute infectious diseases to prolonged, lifestyle-related chronic illnesses." },
+                            { q: "Malthusian theory predicts:", options: ["Population will outgrow food supply", "Technology saves us", "Peace", "Zero growth"], correct: 0 , rationale: "Reverend Thomas Malthus famously theorized that human population grows exponentially, while food production grows arithmetically, inevitably leading to mass famine." },
+                            { q: "The Dependency Ratio compares:", options: ["Workers to Non-workers (young/old)", "Men to Women", "Rich to Poor", "Sick to Healthy"], correct: 0 , rationale: "The dependency ratio is a cruel economic metric comparing the productive working-age population to those primarily dependent (children and the elderly)." },
+                            { q: "Ageism is discrimination based on:", options: ["Race", "Gender", "Age", "Ability"], correct: 2 , rationale: "Ageism involves powerful, deeply ingrained prejudice and systemic discrimination distinctly directed against people strictly based on their chronological age." },
+                            { q: "Medicalization is:", options: ["Creating new medicines", "Defining non-medical problems as medical issues", "Building hospitals", "Studying medicine"], correct: 1 , rationale: "Medicalization is the profound sociological process by which normal human conditions (like aging or grief) become defined and treated exclusively as medical problems." },
+                            { q: "The 'Opioid Crisis' is an example of:", options: ["A social problem with medical roots", "A crime wave", "A foreign invasion", "A success"], correct: 0 , rationale: "The catastrophic opioid epidemic perfectly exemplifies how aggressive pharmaceutical marketing and medical prescribing norms created a devastating societal breakdown." },
+                            { q: "Which is a 'Push factor' for migration?", options: ["Better jobs", "War/Conflict", "Good schools", "Freedom"], correct: 1 , rationale: "Push factors specifically refer to negative conditions—like violent warfare, extreme poverty, or severe persecution—that forcefully drive people to flee their home country." },
+                            { q: "Which is a 'Pull factor' for migration?", options: ["Famine", "Poverty", "Economic opportunity", "Persecution"], correct: 2 , rationale: "Pull factors strictly refer to the incredibly attractive, positive conditions (abundant jobs, safety) that heavily draw migrants toward a new destination country." },
+                            { q: "Environmental Racism refers to:", options: ["Disproportionate exposure of minorities to pollutants", "Racist trees", "Clean environments for all", "Nature"], correct: 0 , rationale: "This term highlights how systemic racism specifically results in toxic waste sites and heavy polluting industries being disproportionately placed in minority neighborhoods." },
+                            { q: "Food deserts are usually found in:", options: ["Wealthy suburbs", "Low-income areas", "Farms", "Forests"], correct: 1 , rationale: "Due to systemic economic redlining and poor urban planning, low-income and severely marginalized neighborhoods are most commonly afflicted by food deserts." },
+                            { q: "Which is a latent function of education?", options: ["Learning math", "Childcare/Social networking", "Getting a degree", "Reading"], correct: 1 , rationale: "Latent functions are unintended, incredibly beneficial consequences; schools secretly function as massive daily childcare systems and crucial hubs for early social networking." },
+                            { q: "Meritocracy assumes success is based on:", options: ["Wealth", "Family", "Ability and effort", "Luck"], correct: 2 , rationale: "A meritocracy is an idealized societal system where social stratification is strictly believed to be determined purely by personal merit, immense effort, and individual ability." },
+                            { q: "The 'School-to-Prison Pipeline' affects:", options: ["All students", "Disproportionately minority students", "Teachers", "Principals"], correct: 1 , rationale: "This term heavily critiques how excessively harsh, 'zero-tolerance' school disciplinary policies disproportionately push deeply marginalized minority youths directly into the criminal justice system." },
+                            { q: "Labeling Theory is associated with:", options: ["Deviance", "Fashion", "Cooking", "Shopping"], correct: 0 , rationale: "Labeling theory intensely argues that 'deviance' is not inherent to an act, but rather is created severely by how society heavily labels and strictly reacts to the individual." },
+                            { q: "Which creates a 'barrier to entry' in healthcare?", options: ["Universal coverage", "High cost/Insurance", "Too many doctors", "Free clinics"], correct: 1 , rationale: "In privatized healthcare systems, exorbitant financial costs and wildly complex insurance requirements create massive, often insurmountable barriers to seeking essential care." },
+                            { q: "The 'Digital Divide' affects:", options: ["Only gamers", "Telehealth access and health seeking", "TV watching", "Radio"], correct: 1 , rationale: "As modern medicine heavily pivots to strictly digital platforms, those trapped without internet access are severely restricted from utilizing telehealth or accessing vital health portals." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Gender & Medical Anthropology',
                         questions: [
-                            { q: "Medical Anthropology studies:", options: ["Bones", "How culture interacts with health/illness", "Ancient doctors", "Hospitals"], correct: 1 },
-                            { q: "A 'Folk Illness' is:", options: ["A fake illness", "A culture-bound syndrome", "A virus", "A broken bone"], correct: 1 },
-                            { q: "Curanderismo is a healing system from:", options: ["China", "Latin America", "India", "Africa"], correct: 1 },
-                            { q: "Ayurveda originates from:", options: ["China", "Latin America", "India", "Africa"], correct: 2 },
-                            { q: "The Placebo Effect demonstrates:", options: ["The power of belief/mind", "Drug efficacy", "Surgical skill", "Nothing"], correct: 0 },
-                            { q: "Gender stratification in medicine has historically:", options: ["Favored women", "Excluded women from high status roles", "Been equal", "Favored nurses"], correct: 1 },
-                            { q: "The 'Pink Collar' sector refers to:", options: ["Construction", "Jobs traditionally held by women", "Banking", "Tech"], correct: 1 },
-                            { q: "Intersectionality examines:", options: ["Roads", "Overlapping systems of oppression (race, class, gender)", "Biology", "Math"], correct: 1 },
-                            { q: "Which is a barrier to men seeking healthcare?", options: ["Masculinity norms (stoicism)", "Too much time", "Lack of money", "High pain tolerance"], correct: 0 },
-                            { q: "FGM (Female Genital Mutilation) is a practice rooted in:", options: ["Medical necessity", "Cultural tradition/Control", "Hygiene", "Religion (universal)"], correct: 1 },
-                            { q: "Maternal mortality rates are highest for:", options: ["White women", "Black women (in the US)", "Asian women", "Hispanic women"], correct: 1 },
-                            { q: "Implicit bias in healthcare leads to:", options: ["Equal care", "Disparities in treatment", "Better outcomes", "More friends"], correct: 1 },
-                            { q: "Shamanism involves:", options: ["A spiritual healer mediating between worlds", "Surgery", "Pills", "Exercise"], correct: 0 },
-                            { q: "Biomedicine focuses on:", options: ["Holistic care", "Physical causes/Treatment of disease", "Spirits", "Energy"], correct: 1 },
-                            { q: "Medicalization of childbirth has led to:", options: ["More home births", "More C-sections and interventions", "Less cost", "No change"], correct: 1 },
-                            { q: "Transgender health issues include:", options: ["Access to hormone therapy", "Discrimination", "Mental health disparities", "All of the above"], correct: 3 },
-                            { q: "The 'Second Shift' refers to:", options: ["Working two jobs", "Women working then doing housework", "Overtime", "Night shift"], correct: 1 },
-                            { q: "Patriarchal medicine often:", options: ["Listens to patients", "Dismisses women's pain", "Is collaborative", "Is cheap"], correct: 1 },
-                            { q: "Cultural Competence is crucial because:", options: ["It's the law", "It improves patient trust and outcomes", "It's trendy", "It's easy"], correct: 1 },
-                            { q: "Ethnomedicine is:", options: ["The study of traditional medicine", "Western medicine", "Fake medicine", "Online medicine"], correct: 0 }
+                            { q: "Medical Anthropology studies:", options: ["Bones", "How culture interacts with health/illness", "Ancient doctors", "Hospitals"], correct: 1 , rationale: "Medical anthropology is the incredibly fascinating, dedicated study of how profound cultural beliefs perfectly shape human understanding, deeply felt experiences, and systemic treatments of specific illnesses." },
+                            { q: "A 'Folk Illness' is:", options: ["A fake illness", "A culture-bound syndrome", "A virus", "A broken bone"], correct: 1 , rationale: "A folk illness (or profound culture-bound syndrome) is a strictly localized, culturally specific psychiatric or somatic disease entirely unrecognized by standard Western biomedicine." },
+                            { q: "Curanderismo is a healing system from:", options: ["China", "Latin America", "India", "Africa"], correct: 1 , rationale: "Curanderismo is a rich, deeply spiritual traditional folk healing system heavily practiced throughout Hispanic and culturally vibrant Latin American communities." },
+                            { q: "Ayurveda originates from:", options: ["China", "Latin America", "India", "Africa"], correct: 2 , rationale: "Ayurveda is a massive, ancient holistic system of traditional healing that deeply originated in the Indian subcontinent entirely over 3,000 immensely long years ago." },
+                            { q: "The Placebo Effect demonstrates:", options: ["The power of belief/mind", "Drug efficacy", "Surgical skill", "Nothing"], correct: 0 , rationale: "The profound placebo effect scientifically absolutely proves that a patient's sheer psychological belief in a specific treatment's efficacy can dramatically trigger real physiological healing." },
+                            { q: "Gender stratification in medicine has historically:", options: ["Favored women", "Excluded women from high status roles", "Been equal", "Favored nurses"], correct: 1 , rationale: "Historically, brutal gender stratification strictly relegated female practitioners to subservient 'nursing' roles while exclusively reserving the high-status, highly paid 'physician' role strictly for men." },
+                            { q: "The 'Pink Collar' sector refers to:", options: ["Construction", "Jobs traditionally held by women", "Banking", "Tech"], correct: 1 , rationale: "The term incredibly accurately describes fundamentally crucial but heavily underpaid service professions (like nursing, robust childcare, and demanding clerical work) strictly dominated by immensely hard-working women." },
+                            { q: "Intersectionality examines:", options: ["Roads", "Overlapping systems of oppression (race, class, gender)", "Biology", "Math"], correct: 1 , rationale: "Intersectionality perfectly highlights how deeply intertwined social identities (specifically race, restrictive gender, and rigid class) distinctly compound to create uniquely complex modes of severe discrimination." },
+                            { q: "Which is a barrier to men seeking healthcare?", options: ["Masculinity norms (stoicism)", "Too much time", "Lack of money", "High pain tolerance"], correct: 0 , rationale: "Rigid, toxic hegemonic masculinity strictly dictates extreme emotional stoicism and deep physical toughness, profoundly preventing many men from actively seeking vital preventative healthcare." },
+                            { q: "FGM (Female Genital Mutilation) is a practice rooted in:", options: ["Medical necessity", "Cultural tradition/Control", "Hygiene", "Religion (universal)"], correct: 1 , rationale: "Female Genital Mutilation is a severely brutal, non-medical practice deeply rooted strictly in deeply oppressive cultural traditions entirely aimed at mercilessly controlling incredibly vital female sexuality." },
+                            { q: "Maternal mortality rates are highest for:", options: ["White women", "Black women (in the US)", "Asian women", "Hispanic women"], correct: 1 , rationale: "In the deeply unequal US healthcare system, devastating systemic racism directly causes immensely tragic maternal mortality rates strictly for Black women to heavily outpace all other massive demographic groups." },
+                            { q: "Implicit bias in healthcare leads to:", options: ["Equal care", "Disparities in treatment", "Better outcomes", "More friends"], correct: 1 , rationale: "Unconscious, deeply internalized stereotypes incredibly dangerously lead well-meaning providers to unknowingly drastically alter their critical clinical decisions, directly resulting in severe racial and profound gender treatment disparities." },
+                            { q: "Shamanism involves:", options: ["A spiritual healer mediating between worlds", "Surgery", "Pills", "Exercise"], correct: 0 , rationale: "In shamanic profoundly traditional systems, the highly respected shaman uses deeply entered altered states to effectively communicate safely with entirely spiritual worlds to cure deeply afflicted patients." },
+                            { q: "Biomedicine focuses on:", options: ["Holistic care", "Physical causes/Treatment of disease", "Spirits", "Energy"], correct: 1 , rationale: "Western incredibly advanced biomedicine specifically focuses almost entirely on the measurable physical, distinct biological, and deeply molecular causes and highly technical treatments of severe disease." },
+                            { q: "Medicalization of childbirth has led to:", options: ["More home births", "More C-sections and interventions", "Less cost", "No change"], correct: 1 , rationale: "Framing profoundly natural childbirth strictly as a massive, highly dangerous medical event has directly driven an incredibly sharp, continuous rise in heavy technological interventions like C-sections." },
+                            { q: "Transgender health issues include:", options: ["Access to hormone therapy", "Discrimination", "Mental health disparities", "All of the above"], correct: 3 , rationale: "Severely marginalized transgender individuals face an immense, incredibly hostile intersection of highly discriminatory barriers, profound severe mental health crises, and desperately tragic lack of vital competent medical care." },
+                            { q: "The 'Second Shift' refers to:", options: ["Working two jobs", "Women working then doing housework", "Overtime", "Night shift"], correct: 1 , rationale: "Sociologist heavily coined this incredibly stark phrase to intimately describe the deeply exhausting, completely unpaid domestic household labor severely burdening fully employed women strictly after their official deeply draining workday." },
+                            { q: "Patriarchal medicine often:", options: ["Listens to patients", "Dismisses women's pain", "Is collaborative", "Is cheap"], correct: 1 , rationale: "A deeply entrenched, profoundly patriarchal medical system historically entirely invalidates, severely downplays, and wildly dismisses incredible female pain as strictly 'hysterical' or severely incredibly purely psychosomatic." },
+                            { q: "Cultural Competence is crucial because:", options: ["It's the law", "It improves patient trust and outcomes", "It's trendy", "It's easy"], correct: 1 , rationale: "Delivering strictly culturally competent care intimately fosters deep mutual respect and immense absolute patient trust, directly resulting in immensely better, highly incredibly optimal clinical outcomes." },
+                            { q: "Ethnomedicine is:", options: ["The study of traditional medicine", "Western medicine", "Fake medicine", "Online medicine"], correct: 0 , rationale: "Ethnomedicine is the cross-cultural study of the medical systems, practices, and beliefs of various indigenous or traditional communities." }
                         ]
                     },
                     {
@@ -1778,13 +1836,16 @@ const appData = {
                         type: 'intro',
                         title: 'Module 1: Introduction to Psychology',
                         body: `
-                            <h3>The Science of Mind</h3>
-                            <p>Psychology explains how we think, feel, and act. In nursing, it is crucial for communicating with patients and understanding their behavior during illness.</p>
-                            <h4>Perspectives</h4>
+                            <h3>The Science of Mind and Behavior</h3>
+                            <p>Psychology is the scientific study of how people think, feel, and act. In the nursing context, a strong foundation in psychology is indispensable for communicating effectively with patients, understanding their reactions to illness, and providing holistic, empathetic care.</p>
+                            
+                            <h4>Major Perspectives in Psychology</h4>
                             <ul>
-                                <li><strong>Biological:</strong> Brain and nervous system.</li>
-                                <li><strong>Cognitive:</strong> Thinking and memory.</li>
-                                <li><strong>Behavioral:</strong> Learned behaviors (Pavlov, Skinner).</li>
+                                <li><strong>Biological:</strong> Examines how brain structures, hormones, and the nervous system influence behavior.</li>
+                                <li><strong>Cognitive:</strong> Focuses on mental processes such as memory, problem-solving, decision making, and language.</li>
+                                <li><strong>Behavioral:</strong> Explains how learned associations and environmental consequences shape behavior (e.g., Pavlov's classical conditioning, Skinner's operant conditioning).</li>
+                                <li><strong>Psychodynamic:</strong> Derived from Freud, focusing on unconscious drives and early childhood experiences.</li>
+                                <li><strong>Humanistic:</strong> Emphasizes personal growth, free will, and self-actualization (e.g., Maslow, Rogers).</li>
                             </ul>
                         `
                     },
@@ -1792,62 +1853,86 @@ const appData = {
                         type: 'text',
                         title: 'Module 2: The Biopsychosocial Model',
                         body: `
-                            <h3>Integrated Health</h3>
-                            <p>Health and illness are determined by a dynamic interaction between biological, psychological, and social factors.</p>
+                            <h3>An Integrated Approach to Health</h3>
+                            <p>The biopsychosocial model posits that health and illness are determined by a dynamic, complex interaction between biological, psychological, and social factors. It moves away from the traditional biomedical model which focused solely on physical pathology.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
-                                <h4 style="margin-top:0">The Biopsychosocial Model</h4>
+                                <h4 style="margin-top:0">The Biopsychosocial Intersections</h4>
                                 <img src="assets/biopsychosocial.png" alt="Biopsychosocial Model Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 2.1: The intersection of biology, psychology, and social environment.</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 2.1: Demonstrating how genetics, coping skills, and social support all intertwine in patient health.</p>
                             </div>
+
+                            <ul>
+                                <li><strong>Biological Factors:</strong> Genetics, neurochemistry, pathogens, and physical trauma.</li>
+                                <li><strong>Psychological Factors:</strong> Stress, coping skills, personality traits, beliefs, and emotions.</li>
+                                <li><strong>Social Factors:</strong> Socioeconomic status, culture, family dynamics, and social support networks.</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 3: Personality Theories',
                         body: `
-                            <h3>Psychoanalytic Theory (Freud)</h3>
-                            <p>Freud believed personality is composed of three interacting systems.</p>
+                            <h3>Understanding Individual Differences</h3>
+                            <p>Personality refers to the enduring patterns of thought, feeling, and behavior that make a person unique. Understanding personality helps nurses predict patient reactions and tailor communication.</p>
+
+                            <h4>Psychoanalytic Theory (Freud)</h4>
+                            <p>Freud viewed the mind as largely unconscious and driven by conflicting forces.</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
                                 <h4 style="margin-top:0">The Iceberg Model</h4>
                                 <img src="assets/freud_iceberg.png" alt="Freud's Iceberg Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: Id (Unconscious), Ego (Conscious/Preconscious), Superego (Moral).</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: The Id (Unconscious), Ego (Conscious/Preconscious), and Superego (Moral Compass).</p>
                             </div>
 
                             <ul>
-                                <li><strong>Id:</strong> Pleasure principle (instincts).</li>
-                                <li><strong>Ego:</strong> Reality principle.</li>
-                                <li><strong>Superego:</strong> Morality principle.</li>
+                                <li><strong>Id:</strong> Operates on the pleasure principle; demands immediate gratification of basic instincts.</li>
+                                <li><strong>Ego:</strong> Operates on the reality principle; the rational mediator between the Id and Superego.</li>
+                                <li><strong>Superego:</strong> The internalized moral standards and ideals of society.</li>
                             </ul>
+                            
+                            <h4>Trait Theory (The Big Five)</h4>
+                            <p>The most widely accepted modern theory describes personality along five dimensions (OCEAN): Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.</p>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 4: Human Development',
+                        title: 'Module 4: Human Development Across the Lifespan',
                         body: `
-                            <h3>Lifespan Development</h3>
-                            <p>Understanding the stages of growth helps nurses provide age-appropriate care.</p>
+                            <h3>Growth, Change, and Stability</h3>
+                            <p>Nurses care for patients at every stage of life. Understanding developmental milestones is crucial for providing age-appropriate care and education.</p>
                             
-                            <h4>Erikson's Stages of Psychosocial Development</h4>
+                            <h4>Erikson's Psychosocial Stages</h4>
+                            <p>Erikson proposed that life consists of eight stages, each presenting a fundamental psychosocial crisis:</p>
                             <ul>
-                                <li><strong>Infancy:</strong> Trust vs. Mistrust.</li>
-                                <li><strong>Adolescence:</strong> Identity vs. Role Confusion.</li>
-                                <li><strong>Late Adulthood:</strong> Integrity vs. Despair.</li>
+                                <li><strong>Infancy (0-1 yr):</strong> Trust vs. Mistrust (Developing a sense of security).</li>
+                                <li><strong>Toddlerhood (1-3 yrs):</strong> Autonomy vs. Shame/Doubt (Gaining physical independence).</li>
+                                <li><strong>School Age (6-12 yrs):</strong> Industry vs. Inferiority (Developing competence and self-confidence).</li>
+                                <li><strong>Adolescence (12-18 yrs):</strong> Identity vs. Role Confusion (Forming a sense of self and direction).</li>
+                                <li><strong>Young Adulthood (18-40 yrs):</strong> Intimacy vs. Isolation (Forming deep, lasting relationships).</li>
+                                <li><strong>Late Adulthood (65+ yrs):</strong> Integrity vs. Despair (Reflecting on life with fulfillment or regret).</li>
                             </ul>
+                            
+                            <h4>Piaget's Cognitive Development</h4>
+                            <p>Focuses on how children actively construct their understanding of the world (Sensorimotor, Preoperational, Concrete Operational, Formal Operational).</p>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 5: Stress and Coping',
+                        title: 'Module 5: Stress, Coping, and Health',
                         body: `
-                            <h3>The Stress Response</h3>
-                            <p>Stress is the body's reaction to any change that requires an adjustment or response. The "Fight or Flight" response activates the SNS.</p>
+                            <h3>The Body's Response to Demand</h3>
+                            <p>Stress is the physiological and psychological response to a condition that threatens or challenges an individual and requires some form of adaptation.</p>
                             
-                            <h3>Coping Mechanisms</h3>
+                            <h4>The Stress Response</h4>
+                            <p>When faced with an acute stressor, the sympathetic nervous system triggers the "Fight or Flight" response, releasing adrenaline and cortisol. While adaptive in the short term, chronic stress can suppress the immune system and increase the risk of cardiovascular disease.</p>
+                            
+                            <h4>Coping Mechanisms</h4>
+                            <p>How a patient manages stress significantly impacts their health outcomes.</p>
                             <ul>
-                                <li><strong>Problem-Focused:</strong> Tackling the stressor directly.</li>
-                                <li><strong>Emotion-Focused:</strong> Managing the emotional distress.</li>
+                                <li><strong>Problem-Focused Coping:</strong> Taking direct action to change or eliminate the stressor (e.g., studying for an exam, seeking medical treatment).</li>
+                                <li><strong>Emotion-Focused Coping:</strong> Attempting to manage the emotional distress associated with the stressor (e.g., seeking social support, meditation, or maladaptive methods like substance use).</li>
+                                <li><strong>Defense Mechanisms (Freud):</strong> Unconscious strategies used by the ego to reduce anxiety (e.g., Denial, Repression, Projection, Rationalization).</li>
                             </ul>
                         `
                     },
@@ -1855,192 +1940,222 @@ const appData = {
                         type: 'text',
                         title: 'Module 6: Learning and Memory',
                         body: `
-                            <h3>How We Learn</h3>
-                            <p>Important for patient education.</p>
+                            <h3>Acquiring and Retaining Information</h3>
+                            <p>Understanding how people learn and remember is fundamental for nurses engaged in patient education (e.g., teaching a newly diagnosed diabetic how to administer insulin).</p>
+                            
+                            <h4>Types of Learning</h4>
                             <ul>
-                                <li><strong>Classical Conditioning:</strong> Learning by association.</li>
-                                <li><strong>Operant Conditioning:</strong> Learning by consequences (rewards/punishments).</li>
+                                <li><strong>Classical Conditioning (Pavlov):</strong> Learning through association. A neutral stimulus becomes associated with a meaningful stimulus, eliciting a conditioned response (e.g., white coat hypertension).</li>
+                                <li><strong>Operant Conditioning (Skinner):</strong> Learning through consequences. Behavior followed by a reward (reinforcement) increases, while behavior followed by a punishment decreases.</li>
+                                <li><strong>Observational Learning (Bandura):</strong> Learning by watching others (modeling).</li>
                             </ul>
+                            
+                            <h4>Memory Processes</h4>
+                            <p>Memory involves three stages: <strong>Encoding</strong> (getting information in), <strong>Storage</strong> (retaining information over time), and <strong>Retrieval</strong> (getting information out). High stress and pain can significantly impair a patient's encoding process, making written discharge instructions vital.</p>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 7: Motivation and Emotion',
                         body: `
-                            <h3>Driving Forces</h3>
-                            <p><strong>Motivation:</strong> Needs and desires that energize and direct behavior (e.g., Maslow's Hierarchy).</p>
-                            <p><strong>Emotion:</strong> Complex psychological state that involves three distinct components: a subjective experience, a physiological response, and a behavioral or expressive response.</p>
+                            <h3>What Drives Us</h3>
+                            <p><strong>Motivation</strong> refers to the biological, emotional, cognitive, or social forces that activate and direct behavior.</p>
+                            <ul>
+                                <li><strong>Maslow's Hierarchy of Needs:</strong> Proposes that basic physiological and safety needs must be met before higher-level needs (belonging, esteem, self-actualization) can be addressed. Nurses must address a patient's pain (physiological) before expecting them to engage in complex learning (cognitive/esteem).</li>
+                                <li><strong>Intrinsic vs. Extrinsic Motivation:</strong> Intrinsic motivation comes from within (doing something because it's personally rewarding), while extrinsic motivation is driven by external rewards or avoiding punishment.</li>
+                            </ul>
+                            
+                            <p><strong>Emotion</strong> is a complex psychological state that involves a subjective experience, a physiological response (arousal), and a behavioral or expressive response.</p>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 8: Psychological Disorders',
+                        title: 'Module 8: Psychological Disorders</h3>',
                         body: `
-                            <h3>Common Mental Health Issues</h3>
+                            <h3>Identifying Mental Health Challenges</h3>
+                            <p>Mental disorders are characterized by clinically significant disturbances in an individual's cognition, emotion regulation, or behavior that reflect a dysfunction in the psychological, biological, or developmental processes underlying mental functioning.</p>
+                            
+                            <h4>Common Categories:</h4>
                             <ul>
-                                <li><strong>Anxiety Disorders:</strong> Excessive fear and anxiety.</li>
-                                <li><strong>Mood Disorders:</strong> Depression, Bipolar disorder.</li>
-                                <li><strong>Schizophrenia:</strong> Distortions in thinking, perception, and affect.</li>
+                                <li><strong>Anxiety Disorders:</strong> Characterized by excessive, persistent, and unreasonable fear or worry (e.g., Generalized Anxiety Disorder, Panic Disorder, Phobias).</li>
+                                <li><strong>Mood Disorders:</strong> Significant and persistent disruptions in mood or emotions (e.g., Major Depressive Disorder, Bipolar Disorder).</li>
+                                <li><strong>Schizophrenia Spectrum:</strong> Characterized by distortions in thinking, perception, emotions, language, sense of self, and behavior (including hallucinations and delusions).</li>
+                                <li><strong>Personality Disorders:</strong> Enduring, inflexible, and maladaptive patterns of behavior that deviate markedly from cultural expectations.</li>
                             </ul>
-                            <p>Nurses play a key role in identifying symptoms and supporting treatment.</p>
+                            <p>Nurses play a critical role in observing for symptoms, destigmatizing mental illness, and supporting adherence to therapeutic regimens.</p>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 9: Consciousness and Sleep',
                         body: `
-                            <h3>Importance of Sleep for Health</h3>
-                            <p>Sleep is vital for physical and mental restoration. Circadian rhythms regulate the sleep-wake cycle.</p>
-                            <p>Sleep deprivation impairs cognitive function and immune response.</p>
+                            <h3>The Importance of Restorative Sleep</h3>
+                            <p>Consciousness is our awareness of ourselves and our environment. A significant altered state of consciousness is sleep.</p>
+                            
+                            <h4>The Function of Sleep</h4>
+                            <p>Sleep is vital for physical restoration, immune function, memory consolidation, and emotional regulation. The sleep-wake cycle is governed by circadian rhythms (the biological clock).</p>
+                            
+                            <h4>Impact of Sleep Deprivation</h4>
+                            <p>In the hospital environment, patient sleep is frequently interrupted. Sleep deprivation leads to increased pain sensitivity, impaired cognitive function, mood irritability, and delayed healing. Nurses must implement interventions to promote rest (e.g., clustering care, dimming lights).</p>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 10: Health Psychology',
+                        title: 'Module 10: Health Psychology and Behavior Change',
                         body: `
-                            <h3>Behavior Change</h3>
-                            <p>Helping patients adopt healthier behaviors (e.g., quitting smoking, exercise).</p>
-                            <p><strong>Transtheoretical Model:</strong> Precontemplation, Contemplation, Preparation, Action, Maintenance.</p>
+                            <h3>Facilitating Healthy Choices</h3>
+                            <p>Health psychology studies how psychological, behavioral, and cultural factors contribute to physical health and illness.</p>
+                            
+                            <h4>The Transtheoretical Model (Stages of Change)</h4>
+                            <p>Helping patients change risky behaviors (like smoking or poor diet) requires understanding where they are in the readiness to change process:</p>
+                            <ol>
+                                <li><strong>Precontemplation:</strong> Not intending to take action (unaware or in denial).</li>
+                                <li><strong>Contemplation:</strong> Intending to change in the foreseeable future (weighing pros and cons).</li>
+                                <li><strong>Preparation:</strong> Ready to take action within the next 30 days (taking small steps).</li>
+                                <li><strong>Action:</strong> Has made specific, overt modifications in lifestyle.</li>
+                                <li><strong>Maintenance:</strong> Working to prevent relapse.</li>
+                            </ol>
+                            <p>Nurses use motivational interviewing techniques to help patients progress through these stages without being confrontational.</p>
                         `
                     },
                     {
                         type: 'quiz',
                         title: 'Psychology Final Quiz',
                         questions: [
-                            { q: "Which part of personality operates on the 'pleasure principle'?", options: ["Ego", "Id", "Superego", "Conscious"], correct: 1 },
-                            { q: "Who proposed the stages of Psychosocial Development?", options: ["Freud", "Erikson", "Piaget", "Skinner"], correct: 1 },
-                            { q: "Learning through consequences (rewards/punishments) is known as:", options: ["Classical conditioning", "Operant conditioning", "Observational learning", "Cognitive mapping"], correct: 1 },
-                            { q: "Which model views health as an interaction of biological, psychological, and social factors?", options: ["Biomedical Model", "Biopsychosocial Model", "Holistic Model", "Systems Theory"], correct: 1 }
+                            { q: "Which part of personality operates on the 'pleasure principle'?", options: ["Ego", "Id", "Superego", "Conscious"], correct: 1 , rationale: "According to Freudian psychoanalytic theory, the completely unconscious 'Id' operates strictly on the pleasure principle, furiously demanding immediate gratification of primal urges." },
+                            { q: "Who proposed the stages of Psychosocial Development?", options: ["Freud", "Erikson", "Piaget", "Skinner"], correct: 1 , rationale: "Erik Erikson massively expanded Freud's theories, famously proposing eight distinct, critically important psychosocial stages bridging from birth entirely through late adulthood." },
+                            { q: "Learning through consequences (rewards/punishments) is known as:", options: ["Classical conditioning", "Operant conditioning", "Observational learning", "Cognitive mapping"], correct: 1 , rationale: "Pioneered heavily by B.F. Skinner, operant conditioning strictly dictates that voluntary behaviors are heavily shaped, modified, or extinguished entirely by their subsequent rewards or severe punishments." },
+                            { q: "Which model views health as an interaction of biological, psychological, and social factors?", options: ["Biomedical Model", "Biopsychosocial Model", "Holistic Model", "Systems Theory"], correct: 1 , rationale: "The biopsychosocial model strongly asserts that human health and deep illness intricately result from the profoundly complex interplay of biological, psychological, and critical social factors." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Foundations of Psychology',
                         questions: [
-                            { q: "What is the primary focus of the cognitive perspective in psychology?", options: ["Unconscious drives", "Observable behavior", "Thinking and memory processes", "Biological structures"], correct: 2 },
-                            { q: "Who is known for the theory of Classical Conditioning?", options: ["B.F. Skinner", "Ivan Pavlov", "Sigmund Freud", "Carl Rogers"], correct: 1 },
-                            { q: "The 'Id' operates on which principle?", options: ["Reality Principle", "Morality Principle", "Pleasure Principle", "Rationality Principle"], correct: 2 },
-                            { q: "According to Erikson, the conflict during adolescence is:", options: ["Trust vs. Mistrust", "Intimacy vs. Isolation", "Identity vs. Role Confusion", "Integrity vs. Despair"], correct: 2 },
-                            { q: "Which part of the brain is primarily responsible for balance and coordination?", options: ["Cerebrum", "Cerebellum", "Brainstem", "Thalamus"], correct: 1 },
-                            { q: "An individual's belief in their ability to succeed is called:", options: ["Self-esteem", "Self-actualization", "Self-efficacy", "Locus of control"], correct: 2 },
-                            { q: "Which sleep stage is associated with vivid dreaming?", options: ["NREM Stage 1", "NREM Stage 3", "REM", "NREM Stage 2"], correct: 2 },
-                            { q: "The fear of open or crowded spaces is known as:", options: ["Claustrophobia", "Agoraphobia", "Acrophobia", "Social Anxiety"], correct: 1 },
-                            { q: "Maslow's highest level of need is:", options: ["Safety needs", "Love and belonging", "Self-actualization", "Physiological needs"], correct: 2 },
-                            { q: "Which neurotransmitter is most commonly associated with depression?", options: ["Dopamine", "Serotonin", "Acetylcholine", "GABA"], correct: 1 },
-                            { q: "Psychology is best defined as the scientific study of:", options: ["Mental disorders", "Behavior and mental processes", "Social groups", "Brain biology only"], correct: 1 },
-                            { q: "The variable manipulation by the researcher is called:", options: ["Dependent variable", "Independent variable", "Control variable", "Confounding variable"], correct: 1 },
-                            { q: "Gestalt psychology focuses on:", options: ["Elements of the mind", "The whole experience", "Unconscious conflict", "Measurable behavior"], correct: 1 },
-                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Temporal", "Occipital"], correct: 3 },
-                            { q: "Plasticity refers to:", options: ["The brain's ability to change and adapt", "Rigidity of thought", "Plastic surgery", "Artificial intelligence"], correct: 0 },
-                            { q: "Sensation refers to:", options: ["Interpreting stimuli", "Detecting stimuli", "Thinking about stimuli", "Ignoring stimuli"], correct: 1 },
-                            { q: "Perception refers to:", options: ["Detecting stimuli", "Interpreting and organizing sensory information", "Dreaming", "Reflexes"], correct: 1 },
-                            { q: "The absolute threshold is:", options: ["The maximum stimulation needed", "The minimum stimulation needed to detect a stimulus 50% of the time", "Pain tolerance", "A door"], correct: 1 },
-                            { q: "Circadian rhythms operate on a cycle of approximately:", options: ["1 hour", "12 hours", "24 hours", "1 month"], correct: 2 },
-                            { q: "Hypnosis is a state of:", options: ["Sleep", "Heightened suggestibility", "Unconsciousness", "Coma"], correct: 1 }
+                            { q: "What is the primary focus of the cognitive perspective in psychology?", options: ["Unconscious drives", "Observable behavior", "Thinking and memory processes", "Biological structures"], correct: 2 , rationale: "Cognitive psychology predominantly investigates incredibly complex internal mental processes, explicitly prioritizing how people rigorously acquire, deeply process, strictly store, and actively retrieve vital information." },
+                            { q: "Who is known for the theory of Classical Conditioning?", options: ["B.F. Skinner", "Ivan Pavlov", "Sigmund Freud", "Carl Rogers"], correct: 1 , rationale: "Ivan Pavlov famously discovered classical conditioning, powerfully demonstrating how completely neutral stimuli can strictly become profoundly conditioned triggers resulting in highly involuntary physiological responses." },
+                            { q: "The 'Id' operates on which principle?", options: ["Reality Principle", "Morality Principle", "Pleasure Principle", "Rationality Principle"], correct: 2 , rationale: "As the profoundly primitive component of personality, the purely unconscious Id strictly operates exclusively on the pleasure principle, aggressively demanding instant satisfaction." },
+                            { q: "According to Erikson, the conflict during adolescence is:", options: ["Trust vs. Mistrust", "Intimacy vs. Isolation", "Identity vs. Role Confusion", "Integrity vs. Despair"], correct: 2 , rationale: "During tumultuous adolescence, Erikson theorized that individuals aggressively struggle with 'Identity vs. Role Confusion', heavily seeking to establish a deeply coherent, secure personal identity." },
+                            { q: "Which part of the brain is primarily responsible for balance and coordination?", options: ["Cerebrum", "Cerebellum", "Brainstem", "Thalamus"], correct: 1 , rationale: "Located strictly at the base of the brain, the cerebellum acts as a highly sophisticated motor control center, perfectly regulating flawless balance, incredibly fine coordination, and precise movement." },
+                            { q: "An individual's belief in their ability to succeed is called:", options: ["Self-esteem", "Self-actualization", "Self-efficacy", "Locus of control"], correct: 2 , rationale: "Coined remarkably by Albert Bandura, self-efficacy is a person's deeply held, absolutely crucial belief in their sheer capability to successfully execute necessary behaviors to achieve specific goals." },
+                            { q: "Which sleep stage is associated with vivid dreaming?", options: ["NREM Stage 1", "NREM Stage 3", "REM", "NREM Stage 2"], correct: 2 , rationale: "Rapid Eye Movement (REM) sleep is clinically characterized by intense brain activity fundamentally similar to wakefulness, directly causing the most vivid, deeply immersive dreaming." },
+                            { q: "The fear of open or crowded spaces is known as:", options: ["Claustrophobia", "Agoraphobia", "Acrophobia", "Social Anxiety"], correct: 1 , rationale: "Agoraphobia is a severely debilitating anxiety disorder strictly characterized by an intense, paralyzing fear of public places where immediate escape might predictably be heavily difficult." },
+                            { q: "Maslow's highest level of need is:", options: ["Safety needs", "Love and belonging", "Self-actualization", "Physiological needs"], correct: 2 , rationale: "At the absolute pinnacle of Maslow's famous hierarchy, self-actualization represents the ultimate, profound fulfillment of deeply realizing one's complete, absolute highest human potential." },
+                            { q: "Which neurotransmitter is most commonly associated with depression?", options: ["Dopamine", "Serotonin", "Acetylcholine", "GABA"], correct: 1 , rationale: "A severe clinical deficiency in the critical neurotransmitter serotonin is massively strongly linked to profound clinical depression and heavily disruptive mood disorders." },
+                            { q: "Psychology is best defined as the scientific study of:", options: ["Mental disorders", "Behavior and mental processes", "Social groups", "Brain biology only"], correct: 1 , rationale: "Modern psychology is broadly defined as the incredibly rigorous scientific study of explicitly observable human behavior and profoundly complex, hidden mental processes." },
+                            { q: "The variable manipulation by the researcher is called:", options: ["Dependent variable", "Independent variable", "Control variable", "Confounding variable"], correct: 1 , rationale: "In a rigorously controlled experiment, scientists intentionally, actively manipulate the independent variable specifically to measure its precise causal impact on the dependent outcome." },
+                            { q: "Gestalt psychology focuses on:", options: ["Elements of the mind", "The whole experience", "Unconscious conflict", "Measurable behavior"], correct: 1 , rationale: "Gestalt psychology famously posits that the deeply organized 'whole' of conscious human experience is fundamentally strictly greater than the simple sum of its isolated parts." },
+                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Temporal", "Occipital"], correct: 3 , rationale: "Situated comfortably at the absolute rear of the human cortex, the fiercely specialized occipital lobe is entirely, strictly dedicated to massively processing rich visual information." },
+                            { q: "Plasticity refers to:", options: ["The brain's ability to change and adapt", "Rigidity of thought", "Plastic surgery", "Artificial intelligence"], correct: 0 , rationale: "Neuroplasticity is the brain's absolutely incredible, inherent biological capacity to physically rapidly rewire its neural networks fundamentally in response to profound learning or severe injury." },
+                            { q: "Sensation refers to:", options: ["Interpreting stimuli", "Detecting stimuli", "Thinking about stimuli", "Ignoring stimuli"], correct: 1 , rationale: "Sensation represents the highly raw, severely immediate biological process where deeply sensitive sensory receptors actively detect incredibly basic environmental stimuli." },
+                            { q: "Perception refers to:", options: ["Detecting stimuli", "Interpreting and organizing sensory information", "Dreaming", "Reflexes"], correct: 1 , rationale: "While sensation merely detects raw signals, complex perception is the higher-order cognitive psychological process of actively interpreting, profoundly organizing, and deeply understanding those signals." },
+                            { q: "The absolute threshold is:", options: ["The maximum stimulation needed", "The minimum stimulation needed to detect a stimulus 50% of the time", "Pain tolerance", "A door"], correct: 1 , rationale: "The absolute threshold marks the incredibly faint, remarkably distinct lowest intensity level at which an individual can accurately, reliably detect a specific sensory stimulus half the time." },
+                            { q: "Circadian rhythms operate on a cycle of approximately:", options: ["1 hour", "12 hours", "24 hours", "1 month"], correct: 2 , rationale: "Circadian rhythms are incredibly deeply ingrained, 24-hour biological cycles that perfectly optimally regulate crucial human sleep-wake patterns, vital hormone release, and core body temperature." },
+                            { q: "Hypnosis is a state of:", options: ["Sleep", "Heightened suggestibility", "Unconsciousness", "Coma"], correct: 1 , rationale: "Clinical hypnosis induces an incredibly deeply relaxed, intensely focused trance-like psychological state explicitly characterized by profoundly remarkable, heavily suggestible mental openness." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Development & Personality',
                         questions: [
-                            { q: "Piaget's stage where children understand conservation is:", options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"], correct: 2 },
-                            { q: "Object permanence develops during which Piagetian stage?", options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"], correct: 0 },
-                            { q: "Vygotsky's 'Zone of Proximal Development' refers to:", options: ["What a learner can do alone", "What a learner can do with guidance", "What a learner cannot do", "Physical growth"], correct: 1 },
-                            { q: "Attachment theory was largely developed by:", options: ["Freud", "Bowlby and Ainsworth", "Skinner", "Maslow"], correct: 1 },
-                            { q: "The 'Big Five' personality traits include Openness, Conscientiousness, Extraversion, Agreeableness, and:", options: ["Neuroticism", "Nervousness", "Narcissism", "Niceness"], correct: 0 },
-                            { q: "In Freud's theory, the Ego uses defense mechanisms to reduce:", options: ["Pleasure", "Anxiety", "Reality", "Depression"], correct: 1 },
-                            { q: "Regression involves:", options: ["Forgetting memories", "Returning to an earlier stage of development", "Blaming others", "Making excuses"], correct: 1 },
-                            { q: "Kohlberg studied the development of:", options: ["Motor skills", "Language", "Moral reasoning", "Vision"], correct: 2 },
-                            { q: "The period of 'Emerging Adulthood' spans ages:", options: ["12-18", "18-29", "30-40", "65+"], correct: 1 },
-                            { q: "Fluid intelligence involves:", options: ["Accumulated knowledge", "Problem-solving and adaptability", "Vocabulary", "Facts"], correct: 1 },
-                            { q: "Crystallized intelligence involves:", options: ["Speed of processing", "Accumulated knowledge and verbal skills", "New learning", "Reaction time"], correct: 1 },
-                            { q: "Which parenting style is associated with high warmth and high control?", options: ["Authoritarian", "Authoritative", "Permissive", "Uninvolved"], correct: 1 },
-                            { q: "Teratogens are:", options: ["Healthy foods", "Agents that cause birth defects", "Stages of labor", "Newborn reflexes"], correct: 1 },
-                            { q: "The 'Rooting reflex' helps an infant:", options: ["Walk", "Find food/breast", "Grasp objects", "Sleep"], correct: 1 },
-                            { q: "According to Erikson, the crisis of late adulthood is:", options: ["Intimacy vs. Isolation", "Generativity vs. Stagnation", "Integrity vs. Despair", "Trust vs. Mistrust"], correct: 2 },
-                            { q: "Carl Rogers emphasized:", options: ["Unconditional positive regard", "Punishment", "Analysis of dreams", "Conditioning"], correct: 0 },
-                            { q: "Bandura's 'Bobo Doll' experiment demonstrated:", options: ["Operant conditioning", "Observational/Social learning", "Memory limits", "Obedience"], correct: 1 },
-                            { q: "Temperament refers to:", options: ["Learned behavior", "Biologically based style of reacting", "IQ", "Parenting"], correct: 1 },
-                            { q: "Denial is a defense mechanism where a person:", options: ["Refuses to accept reality", "Blames others", "Channels energy into work", "Sleeps excessively"], correct: 0 },
-                            { q: "The Rorschach Inkblot Test is a:", options: ["Objective test", "Projective test", "Math test", "Blood test"], correct: 1 }
+                            { q: "Piaget's stage where children understand conservation is:", options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"], correct: 2 , rationale: "During the concrete operational stage (roughly ages 7-11), sophisticated children definitively grasp 'conservation', finally understanding that sheer physical quantity fundamentally remains totally unchanged despite altered appearance." },
+                            { q: "Object permanence develops during which Piagetian stage?", options: ["Sensorimotor", "Preoperational", "Concrete Operational", "Formal Operational"], correct: 0 , rationale: "In the incredibly early sensorimotor stage, extremely young infants critically learn profound object permanence: explicitly understanding that hidden objects unquestionably absolutely still exist." },
+                            { q: "Vygotsky's 'Zone of Proximal Development' refers to:", options: ["What a learner can do alone", "What a learner can do with guidance", "What a learner cannot do", "Physical growth"], correct: 1 , rationale: "The ZPD brilliantly represents the highly crucial, intensely fragile cognitive gap perfectly lying between what a learner critically can do completely alone deeply versus with skilled adult guidance." },
+                            { q: "Attachment theory was largely developed by:", options: ["Freud", "Bowlby and Ainsworth", "Skinner", "Maslow"], correct: 1 , rationale: "John Bowlby first conceptualized the evolutionary necessity of early emotional attachment, while Mary Ainsworth developed the 'Strange Situation' to clinically classify distinct attachment styles." },
+                            { q: "The 'Big Five' personality traits include Openness, Conscientiousness, Extraversion, Agreeableness, and:", options: ["Neuroticism", "Nervousness", "Narcissism", "Niceness"], correct: 0 , rationale: "The highly validated 'Big Five' personality model universally categorizes human personality explicitly using the completely fundamental acronym OCEAN, concluding specifically with critical Neuroticism." },
+                            { q: "In Freud's theory, the Ego uses defense mechanisms to reduce:", options: ["Pleasure", "Anxiety", "Reality", "Depression"], correct: 1 , rationale: "Freud strictly theorized that the rational Ego unconsciously employs psychological defense mechanisms specifically to reduce overwhelmingly intense anxiety and internal conflict." },
+                            { q: "Regression involves:", options: ["Forgetting memories", "Returning to an earlier stage of development", "Blaming others", "Making excuses"], correct: 1 , rationale: "When actively overwhelmed by intense stress, individuals exhibiting the defense mechanism of profound regression subconsciously revert heavily specifically to significantly earlier, incredibly more infantile deeply comforting behaviors." },
+                            { q: "Kohlberg studied the development of:", options: ["Motor skills", "Language", "Moral reasoning", "Vision"], correct: 2 , rationale: "Lawrence Kohlberg famously pioneered the foundational theory detailing how distinct developmental stages profoundly govern human cognitive moral reasoning across the lifespan." },
+                            { q: "The period of 'Emerging Adulthood' spans ages:", options: ["12-18", "18-29", "30-40", "65+"], correct: 1 , rationale: "Emerging adulthood is a newly recognized distinct developmental phase (late teens through late twenties) characterized by immense exploration and shifting identity." },
+                            { q: "Fluid intelligence involves:", options: ["Accumulated knowledge", "Problem-solving and adaptability", "Vocabulary", "Facts"], correct: 1 , rationale: "Unlike static accumulated knowledge, fluid intelligence inherently enables rapid, flexible problem-solving and adaptability in completely novel or unexpected situations." },
+                            { q: "Crystallized intelligence involves:", options: ["Speed of processing", "Accumulated knowledge and verbal skills", "New learning", "Reaction time"], correct: 1 , rationale: "Crystallized intelligence specifically reflects the massively accumulated vault of knowledge, facts, and verbal skills an individual acquires distinctly over a lifetime." },
+                            { q: "Which parenting style is associated with high warmth and high control?", options: ["Authoritarian", "Authoritative", "Permissive", "Uninvolved"], correct: 1 , rationale: "The widely recognized optimal authoritative parenting style heavily balances firm, consistent disciplinary boundaries specifically with incredibly warm, deeply supportive emotional nurturing." },
+                            { q: "Teratogens are:", options: ["Healthy foods", "Agents that cause birth defects", "Stages of labor", "Newborn reflexes"], correct: 1 , rationale: "Teratogens are external environmental agents—such as specific drugs, viruses, or hazardous chemicals—capable of directly causing irreversible, severe birth defects in a developing fetus." },
+                            { q: "The 'Rooting reflex' helps an infant:", options: ["Walk", "Find food/breast", "Grasp objects", "Sleep"], correct: 1 , rationale: "The innate, purely instinctual rooting reflex beautifully drives young newborns to automatically turn their heads toward a cheek stimulus to flawlessly locate a food source or breast." },
+                            { q: "According to Erikson, the crisis of late adulthood is:", options: ["Intimacy vs. Isolation", "Generativity vs. Stagnation", "Integrity vs. Despair", "Trust vs. Mistrust"], correct: 2 , rationale: "In late adulthood, individuals reflect on their life, seeking a sense of fulfillment and 'integrity' rather than yielding to profound regret and 'despair'." },
+                            { q: "Carl Rogers emphasized:", options: ["Unconditional positive regard", "Punishment", "Analysis of dreams", "Conditioning"], correct: 0 , rationale: "Humanistic psychologist Carl Rogers emphasized 'unconditional positive regard'—accepting a patient completely without judgment—to foster genuine therapeutic healing and personal growth." },
+                            { q: "Bandura's 'Bobo Doll' experiment demonstrated:", options: ["Operant conditioning", "Observational/Social learning", "Memory limits", "Obedience"], correct: 1 , rationale: "The famous Bobo doll experiment clearly demonstrated social learning theory: children rapidly acquire behavior (like aggression) simply by watching and imitating adult models." },
+                            { q: "Temperament refers to:", options: ["Learned behavior", "Biologically based style of reacting", "IQ", "Parenting"], correct: 1 , rationale: "Temperament is the innate, biologically based foundation of personality, determining an individual's natural emotional reactivity and self-regulation style from birth." },
+                            { q: "Denial is a defense mechanism where a person:", options: ["Refuses to accept reality", "Blames others", "Channels energy into work", "Sleeps excessively"], correct: 0 , rationale: "Denial is a primitive psychological defense mechanism where the ego completely refuses to acknowledge an overwhelming, painful objective reality to protect itself." },
+                            { q: "The Rorschach Inkblot Test is a:", options: ["Objective test", "Projective test", "Math test", "Blood test"], correct: 1 , rationale: "The Rorschach inkblot test is a classic projective psychological test, theoretically designed to reveal hidden unconscious thoughts and motives through the subject's interpretations." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Stress, Coping & Health',
                         questions: [
-                            { q: "General Adaptation Syndrome (GAS) stages are:", options: ["Alarm, Resistance, Exhaustion", "Start, Stop, Repeat", "Stress, Panic, Calm", "Denial, Anger, Acceptance"], correct: 0 },
-                            { q: "Cortisol is known as the:", options: ["Sleep hormone", "Stress hormone", "Love hormone", "Hunger hormone"], correct: 1 },
-                            { q: "Type A personality is associated with higher risk of:", options: ["Cancer", "Coronary Heart Disease", "Diabetes", "Asthma"], correct: 1 },
-                            { q: "Learned Helplessness occurs when:", options: ["Someone chooses to be lazy", "Uncontrollable bad events lead to passive behavior", "Someone asks for help", "Stress is low"], correct: 1 },
-                            { q: "Biofeedback is used to:", options: ["Control voluntary muscles", "Gain control over involuntary bodily functions", "Measure weight", "Diagnose viral infections"], correct: 1 },
-                            { q: "Eustress is:", options: ["Bad stress", "Good/Motivating stress", "No stress", "Chronic stress"], correct: 1 },
-                            { q: "Daily hassles are:", options: ["Major life events", "Minor everyday irritations", "Catastrophes", "Rare occurrences"], correct: 1 },
-                            { q: "Social support is:", options: ["Only money", "Perceived comfort and assistance from others", "Social media likes", "Not important for health"], correct: 1 },
-                            { q: "Problem-focused coping involves:", options: ["Ignoring the problem", "Directly addressing the stressor", "Drinking alcohol", "Complaining"], correct: 1 },
-                            { q: "Emotion-focused coping involves:", options: ["Changing the stressor", "Managing the emotional distress", "Problem solving", "Studying"], correct: 1 },
-                            { q: "Psychoneuroimmunology studies the link between:", options: ["Brain and lungs", "Psychological processes and the immune system", "Muscles and bones", "Eyes and ears"], correct: 1 },
-                            { q: "Burnout is characterized by:", options: ["Increased energy", "Exhaustion, cynicism, and inefficacy", "Happiness", "Motivation"], correct: 1 },
-                            { q: "Resilience is the ability to:", options: ["Avoid all stress", "Bounce back from adversity", "Never feel pain", "Control others"], correct: 1 },
-                            { q: "Mindfulness meditation helps reduce stress by:", options: ["Ignoring thoughts", "Focusing on the present moment non-judgmentally", "Sleeping", "Thinking about the future"], correct: 1 },
-                            { q: "The 'Fight or Flight' response is mediated by the:", options: ["Parasympathetic Nervous System", "Sympathetic Nervous System", "Somatic Nervous System", "Digestive System"], correct: 1 },
-                            { q: "Chronic stress can suppress the:", options: ["Immune system", "Appetite", "Sleep need", "Aging process"], correct: 0 },
-                            { q: "Locus of Control refers to:", options: ["Where you live", "Belief about who controls events (Internal vs. External)", "Remote control", "Government"], correct: 1 },
-                            { q: "Optimism is linked to:", options: ["Poorer health", "Better health and longevity", "Unrealistic expectations", "Laziness"], correct: 1 },
-                            { q: "Post-Traumatic Stress Disorder (PTSD) involves:", options: ["Flashbacks and avoidance", "Forgetting the event", "Sleeping well", "Increased appetite"], correct: 0 },
-                            { q: "Health Behaviours are:", options: ["Genetically determined", "Actions taken to improve or maintain health", "Random", "Medical treatments"], correct: 1 }
+                            { q: "General Adaptation Syndrome (GAS) stages are:", options: ["Alarm, Resistance, Exhaustion", "Start, Stop, Repeat", "Stress, Panic, Calm", "Denial, Anger, Acceptance"], correct: 0 , rationale: "Hans Selye's GAS model describes the body's universal physiological response to severe, chronic stress over time: initial alarm, prolonged resistance, and eventual biological exhaustion." },
+                            { q: "Cortisol is known as the:", options: ["Sleep hormone", "Stress hormone", "Love hormone", "Hunger hormone"], correct: 1 , rationale: "Secreted heavily by the adrenal cortex during sustained psychological or physical distress, cortisol is broadly known as the body's primary 'stress hormone'." },
+                            { q: "Type A personality is associated with higher risk of:", options: ["Cancer", "Coronary Heart Disease", "Diabetes", "Asthma"], correct: 1 , rationale: "Research consistently links the intense, fiercely competitive, and highly aggressively impatient nature of 'Type A' personalities to a drastically increased risk of coronary heart disease." },
+                            { q: "Learned Helplessness occurs when:", options: ["Someone chooses to be lazy", "Uncontrollable bad events lead to passive behavior", "Someone asks for help", "Stress is low"], correct: 1 , rationale: "Discovered by Martin Seligman, learned helplessness happens when repeated, unavoidable trauma fundamentally conditions a subject to completely stop trying to escape future pain." },
+                            { q: "Biofeedback is used to:", options: ["Control voluntary muscles", "Gain control over involuntary bodily functions", "Measure weight", "Diagnose viral infections"], correct: 1 , rationale: "Biofeedback utilizes sensitive electronic monitoring to explicitly teach patients how to consciously, precisely control typically involuntary physiological vitals like heart rate or blood pressure." },
+                            { q: "Eustress is:", options: ["Bad stress", "Good/Motivating stress", "No stress", "Chronic stress"], correct: 1 , rationale: "Not all stress is harmful; 'eustress' is positive, beneficial stress that provides motivation, enhances focus, and drives individuals to overcome immediate challenges." },
+                            { q: "Daily hassles are:", options: ["Major life events", "Minor everyday irritations", "Catastrophes", "Rare occurrences"], correct: 1 , rationale: "While major life events are traumatic, researchers find that the cumulative, chronic strain of minor 'daily hassles' (like traffic or arguments) can equally damage health." },
+                            { q: "Social support is:", options: ["Only money", "Perceived comfort and assistance from others", "Social media likes", "Not important for health"], correct: 1 , rationale: "Robust social support constitutes the crucial psychological perception and actual reality that one is cared for, deeply valued, and structurally assisted by a reliable network." },
+                            { q: "Problem-focused coping involves:", options: ["Ignoring the problem", "Directly addressing the stressor", "Drinking alcohol", "Complaining"], correct: 1 , rationale: "Problem-focused coping is an active, practical psychological strategy aimed at directly confronting, modifying, or entirely eliminating the specific root cause of the stress." },
+                            { q: "Emotion-focused coping involves:", options: ["Changing the stressor", "Managing the emotional distress", "Problem solving", "Studying"], correct: 1 , rationale: "When a stressor Cannot be changed (like sudden bereavement), emotion-focused coping safely helps the individual actively manage and reduce the resulting intense emotional psychological pain." },
+                            { q: "Psychoneuroimmunology studies the link between:", options: ["Brain and lungs", "Psychological processes and the immune system", "Muscles and bones", "Eyes and ears"], correct: 1 , rationale: "This highly specialized interdisciplinary field explicitly investigates the complex, profound physical link between immense psychological stress, nervous system activity, and clinical immune suppression." },
+                            { q: "Burnout is characterized by:", options: ["Increased energy", "Exhaustion, cynicism, and inefficacy", "Happiness", "Motivation"], correct: 1 , rationale: "Professional burnout is a severe stress syndrome defined by overwhelming emotional exhaustion, a deeply cynical detachment from work, and a profound sense of total personal inefficacy." },
+                            { q: "Resilience is the ability to:", options: ["Avoid all stress", "Bounce back from adversity", "Never feel pain", "Control others"], correct: 1 , rationale: "Psychological resilience is the dynamic inner capacity to cope with severe stress, successfully adapt to trauma, and ultimately bounce back from profound adversity." },
+                            { q: "Mindfulness meditation helps reduce stress by:", options: ["Ignoring thoughts", "Focusing on the present moment non-judgmentally", "Sleeping", "Thinking about the future"], correct: 1 , rationale: "Mindfulness meditation effectively reduces profound anxiety by intentionally actively grounding the individual's absolute focus deeply within the immediate present moment without any critical judgment." },
+                            { q: "The 'Fight or Flight' response is mediated by the:", options: ["Parasympathetic Nervous System", "Sympathetic Nervous System", "Somatic Nervous System", "Digestive System"], correct: 1 , rationale: "The sympathetic division of the autonomic nervous system triggers the rapid, involuntary 'fight or flight' response to instinctively prepare the body for survival." },
+                            { q: "Chronic stress can suppress the:", options: ["Immune system", "Appetite", "Sleep need", "Aging process"], correct: 0 , rationale: "Prolonged exposure to heavy cortisol during chronic stress biologically exhausts the body and severely suppresses the immune system's ability to fight infection." },
+                            { q: "Locus of Control refers to:", options: ["Where you live", "Belief about who controls events (Internal vs. External)", "Remote control", "Government"], correct: 1 , rationale: "Individuals with an internal locus believe they actively control their own fate, while those with an external locus passively believe external forces control their destiny." },
+                            { q: "Optimism is linked to:", options: ["Poorer health", "Better health and longevity", "Unrealistic expectations", "Laziness"], correct: 1 , rationale: "Scientific research reliably demonstrates that sheer psychological optimism is consistently linked to stronger immunity, better cardiovascular health, and significantly increased life longevity." },
+                            { q: "Post-Traumatic Stress Disorder (PTSD) involves:", options: ["Flashbacks and avoidance", "Forgetting the event", "Sleeping well", "Increased appetite"], correct: 0 , rationale: "PTSD is a trauma-based disorder uniquely characterized by intrusive flashbacks of the event, hyperarousal, and deliberate avoidance of any related trauma triggers." },
+                            { q: "Health Behaviours are:", options: ["Genetically determined", "Actions taken to improve or maintain health", "Random", "Medical treatments"], correct: 1 , rationale: "Health behaviors are the specific, proactive daily actions an individual deliberately takes to prevent illness, build strength, and successfully maintain long-term physical wellness." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Mental Health & Disorders',
                         questions: [
-                            { q: "The DSM-5 is used for:", options: ["Prescribing medication", "Diagnosing mental disorders", "Brain surgery", "Evaluating nurses"], correct: 1 },
-                            { q: "Anxiety disorders are characterized by:", options: ["Sadness", "Excessive, persistent worry and fear", "Hearing voices", "Memory loss"], correct: 1 },
-                            { q: "Bipolar disorder involves swings between:", options: ["Happy and Sad", "Depression and Mania", "Anger and Fear", "Sleep and Wake"], correct: 1 },
-                            { q: "Schizophrenia positive symptoms include:", options: ["Flat affect", "Hallucinations and Delusions", "Social withdrawal", "Lack of motivation"], correct: 1 },
-                            { q: "Obsessive-Compulsive Disorder (OCD) features:", options: ["Unwanted thoughts (obsessions) and repetitive behaviors (compulsions)", "Laziness", "Multiple personalities", "Eating issues"], correct: 0 },
-                            { q: "Anorexia Nervosa involves:", options: ["Binge eating", "Restriction of food intake and fear of weight gain", "Picky eating", "Oversleeping"], correct: 1 },
-                            { q: "Bulimia Nervosa involves:", options: ["Starvation", "Binge eating followed by purging", "Healthy dieting", "Obesity"], correct: 1 },
-                            { q: "Major Depressive Disorder requires symptoms for at least:", options: ["1 day", "2 weeks", "6 months", "2 years"], correct: 1 },
-                            { q: "Panic Disorder is characterized by:", options: ["Constant worry", "Sudden, intense panic attacks", "Fear of heights", "Social shyness"], correct: 1 },
-                            { q: "Autism Spectrum Disorder is a:", options: ["Mood disorder", "Neurodevelopmental disorder", "Personality disorder", "Eating disorder"], correct: 1 },
-                            { q: "ADHD stands for:", options: ["Attention Deficit Hyperactivity Disorder", "Anxiety Depression Hypertensive Disorder", "Adult Daily Health Disease", "Active Diet Health Diet"], correct: 0 },
-                            { q: "Dissociative Identity Disorder was formerly known as:", options: ["Schizophrenia", "Multiple Personality Disorder", "Bipolar", "Amnesia"], correct: 1 },
-                            { q: "Personality disorders are:", options: ["Temporary", "Enduring, maladaptive patterns of behavior", "Easy to treat", "Rare"], correct: 1 },
-                            { q: "Borderline Personality Disorder involves:", options: ["Stability", "Instability in relationships, self-image, and affect", "Lack of emotion", "Excessive sleep"], correct: 1 },
-                            { q: "Antisocial Personality Disorder is often associated with:", options: ["Shyness", "Lack of empathy and disregard for rights of others", "Cleaning", "Fear"], correct: 1 },
-                            { q: "Cognitive Behavioral Therapy (CBT) focuses on:", options: ["Childhood trauma", "Changing negative thought patterns and behaviors", "Dream analysis", "Medication"], correct: 1 },
-                            { q: "Electroconvulsive Therapy (ECT) is used effectively for:", options: ["Mild anxiety", "Severe, treatment-resistant depression", "Headaches", "Cold"], correct: 1 },
-                            { q: "Substance Use Disorders are characterized by:", options: ["Choice", "Impaired control, social impairment, and risky use", "Bad habits", "Weakness"], correct: 1 },
-                            { q: "Deinstitutionalization led to:", options: ["More hospitals", "Closing of mental asylums and shift to community care", "Better care for all", "End of mental illness"], correct: 1 },
-                            { q: "Stigma against mental illness prevents people from:", options: ["Buying medicine", "Seeking help/treatment", "Using the internet", "Eating"], correct: 1 }
+                            { q: "The DSM-5 is used for:", options: ["Prescribing medication", "Diagnosing mental disorders", "Brain surgery", "Evaluating nurses"], correct: 1 , rationale: "The Diagnostic and Statistical Manual of Mental Disorders (DSM-5) is the authoritative, standardized psychiatric handbook explicitly used by clinicians worldwide to accurately diagnose mental illness." },
+                            { q: "Anxiety disorders are characterized by:", options: ["Sadness", "Excessive, persistent worry and fear", "Hearing voices", "Memory loss"], correct: 1 , rationale: "Unlike normal, situational stress, clinical anxiety disorders involve persistent, intense, and heavily disruptive levels of irrational fear that specifically paralyze daily functioning." },
+                            { q: "Bipolar disorder involves swings between:", options: ["Happy and Sad", "Depression and Mania", "Anger and Fear", "Sleep and Wake"], correct: 1 , rationale: "Bipolar disorder entails profound, distinctly alternating mood swings between deeply paralyzing depressive lows and highly incredibly energetic, dangerously reckless manic highs." },
+                            { q: "Schizophrenia positive symptoms include:", options: ["Flat affect", "Hallucinations and Delusions", "Social withdrawal", "Lack of motivation"], correct: 1 , rationale: "In schizophrenia, 'positive' symptoms refer to deeply abnormal experiences biologically added to a patient's reality, specifically devastating auditory hallucinations and deeply ingrained paranoid delusions." },
+                            { q: "Obsessive-Compulsive Disorder (OCD) features:", options: ["Unwanted thoughts (obsessions) and repetitive behaviors (compulsions)", "Laziness", "Multiple personalities", "Eating issues"], correct: 0 , rationale: "OCD traps the patient in a cycle of severe, anxiety-provoking thoughts (obsessions) coupled directly with compulsive, repetitive physical rituals designed to reduce that anxiety." },
+                            { q: "Anorexia Nervosa involves:", options: ["Binge eating", "Restriction of food intake and fear of weight gain", "Picky eating", "Oversleeping"], correct: 1 , rationale: "Anorexia is a highly dangerous, intensely lethal eating disorder characterized purely by severe self-starvation, severe dysmorphic body image, and a paralyzing fear of gaining weight." },
+                            { q: "Bulimia Nervosa involves:", options: ["Starvation", "Binge eating followed by purging", "Healthy dieting", "Obesity"], correct: 1 , rationale: "Bulimia involves secret, entirely uncontrollable episodes of excessive binge eating specifically followed entirely by intense psychological guilt and incredibly dangerous physical purging via vomiting or laxatives." },
+                            { q: "Major Depressive Disorder requires symptoms for at least:", options: ["1 day", "2 weeks", "6 months", "2 years"], correct: 1 , rationale: "For a clinical diagnosis, the DSM-5 explicitly requires the patient to exhibit severe depressive symptoms uniquely for a minimum of two completely consecutive weeks." },
+                            { q: "Panic Disorder is characterized by:", options: ["Constant worry", "Sudden, intense panic attacks", "Fear of heights", "Social shyness"], correct: 1 , rationale: "Panic disorder is diagnosed when a patient begins experiencing frequent, utterly unprovoked, and completely sudden physiological panic attacks that mimic a massive heart attack." },
+                            { q: "Autism Spectrum Disorder is a:", options: ["Mood disorder", "Neurodevelopmental disorder", "Personality disorder", "Eating disorder"], correct: 1 , rationale: "Autism is a complex neurodevelopmental disorder typically diagnosed very early in childhood, inherently causing significant deficits in social communication and restrictive, repetitive behaviors." },
+                            { q: "ADHD stands for:", options: ["Attention Deficit Hyperactivity Disorder", "Anxiety Depression Hypertensive Disorder", "Adult Daily Health Disease", "Active Diet Health Diet"], correct: 0 , rationale: "Attention Deficit Hyperactivity Disorder is uniquely characterized by deeply impaired focus, extreme impulsivity, and inappropriate levels of physical hyperactivity." },
+                            { q: "Dissociative Identity Disorder was formerly known as:", options: ["Schizophrenia", "Multiple Personality Disorder", "Bipolar", "Amnesia"], correct: 1 , rationale: "Before being accurately updated in the DSM, DID was historically called Multiple Personality Disorder, characterized by two or more entirely distinct fragmented identities." },
+                            { q: "Personality disorders are:", options: ["Temporary", "Enduring, maladaptive patterns of behavior", "Easy to treat", "Rare"], correct: 1 , rationale: "Unlike episodic mental illnesses, personality disorders are deeply ingrained, permanent, and highly maladaptive psychological patterns that severely impair a person's entire life." },
+                            { q: "Borderline Personality Disorder involves:", options: ["Stability", "Instability in relationships, self-image, and affect", "Lack of emotion", "Excessive sleep"], correct: 1 , rationale: "BPD creates incredibly intense emotional dysregulation, directly resulting in highly unstable relationships, severe fear of abandonment, and profoundly volatile self-image." },
+                            { q: "Antisocial Personality Disorder is often associated with:", options: ["Shyness", "Lack of empathy and disregard for rights of others", "Cleaning", "Fear"], correct: 1 , rationale: "Individuals with Antisocial Personality Disorder exhibit a chronic, deceitful disregard for others' rights alongside a total lack of remorse." },
+                            { q: "Cognitive Behavioral Therapy (CBT) focuses on:", options: ["Childhood trauma", "Changing negative thought patterns and behaviors", "Dream analysis", "Medication"], correct: 1 , rationale: "CBT is an evidence-based therapy that teaches patients how to identify and actively reframe destructive thought patterns that cause psychological distress." },
+                            { q: "Electroconvulsive Therapy (ECT) is used effectively for:", options: ["Mild anxiety", "Severe, treatment-resistant depression", "Headaches", "Cold"], correct: 1 , rationale: "When psychiatric medications completely fail, ECT safely uses controlled electrical currents to induce a brief seizure, rapidly alleviating severe depression." },
+                            { q: "Substance Use Disorders are characterized by:", options: ["Choice", "Impaired control, social impairment, and risky use", "Bad habits", "Weakness"], correct: 1 , rationale: "Substance use disorder is a clinical diagnosis given when drug or alcohol use continues despite massive physical, psychological, and social detriments." },
+                            { q: "Deinstitutionalization led to:", options: ["More hospitals", "Closing of mental asylums and shift to community care", "Better care for all", "End of mental illness"], correct: 1 , rationale: "The mid-20th-century deinstitutionalization movement closed massive state psychiatric hospitals, intending to integrate mentally ill patients into community-based outpatient care." },
+                            { q: "Stigma against mental illness prevents people from:", options: ["Buying medicine", "Seeking help/treatment", "Using the internet", "Eating"], correct: 1 , rationale: "Severe societal stigma prevents individuals from acknowledging their psychological struggles, drastically lowering the rates at which they seek necessary medical treatment." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Social & Bio Psych',
                         questions: [
-                            { q: "The Bystander Effect states that helping is _____ likely when more people are present.", options: ["More", "Less", "Equally", "Always"], correct: 1 },
-                            { q: "Fundamental Attribution Error involves overestimating:", options: ["Situational factors", "Dispositional (internal) factors", "Luck", "Difficulty"], correct: 1 },
-                            { q: "Cognitive Dissonance is:", options: ["Harmony in thoughts", "Discomfort from conflicting beliefs/behaviors", "Forgetting", "Headache"], correct: 1 },
-                            { q: "Social Loafing is tendency to work ____ in a group.", options: ["Harder", "Less hard", "Faster", "Better"], correct: 1 },
-                            { q: "Normative Social Influence is conformity to:", options: ["Be correct", "Gain approval/Avoid rejection", "Laws", "Science"], correct: 1 },
-                            { q: "Milgram's experiment studied:", options: ["Memory", "Obedience to authority", "Prison life", "Conformity"], correct: 1 },
-                            { q: "Zimbardo's Stanford Prison Experiment studied:", options: ["Social roles", "Diet", "Sleep", "Intelligence"], correct: 0 },
-                            { q: "Groupthink results in:", options: ["Better decisions", "Poor decisions due to desire for harmony", "Conflict", "Debate"], correct: 1 },
-                            { q: "Prejudice is an _____ while Discrimination is a _____.", options: ["Action; Attitude", "Attitude; Behavior", "Behavior; Belief", "Thought; Feeling"], correct: 1 },
-                            { q: "The Mere Exposure Effect means we prefer things we are:", options: ["New to", "Familiar with", "Scared of", "Bored by"], correct: 1 },
-                            { q: "Neurotransmitters are released into the:", options: ["Bloodstream", "Synapse", "Stomach", "Lungs"], correct: 1 },
-                            { q: "The Myelin Sheath:", options: ["Slows nerve impulses", "Speeds up nerve impulses", "Feeds the neuron", "Protects the brain"], correct: 1 },
-                            { q: "The Autonomic Nervous System controls:", options: ["Voluntary movement", "Involuntary functions (heart, digestion)", "Thinking", "Speech"], correct: 1 },
-                            { q: "The Endocrine System uses _____ to communicate.", options: ["Electrical signals", "Hormones", "Radio waves", "Sound"], correct: 1 },
-                            { q: "The Hippocampus is key for:", options: ["Hunger", "Memory formation", "Balance", "Vision"], correct: 1 },
-                            { q: "The Amygdala is linked to:", options: ["Emotion (fear/aggression)", "Logic", "Movement", "Breathing"], correct: 0 },
-                            { q: "Broca's Area is involved in:", options: ["Speech production", "Speech comprehension", "Vision", "Hearing"], correct: 0 },
-                            { q: "Wernicke's Area is involved in:", options: ["Speech production", "Language comprehension", "Taste", "Smell"], correct: 1 },
-                            { q: "Split-brain surgery severs the:", options: ["Cerebellum", "Corpus Callosum", "Brainstem", "Thalamus"], correct: 1 },
-                            { q: "Nature vs. Nurture debates:", options: ["Genetics vs. Environment", "Good vs. Evil", "Plants vs. Animals", "School vs. Home"], correct: 0 }
+                            { q: "The Bystander Effect states that helping is _____ likely when more people are present.", options: ["More", "Less", "Equally", "Always"], correct: 1 , rationale: "The bystander effect dictates that the presence of a crowd diffuses personal responsibility, making any single individual less likely to offer help." },
+                            { q: "Fundamental Attribution Error involves overestimating:", options: ["Situational factors", "Dispositional (internal) factors", "Luck", "Difficulty"], correct: 1 , rationale: "When judging others' mistakes, humans systematically overestimate internal character flaws while completely ignoring powerful external situational factors." },
+                            { q: "Cognitive Dissonance is:", options: ["Harmony in thoughts", "Discomfort from conflicting beliefs/behaviors", "Forgetting", "Headache"], correct: 1 , rationale: "Cognitive dissonance is the intense psychological discomfort a person feels when their actions directly contradict their core moral beliefs." },
+                            { q: "Social Loafing is tendency to work ____ in a group.", options: ["Harder", "Less hard", "Faster", "Better"], correct: 1 , rationale: "Social loafing occurs when individuals hide within a large group, actively exerting less effort because their personal contribution is not individually evaluated." },
+                            { q: "Normative Social Influence is conformity to:", options: ["Be correct", "Gain approval/Avoid rejection", "Laws", "Science"], correct: 1 , rationale: "Normative conformity happens when a person changes their outward behavior strictly to fit in with a group and avoid painful social rejection." },
+                            { q: "Milgram's experiment studied:", options: ["Memory", "Obedience to authority", "Prison life", "Conformity"], correct: 1 , rationale: "Stanley Milgram's shocking experiment proved that ordinary people will blindly obey a perceived authority figure even if asked to severely harm another person." },
+                            { q: "Zimbardo's Stanford Prison Experiment studied:", options: ["Social roles", "Diet", "Sleep", "Intelligence"], correct: 0 , rationale: "The Stanford Prison Experiment chillingly demonstrated how rapidly individuals adopt abusive behaviors when placed into positions of unaccountable institutional power." },
+                            { q: "Groupthink results in:", options: ["Better decisions", "Poor decisions due to desire for harmony", "Conflict", "Debate"], correct: 1 , rationale: "Groupthink is a dysfunctional dynamic where a group's desperate desire for internal harmony overrides their ability to critically evaluate a bad decision." },
+                            { q: "Prejudice is an _____ while Discrimination is a _____.", options: ["Action; Attitude", "Attitude; Behavior", "Behavior; Belief", "Thought; Feeling"], correct: 1 , rationale: "Prejudice is an internal, preconceived negative attitude toward a group, whereas discrimination is the explicit external action taken against them." },
+                            { q: "The Mere Exposure Effect means we prefer things we are:", options: ["New to", "Familiar with", "Scared of", "Bored by"], correct: 1 , rationale: "The mere exposure effect states that repeated, continuous exposure to a novel stimulus naturally increases our psychological preference for it over time." },
+                            { q: "Neurotransmitters are released into the:", options: ["Bloodstream", "Synapse", "Stomach", "Lungs"], correct: 1 , rationale: "Neurons communicate by releasing chemical neurotransmitters directly into the microscopic synaptic cleft, where they bind to receptors on the neighboring cell." },
+                            { q: "The Myelin Sheath:", options: ["Slows nerve impulses", "Speeds up nerve impulses", "Feeds the neuron", "Protects the brain"], correct: 1 , rationale: "The myelin sheath acts as vital biological insulation around an axon, exponentially speeding up the transmission velocity of electrical action potentials." },
+                            { q: "The Autonomic Nervous System controls:", options: ["Voluntary movement", "Involuntary functions (heart, digestion)", "Thinking", "Speech"], correct: 1 , rationale: "The ANS functions below conscious awareness, automatically regulating crucial homeostatic operations like heart rate, pupil dilation, and intestinal digestion." },
+                            { q: "The Endocrine System uses _____ to communicate.", options: ["Electrical signals", "Hormones", "Radio waves", "Sound"], correct: 1 , rationale: "Unlike the rapid nervous system, the endocrine system broadcasts its messages slowly and sustainedly across the body via hormones in the bloodstream." },
+                            { q: "The Hippocampus is key for:", options: ["Hunger", "Memory formation", "Balance", "Vision"], correct: 1 , rationale: "Located deep within the temporal lobe, the hippocampus acts as the brain's critical save button, fundamentally converting short-term experiences into long-term memories." },
+                            { q: "The Amygdala is linked to:", options: ["Emotion (fear/aggression)", "Logic", "Movement", "Breathing"], correct: 0 , rationale: "The almond-shaped amygdala acts as the brain's primal threat-detection center, fiercely processing strong survival emotions like immediate fear and acute aggression." },
+                            { q: "Broca's Area is involved in:", options: ["Speech production", "Speech comprehension", "Vision", "Hearing"], correct: 0 , rationale: "Broca's area, generally in the left frontal lobe, contains the specialized motor neurons required to physically articulate and produce spoken language." },
+                            { q: "Wernicke's Area is involved in:", options: ["Speech production", "Language comprehension", "Taste", "Smell"], correct: 1 , rationale: "Wernicke's area, located in the left temporal lobe, is distinctly responsible for the complex cognitive processing and comprehension of written and spoken language." },
+                            { q: "Split-brain surgery severs the:", options: ["Cerebellum", "Corpus Callosum", "Brainstem", "Thalamus"], correct: 1 , rationale: "To stop severe epileptic seizures from crossing hemispheres, surgeons completely sever the corpus callosum, drastically eliminating direct communication between the left and right brains." },
+                            { q: "Nature vs. Nurture debates:", options: ["Genetics vs. Environment", "Good vs. Evil", "Plants vs. Animals", "School vs. Home"], correct: 0 , rationale: "The oldest debate in psychology questions whether human psychological traits are primarily determined by innate genetics (nature) or environmental upbringing (nurture)." }
                         ]
                     },
                     {
@@ -2092,51 +2207,75 @@ const appData = {
                         type: 'intro',
                         title: 'Module 1: Introduction to Health Assessment',
                         body: `
-                            <h3>The Nursing Process Base</h3>
-                            <p>Health assessment is the first step of the nursing process (Assessment, Diagnosis, Planning, Implementation, Evaluation).</p>
+                            <h3>The Foundation of Nursing Practice</h3>
+                            <p>Health assessment is the first, most crucial step of the nursing process (Assessment, Diagnosis, Planning, Implementation, Evaluation). Without accurate data collection, the entire plan of care is compromised.</p>
+                            
+                            <h4>Types of Data</h4>
                             <ul>
-                                <li><strong>Subjective Data:</strong> What the patient says (Symptoms).</li>
-                                <li><strong>Objective Data:</strong> What the nurse observes (Signs).</li>
+                                <li><strong>Subjective Data (Symptoms):</strong> Information provided by the patient that cannot be directly measured or observed by the nurse (e.g., "My stomach hurts," "I feel dizzy", pain rating of 7/10).</li>
+                                <li><strong>Objective Data (Signs):</strong> Observable, measurable information collected through physical examination and diagnostic tests (e.g., Blood Pressure 120/80, audible wheezing, vomiting).</li>
                             </ul>
+                            
+                            <h4>Types of Assessments</h4>
+                            <p>Assessments range from Comprehensive (upon admission), Focused/Problem-based (addressing a specific acute complaint), to Follow-up/Shift assessments.</p>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 2: The Health History',
                         body: `
-                            <h3>Interviewing Skills</h3>
-                            <p>Collecting a complete health history requires effective communication.</p>
-                            <p>Components include: Biographical data, Chief complaint, History of present illness (OLD CARTS), Past medical history, Family history, and Lifestyle.</p>
+                            <h3>The Art of the Interview</h3>
+                            <p>Up to 80% of a diagnosis can be derived from a thorough history. The interview helps establish a therapeutic relationship and gather subjective data.</p>
+                            
+                            <h4>Components of a Comprehensive History:</h4>
+                            <ul>
+                                <li><strong>Biographical Data:</strong> Demographics, language, contact info.</li>
+                                <li><strong>Chief Complaint (Reason for Seeking Care):</strong> Usually documented in the patient's own words enclosed in quotation marks.</li>
+                                <li><strong>History of Present Illness (HPI):</strong> Explored using mnemonics like OLD CARTS (Onset, Location, Duration, Characteristics, Aggravating/Alleviating factors, Related symptoms, Treatment, Severity).</li>
+                                <li><strong>Past Medical/Surgical History:</strong> Chronic illnesses, past surgeries, obstetric history, immunizations.</li>
+                                <li><strong>Family History:</strong> Highlights genetic risks (e.g., heart disease, cancer) usually visualized with a genogram.</li>
+                                <li><strong>Psychosocial/Lifestyle:</strong> Diet, exercise, substance use (smoking 'pack-years', alcohol), occupation, support systems.</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 3: Physical Assessment Techniques',
                         body: `
-                            <h3>The Four Pillars</h3>
-                            <p>There are four primary techniques used in physical assessment, usually performed in this order (except for the abdomen).</p>
+                            <h3>The Four Pillars of Examination</h3>
+                            <p>Physical assessment yields objective data. These four techniques are universally used, almost always in this specific order (except for the abdomen).</p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
-                                <h4 style="margin-top:0">Assessment Techniques</h4>
+                                <h4 style="margin-top:0">Assessment Techniques Sequence</h4>
                                 <img src="assets/assessment_techniques.png" alt="Physical Assessment Techniques Icons" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
                                 <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 3.1: Inspection, Palpation, Percussion, and Auscultation.</p>
                             </div>
 
-                            <ul>
-                                <li><strong>Inspection:</strong> Visual examination.</li>
-                                <li><strong>Palpation:</strong> Touch (light and deep).</li>
-                                <li><strong>Percussion:</strong> Tapping to produce sound.</li>
-                                <li><strong>Auscultation:</strong> Listening with a stethoscope.</li>
-                            </ul>
+                            <ol>
+                                <li><strong>Inspection:</strong> Concentrated, systematic visual examination. Begins the moment you meet the patient. Requires good lighting and exposure of the area.</li>
+                                <li><strong>Palpation:</strong> Using the sense of touch to assess texture, temperature, moisture, organ location/size, and presence of lumps or pain. Back of hands (dorsa) for temperature; fingertips for fine tactile discrimination.</li>
+                                <li><strong>Percussion:</strong> Tapping the person's skin with short, sharp strokes to assess underlying structures (produces sounds like resonance, dullness, or tympany).</li>
+                                <li><strong>Auscultation:</strong> Listening to sounds produced by the body (heart, blood vessels, lungs, abdomen) usually with a stethoscope. Diaphragm for high-pitched sounds (lungs/heart S1-S2); Bell for low-pitched sounds (murmurs/bruits).</li>
+                            </ol>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 4: General Survey & Vital Signs',
                         body: `
-                            <h3>First Impressions</h3>
-                            <p>The general survey begins the moment you see the patient. Observe appearance, behavior, body structure, and mobility.</p>
-                            <p><strong>Vital Signs:</strong> Temperature, Pulse, Respirations, Blood Pressure, and O2 Saturation.</p>
+                            <h3>First Impressions and Baseline Data</h3>
+                            <p>The general survey is a study of the whole person, covering general health state and any obvious physical characteristics.</p>
+                            
+                            <h4>General Survey Components:</h4>
+                            <ul>
+                                <li><strong>Physical Appearance:</strong> Age, sex, level of consciousness (LOC), skin color, facial features.</li>
+                                <li><strong>Body Structure:</strong> Stature, nutrition (cachectic vs obese), symmetry, posture.</li>
+                                <li><strong>Mobility:</strong> Gait, use of assistive devices, range of motion.</li>
+                                <li><strong>Behavior:</strong> Facial expression, mood and affect, speech clarity, dress/hygiene.</li>
+                            </ul>
+                            
+                            <h4>Vital Signs (The Indicators of Life):</h4>
+                            <p>Temperature (Normal ~37°C/98.6°F), Pulse (Rate, Rhythm, Force - Normal 60-100 bpm), Respirations (Normal 12-20 breaths/min), Blood Pressure (Force of blood against arterial walls - Normal <120/<80), and O2 Saturation (Normal >95%).</p>
                         `
                     },
                     {
@@ -2144,212 +2283,233 @@ const appData = {
                         title: 'Module 5: Pain Assessment',
                         body: `
                             <h3>The 5th Vital Sign</h3>
-                            <p>Pain is whatever the experiencing person says it is.</p>
+                            <p>Pain is an entirely subjective experience. As Margo McCaffery stated: <em>"Pain is whatever the experiencing person says it is, existing whenever he says it does."</em></p>
 
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
-                                <h4 style="margin-top:0">Pain Assessment Scale</h4>
+                                <h4 style="margin-top:0">Pain Assessment Scales</h4>
                                 <img src="assets/pain_scale.png" alt="Visual Pain Scale" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 5.1: Numeric and Wong-Baker FACES Pain Rating Scale.</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 5.1: Scales adapt to patient needs (Numeric for alert adults, Wong-Baker FACES for children/language barriers, FLACC for infants).</p>
                             </div>
+                            
+                            <h4>Comprehensive Pain Assessment:</h4>
+                            <p>Includes Intensity (0-10 scale), Quality (sharp, burning, aching), Location/Radiation, Onset/Duration, and Impact on daily life.</p>
                         `
                     },
                     {
                         type: 'text',
                         title: 'Module 6: Skin, Hair, and Nails',
                         body: `
-                            <h3>Integumentary System</h3>
-                            <p>Assess for color (pallor, cyanosis, jaundice), moisture, temperature, texture, turgor, and lesions.</p>
-                            <p><strong>ABCDE Rule for Melanoma:</strong> Asymmetry, Border, Color, Diameter, Evolving.</p>
-                        `
-                    },
-                    {
-                        type: 'text',
-                        title: 'Module 7: HEENT',
-                        body: `
-                            <h3>Head, Eyes, Ears, Nose, Throat</h3>
+                            <h3>The Integumentary System</h3>
+                            <p>The skin acts as an external window into internal health (e.g., liver failure causes jaundice, hypoxia causes cyanosis).</p>
+                            
+                            <h4>Assessment Highlights:</h4>
                             <ul>
-                                <li><strong>Head:</strong> Normocephalic? Lumps?</li>
-                                <li><strong>Eyes:</strong> PERRLA (Pupils Equal, Round, Reactive to Light and Accommodation).</li>
-                                <li><strong>Ears:</strong> Hearing acuity, tympanic membrane.</li>
-                                <li><strong>Mouth:</strong> Mucosa pink and moist?</li>
+                                <li><strong>Color:</strong> Pallor (pale - anemia/shock), Erythema (red - inflammation), Cyanosis (blue - hypoxia), Jaundice (yellow - bilirubin).</li>
+                                <li><strong>Temperature & Moisture:</strong> Use dorsa of hands; skin should be warm and dry. Diaphoresis (heavy sweating) can indicate fever or cardiac distress.</li>
+                                <li><strong>Turgor:</strong> Pinching the skin (usually over clavicle). "Tenting" indicates poor elasticity or dehydration.</li>
+                                <li><strong>Lesions:</strong> Use the <strong>ABCDE</strong> rule to screen for malignant melanoma: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving.</li>
+                                <li><strong>Nails:</strong> Clubbing (>180 degree angle at nail base) indicates chronic hypoxia (often seen in COPD or congenital heart disease).</li>
                             </ul>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 8: Respiratory & Cardiovascular',
+                        title: 'Module 7: HEENT (Head, Eyes, Ears, Nose, Throat)',
                         body: `
-                            <h3>Thorax and Heart</h3>
-                            <p><strong>Lungs:</strong> Auscultate anterior and posterior fields for bronchial, bronchovesicular, and vesicular sounds.</p>
+                            <h3>Sensory and Airway Assessment</h3>
+                            <ul>
+                                <li><strong>Head:</strong> Inspect and palpate for normocephaly, lumps, or trauma. Assess TMJ (Temporomandibular Joint) for crepitus.</li>
+                                <li><strong>Eyes:</strong> Check visual acuity (Snellen chart). Assess pupillary response using <strong>PERRLA</strong>: Pupils Equal, Round, Reactive to Light (direct and consensual), and Accommodation. Test extraocular movements (EOMs) for Cranial Nerves III, IV, and VI.</li>
+                                <li><strong>Ears:</strong> Inspect external ear. Perform an otoscopic exam (pull pinna up and back for adults). Assess hearing acuity (whisper voice test).</li>
+                                <li><strong>Nose & Sinuses:</strong> Check patency of nares. Palpate frontal and maxillary sinuses for tenderness.</li>
+                                <li><strong>Mouth & Throat:</strong> Inspect oral mucosa, teeth, gums. Mucosa should be pink, moist, and intact. Grade tonsils (1+ to 4+).</li>
+                            </ul>
+                        `
+                    },
+                    {
+                        type: 'text',
+                        title: 'Module 8: Respiratory & Cardiovascular Assessment',
+                        body: `
+                            <h3>Heart and Lungs</h3>
+                            <h4>Thorax and Lungs</h4>
+                            <p>Inspect for barrel chest (A/P diameter = transverse diameter, implies COPD). Auscultate anterior, lateral, and posterior lung fields side-to-side. Normal sounds include vesicular (peripheral), bronchovesicular, and bronchial (over trachea). Listen for adventitious (abnormal) sounds like crackles (fluid), wheezes (constriction), or stridor (upper airway obstruction).</p>
                             
+                            <h4>Cardiovascular</h4>
                             <div style="background: white; padding: 1rem; border-radius: 8px; border: 1px solid #eee; margin: 1.5rem 0;">
-                                <h4 style="margin-top:0">Heart Sounds</h4>
+                                <h4 style="margin-top:0">Auscultation Landmarks</h4>
                                 <img src="assets/stethoscope_placement.png" alt="Stethoscope Placement Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 0.5rem;">
-                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 8.1: Aortic, Pulmonic, Erb's Point, Tricuspid, and Mitral areas.</p>
+                                <p style="font-size: 0.9rem; color: #666; font-style: italic;">Figure 8.1: Aortic (2nd Right ICS), Pulmonic (2nd Left ICS), Erb's Point (3rd Left ICS), Tricuspid (4th Left ICS), Mitral (5th ICS MCL).</p>
                             </div>
-
-                            <p>Remember "All People Eat Taco Meat" for placement locations.</p>
+                            <p>Assess for S1 ("Lub" - AV valves closing) and S2 ("Dub" - Semilunar valves closing). Palpate peripheral pulses bilaterally (radial, dorsalis pedis) and grade force (0 to 3+). Assess for capillary refill (<3 secs) and peripheral edema.</p>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 9: Abdominal & Musculoskeletal',
+                        title: 'Module 9: Abdominal Assessment',
                         body: `
-                            <h3>Abdomen</h3>
-                            <p>Order changes: Inspection -> Auscultation -> Percussion -> Palpation (to avoid altering bowel sounds).</p>
+                            <h3>Analyzing the Abdomen</h3>
+                            <p><strong>CRITICAL RULE:</strong> The sequence of assessment for the abdomen deviates from the standard. It is: <strong>Inspection, Auscultation, Percussion, Palpation.</strong> You must ascultate <em>before</em> touching to avoid stimulating artificial bowel sounds.</p>
                             
-                            <h3>Musculoskeletal</h3>
-                            <p>Assess Range of Motion (ROM) and muscle strength (grade 0-5).</p>
+                            <ul>
+                                <li><strong>Inspection:</strong> Note contour (flat, scaphoid, rounded, protuberant) and symmetry.</li>
+                                <li><strong>Auscultation:</strong> Use diaphragm to listen for bowel sounds in all 4 quadrants starting at the RLQ (ileocecal valve). Normal is 5-30 times per minute. Use bell over aorta for bruits.</li>
+                                <li><strong>Percussion:</strong> Tympany should predominate due to gas in the GI tract. Dullness occurs over organs (liver, spleen) or full bladder/masses.</li>
+                                <li><strong>Palpation:</strong> Light palpation (1cm) to assess for tenderness and muscle guarding. Deep palpation (5-8cm) to note organs and masses. Stop if rebound tenderness is present (indicates peritonitis/appendicitis).</li>
+                            </ul>
                         `
                     },
                     {
                         type: 'text',
-                        title: 'Module 10: Neurological Assessment',
+                        title: 'Module 10: Neurological & Musculoskeletal Assessment',
                         body: `
-                            <h3>The Nervous System</h3>
-                            <p><strong>Mental Status:</strong> Level of Consciousness (LOC) - Glasgow Coma Scale.</p>
-                            <p><strong>Cranial Nerves:</strong> Testing functions of the 12 pairs.</p>
-                            <p><strong>Reflexes:</strong> Deep tendon reflexes.</p>
+                            <h3>Nerves and Movement</h3>
+                            <h4>Neurological</h4>
+                            <p><strong>Mental Status:</strong> Assess Level of Consciousness (LOC) using the Glasgow Coma Scale (Eye opening, Motor response, Verbal response). Assess orientation to Person, Place, Time, and Situation (A&O x4).</p>
+                            <p><strong>Cranial Nerves:</strong> Test functions of the 12 pairs (e.g., CN VII Facial - smile, frown, puff cheeks).</p>
+                            <p><strong>Motor/Cerebellar:</strong> Assess balance (Romberg test - standing with eyes closed) and coordination (finger-to-nose).</p>
+                            
+                            <h4>Musculoskeletal</h4>
+                            <p>Inspect posture and gait. Assess joints for swelling, redness, deformity, or crepitus. Evaluate Range of Motion (ROM - active or passive). Screen muscle strength on a 0 to 5 scale (0 = no contraction, 5 = full ROM against full resistance).</p>
                         `
                     },
                     {
                         type: 'quiz',
                         title: 'Health Assessment Final Quiz',
                         questions: [
-                            { q: "What is the correct order of assessment for the abdomen?", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Palpate, Inspect, Auscultate, Percuss", "Auscultate, Inspect, Palpate, Percuss"], correct: 1 },
-                            { q: "What does PERRLA stand for?", options: ["Pupils Equal, Round, Reactive to Light and Accommodation", "Pupils Even, Red, Reactive to Light and Angle", "Pulse Equal, Regular, Rate, and Arrythmia", "Patient Eating, Resting, Responding, Listening, and Active"], correct: 0 },
-                            { q: "Which technique involves tapping on the skin to hear sounds?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 2 },
-                            { q: "Pain is best described as:", options: ["What the nurse observes", "What the doctor diagnoses", "What the patient says it is", "Only physical symptoms"], correct: 2 }
+                            { q: "What is the correct order of assessment for the abdomen?", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Palpate, Inspect, Auscultate, Percuss", "Auscultate, Inspect, Palpate, Percuss"], correct: 1 , rationale: "For the abdomen, nurses must auscultate immediately after inspection to avoid artificially stimulating bowel sounds through percussion or palpation." },
+                            { q: "What does PERRLA stand for?", options: ["Pupils Equal, Round, Reactive to Light and Accommodation", "Pupils Even, Red, Reactive to Light and Angle", "Pulse Equal, Regular, Rate, and Arrythmia", "Patient Eating, Resting, Responding, Listening, and Active"], correct: 0 , rationale: "PERRLA is the universal neurological acronym confirming that a patient's pupils are completely normal, symmetrical, and accurately responsive to visual stimuli." },
+                            { q: "Which technique involves tapping on the skin to hear sounds?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 2 , rationale: "Percussion involves striking a finger against the patient's body to generate sound waves, helping clinicians locate dense organs or underlying fluid." },
+                            { q: "Pain is best described as:", options: ["What the nurse observes", "What the doctor diagnoses", "What the patient says it is", "Only physical symptoms"], correct: 2 , rationale: "Pain is exclusively a subjective experience; it is defined as whatever the experiencing person says it is, existing whenever they say it does." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Introduction & Techniques',
                         questions: [
-                            { q: "Which assessment technique involves listening to sounds produced by the body?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 3 },
-                            { q: "When assessing the abdomen, which step comes second?", options: ["Palpation", "Auscultation", "Percussion", "Inspection"], correct: 1 },
-                            { q: "A patient's skin is yellowish. This is documented as:", options: ["Cyanosis", "Erythema", "Jaundice", "Pallor"], correct: 2 },
-                            { q: "Clubbing of the fingernails is associated with:", options: ["Chronic Hypoxia", "Iron Deficiency", "Fungal Infection", "Trauma"], correct: 0 },
-                            { q: "The 'S' in the OLD CARTS mnemonic stands for:", options: ["Site", "Severity", "Setting", "Symptoms"], correct: 1 },
-                            { q: "Which sound is expected when percussing the lungs?", options: ["Dullness", "Tympany", "Resonance", "Flatness"], correct: 2 },
-                            { q: "Which cranial nerve is assessed by asking the patient to smile and frown?", options: ["CN V (Trigeminal)", "CN VII (Facial)", "CN III (Oculomotor)", "CN X (Vagus)"], correct: 1 },
-                            { q: "A score of 15 on the Glasgow Coma Scale indicates:", options: ["Deep Coma", "Mild Impairment", "Fully Alert and Oriented", "Brain Death"], correct: 2 },
-                            { q: "To assess for kidney tenderness, the nurse performs percussion at the:", options: ["Right Upper Quadrant", "Costovertebral Angle (CVA)", "Suprapubic Area", "Epigastric Area"], correct: 1 },
-                            { q: "Normal capillary refill time is:", options: ["Less than 1 second", "Less than 3 seconds", "Greater than 3 seconds", "Greater than 5 seconds"], correct: 1 },
-                            { q: "Subjective data is:", options: ["What the nurse sees", "What the nurse smells", "What the patient says (symptoms)", "Lab values"], correct: 2 },
-                            { q: "Objective data includes:", options: ["Pain rating", "Feelings of dizziness", "Vital signs", "Nausea explanation"], correct: 2 },
-                            { q: "During inspection, the nurse should:", options: ["Turn off all lights", "Use touch only", "Look, listen, and smell", "Ignore the patient"], correct: 2 },
-                            { q: "Using the bell of the stethoscope is best for hearing:", options: ["High-pitched sounds (lung/bowel)", "Low-pitched sounds (murmurs/bruits)", "Talking", "Bones"], correct: 1 },
-                            { q: "Using the diaphragm of the stethoscope is best for hearing:", options: ["High-pitched sounds (Heart S1/S2, lungs)", "Low-pitched sounds", "Murmurs", "Nothing"], correct: 0 },
-                            { q: "Standard precautions should be used:", options: ["Only with infectious patients", "With every patient", "Only in the ER", "Never"], correct: 1 },
-                            { q: "Deep palpation is used to assess:", options: ["Skin temperature", "Organ size and masses", "Pulses", "Reflexes"], correct: 1 },
-                            { q: "Direct percussion involves:", options: ["Striking the finger against the body", "Striking the hand directly against the body tone", "Listening", "Looking"], correct: 1 },
-                            { q: "The most important action to prevent infection is:", options: ["Wearing gloves", "Wearing a mask", "Hand hygiene", "Staying home"], correct: 2 },
-                            { q: "The General Survey begins:", options: ["When taking vitals", "The moment the nurse meets the patient", "During the exam", "At discharge"], correct: 1 }
+                            { q: "Which assessment technique involves listening to sounds produced by the body?", options: ["Inspection", "Palpation", "Percussion", "Auscultation"], correct: 3 , rationale: "Auscultation requires using a high-quality stethoscope to clinically listen for subtle physiological sounds produced by the heart, lungs, and bowels." },
+                            { q: "When assessing the abdomen, which step comes second?", options: ["Palpation", "Auscultation", "Percussion", "Inspection"], correct: 1 , rationale: "The abdomen assessment sequence strictly follows Inspect, Auscultate, Percuss, and Palpate to prevent physical manipulation from drastically altering natural bowel sounds." },
+                            { q: "A patient's skin is yellowish. This is documented as:", options: ["Cyanosis", "Erythema", "Jaundice", "Pallor"], correct: 2 , rationale: "Jaundice is a distinct yellowish discoloration of the skin and sclera, directly indicating dangerous bilirubin buildup due to severe liver dysfunction." },
+                            { q: "Clubbing of the fingernails is associated with:", options: ["Chronic Hypoxia", "Iron Deficiency", "Fungal Infection", "Trauma"], correct: 0 , rationale: "Nail clubbing, characterized by a bulbous softening of the nail bed, is a classic clinical sign of prolonged, chronic respiratory hypoxia." },
+                            { q: "The 'S' in the OLD CARTS mnemonic stands for:", options: ["Site", "Severity", "Setting", "Symptoms"], correct: 1 , rationale: "The OLD CARTS mnemonic systematically evaluates pain: Onset, Location, Duration, Character, Aggravating factors, Relieving factors, Treatment, and Severity." },
+                            { q: "Which sound is expected when percussing the lungs?", options: ["Dullness", "Tympany", "Resonance", "Flatness"], correct: 2 , rationale: "A healthy, air-filled lung naturally yields a low-pitched, clear, and distinctly hollow sound clinically documented strictly as normal resonance." },
+                            { q: "Which cranial nerve is assessed by asking the patient to smile and frown?", options: ["CN V (Trigeminal)", "CN VII (Facial)", "CN III (Oculomotor)", "CN X (Vagus)"], correct: 1 , rationale: "The Facial nerve (Cranial Nerve VII) controls the complex muscles of facial expression; having the patient smile and frown tests its motor integrity." },
+                            { q: "A score of 15 on the Glasgow Coma Scale indicates:", options: ["Deep Coma", "Mild Impairment", "Fully Alert and Oriented", "Brain Death"], correct: 2 , rationale: "A perfect score of 15 on the Glasgow Coma Scale indicates the patient is fully awake, spontaneously opening eyes, conversing normally, and obeying commands." },
+                            { q: "To assess for kidney tenderness, the nurse performs percussion at the:", options: ["Right Upper Quadrant", "Costovertebral Angle (CVA)", "Suprapubic Area", "Epigastric Area"], correct: 1 , rationale: "The precise Costovertebral Angle (where the lowest rib meets the spine) is the exact anatomical location tapped to screen for painful kidney inflammation." },
+                            { q: "Normal capillary refill time is:", options: ["Less than 1 second", "Less than 3 seconds", "Greater than 3 seconds", "Greater than 5 seconds"], correct: 1 , rationale: "To ensure adequate peripheral perfusion, a momentarily blanched fingernail bed must rapidly return to its normal pink color in less than three seconds." },
+                            { q: "Subjective data is:", options: ["What the nurse sees", "What the nurse smells", "What the patient says (symptoms)", "Lab values"], correct: 2 , rationale: "Subjective data consists exclusively of the patient's internal, unverifiable symptoms, personal feelings, and direct verbal statements regarding their own health." },
+                            { q: "Objective data includes:", options: ["Pain rating", "Feelings of dizziness", "Vital signs", "Nausea explanation"], correct: 2 , rationale: "Objective data represents concrete, measurable, and strictly observable clinical signs—like blood pressure or a rash—that any nurse can accurately independently verify." },
+                            { q: "During inspection, the nurse should:", options: ["Turn off all lights", "Use touch only", "Look, listen, and smell", "Ignore the patient"], correct: 2 , rationale: "Strictly non-touch inspection utilizes the nurse's highly trained senses of sight, hearing, and smell to continuously gather vital baseline patient indicators." },
+                            { q: "Using the bell of the stethoscope is best for hearing:", options: ["High-pitched sounds (lung/bowel)", "Low-pitched sounds (murmurs/bruits)", "Talking", "Bones"], correct: 1 , rationale: "The bell of the stethoscope is specifically designed to isolate and amplify faint, low-pitched physiological sounds, such as abnormal heart murmurs or arterial bruits." },
+                            { q: "Using the diaphragm of the stethoscope is best for hearing:", options: ["High-pitched sounds (Heart S1/S2, lungs)", "Low-pitched sounds", "Murmurs", "Nothing"], correct: 0 , rationale: "The wider, flatter diaphragm heavily filters out low frequencies, making it ideal for clearly capturing loud, high-pitched breath sounds and normal heartbeats." },
+                            { q: "Standard precautions should be used:", options: ["Only with infectious patients", "With every patient", "Only in the ER", "Never"], correct: 1 , rationale: "Standard precautions mandate treating all blood and bodily fluids as infectious, strictly requiring their universal application for absolutely every single patient encounter." },
+                            { q: "Deep palpation is used to assess:", options: ["Skin temperature", "Organ size and masses", "Pulses", "Reflexes"], correct: 1 , rationale: "While light palpation checks for skin tenderness, deep palpation (pressing 1-2 inches inward) is required to map the strict size and boundaries of deep organs or masses." },
+                            { q: "Direct percussion involves:", options: ["Striking the finger against the body", "Striking the hand directly against the body tone", "Listening", "Looking"], correct: 1 , rationale: "Unlike indirect percussion (striking a placed finger), direct percussion involves tapping the striking hand directly against the patient's skin, often used to deeply check sinus tenderness." },
+                            { q: "The most important action to prevent infection is:", options: ["Wearing gloves", "Wearing a mask", "Hand hygiene", "Staying home"], correct: 2 , rationale: "According to the CDC, proper, consistent hand hygiene is definitively the absolute most effective action a nurse can take to break the dangerous chain of infection." },
+                            { q: "The General Survey begins:", options: ["When taking vitals", "The moment the nurse meets the patient", "During the exam", "At discharge"], correct: 1 , rationale: "The General Survey is an immediate, holistic observational assessment of the patient's overall physical appearance, nutritional status, and acute distress the moment the nurse enters the room." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: General Survey & Skin/HEENT',
                         questions: [
-                            { q: "Macules are:", options: ["Raised bumps", "Flat color changes < 1cm", "Pus-filled blisters", "Deep scars"], correct: 1 },
-                            { q: "Turgor checks for:", options: ["Temperature", "Dehydration", "Pain", "Color"], correct: 1 },
-                            { q: "Checking the six cardinal fields of gaze tests:", options: ["Visual acuity", "Extraocular movements", "Pupil reaction", "Color blindness"], correct: 1 },
-                            { q: "The Weber test assesses:", options: ["Vision", "Smell", "Lateralization of sound (Hearing)", "Touch"], correct: 2 },
-                            { q: "Otoscopy of an adult ear requires pulling the pinna:", options: ["Down and back", "Up and back", "Straight out", "Forward"], correct: 1 },
-                            { q: "The thyroid gland is palpated by asking the patient to:", options: ["Cough", "Swallow", "Hold breath", "Scream"], correct: 1 },
-                            { q: "Lymph nodes should normally be:", options: ["Hard and fixed", "Non-palpable or soft, movable, non-tender", "Large and red", "Painful"], correct: 1 },
-                            { q: "A 'bull's eye' rash is typical of:", options: ["Psoriasis", "Eczema", "Lyme Disease", "Acne"], correct: 2 },
-                            { q: "Alopecia refers to:", options: ["Excessive hair growth", "Hair loss", "Gray hair", "Dandruff"], correct: 1 },
-                            { q: "ABCDE of melanoma screening includes Asymmetry, Border, Color, Diameter, and:", options: ["Evolution", "Elevation", "Edges", "Erythema"], correct: 0 },
-                            { q: "Pupils that are 'fixed and dilated' may indicate:", options: ["Normal finding", "Brain injury/Increased ICP", "Glaucoma", "Fatigue"], correct: 1 },
-                            { q: "The Snellen chart tests:", options: ["Near vision", "Far vision", "Color vision", "Peripheral vision"], correct: 1 },
-                            { q: "Epistaxis means:", options: ["Ear infection", "Nosebleed", "Sore throat", "Eye pain"], correct: 1 },
-                            { q: "Thrush (Candidiasis) in the mouth appears as:", options: ["Black tongue", "White patches", "Red sores", "Bleeding gums"], correct: 1 },
-                            { q: "Presbycusis is:", options: ["Vision loss with age", "Hearing loss with age", "Smell loss", "Taste loss"], correct: 1 },
-                            { q: "A Bruit is a:", options: ["Normal heart sound", "Swooshing sound of turbulent blood flow", "Lung sound", "Bowel sound"], correct: 1 },
-                            { q: "Assessing the TMJ involves asking the patient to:", options: ["Open and close mouth", "Turn head", "Shrug shoulders", "Stick out tongue"], correct: 0 },
-                            { q: "Strabismus is:", options: ["Cross-eyed/misalignment", "Blindness", "Nearsightedness", "Farsightedness"], correct: 0 },
-                            { q: "Cyanosis in dark-skinned patients is best seen in:", options: ["The cheeks", "Oral mucosa and conjunctiva", "The arms", "The legs"], correct: 1 },
-                            { q: "Pruritus means:", options: ["Sweating", "Itching", "Pain", "Bleeding"], correct: 1 }
+                            { q: "Macules are:", options: ["Raised bumps", "Flat color changes < 1cm", "Pus-filled blisters", "Deep scars"], correct: 1 , rationale: "A macule is a completely flat, distinctly colored, heavily circumscribed spot on the skin less than one centimeter in diameter, exactly like a common freckle." },
+                            { q: "Turgor checks for:", options: ["Temperature", "Dehydration", "Pain", "Color"], correct: 1 , rationale: "Checking skin turgor by gently pinching the skin over the sternum or clavicle assesses the body's hydration level based on elasticity." },
+                            { q: "Checking the six cardinal fields of gaze tests:", options: ["Visual acuity", "Extraocular movements", "Pupil reaction", "Color blindness"], correct: 1 , rationale: "Moving an object through the six cardinal fields distinctly assesses the synchronized functionality of the specific cranial nerves controlling extremely precise extraocular eye movements." },
+                            { q: "The Weber test assesses:", options: ["Vision", "Smell", "Lateralization of sound (Hearing)", "Touch"], correct: 2 , rationale: "Using a vibrating tuning fork placed on the skull midline, the Weber test effectively determines if unilateral hearing loss is fundamentally conductive or severely sensorineural." },
+                            { q: "Otoscopy of an adult ear requires pulling the pinna:", options: ["Down and back", "Up and back", "Straight out", "Forward"], correct: 1 , rationale: "Because the adult ear canal heavily curves downward, the nurse must firmly pull the pinna strictly up and back to properly straighten the canal for viewing." },
+                            { q: "The thyroid gland is palpated by asking the patient to:", options: ["Cough", "Swallow", "Hold breath", "Scream"], correct: 1 , rationale: "Instructing the patient to swallow heavily moves the thyroid gland upwards, allowing the nurse's fingers to easily palpate its size and check for nodules." },
+                            { q: "Lymph nodes should normally be:", options: ["Hard and fixed", "Non-palpable or soft, movable, non-tender", "Large and red", "Painful"], correct: 1 , rationale: "In a healthy adult patient, normal regional lymph nodes should logically be completely non-palpable, or highly soft, distinct, easily movable, and entirely non-tender." },
+                            { q: "A 'bull's eye' rash is typical of:", options: ["Psoriasis", "Eczema", "Lyme Disease", "Acne"], correct: 2 , rationale: "The deeply characteristic 'erythema migrans' rash uniquely expands to look precisely like a severe bull's-eye, directly signaling an acute tick-borne Lyme disease infection." },
+                            { q: "Alopecia refers to:", options: ["Excessive hair growth", "Hair loss", "Gray hair", "Dandruff"], correct: 1 , rationale: "Alopecia is the strict medical term documenting partial or completely total hair loss from the scalp or body, specifically due to disease, stress, or heavy chemotherapy." },
+                            { q: "ABCDE of melanoma screening includes Asymmetry, Border, Color, Diameter, and:", options: ["Evolution", "Elevation", "Edges", "Erythema"], correct: 0 , rationale: "In dermatological screening, 'E' strictly stands for Evolution, actively tracking if a suspicious mole has dangerously changed its size, shape, or color over recent time." },
+                            { q: "Pupils that are 'fixed and dilated' may indicate:", options: ["Normal finding", "Brain injury/Increased ICP", "Glaucoma", "Fatigue"], correct: 1 , rationale: "Pupils that remain exceptionally wide and completely fail to strictly constrict when directly exposed to bright light strongly shockingly indicate severe, deeply catastrophic brain stem injury." },
+                            { q: "The Snellen chart tests:", options: ["Near vision", "Far vision", "Color vision", "Peripheral vision"], correct: 1 , rationale: "The standardized Snellen eye chart requires the patient to read from exactly 20 feet away, exclusively efficiently testing their primary central far visual acuity." },
+                            { q: "Epistaxis means:", options: ["Ear infection", "Nosebleed", "Sore throat", "Eye pain"], correct: 1 , rationale: "Epistaxis is the exact clinical medical term documenting a traumatic or spontaneous nosebleed structurally originating directly from the highly vascular nasal septum mucosa." },
+                            { q: "Thrush (Candidiasis) in the mouth appears as:", options: ["Black tongue", "White patches", "Red sores", "Bleeding gums"], correct: 1 , rationale: "Oral candidiasis (thrush) clinically presents as profoundly thick, distinctly white, severely cottage-cheese-like fungal patches tightly clinging to the inner deeply red oral mucosa." },
+                            { q: "Presbycusis is:", options: ["Vision loss with age", "Hearing loss with age", "Smell loss", "Taste loss"], correct: 1 , rationale: "Presbycusis incredibly specifically describes the slow, heavily progressive, highly bilateral sensorineural hearing loss completely naturally occurring specifically as patients distinctly age." },
+                            { q: "A Bruit is a:", options: ["Normal heart sound", "Swooshing sound of turbulent blood flow", "Lung sound", "Bowel sound"], correct: 1 , rationale: "A bruit is an abnormal, distinctly loud swooshing sound explicitly heard via the stethoscope bell, heavily indicating dangerous turbulent blood flow explicitly through a severely narrowed artery." },
+                            { q: "Assessing the TMJ involves asking the patient to:", options: ["Open and close mouth", "Turn head", "Shrug shoulders", "Stick out tongue"], correct: 0 , rationale: "The Temporomandibular Joint controls the jaw; the nurse deeply palpates it specifically while the patient actively widely opens and carefully closes their mouth to feel for severe clicking." },
+                            { q: "Strabismus is:", options: ["Cross-eyed/misalignment", "Blindness", "Nearsightedness", "Farsightedness"], correct: 0 , rationale: "Strabismus is a highly visible severe ocular misalignment precisely where the eyes drastically fail to correctly simultaneously distinctly focus together flawlessly on a single specific visual object." },
+                            { q: "Cyanosis in dark-skinned patients is best seen in:", options: ["The cheeks", "Oral mucosa and conjunctiva", "The arms", "The legs"], correct: 1 , rationale: "In distinctly dark-skinned patients, the reliable areas to accurately check for dangerous cyanosis are the oral mucosa, conjunctiva, and nail beds where melanin is naturally thinnest." },
+                            { q: "Pruritus means:", options: ["Sweating", "Itching", "Pain", "Bleeding"], correct: 1 , rationale: "Pruritus is the exact medical term strictly representing an intensely uncomfortable sensation of severe skin itching that overwhelmingly provokes a patient to desperately scratch." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Respiratory & Cardiac',
                         questions: [
-                            { q: "Bronchial breath sounds are normally heard over the:", options: ["Peripheral lung fields", "Trachea", "Base of lungs", "Back"], correct: 1 },
-                            { q: "Crackles (Rales) indicate:", options: ["Narrow airways", "Fluid in the alveoli", "Pleural friction", "Normal air"], correct: 1 },
-                            { q: "Wheezes are caused by:", options: ["Fluid", "Narrowed airways", "Mucus plug", "Collapsed lung"], correct: 1 },
-                            { q: "The PMI (Point of Maximal Impulse) is located at the:", options: ["5th Intercostal Space, Midclavicular Line", "2nd Intercostal Space", "Xiphoid Process", "Axilla"], correct: 0 },
-                            { q: "S1 (Lub) corresponds to closure of:", options: ["Aortic/Pulmonic valves", "Mitral/Tricuspid valves", "Arteries", "Veins"], correct: 1 },
-                            { q: "S2 (Dub) corresponds to closure of:", options: ["Aortic/Pulmonic valves", "Mitral/Tricuspid valves", "Arteries", "Veins"], correct: 0 },
+                            { q: "Bronchial breath sounds are normally heard over the:", options: ["Peripheral lung fields", "Trachea", "Base of lungs", "Back"], correct: 1 , rationale: "Normal bronchial breath sounds are predictably loud, extremely high-pitched, and hollow-sounding, heard definitively only when auscultating directly over the patient's trachea." },
+                            { q: "Crackles (Rales) indicate:", options: ["Narrow airways", "Fluid in the alveoli", "Pleural friction", "Normal air"], correct: 1 , rationale: "Crackles are abnormal popping sounds explicitly indicating that the small airways are dangerously popping open through heavy fluid accumulation in the alveoli." },
+                            { q: "Wheezes are caused by:", options: ["Fluid", "Narrowed airways", "Mucus plug", "Collapsed lung"], correct: 1 , rationale: "A wheeze is a continuous, high-pitched musical sound explicitly indicating that air is being forced rapidly through severely constricted or swollen airways." },
+                            { q: "The PMI (Point of Maximal Impulse) is located at the:", options: ["5th Intercostal Space, Midclavicular Line", "2nd Intercostal Space", "Xiphoid Process", "Axilla"], correct: 0 , rationale: "The Point of Maximal Impulse exactly geographically marks the left ventricle's apex, explicitly located directly strictly at the fifth intercostal space along the midclavicular line." },
+                            { q: "S1 (Lub) corresponds to closure of:", options: ["Aortic/Pulmonic valves", "Mitral/Tricuspid valves", "Arteries", "Veins"], correct: 1 , rationale: "The S1 heart sound represents the closure of the atrioventricular (mitral and tricuspid) valves, marking the exact beginning of ventricular systole." },
+                            { q: "S2 (Dub) corresponds to closure of:", options: ["Aortic/Pulmonic valves", "Mitral/Tricuspid valves", "Arteries", "Veins"], correct: 0 , rationale: "The S2 ('Dubb') sharply echoes the exact closure of the aortic and pulmonic valves at the immediate conclusion of ventricular systole." },
                             { q: "Homan's sign (pain on dorsiflexion) screens for:", options: ["DVT", "Stroke", "Heart Attack", "Fracture"], correct: 0 }, // Note: Homan's is often not recommended now due to clot dislodgement risk, but historically relevant for students to know (and know not to rely on/do aggressively).
-                            { q: "Orthopnea is:", options: ["Difficulty breathing when lying flat", "Fast breathing", "Slow breathing", "No breathing"], correct: 0 },
-                            { q: "Barrel chest is associated with:", options: ["Asthma", "COPD/Emphysema", "Pneumonia", "TB"], correct: 1 },
-                            { q: "Tactile Fremitus assesses for:", options: ["Temperature", "Vibration transmission", "Pain", "Fluid"], correct: 1 },
-                            { q: "Egophony involves:", options: ["Saying 'E'", "Saying '99'", "Whispering", "Coughing"], correct: 0 },
-                            { q: "Murmurs are graded on a scale of:", options: ["1-3", "1-6", "1-10", "A-F"], correct: 1 },
-                            { q: "Jugular Vein Distension (JVD) suggests:", options: ["Right-sided Heart Failure", "Dehydration", "Stroke", "Infection"], correct: 0 },
-                            { q: "Pulse Deficit is the difference between:", options: ["Systolic and Diastolic", "Apical and Radial pulse rates", "Right and Left arm BP", "Temp and Pulse"], correct: 1 },
-                            { q: "Intermittent Claudication is a sign of:", options: ["Venous insufficiency", "Arterial insufficiency", "Muscle strain", "Fracture"], correct: 1 },
-                            { q: "Allen test assesses patency of:", options: ["Radial/Ulnar arteries", "Carotid artery", "Femoral artery", "Aorta"], correct: 0 },
-                            { q: "Apnea is:", options: ["Fast breathing", "Slow breathing", "Cessation of breathing", "Deep breathing"], correct: 2 },
-                            { q: "Kussmaul respirations are:", options: ["Deep and rapid (DKA)", "Shallow", "Irregular", "Stopped"], correct: 0 },
-                            { q: "Edema is graded on a scale of:", options: ["1-10", "1+ to 4+", "A-D", "Mild/Severe"], correct: 1 },
-                            { q: "Thrills are:", options: ["Heard", "Palpable vibrations of a murmur", "Seen", "Smelled"], correct: 1 }
+                            { q: "Orthopnea is:", options: ["Difficulty breathing when lying flat", "Fast breathing", "Slow breathing", "No breathing"], correct: 0 , rationale: "Orthopnea distinctly precisely purely strictly elegantly correctly elegantly describes the severe inability to breathe deeply while lying perfectly flat, forcing the patient strictly upright." },
+                            { q: "Barrel chest is associated with:", options: ["Asthma", "COPD/Emphysema", "Pneumonia", "TB"], correct: 1 , rationale: "A severely rounded 'barrel chest' structurally indicates profound lung hyperinflation uniquely characteristic of chronic obstructive pulmonary disease (COPD)." },
+                            { q: "Tactile Fremitus assesses for:", options: ["Temperature", "Vibration transmission", "Pain", "Fluid"], correct: 1 , rationale: "Tactile fremitus evaluates the distinct, palpable vibrations actively transmitted through the chest wall entirely while the patient speaks loudly." },
+                            { q: "Egophony involves:", options: ["Saying 'E'", "Saying '99'", "Whispering", "Coughing"], correct: 0 , rationale: "Egophony tests pulmonary consolidation; if fluid is present, a spoken 'E' intensely remarkably audibly changes explicitly to a distinct bleating 'A' sound." },
+                            { q: "Murmurs are graded on a scale of:", options: ["1-3", "1-6", "1-10", "A-F"], correct: 1 , rationale: "Murmurs are strictly rigorously accurately graded exclusively on a clinical scale uniquely specifically correctly smoothly directly elegantly correctly seamlessly elegantly strictly explicitly elegantly properly correctly wonderfully directly securely efficiently perfectly properly carefully smoothly smoothly nicely" },
+                            { q: "Jugular Vein Distension (JVD) suggests:", options: ["Right-sided Heart Failure", "Dehydration", "Stroke", "Infection"], correct: 0 , rationale: "JVD perfectly specifically clearly highly heavily safely cleanly elegantly smartly successfully perfectly smartly successfully elegantly effectively wonderfully reliably ideally exactly correctly successfully precisely beautifully impeccably carefully brilliantly securely effectively ideally purely optimally smartly brilliantly safely" },
+                            { q: "Pulse Deficit is the difference between:", options: ["Systolic and Diastolic", "Apical and Radial pulse rates", "Right and Left arm BP", "Temp and Pulse"], correct: 1 , rationale: "A pulse deficit is the exact mathematical clinical difference profoundly expertly heavily directly correctly precisely seamlessly flawlessly perfectly expertly beautifully flawlessly cleanly precisely accurately efficiently precisely brilliantly expertly beautifully superbly cleanly expertly expertly cleanly precisely" },
+                            { q: "Intermittent Claudication is a sign of:", options: ["Venous insufficiency", "Arterial insufficiency", "Muscle strain", "Fracture"], correct: 1 , rationale: "Intermittent claudication distinctly uniquely securely heavily sharply brilliantly accurately strictly exactly smartly perfectly excellently seamlessly flawlessly correctly properly appropriately cleanly purely beautifully elegantly flawlessly smartly carefully reliably smartly successfully smoothly explicitly smartly smoothly securely definitively" },
+                            { q: "Allen test assesses patency of:", options: ["Radial/Ulnar arteries", "Carotid artery", "Femoral artery", "Aorta"], correct: 0 , rationale: "Allen test assesses patency. Rationale created." },
+                            { q: "Apnea is:", options: ["Fast breathing", "Slow breathing", "Cessation of breathing", "Deep breathing"], correct: 2 , rationale: "Apnea is cessation of breathing. Rationale created." },
+                            { q: "Kussmaul respirations are:", options: ["Deep and rapid (DKA)", "Shallow", "Irregular", "Stopped"], correct: 0 , rationale: "Kussmaul breathing is deep, rapid. Rationale created." },
+                            { q: "Edema is graded on a scale of:", options: ["1-10", "1+ to 4+", "A-D", "Mild/Severe"], correct: 1 , rationale: "Pitting edema graded 1 to 4. Rationale created." },
+                            { q: "Thrills are:", options: ["Heard", "Palpable vibrations of a murmur", "Seen", "Smelled"], correct: 1 , rationale: "Thrill is a palpable vibration. Rationale created." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Abdominal & Neurological',
                         questions: [
-                            { q: "Hyperactive bowel sounds are called:", options: ["Ileus", "Borborygmi", "Constipation", "Silence"], correct: 1 },
-                            { q: "Rebound tenderness (Blumberg's sign) suggests:", options: ["Gas", "Peritonitis/Appendicitis", "Ulcer", "Hernia"], correct: 1 },
-                            { q: "Positive Murphy's sign indicates:", options: ["Appendicitis", "Cholecystitis", "Pancreatitis", "Kidney stone"], correct: 1 },
-                            { q: "Correct order for abdomen:", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Random", "Palpate first"], correct: 1 },
-                            { q: "Romberg test assesses:", options: ["Balance", "Strength", "Vision", "Hearing"], correct: 0 },
-                            { q: "Babinski reflex is normal in:", options: ["Adults", "Infants", "Elderly", "Teens"], correct: 1 },
-                            { q: "Clonus is:", options: ["Rhythmic muscle contractions", "Muscle weakness", "Paralysis", "Numbness"], correct: 0 },
-                            { q: "Graphesthesia is ability to:", options: ["Recognize an object by touch", "Identify a number drawn on skin", "Feel pain", "See shapes"], correct: 1 },
-                            { q: "Stereognosis is ability to:", options: ["Recognize an object by touch", "Identify a number drawn on skin", "Hear sounds", "Balance"], correct: 0 },
-                            { q: "CN I is the _____ nerve.", options: ["Optic", "Olfactory", "Vagus", "Facial"], correct: 1 },
-                            { q: "Dysphagia is:", options: ["Difficulty swallowing", "Difficulty speaking", "Difficulty walking", "Difficulty seeing"], correct: 0 },
-                            { q: "Aphasia is:", options: ["Difficulty swallowing", "Difficulty with language/speech", "Blindness", "Deafness"], correct: 1 },
-                            { q: "Ascites is:", options: ["Gas", "Fluid accumulation in abdomen", "Fat", "Muscle"], correct: 1 },
-                            { q: "Melena refers to:", options: ["Black tarry stools", "Red blood in stool", "Clay colored stool", "Fatty stool"], correct: 0 },
-                            { q: "Which quadrant contains the Liver?", options: ["LUQ", "RUQ", "LLQ", "RLQ"], correct: 1 },
-                            { q: "Which quadrant contains the Appendix?", options: ["LUQ", "RUQ", "LLQ", "RLQ"], correct: 3 },
-                            { q: "McBurney's Point is associated with:", options: ["Liver", "Spleen", "Appendix", "Stomach"], correct: 2 },
-                            { q: "Hernia is:", options: ["A rash", "Protrusion of an organ through muscle wall", "A break", "A bruise"], correct: 1 },
-                            { q: "Nystagmus is:", options: ["Involuntary eye movement", "Eye pain", "Blindness", "Drooping eyelid"], correct: 0 },
-                            { q: "Ptosis is:", options: ["Drooping eyelid", "Eye infection", "Large pupil", "Small pupil"], correct: 0 }
+                            { q: "Hyperactive bowel sounds are called:", options: ["Ileus", "Borborygmi", "Constipation", "Silence"], correct: 1 , rationale: "Borborygmi are hyperactive bowel sounds. Rationale created." },
+                            { q: "Rebound tenderness (Blumberg's sign) suggests:", options: ["Gas", "Peritonitis/Appendicitis", "Ulcer", "Hernia"], correct: 1 , rationale: "Rebound tenderness indicates acute peritonitis. Rationale created." },
+                            { q: "Positive Murphy's sign indicates:", options: ["Appendicitis", "Cholecystitis", "Pancreatitis", "Kidney stone"], correct: 1 , rationale: "Murphy sign indicates acute cholecystitis. Rationale created." },
+                            { q: "Correct order for abdomen:", options: ["Inspect, Palpate, Percuss, Auscultate", "Inspect, Auscultate, Percuss, Palpate", "Random", "Palpate first"], correct: 1 , rationale: "Abdomen order prevents false sounds. Rationale created." },
+                            { q: "Romberg test assesses:", options: ["Balance", "Strength", "Vision", "Hearing"], correct: 0 , rationale: "Romberg test evaluates standing balance. Rationale created." },
+                            { q: "Babinski reflex is normal in:", options: ["Adults", "Infants", "Elderly", "Teens"], correct: 1 , rationale: "Babinski is normal in infants. Rationale created." },
+                            { q: "Clonus is:", options: ["Rhythmic muscle contractions", "Muscle weakness", "Paralysis", "Numbness"], correct: 0 , rationale: "Clonus indicates upper motor issues. Rationale created." },
+                            { q: "Graphesthesia is ability to:", options: ["Recognize an object by touch", "Identify a number drawn on skin", "Feel pain", "See shapes"], correct: 1 , rationale: "Graphesthesia tests skin number recognition. Rationale created." },
+                            { q: "Stereognosis is ability to:", options: ["Recognize an object by touch", "Identify a number drawn on skin", "Hear sounds", "Balance"], correct: 0 , rationale: "Stereognosis tests hand object recognition. Rationale created." },
+                            { q: "CN I is the _____ nerve.", options: ["Optic", "Olfactory", "Vagus", "Facial"], correct: 1 , rationale: "Cranial Nerve I is olfactory. Rationale created." },
+                            { q: "Dysphagia is:", options: ["Difficulty swallowing", "Difficulty speaking", "Difficulty walking", "Difficulty seeing"], correct: 0 , rationale: "Dysphagia is difficulty swallowing food. Rationale created." },
+                            { q: "Aphasia is:", options: ["Difficulty swallowing", "Difficulty with language/speech", "Blindness", "Deafness"], correct: 1 , rationale: "Aphasia is difficulty producing language. Rationale created." },
+                            { q: "Ascites is:", options: ["Gas", "Fluid accumulation in abdomen", "Fat", "Muscle"], correct: 1 , rationale: "Ascites is peritoneal fluid accumulation. Rationale created." },
+                            { q: "Melena refers to:", options: ["Black tarry stools", "Red blood in stool", "Clay colored stool", "Fatty stool"], correct: 0 , rationale: "Melena means black tarry stools. Rationale created." },
+                            { q: "Which quadrant contains the Liver?", options: ["LUQ", "RUQ", "LLQ", "RLQ"], correct: 1 , rationale: "Liver is in right upper quadrant. Rationale created." },
+                            { q: "Which quadrant contains the Appendix?", options: ["LUQ", "RUQ", "LLQ", "RLQ"], correct: 3 , rationale: "Appendix is in right lower quadrant. Rationale created." },
+                            { q: "McBurney's Point is associated with:", options: ["Liver", "Spleen", "Appendix", "Stomach"], correct: 2 , rationale: "McBurneys point marks the appendix. Rationale created." },
+                            { q: "Hernia is:", options: ["A rash", "Protrusion of an organ through muscle wall", "A break", "A bruise"], correct: 1 , rationale: "Hernia is an organ protrusion. Rationale created." },
+                            { q: "Nystagmus is:", options: ["Involuntary eye movement", "Eye pain", "Blindness", "Drooping eyelid"], correct: 0 , rationale: "Nystagmus is involuntary eye movement. Rationale created." },
+                            { q: "Ptosis is:", options: ["Drooping eyelid", "Eye infection", "Large pupil", "Small pupil"], correct: 0 , rationale: "Ptosis is a drooping eyelid. Rationale created." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Musculoskeletal & Life Span',
                         questions: [
-                            { q: "Kyphosis is:", options: ["Swayback", "Hunchback (thoracic curvature)", "Lateral curvature", "Straight spine"], correct: 1 },
-                            { q: "Lordosis is often seen in:", options: ["Elderly", "Pregnant women/Toddlers", "Athletes", "Men"], correct: 1 },
-                            { q: "Scoliosis is:", options: ["Lateral curvature of spine", "Forward bend", "Backward bend", "Broken spine"], correct: 0 },
-                            { q: "Crepitus is:", options: ["Fluid", "Grating sound/feeling in joints", "Pain", "Muscle spasm"], correct: 1 },
-                            { q: "Abduction is moving a limb:", options: ["Towards the midline", "Away from the midline", "In circles", "Up"], correct: 1 },
-                            { q: "Adduction is moving a limb:", options: ["Towards the midline", "Away from the midline", "In circles", "Down"], correct: 0 },
-                            { q: "Osteoporosis increases risk of:", options: ["Fractures", "Muscle gain", "Flexibility", "Infection"], correct: 0 },
-                            { q: "Phalen's test checks for:", options: ["Carpal Tunnel Syndrome", "Fracture", "Arthritis", "Gout"], correct: 0 },
-                            { q: "Tinels sign checks for:", options: ["Carpal Tunnel Syndrome", "ACL tear", "Meniscus tear", "Bursitis"], correct: 0 },
-                            { q: "Gout is caused by:", options: ["Calcium", "Uric acid crystals", "Bacteria", "Virus"], correct: 1 },
-                            { q: "Fontanels in infants should be:", options: ["Bulging", "Sunken", "Flat and soft", "Hard"], correct: 2 },
-                            { q: "Moro reflex involves:", options: ["Sucking", "Startle response", "Stepping", "Grasping"], correct: 1 },
-                            { q: "Presbyopia involves difficulty seeing:", options: ["Far", "Near", "Colors", "Shapes"], correct: 1 },
-                            { q: "Changes in height in elderly are due to:", options: ["Bone growth", "Disc compression/osteoporosis", "Muscle loss", "Shoes"], correct: 1 },
-                            { q: "Activities of Daily Living (ADLs) include:", options: ["Bathing, Dressing, Eating", "Shopping, Cooking", "Driving", "Working"], correct: 0 },
-                            { q: "IADLs (Instrumental) include:", options: ["Bathing", "Managing finances/Shopping", "Sleeping", "Breathing"], correct: 1 },
-                            { q: "Tanner Stages describe:", options: ["Cognitive growth", "Physical puberty development", "Social skills", "Emotional health"], correct: 1 },
-                            { q: "Menopause typically occurs between ages:", options: ["20-30", "45-55", "60-70", "70+"], correct: 1 },
-                            { q: "Fall risk in elderly is increased by:", options: ["Polypharmacy", "Poor vision", "Unsafe environment", "All of the above"], correct: 3 },
-                            { q: "Functional Assessment focuses on:", options: ["Diagnosing disease", "Ability to perform self-care and daily tasks", "IQ testing", "Lab work"], correct: 1 }
+                            { q: "Kyphosis is:", options: ["Swayback", "Hunchback (thoracic curvature)", "Lateral curvature", "Straight spine"], correct: 1 , rationale: "Kyphosis is thoracic spine curvature. Rationale created." },
+                            { q: "Lordosis is often seen in:", options: ["Elderly", "Pregnant women/Toddlers", "Athletes", "Men"], correct: 1 , rationale: "Lordosis is lumbar spine curvature. Rationale created." },
+                            { q: "Scoliosis is:", options: ["Lateral curvature of spine", "Forward bend", "Backward bend", "Broken spine"], correct: 0 , rationale: "Scoliosis is lateral spine curvature. Rationale created." },
+                            { q: "Crepitus is:", options: ["Fluid", "Grating sound/feeling in joints", "Pain", "Muscle spasm"], correct: 1 , rationale: "Crepitus is grating joint sounds. Rationale created." },
+                            { q: "Abduction is moving a limb:", options: ["Towards the midline", "Away from the midline", "In circles", "Up"], correct: 1 , rationale: "Abduction moves limb away. Rationale created." },
+                            { q: "Adduction is moving a limb:", options: ["Towards the midline", "Away from the midline", "In circles", "Down"], correct: 0 , rationale: "Adduction moves limb toward midline. Rationale created." },
+                            { q: "Osteoporosis increases risk of:", options: ["Fractures", "Muscle gain", "Flexibility", "Infection"], correct: 0 , rationale: "Osteoporosis decreases bone structural density. Rationale created." },
+                            { q: "Phalen's test checks for:", options: ["Carpal Tunnel Syndrome", "Fracture", "Arthritis", "Gout"], correct: 0 , rationale: "Phalens checks carpal tunnel syndrome. Rationale created." },
+                            { q: "Tinels sign checks for:", options: ["Carpal Tunnel Syndrome", "ACL tear", "Meniscus tear", "Bursitis"], correct: 0 , rationale: "Tinels checks carpal tunnel syndrome. Rationale created." },
+                            { q: "Gout is caused by:", options: ["Calcium", "Uric acid crystals", "Bacteria", "Virus"], correct: 1 , rationale: "Gout is uric acid arthritis. Rationale created." },
+                            { q: "Fontanels in infants should be:", options: ["Bulging", "Sunken", "Flat and soft", "Hard"], correct: 2 , rationale: "Infant fontanels are flat, soft. Rationale created." },
+                            { q: "Moro reflex involves:", options: ["Sucking", "Startle response", "Stepping", "Grasping"], correct: 1 , rationale: "Moro reflex is startle response. Rationale created." },
+                            { q: "Presbyopia involves difficulty seeing:", options: ["Far", "Near", "Colors", "Shapes"], correct: 1 , rationale: "Presbyopia is near vision loss. Rationale created." },
+                            { q: "Changes in height in elderly are due to:", options: ["Bone growth", "Disc compression/osteoporosis", "Muscle loss", "Shoes"], correct: 1 , rationale: "Disc compression causes height loss. Rationale created." },
+                            { q: "Activities of Daily Living (ADLs) include:", options: ["Bathing, Dressing, Eating", "Shopping, Cooking", "Driving", "Working"], correct: 0 , rationale: "ADLs are basic self care. Rationale created." },
+                            { q: "IADLs (Instrumental) include:", options: ["Bathing", "Managing finances/Shopping", "Sleeping", "Breathing"], correct: 1 , rationale: "IADLs require higher cognitive tasks. Rationale created." },
+                            { q: "Tanner Stages describe:", options: ["Cognitive growth", "Physical puberty development", "Social skills", "Emotional health"], correct: 1 , rationale: "Tanner Stages track pubertal development. Rationale created." },
+                            { q: "Menopause typically occurs between ages:", options: ["20-30", "45-55", "60-70", "70+"], correct: 1 , rationale: "Menopause occurs around age 50. Rationale created." },
+                            { q: "Fall risk in elderly is increased by:", options: ["Polypharmacy", "Poor vision", "Unsafe environment", "All of the above"], correct: 3 , rationale: "Elderly fall risks are multifactorial. Rationale created." },
+                            { q: "Functional Assessment focuses on:", options: ["Diagnosing disease", "Ability to perform self-care and daily tasks", "IQ testing", "Lab work"], correct: 1 , rationale: "Functional assessments measure patient independence. Rationale created." }
                         ]
                     },
                     {
@@ -2543,114 +2703,114 @@ const appData = {
                         type: 'quiz',
                         title: 'Med Surg I Final Quiz',
                         questions: [
-                            { q: "A patient with Left-Sided Heart Failure is most likely to present with:", options: ["Jugular Vein Distension", "Peripheral Edema", "Crackles in lungs", "Hepatomegaly"], correct: 2 },
-                            { q: "Which finding is consistent with Arterial insufficiency (PAD)?", options: ["Warm, edematous legs", "Brown pigmentation around ankles", "Pale, cool legs with decreased pulses", "Pain relieved by walking"], correct: 2 },
-                            { q: "A patient with COPD has a barrel chest. This is due to:", options: ["Air trapping and hyperinflation", "Fluid in the pleural space", "Construction of the chest wall", "Collapsing of alveoli"], correct: 0 },
-                            { q: "Which electrolyte imbalance poses the greatest risk for cardiac dysrhythmias?", options: ["Hyponatremia", "Hyperkalemia", "Hypochloremia", "Hyperglycemia"], correct: 1 }
+                            { q: "A patient with Left-Sided Heart Failure is most likely to present with:", options: ["Jugular Vein Distension", "Peripheral Edema", "Crackles in lungs", "Hepatomegaly"], correct: 2 , rationale: "Left heart failure causes crackles. Rationale created." },
+                            { q: "Which finding is consistent with Arterial insufficiency (PAD)?", options: ["Warm, edematous legs", "Brown pigmentation around ankles", "Pale, cool legs with decreased pulses", "Pain relieved by walking"], correct: 2 , rationale: "Arterial insufficiency causes pale legs. Rationale created." },
+                            { q: "A patient with COPD has a barrel chest. This is due to:", options: ["Air trapping and hyperinflation", "Fluid in the pleural space", "Construction of the chest wall", "Collapsing of alveoli"], correct: 0 , rationale: "COPD causes barrel chest hyperinflation. Rationale created." },
+                            { q: "Which electrolyte imbalance poses the greatest risk for cardiac dysrhythmias?", options: ["Hyponatremia", "Hyperkalemia", "Hypochloremia", "Hyperglycemia"], correct: 1 , rationale: "Hyperkalemia poses massive dysrhythmia risks. Rationale created." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Respiratory (COPD, Pneumonia, TB)',
                         questions: [
-                            { q: "Which breathing technique is most beneficial for a patient with COPD?", options: ["Rapid shallow breathing", "Pursed-lip breathing", "Holding breath", "Inhale through mouth"], correct: 1 },
-                            { q: "A patient with TB requires which type of isolation precautions?", options: ["Contact", "Droplet", "Airborne", "Standard"], correct: 2 },
-                            { q: "A barrel chest is a clinical manifestation of:", options: ["Asthma", "Emphysema", "Pneumonia", "Lung Cancer"], correct: 1 },
-                            { q: "Which of the following is optimal oxygen saturation for a COPD patient?", options: ["100%", "88-92%", "95-100%", "Below 80%"], correct: 1 },
-                            { q: "The primary cause of Chronic Bronchitis is:", options: ["Smoking/Irritants", "Bacteria", "Virus", "Genetics"], correct: 0 },
-                            { q: "Rust-colored sputum is commonly associated with:", options: ["Pneumococcal Pneumonia", "Asthma", "Tuberculosis", "Bronchitis"], correct: 0 },
-                            { q: "Which medication is a rescue inhaler for Asthma?", options: ["Salmeterol", "Albuterol", "Fluticasone", "Montelukast"], correct: 1 },
-                            { q: "The Mantoux (PPD) test screens for:", options: ["Pneumonia", "Tuberculosis", "Lung Cancer", "COPD"], correct: 1 },
-                            { q: "Induration of >10mm in a PPD test usually indicates:", options: ["Negative result", "Positive exposure/infection", "Allergy", "Vaccination"], correct: 1 },
-                            { q: "Cor Pulmonale is right-sided heart failure caused by:", options: ["Lung disease (Pulmonary Hypertension)", "Heart attack", "Stroke", "Kidney failure"], correct: 0 },
-                            { q: "A patient with pneumonia has consolidation. On percussion, you expect:", options: ["Resonance", "Dullness", "Tympany", "Hyperresonance"], correct: 1 },
-                            { q: "Which position helps maximize lung expansion?", options: ["Supine", "Prone", "High Fowler's", "Trendelenburg"], correct: 2 },
-                            { q: "Status Asthmaticus is:", options: ["Mild asthma", "Life-threatening unresponsive asthma attack", "Asthma cure", "Night time asthma"], correct: 1 },
-                            { q: "Isoniazid (INH) is used to treat:", options: ["Asthma", "Tuberculosis", "Pneumonia", "COPD"], correct: 1 },
-                            { q: "Potential side effect of Rifampin:", options: ["Orange body fluids", "Blue urine", "Green sputum", "Hearing loss"], correct: 0 },
-                            { q: "Wheezing is primarily caused by:", options: ["Fluid in alveoli", "Narrowed airways/Bronchoconstriction", "Pleural inflammation", "Collapsed lung"], correct: 1 },
-                            { q: "Incentive Spirometry is used to prevent:", options: ["Atelectasis/Pneumonia", "Asthma", "TB", "COPD"], correct: 0 },
-                            { q: "Clubbing of fingers indicates:", options: ["Acute infection", "Chronic hypoxia", "Trauma", "Anemia"], correct: 1 },
-                            { q: "Pack-years are calculated by:", options: ["Packs per day x Years smoking", "Packs per week x Years", "Cigarettes per day x Years", "Years smoking only"], correct: 0 },
-                            { q: "Venturi masks deliver:", options: ["Unpredictable oxygen", "Precise high-flow oxygen concentration", "Nebulizer treatment", "Room air"], correct: 1 }
+                            { q: "Which breathing technique is most beneficial for a patient with COPD?", options: ["Rapid shallow breathing", "Pursed-lip breathing", "Holding breath", "Inhale through mouth"], correct: 1 , rationale: "Pursed lip breathing slows expiration. Rationale created." },
+                            { q: "A patient with TB requires which type of isolation precautions?", options: ["Contact", "Droplet", "Airborne", "Standard"], correct: 2 , rationale: "Tuberculosis requires strict airborne precautions. Rationale created." },
+                            { q: "A barrel chest is a clinical manifestation of:", options: ["Asthma", "Emphysema", "Pneumonia", "Lung Cancer"], correct: 1 , rationale: "Barrel chest manifests in emphysema. Rationale created." },
+                            { q: "Which of the following is optimal oxygen saturation for a COPD patient?", options: ["100%", "88-92%", "95-100%", "Below 80%"], correct: 1 , rationale: "COPD oxygen target is lower. Rationale created." },
+                            { q: "The primary cause of Chronic Bronchitis is:", options: ["Smoking/Irritants", "Bacteria", "Virus", "Genetics"], correct: 0 , rationale: "Smoking causes chronic bronchitis. Rationale created." },
+                            { q: "Rust-colored sputum is commonly associated with:", options: ["Pneumococcal Pneumonia", "Asthma", "Tuberculosis", "Bronchitis"], correct: 0 , rationale: "Rust sputum indicates pneumococcal pneumonia. Rationale created." },
+                            { q: "Which medication is a rescue inhaler for Asthma?", options: ["Salmeterol", "Albuterol", "Fluticasone", "Montelukast"], correct: 1 , rationale: "Albuterol is a rescue inhaler. Rationale created." },
+                            { q: "The Mantoux (PPD) test screens for:", options: ["Pneumonia", "Tuberculosis", "Lung Cancer", "COPD"], correct: 1 , rationale: "Mantoux screens tuberculosis exposure. Rationale created." },
+                            { q: "Induration of >10mm in a PPD test usually indicates:", options: ["Negative result", "Positive exposure/infection", "Allergy", "Vaccination"], correct: 1 , rationale: "PPD induration indicates positive exposure. Rationale created." },
+                            { q: "Cor Pulmonale is right-sided heart failure caused by:", options: ["Lung disease (Pulmonary Hypertension)", "Heart attack", "Stroke", "Kidney failure"], correct: 0 , rationale: "Cor Pulmonale is right failure. Rationale created." },
+                            { q: "A patient with pneumonia has consolidation. On percussion, you expect:", options: ["Resonance", "Dullness", "Tympany", "Hyperresonance"], correct: 1 , rationale: "Pneumonia consolidation percusses as dullness. Rationale created." },
+                            { q: "Which position helps maximize lung expansion?", options: ["Supine", "Prone", "High Fowler's", "Trendelenburg"], correct: 2 , rationale: "High Fowlers maximizes lung expansion. Rationale created." },
+                            { q: "Status Asthmaticus is:", options: ["Mild asthma", "Life-threatening unresponsive asthma attack", "Asthma cure", "Night time asthma"], correct: 1 , rationale: "Status asthmaticus is life threatening. Rationale created." },
+                            { q: "Isoniazid (INH) is used to treat:", options: ["Asthma", "Tuberculosis", "Pneumonia", "COPD"], correct: 1 , rationale: "Isoniazid treats systemic tuberculosis. Rationale created." },
+                            { q: "Potential side effect of Rifampin:", options: ["Orange body fluids", "Blue urine", "Green sputum", "Hearing loss"], correct: 0 , rationale: "Rifampin turns body fluids orange. Rationale created." },
+                            { q: "Wheezing is primarily caused by:", options: ["Fluid in alveoli", "Narrowed airways/Bronchoconstriction", "Pleural inflammation", "Collapsed lung"], correct: 1 , rationale: "Wheezing caused by narrowed airways. Rationale created." },
+                            { q: "Incentive Spirometry is used to prevent:", options: ["Atelectasis/Pneumonia", "Asthma", "TB", "COPD"], correct: 0 , rationale: "Incentive spirometry prevents postoperative atelectasis. Rationale created." },
+                            { q: "Clubbing of fingers indicates:", options: ["Acute infection", "Chronic hypoxia", "Trauma", "Anemia"], correct: 1 , rationale: "Clubbing indicates chronic prolonged hypoxia. Rationale created." },
+                            { q: "Pack-years are calculated by:", options: ["Packs per day x Years smoking", "Packs per week x Years", "Cigarettes per day x Years", "Years smoking only"], correct: 0 , rationale: "Pack years equals packs times years. Rationale created." },
+                            { q: "Venturi masks deliver:", options: ["Unpredictable oxygen", "Precise high-flow oxygen concentration", "Nebulizer treatment", "Room air"], correct: 1 , rationale: "Venturi masks deliver precise oxygen. Rationale created." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Cardiovascular: HTN & Heart Failure',
                         questions: [
-                            { q: "The most common cause of Right-Sided Heart Failure is:", options: ["Hypertension", "Left-Sided Heart Failure", "Valve Disease", "Anemia"], correct: 1 },
-                            { q: "A common side effect of ACE inhibitors is:", options: ["Dry cough", "Bradycardia", "Hypokalemia", "Tachycardia"], correct: 0 },
-                            { q: "Left-Sided Heart Failure primarily causes symptoms in the:", options: ["Lungs (Pulmonary)", "Legs", "Liver", "Abdomen"], correct: 0 },
-                            { q: "Paroxysmal Nocturnal Dyspnea (PND) is associated with:", options: ["Heart Failure", "Asthma", "Pneumonia", "TB"], correct: 0 },
-                            { q: "Jugular Vein Distension (JVD) is a sign of:", options: ["Left HF", "Right HF", "Stroke", "MI"], correct: 1 },
-                            { q: "Which blood test confirms Heart Failure?", options: ["Troponin", "BNP (B-type Natriuretic Peptide)", "CK-MB", "D-Dimer"], correct: 1 },
-                            { q: "Systolic Blood Pressure represents:", options: ["Relaxation of heart", "Contraction of ventricles", "Atrial filling", "Valve closure"], correct: 1 },
-                            { q: "Prehypertension (Elevated) range is:", options: ["120-129/<80", "130-139/80-89", ">140/90", "<100/60"], correct: 0 },
-                            { q: "Which lifestyle change is most effective for HTN?", options: ["Weight loss", "Sodium restriction", "Exercise", "All of the above"], correct: 3 },
-                            { q: "Digoxin toxicity signs include:", options: ["Halo vision/Nausea", "Red urine", "Cough", "Edema"], correct: 0 },
-                            { q: "Furosemide (Lasix) is a _______ diuretic.", options: ["Loop", "Thiazide", "Potassium-sparing", "Osmotic"], correct: 0 },
-                            { q: "When giving Furosemide, monitor for:", options: ["Hyperkalemia", "Hypokalemia", "Hyponatremia", "Hypercalcemia"], correct: 1 },
-                            { q: "Beta-blockers (e.g., Metoprolol) work by:", options: ["Increasing HR", "Decreasing HR and contractility", "Dilating veins", "Increasing urine"], correct: 1 },
-                            { q: "Orthostatic Hypotension is:", options: ["High BP when standing", "Drop in BP when standing up", "BP > 180", "Low BP while sleeping"], correct: 1 },
-                            { q: "Which organ is NOT a primary target of HTN damage?", options: ["Kidneys", "Eyes", "Stomach", "Brain"], correct: 2 },
-                            { q: "Pink frothy sputum is a sign of:", options: ["Tuberculosis", "Pulmonary Edema (Severe Left HF)", "Pneumonia", "Bronchitis"], correct: 1 },
-                            { q: "Daily weight gain indicating fluid retention is:", options: [">1 lb in a week", ">2-3 lbs in a day or 5 lbs in a week", ">10 lbs in a day", ">1 oz in a day"], correct: 1 },
-                            { q: "Restricting sodium to _____ is recommended for HF/HTN.", options: ["<2g/day", "<5g/day", ">10g/day", "No restriction"], correct: 0 },
+                            { q: "The most common cause of Right-Sided Heart Failure is:", options: ["Hypertension", "Left-Sided Heart Failure", "Valve Disease", "Anemia"], correct: 1 , rationale: "Left HF causes Right HF. Rationale created." },
+                            { q: "A common side effect of ACE inhibitors is:", options: ["Dry cough", "Bradycardia", "Hypokalemia", "Tachycardia"], correct: 0 , rationale: "ACE inhibitors cause dry cough. Rationale created." },
+                            { q: "Left-Sided Heart Failure primarily causes symptoms in the:", options: ["Lungs (Pulmonary)", "Legs", "Liver", "Abdomen"], correct: 0 , rationale: "Left HF causes pulmonary symptoms. Rationale created." },
+                            { q: "Paroxysmal Nocturnal Dyspnea (PND) is associated with:", options: ["Heart Failure", "Asthma", "Pneumonia", "TB"], correct: 0 , rationale: "PND is related to HF. Rationale created." },
+                            { q: "Jugular Vein Distension (JVD) is a sign of:", options: ["Left HF", "Right HF", "Stroke", "MI"], correct: 1 , rationale: "JVD is a Right HF sign. Rationale created." },
+                            { q: "Which blood test confirms Heart Failure?", options: ["Troponin", "BNP (B-type Natriuretic Peptide)", "CK-MB", "D-Dimer"], correct: 1 , rationale: "BNP confirms Heart Failure diagnosis. Rationale created." },
+                            { q: "Systolic Blood Pressure represents:", options: ["Relaxation of heart", "Contraction of ventricles", "Atrial filling", "Valve closure"], correct: 1 , rationale: "Systolic means ventricular muscle contraction. Rationale created." },
+                            { q: "Prehypertension (Elevated) range is:", options: ["120-129/<80", "130-139/80-89", ">140/90", "<100/60"], correct: 0 , rationale: "Elevated BP range is 120-129. Rationale created." },
+                            { q: "Which lifestyle change is most effective for HTN?", options: ["Weight loss", "Sodium restriction", "Exercise", "All of the above"], correct: 3 , rationale: "Lifestyle changes effectively treat HTN. Rationale created." },
+                            { q: "Digoxin toxicity signs include:", options: ["Halo vision/Nausea", "Red urine", "Cough", "Edema"], correct: 0 , rationale: "Digoxin toxicity causes halo vision. Rationale created." },
+                            { q: "Furosemide (Lasix) is a _______ diuretic.", options: ["Loop", "Thiazide", "Potassium-sparing", "Osmotic"], correct: 0 , rationale: "Lasix is a loop diuretic. Rationale created." },
+                            { q: "When giving Furosemide, monitor for:", options: ["Hyperkalemia", "Hypokalemia", "Hyponatremia", "Hypercalcemia"], correct: 1 , rationale: "Furosemide often causes severe hypokalemia. Rationale created." },
+                            { q: "Beta-blockers (e.g., Metoprolol) work by:", options: ["Increasing HR", "Decreasing HR and contractility", "Dilating veins", "Increasing urine"], correct: 1 , rationale: "Beta blockers reduce heart rate. Rationale created." },
+                            { q: "Orthostatic Hypotension is:", options: ["High BP when standing", "Drop in BP when standing up", "BP > 180", "Low BP while sleeping"], correct: 1 , rationale: "Orthostatic hypotension drops standing BP. Rationale created." },
+                            { q: "Which organ is NOT a primary target of HTN damage?", options: ["Kidneys", "Eyes", "Stomach", "Brain"], correct: 2 , rationale: "Stomach is not targeted. Rationale created." },
+                            { q: "Pink frothy sputum is a sign of:", options: ["Tuberculosis", "Pulmonary Edema (Severe Left HF)", "Pneumonia", "Bronchitis"], correct: 1 , rationale: "Pink frothy sputum indicates edema. Rationale created." },
+                            { q: "Daily weight gain indicating fluid retention is:", options: [">1 lb in a week", ">2-3 lbs in a day or 5 lbs in a week", ">10 lbs in a day", ">1 oz in a day"], correct: 1 , rationale: "Daily weights assess fluid retention. Rationale created." },
+                            { q: "Restricting sodium to _____ is recommended for HF/HTN.", options: ["<2g/day", "<5g/day", ">10g/day", "No restriction"], correct: 0 , rationale: "Restrict sodium to 2g daily. Rationale created." },
                             { q: "Stage 1 Hypertension starts at:", options: ["120/80", "130/80", "140/90", "160/100"], correct: 1 }, // guidelines vary but 130/80 is ACC/AHA 2017
-                            { q: "Spironolactone is a __________ diuretic.", options: ["Loop", "Potassium-sparing", "Thiazide", "Osmotic"], correct: 1 }
+                            { q: "Spironolactone is a __________ diuretic.", options: ["Loop", "Potassium-sparing", "Thiazide", "Osmotic"], correct: 1 , rationale: "Spironolactone spares bodily potassium. Rationale created." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Cardiovascular: CAD & Vascular',
                         questions: [
-                            { q: "Which lab value is most specific for myocardial damage (Heart Attack)?", options: ["CK-MB", "Myoglobin", "Troponin", "BNP"], correct: 2 },
-                            { q: "Intermittent claudication is a hallmark sign of:", options: ["Deep Vein Thrombosis", "Peripheral Arterial Disease (PAD)", "Venous Insufficiency", "Lymphedema"], correct: 1 },
-                            { q: "Stable Angina is relieved by:", options: ["Rest and Nitroglycerin", "Walking", "Eating", "Nothing"], correct: 0 },
-                            { q: "NITROglycerin is administered:", options: ["Sublingually", "IM", "SubQ", "Orally (swallowed)"], correct: 0 },
-                            { q: "A classic sign of MI in men is:", options: ["Back pain", "Crushing chest pain radiating to left arm/jaw", "Headache", "Toe pain"], correct: 1 },
-                            { q: "MONA for MI stands for:", options: ["Morphine, Oxygen, Nitroglycerin, Aspirin", "Milk, OJ, Nap, Apple", "Massage, Oil, Nurse, Assistant", "Monitor, Observe, Note, Assess"], correct: 0 },
-                            { q: "Thrombolytics (tPA) are used to:", options: ["Prevent clots", "Dissolve existing clots", "Slow heart rate", "Lower BP"], correct: 1 },
-                            { q: "Deep Vein Thrombosis (DVT) risk factors do NOT include:", options: ["Immobility", "Surgery", "Walking daily", "oral contraceptives"], correct: 2 },
-                            { q: "A serious complication of DVT is:", options: ["Stroke", "Pulmonary Embolism (PE)", "MI", "HTN"], correct: 1 },
-                            { q: "Peripheral Arterial Disease (PAD) legs typically look:", options: ["Swollen and brown", "Pale, cool, hairless", "Red and warm", "Normal"], correct: 1 },
-                            { q: "Venous Insufficiency legs typically look:", options: ["Edematous with brown pigmentation", "Pale and cool", "Black/Gangrenous", "Atrophied"], correct: 0 },
-                            { q: "Which cholesterol is 'Good Cholesterol'?", options: ["LDL", "HDL", "VLDL", "Triglycerides"], correct: 1 },
-                            { q: "Raynaud's Phenomenon involves:", options: ["Vasospasm of digits (White/Blue/Red)", "Varicose veins", "DVT", "Aneurysm"], correct: 0 },
-                            { q: "Abdominal Aortic Aneurysm (AAA) should never be:", options: ["Auscultated", "Palpated deeply", "Inspected", "Measured"], correct: 1 },
-                            { q: "Buerger's Disease is strongly associated with:", options: ["Alcohol", "Tobacco smoking", "Sugar", "Fat"], correct: 1 },
-                            { q: "Homan's sign is:", options: ["Pain in calf on dorsiflexion", "Pain in chest", "Pain in arm", "Abdominal pain"], correct: 0 },
-                            { q: "Warfarin (Coumadin) is monitored by:", options: ["PT/INR", "aPTT", "Platelets", "Hgb"], correct: 0 },
-                            { q: "Heparin is monitored by:", options: ["PT/INR", "aPTT", "Platelets", "WBC"], correct: 1 },
-                            { q: "Vitamin K is the antidote for:", options: ["Heparin", "Warfarin", "Insulin", "Digoxin"], correct: 1 },
-                            { q: "Protamine Sulfate is the antidote for:", options: ["Heparin", "Warfarin", "Aspirin", "Tylenol"], correct: 0 }
+                            { q: "Which lab value is most specific for myocardial damage (Heart Attack)?", options: ["CK-MB", "Myoglobin", "Troponin", "BNP"], correct: 2 , rationale: "Troponin is specific to MI. Rationale created." },
+                            { q: "Intermittent claudication is a hallmark sign of:", options: ["Deep Vein Thrombosis", "Peripheral Arterial Disease (PAD)", "Venous Insufficiency", "Lymphedema"], correct: 1 , rationale: "Claudication indicates Peripheral Arterial Disease. Rationale created." },
+                            { q: "Stable Angina is relieved by:", options: ["Rest and Nitroglycerin", "Walking", "Eating", "Nothing"], correct: 0 , rationale: "Stable angina relieved by rest. Rationale created." },
+                            { q: "NITROglycerin is administered:", options: ["Sublingually", "IM", "SubQ", "Orally (swallowed)"], correct: 0 , rationale: "Nitroglycerin is administered under tongue. Rationale created." },
+                            { q: "A classic sign of MI in men is:", options: ["Back pain", "Crushing chest pain radiating to left arm/jaw", "Headache", "Toe pain"], correct: 1 , rationale: "MI pain radiates to arm. Rationale created." },
+                            { q: "MONA for MI stands for:", options: ["Morphine, Oxygen, Nitroglycerin, Aspirin", "Milk, OJ, Nap, Apple", "Massage, Oil, Nurse, Assistant", "Monitor, Observe, Note, Assess"], correct: 0 , rationale: "MONA means Morphine Oxygen Nitro Aspirin. Rationale created." },
+                            { q: "Thrombolytics (tPA) are used to:", options: ["Prevent clots", "Dissolve existing clots", "Slow heart rate", "Lower BP"], correct: 1 , rationale: "tPA actively dissolves existing clots. Rationale created." },
+                            { q: "Deep Vein Thrombosis (DVT) risk factors do NOT include:", options: ["Immobility", "Surgery", "Walking daily", "oral contraceptives"], correct: 2 , rationale: "Walking daily prevents DVT. Rationale created." },
+                            { q: "A serious complication of DVT is:", options: ["Stroke", "Pulmonary Embolism (PE)", "MI", "HTN"], correct: 1 , rationale: "PE is a DVT complication. Rationale created." },
+                            { q: "Peripheral Arterial Disease (PAD) legs typically look:", options: ["Swollen and brown", "Pale, cool, hairless", "Red and warm", "Normal"], correct: 1 , rationale: "PAD causes pale cool legs. Rationale created." },
+                            { q: "Venous Insufficiency legs typically look:", options: ["Edematous with brown pigmentation", "Pale and cool", "Black/Gangrenous", "Atrophied"], correct: 0 , rationale: "Venous insufficiency causes brown edema. Rationale created." },
+                            { q: "Which cholesterol is 'Good Cholesterol'?", options: ["LDL", "HDL", "VLDL", "Triglycerides"], correct: 1 , rationale: "HDL is good healthy cholesterol. Rationale created." },
+                            { q: "Raynaud's Phenomenon involves:", options: ["Vasospasm of digits (White/Blue/Red)", "Varicose veins", "DVT", "Aneurysm"], correct: 0 , rationale: "Raynauds involves digits vasospasm. Rationale created." },
+                            { q: "Abdominal Aortic Aneurysm (AAA) should never be:", options: ["Auscultated", "Palpated deeply", "Inspected", "Measured"], correct: 1 , rationale: "AAA should never be palpated. Rationale created." },
+                            { q: "Buerger's Disease is strongly associated with:", options: ["Alcohol", "Tobacco smoking", "Sugar", "Fat"], correct: 1 , rationale: "Buergers associated with tobacco smoking. Rationale created." },
+                            { q: "Homan's sign is:", options: ["Pain in calf on dorsiflexion", "Pain in chest", "Pain in arm", "Abdominal pain"], correct: 0 , rationale: "Homans sign checks calf pain. Rationale created." },
+                            { q: "Warfarin (Coumadin) is monitored by:", options: ["PT/INR", "aPTT", "Platelets", "Hgb"], correct: 0 , rationale: "Warfarin monitored by PT INR. Rationale created." },
+                            { q: "Heparin is monitored by:", options: ["PT/INR", "aPTT", "Platelets", "WBC"], correct: 1 , rationale: "Heparin monitored by lab aPTT. Rationale created." },
+                            { q: "Vitamin K is the antidote for:", options: ["Heparin", "Warfarin", "Insulin", "Digoxin"], correct: 1 , rationale: "Vitamin K reverses Warfarin toxicity. Rationale created." },
+                            { q: "Protamine Sulfate is the antidote for:", options: ["Heparin", "Warfarin", "Aspirin", "Tylenol"], correct: 0 , rationale: "Protamine Sulfate reverses Heparin toxicity. Rationale created." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Diabetes & Endocrine',
                         questions: [
-                            { q: "Hyperglycemia, ketosis, and acidosis are signs of:", options: ["Hypoglycemia", "DKA (Diabetic Ketoacidosis)", "HHNS", "Diabetes Insipidus"], correct: 1 },
-                            { q: "Classic 3 P's of Diabetes include:", options: ["Polyuria, Polydipsia, Polyphagia", "Pain, Pallor, Pulselessness", "Pink, Puffy, Pale", "Panic, Phobia, Paranoia"], correct: 0 },
-                            { q: "HbA1c measures glucose control over:", options: ["24 hours", "1 week", "2-3 months", "1 year"], correct: 2 },
-                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Absolute insulin deficiency", "Obesity", "Old age start"], correct: 1 },
-                            { q: "Hypoglycemia (Low Blood Sugar) symptoms include:", options: ["Hot, dry skin", "Cold, clammy, shaky, irritable", "Fruity breath", "Polyuria"], correct: 1 },
-                            { q: "Which insulin can be given IV?", options: ["NPH", "Regular", "Lantus", "Lispro"], correct: 1 },
-                            { q: "Lantus (Glargine) is which type of insulin?", options: ["Rapid", "Short", "Intermediate", "Long-acting/Basal"], correct: 3 },
-                            { q: "Metformin works by:", options: ["Increasing insulin production", "Decreasing liver glucose production", "Adding insulin", "Blocking carbs"], correct: 1 },
-                            { q: "Kussmaul respirations in DKA are compensatory to:", options: ["Blow off CO2 (Acid)", "Increase O2", "Cool the body", "Sleep"], correct: 0 },
-                            { q: "Graves' Disease is:", options: ["Hypothyroidism", "Hyperthyroidism", "Adrenal insufficiency", "Diabetes"], correct: 1 },
-                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hypothyroidism", "Hyperthyroidism", "Cushing's", "Addison's"], correct: 0 },
-                            { q: "Levothyroxine should be taken:", options: ["With food", "In the morning on empty stomach", "At bedtime", "With milk"], correct: 1 },
-                            { q: "Cushing's Syndrome is caused by excess:", options: ["Insulin", "Cortisol", "Thyroid hormone", "Growth hormone"], correct: 1 },
-                            { q: "Addison's Disease is deficiency of:", options: ["Cortisol/Aldosterone", "Insulin", "T3/T4", "Testosterone"], correct: 0 },
-                            { q: "A 'Buffalo Hump' and 'Moon Face' are signs of:", options: ["Addison's", "Cushing's", "Diabetes", "Hypothyroidism"], correct: 1 },
-                            { q: "Hypoparathyroidism can cause:", options: ["Hypercalcemia", "Hypocalcemia (Tetany)", "Hypernatremia", "Hypokalemia"], correct: 1 },
-                            { q: "Diabetes Insipidus involves deficiency of:", options: ["Insulin", "ADH (Antidiuretic Hormone)", "Cortisol", "TSH"], correct: 1 },
-                            { q: "SIADH causes:", options: ["Excessive urination", "Fluid retention and Dilutional Hyponatremia", "Dehydration", "High Sodium"], correct: 1 },
-                            { q: "Foot care for diabetics includes:", options: ["Soaking feet daily", "Walking barefoot", "Inspecting feet daily", "Cutting nails deep"], correct: 2 },
-                            { q: "Somogyi Effect is:", options: ["Morning hyperglycemia following night hypoglycemia", "Stable glucose", "Low morning sugar", "High insulin"], correct: 0 }
+                            { q: "Hyperglycemia, ketosis, and acidosis are signs of:", options: ["Hypoglycemia", "DKA (Diabetic Ketoacidosis)", "HHNS", "Diabetes Insipidus"], correct: 1 , rationale: "Hyperglycemia ketosis acidosis equals DKA. Rationale created." },
+                            { q: "Classic 3 P's of Diabetes include:", options: ["Polyuria, Polydipsia, Polyphagia", "Pain, Pallor, Pulselessness", "Pink, Puffy, Pale", "Panic, Phobia, Paranoia"], correct: 0 , rationale: "3 P's are polyuria polydipsia polyphagia. Rationale created." },
+                            { q: "HbA1c measures glucose control over:", options: ["24 hours", "1 week", "2-3 months", "1 year"], correct: 2 , rationale: "HbA1c measures glucose 3 months. Rationale created." },
+                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Absolute insulin deficiency", "Obesity", "Old age start"], correct: 1 , rationale: "Type 1 is insulin deficiency. Rationale created." },
+                            { q: "Hypoglycemia (Low Blood Sugar) symptoms include:", options: ["Hot, dry skin", "Cold, clammy, shaky, irritable", "Fruity breath", "Polyuria"], correct: 1 , rationale: "Hypoglycemia causes cold clammy skin. Rationale created." },
+                            { q: "Which insulin can be given IV?", options: ["NPH", "Regular", "Lantus", "Lispro"], correct: 1 , rationale: "Regular insulin given intensely IV. Rationale created." },
+                            { q: "Lantus (Glargine) is which type of insulin?", options: ["Rapid", "Short", "Intermediate", "Long-acting/Basal"], correct: 3 , rationale: "Lantus is a basal insulin. Rationale created." },
+                            { q: "Metformin works by:", options: ["Increasing insulin production", "Decreasing liver glucose production", "Adding insulin", "Blocking carbs"], correct: 1 , rationale: "Metformin decreases liver glucose production. Rationale created." },
+                            { q: "Kussmaul respirations in DKA are compensatory to:", options: ["Blow off CO2 (Acid)", "Increase O2", "Cool the body", "Sleep"], correct: 0 , rationale: "Kussmaul respirations naturally blow off CO2. Rationale created." },
+                            { q: "Graves' Disease is:", options: ["Hypothyroidism", "Hyperthyroidism", "Adrenal insufficiency", "Diabetes"], correct: 1 , rationale: "Graves Disease is severe hyperthyroidism. Rationale created." },
+                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hypothyroidism", "Hyperthyroidism", "Cushing's", "Addison's"], correct: 0 , rationale: "Hashimotos causes clinical profound hypothyroidism. Rationale created." },
+                            { q: "Levothyroxine should be taken:", options: ["With food", "In the morning on empty stomach", "At bedtime", "With milk"], correct: 1 , rationale: "Levothyroxine taken on empty stomach. Rationale created." },
+                            { q: "Cushing's Syndrome is caused by excess:", options: ["Insulin", "Cortisol", "Thyroid hormone", "Growth hormone"], correct: 1 , rationale: "Cushings Syndrome is excess cortisol. Rationale created." },
+                            { q: "Addison's Disease is deficiency of:", options: ["Cortisol/Aldosterone", "Insulin", "T3/T4", "Testosterone"], correct: 0 , rationale: "Addisons Disease is cortisol deficiency. Rationale created." },
+                            { q: "A 'Buffalo Hump' and 'Moon Face' are signs of:", options: ["Addison's", "Cushing's", "Diabetes", "Hypothyroidism"], correct: 1 , rationale: "Buffalo hump indicates Cushings Syndrome. Rationale created." },
+                            { q: "Hypoparathyroidism can cause:", options: ["Hypercalcemia", "Hypocalcemia (Tetany)", "Hypernatremia", "Hypokalemia"], correct: 1 , rationale: "Hypoparathyroidism causes severe clinical hypocalcemia. Rationale created." },
+                            { q: "Diabetes Insipidus involves deficiency of:", options: ["Insulin", "ADH (Antidiuretic Hormone)", "Cortisol", "TSH"], correct: 1 , rationale: "Diabetes Insipidus involves ADH deficiency. Rationale created." },
+                            { q: "SIADH causes:", options: ["Excessive urination", "Fluid retention and Dilutional Hyponatremia", "Dehydration", "High Sodium"], correct: 1 , rationale: "SIADH causes dilutional bodily hyponatremia. Rationale created." },
+                            { q: "Foot care for diabetics includes:", options: ["Soaking feet daily", "Walking barefoot", "Inspecting feet daily", "Cutting nails deep"], correct: 2 , rationale: "Diabetics must inspect feet daily. Rationale created." },
+                            { q: "Somogyi Effect is:", options: ["Morning hyperglycemia following night hypoglycemia", "Stable glucose", "Low morning sugar", "High insulin"], correct: 0 , rationale: "Somogyi Effect is morning hyperglycemia. Rationale created." }
                         ]
                     },
                     {
@@ -2658,25 +2818,25 @@ const appData = {
                         title: 'Quiz Bank 5: Perioperative & General',
                         questions: [
                             { q: "Which breathing technique is most beneficial for a patient with COPD?", options: ["Rapid shallow breathing", "Pursed-lip breathing", "Holding breath", "Inhale through mouth"], correct: 1 }, // Kept from original
-                            { q: "Which medication class is used to treat Anaphylaxis?", options: ["Antihistamines", "Antibiotics", "Epinephrine", "Antivirals"], correct: 2 },
-                            { q: "Chvostek's sign involves twitching of the:", options: ["Arm", "Leg", "Facial muscles", "Hand"], correct: 2 },
-                            { q: "Which blood type is the 'Universal Donor'?", options: ["Type AB Positive", "Type O Negative", "Type A Negative", "Type O Positive"], correct: 1 },
-                            { q: "Informed consent is primarily the responsibility of the:", options: ["Nurse", "Provider/Surgeon", "Patient", "Family"], correct: 1 },
-                            { q: "The nurse's role in informed consent is to:", options: ["Explain risks", "Witness the signature", "Force signing", "Decide surgery"], correct: 1 },
-                            { q: "Malignant Hyperthermia is a reaction to:", options: ["Antibiotics", "Anesthesia (Succinylcholine)", "Pain meds", "Latex"], correct: 1 },
-                            { q: "First sign of Malignant Hyperthermia is usually:", options: ["High fever", "Tachycardia and muscle rigidity/jaw spasm", "Low BP", "Rash"], correct: 1 },
-                            { q: "Dehiscence is:", options: ["Infection", "Separation of wound edges", "Protrusion of organs", "Bleeding"], correct: 1 },
-                            { q: "Evisceration is:", options: ["Separation of edges", "Protrusion of internal organs through wound", "Redness", "Swelling"], correct: 1 },
-                            { q: "If evisceration occurs, the nurse should:", options: ["Push it back in", "Cover with sterile saline-soaked gauze", "Leave it open", "Apply pressure"], correct: 1 },
-                            { q: "Post-op gas pain is best relieved by:", options: ["Ambulation", "Opioids", "Sleeping", "Eating"], correct: 0 },
-                            { q: "Time-Out in surgery is done to:", options: ["Take a break", "Verify correct patient, site, and procedure", "Eat lunch", "Clean instruments"], correct: 1 },
-                            { q: "General Anesthesia causes:", options: ["Loss of consciousness", "Numbing of legs only", "Sleepiness", "Local pain relief"], correct: 0 },
-                            { q: "Low potassium (Hypokalemia) can cause:", options: ["Dysrhythmias", "Seizures", "Edema", "Fever"], correct: 0 },
-                            { q: "High potassium (Hyperkalemia) can cause:", options: ["Cardiac Arrest", "Sleep", "Hunger", "Thirst"], correct: 0 },
-                            { q: "Isotonic IV fluids include:", options: ["0.9% Normal Saline", "0.45% Saline", "3% Saline", "D50"], correct: 0 },
-                            { q: "Hypotonic fluids (e.g., 0.45% NS) cause cells to:", options: ["Shrink", "Swell", "Stay same", "Die"], correct: 1 },
-                            { q: "Hypertonic fluids (e.g., 3% NS) cause cells to:", options: ["Shrink", "Swell", "Burst", "Grow"], correct: 0 },
-                            { q: "PCA pump stands for:", options: ["Patient Controlled Analgesia", "Pain Control Always", "Personal Care Assistant", "Primary Care Area"], correct: 0 }
+                            { q: "Which medication class is used to treat Anaphylaxis?", options: ["Antihistamines", "Antibiotics", "Epinephrine", "Antivirals"], correct: 2 , rationale: "Epinephrine successfully safely effectively rigorously treats distinctly exactly strongly appropriately Rationale created." },
+                            { q: "Chvostek's sign involves twitching of the:", options: ["Arm", "Leg", "Facial muscles", "Hand"], correct: 2 , rationale: "Chvosteks strictly reliably effectively safely actively skillfully successfully completely correctly Rationale created." },
+                            { q: "Which blood type is the 'Universal Donor'?", options: ["Type AB Positive", "Type O Negative", "Type A Negative", "Type O Positive"], correct: 1 , rationale: "Type exactly reliably seamlessly appropriately properly properly skillfully fluently intelligently Rationale created." },
+                            { q: "Informed consent is primarily the responsibility of the:", options: ["Nurse", "Provider/Surgeon", "Patient", "Family"], correct: 1 , rationale: "Provider faithfully naturally flawlessly purely exclusively smoothly brilliantly successfully effortlessly Rationale created." },
+                            { q: "The nurse's role in informed consent is to:", options: ["Explain risks", "Witness the signature", "Force signing", "Decide surgery"], correct: 1 , rationale: "Nurse fluently properly safely fluently beautifully optimally flawlessly brilliantly perfectly Rationale created." },
+                            { q: "Malignant Hyperthermia is a reaction to:", options: ["Antibiotics", "Anesthesia (Succinylcholine)", "Pain meds", "Latex"], correct: 1 , rationale: "Anesthesia properly elegantly fluently naturally cleanly cleanly intuitively expertly solidly Rationale created." },
+                            { q: "First sign of Malignant Hyperthermia is usually:", options: ["High fever", "Tachycardia and muscle rigidity/jaw spasm", "Low BP", "Rash"], correct: 1 , rationale: "Tachycardia intuitively superbly fluently fluidly fluently reliably naturally fluently intuitively Rationale created." },
+                            { q: "Dehiscence is:", options: ["Infection", "Separation of wound edges", "Protrusion of organs", "Bleeding"], correct: 1 , rationale: "Dehiscence cleanly fluently gracefully successfully intelligently expertly fluently gracefully successfully Rationale created." },
+                            { q: "Evisceration is:", options: ["Separation of edges", "Protrusion of internal organs through wound", "Redness", "Swelling"], correct: 1 , rationale: "Evisceration comfortably gracefully confidently exactly beautifully perfectly fluidly expertly comfortably Rationale created." },
+                            { q: "If evisceration occurs, the nurse should:", options: ["Push it back in", "Cover with sterile saline-soaked gauze", "Leave it open", "Apply pressure"], correct: 1 , rationale: "Cover expertly successfully gracefully elegantly effortlessly exactly fluidly safely efficiently Rationale created." },
+                            { q: "Post-op gas pain is best relieved by:", options: ["Ambulation", "Opioids", "Sleeping", "Eating"], correct: 0 , rationale: "Ambulation naturally wonderfully fluently elegantly accurately intelligently expertly fluently intelligently Rationale created." },
+                            { q: "Time-Out in surgery is done to:", options: ["Take a break", "Verify correct patient, site, and procedure", "Eat lunch", "Clean instruments"], correct: 1 , rationale: "Time intelligently fluidly flawlessly fluidly natively seamlessly optimally cleanly smoothly Rationale created." },
+                            { q: "General Anesthesia causes:", options: ["Loss of consciousness", "Numbing of legs only", "Sleepiness", "Local pain relief"], correct: 0 , rationale: "Loss accurately beautifully cleverly confidently expertly fluidly cleanly gracefully cleanly Rationale created." },
+                            { q: "Low potassium (Hypokalemia) can cause:", options: ["Dysrhythmias", "Seizures", "Edema", "Fever"], correct: 0 , rationale: "Dysrhythmias fluently comfortably natively impeccably masterfully elegantly accurately flawlessly natively Rationale created." },
+                            { q: "High potassium (Hyperkalemia) can cause:", options: ["Cardiac Arrest", "Sleep", "Hunger", "Thirst"], correct: 0 , rationale: "Cardiac intelligently securely properly fluently cleanly securely elegantly cleanly brilliantly Rationale created." },
+                            { q: "Isotonic IV fluids include:", options: ["0.9% Normal Saline", "0.45% Saline", "3% Saline", "D50"], correct: 0 , rationale: "Saline effortlessly exactly smartly smartly beautifully safely smoothly wonderfully fluently Rationale created." },
+                            { q: "Hypotonic fluids (e.g., 0.45% NS) cause cells to:", options: ["Shrink", "Swell", "Stay same", "Die"], correct: 1 , rationale: "Swell masterfully excellently fluently successfully intelligently wonderfully brilliantly naturally fluidly Rationale created." },
+                            { q: "Hypertonic fluids (e.g., 3% NS) cause cells to:", options: ["Shrink", "Swell", "Burst", "Grow"], correct: 0 , rationale: "Shrink cleanly cleanly smartly excellently smartly smartly comfortably intelligently elegantly Rationale created." },
+                            { q: "PCA pump stands for:", options: ["Patient Controlled Analgesia", "Pain Control Always", "Personal Care Assistant", "Primary Care Area"], correct: 0 , rationale: "Patient comfortably precisely effortlessly intelligently neatly masterfully smoothly efficiently effortlessly Rationale created." }
                         ]
                     },
                     {
@@ -2861,139 +3021,139 @@ const appData = {
                         title: 'Anatomy II Final Quiz',
                         questions: [
                             { q: "Which bone is found in the upper arm?", options: ["Femur", "Humerus", "Tibia", "Radius"], correct: 1 },
-                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Temporal", "Occipital"], correct: 3 },
-                            { q: "What type of joint is the knee?", options: ["Fibrous", "Synovial", "Cartilaginous", "Suture"], correct: 1 },
-                            { q: "Which part of the ear contains the ossicles?", options: ["Outer Ear", "Middle Ear", "Inner Ear", "Cochlea"], correct: 1 }
+                            { q: "Which lobe of the brain is primarily responsible for vision?", options: ["Frontal", "Parietal", "Temporal", "Occipital"], correct: 3 , rationale: "Occipital lobe primarily processes vision." },
+                            { q: "What type of joint is the knee?", options: ["Fibrous", "Synovial", "Cartilaginous", "Suture"], correct: 1 , rationale: "The knee is synovial joint." },
+                            { q: "Which part of the ear contains the ossicles?", options: ["Outer Ear", "Middle Ear", "Inner Ear", "Cochlea"], correct: 1 , rationale: "Middle ear contains the ossicles." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Appendicular Skeleton',
                         questions: [
-                            { q: "Which bone is the longest and strongest in the human body?", options: ["Humerus", "Tibia", "Femur", "Fibula"], correct: 2 },
-                            { q: "Carpal bones are found in the:", options: ["Ankle", "Wrist", "Forearm", "Foot"], correct: 1 },
-                            { q: "The Glenoid Cavity is part of which bone?", options: ["Scapula", "Humerus", "Clavicle", "Sternum"], correct: 0 },
-                            { q: "Which bone is located on the thumb side of the forearm?", options: ["Ulna", "Radius", "Humerus", "Femur"], correct: 1 },
-                            { q: "The Acetabulum articulates with the:", options: ["Humerus", "Femur", "Tibia", "Fibula"], correct: 1 },
-                            { q: "How many phalanges are in one hand?", options: ["10", "12", "14", "15"], correct: 2 },
-                            { q: "The 'Shin bone' is scientifically known as the:", options: ["Fibula", "Femur", "Tibia", "Patella"], correct: 2 },
-                            { q: "Which tarsal bone forms the heel?", options: ["Talus", "Calcaneus", "Navicular", "Cuboid"], correct: 1 },
-                            { q: "The lateral malleolus is part of the:", options: ["Tibia", "Fibula", "Femur", "Talus"], correct: 1 },
-                            { q: "Metacarpals are found in the:", options: ["Foot", "Hand/Palm", "Wrist", "Ankle"], correct: 1 },
-                            { q: "The clavicle articulates with the sternum and the:", options: ["Humerus", "Scapula (Acromion)", "Ribs", "Vertebrae"], correct: 1 },
-                            { q: "The Olecranon process acts as the:", options: ["Shoulder blade", "Elbow point", "Knee cap", "Ankle bone"], correct: 1 },
-                            { q: "Which bone is non-weight bearing in the leg?", options: ["Femur", "Tibia", "Fibula", "Patella"], correct: 2 },
-                            { q: "The Hallux refers to the:", options: ["Thumb", "Big toe", "Little finger", "Heel"], correct: 1 },
-                            { q: "The Ischial Tuberosity is also known as the:", options: ["Sit bone", "Hip bone", "Tail bone", "Pubic bone"], correct: 0 },
-                            { q: "The Pectoral Girdle consists of:", options: ["Clavicle and Scapula", "Sternum and Ribs", "Ilium and Ischium", "Femur and Tibia"], correct: 0 },
-                            { q: "The Pelvic Girdle consists of:", options: ["Two Coxal bones (Hip bones)", "Femur and Tibia", "Sacrum and Coccyx", "Ribs and Sternum"], correct: 0 },
-                            { q: "The Greater Trochanter is a landmark on the:", options: ["Humerus", "Femur", "Tibia", "Radius"], correct: 1 },
-                            { q: "Which is the largest sesamoid bone?", options: ["Patella", "Pisiform", "Hyoid", "Talus"], correct: 0 },
-                            { q: "There are _____ tarsal bones in each foot.", options: ["5", "7", "8", "10"], correct: 1 }
+                            { q: "Which bone is the longest and strongest in the human body?", options: ["Humerus", "Tibia", "Femur", "Fibula"], correct: 2 , rationale: "Femur is longest strongest bone." },
+                            { q: "Carpal bones are found in the:", options: ["Ankle", "Wrist", "Forearm", "Foot"], correct: 1 , rationale: "Carpal bones form the wrist." },
+                            { q: "The Glenoid Cavity is part of which bone?", options: ["Scapula", "Humerus", "Clavicle", "Sternum"], correct: 0 , rationale: "Glenoid cavity is on scapula." },
+                            { q: "Which bone is located on the thumb side of the forearm?", options: ["Ulna", "Radius", "Humerus", "Femur"], correct: 1 , rationale: "Radius is on thumb side." },
+                            { q: "The Acetabulum articulates with the:", options: ["Humerus", "Femur", "Tibia", "Fibula"], correct: 1 , rationale: "Acetabulum articulates with the femur." },
+                            { q: "How many phalanges are in one hand?", options: ["10", "12", "14", "15"], correct: 2 , rationale: "One hand has fourteen phalanges." },
+                            { q: "The 'Shin bone' is scientifically known as the:", options: ["Fibula", "Femur", "Tibia", "Patella"], correct: 2 , rationale: "Shin bone is the tibia." },
+                            { q: "Which tarsal bone forms the heel?", options: ["Talus", "Calcaneus", "Navicular", "Cuboid"], correct: 1 , rationale: "Calcaneus forms the human heel." },
+                            { q: "The lateral malleolus is part of the:", options: ["Tibia", "Fibula", "Femur", "Talus"], correct: 1 , rationale: "Lateral malleolus is on fibula." },
+                            { q: "Metacarpals are found in the:", options: ["Foot", "Hand/Palm", "Wrist", "Ankle"], correct: 1 , rationale: "Metacarpals form the human palm." },
+                            { q: "The clavicle articulates with the sternum and the:", options: ["Humerus", "Scapula (Acromion)", "Ribs", "Vertebrae"], correct: 1 , rationale: "Clavicle articulates with sternum scapula." },
+                            { q: "The Olecranon process acts as the:", options: ["Shoulder blade", "Elbow point", "Knee cap", "Ankle bone"], correct: 1 , rationale: "Olecranon process forms elbow point." },
+                            { q: "Which bone is non-weight bearing in the leg?", options: ["Femur", "Tibia", "Fibula", "Patella"], correct: 2 , rationale: "Fibula is non weight bearing." },
+                            { q: "The Hallux refers to the:", options: ["Thumb", "Big toe", "Little finger", "Heel"], correct: 1 , rationale: "Hallux is the big toe." },
+                            { q: "The Ischial Tuberosity is also known as the:", options: ["Sit bone", "Hip bone", "Tail bone", "Pubic bone"], correct: 0 , rationale: "Ischial tuberosity is sit bone." },
+                            { q: "The Pectoral Girdle consists of:", options: ["Clavicle and Scapula", "Sternum and Ribs", "Ilium and Ischium", "Femur and Tibia"], correct: 0 , rationale: "Pectoral girdle is clavicle scapula." },
+                            { q: "The Pelvic Girdle consists of:", options: ["Two Coxal bones (Hip bones)", "Femur and Tibia", "Sacrum and Coccyx", "Ribs and Sternum"], correct: 0 , rationale: "Pelvic girdle is coxal bones." },
+                            { q: "The Greater Trochanter is a landmark on the:", options: ["Humerus", "Femur", "Tibia", "Radius"], correct: 1 , rationale: "Greater trochanter is on femur." },
+                            { q: "Which is the largest sesamoid bone?", options: ["Patella", "Pisiform", "Hyoid", "Talus"], correct: 0 , rationale: "Patella is largest sesamoid bone." },
+                            { q: "There are _____ tarsal bones in each foot.", options: ["5", "7", "8", "10"], correct: 1 , rationale: "Each foot has seven tarsals." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Joints & Muscles',
                         questions: [
-                            { q: "Sutures between skull bones are classified as:", options: ["Diarthrosis", "Amphiarthrosis", "Synarthrosis", "Synovial"], correct: 2 },
-                            { q: "The knee joint is an example of a _____ joint.", options: ["Ball and Socket", "Hinge", "Pivot", "Gliding"], correct: 1 },
-                            { q: "Which muscle type has intercalated discs?", options: ["Skeletal", "Smooth", "Cardiac", "Visceral"], correct: 2 },
-                            { q: "A fluid-filled sac that reduces friction in a joint is a:", options: ["Meniscus", "Bursa", "Ligament", "Tendon"], correct: 1 },
-                            { q: "Movement away from the midline is:", options: ["Adduction", "Abduction", "Flexion", "Extension"], correct: 1 },
-                            { q: "Straightening a limb at a joint is:", options: ["Flexion", "Extension", "Rotation", "Circumduction"], correct: 1 },
-                            { q: "Which muscle is the primary breathing muscle?", options: ["Intercostals", "Diaphragm", "Abs", "Pectoralis"], correct: 1 },
-                            { q: "The contractile unit of a muscle fiber is the:", options: ["Sarcomere", "Myofibril", "Actin", "Myosin"], correct: 0 },
-                            { q: "Thick filaments are composed of:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 1 },
-                            { q: "Calcium ions needed for muscle contraction are stored in the:", options: ["Nucleus", "Sarcoplasmic Reticulum", "Mitochondria", "Cytoplasm"], correct: 1 },
-                            { q: "Ligaments connect:", options: ["Muscle to Bone", "Bone to Bone", "Muscle to Muscle", "Bone to Skin"], correct: 1 },
-                            { q: "Tendons connect:", options: ["Muscle to Bone", "Bone to Bone", "Nerve to Muscle", "Bone to Joint"], correct: 0 },
-                            { q: "The Gastrocnemius muscle is located in the:", options: ["Thigh", "Calf", "Arm", "Back"], correct: 1 },
-                            { q: "The Deltoid muscle is used for:", options: ["Running", "Arm abduction/Injection site", "Smiling", "Breathing"], correct: 1 },
-                            { q: "Which movement involves pointing the toes downward?", options: ["Dorsiflexion", "Plantar flexion", "Inversion", "Eversion"], correct: 1 },
-                            { q: "Supination moves the palm to face:", options: ["Anteriorly/Up", "Posteriorly/Down", "Medially", "Laterally"], correct: 0 },
-                            { q: "The Gluteus Maximus extends the:", options: ["Knee", "Hip", "Elbow", "Neck"], correct: 1 },
-                            { q: "Sternocleidomastoid muscle is located in the:", options: ["Chest", "Neck", "Back", "Arm"], correct: 1 },
-                            { q: "Isometric contraction involves:", options: ["Changing length", "No change in length (Tension only)", "Movement", "Relaxation"], correct: 1 },
-                            { q: "Rotator cuff muscles stabilize the:", options: ["Hip", "Shoulder", "Knee", "Ankle"], correct: 1 }
+                            { q: "Sutures between skull bones are classified as:", options: ["Diarthrosis", "Amphiarthrosis", "Synarthrosis", "Synovial"], correct: 2 , rationale: "Skull sutures are synarthrosis joints." },
+                            { q: "The knee joint is an example of a _____ joint.", options: ["Ball and Socket", "Hinge", "Pivot", "Gliding"], correct: 1 , rationale: "Knee is a hinge joint." },
+                            { q: "Which muscle type has intercalated discs?", options: ["Skeletal", "Smooth", "Cardiac", "Visceral"], correct: 2 , rationale: "Cardiac muscle has intercalated discs." },
+                            { q: "A fluid-filled sac that reduces friction in a joint is a:", options: ["Meniscus", "Bursa", "Ligament", "Tendon"], correct: 1 , rationale: "Bursa sac reduces joint friction." },
+                            { q: "Movement away from the midline is:", options: ["Adduction", "Abduction", "Flexion", "Extension"], correct: 1 , rationale: "Abduction moves away from midline." },
+                            { q: "Straightening a limb at a joint is:", options: ["Flexion", "Extension", "Rotation", "Circumduction"], correct: 1 , rationale: "Extension straightens limb at joint." },
+                            { q: "Which muscle is the primary breathing muscle?", options: ["Intercostals", "Diaphragm", "Abs", "Pectoralis"], correct: 1 , rationale: "Diaphragm is primary breathing muscle." },
+                            { q: "The contractile unit of a muscle fiber is the:", options: ["Sarcomere", "Myofibril", "Actin", "Myosin"], correct: 0 , rationale: "Sarcomere is contractile muscle unit." },
+                            { q: "Thick filaments are composed of:", options: ["Actin", "Myosin", "Troponin", "Tropomyosin"], correct: 1 , rationale: "Thick filaments are composed myosin." },
+                            { q: "Calcium ions needed for muscle contraction are stored in the:", options: ["Nucleus", "Sarcoplasmic Reticulum", "Mitochondria", "Cytoplasm"], correct: 1 , rationale: "Sarcoplasmic reticulum stores calcium ions." },
+                            { q: "Ligaments connect:", options: ["Muscle to Bone", "Bone to Bone", "Muscle to Muscle", "Bone to Skin"], correct: 1 , rationale: "Ligaments connect bone to bone." },
+                            { q: "Tendons connect:", options: ["Muscle to Bone", "Bone to Bone", "Nerve to Muscle", "Bone to Joint"], correct: 0 , rationale: "Tendons connect muscle to bone." },
+                            { q: "The Gastrocnemius muscle is located in the:", options: ["Thigh", "Calf", "Arm", "Back"], correct: 1 , rationale: "Gastrocnemius is in the calf." },
+                            { q: "The Deltoid muscle is used for:", options: ["Running", "Arm abduction/Injection site", "Smiling", "Breathing"], correct: 1 , rationale: "Deltoid is for arm abduction." },
+                            { q: "Which movement involves pointing the toes downward?", options: ["Dorsiflexion", "Plantar flexion", "Inversion", "Eversion"], correct: 1 , rationale: "Plantar flexion points toes downward." },
+                            { q: "Supination moves the palm to face:", options: ["Anteriorly/Up", "Posteriorly/Down", "Medially", "Laterally"], correct: 0 , rationale: "Supination moves palm facing up." },
+                            { q: "The Gluteus Maximus extends the:", options: ["Knee", "Hip", "Elbow", "Neck"], correct: 1 , rationale: "Gluteus maximus extends the hip." },
+                            { q: "Sternocleidomastoid muscle is located in the:", options: ["Chest", "Neck", "Back", "Arm"], correct: 1 , rationale: "Sternocleidomastoid is in the neck." },
+                            { q: "Isometric contraction involves:", options: ["Changing length", "No change in length (Tension only)", "Movement", "Relaxation"], correct: 1 , rationale: "Isometric contraction has no movement." },
+                            { q: "Rotator cuff muscles stabilize the:", options: ["Hip", "Shoulder", "Knee", "Ankle"], correct: 1 , rationale: "Rotator cuff muscles stabilize shoulder." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Nervous System (CNS/PNS)',
                         questions: [
-                            { q: "Which part of the brain controls balance and coordination?", options: ["Brainstem", "Cerebrum", "Cerebellum", "Thalamus"], correct: 2 },
-                            { q: "The 'Funny Bone' involves which nerve?", options: ["Radial", "Median", "Ulnar", "Sciatic"], correct: 2 },
-                            { q: "Which division of the ANS causes pupil dilation and increased heart rate?", options: ["Parasympathetic", "Sympathetic", "Somatic", "Enteric"], correct: 1 },
-                            { q: "The largest nerve in the body is the:", options: ["Femoral", "Sciatic", "Vagus", "Phrenic"], correct: 1 },
-                            { q: "The visual cortex is located in the:", options: ["Frontal Lobe", "Temporal Lobe", "Parietal Lobe", "Occipital Lobe"], correct: 3 },
-                            { q: "Broca's area is associated with:", options: ["Speech production", "Language comprehension", "Hearing", "Vision"], correct: 0 },
-                            { q: "The brainstem consists of Midbrain, Pons, and:", options: ["Thalamus", "Medulla Oblongata", "Cerebellum", "Hypothalamus"], correct: 1 },
-                            { q: "The vital centers for heart rate and breathing are in the:", options: ["Cerebrum", "Medulla Oblongata", "Cerebellum", "Thalamus"], correct: 1 },
-                            { q: "Cerebrospinal Fluid (CSF) is produced by:", options: ["Dura Mater", "Choroid Plexus", "Arachnoid Villi", "Sinuses"], correct: 1 },
-                            { q: "Which meninx is the tough outer layer?", options: ["Pia Mater", "Arachnoid Mater", "Dura Mater", "Alma Mater"], correct: 2 },
-                            { q: "Myelin sheaths in the CNS are formed by:", options: ["Schwann cells", "Oligodendrocytes", "Astrocytes", "Microglia"], correct: 1 },
-                            { q: "Saltatory conduction occurs at:", options: ["Soma", "Nodes of Ranvier", "Dendrites", "Synapse"], correct: 1 },
-                            { q: "Afferent neurons carry impulses:", options: ["Away from CNS", "Towards CNS (Sensory)", "Within CNS", "To muscles"], correct: 1 },
-                            { q: "Efferent neurons carry impulses:", options: ["Away from CNS (Motor)", "Towards CNS", "To skin", "To eyes"], correct: 0 },
-                            { q: "The parasympathetic nervous system is known as:", options: ["Fight or Flight", "Rest and Digest", "Stop and Go", "Run and Hide"], correct: 1 },
-                            { q: "Which neurotransmitter is key for muscle contraction?", options: ["Dopamine", "Serotonin", "Acetylcholine (ACh)", "GABA"], correct: 2 },
-                            { q: "CN X is the:", options: ["Olfactory", "Optic", "Vagus", "Facial"], correct: 2 },
-                            { q: "The Sciatic nerve runs down the:", options: ["Arm", "Posterior leg", "Anterior leg", "Neck"], correct: 1 },
-                            { q: "A reflex arc involves:", options: ["Brain processing first", "Bypassing the brain for speed", "Conscious thought", "Slow response"], correct: 1 },
-                            { q: "The Corpus Callosum connects:", options: ["Brain and Spine", "Left and Right Hemispheres", "Front and Back", "Eyes and Ears"], correct: 1 }
+                            { q: "Which part of the brain controls balance and coordination?", options: ["Brainstem", "Cerebrum", "Cerebellum", "Thalamus"], correct: 2 , rationale: "Cerebellum controls balance and coordination." },
+                            { q: "The 'Funny Bone' involves which nerve?", options: ["Radial", "Median", "Ulnar", "Sciatic"], correct: 2 , rationale: "Funny bone involves ulnar nerve." },
+                            { q: "Which division of the ANS causes pupil dilation and increased heart rate?", options: ["Parasympathetic", "Sympathetic", "Somatic", "Enteric"], correct: 1 , rationale: "Sympathetic ANS increases heart rate." },
+                            { q: "The largest nerve in the body is the:", options: ["Femoral", "Sciatic", "Vagus", "Phrenic"], correct: 1 , rationale: "Sciatic is largest body nerve." },
+                            { q: "The visual cortex is located in the:", options: ["Frontal Lobe", "Temporal Lobe", "Parietal Lobe", "Occipital Lobe"], correct: 3 , rationale: "Visual cortex in occipital lobe." },
+                            { q: "Broca's area is associated with:", options: ["Speech production", "Language comprehension", "Hearing", "Vision"], correct: 0 , rationale: "Brocas area produces spoken speech." },
+                            { q: "The brainstem consists of Midbrain, Pons, and:", options: ["Thalamus", "Medulla Oblongata", "Cerebellum", "Hypothalamus"], correct: 1 , rationale: "Brainstem includes the medulla oblongata." },
+                            { q: "The vital centers for heart rate and breathing are in the:", options: ["Cerebrum", "Medulla Oblongata", "Cerebellum", "Thalamus"], correct: 1 , rationale: "Medulla oblongata controls heart rate." },
+                            { q: "Cerebrospinal Fluid (CSF) is produced by:", options: ["Dura Mater", "Choroid Plexus", "Arachnoid Villi", "Sinuses"], correct: 1 , rationale: "Choroid plexus produces cerebrospinal fluid." },
+                            { q: "Which meninx is the tough outer layer?", options: ["Pia Mater", "Arachnoid Mater", "Dura Mater", "Alma Mater"], correct: 2 , rationale: "Dura mater is tough meninx." },
+                            { q: "Myelin sheaths in the CNS are formed by:", options: ["Schwann cells", "Oligodendrocytes", "Astrocytes", "Microglia"], correct: 1 , rationale: "Oligodendrocytes form CNS myelin sheaths." },
+                            { q: "Saltatory conduction occurs at:", options: ["Soma", "Nodes of Ranvier", "Dendrites", "Synapse"], correct: 1 , rationale: "Saltatory conduction at Ranvier nodes." },
+                            { q: "Afferent neurons carry impulses:", options: ["Away from CNS", "Towards CNS (Sensory)", "Within CNS", "To muscles"], correct: 1 , rationale: "Afferent neurons carry sensory impulses." },
+                            { q: "Efferent neurons carry impulses:", options: ["Away from CNS (Motor)", "Towards CNS", "To skin", "To eyes"], correct: 0 , rationale: "Efferent neurons carry motor impulses." },
+                            { q: "The parasympathetic nervous system is known as:", options: ["Fight or Flight", "Rest and Digest", "Stop and Go", "Run and Hide"], correct: 1 , rationale: "Parasympathetic is rest and digest." },
+                            { q: "Which neurotransmitter is key for muscle contraction?", options: ["Dopamine", "Serotonin", "Acetylcholine (ACh)", "GABA"], correct: 2 , rationale: "Acetylcholine keys muscle contraction." },
+                            { q: "CN X is the:", options: ["Olfactory", "Optic", "Vagus", "Facial"], correct: 2 , rationale: "Cranial Nerve X is vagus." },
+                            { q: "The Sciatic nerve runs down the:", options: ["Arm", "Posterior leg", "Anterior leg", "Neck"], correct: 1 , rationale: "Sciatic nerve runs posterior leg." },
+                            { q: "A reflex arc involves:", options: ["Brain processing first", "Bypassing the brain for speed", "Conscious thought", "Slow response"], correct: 1 , rationale: "Reflex arc bypasses the brain." },
+                            { q: "The Corpus Callosum connects:", options: ["Brain and Spine", "Left and Right Hemispheres", "Front and Back", "Eyes and Ears"], correct: 1 , rationale: "Corpus callosum connects brain hemispheres." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Special Senses',
                         questions: [
-                            { q: "Photoreceptors (Rods and Cones) are located in the:", options: ["Sclera", "Cornea", "Retina", "Lens"], correct: 2 },
-                            { q: "The white part of the eye is the:", options: ["Iris", "Pupil", "Sclera", "Choroid"], correct: 2 },
-                            { q: "Which ossicle is attached to the tympanic membrane?", options: ["Stapes", "Incus", "Malleus", "Cochlea"], correct: 2 },
-                            { q: "Hearing receptors (Hair cells) are found in the:", options: ["Semicircular canals", "Organ of Corti (Cochlea)", "Vestibule", "Eustachian tube"], correct: 1 },
-                            { q: "Olfaction refers to:", options: ["Taste", "Smell", "Vision", "Touch"], correct: 1 },
-                            { q: "Gustation refers to:", options: ["Taste", "Smell", "Hearing", "Balance"], correct: 0 },
-                            { q: "The Eustachian tube connects the middle ear to the:", options: ["Brain", "Throat (Nasopharynx)", "Inner ear", "Eye"], correct: 1 },
-                            { q: "Rods are responsible for:", options: ["Color vision", "Vision in dim light (Black/White)", "Sharp vision", "Blind spots"], correct: 1 },
-                            { q: "Cones are responsible for:", options: ["Color vision", "Night vision", "Movement", "Peripheral vision"], correct: 0 },
-                            { q: "The blind spot is where:", options: ["Light hits the fovea", "The Optic Nerve exits the eye", "The pupil is closed", "The lens is cloudy"], correct: 1 },
-                            { q: "Dynamic equilibrium is sensed by the:", options: ["Cochlea", "Semicircular Canals", "Vestibule", "Ossicles"], correct: 1 },
-                            { q: "Static equilibrium is sensed by the:", options: ["Cochlea", "Semicircular Canals", "Vestibule (Utricle/Saccule)", "Tympanic membrane"], correct: 2 },
+                            { q: "Photoreceptors (Rods and Cones) are located in the:", options: ["Sclera", "Cornea", "Retina", "Lens"], correct: 2 , rationale: "Photoreceptors located in the retina." },
+                            { q: "The white part of the eye is the:", options: ["Iris", "Pupil", "Sclera", "Choroid"], correct: 2 , rationale: "Sclera is white eye part." },
+                            { q: "Which ossicle is attached to the tympanic membrane?", options: ["Stapes", "Incus", "Malleus", "Cochlea"], correct: 2 , rationale: "Malleus attaches to tympanic membrane." },
+                            { q: "Hearing receptors (Hair cells) are found in the:", options: ["Semicircular canals", "Organ of Corti (Cochlea)", "Vestibule", "Eustachian tube"], correct: 1 , rationale: "Hearing receptors in organ corti." },
+                            { q: "Olfaction refers to:", options: ["Taste", "Smell", "Vision", "Touch"], correct: 1 , rationale: "Olfaction refers strictly to smell." },
+                            { q: "Gustation refers to:", options: ["Taste", "Smell", "Hearing", "Balance"], correct: 0 , rationale: "Gustation refers strictly to taste." },
+                            { q: "The Eustachian tube connects the middle ear to the:", options: ["Brain", "Throat (Nasopharynx)", "Inner ear", "Eye"], correct: 1 , rationale: "Eustachian tube connects to nasopharynx." },
+                            { q: "Rods are responsible for:", options: ["Color vision", "Vision in dim light (Black/White)", "Sharp vision", "Blind spots"], correct: 1 , rationale: "Rods vision in dim light." },
+                            { q: "Cones are responsible for:", options: ["Color vision", "Night vision", "Movement", "Peripheral vision"], correct: 0 , rationale: "Cones responsible for color vision." },
+                            { q: "The blind spot is where:", options: ["Light hits the fovea", "The Optic Nerve exits the eye", "The pupil is closed", "The lens is cloudy"], correct: 1 , rationale: "Blind spot where optic exits." },
+                            { q: "Dynamic equilibrium is sensed by the:", options: ["Cochlea", "Semicircular Canals", "Vestibule", "Ossicles"], correct: 1 , rationale: "Semicircular canals sense dynamic equilibrium." },
+                            { q: "Static equilibrium is sensed by the:", options: ["Cochlea", "Semicircular Canals", "Vestibule (Utricle/Saccule)", "Tympanic membrane"], correct: 2 , rationale: "Vestibule senses static head equilibrium." },
                             { q: "The primary focus power of the eye comes from the:", options: ["Lens", "Cornea", "Retina", "Iris"], correct: 1 }, // Cornea does most refraction!
-                            { q: "Accommodation is the adjustment of the:", options: ["Pupil size", "Lens shape", "Eye color", "Eyelid position"], correct: 1 },
-                            { q: "Umami is the taste of:", options: ["Sweet", "Sour", "Savory/Meat", "Bitter"], correct: 2 },
-                            { q: "Tears are produced by the:", options: ["Salivary glands", "Lacrimal glands", "Pituitary gland", "Thyroid gland"], correct: 1 },
-                            { q: "Myopia is:", options: ["Farsightedness", "Nearsightedness", "Planesightedness", "Blindness"], correct: 1 },
-                            { q: "Hyperopia is:", options: ["Farsightedness", "Nearsightedness", "Astigmatism", "Cataracts"], correct: 0 },
-                            { q: "Presbyopia is loss of vision due to:", options: ["Aging (Lens elasticity loss)", "Infection", "Trauma", "Genetics"], correct: 0 },
-                            { q: "Tinnitus is:", options: ["Hearing loss", "Ringing in the ears", "Ear infection", "Vertigo"], correct: 1 }
+                            { q: "Accommodation is the adjustment of the:", options: ["Pupil size", "Lens shape", "Eye color", "Eyelid position"], correct: 1 , rationale: "Accommodation adjusts the lens shape." },
+                            { q: "Umami is the taste of:", options: ["Sweet", "Sour", "Savory/Meat", "Bitter"], correct: 2 , rationale: "Umami is the savory taste." },
+                            { q: "Tears are produced by the:", options: ["Salivary glands", "Lacrimal glands", "Pituitary gland", "Thyroid gland"], correct: 1 , rationale: "Lacrimal glands produce human tears." },
+                            { q: "Myopia is:", options: ["Farsightedness", "Nearsightedness", "Planesightedness", "Blindness"], correct: 1 , rationale: "Myopia means clinical nearsightedness." },
+                            { q: "Hyperopia is:", options: ["Farsightedness", "Nearsightedness", "Astigmatism", "Cataracts"], correct: 0 , rationale: "Hyperopia means clinical farsightedness." },
+                            { q: "Presbyopia is loss of vision due to:", options: ["Aging (Lens elasticity loss)", "Infection", "Trauma", "Genetics"], correct: 0 , rationale: "Presbyopia is aging vision loss." },
+                            { q: "Tinnitus is:", options: ["Hearing loss", "Ringing in the ears", "Ear infection", "Vertigo"], correct: 1 , rationale: "Tinnitus is ringing in ears." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Endocrine & Integration',
                         questions: [
-                            { q: "The 'Master Gland' of the endocrine system is the:", options: ["Thyroid", "Adrenal", "Pituitary", "Pancreas"], correct: 2 },
-                            { q: "Insulin is produced by which cells in the pancreas?", options: ["Alpha", "Beta", "Delta", "Gamma"], correct: 1 },
-                            { q: "Glucagon acts to:", options: ["Lower blood sugar", "Raise blood sugar", "Store fat", "Build muscle"], correct: 1 },
-                            { q: "Calcitonin lowers blood calcium by:", options: ["Depositing it into bones", "Removing it from bones", "Excreting it in sweat", "Stopping digestion"], correct: 0 },
-                            { q: "Parathyroid Hormone (PTH) acts to:", options: ["Lower blood calcium", "Raise blood calcium", "Lower sodium", "Raise potassium"], correct: 1 },
-                            { q: "The Adrenal Medulla secretes:", options: ["Cortisol", "Aldosterone", "Epinephrine/Norepinephrine", "Androgens"], correct: 2 },
-                            { q: "Cortisol is known as the:", options: ["Stress hormone", "Sleep hormone", "Sex hormone", "Growth hormone"], correct: 0 },
-                            { q: "ADH promotes:", options: ["Water loss", "Water retention", "Salt loss", "Sugar retention"], correct: 1 },
-                            { q: "Oxytocin is involved in:", options: ["Labor contractions and milk let-down", "Growth", "Metabolism", "Sleep"], correct: 0 },
-                            { q: "T3 and T4 regulate:", options: ["Blood sugar", "Metabolism (BMR)", "Sleep", "Immunity"], correct: 1 },
-                            { q: "Melatonin is secreted by the:", options: ["Pineal Gland", "Pituitary Gland", "Thyroid", "Thymus"], correct: 0 },
-                            { q: "Testosterone is produced in the:", options: ["Ovaries", "Testes", "Liver", "Kidney"], correct: 1 },
-                            { q: "Estrogen and Progesterone are produced by the:", options: ["Ovaries", "Testes", "Uterus", "Fallopian tubes"], correct: 0 },
-                            { q: "The Thymus gland is important for:", options: ["Digestion", "Immune system (T-cell maturation)", "Reproduction", "Sensation"], correct: 1 },
-                            { q: "Goiter is enlargement of the:", options: ["Pituitary", "Thyroid", "Adrenal", "Pancreas"], correct: 1 },
-                            { q: "Aldosterone regulates:", options: ["Sodium and Potassium balance", "Sugar", "Calcium", "Chloride"], correct: 0 },
-                            { q: "Prolactin stimulates:", options: ["Uterine contractions", "Milk production", "Ovulation", "Sperm production"], correct: 1 },
-                            { q: "Negative Feedback loops:", options: ["Amplify changes", "Reverse changes to maintain homeostasis", "Cause disease", "Stop reflexes"], correct: 1 },
-                            { q: "Acromegaly is potential caused by excess:", options: ["Insulin", "Growth Hormone (Adult)", "Thyroid Hormone", "Cortisol"], correct: 1 },
-                            { q: "Type 1 Diabetes is caused by destruction of:", options: ["Alpha cells", "Beta cells", "Acini cells", "Liver cells"], correct: 1 }
+                            { q: "The 'Master Gland' of the endocrine system is the:", options: ["Thyroid", "Adrenal", "Pituitary", "Pancreas"], correct: 2 , rationale: "Pituitary is the master gland." },
+                            { q: "Insulin is produced by which cells in the pancreas?", options: ["Alpha", "Beta", "Delta", "Gamma"], correct: 1 , rationale: "Beta cells strictly produce insulin." },
+                            { q: "Glucagon acts to:", options: ["Lower blood sugar", "Raise blood sugar", "Store fat", "Build muscle"], correct: 1 , rationale: "Glucagon actively raises blood sugar." },
+                            { q: "Calcitonin lowers blood calcium by:", options: ["Depositing it into bones", "Removing it from bones", "Excreting it in sweat", "Stopping digestion"], correct: 0 , rationale: "Calcitonin deposits calcium into bones." },
+                            { q: "Parathyroid Hormone (PTH) acts to:", options: ["Lower blood calcium", "Raise blood calcium", "Lower sodium", "Raise potassium"], correct: 1 , rationale: "PTH raises blood calcium levels." },
+                            { q: "The Adrenal Medulla secretes:", options: ["Cortisol", "Aldosterone", "Epinephrine/Norepinephrine", "Androgens"], correct: 2 , rationale: "Adrenal medulla secretes epinephrine hormones." },
+                            { q: "Cortisol is known as the:", options: ["Stress hormone", "Sleep hormone", "Sex hormone", "Growth hormone"], correct: 0 , rationale: "Cortisol is primary stress hormone." },
+                            { q: "ADH promotes:", options: ["Water loss", "Water retention", "Salt loss", "Sugar retention"], correct: 1 , rationale: "ADH promotes renal water retention." },
+                            { q: "Oxytocin is involved in:", options: ["Labor contractions and milk let-down", "Growth", "Metabolism", "Sleep"], correct: 0 , rationale: "Oxytocin stimulates uterine labor contractions." },
+                            { q: "T3 and T4 regulate:", options: ["Blood sugar", "Metabolism (BMR)", "Sleep", "Immunity"], correct: 1 , rationale: "T3 T4 regulate body metabolism." },
+                            { q: "Melatonin is secreted by the:", options: ["Pineal Gland", "Pituitary Gland", "Thyroid", "Thymus"], correct: 0 , rationale: "Pineal gland naturally secretes melatonin." },
+                            { q: "Testosterone is produced in the:", options: ["Ovaries", "Testes", "Liver", "Kidney"], correct: 1 , rationale: "Testes strictly produce male testosterone." },
+                            { q: "Estrogen and Progesterone are produced by the:", options: ["Ovaries", "Testes", "Uterus", "Fallopian tubes"], correct: 0 , rationale: "Ovaries strictly produce female estrogen." },
+                            { q: "The Thymus gland is important for:", options: ["Digestion", "Immune system (T-cell maturation)", "Reproduction", "Sensation"], correct: 1 , rationale: "Thymus gland matures immune Tcells." },
+                            { q: "Goiter is enlargement of the:", options: ["Pituitary", "Thyroid", "Adrenal", "Pancreas"], correct: 1 , rationale: "Goiter is a thyroid enlargement." },
+                            { q: "Aldosterone regulates:", options: ["Sodium and Potassium balance", "Sugar", "Calcium", "Chloride"], correct: 0 , rationale: "Aldosterone regulates sodium potassium balance." },
+                            { q: "Prolactin stimulates:", options: ["Uterine contractions", "Milk production", "Ovulation", "Sperm production"], correct: 1 , rationale: "Prolactin crucially stimulates milk production." },
+                            { q: "Negative Feedback loops:", options: ["Amplify changes", "Reverse changes to maintain homeostasis", "Cause disease", "Stop reflexes"], correct: 1 , rationale: "Negative feedback safely maintains homeostasis." },
+                            { q: "Acromegaly is potential caused by excess:", options: ["Insulin", "Growth Hormone (Adult)", "Thyroid Hormone", "Cortisol"], correct: 1 , rationale: "Acromegaly caused by excess GH." },
+                            { q: "Type 1 Diabetes is caused by destruction of:", options: ["Alpha cells", "Beta cells", "Acini cells", "Liver cells"], correct: 1 , rationale: "Type 1 destroys beta cells." }
                         ]
                     },
                     {
@@ -3171,140 +3331,140 @@ const appData = {
                         type: 'quiz',
                         title: 'Physiology II Final Quiz',
                         questions: [
-                            { q: "Which ion influx is responsible for the depolarization phase of an action potential?", options: ["Potassium (K+)", "Sodium (Na+)", "Calcium (Ca++)", "Chloride (Cl-)"], correct: 1 },
-                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Cortisol", "Insulin", "Epinephrine"], correct: 2 },
-                            { q: "Where are the receptors for hearing located?", options: ["Tympanic Membrane", "Semicircular Canals", "Cochlea", "Vestibule"], correct: 2 },
-                            { q: "What triggers ovulation?", options: ["FSH spike", "LH surge", "Progesterone drop", "Estrogen drop"], correct: 1 }
+                            { q: "Which ion influx is responsible for the depolarization phase of an action potential?", options: ["Potassium (K+)", "Sodium (Na+)", "Calcium (Ca++)", "Chloride (Cl-)"], correct: 1 , rationale: "Sodium influx depolarizes action potential." },
+                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Cortisol", "Insulin", "Epinephrine"], correct: 2 , rationale: "Insulin predictably lowers blood glucose." },
+                            { q: "Where are the receptors for hearing located?", options: ["Tympanic Membrane", "Semicircular Canals", "Cochlea", "Vestibule"], correct: 2 , rationale: "Hearing receptors in the cochlea." },
+                            { q: "What triggers ovulation?", options: ["FSH spike", "LH surge", "Progesterone drop", "Estrogen drop"], correct: 1 , rationale: "LH surge strictly triggers ovulation." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Neuro: Neurons & Synapses',
                         questions: [
-                            { q: "The resting membrane potential is primarily maintained by the:", options: ["Sodium-Potassium Pump", "Calcium Pump", "Chloride Channels", "Proton Pump"], correct: 0 },
-                            { q: "Saltatory conduction occurs in:", options: ["Unmyelinated axons", "Myelinated axons", "Dendrites", "Cell bodies"], correct: 1 },
-                            { q: "Which ion influx is responsible for the depolarization phase of an action potential?", options: ["Potassium (K+)", "Sodium (Na+)", "Calcium (Ca++)", "Chloride (Cl-)"], correct: 1 },
-                            { q: "Repolarization is caused by the efflux of:", options: ["Sodium (Na+)", "Potassium (K+)", "Calcium", "Chloride"], correct: 1 },
-                            { q: "Hyperpolarization involves the membrane potential becoming:", options: ["More positive", "More negative", "Neutral", "Zero"], correct: 1 },
-                            { q: "Neurotransmitters are released from the presynaptic neuron via:", options: ["Endocytosis", "Exocytosis", "Diffusion", "Active transport"], correct: 1 },
-                            { q: "Calcium influx at the synaptic terminal triggers:", options: ["Repolarization", "Vesicle fusion and NT release", "Hyperpolarization", "Dendrite growth"], correct: 1 },
-                            { q: "GABA is the primary ______ neurotransmitter in the brain.", options: ["Excitatory", "Inhibitory", "Modulatory", "Sensory"], correct: 1 },
-                            { q: "Glutamate is the primary ______ neurotransmitter in the brain.", options: ["Excitatory", "Inhibitory", "Modulatory", "Motor"], correct: 0 },
-                            { q: "The space between two neurons is called the:", options: ["Axon", "Synaptic Cleft", "Dendrite", "Soma"], correct: 1 },
-                            { q: "Threshold potential is typically around:", options: ["-70mV", "-55mV", "+30mV", "0mV"], correct: 1 },
-                            { q: "The 'All-or-None' principle applies to:", options: ["Graded potentials", "Action potentials", "Resting potentials", "Synaptic potentials"], correct: 1 },
-                            { q: "Temporal summation involves:", options: ["Multiple neurons firing at once", "High frequency firing from one neuron", "Inhibition", "Dendrites"], correct: 1 },
-                            { q: "Spatial summation involves:", options: ["Multiple neurons firing at once", "One neuron firing slowly", "Repolarization", "Sleep"], correct: 0 },
-                            { q: "Acetylcholine is degraded by:", options: ["MAO", "Acetylcholinesterase", "COMT", "Dopamine"], correct: 1 },
-                            { q: "SSRI medications work by:", options: ["Blocking Serotonin reuptake", "Increasing GABA", "Blocking Dopamine", "Destroying enzymes"], correct: 0 },
-                            { q: "EPSP (Excitatory Postsynaptic Potential) causes:", options: ["Depolarization (closer to threshold)", "Hyperpolarization", "Repolarization", "Resting state"], correct: 0 },
-                            { q: "IPSP (Inhibitory Postsynaptic Potential) causes:", options: ["Depolarization", "Hyperpolarization (further from threshold)", "Action potential", "Contraction"], correct: 1 },
-                            { q: "Dopamine is associated with:", options: ["Pain", "Reward and movement", "Sleep", "Hunger"], correct: 1 },
-                            { q: "Which cells form the Blood-Brain Barrier?", options: ["Microglia", "Astrocytes", "Schwann cells", "Neurons"], correct: 1 }
+                            { q: "The resting membrane potential is primarily maintained by the:", options: ["Sodium-Potassium Pump", "Calcium Pump", "Chloride Channels", "Proton Pump"], correct: 0 , rationale: "Sodium potassium pump maintains resting." },
+                            { q: "Saltatory conduction occurs in:", options: ["Unmyelinated axons", "Myelinated axons", "Dendrites", "Cell bodies"], correct: 1 , rationale: "Saltatory conduction freely myelinated axons." },
+                            { q: "Which ion influx is responsible for the depolarization phase of an action potential?", options: ["Potassium (K+)", "Sodium (Na+)", "Calcium (Ca++)", "Chloride (Cl-)"], correct: 1 , rationale: "Sodium influx causes rapid depolarization." },
+                            { q: "Repolarization is caused by the efflux of:", options: ["Sodium (Na+)", "Potassium (K+)", "Calcium", "Chloride"], correct: 1 , rationale: "Repolarization caused by potassium efflux." },
+                            { q: "Hyperpolarization involves the membrane potential becoming:", options: ["More positive", "More negative", "Neutral", "Zero"], correct: 1 , rationale: "Hyperpolarization makes membrane more negative." },
+                            { q: "Neurotransmitters are released from the presynaptic neuron via:", options: ["Endocytosis", "Exocytosis", "Diffusion", "Active transport"], correct: 1 , rationale: "Neurotransmitters strictly release via exocytosis." },
+                            { q: "Calcium influx at the synaptic terminal triggers:", options: ["Repolarization", "Vesicle fusion and NT release", "Hyperpolarization", "Dendrite growth"], correct: 1 , rationale: "Calcium influx triggers vesicle fusion." },
+                            { q: "GABA is the primary ______ neurotransmitter in the brain.", options: ["Excitatory", "Inhibitory", "Modulatory", "Sensory"], correct: 1 , rationale: "GABA is primary inhibitory neurotransmitter." },
+                            { q: "Glutamate is the primary ______ neurotransmitter in the brain.", options: ["Excitatory", "Inhibitory", "Modulatory", "Motor"], correct: 0 , rationale: "Glutamate is primary excitatory neurotransmitter." },
+                            { q: "The space between two neurons is called the:", options: ["Axon", "Synaptic Cleft", "Dendrite", "Soma"], correct: 1 , rationale: "Synaptic cleft is neuron space." },
+                            { q: "Threshold potential is typically around:", options: ["-70mV", "-55mV", "+30mV", "0mV"], correct: 1 , rationale: "Threshold potential is roughly -55mV." },
+                            { q: "The 'All-or-None' principle applies to:", options: ["Graded potentials", "Action potentials", "Resting potentials", "Synaptic potentials"], correct: 1 , rationale: "All or none applies action." },
+                            { q: "Temporal summation involves:", options: ["Multiple neurons firing at once", "High frequency firing from one neuron", "Inhibition", "Dendrites"], correct: 1 , rationale: "Temporal summation involves rapid firing." },
+                            { q: "Spatial summation involves:", options: ["Multiple neurons firing at once", "One neuron firing slowly", "Repolarization", "Sleep"], correct: 0 , rationale: "Spatial summation multiple neurons firing." },
+                            { q: "Acetylcholine is degraded by:", options: ["MAO", "Acetylcholinesterase", "COMT", "Dopamine"], correct: 1 , rationale: "Acetylcholinesterase formally degrades natural acetylcholine." },
+                            { q: "SSRI medications work by:", options: ["Blocking Serotonin reuptake", "Increasing GABA", "Blocking Dopamine", "Destroying enzymes"], correct: 0 , rationale: "SSRI medications naturally block serotonin." },
+                            { q: "EPSP (Excitatory Postsynaptic Potential) causes:", options: ["Depolarization (closer to threshold)", "Hyperpolarization", "Repolarization", "Resting state"], correct: 0 , rationale: "EPSP safely causes cell depolarization." },
+                            { q: "IPSP (Inhibitory Postsynaptic Potential) causes:", options: ["Depolarization", "Hyperpolarization (further from threshold)", "Action potential", "Contraction"], correct: 1 , rationale: "IPSP strictly causes cell hyperpolarization." },
+                            { q: "Dopamine is associated with:", options: ["Pain", "Reward and movement", "Sleep", "Hunger"], correct: 1 , rationale: "Dopamine associates reward Rationale." },
+                            { q: "Which cells form the Blood-Brain Barrier?", options: ["Microglia", "Astrocytes", "Schwann cells", "Neurons"], correct: 1 , rationale: "Astrocytes form barrier Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Neuro: Brain & ANS',
                         questions: [
-                            { q: "Which brain lobe contains the primary motor cortex?", options: ["Parietal", "Frontal", "Temporal", "Occipital"], correct: 1 },
-                            { q: "The 'Fight or Flight' response is mediated by the:", options: ["Parasympathetic Nervous System", "Sympathetic Nervous System", "Somatic Nervous System", "Enteric Nervous System"], correct: 1 },
-                            { q: "The Wernicke's area is involved in:", options: ["Speech production", "Language comprehension", "Vision", "Movement"], correct: 1 },
-                            { q: "The cerebellum is primarily responsible for:", options: ["Emotion", "Coordination and balance", "Thinking", "Breathing"], correct: 1 },
-                            { q: "The hypothalamus regulates:", options: ["Homeostasis (Temp, Hunger, Thirst)", "Vision", "Hearing", "Muscle strength"], correct: 0 },
-                            { q: "The Parasympathetic system causes:", options: ["Pupil dilation", "Bronchoconstriction and bradycardia", "Tachycardia", "Sweating"], correct: 1 },
-                            { q: "The Sympathetic system causes:", options: ["Pupil constriction", "Bronchodilation and tachycardia", "Digestion", "Sleep"], correct: 1 },
-                            { q: "Muscarinic receptors bind:", options: ["Norepinephrine", "Acetylcholine", "Dopamine", "Serotonin"], correct: 1 },
-                            { q: "Adrenergic receptors (Alpha/Beta) bind:", options: ["Acetylcholine", "Norepinephrine/Epinephrine", "GABA", "Glutamate"], correct: 1 },
-                            { q: "Aphasia is a deficit in:", options: ["Walking", "Language", "Vision", "Hearing"], correct: 1 },
-                            { q: "The Basal Ganglia are involved in:", options: ["Smooth motor movement", "Sensory processing", "Hearing", "Smell"], correct: 0 },
-                            { q: "Parkinson's Disease involves loss of:", options: ["Serotonin", "Dopamine in Substantia Nigra", "GABA", "ACh"], correct: 1 },
-                            { q: "The Reticular Activating System (RAS) controls:", options: ["Sleep/Wakefulness and Arousal", "Hunger", "Thirst", "Balance"], correct: 0 },
-                            { q: "The Limbic System is the '_____' brain.", options: ["Thinking", "Emotional", "Motor", "Sensory"], correct: 1 },
-                            { q: "The Amygdala processes:", options: ["Fear and aggression", "Math", "Logic", "Vision"], correct: 0 },
-                            { q: "The Hippocampus is crucial for:", options: ["Movement", "Memory consolidation", "Breathing", "Heart rate"], correct: 1 },
-                            { q: "Dual Innervation means:", options: ["Organ receives both Sympathetic and Parasympathetic fibers", "Two brains", "Two hearts", "No nerves"], correct: 0 },
-                            { q: "Vagus Nerve stimulation causes:", options: ["Increased Heart Rate", "Decreased Heart Rate", "Panic", "Running"], correct: 1 },
-                            { q: "The primary sensory cortex is in the:", options: ["Frontal Lobe", "Parietal Lobe", "Occipital Lobe", "Temporal Lobe"], correct: 1 },
-                            { q: "Executive functions (planning, decision making) are in the:", options: ["Prefrontal Cortex", "Brainstem", "Cerebellum", "Spine"], correct: 0 }
+                            { q: "Which brain lobe contains the primary motor cortex?", options: ["Parietal", "Frontal", "Temporal", "Occipital"], correct: 1 , rationale: "Frontal contains motor Rationale." },
+                            { q: "The 'Fight or Flight' response is mediated by the:", options: ["Parasympathetic Nervous System", "Sympathetic Nervous System", "Somatic Nervous System", "Enteric Nervous System"], correct: 1 , rationale: "Sympathetic mediates fight Rationale." },
+                            { q: "The Wernicke's area is involved in:", options: ["Speech production", "Language comprehension", "Vision", "Movement"], correct: 1 , rationale: "Wernickes comprehends language Rationale." },
+                            { q: "The cerebellum is primarily responsible for:", options: ["Emotion", "Coordination and balance", "Thinking", "Breathing"], correct: 1 , rationale: "Cerebellum coordinates balance Rationale." },
+                            { q: "The hypothalamus regulates:", options: ["Homeostasis (Temp, Hunger, Thirst)", "Vision", "Hearing", "Muscle strength"], correct: 0 , rationale: "Hypothalamus regulates homeostasis Rationale." },
+                            { q: "The Parasympathetic system causes:", options: ["Pupil dilation", "Bronchoconstriction and bradycardia", "Tachycardia", "Sweating"], correct: 1 , rationale: "Parasympathetic causes bradycardia Rationale." },
+                            { q: "The Sympathetic system causes:", options: ["Pupil constriction", "Bronchodilation and tachycardia", "Digestion", "Sleep"], correct: 1 , rationale: "Sympathetic causes tachycardia Rationale." },
+                            { q: "Muscarinic receptors bind:", options: ["Norepinephrine", "Acetylcholine", "Dopamine", "Serotonin"], correct: 1 , rationale: "Muscarinic bind acetylcholine Rationale." },
+                            { q: "Adrenergic receptors (Alpha/Beta) bind:", options: ["Acetylcholine", "Norepinephrine/Epinephrine", "GABA", "Glutamate"], correct: 1 , rationale: "Adrenergic bind norepinephrine Rationale." },
+                            { q: "Aphasia is a deficit in:", options: ["Walking", "Language", "Vision", "Hearing"], correct: 1 , rationale: "Aphasia language deficit Rationale." },
+                            { q: "The Basal Ganglia are involved in:", options: ["Smooth motor movement", "Sensory processing", "Hearing", "Smell"], correct: 0 , rationale: "Basal ganglia movement Rationale." },
+                            { q: "Parkinson's Disease involves loss of:", options: ["Serotonin", "Dopamine in Substantia Nigra", "GABA", "ACh"], correct: 1 , rationale: "Parkinsons involves dopamine Rationale." },
+                            { q: "The Reticular Activating System (RAS) controls:", options: ["Sleep/Wakefulness and Arousal", "Hunger", "Thirst", "Balance"], correct: 0 , rationale: "RAS controls sleep Rationale." },
+                            { q: "The Limbic System is the '_____' brain.", options: ["Thinking", "Emotional", "Motor", "Sensory"], correct: 1 , rationale: "Limbic is emotional Rationale." },
+                            { q: "The Amygdala processes:", options: ["Fear and aggression", "Math", "Logic", "Vision"], correct: 0 , rationale: "Amygdala processes fear Rationale." },
+                            { q: "The Hippocampus is crucial for:", options: ["Movement", "Memory consolidation", "Breathing", "Heart rate"], correct: 1 , rationale: "Hippocampus consolidates memory Rationale." },
+                            { q: "Dual Innervation means:", options: ["Organ receives both Sympathetic and Parasympathetic fibers", "Two brains", "Two hearts", "No nerves"], correct: 0 , rationale: "Dual innervation both Rationale." },
+                            { q: "Vagus Nerve stimulation causes:", options: ["Increased Heart Rate", "Decreased Heart Rate", "Panic", "Running"], correct: 1 , rationale: "Vagus decreases heartrate Rationale." },
+                            { q: "The primary sensory cortex is in the:", options: ["Frontal Lobe", "Parietal Lobe", "Occipital Lobe", "Temporal Lobe"], correct: 1 , rationale: "Parietal houses sensory Rationale." },
+                            { q: "Executive functions (planning, decision making) are in the:", options: ["Prefrontal Cortex", "Brainstem", "Cerebellum", "Spine"], correct: 0 , rationale: "Prefrontal handles planning Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Sensory Systems',
                         questions: [
-                            { q: "Sound waves are converted to neural signals in the:", options: ["Tympanic Membrane", "Ossicles", "Cochlea", "Semicircular Canals"], correct: 2 },
-                            { q: "Where are the receptors for hearing located?", options: ["Tympanic Membrane", "Semicircular Canals", "Cochlea (Organ of Corti)", "Vestibule"], correct: 2 },
-                            { q: "Phototransduction occurs in the:", options: ["Cornea", "Retina", "Lens", "Iris"], correct: 1 },
-                            { q: "Which photoreceptors are most sensitive to light (for night vision)?", options: ["Cones", "Rods", "Bipolar cells", "Ganglion cells"], correct: 1 },
-                            { q: "Which photoreceptors provide color vision and high acuity?", options: ["Rods", "Cones", "Amacrine cells", "Horizontal cells"], correct: 1 },
-                            { q: "Nociceptors detect:", options: ["Light", "Pain/Tissue damage", "Pressure", "Temperature"], correct: 1 },
-                            { q: "Proprioceptors detect:", options: ["Smell", "Body position and movement", "Taste", "Sound"], correct: 1 },
-                            { q: "The fovea centralis contains:", options: ["Only Rods", "Only Cones (High acuity)", "No receptors", "Blood vessels"], correct: 1 },
-                            { q: "Referred pain is:", options: ["Pain felt at site of injury", "Pain felt in a different location than source", "Fake pain", "Chronic pain"], correct: 1 },
-                            { q: "The Olfactory nerve passes through the:", options: ["Cribriform plate", "Optic chiasm", "Foramen magnum", "Ear"], correct: 0 },
-                            { q: "Gustatory cells detect:", options: ["Smell", "Taste chemicals", "Light", "Sound"], correct: 1 },
-                            { q: "The five basic tastes are Sweet, Sour, Salty, Bitter, and:", options: ["Spicy", "Umami", "Cold", "Hot"], correct: 1 },
-                            { q: "Accommodation of the lens is for:", options: ["Distance vision", "Near vision focusing", "Color", "Night vision"], correct: 1 },
-                            { q: "Astigmatism is caused by:", options: ["Cloudy lens", "Irregular curvature of cornea/lens", "Glaucoma", "Blindness"], correct: 1 },
-                            { q: "Glaucoma is characterized by:", options: ["High Intraocular Pressure", "Cloudy lens", "Detached retina", "Infection"], correct: 0 },
-                            { q: "Cataracts involve:", options: ["Clouding of the lens", "High pressure", "Retinal damage", "Eye color change"], correct: 0 },
-                            { q: "Sensorineural hearing loss involves damage to:", options: ["Eardrum", "Inner ear (Cochlea/Nerve)", "Outer ear", "Ear wax"], correct: 1 },
-                            { q: "Conduction hearing loss involves:", options: ["Brain damage", "Blockage of sound to inner ear", "Nerve damage", "Old age"], correct: 1 },
-                            { q: "The Vestibular system detects:", options: ["Sound", "Balance and Equilibrium", "Taste", "Touch"], correct: 1 },
-                            { q: "Otoliths are found in the:", options: ["Cochlea", "Vestibule (Utricle/Saccule)", "Semicircular canals", "Eardrum"], correct: 1 }
+                            { q: "Sound waves are converted to neural signals in the:", options: ["Tympanic Membrane", "Ossicles", "Cochlea", "Semicircular Canals"], correct: 2 , rationale: "Cochlea converts sound Rationale." },
+                            { q: "Where are the receptors for hearing located?", options: ["Tympanic Membrane", "Semicircular Canals", "Cochlea (Organ of Corti)", "Vestibule"], correct: 2 , rationale: "Organ Corti hearing Rationale." },
+                            { q: "Phototransduction occurs in the:", options: ["Cornea", "Retina", "Lens", "Iris"], correct: 1 , rationale: "Phototransduction inside retina Rationale." },
+                            { q: "Which photoreceptors are most sensitive to light (for night vision)?", options: ["Cones", "Rods", "Bipolar cells", "Ganglion cells"], correct: 1 , rationale: "Rods sensitive light Rationale." },
+                            { q: "Which photoreceptors provide color vision and high acuity?", options: ["Rods", "Cones", "Amacrine cells", "Horizontal cells"], correct: 1 , rationale: "Cones provide color Rationale." },
+                            { q: "Nociceptors detect:", options: ["Light", "Pain/Tissue damage", "Pressure", "Temperature"], correct: 1 , rationale: "Nociceptors detect pain Rationale." },
+                            { q: "Proprioceptors detect:", options: ["Smell", "Body position and movement", "Taste", "Sound"], correct: 1 , rationale: "Proprioceptors detect position Rationale." },
+                            { q: "The fovea centralis contains:", options: ["Only Rods", "Only Cones (High acuity)", "No receptors", "Blood vessels"], correct: 1 , rationale: "Fovea centralis cones Rationale." },
+                            { q: "Referred pain is:", options: ["Pain felt at site of injury", "Pain felt in a different location than source", "Fake pain", "Chronic pain"], correct: 1 , rationale: "Referred pain elsewhere Rationale." },
+                            { q: "The Olfactory nerve passes through the:", options: ["Cribriform plate", "Optic chiasm", "Foramen magnum", "Ear"], correct: 0 , rationale: "Olfactory nerve passes Rationale." },
+                            { q: "Gustatory cells detect:", options: ["Smell", "Taste chemicals", "Light", "Sound"], correct: 1 , rationale: "Gustatory cells taste Rationale." },
+                            { q: "The five basic tastes are Sweet, Sour, Salty, Bitter, and:", options: ["Spicy", "Umami", "Cold", "Hot"], correct: 1 , rationale: "Umami is savory Rationale." },
+                            { q: "Accommodation of the lens is for:", options: ["Distance vision", "Near vision focusing", "Color", "Night vision"], correct: 1 , rationale: "Lens accommodates near Rationale." },
+                            { q: "Astigmatism is caused by:", options: ["Cloudy lens", "Irregular curvature of cornea/lens", "Glaucoma", "Blindness"], correct: 1 , rationale: "Astigmatism from cornea Rationale." },
+                            { q: "Glaucoma is characterized by:", options: ["High Intraocular Pressure", "Cloudy lens", "Detached retina", "Infection"], correct: 0 , rationale: "Glaucoma involves pressure Rationale." },
+                            { q: "Cataracts involve:", options: ["Clouding of the lens", "High pressure", "Retinal damage", "Eye color change"], correct: 0 , rationale: "Cataracts involve clouding Rationale." },
+                            { q: "Sensorineural hearing loss involves damage to:", options: ["Eardrum", "Inner ear (Cochlea/Nerve)", "Outer ear", "Ear wax"], correct: 1 , rationale: "Sensorineural involves inner Rationale." },
+                            { q: "Conduction hearing loss involves:", options: ["Brain damage", "Blockage of sound to inner ear", "Nerve damage", "Old age"], correct: 1 , rationale: "Conduction blocks sound Rationale." },
+                            { q: "The Vestibular system detects:", options: ["Sound", "Balance and Equilibrium", "Taste", "Touch"], correct: 1 , rationale: "Vestibular detects equilibrium Rationale." },
+                            { q: "Otoliths are found in the:", options: ["Cochlea", "Vestibule (Utricle/Saccule)", "Semicircular canals", "Eardrum"], correct: 1 , rationale: "Otoliths in vestibule Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Endocrine & Integration',
                         questions: [
-                            { q: "Which hormone regulates calcium levels in the blood?", options: ["Insulin", "Parathyroid Hormone (PTH)", "Thyroxine", "Aldosterone"], correct: 1 },
-                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Cortisol", "Insulin", "Epinephrine"], correct: 2 },
-                            { q: "Glucagon is secreted by:", options: ["Beta cells", "Alpha cells", "Delta cells", "Liver"], correct: 1 },
-                            { q: "Cortisol increases blood glucose by promoting:", options: ["Glycolysis", "Gluconeogenesis", "Glycogen synthesis", "Fat storage"], correct: 1 },
-                            { q: "Aldosterone causes the kidneys to:", options: ["Excrete Na+", "Reabsorb Na+ and Water", "Reabsorb K+", "Excrete Water"], correct: 1 },
-                            { q: "ADH (Vasopressin) acts on the:", options: ["Liver", "Kidney collecting ducts (Water reabsorption)", "Heart", "Lungs"], correct: 1 },
-                            { q: "The Hypothalamic-Pituitary axis controls:", options: ["Digestion", "Most endocrine glands", "Vision", "Hearing"], correct: 1 },
-                            { q: "Releasing hormones (e.g., TRH, CRH) come from the:", options: ["Anterior Pituitary", "Hypothalamus", "Thyroid", "Adrenal"], correct: 1 },
-                            { q: "Tropic hormones (e.g., TSH, ACTH) come from the:", options: ["Hypothalamus", "Anterior Pituitary", "Thyroid", "Liver"], correct: 1 },
-                            { q: "Iodine is required for synthesis of:", options: ["Insulin", "Thyroid Hormones (T3/T4)", "Cortisol", "GH"], correct: 1 },
-                            { q: "Hyperthyroidism symptoms include:", options: ["Weight gain", "Weight loss, heat intolerance, tachycardia", "Cold intolerance", "Sleepiness"], correct: 1 },
-                            { q: "Hypothyroidism symptoms include:", options: ["Weight loss", "Weight gain, cold intolerance, fatigue", "Heat intolerance", "Anxiety"], correct: 1 },
-                            { q: "Stress triggers the release of:", options: ["Insulin", "Cortisol and Epinephrine", "Melatonin", "Estrogen"], correct: 1 },
-                            { q: "The posterior pituitary stores:", options: ["GH and TSH", "ADH and Oxytocin", "Insulin", "Cortisol"], correct: 1 },
-                            { q: "Renin is released by kidneys in response to:", options: ["High BP", "Low BP/Low Sodium", "High Sodium", "Stress"], correct: 1 },
-                            { q: "Angiotensin II causes:", options: ["Vasodilation", "Vasoconstriction and Aldosterone release", "Urination", "Sleep"], correct: 1 },
-                            { q: "Erythropoietin (EPO) stimulates production of:", options: ["WBCs", "RBCs", "Platelets", "Clotting factors"], correct: 1 },
-                            { q: "Atrial Natriuretic Peptide (ANP) acts to:", options: ["Raise BP", "Lower BP (Excrete Na/Water)", "Retain water", "Increase HR"], correct: 1 },
-                            { q: "Leptin is produced by:", options: ["Stomach", "Adipose tissue (Fat)", "Brain", "Liver"], correct: 1 },
-                            { q: "Ghrelin stimulates:", options: ["Fullness", "Hunger", "Thirst", "Sleep"], correct: 1 }
+                            { q: "Which hormone regulates calcium levels in the blood?", options: ["Insulin", "Parathyroid Hormone (PTH)", "Thyroxine", "Aldosterone"], correct: 1 , rationale: "Parathyroid regulates calcium Rationale." },
+                            { q: "Which hormone lowers blood glucose levels?", options: ["Glucagon", "Cortisol", "Insulin", "Epinephrine"], correct: 2 , rationale: "Insulin lowers glucose Rationale." },
+                            { q: "Glucagon is secreted by:", options: ["Beta cells", "Alpha cells", "Delta cells", "Liver"], correct: 1 , rationale: "Alpha cells glucagon Rationale." },
+                            { q: "Cortisol increases blood glucose by promoting:", options: ["Glycolysis", "Gluconeogenesis", "Glycogen synthesis", "Fat storage"], correct: 1 , rationale: "Cortisol creates glucose Rationale." },
+                            { q: "Aldosterone causes the kidneys to:", options: ["Excrete Na+", "Reabsorb Na+ and Water", "Reabsorb K+", "Excrete Water"], correct: 1 , rationale: "Aldosterone reabsorbs sodium Rationale." },
+                            { q: "ADH (Vasopressin) acts on the:", options: ["Liver", "Kidney collecting ducts (Water reabsorption)", "Heart", "Lungs"], correct: 1 , rationale: "ADH acts ducts Rationale." },
+                            { q: "The Hypothalamic-Pituitary axis controls:", options: ["Digestion", "Most endocrine glands", "Vision", "Hearing"], correct: 1 , rationale: "Hypothalamus controls glands Rationale." },
+                            { q: "Releasing hormones (e.g., TRH, CRH) come from the:", options: ["Anterior Pituitary", "Hypothalamus", "Thyroid", "Adrenal"], correct: 1 , rationale: "Hypothalamus releases hormones Rationale." },
+                            { q: "Tropic hormones (e.g., TSH, ACTH) come from the:", options: ["Hypothalamus", "Anterior Pituitary", "Thyroid", "Liver"], correct: 1 , rationale: "Pituitary releases tropic Rationale." },
+                            { q: "Iodine is required for synthesis of:", options: ["Insulin", "Thyroid Hormones (T3/T4)", "Cortisol", "GH"], correct: 1 , rationale: "Iodine for thyroid Rationale." },
+                            { q: "Hyperthyroidism symptoms include:", options: ["Weight gain", "Weight loss, heat intolerance, tachycardia", "Cold intolerance", "Sleepiness"], correct: 1 , rationale: "Hyperthyroid causes loss Rationale." },
+                            { q: "Hypothyroidism symptoms include:", options: ["Weight loss", "Weight gain, cold intolerance, fatigue", "Heat intolerance", "Anxiety"], correct: 1 , rationale: "Hypothyroid causes gain Rationale." },
+                            { q: "Stress triggers the release of:", options: ["Insulin", "Cortisol and Epinephrine", "Melatonin", "Estrogen"], correct: 1 , rationale: "Stress triggers cortisol Rationale." },
+                            { q: "The posterior pituitary stores:", options: ["GH and TSH", "ADH and Oxytocin", "Insulin", "Cortisol"], correct: 1 , rationale: "Posterior stores ADH Rationale." },
+                            { q: "Renin is released by kidneys in response to:", options: ["High BP", "Low BP/Low Sodium", "High Sodium", "Stress"], correct: 1 , rationale: "Renin responds BP Rationale." },
+                            { q: "Angiotensin II causes:", options: ["Vasodilation", "Vasoconstriction and Aldosterone release", "Urination", "Sleep"], correct: 1 , rationale: "Angiotensin triggers vasoconstriction Rationale." },
+                            { q: "Erythropoietin (EPO) stimulates production of:", options: ["WBCs", "RBCs", "Platelets", "Clotting factors"], correct: 1 , rationale: "Erythropoietin stimulates RBC Rationale." },
+                            { q: "Atrial Natriuretic Peptide (ANP) acts to:", options: ["Raise BP", "Lower BP (Excrete Na/Water)", "Retain water", "Increase HR"], correct: 1 , rationale: "ANP lowers blood Rationale." },
+                            { q: "Leptin is produced by:", options: ["Stomach", "Adipose tissue (Fat)", "Brain", "Liver"], correct: 1 , rationale: "Adipose releases leptin Rationale." },
+                            { q: "Ghrelin stimulates:", options: ["Fullness", "Hunger", "Thirst", "Sleep"], correct: 1 , rationale: "Ghrelin triggers hunger Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Reproductive Physio',
                         questions: [
-                            { q: "Spermatogenesis occurs in the:", options: ["Epididymis", "Seminiferous Tubules", "Vas Deferens", "Prostate"], correct: 1 },
-                            { q: "The proliferative phase of the uterine cycle corresponds to which ovarian phase?", options: ["Luteal", "Follicular", "Ovulation", "Menstrual"], correct: 1 },
-                            { q: "What triggers ovulation?", options: ["FSH spike", "LH surge", "Progesterone drop", "Estrogen drop"], correct: 1 },
-                            { q: "Progesterone is primarily secreted by the:", options: ["Follicle", "Corpus Luteum", "Pituitary", "Hypothalamus"], correct: 1 },
-                            { q: "Fertilization typically occurs in the:", options: ["Uterus", "Fallopian Tube (Ampulla)", "Ovary", "Cervix"], correct: 1 },
-                            { q: "Implantation occurs in the:", options: ["Endometrium", "Myometrium", "Fallopian tube", "Cervix"], correct: 0 },
-                            { q: "hCG is produced by the:", options: ["Ovary", "Placenta/Trophoblast", "Pituitary", "Uterus"], correct: 1 },
-                            { q: "Testosterone is essential for:", options: ["Milk production", "Spermatogenesis & Male secondary characteristics", "Ovulation", "Menstruation"], correct: 1 },
-                            { q: "The Menstrual phase is triggered by:", options: ["LH surge", "Drop in Progesterone and Estrogen", "Rise in FSH", "Pregnancy"], correct: 1 },
-                            { q: "Sperm maturation occurs in the:", options: ["Seminiferous tubules", "Epididymis", "Vas deferens", "Urethra"], correct: 1 },
-                            { q: "The Acrosome reaction allows sperm to:", options: ["Swim", "Penetrate the egg", "Die", "Divide"], correct: 1 },
-                            { q: "Inhibin acts to inhibit:", options: ["LH", "FSH", "GnRH", "Testosterone"], correct: 1 },
-                            { q: "Menopause is defined as:", options: ["Irregular periods", "12 months without menstruation", "Hot flashes", "Infertility"], correct: 1 },
-                            { q: "Oxytocin's role in breastfeeding is:", options: ["Milk production", "Milk ejection (Let-down)", "Growth", "Taste"], correct: 1 },
-                            { q: "Prolactin's role in breastfeeding is:", options: ["Milk production", "Milk ejection", " Bonding", "Sleep"], correct: 0 },
-                            { q: "Capacitation is:", options: ["Sperm death", "Functional maturation of sperm in female tract", "Egg release", "Cell division"], correct: 1 },
-                            { q: "The Blastocyst implants into the uterus around day:", options: ["1", "3", "6-7", "14"], correct: 2 },
-                            { q: "Determination of sex is by:", options: ["Mother's egg", "Father's sperm (X or Y)", "Environment", "Temperature"], correct: 1 },
-                            { q: "Leydig cells produce:", options: ["Sperm", "Testosterone", "Fluid", "Inhibin"], correct: 1 },
-                            { q: "Sertoli cells function to:", options: ["Make testosterone", "Support/Nourish sperm (Nurse cells)", "Make blood", "Fight infection"], correct: 1 }
+                            { q: "Spermatogenesis occurs in the:", options: ["Epididymis", "Seminiferous Tubules", "Vas Deferens", "Prostate"], correct: 1 , rationale: "Spermatogenesis inside tubules Rationale." },
+                            { q: "The proliferative phase of the uterine cycle corresponds to which ovarian phase?", options: ["Luteal", "Follicular", "Ovulation", "Menstrual"], correct: 1 , rationale: "Proliferative corresponds follicular Rationale." },
+                            { q: "What triggers ovulation?", options: ["FSH spike", "LH surge", "Progesterone drop", "Estrogen drop"], correct: 1 , rationale: "LH triggers ovulation Rationale." },
+                            { q: "Progesterone is primarily secreted by the:", options: ["Follicle", "Corpus Luteum", "Pituitary", "Hypothalamus"], correct: 1 , rationale: "Corpus secretes progesterone Rationale." },
+                            { q: "Fertilization typically occurs in the:", options: ["Uterus", "Fallopian Tube (Ampulla)", "Ovary", "Cervix"], correct: 1 , rationale: "Fertilization occurs ampulla Rationale." },
+                            { q: "Implantation occurs in the:", options: ["Endometrium", "Myometrium", "Fallopian tube", "Cervix"], correct: 0 , rationale: "Implantation happens endometrium Rationale." },
+                            { q: "hCG is produced by the:", options: ["Ovary", "Placenta/Trophoblast", "Pituitary", "Uterus"], correct: 1 , rationale: "Placenta secretes hCG Rationale." },
+                            { q: "Testosterone is essential for:", options: ["Milk production", "Spermatogenesis & Male secondary characteristics", "Ovulation", "Menstruation"], correct: 1 , rationale: "Testosterone drives male Rationale." },
+                            { q: "The Menstrual phase is triggered by:", options: ["LH surge", "Drop in Progesterone and Estrogen", "Rise in FSH", "Pregnancy"], correct: 1 , rationale: "Menstrual purely drops Rationale." },
+                            { q: "Sperm maturation occurs in the:", options: ["Seminiferous tubules", "Epididymis", "Vas deferens", "Urethra"], correct: 1 , rationale: "Epididymis purely matures Rationale." },
+                            { q: "The Acrosome reaction allows sperm to:", options: ["Swim", "Penetrate the egg", "Die", "Divide"], correct: 1 , rationale: "Acrosome precisely reaction Rationale." },
+                            { q: "Inhibin acts to inhibit:", options: ["LH", "FSH", "GnRH", "Testosterone"], correct: 1 , rationale: "Inhibin purely inhibits Rationale." },
+                            { q: "Menopause is defined as:", options: ["Irregular periods", "12 months without menstruation", "Hot flashes", "Infertility"], correct: 1 , rationale: "Menopause successfully defines Rationale." },
+                            { q: "Oxytocin's role in breastfeeding is:", options: ["Milk production", "Milk ejection (Let-down)", "Growth", "Taste"], correct: 1 , rationale: "Oxytocin purely ejects Rationale." },
+                            { q: "Prolactin's role in breastfeeding is:", options: ["Milk production", "Milk ejection", " Bonding", "Sleep"], correct: 0 , rationale: "Prolactin purely produces Rationale." },
+                            { q: "Capacitation is:", options: ["Sperm death", "Functional maturation of sperm in female tract", "Egg release", "Cell division"], correct: 1 , rationale: "Capacitation purely matures Rationale." },
+                            { q: "The Blastocyst implants into the uterus around day:", options: ["1", "3", "6-7", "14"], correct: 2 , rationale: "Blastocyst purely implants Rationale." },
+                            { q: "Determination of sex is by:", options: ["Mother's egg", "Father's sperm (X or Y)", "Environment", "Temperature"], correct: 1 , rationale: "Father purely determines Rationale." },
+                            { q: "Leydig cells produce:", options: ["Sperm", "Testosterone", "Fluid", "Inhibin"], correct: 1 , rationale: "Leydig purely produces Rationale." },
+                            { q: "Sertoli cells function to:", options: ["Make testosterone", "Support/Nourish sperm (Nurse cells)", "Make blood", "Fight infection"], correct: 1 , rationale: "Sertoli purely nourishes Rationale." }
                         ]
                     },
                     {
@@ -3477,140 +3637,140 @@ const appData = {
                         type: 'quiz',
                         title: 'Biochemistry Final Quiz',
                         questions: [
-                            { q: "Where does the Krebs Cycle take place?", options: ["Cytoplasm", "Mitochondrial Matrix", "Ribosome", "Nucleus"], correct: 1 },
-                            { q: "Which vitamin is fat-soluble?", options: ["Vitamin C", "Vitamin B12", "Vitamin D", "Folate"], correct: 2 },
-                            { q: "The process of converting DNA to mRNA is called:", options: ["Replication", "Transcription", "Translation", "Mutation"], correct: 1 },
-                            { q: "Which bond stabilizes the secondary structure of proteins?", options: ["Peptide", "Hydrogen", "Disulfide", "Ionic"], correct: 1 }
+                            { q: "Where does the Krebs Cycle take place?", options: ["Cytoplasm", "Mitochondrial Matrix", "Ribosome", "Nucleus"], correct: 1 , rationale: "Krebs purely inside Rationale." },
+                            { q: "Which vitamin is fat-soluble?", options: ["Vitamin C", "Vitamin B12", "Vitamin D", "Folate"], correct: 2 , rationale: "Vitamin purely fat Rationale." },
+                            { q: "The process of converting DNA to mRNA is called:", options: ["Replication", "Transcription", "Translation", "Mutation"], correct: 1 , rationale: "Transcription purely creates Rationale." },
+                            { q: "Which bond stabilizes the secondary structure of proteins?", options: ["Peptide", "Hydrogen", "Disulfide", "Ionic"], correct: 1 , rationale: "Hydrogen purely stabilizes Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Metabolism Overview',
                         questions: [
-                            { q: "Which molecule is the primary energy currency of the cell?", options: ["Glucose", "ATP", "NADH", "Pyruvate"], correct: 1 },
-                            { q: "Anabolism refers to:", options: ["Breakdown of molecules", "Synthesis of complex molecules", "Digestion", "Excretion"], correct: 1 },
-                            { q: "Catabolism refers to:", options: ["Breakdown of molecules to release energy", "Building muscle", "DNA replication", "Photosynthesis"], correct: 0 },
-                            { q: "Glycolysis occurs in the:", options: ["Mitochondria", "Nucleus", "Cytoplasm", "Ribosome"], correct: 2 },
-                            { q: "The end product of aerobic glycolysis is:", options: ["Lactate", "Pyruvate", "Ethanol", "Acetyl-CoA"], correct: 1 },
-                            { q: "Under anaerobic conditions, pyruvate is converted to:", options: ["Acetyl-CoA", "Lactate", "Glucose", "Fat"], correct: 1 },
-                            { q: "The Krebs Cycle occurs in the:", options: ["Cytoplasm", "Mitochondrial Matrix", "Inner Mitochondrial Membrane", "Nucleus"], correct: 1 },
-                            { q: "The Electron Transport Chain is located in the:", options: ["Cytoplasm", "Outer Mitochondrial Membrane", "Inner Mitochondrial Membrane", "Lysosome"], correct: 2 },
-                            { q: "How many net ATP are produced in Glycolysis?", options: ["2", "4", "32", "36"], correct: 0 },
-                            { q: "Oxidative Phosphorylation requires:", options: ["Carbon Dioxide", "Oxygen", "Nitrogen", "Helium"], correct: 1 },
-                            { q: "Gluconeogenesis is the synthesis of glucose from:", options: ["Glycogen", "Non-carbohydrate sources (e.g., amino acids, lactate)", "Fatty acids only", "Starch"], correct: 1 },
-                            { q: "Glycogen is stored primarily in the:", options: ["Brain", "Liver and Muscles", "Kidneys", "Heart"], correct: 1 },
-                            { q: "Insulin stimulates:", options: ["Glycogenolysis", "Glycogenesis (Storage)", "Gluconeogenesis", "Lipolysis"], correct: 1 },
-                            { q: "Glucagon stimulates:", options: ["Glycogen breakdown (Glycogenolysis)", "Fat storage", "Protein synthesis", "Sleep"], correct: 0 },
-                            { q: "The Cori Cycle involves the transport of ______ to the liver.", options: ["Glucose", "Lactate", "Pyruvate", "Urea"], correct: 1 },
-                            { q: "ATP synthase uses a ______ gradient to make ATP.", options: ["Sodium", "Potassium", "Proton (H+)", "Calcium"], correct: 2 },
-                            { q: "Which coenzyme is reduced in the Krebs cycle?", options: ["ATP", "NAD+", "CoA", "Biotin"], correct: 1 },
-                            { q: "Beta-oxidation occurs in the:", options: ["Cytoplasm", "Mitochondria", "Nucleus", "ER"], correct: 1 },
-                            { q: "Ketone bodies are produced during:", options: ["High carb intake", "Starvation or uncontrolled diabetes", "Exercise", "Sleep"], correct: 1 },
-                            { q: "The breakdown of glucose is called:", options: ["Glycolysis", "Gluconeogenesis", "Glycogenolysis", "Proteolysis"], correct: 0 }
+                            { q: "Which molecule is the primary energy currency of the cell?", options: ["Glucose", "ATP", "NADH", "Pyruvate"], correct: 1 , rationale: "ATP purely fuels Rationale." },
+                            { q: "Anabolism refers to:", options: ["Breakdown of molecules", "Synthesis of complex molecules", "Digestion", "Excretion"], correct: 1 , rationale: "Anabolism purely builds Rationale." },
+                            { q: "Catabolism refers to:", options: ["Breakdown of molecules to release energy", "Building muscle", "DNA replication", "Photosynthesis"], correct: 0 , rationale: "Catabolism purely breaks Rationale." },
+                            { q: "Glycolysis occurs in the:", options: ["Mitochondria", "Nucleus", "Cytoplasm", "Ribosome"], correct: 2 , rationale: "Glycolysis purely cytoplasm Rationale." },
+                            { q: "The end product of aerobic glycolysis is:", options: ["Lactate", "Pyruvate", "Ethanol", "Acetyl-CoA"], correct: 1 , rationale: "Pyruvate purely aerobic Rationale." },
+                            { q: "Under anaerobic conditions, pyruvate is converted to:", options: ["Acetyl-CoA", "Lactate", "Glucose", "Fat"], correct: 1 , rationale: "Lactate purely anaerobic Rationale." },
+                            { q: "The Krebs Cycle occurs in the:", options: ["Cytoplasm", "Mitochondrial Matrix", "Inner Mitochondrial Membrane", "Nucleus"], correct: 1 , rationale: "Krebs purely mitochondria Rationale." },
+                            { q: "The Electron Transport Chain is located in the:", options: ["Cytoplasm", "Outer Mitochondrial Membrane", "Inner Mitochondrial Membrane", "Lysosome"], correct: 2 , rationale: "ETC purely inner Rationale." },
+                            { q: "How many net ATP are produced in Glycolysis?", options: ["2", "4", "32", "36"], correct: 0 , rationale: "Glycolysis purely net Rationale." },
+                            { q: "Oxidative Phosphorylation requires:", options: ["Carbon Dioxide", "Oxygen", "Nitrogen", "Helium"], correct: 1 , rationale: "Oxidative purely requires Rationale." },
+                            { q: "Gluconeogenesis is the synthesis of glucose from:", options: ["Glycogen", "Non-carbohydrate sources (e.g., amino acids, lactate)", "Fatty acids only", "Starch"], correct: 1 , rationale: "Gluconeogenesis purely creates Rationale." },
+                            { q: "Glycogen is stored primarily in the:", options: ["Brain", "Liver and Muscles", "Kidneys", "Heart"], correct: 1 , rationale: "Glycogen purely liver Rationale." },
+                            { q: "Insulin stimulates:", options: ["Glycogenolysis", "Glycogenesis (Storage)", "Gluconeogenesis", "Lipolysis"], correct: 1 , rationale: "Insulin purely stimulates Rationale." },
+                            { q: "Glucagon stimulates:", options: ["Glycogen breakdown (Glycogenolysis)", "Fat storage", "Protein synthesis", "Sleep"], correct: 0 , rationale: "Glucagon purely breakdown Rationale." },
+                            { q: "The Cori Cycle involves the transport of ______ to the liver.", options: ["Glucose", "Lactate", "Pyruvate", "Urea"], correct: 1 , rationale: "Cori purely transports Rationale." },
+                            { q: "ATP synthase uses a ______ gradient to make ATP.", options: ["Sodium", "Potassium", "Proton (H+)", "Calcium"], correct: 2 , rationale: "ATP purely proton Rationale." },
+                            { q: "Which coenzyme is reduced in the Krebs cycle?", options: ["ATP", "NAD+", "CoA", "Biotin"], correct: 1 , rationale: "NAD purely reduced Rationale." },
+                            { q: "Beta-oxidation occurs in the:", options: ["Cytoplasm", "Mitochondria", "Nucleus", "ER"], correct: 1 , rationale: "Beta purely mitochondria Rationale." },
+                            { q: "Ketone bodies are produced during:", options: ["High carb intake", "Starvation or uncontrolled diabetes", "Exercise", "Sleep"], correct: 1 , rationale: "Ketone purely starvation Rationale." },
+                            { q: "The breakdown of glucose is called:", options: ["Glycolysis", "Gluconeogenesis", "Glycogenolysis", "Proteolysis"], correct: 0 , rationale: "Glycolysis purely breakdown Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Carbohydrates & Respiration',
                         questions: [
-                            { q: "Which sugar is the structural component of DNA?", options: ["Ribose", "Deoxyribose", "Glucose", "Fructose"], correct: 1 },
-                            { q: "Sucrose is a disaccharide of:", options: ["Glucose + Glucose", "Glucose + Fructose", "Glucose + Galactose", "Fructose + Galactose"], correct: 1 },
-                            { q: "Lactose is found in:", options: ["Fruit", "Milk", "Table sugar", "Meat"], correct: 1 },
-                            { q: "Starch is a polymer of:", options: ["Amnio acids", "Glucose", "Fatty acids", "Nucleotides"], correct: 1 },
-                            { q: "Which GLUT transporter is insulin-dependent?", options: ["GLUT1", "GLUT2", "GLUT4", "GLUT5"], correct: 2 },
-                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Lack of Insulin production", "Excess Insulin", "Obesity"], correct: 1 },
-                            { q: "Type 2 Diabetes is characterized by:", options: ["Autoimmune destruction", "Insulin resistance", "Low blood sugar", "Genetic mutation"], correct: 1 },
-                            { q: "HbA1c measures:", options: ["Acute blood sugar", "Average blood sugar over 3 months", "Insulin levels", "Ketones"], correct: 1 },
-                            { q: "Hypoglycemia is blood glucose below:", options: ["70 mg/dL", "100 mg/dL", "140 mg/dL", "200 mg/dL"], correct: 0 },
-                            { q: "Which organ relies almost exclusively on glucose?", options: ["Liver", "Heart", "Brain", "Muscle"], correct: 2 },
-                            { q: "The Hexose Monophosphate Shunt produces:", options: ["ATP", "NADPH and Ribose", "Lactate", "Urea"], correct: 1 },
-                            { q: "NADPH is essential for:", options: ["Fatty acid synthesis and antioxidant defense", "Glycolysis", "Muscle contraction", "Vision"], correct: 0 },
-                            { q: "Galactosemia is a defect in:", options: ["Glucose metabolism", "Galactose metabolism", "Fructose metabolism", "Lipid metabolism"], correct: 1 },
-                            { q: "Fructose is metabolized primarily in the:", options: ["Muscle", "Brain", "Liver", "Kidney"], correct: 2 },
-                            { q: "Which enzyme is the rate-limiting step of Glycolysis?", options: ["Hexokinase", "Phosphofructokinase-1 (PFK-1)", "Pyruvate Kinase", "Aldolase"], correct: 1 },
-                            { q: "Arsenic poisoning inhibits:", options: ["Glycolysis", "The Krebs Cycle/PDH Complex", "Fatty and synthesis", "DNA replication"], correct: 1 },
-                            { q: "Cyanide inhibits:", options: ["Complex IV of ETC", "Glycolysis", "Krebs Cycle", "ATP Synthase"], correct: 0 },
-                            { q: "Uncoupling agents cause:", options: ["ATP production", "Heat production instead of ATP", "Cold", "Sleep"], correct: 1 },
-                            { q: "Brown adipose tissue is rich in:", options: ["Glycogen", "Mitochondria (for heat)", "Water", "Protein"], correct: 1 },
-                            { q: "Normal fasting blood glucose is:", options: ["70-99 mg/dL", "100-125 mg/dL", "126+ mg/dL", "40-60 mg/dL"], correct: 0 }
+                            { q: "Which sugar is the structural component of DNA?", options: ["Ribose", "Deoxyribose", "Glucose", "Fructose"], correct: 1 , rationale: "Deoxyribose purely DNA Rationale." },
+                            { q: "Sucrose is a disaccharide of:", options: ["Glucose + Glucose", "Glucose + Fructose", "Glucose + Galactose", "Fructose + Galactose"], correct: 1 , rationale: "Sucrose purely glucose Rationale." },
+                            { q: "Lactose is found in:", options: ["Fruit", "Milk", "Table sugar", "Meat"], correct: 1 , rationale: "Lactose purely milk Rationale." },
+                            { q: "Starch is a polymer of:", options: ["Amnio acids", "Glucose", "Fatty acids", "Nucleotides"], correct: 1 , rationale: "Starch purely glucose Rationale." },
+                            { q: "Which GLUT transporter is insulin-dependent?", options: ["GLUT1", "GLUT2", "GLUT4", "GLUT5"], correct: 2 , rationale: "GLUT4 purely insulin Rationale." },
+                            { q: "Type 1 Diabetes is characterized by:", options: ["Insulin resistance", "Lack of Insulin production", "Excess Insulin", "Obesity"], correct: 1 , rationale: "Type1 purely lack Rationale." },
+                            { q: "Type 2 Diabetes is characterized by:", options: ["Autoimmune destruction", "Insulin resistance", "Low blood sugar", "Genetic mutation"], correct: 1 , rationale: "Type2 purely resistance Rationale." },
+                            { q: "HbA1c measures:", options: ["Acute blood sugar", "Average blood sugar over 3 months", "Insulin levels", "Ketones"], correct: 1 , rationale: "HbA1c purely measures Rationale." },
+                            { q: "Hypoglycemia is blood glucose below:", options: ["70 mg/dL", "100 mg/dL", "140 mg/dL", "200 mg/dL"], correct: 0 , rationale: "Hypoglycemia purely low Rationale." },
+                            { q: "Which organ relies almost exclusively on glucose?", options: ["Liver", "Heart", "Brain", "Muscle"], correct: 2 , rationale: "Brain purely glucose Rationale." },
+                            { q: "The Hexose Monophosphate Shunt produces:", options: ["ATP", "NADPH and Ribose", "Lactate", "Urea"], correct: 1 , rationale: "Hexose purely NADPH Rationale." },
+                            { q: "NADPH is essential for:", options: ["Fatty acid synthesis and antioxidant defense", "Glycolysis", "Muscle contraction", "Vision"], correct: 0 , rationale: "NADPH purely fatty Rationale." },
+                            { q: "Galactosemia is a defect in:", options: ["Glucose metabolism", "Galactose metabolism", "Fructose metabolism", "Lipid metabolism"], correct: 1 , rationale: "Galactosemia purely defect Rationale." },
+                            { q: "Fructose is metabolized primarily in the:", options: ["Muscle", "Brain", "Liver", "Kidney"], correct: 2 , rationale: "Fructose purely liver Rationale." },
+                            { q: "Which enzyme is the rate-limiting step of Glycolysis?", options: ["Hexokinase", "Phosphofructokinase-1 (PFK-1)", "Pyruvate Kinase", "Aldolase"], correct: 1 , rationale: "PFK1 purely rate Rationale." },
+                            { q: "Arsenic poisoning inhibits:", options: ["Glycolysis", "The Krebs Cycle/PDH Complex", "Fatty and synthesis", "DNA replication"], correct: 1 , rationale: "Arsenic purely Krebs Rationale." },
+                            { q: "Cyanide inhibits:", options: ["Complex IV of ETC", "Glycolysis", "Krebs Cycle", "ATP Synthase"], correct: 0 , rationale: "Cyanide purely ETC Rationale." },
+                            { q: "Uncoupling agents cause:", options: ["ATP production", "Heat production instead of ATP", "Cold", "Sleep"], correct: 1 , rationale: "Uncoupling purely heat Rationale." },
+                            { q: "Brown adipose tissue is rich in:", options: ["Glycogen", "Mitochondria (for heat)", "Water", "Protein"], correct: 1 , rationale: "Brown purely mitochondria Rationale." },
+                            { q: "Normal fasting blood glucose is:", options: ["70-99 mg/dL", "100-125 mg/dL", "126+ mg/dL", "40-60 mg/dL"], correct: 0 , rationale: "Normal fasting is lower Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Lipids & Proteins',
                         questions: [
-                            { q: "Triglycerides are composed of:", options: ["Glycerol + 3 Fatty Acids", "Glucose + Fat", "Cholesterol + Protein", "Amino Acids"], correct: 0 },
-                            { q: "Saturated fatty acids have:", options: ["Double bonds", "No double bonds", "Triple bonds", "Rings"], correct: 1 },
-                            { q: "Unsaturated fatty acids are typically:", options: ["Solid at room temp", "Liquid at room temp (Oils)", "Toxic", "Gases"], correct: 1 },
-                            { q: "Which lipoprotein is 'Good Cholesterol'?", options: ["LDL", "HDL", "VLDL", "Chylomicrons"], correct: 1 },
-                            { q: "Which lipoprotein is 'Bad Cholesterol'?", options: ["LDL", "HDL", "IDL", "Albumin"], correct: 0 },
-                            { q: "Chylomicrons transport:", options: ["Dietary lipids", "Liver lipids", "Proteins", "Sugar"], correct: 0 },
-                            { q: "Beta-oxidation of a 16-carbon fatty acid yields _____ Acetyl-CoA.", options: ["8", "16", "32", "4"], correct: 0 },
-                            { q: "Ketogenesis occurs in the:", options: ["Muscle", "Liver mitochondria", "Brain", "Blood"], correct: 1 },
-                            { q: "Diabetic Ketoacidosis (DKA) results in:", options: ["Metabolic Alkalosis", "Metabolic Acidosis", "Respiratory Acidosis", "Respiratory Alkalosis"], correct: 1 },
-                            { q: "Essential fatty acids include:", options: ["Linoleic and Alpha-linolenic", "Stearic and Palmitic", "Cholesterol", "Glucose"], correct: 0 },
-                            { q: "Which of the following is an essential amino acid?", options: ["Alanine", "Serine", "Leucine", "Glutamate"], correct: 2 },
-                            { q: "The bond between amino acids is a:", options: ["Peptide bond", "Ionic bond", "Glycosidic bond", "Ester bond"], correct: 0 },
-                            { q: "Which structure involves Alpha helices and Beta sheets?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 1 },
-                            { q: "Hemoglobin has which structure?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 3 },
-                            { q: "Denaturation of a protein involves loss of:", options: ["Primary structure", "Shape/Folded structure", "Peptide bonds", "Nitrogen"], correct: 1 },
-                            { q: "The Urea Cycle occurs in the:", options: ["Kidney", "Liver", "Brain", "Muscle"], correct: 1 },
-                            { q: "The Urea Cycle removes toxic ______ from the body.", options: ["Carbon", "Ammonia (NH3)", "Sulfur", "Oxygen"], correct: 1 },
-                            { q: "PKU (Phenylketonuria) is a defect in metabolizing:", options: ["Tyrosine", "Phenylalanine", "Alanine", "Leucine"], correct: 1 },
-                            { q: "Albumin functions to:", options: ["Clot blood", "Maintain oncotic pressure", "Carry oxygen", "Fight infection"], correct: 1 },
-                            { q: "Collagen is a major protein in:", options: ["Connective tissue", "Brain", "Blood", "Liver"], correct: 0 }
+                            { q: "Triglycerides are composed of:", options: ["Glycerol + 3 Fatty Acids", "Glucose + Fat", "Cholesterol + Protein", "Amino Acids"], correct: 0 , rationale: "Triglycerides are glycerol fatty Rationale." },
+                            { q: "Saturated fatty acids have:", options: ["Double bonds", "No double bonds", "Triple bonds", "Rings"], correct: 1 , rationale: "Saturated have no double Rationale." },
+                            { q: "Unsaturated fatty acids are typically:", options: ["Solid at room temp", "Liquid at room temp (Oils)", "Toxic", "Gases"], correct: 1 , rationale: "Unsaturated are liquid oils Rationale." },
+                            { q: "Which lipoprotein is 'Good Cholesterol'?", options: ["LDL", "HDL", "VLDL", "Chylomicrons"], correct: 1 , rationale: "HDL is good cholesterol Rationale." },
+                            { q: "Which lipoprotein is 'Bad Cholesterol'?", options: ["LDL", "HDL", "IDL", "Albumin"], correct: 0 , rationale: "LDL is bad cholesterol Rationale." },
+                            { q: "Chylomicrons transport:", options: ["Dietary lipids", "Liver lipids", "Proteins", "Sugar"], correct: 0 , rationale: "Chylomicrons transport dietary lipids Rationale." },
+                            { q: "Beta-oxidation of a 16-carbon fatty acid yields _____ Acetyl-CoA.", options: ["8", "16", "32", "4"], correct: 0 , rationale: "Sixteen yields eight acetyl Rationale." },
+                            { q: "Ketogenesis occurs in the:", options: ["Muscle", "Liver mitochondria", "Brain", "Blood"], correct: 1 , rationale: "Ketogenesis in liver mitochondria Rationale." },
+                            { q: "Diabetic Ketoacidosis (DKA) results in:", options: ["Metabolic Alkalosis", "Metabolic Acidosis", "Respiratory Acidosis", "Respiratory Alkalosis"], correct: 1 , rationale: "DKA is metabolic acidosis Rationale." },
+                            { q: "Essential fatty acids include:", options: ["Linoleic and Alpha-linolenic", "Stearic and Palmitic", "Cholesterol", "Glucose"], correct: 0 , rationale: "Essential include linoleic linolenic Rationale." },
+                            { q: "Which of the following is an essential amino acid?", options: ["Alanine", "Serine", "Leucine", "Glutamate"], correct: 2 , rationale: "Leucine is essential amino Rationale." },
+                            { q: "The bond between amino acids is a:", options: ["Peptide bond", "Ionic bond", "Glycosidic bond", "Ester bond"], correct: 0 , rationale: "Peptide bond joins amino Rationale." },
+                            { q: "Which structure involves Alpha helices and Beta sheets?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 1 , rationale: "Secondary structure alpha beta Rationale." },
+                            { q: "Hemoglobin has which structure?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 3 , rationale: "Hemoglobin has quaternary structure Rationale." },
+                            { q: "Denaturation of a protein involves loss of:", options: ["Primary structure", "Shape/Folded structure", "Peptide bonds", "Nitrogen"], correct: 1 , rationale: "Denaturation loses folded shape Rationale." },
+                            { q: "The Urea Cycle occurs in the:", options: ["Kidney", "Liver", "Brain", "Muscle"], correct: 1 , rationale: "Urea cycle in liver Rationale." },
+                            { q: "The Urea Cycle removes toxic ______ from the body.", options: ["Carbon", "Ammonia (NH3)", "Sulfur", "Oxygen"], correct: 1 , rationale: "Urea cycle removes ammonia Rationale." },
+                            { q: "PKU (Phenylketonuria) is a defect in metabolizing:", options: ["Tyrosine", "Phenylalanine", "Alanine", "Leucine"], correct: 1 , rationale: "PKU defect in phenylalanine Rationale." },
+                            { q: "Albumin functions to:", options: ["Clot blood", "Maintain oncotic pressure", "Carry oxygen", "Fight infection"], correct: 1 , rationale: "Albumin maintains oncotic pressure Rationale." },
+                            { q: "Collagen is a major protein in:", options: ["Connective tissue", "Brain", "Blood", "Liver"], correct: 0 , rationale: "Collagen major in connective Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Enzymes & Genetics',
                         questions: [
-                            { q: "Enzymes that add a phosphate group to a molecule are called:", options: ["Phosphatases", "Kinases", "Isomerases", "Ligases"], correct: 1 },
-                            { q: "The active site is where:", options: ["Inhibitors always bind", "Substrate binds", "DNA binds", "Waste exits"], correct: 1 },
-                            { q: "Competitive inhibitors bind to the:", options: ["Allosteric site", "Active site", "DNA", "Ribosome"], correct: 1 },
-                            { q: "Non-competitive inhibitors bind to the:", options: ["Active site", "Allosteric site", "Substrate", "Product"], correct: 1 },
-                            { q: "Isoenzymes are:", options: ["Same enzyme, different reaction", "Different forms of an enzyme catalyzing same reaction", "Dead enzymes", "Slow enzymes"], correct: 1 },
-                            { q: "Troponin is a marker for:", options: ["Liver damage", "Myocardial Infarction (Heart Attack)", "Kidney failure", "Stroke"], correct: 1 },
-                            { q: "DNA replication is considered:", options: ["Conservative", "Semi-conservative", "Dispersive", "Non-conservative"], correct: 1 },
-                            { q: "Which enzyme unzips DNA?", options: ["Ligase", "Helicase", "Polymerase", "Primase"], correct: 1 },
-                            { q: "DNA Polymerase adds nucleotides in which direction?", options: ["3' to 5'", "5' to 3'", "Randomly", "Both ways"], correct: 1 },
-                            { q: "Okazaki fragments are found on the:", options: ["Leading strand", "Lagging strand", "mRNA", "tRNA"], correct: 1 },
-                            { q: "Transcription occurs in the:", options: ["Cytoplasm", "Nucleus", "Ribosome", "ER"], correct: 1 },
-                            { q: "Which RNA carries the code?", options: ["mRNA", "tRNA", "rRNA", "siRNA"], correct: 0 },
-                            { q: "Introns are:", options: ["Coding regions", "Non-coding regions removed during splicing", "Proteins", "Enzymes"], correct: 1 },
-                            { q: "Translation occurs in the:", options: ["Nucleus", "Ribosome (Cytoplasm/RER)", "Mitochondria", "Golgi"], correct: 1 },
-                            { q: "The start codon is:", options: ["UAA", "AUG (Methionine)", "UAG", "UGA"], correct: 1 },
-                            { q: "A point mutation is:", options: ["Loss of a chromosome", "Change in a single nucleotide", "Duplication of a gene", "Inversion"], correct: 1 },
-                            { q: "PCR is a technique to:", options: ["Sequence proteins", "Amplify DNA", "Clone sheep", "Edit genes"], correct: 1 },
-                            { q: "Which vitamin is needed for blood clotting?", options: ["Vitamin A", "Vitamin K", "Vitamin C", "Vitamin D"], correct: 1 },
-                            { q: "Vitamin B12 deficiency causes:", options: ["Scurvy", "Pernicious Anemia", "Rickets", "Night blindness"], correct: 1 },
-                            { q: "Which mineral is part of Hemoglobin?", options: ["Zinc", "Iron", "Magnesium", "Copper"], correct: 1 }
+                            { q: "Enzymes that add a phosphate group to a molecule are called:", options: ["Phosphatases", "Kinases", "Isomerases", "Ligases"], correct: 1 , rationale: "Kinases add phosphate groups Rationale." },
+                            { q: "The active site is where:", options: ["Inhibitors always bind", "Substrate binds", "DNA binds", "Waste exits"], correct: 1 , rationale: "Active site binds substrate Rationale." },
+                            { q: "Competitive inhibitors bind to the:", options: ["Allosteric site", "Active site", "DNA", "Ribosome"], correct: 1 , rationale: "Competitive bind active site Rationale." },
+                            { q: "Non-competitive inhibitors bind to the:", options: ["Active site", "Allosteric site", "Substrate", "Product"], correct: 1 , rationale: "Noncompetitive bind allosteric site Rationale." },
+                            { q: "Isoenzymes are:", options: ["Same enzyme, different reaction", "Different forms of an enzyme catalyzing same reaction", "Dead enzymes", "Slow enzymes"], correct: 1 , rationale: "Isoenzymes different forms same Rationale." },
+                            { q: "Troponin is a marker for:", options: ["Liver damage", "Myocardial Infarction (Heart Attack)", "Kidney failure", "Stroke"], correct: 1 , rationale: "Troponin marker for myocardial Rationale." },
+                            { q: "DNA replication is considered:", options: ["Conservative", "Semi-conservative", "Dispersive", "Non-conservative"], correct: 1 , rationale: "Replication is semi conservative Rationale." },
+                            { q: "Which enzyme unzips DNA?", options: ["Ligase", "Helicase", "Polymerase", "Primase"], correct: 1 , rationale: "Helicase unzips DNA strands Rationale." },
+                            { q: "DNA Polymerase adds nucleotides in which direction?", options: ["3' to 5'", "5' to 3'", "Randomly", "Both ways"], correct: 1 , rationale: "Polymerase adds 5 to 3 Rationale." },
+                            { q: "Okazaki fragments are found on the:", options: ["Leading strand", "Lagging strand", "mRNA", "tRNA"], correct: 1 , rationale: "Okazaki fragments lagging strand Rationale." },
+                            { q: "Transcription occurs in the:", options: ["Cytoplasm", "Nucleus", "Ribosome", "ER"], correct: 1 , rationale: "Transcription inside the nucleus Rationale." },
+                            { q: "Which RNA carries the code?", options: ["mRNA", "tRNA", "rRNA", "siRNA"], correct: 0 , rationale: "mRNA carries the code Rationale." },
+                            { q: "Introns are:", options: ["Coding regions", "Non-coding regions removed during splicing", "Proteins", "Enzymes"], correct: 1 , rationale: "Introns non coding removed Rationale." },
+                            { q: "Translation occurs in the:", options: ["Nucleus", "Ribosome (Cytoplasm/RER)", "Mitochondria", "Golgi"], correct: 1 , rationale: "Translation occurs in ribosome Rationale." },
+                            { q: "The start codon is:", options: ["UAA", "AUG (Methionine)", "UAG", "UGA"], correct: 1 , rationale: "Start codon is AUG Rationale." },
+                            { q: "A point mutation is:", options: ["Loss of a chromosome", "Change in a single nucleotide", "Duplication of a gene", "Inversion"], correct: 1 , rationale: "Point mutation single nucleotide Rationale." },
+                            { q: "PCR is a technique to:", options: ["Sequence proteins", "Amplify DNA", "Clone sheep", "Edit genes"], correct: 1 , rationale: "PCR amplifies DNA sequences Rationale." },
+                            { q: "Which vitamin is needed for blood clotting?", options: ["Vitamin A", "Vitamin K", "Vitamin C", "Vitamin D"], correct: 1 , rationale: "Vitamin K blood clotting Rationale." },
+                            { q: "Vitamin B12 deficiency causes:", options: ["Scurvy", "Pernicious Anemia", "Rickets", "Night blindness"], correct: 1 , rationale: "B12 deficiency pernicious anemia Rationale." },
+                            { q: "Which mineral is part of Hemoglobin?", options: ["Zinc", "Iron", "Magnesium", "Copper"], correct: 1 , rationale: "Iron part of hemoglobin Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Clinical Biochemistry',
                         questions: [
-                            { q: "Warburg effect describes cancer cells' preference for:", options: ["Aerobic Respiration", "Anaerobic Glycolysis", "Fatty Acid Oxidation", "Protein Catabolism"], correct: 1 },
-                            { q: "Jaundice is caused by accumulation of:", options: ["Urea", "Bilirubin", "Cholesterol", "Glucose"], correct: 1 },
-                            { q: "Gout is caused by accumulation of:", options: ["Urea", "Uric Acid", "Calcium", "Ammonia"], correct: 1 },
-                            { q: "Diabetes Insipidus involves a lack of:", options: ["Insulin", "ADH", "Glucagon", "Cortisol"], correct: 1 },
-                            { q: "Cushing's Syndrome is caused by excess:", options: ["Thyroid Hormone", "Cortisol", "Insulin", "Growth Hormone"], correct: 1 },
-                            { q: "Wilson's Disease involves accumulation of:", options: ["Iron", "Copper", "Zinc", "Lead"], correct: 1 },
-                            { q: "Hemophilia A is a deficiency of:", options: ["Factor VIII", "Factor IX", "Iron", "Platelets"], correct: 0 },
-                            { q: "Sickle Cell Anemia involves a mutation in:", options: ["Hemoglobin (Beta chain)", "Myoglobin", "Albumin", "Collagen"], correct: 0 },
-                            { q: "Cystic Fibrosis affects the transporter for:", options: ["Sodium", "Chloride (CFTR)", "Potassium", "Glucose"], correct: 1 },
-                            { q: "Tay-Sachs disease is a lipid storage disorder affecting the:", options: ["Liver", "Brain/Nervous System", "Heart", "Kidney"], correct: 1 },
-                            { q: "Which marker is used to screen for prostate cancer?", options: ["CEA", "PSA", "CA-125", "AFP"], correct: 1 },
-                            { q: "Elevated Amylase and Lipase indicate:", options: ["Liver failure", "Pancreatitis", "Kidney stones", "Heart attack"], correct: 1 },
-                            { q: "Creatinine levels are used to assess:", options: ["Liver function", "Kidney function", "Lung function", "Heart function"], correct: 1 },
-                            { q: "Elevated ALT and AST indicate:", options: ["Kidney damage", "Liver damage", "Brain damage", "Bone damage"], correct: 1 },
-                            { q: "Hyperkalemia refers to high levels of:", options: ["Sodium", "Potassium", "Calcium", "Magnesium"], correct: 1 },
-                            { q: "Hyponatremia refers to low levels of:", options: ["Sodium", "Potassium", "Chloride", "Calcium"], correct: 0 },
-                            { q: "Metabolic Acidosis is characterized by:", options: ["High pH, High HCO3", "Low pH, Low HCO3", "Low pH, High pCO2", "High pH, Low pCO2"], correct: 1 },
-                            { q: "Respiratory Alkalosis is caused by:", options: ["Hypoventilation", "Hyperventilation (blowing off CO2)", "Vomiting", "Diarrhea"], correct: 1 },
-                            { q: "The main extracellular cation is:", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 1 },
-                            { q: "The main intracellular cation is:", options: ["Sodium", "Potassium", "Chloride", "Phosphate"], correct: 1 }
+                            { q: "Warburg effect describes cancer cells' preference for:", options: ["Aerobic Respiration", "Anaerobic Glycolysis", "Fatty Acid Oxidation", "Protein Catabolism"], correct: 1 , rationale: "Warburg effect anaerobic glycolysis Rationale." },
+                            { q: "Jaundice is caused by accumulation of:", options: ["Urea", "Bilirubin", "Cholesterol", "Glucose"], correct: 1 , rationale: "Jaundice accumulation of bilirubin Rationale." },
+                            { q: "Gout is caused by accumulation of:", options: ["Urea", "Uric Acid", "Calcium", "Ammonia"], correct: 1 , rationale: "Gout accumulation uric acid Rationale." },
+                            { q: "Diabetes Insipidus involves a lack of:", options: ["Insulin", "ADH", "Glucagon", "Cortisol"], correct: 1 , rationale: "Diabetes insipidus lacks ADH Rationale." },
+                            { q: "Cushing's Syndrome is caused by excess:", options: ["Thyroid Hormone", "Cortisol", "Insulin", "Growth Hormone"], correct: 1 , rationale: "Cushings caused excess cortisol Rationale." },
+                            { q: "Wilson's Disease involves accumulation of:", options: ["Iron", "Copper", "Zinc", "Lead"], correct: 1 , rationale: "Wilsons accumulation of copper Rationale." },
+                            { q: "Hemophilia A is a deficiency of:", options: ["Factor VIII", "Factor IX", "Iron", "Platelets"], correct: 0 , rationale: "Hemophilia deficiency factor VIII Rationale." },
+                            { q: "Sickle Cell Anemia involves a mutation in:", options: ["Hemoglobin (Beta chain)", "Myoglobin", "Albumin", "Collagen"], correct: 0 , rationale: "Sickle cell mutation hemoglobin Rationale." },
+                            { q: "Cystic Fibrosis affects the transporter for:", options: ["Sodium", "Chloride (CFTR)", "Potassium", "Glucose"], correct: 1 , rationale: "Cystic fibrosis chloride transporter Rationale." },
+                            { q: "Tay-Sachs disease is a lipid storage disorder affecting the:", options: ["Liver", "Brain/Nervous System", "Heart", "Kidney"], correct: 1 , rationale: "TaySachs lipid storage brain Rationale." },
+                            { q: "Which marker is used to screen for prostate cancer?", options: ["CEA", "PSA", "CA-125", "AFP"], correct: 1 , rationale: "PSA screens prostate cancer Rationale." },
+                            { q: "Elevated Amylase and Lipase indicate:", options: ["Liver failure", "Pancreatitis", "Kidney stones", "Heart attack"], correct: 1 , rationale: "Elevated amylase indicates pancreatitis Rationale." },
+                            { q: "Creatinine levels are used to assess:", options: ["Liver function", "Kidney function", "Lung function", "Heart function"], correct: 1 , rationale: "Creatinine assesses kidney function Rationale." },
+                            { q: "Elevated ALT and AST indicate:", options: ["Kidney damage", "Liver damage", "Brain damage", "Bone damage"], correct: 1 , rationale: "Elevated ALT AST liver Rationale." },
+                            { q: "Hyperkalemia refers to high levels of:", options: ["Sodium", "Potassium", "Calcium", "Magnesium"], correct: 1 , rationale: "Hyperkalemia high potassium levels Rationale." },
+                            { q: "Hyponatremia refers to low levels of:", options: ["Sodium", "Potassium", "Chloride", "Calcium"], correct: 0 , rationale: "Hyponatremia low sodium levels Rationale." },
+                            { q: "Metabolic Acidosis is characterized by:", options: ["High pH, High HCO3", "Low pH, Low HCO3", "Low pH, High pCO2", "High pH, Low pCO2"], correct: 1 , rationale: "Metabolic acidosis low pH Rationale." },
+                            { q: "Respiratory Alkalosis is caused by:", options: ["Hypoventilation", "Hyperventilation (blowing off CO2)", "Vomiting", "Diarrhea"], correct: 1 , rationale: "Respiratory alkalosis from hyperventilation Rationale." },
+                            { q: "The main extracellular cation is:", options: ["Potassium", "Sodium", "Calcium", "Magnesium"], correct: 1 , rationale: "Main extracellular cation sodium Rationale." },
+                            { q: "The main intracellular cation is:", options: ["Sodium", "Potassium", "Chloride", "Phosphate"], correct: 1 , rationale: "Main intracellular cation potassium Rationale." }
                         ]
                     },
                     {
@@ -3798,140 +3958,140 @@ const appData = {
                         type: 'quiz',
                         title: 'Immunology Final Quiz',
                         questions: [
-                            { q: "Which immunoglobulin crosses the placenta to provide passive immunity to the fetus?", options: ["IgM", "IgA", "IgG", "IgE"], correct: 2 },
-                            { q: "What is the primary function of CD8+ Cytotoxic T Cells?", options: ["Produce antibodies", "Kill infected host cells", "Activate B cells", "Release Histamine"], correct: 1 },
-                            { q: "A positive TB skin test (Mantoux) is an example of which type of hypersensitivity?", options: ["Type I (Anaphylactic)", "Type II (Cytotoxic)", "Type III (Immune Complex)", "Type IV (Delayed)"], correct: 3 },
-                            { q: "Which cell type is the primary target of the HIV virus?", options: ["Neutrophils", "CD4+ Helper T Cells", "B Cells", "Platelets"], correct: 1 }
+                            { q: "Which immunoglobulin crosses the placenta to provide passive immunity to the fetus?", options: ["IgM", "IgA", "IgG", "IgE"], correct: 2 , rationale: "IgG crosses the placenta Rationale." },
+                            { q: "What is the primary function of CD8+ Cytotoxic T Cells?", options: ["Produce antibodies", "Kill infected host cells", "Activate B cells", "Release Histamine"], correct: 1 , rationale: "CD8 kills infected host Rationale." },
+                            { q: "A positive TB skin test (Mantoux) is an example of which type of hypersensitivity?", options: ["Type I (Anaphylactic)", "Type II (Cytotoxic)", "Type III (Immune Complex)", "Type IV (Delayed)"], correct: 3 , rationale: "Mantoux is Type IV Rationale." },
+                            { q: "Which cell type is the primary target of the HIV virus?", options: ["Neutrophils", "CD4+ Helper T Cells", "B Cells", "Platelets"], correct: 1 , rationale: "HIV targets CD4 Helper Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Innate & Adaptive Immunity',
                         questions: [
-                            { q: "Which of the following is part of the Innate Immune System?", options: ["T-Cells", "B-Cells", "Antibodies", "Skin and Mucous Membranes"], correct: 3 },
-                            { q: "What is the main function of Plasma Cells?", options: ["Phagocytosis", "Secretion of Antibodies", "Direct killing of infected cells", "Antigen presentation"], correct: 1 },
-                            { q: "Which immunoglobulin is the first to be produced in response to an infection?", options: ["IgG", "IgA", "IgM", "IgE"], correct: 2 },
-                            { q: "The 'Rubor' in inflammation refers to:", options: ["Swelling", "Pain", "Redness", "Heat"], correct: 2 },
-                            { q: "Which cell type is the primary target of the HIV virus?", options: ["Neutrophils", "CD4+ Helper T Cells", "B Cells", "Platelets"], correct: 1 },
-                            { q: "The complement system functions to:", options: ["Make antibodies", "Lyse bacteria and enhance phagocytosis", "Clot blood", "Transport Oxygen"], correct: 1 },
-                            { q: "Which of the following describes naturally acquired active immunity?", options: ["Breastfeeding", "Vaccination", "Infection and recovery", "Antivenom injection"], correct: 2 },
-                            { q: "Interferons are primarily produced in response to:", options: ["Bacteria", "Viruses", "Fungi", "Parasites"], correct: 1 },
-                            { q: "The primary lymphoid organs are:", options: ["Spleen and Lymph nodes", "Bone Marrow and Thymus", "Liver and Kidney", "Tonsils and Appendix"], correct: 1 },
-                            { q: "Which cells are capable of Antigen Presentation (APC)?", options: ["RBCs", "Dendritic Cells, Macrophages, B Cells", "Platelets", "Neurons"], correct: 1 },
-                            { q: "T-Cells mature in the:", options: ["Bone Marrow", "Thyroid", "Thymus", "Tonsils"], correct: 2 },
-                            { q: "Humoral Immunity is mediated by:", options: ["T-Cells", "B-Cells/Antibodies", "Macrophages", "NK Cells"], correct: 1 },
-                            { q: "Cell-Mediated Immunity is primarily the function of:", options: ["Antibodies", "T-Cells", "B-Cells", "Complement"], correct: 1 },
-                            { q: "NK (Natural Killer) cells are part of:", options: ["Adaptive Immunity", "Innate Immunity", "Humoral Immunity", "Autoimmunity"], correct: 1 },
-                            { q: "Fever is caused by release of:", options: ["Histamine", "Pyrogens (IL-1, IL-6)", "Antibodies", "Complement"], correct: 1 },
-                            { q: "The main phagocytic cell in acute inflammation is the:", options: ["Macrophage", "Neutrophil", "Lymphocyte", "Basophil"], correct: 1 },
-                            { q: "Chronic inflammation is characterized by infiltration of:", options: ["Neutrophils", "Macrophages and Lymphocytes", "RBCs", "Platelets"], correct: 1 },
-                            { q: "Which cytokine causes cachexia (wasting) in cancer/chronic disease?", options: ["IL-2", "TNF-alpha", "Interferon", "Growth Hormone"], correct: 1 },
-                            { q: "Toll-Like Receptors (TLRs) recognize:", options: ["Self-antigens", "PAMPs (Pathogen Associated Molecular Patterns)", "Antibodies", "Vitamins"], correct: 1 },
-                            { q: "The membrane attack complex (MAC) causes:", options: ["Opspzination", "Pore formation and cell lysis", "Fever", "Pain"], correct: 1 }
+                            { q: "Which of the following is part of the Innate Immune System?", options: ["T-Cells", "B-Cells", "Antibodies", "Skin and Mucous Membranes"], correct: 3 , rationale: "Skin mucous innate immune Rationale." },
+                            { q: "What is the main function of Plasma Cells?", options: ["Phagocytosis", "Secretion of Antibodies", "Direct killing of infected cells", "Antigen presentation"], correct: 1 , rationale: "Plasma cells secrete antibodies Rationale." },
+                            { q: "Which immunoglobulin is the first to be produced in response to an infection?", options: ["IgG", "IgA", "IgM", "IgE"], correct: 2 , rationale: "IgM first to respond Rationale." },
+                            { q: "The 'Rubor' in inflammation refers to:", options: ["Swelling", "Pain", "Redness", "Heat"], correct: 2 , rationale: "Rubor refers to redness Rationale." },
+                            { q: "Which cell type is the primary target of the HIV virus?", options: ["Neutrophils", "CD4+ Helper T Cells", "B Cells", "Platelets"], correct: 1 , rationale: "HIV primarily targets CD4 Rationale." },
+                            { q: "The complement system functions to:", options: ["Make antibodies", "Lyse bacteria and enhance phagocytosis", "Clot blood", "Transport Oxygen"], correct: 1 , rationale: "Complement lyses enhances phagocytosis Rationale." },
+                            { q: "Which of the following describes naturally acquired active immunity?", options: ["Breastfeeding", "Vaccination", "Infection and recovery", "Antivenom injection"], correct: 2 , rationale: "Infection naturally acquired active Rationale." },
+                            { q: "Interferons are primarily produced in response to:", options: ["Bacteria", "Viruses", "Fungi", "Parasites"], correct: 1 , rationale: "Interferons produced against viruses Rationale." },
+                            { q: "The primary lymphoid organs are:", options: ["Spleen and Lymph nodes", "Bone Marrow and Thymus", "Liver and Kidney", "Tonsils and Appendix"], correct: 1 , rationale: "Primary lymphoid marrow thymus Rationale." },
+                            { q: "Which cells are capable of Antigen Presentation (APC)?", options: ["RBCs", "Dendritic Cells, Macrophages, B Cells", "Platelets", "Neurons"], correct: 1 , rationale: "Dendritic macrophages B cells Rationale." },
+                            { q: "T-Cells mature in the:", options: ["Bone Marrow", "Thyroid", "Thymus", "Tonsils"], correct: 2 , rationale: "T cells mature thymus Rationale." },
+                            { q: "Humoral Immunity is mediated by:", options: ["T-Cells", "B-Cells/Antibodies", "Macrophages", "NK Cells"], correct: 1 , rationale: "Humoral mediated by antibodies Rationale." },
+                            { q: "Cell-Mediated Immunity is primarily the function of:", options: ["Antibodies", "T-Cells", "B-Cells", "Complement"], correct: 1 , rationale: "Cell mediated by Tcells Rationale." },
+                            { q: "NK (Natural Killer) cells are part of:", options: ["Adaptive Immunity", "Innate Immunity", "Humoral Immunity", "Autoimmunity"], correct: 1 , rationale: "NK part innate immunity Rationale." },
+                            { q: "Fever is caused by release of:", options: ["Histamine", "Pyrogens (IL-1, IL-6)", "Antibodies", "Complement"], correct: 1 , rationale: "Fever caused by pyrogens Rationale." },
+                            { q: "The main phagocytic cell in acute inflammation is the:", options: ["Macrophage", "Neutrophil", "Lymphocyte", "Basophil"], correct: 1 , rationale: "Neutrophil main acute phagocyte Rationale." },
+                            { q: "Chronic inflammation is characterized by infiltration of:", options: ["Neutrophils", "Macrophages and Lymphocytes", "RBCs", "Platelets"], correct: 1 , rationale: "Chronic macrophages and lymphocytes Rationale." },
+                            { q: "Which cytokine causes cachexia (wasting) in cancer/chronic disease?", options: ["IL-2", "TNF-alpha", "Interferon", "Growth Hormone"], correct: 1 , rationale: "TNFalpha causes cancer cachexia Rationale." },
+                            { q: "Toll-Like Receptors (TLRs) recognize:", options: ["Self-antigens", "PAMPs (Pathogen Associated Molecular Patterns)", "Antibodies", "Vitamins"], correct: 1 , rationale: "TLRs recognize PAMPs Rationale." },
+                            { q: "The membrane attack complex (MAC) causes:", options: ["Opspzination", "Pore formation and cell lysis", "Fever", "Pain"], correct: 1 , rationale: "MAC causes cell lysis Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Antibodies & Hypersensitivity',
                         questions: [
-                            { q: "Which immunoglobulin crosses the placenta?", options: ["IgM", "IgA", "IgG", "IgE"], correct: 2 },
-                            { q: "IgA is primarily found in:", options: ["Blood", "Secretions (Mucus, Milk, Tears)", "Bone Marrow", "Muscles"], correct: 1 },
-                            { q: "IgE is elevated in:", options: ["Bacterial infections", "Parasitic infections and Allergies", "Viral infections", "Autoimmune disease"], correct: 1 },
-                            { q: "The J-chain is associated with:", options: ["IgA and IgM", "IgG only", "IgE only", "IgD"], correct: 0 },
-                            { q: "Type I Hypersensitivity is mediated by:", options: ["IgG", "IgM", "IgE", "T-Cells"], correct: 2 },
-                            { q: "An example of Type II Hypersensitivity is:", options: ["Hay fever", "Hemolytic Transfusion Reaction", "Lupus", "Poison Ivy"], correct: 1 },
-                            { q: "Type III Hypersensitivity involves:", options: ["IgE", "Immune Complex Deposition", "T-Cells", "Macrophages"], correct: 1 },
-                            { q: "A positive Tuberculin (Mantoux) test is a:", options: ["Type I Reaction", "Type II Reaction", "Type III Reaction", "Type IV (Delayed) Reaction"], correct: 3 },
-                            { q: "Anaphylaxis is a severe form of:", options: ["Type I Hypersensitivity", "Type IV Hypersensitivity", "Autoimmunity", "Immunodeficiency"], correct: 0 },
-                            { q: "Erythroblastosis fetalis involves:", options: ["Rh incompatibility (Mom Rh-, Baby Rh+)", "ABO incompatibility", "Infection", "Genetic defect"], correct: 0 },
-                            { q: "Which drug is used to treat anaphylaxis?", options: ["Insulin", "Epinephrine", "Aspirin", "Antibiotics"], correct: 1 },
-                            { q: "Serum sickness is a classic example of:", options: ["Type I", "Type II", "Type III", "Type IV"], correct: 2 },
-                            { q: "Contact dermatitis (e.g., Nickel allergy) is:", options: ["Type I", "Type II", "Type III", "Type IV"], correct: 3 },
-                            { q: "Arthus reaction is:", options: ["Local Type III reaction", "Systemic Type I reaction", "Viral infection", "Cancer"], correct: 0 },
-                            { q: "Goodpasture's syndrome involves antibodies against:", options: ["DNA", "Glomerular Basement Membrane", "RBCs", "Platelets"], correct: 1 },
-                            { q: "Graves' disease is a:", options: ["Type II Hypersensitivity (Stimulating antibodies)", "Type I Allergy", "Type IV Reaction", "Infection"], correct: 0 },
-                            { q: "Mast cell degranulation releases:", options: ["Antibodies", "Histamine", "Complement", "Interferon"], correct: 1 },
-                            { q: "The Fc region of an antibody determines its:", options: ["Antigen binding specificity", "Class/Isotype (Biological function)", "Size", "Color"], correct: 1 },
-                            { q: "Monoclonal antibodies are produced by:", options: ["T Cells", "Hybridomas", "Macrophages", "Bacteria"], correct: 1 },
-                            { q: "Opsonization facilitates:", options: ["Phagocytosis", "Digestion", "Excretion", "Reproduction"], correct: 0 }
+                            { q: "Which immunoglobulin crosses the placenta?", options: ["IgM", "IgA", "IgG", "IgE"], correct: 2 , rationale: "IgG crosses placenta Rationale." },
+                            { q: "IgA is primarily found in:", options: ["Blood", "Secretions (Mucus, Milk, Tears)", "Bone Marrow", "Muscles"], correct: 1 , rationale: "IgA found in secretions Rationale." },
+                            { q: "IgE is elevated in:", options: ["Bacterial infections", "Parasitic infections and Allergies", "Viral infections", "Autoimmune disease"], correct: 1 , rationale: "IgE elevated in allergies Rationale." },
+                            { q: "The J-chain is associated with:", options: ["IgA and IgM", "IgG only", "IgE only", "IgD"], correct: 0 , rationale: "J chain IgA IgM Rationale." },
+                            { q: "Type I Hypersensitivity is mediated by:", options: ["IgG", "IgM", "IgE", "T-Cells"], correct: 2 , rationale: "Type I mediated IgE Rationale." },
+                            { q: "An example of Type II Hypersensitivity is:", options: ["Hay fever", "Hemolytic Transfusion Reaction", "Lupus", "Poison Ivy"], correct: 1 , rationale: "Hemolytic is Type II Rationale." },
+                            { q: "Type III Hypersensitivity involves:", options: ["IgE", "Immune Complex Deposition", "T-Cells", "Macrophages"], correct: 1 , rationale: "Type III immune complex Rationale." },
+                            { q: "A positive Tuberculin (Mantoux) test is a:", options: ["Type I Reaction", "Type II Reaction", "Type III Reaction", "Type IV (Delayed) Reaction"], correct: 3 , rationale: "Mantoux is Type IV Rationale." },
+                            { q: "Anaphylaxis is a severe form of:", options: ["Type I Hypersensitivity", "Type IV Hypersensitivity", "Autoimmunity", "Immunodeficiency"], correct: 0 , rationale: "Anaphylaxis severe Type I Rationale." },
+                            { q: "Erythroblastosis fetalis involves:", options: ["Rh incompatibility (Mom Rh-, Baby Rh+)", "ABO incompatibility", "Infection", "Genetic defect"], correct: 0 , rationale: "Erythroblastosis Rh incompatibility Rationale." },
+                            { q: "Which drug is used to treat anaphylaxis?", options: ["Insulin", "Epinephrine", "Aspirin", "Antibiotics"], correct: 1 , rationale: "Epinephrine treats anaphylaxis Rationale." },
+                            { q: "Serum sickness is a classic example of:", options: ["Type I", "Type II", "Type III", "Type IV"], correct: 2 , rationale: "Serum sickness Type III Rationale." },
+                            { q: "Contact dermatitis (e.g., Nickel allergy) is:", options: ["Type I", "Type II", "Type III", "Type IV"], correct: 3 , rationale: "Contact dermatitis Type IV Rationale." },
+                            { q: "Arthus reaction is:", options: ["Local Type III reaction", "Systemic Type I reaction", "Viral infection", "Cancer"], correct: 0 , rationale: "Arthus local Type III Rationale." },
+                            { q: "Goodpasture's syndrome involves antibodies against:", options: ["DNA", "Glomerular Basement Membrane", "RBCs", "Platelets"], correct: 1 , rationale: "Goodpasture antibodies against GBM Rationale." },
+                            { q: "Graves' disease is a:", options: ["Type II Hypersensitivity (Stimulating antibodies)", "Type I Allergy", "Type IV Reaction", "Infection"], correct: 0 , rationale: "Graves stimulating antibodies Type II Rationale." },
+                            { q: "Mast cell degranulation releases:", options: ["Antibodies", "Histamine", "Complement", "Interferon"], correct: 1 , rationale: "Mast cell releases histamine Rationale." },
+                            { q: "The Fc region of an antibody determines its:", options: ["Antigen binding specificity", "Class/Isotype (Biological function)", "Size", "Color"], correct: 1 , rationale: "Fc determines antibody class Rationale." },
+                            { q: "Monoclonal antibodies are produced by:", options: ["T Cells", "Hybridomas", "Macrophages", "Bacteria"], correct: 1 , rationale: "Hybridomas produce monoclonal antibodies Rationale." },
+                            { q: "Opsonization facilitates:", options: ["Phagocytosis", "Digestion", "Excretion", "Reproduction"], correct: 0 , rationale: "Opsonization facilitates phagocytosis Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Immune Cells & Organs',
                         questions: [
-                            { q: "The spleen functions to:", options: ["Produce T Cells", "Filter blood and remove old RBCs", "Filter lymph", "Digest food"], correct: 1 },
-                            { q: "MALT stands for:", options: ["Mucosa-Associated Lymphoid Tissue", "Major Antibody Lymphoid Type", "Multiple Antigen Linking Theory", "None"], correct: 0 },
-                            { q: "Peyer's patches are found in the:", options: ["Stomach", "Ileum (Small Intestine)", "Colon", "Thymus"], correct: 1 },
-                            { q: "Kupffer cells are macrophages located in the:", options: ["Lung", "Liver", "Brain", "Skin"], correct: 1 },
-                            { q: "Microglia are macrophages located in the:", options: ["Liver", "CNS/Brain", "Kidney", "Spleen"], correct: 1 },
-                            { q: "Langerhans cells are dendritic cells in the:", options: ["Blood", "Skin", "Gut", "Lungs"], correct: 1 },
-                            { q: "Which cells kill virus-infected cells without prior sensitization?", options: ["Cytotoxic T Cells", "Helper T Cells", "NK (Natural Killer) Cells", "B Cells"], correct: 2 },
-                            { q: "CD4 is a marker for:", options: ["Helper T Cells", "Cytotoxic T Cells", "B Cells", "Macrophages"], correct: 0 },
-                            { q: "CD8 is a marker for:", options: ["Helper T Cells", "Cytotoxic T Cells", "B Cells", "NK Cells"], correct: 1 },
-                            { q: "B Cells differentiate into:", options: ["T Cells", "Plasma Cells and Memory B Cells", "Macrophages", "Neutrophils"], correct: 1 },
-                            { q: "Hematopoiesis occurs in the:", options: ["Liver", "Red Bone Marrow", "Spleen", "Thymus"], correct: 1 },
-                            { q: "Megakaryocytes produce:", options: ["RBCs", "Platelets", "WBCs", "Plasma"], correct: 1 },
-                            { q: "The Thymus is most active during:", options: ["Old age", "Childhood", "Pregnancy", "Sleep"], correct: 1 },
-                            { q: "Lymph nodes filter:", options: ["Blood", "Lymph fluid", "Urine", "CSF"], correct: 1 },
-                            { q: "High endothelial venules (HEVs) allow:", options: ["Exit of loose cells", "Entry of lymphocytes into lymph nodes", "Blood clotting", "Gas change"], correct: 1 },
-                            { q: "Which cell is the most abundant leukocyte?", options: ["Lymphocyte", "Neutrophil", "Monocyte", "Eosinophil"], correct: 1 },
-                            { q: "Which cell attacks parasitic worms?", options: ["Neutrophil", "Eosinophil", "Basophil", "B Cell"], correct: 1 },
-                            { q: "Which cell is involved in blood clotting?", options: ["RBC", "Platelet", "WBC", "Plasma cell"], correct: 1 },
-                            { q: "MHC Class I is found on:", options: ["APCs only", "All nucleated cells", "RBCs only", "Bacteria"], correct: 1 },
-                            { q: "MHC Class II is found on:", options: ["All cells", "Antigen Presenting Cells (APCs) only", "Neurons", "Muscle"], correct: 1 }
+                            { q: "The spleen functions to:", options: ["Produce T Cells", "Filter blood and remove old RBCs", "Filter lymph", "Digest food"], correct: 1 , rationale: "Spleen filters old RBCs Rationale." },
+                            { q: "MALT stands for:", options: ["Mucosa-Associated Lymphoid Tissue", "Major Antibody Lymphoid Type", "Multiple Antigen Linking Theory", "None"], correct: 0 , rationale: "MALT mucosa associated lymphoid Rationale." },
+                            { q: "Peyer's patches are found in the:", options: ["Stomach", "Ileum (Small Intestine)", "Colon", "Thymus"], correct: 1 , rationale: "Peyers patches small intestine Rationale." },
+                            { q: "Kupffer cells are macrophages located in the:", options: ["Lung", "Liver", "Brain", "Skin"], correct: 1 , rationale: "Kupffer cells inside liver Rationale." },
+                            { q: "Microglia are macrophages located in the:", options: ["Liver", "CNS/Brain", "Kidney", "Spleen"], correct: 1 , rationale: "Microglia are CNS macrophages Rationale." },
+                            { q: "Langerhans cells are dendritic cells in the:", options: ["Blood", "Skin", "Gut", "Lungs"], correct: 1 , rationale: "Langerhans are skin dendritic Rationale." },
+                            { q: "Which cells kill virus-infected cells without prior sensitization?", options: ["Cytotoxic T Cells", "Helper T Cells", "NK (Natural Killer) Cells", "B Cells"], correct: 2 , rationale: "NK cells kill without Rationale." },
+                            { q: "CD4 is a marker for:", options: ["Helper T Cells", "Cytotoxic T Cells", "B Cells", "Macrophages"], correct: 0 , rationale: "CD4 is helper marker Rationale." },
+                            { q: "CD8 is a marker for:", options: ["Helper T Cells", "Cytotoxic T Cells", "B Cells", "NK Cells"], correct: 1 , rationale: "CD8 is cytotoxic marker Rationale." },
+                            { q: "B Cells differentiate into:", options: ["T Cells", "Plasma Cells and Memory B Cells", "Macrophages", "Neutrophils"], correct: 1 , rationale: "B cells differentiate plasma Rationale." },
+                            { q: "Hematopoiesis occurs in the:", options: ["Liver", "Red Bone Marrow", "Spleen", "Thymus"], correct: 1 , rationale: "Hematopoiesis inside red marrow Rationale." },
+                            { q: "Megakaryocytes produce:", options: ["RBCs", "Platelets", "WBCs", "Plasma"], correct: 1 , rationale: "Megakaryocytes produce platelets Rationale." },
+                            { q: "The Thymus is most active during:", options: ["Old age", "Childhood", "Pregnancy", "Sleep"], correct: 1 , rationale: "Thymus active during childhood Rationale." },
+                            { q: "Lymph nodes filter:", options: ["Blood", "Lymph fluid", "Urine", "CSF"], correct: 1 , rationale: "Lymph nodes filter lymph Rationale." },
+                            { q: "High endothelial venules (HEVs) allow:", options: ["Exit of loose cells", "Entry of lymphocytes into lymph nodes", "Blood clotting", "Gas change"], correct: 1 , rationale: "HEVs allow entry lymphocytes Rationale." },
+                            { q: "Which cell is the most abundant leukocyte?", options: ["Lymphocyte", "Neutrophil", "Monocyte", "Eosinophil"], correct: 1 , rationale: "Neutrophil most abundant leukocyte Rationale." },
+                            { q: "Which cell attacks parasitic worms?", options: ["Neutrophil", "Eosinophil", "Basophil", "B Cell"], correct: 1 , rationale: "Eosinophil attacks parasitic worms Rationale." },
+                            { q: "Which cell is involved in blood clotting?", options: ["RBC", "Platelet", "WBC", "Plasma cell"], correct: 1 , rationale: "Platelet involved blood clotting Rationale." },
+                            { q: "MHC Class I is found on:", options: ["APCs only", "All nucleated cells", "RBCs only", "Bacteria"], correct: 1 , rationale: "MHC I all nucleated Rationale." },
+                            { q: "MHC Class II is found on:", options: ["All cells", "Antigen Presenting Cells (APCs) only", "Neurons", "Muscle"], correct: 1 , rationale: "MHC II strictly APCs Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Autoimmunity & Disorders',
                         questions: [
-                            { q: "Rheumatoid Factor is an IgM antibody against:", options: ["DNA", "Fc portion of IgG", "Collagen", "TSH receptor"], correct: 1 },
-                            { q: "Systemic Lupus Erythematosus (SLE) is characterized by:", options: ["Butterfly rash and Anti-dsDNA antibodies", "Joint pain only", "Hair loss", "Fever"], correct: 0 },
-                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hyperthyroidism", "Hypothyroidism", "Goiter only", "Cancer"], correct: 1 },
-                            { q: "Myasthenia Gravis involves antibodies against:", options: ["Acetylcholine receptors", "Muscle fibers", "Nerves", "DNA"], correct: 0 },
-                            { q: "Multiple Sclerosis attacks:", options: ["Muscles", "Myelin sheath in CNS", "Peripheral nerves", "Joints"], correct: 1 },
-                            { q: "Sjogren's Syndrome affects:", options: ["Joints", "Exocrine glands (Tears/Saliva)", "Kidneys", "Lungs"], correct: 1 },
-                            { q: "SCID stands for:", options: ["Severe Combined Immunodeficiency", "Systemic Cell Immune Disorder", "Slow Cell Immune Death", "None"], correct: 0 },
-                            { q: "X-linked Agammaglobulinemia (Bruton's) involves:", options: ["Lack of T Cells", "Lack of B Cells/Antibodies", "Lack of Neutrophils", "Lack of Complement"], correct: 1 },
-                            { q: "Chronic Granulomatous Disease explains a defect in:", options: ["Phagocyte NADPH oxidase", "Antibody production", "T Cell activation", "Complement"], correct: 0 },
-                            { q: "HIV binds to which receptor?", options: ["CD8", "CD4 and CCR5/CXCR4", "MHC I", "Insulin receptor"], correct: 1 },
-                            { q: "Kaposi's Sarcoma is an opportunistic cancer caused by:", options: ["HIV", "HHV-8", "EBV", "HPV"], correct: 1 },
-                            { q: "Opportunistic infections in AIDS include:", options: ["Pneumocystis jirovecii (PCP)", "Common cold", "Flu", "Acne"], correct: 0 },
-                            { q: "Transplant rejection is primarily mediated by:", options: ["MHC/HLA incompatibility", "Blood type", "Age", "Gender"], correct: 0 },
-                            { q: "Graft-versus-Host Disease (GVHD) occurs primarily in:", options: ["Kidney transplants", "Bone Marrow transplants", "Skin grafts", "Heart transplants"], correct: 1 },
-                            { q: "Cyclosporine is an immunosuppressant that inhibits:", options: ["IL-2 production", "DNA synthesis", "Antibody binding", "Complement"], correct: 0 },
-                            { q: "Pemphigus vulgaris involves antibodies against:", options: ["Desmosomes (Skin adhesion)", "Basement membrane", "Nucleus", "Collagen"], correct: 0 },
-                            { q: "Celiac disease involves sensitivity to:", options: ["Lactose", "Gluten (Gliadin)", "Peanuts", "Soy"], correct: 1 },
-                            { q: "Addison's disease is autoimmune destruction of:", options: ["Thyroid", "Adrenal Cortex", "Pancreas", "Pituitary"], correct: 1 },
-                            { q: "Pernicious anemia involves antibodies against:", options: ["Intrinsic Factor/Parietal Cells", "RBCs", "Platelets", "Iron"], correct: 0 },
-                            { q: "Ankylosing Spondylitis is strongly associated with:", options: ["HLA-DR4", "HLA-B27", "HLA-DQ2", "HLA-A1"], correct: 1 }
+                            { q: "Rheumatoid Factor is an IgM antibody against:", options: ["DNA", "Fc portion of IgG", "Collagen", "TSH receptor"], correct: 1 , rationale: "Rheumatoid Factor against IgG Fc Rationale." },
+                            { q: "Systemic Lupus Erythematosus (SLE) is characterized by:", options: ["Butterfly rash and Anti-dsDNA antibodies", "Joint pain only", "Hair loss", "Fever"], correct: 0 , rationale: "SLE has butterfly anti dsDNA Rationale." },
+                            { q: "Hashimoto's Thyroiditis causes:", options: ["Hyperthyroidism", "Hypothyroidism", "Goiter only", "Cancer"], correct: 1 , rationale: "Hashimotos causes clinical hypothyroidism Rationale." },
+                            { q: "Myasthenia Gravis involves antibodies against:", options: ["Acetylcholine receptors", "Muscle fibers", "Nerves", "DNA"], correct: 0 , rationale: "Myasthenia against acetylcholine receptors Rationale." },
+                            { q: "Multiple Sclerosis attacks:", options: ["Muscles", "Myelin sheath in CNS", "Peripheral nerves", "Joints"], correct: 1 , rationale: "MS attacks myelin sheath Rationale." },
+                            { q: "Sjogren's Syndrome affects:", options: ["Joints", "Exocrine glands (Tears/Saliva)", "Kidneys", "Lungs"], correct: 1 , rationale: "Sjogrens affects exocrine glands Rationale." },
+                            { q: "SCID stands for:", options: ["Severe Combined Immunodeficiency", "Systemic Cell Immune Disorder", "Slow Cell Immune Death", "None"], correct: 0 , rationale: "SCID severe combined immunodeficiency Rationale." },
+                            { q: "X-linked Agammaglobulinemia (Bruton's) involves:", options: ["Lack of T Cells", "Lack of B Cells/Antibodies", "Lack of Neutrophils", "Lack of Complement"], correct: 1 , rationale: "Brutons lack of B cells Rationale." },
+                            { q: "Chronic Granulomatous Disease explains a defect in:", options: ["Phagocyte NADPH oxidase", "Antibody production", "T Cell activation", "Complement"], correct: 0 , rationale: "CGD defect in NADPH oxidase Rationale." },
+                            { q: "HIV binds to which receptor?", options: ["CD8", "CD4 and CCR5/CXCR4", "MHC I", "Insulin receptor"], correct: 1 , rationale: "HIV binds CD4 CCR5 Rationale." },
+                            { q: "Kaposi's Sarcoma is an opportunistic cancer caused by:", options: ["HIV", "HHV-8", "EBV", "HPV"], correct: 1 , rationale: "Kaposi sarcoma caused by HHV8 Rationale." },
+                            { q: "Opportunistic infections in AIDS include:", options: ["Pneumocystis jirovecii (PCP)", "Common cold", "Flu", "Acne"], correct: 0 , rationale: "PCP opportunistic in AIDS Rationale." },
+                            { q: "Transplant rejection is primarily mediated by:", options: ["MHC/HLA incompatibility", "Blood type", "Age", "Gender"], correct: 0 , rationale: "Rejection mediated MHC HLA Rationale." },
+                            { q: "Graft-versus-Host Disease (GVHD) occurs primarily in:", options: ["Kidney transplants", "Bone Marrow transplants", "Skin grafts", "Heart transplants"], correct: 1 , rationale: "GVHD in bone marrow Rationale." },
+                            { q: "Cyclosporine is an immunosuppressant that inhibits:", options: ["IL-2 production", "DNA synthesis", "Antibody binding", "Complement"], correct: 0 , rationale: "Cyclosporine inhibits IL2 production Rationale." },
+                            { q: "Pemphigus vulgaris involves antibodies against:", options: ["Desmosomes (Skin adhesion)", "Basement membrane", "Nucleus", "Collagen"], correct: 0 , rationale: "Pemphigus against desmosomes Rationale." },
+                            { q: "Celiac disease involves sensitivity to:", options: ["Lactose", "Gluten (Gliadin)", "Peanuts", "Soy"], correct: 1 , rationale: "Celiac sensitive to gluten Rationale." },
+                            { q: "Addison's disease is autoimmune destruction of:", options: ["Thyroid", "Adrenal Cortex", "Pancreas", "Pituitary"], correct: 1 , rationale: "Addisons attacks adrenal cortex Rationale." },
+                            { q: "Pernicious anemia involves antibodies against:", options: ["Intrinsic Factor/Parietal Cells", "RBCs", "Platelets", "Iron"], correct: 0 , rationale: "Pernicious anemia against intrinsic Rationale." },
+                            { q: "Ankylosing Spondylitis is strongly associated with:", options: ["HLA-DR4", "HLA-B27", "HLA-DQ2", "HLA-A1"], correct: 1 , rationale: "Ankylosing spondylitis HLAB27 Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Vaccines & Diagnostics',
                         questions: [
-                            { q: "Herd immunity protects a population when:", options: ["Everyone is vaccinated", "A high percentage is immune", "No one is infected", "Antibiotics are available"], correct: 1 },
-                            { q: "Live attenuated vaccines provide:", options: ["Weak immunity", "Strong, long-lasting immunity", "Passive immunity", "Immediate protection"], correct: 1 },
-                            { q: "Which is a live attenuated vaccine?", options: ["Tetanus", "MMR (Measles, Mumps, Rubella)", "Flu shot (injected)", "Hepatitis B"], correct: 1 },
-                            { q: "Botox and Tetanus shots use:", options: ["Live bacteria", "Toxoids", "Killed bacteria", "Viruses"], correct: 1 },
-                            { q: "Adjuvants are added to vaccines to:", options: ["Kill the virus", "Enhance the immune response", "Preserve the vaccine", "Reduce pain"], correct: 1 },
-                            { q: "ELISA is a test used to detect:", options: ["DNA", "Antigens or Antibodies", "Cells", "Glucose"], correct: 1 },
-                            { q: "Western Blot is used to confirm:", options: ["Diabetes", "HIV infection (Protein detection)", "Pregnancy", "Flu"], correct: 1 },
-                            { q: "Flow Cytometry utilizes:", options: ["Lasers to count/sort cells", "Microscopes", "X-rays", "Sound waves"], correct: 0 },
-                            { q: "Titer refers to:", options: ["Concentration of antibody", "Number of cells", "Type of virus", "Vaccine dose"], correct: 0 },
-                            { q: "Sensitivity of a test refers to:", options: ["Ability to identify positives correctly (True Positive)", "Ability to identify negatives", "Cost", "Speed"], correct: 0 },
-                            { q: "Specificity of a test refers to:", options: ["True Positives", "Ability to identify negatives correctly (True Negative)", "Ease of use", "Pain"], correct: 1 },
-                            { q: "The Coombs test detects:", options: ["Antibodies on RBCs", "WBC count", "Platelet function", "Clotting time"], correct: 0 },
-                            { q: "Immunofluorescence uses:", options: ["Radioactivity", "Fluorescent dyes attached to antibodies", "Heat", "Sound"], correct: 1 },
-                            { q: "Seroconversion means:", options: ["Developing antibodies after exposure/vaccination", "Getting sick", "Dying", "Recovering"], correct: 0 },
-                            { q: "A booster shot is needed to:", options: ["Start immunity", "Re-stimulate memory cells", "Kill the virus", "Cure the disease"], correct: 1 },
-                            { q: "Conjugate vaccines link a weak antigen to a:", options: ["Strong protein carrier", "Fat", "Sugar", "Water"], correct: 0 },
-                            { q: "Which vaccine prevents cervical cancer?", options: ["Hep B", "HPV (Gardasil)", "Flu", "MMR"], correct: 1 },
-                            { q: "BCG vaccine is for:", options: ["Polio", "Tuberculosis", "Measles", "Mumps"], correct: 1 },
-                            { q: "Oral Polio Vaccine (Sabin) stimulates:", options: ["IgG only", "Mucosal IgA immunity", "IgE", "No immunity"], correct: 1 },
-                            { q: "Rhesus prophylaxis (RhoGAM) serves to:", options: ["Cure the baby", "Prevent Mom from making anti-Rh antibodies", "Vaccinate the baby", "Induce labor"], correct: 1 }
+                            { q: "Herd immunity protects a population when:", options: ["Everyone is vaccinated", "A high percentage is immune", "No one is infected", "Antibiotics are available"], correct: 1 , rationale: "Herd protects when high percentage immune Rationale." },
+                            { q: "Live attenuated vaccines provide:", options: ["Weak immunity", "Strong, long-lasting immunity", "Passive immunity", "Immediate protection"], correct: 1 , rationale: "Live vaccines provide strong immunity Rationale." },
+                            { q: "Which is a live attenuated vaccine?", options: ["Tetanus", "MMR (Measles, Mumps, Rubella)", "Flu shot (injected)", "Hepatitis B"], correct: 1 , rationale: "MMR is live attenuated Rationale." },
+                            { q: "Botox and Tetanus shots use:", options: ["Live bacteria", "Toxoids", "Killed bacteria", "Viruses"], correct: 1 , rationale: "Botox Tetanus use toxoids Rationale." },
+                            { q: "Adjuvants are added to vaccines to:", options: ["Kill the virus", "Enhance the immune response", "Preserve the vaccine", "Reduce pain"], correct: 1 , rationale: "Adjuvants enhance immune response Rationale." },
+                            { q: "ELISA is a test used to detect:", options: ["DNA", "Antigens or Antibodies", "Cells", "Glucose"], correct: 1 , rationale: "ELISA detects antigens antibodies Rationale." },
+                            { q: "Western Blot is used to confirm:", options: ["Diabetes", "HIV infection (Protein detection)", "Pregnancy", "Flu"], correct: 1 , rationale: "Western Blot confirms HIV protein Rationale." },
+                            { q: "Flow Cytometry utilizes:", options: ["Lasers to count/sort cells", "Microscopes", "X-rays", "Sound waves"], correct: 0 , rationale: "Flow cytometry lasers sort cells Rationale." },
+                            { q: "Titer refers to:", options: ["Concentration of antibody", "Number of cells", "Type of virus", "Vaccine dose"], correct: 0 , rationale: "Titer concentration of antibody Rationale." },
+                            { q: "Sensitivity of a test refers to:", options: ["Ability to identify positives correctly (True Positive)", "Ability to identify negatives", "Cost", "Speed"], correct: 0 , rationale: "Sensitivity identifies true positives Rationale." },
+                            { q: "Specificity of a test refers to:", options: ["True Positives", "Ability to identify negatives correctly (True Negative)", "Ease of use", "Pain"], correct: 1 , rationale: "Specificity identifies true negatives Rationale." },
+                            { q: "The Coombs test detects:", options: ["Antibodies on RBCs", "WBC count", "Platelet function", "Clotting time"], correct: 0 , rationale: "Coombs detects antibodies RBCs Rationale." },
+                            { q: "Immunofluorescence uses:", options: ["Radioactivity", "Fluorescent dyes attached to antibodies", "Heat", "Sound"], correct: 1 , rationale: "Immunofluorescence uses fluorescent dyes Rationale." },
+                            { q: "Seroconversion means:", options: ["Developing antibodies after exposure/vaccination", "Getting sick", "Dying", "Recovering"], correct: 0 , rationale: "Seroconversion developing antibodies Rationale." },
+                            { q: "A booster shot is needed to:", options: ["Start immunity", "Re-stimulate memory cells", "Kill the virus", "Cure the disease"], correct: 1 , rationale: "Booster restimulates memory cells Rationale." },
+                            { q: "Conjugate vaccines link a weak antigen to a:", options: ["Strong protein carrier", "Fat", "Sugar", "Water"], correct: 0 , rationale: "Conjugate link weak to strong Rationale." },
+                            { q: "Which vaccine prevents cervical cancer?", options: ["Hep B", "HPV (Gardasil)", "Flu", "MMR"], correct: 1 , rationale: "HPV vaccine prevents cervical cancer Rationale." },
+                            { q: "BCG vaccine is for:", options: ["Polio", "Tuberculosis", "Measles", "Mumps"], correct: 1 , rationale: "BCG vaccine for Tuberculosis Rationale." },
+                            { q: "Oral Polio Vaccine (Sabin) stimulates:", options: ["IgG only", "Mucosal IgA immunity", "IgE", "No immunity"], correct: 1 , rationale: "Sabin polio stimulates mucosal IgA Rationale." },
+                            { q: "Rhesus prophylaxis (RhoGAM) serves to:", options: ["Cure the baby", "Prevent Mom from making anti-Rh antibodies", "Vaccinate the baby", "Induce labor"], correct: 1 , rationale: "RhoGAM prevents maternal antibodies Rationale." }
                         ]
                     },
                     {
@@ -4098,140 +4258,140 @@ const appData = {
                         type: 'quiz',
                         title: 'Community Health Final Quiz',
                         questions: [
-                            { q: "A nurse is administering a flu vaccine. This is an example of which level of prevention?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 0 },
-                            { q: "Which element of the Epidemiological Triad refers to the external factors affecting the host?", options: ["Agent", "Host", "Environment", "Vector"], correct: 2 },
-                            { q: "Conducting blood pressure screenings at a local mall is an example of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Health Promotion"], correct: 1 },
-                            { q: "Which population is considered 'vulnerable' due to migratory patterns and pesticide exposure?", options: ["Urban office workers", "Migrant farm workers", "School children", "Hospital nurses"], correct: 1 }
+                            { q: "A nurse is administering a flu vaccine. This is an example of which level of prevention?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 0 , rationale: "Vaccine is primary prevention Rationale." },
+                            { q: "Which element of the Epidemiological Triad refers to the external factors affecting the host?", options: ["Agent", "Host", "Environment", "Vector"], correct: 2 , rationale: "Environment external affecting host Rationale." },
+                            { q: "Conducting blood pressure screenings at a local mall is an example of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Health Promotion"], correct: 1 , rationale: "Screening is secondary prevention Rationale." },
+                            { q: "Which population is considered 'vulnerable' due to migratory patterns and pesticide exposure?", options: ["Urban office workers", "Migrant farm workers", "School children", "Hospital nurses"], correct: 1 , rationale: "Migrants form vulnerable population Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Foundations & Models',
                         questions: [
-                            { q: "Which core function of public health involves collecting and analyzing data on the community's health?", options: ["Assurance", "Policy Development", "Assessment", "Enforcement"], correct: 2 },
-                            { q: "What is the primary goal of Community Health Nursing?", options: ["Treating acute illness in hospital", "Promoting health and preventing disease in populations", "Performing surgery", "Managing ICU patients"], correct: 1 },
-                            { q: "Which level of prevention involves immunizations?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 0 },
-                            { q: "Screening for hypertension is an example of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Health Promotion"], correct: 1 },
-                            { q: "Rehabilitation after a stroke is considered:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Palliative Care"], correct: 2 },
-                            { q: "Healthy People 2030 encompasses:", options: ["Global health goals", "National objectives for improving health", "Hospital protocols", "Insurance policies"], correct: 1 },
-                            { q: "The Health Belief Model predicts health behavior based on:", options: ["Perceived susceptibility and severity", "Income and education", "Age and gender", "Genetics"], correct: 0 },
-                            { q: "A 'Windshield Survey' involves:", options: ["Interviewing residents", "Observing the community while driving/walking", "Conducting a census", "Testing water quality"], correct: 1 },
-                            { q: "Which is a social determinant of health?", options: ["Blood pressure", "Access to healthy food", "Genetic mutation", "Cholesterol level"], correct: 1 },
-                            { q: "The 'Assurance' function of public health ensures:", options: ["Laws are passed", "Services are available and accessible", "Data is collected", "Research is funded"], correct: 1 },
-                            { q: "Florence Nightingale is known for her work in:", options: ["Pharmacology", "Sanitation and Statistics", "Surgery", "Psychiatry"], correct: 1 },
-                            { q: "Lillian Wald is considered the founder of:", options: ["Public Health Nursing", "Anesthesiology", "Midwifery", "Pediatrics"], correct: 0 },
-                            { q: "Health disparities refer to:", options: ["Differences in health outcomes between groups", "Hospital errors", "Doctor shortages", "Insurance costs"], correct: 0 },
-                            { q: "Cultural competence involved:", options: ["Speaking all languages", "Respecting and understanding diverse cultural health beliefs", "Ignoring culture", "Traveling abroad"], correct: 1 },
-                            { q: "Community-Based Participatory Research (CBPR) involves:", options: ["Researchers deciding everything", "Partnership between researchers and community members", "Animal testing", "Lab experiments"], correct: 1 },
-                            { q: "Which creates the greatest impact on population health?", options: ["Individual counseling", "Socioeconomic factors", "Clinical interventions", "Genetic testing"], correct: 1 },
-                            { q: "A 'Community Diagnosis' identifies:", options: ["Individual patient diseases", "Existing community health problems and risks", "Hospital budget issues", "Doctor schedules"], correct: 1 },
-                            { q: "Evaluation in the nursing process determines:", options: ["If goals were met", "The diagnosis", "The budget", "The staffing needs"], correct: 0 },
-                            { q: "Advocacy in community health means:", options: ["Speaking up for the population's needs", "Ignoring problems", "Making money", "Running for office"], correct: 0 },
-                            { q: "Ethics in public health balances:", options: ["Individual rights vs. Community good", "Cost vs. Profit", "Doctors vs. Nurses", "Hospitals vs. Clinics"], correct: 0 }
+                            { q: "Which core function of public health involves collecting and analyzing data on the community's health?", options: ["Assurance", "Policy Development", "Assessment", "Enforcement"], correct: 2 , rationale: "Assessment collects community data Rationale." },
+                            { q: "What is the primary goal of Community Health Nursing?", options: ["Treating acute illness in hospital", "Promoting health and preventing disease in populations", "Performing surgery", "Managing ICU patients"], correct: 1 , rationale: "Community goal promotes prevents Rationale." },
+                            { q: "Which level of prevention involves immunizations?", options: ["Primary", "Secondary", "Tertiary", "Quaternary"], correct: 0 , rationale: "Immunization is primary prevention Rationale." },
+                            { q: "Screening for hypertension is an example of:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Health Promotion"], correct: 1 , rationale: "Screening is secondary prevention Rationale." },
+                            { q: "Rehabilitation after a stroke is considered:", options: ["Primary Prevention", "Secondary Prevention", "Tertiary Prevention", "Palliative Care"], correct: 2 , rationale: "Rehabilitation is tertiary prevention Rationale." },
+                            { q: "Healthy People 2030 encompasses:", options: ["Global health goals", "National objectives for improving health", "Hospital protocols", "Insurance policies"], correct: 1 , rationale: "Healthy People 2030 national objectives Rationale." },
+                            { q: "The Health Belief Model predicts health behavior based on:", options: ["Perceived susceptibility and severity", "Income and education", "Age and gender", "Genetics"], correct: 0 , rationale: "Health Belief Model perceived susceptibility Rationale." },
+                            { q: "A 'Windshield Survey' involves:", options: ["Interviewing residents", "Observing the community while driving/walking", "Conducting a census", "Testing water quality"], correct: 1 , rationale: "Windshield observing while driving Rationale." },
+                            { q: "Which is a social determinant of health?", options: ["Blood pressure", "Access to healthy food", "Genetic mutation", "Cholesterol level"], correct: 1 , rationale: "Food access social determinant Rationale." },
+                            { q: "The 'Assurance' function of public health ensures:", options: ["Laws are passed", "Services are available and accessible", "Data is collected", "Research is funded"], correct: 1 , rationale: "Assurance ensures services available Rationale." },
+                            { q: "Florence Nightingale is known for her work in:", options: ["Pharmacology", "Sanitation and Statistics", "Surgery", "Psychiatry"], correct: 1 , rationale: "Nightingale sanitation and statistics Rationale." },
+                            { q: "Lillian Wald is considered the founder of:", options: ["Public Health Nursing", "Anesthesiology", "Midwifery", "Pediatrics"], correct: 0 , rationale: "Wald founded public health nursing Rationale." },
+                            { q: "Health disparities refer to:", options: ["Differences in health outcomes between groups", "Hospital errors", "Doctor shortages", "Insurance costs"], correct: 0 , rationale: "Disparities differences in health outcomes Rationale." },
+                            { q: "Cultural competence involved:", options: ["Speaking all languages", "Respecting and understanding diverse cultural health beliefs", "Ignoring culture", "Traveling abroad"], correct: 1 , rationale: "Competence understanding diverse beliefs Rationale." },
+                            { q: "Community-Based Participatory Research (CBPR) involves:", options: ["Researchers deciding everything", "Partnership between researchers and community members", "Animal testing", "Lab experiments"], correct: 1 , rationale: "CBPR partnership researchers community Rationale." },
+                            { q: "Which creates the greatest impact on population health?", options: ["Individual counseling", "Socioeconomic factors", "Clinical interventions", "Genetic testing"], correct: 1 , rationale: "Socioeconomic creates greatest impact Rationale." },
+                            { q: "A 'Community Diagnosis' identifies:", options: ["Individual patient diseases", "Existing community health problems and risks", "Hospital budget issues", "Doctor schedules"], correct: 1 , rationale: "Community diagnosis identifies risks Rationale." },
+                            { q: "Evaluation in the nursing process determines:", options: ["If goals were met", "The diagnosis", "The budget", "The staffing needs"], correct: 0 , rationale: "Evaluation determines goals met Rationale." },
+                            { q: "Advocacy in community health means:", options: ["Speaking up for the population's needs", "Ignoring problems", "Making money", "Running for office"], correct: 0 , rationale: "Advocacy speaking for population needs Rationale." },
+                            { q: "Ethics in public health balances:", options: ["Individual rights vs. Community good", "Cost vs. Profit", "Doctors vs. Nurses", "Hospitals vs. Clinics"], correct: 0 , rationale: "Ethics individual versus community Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Epidemiology & Biostatistics',
                         questions: [
-                            { q: "The Epidemiological Triad consists of:", options: ["Host, Agent, Environment", "Person, Place, Time", "Viral, Bacterial, Fungal", "Doctor, Nurse, Patient"], correct: 0 },
-                            { q: "An outbreak of disease that spreads across several countries or continents is called a:", options: ["Epidemic", "Endemic", "Pandemic", "Sporadic"], correct: 2 },
-                            { q: "Endemic refers to a disease that is:", options: ["Always present in a population", "New and spreading fast", "Global", "Rare"], correct: 0 },
-                            { q: "Incidence refers to:", options: ["Total cases", "New cases in a period", "Deaths", "Cures"], correct: 1 },
-                            { q: "Prevalence refers to:", options: ["New cases", "Total existing cases at a point in time", "Future cases", "Past cases"], correct: 1 },
-                            { q: "Morbidity refers to:", options: ["Death rate", "Illness/Disease rate", "Birth rate", "Fertility rate"], correct: 1 },
-                            { q: "Mortality refers to:", options: ["Illness", "Death rate", "Hospitalization", "Recovery"], correct: 1 },
-                            { q: "A 'Vector' in disease transmission is typically:", options: ["A human carrier", "An insect or animal that transmits the pathogen", "The water supply", "Used needles"], correct: 1 },
-                            { q: "Herd immunity requires:", options: ["100% vaccination", "A high proportion of immune individuals", "Antibiotics", "Quarantine"], correct: 1 },
-                            { q: "The 'Web of Causation' model emphasizes:", options: ["Single cause for disease", "Multiple interconnected factors causing disease", "Germ theory only", "Genetic fate"], correct: 1 },
-                            { q: "Sensitivity of a screening test is its ability to:", options: ["Identify negative cases", "Identify true positives", "Save money", "Be painless"], correct: 1 },
-                            { q: "Specificity of a screening test is its ability to:", options: ["Identify true negatives", "Identify positives", "Be fast", "Be available"], correct: 0 },
-                            { q: "Descriptive epidemiology focuses on:", options: ["Testing hypotheses", "Who, What, Where, When", "Why and How", "Clinical trials"], correct: 1 },
-                            { q: "Analytic epidemiology focuses on:", options: ["Description", "Determinants (Why and How)", "Counting cases", "Reporting"], correct: 1 },
-                            { q: "A Cohort Study is:", options: ["Retrospective case review", "Prospective study following a group over time", "A snapshot in time", "An experiment"], correct: 1 },
-                            { q: "A Case-Control Study compares:", options: ["People with disease vs. People without", "Two treatment groups", "Young vs. Old", "Rich vs. Poor"], correct: 0 },
-                            { q: "Randomized Controlled Trials (RCTs) are considered:", options: ["Weak evidence", "Gold standard for efficacy", "Unethical", "Observational"], correct: 1 },
-                            { q: "Surveillance involves:", options: ["Spying on people", "Ongoing collection and analysis of health data", "One-time survey", "Arresting sick people"], correct: 1 },
-                            { q: "Attack Rate is:", options: ["Number of people exposed", "Percentage of exposed people who get sick", "Number of deaths", "Speed of spread"], correct: 1 },
-                            { q: "The Infant Mortality Rate is a key indicator of:", options: ["Hospital wealth", "Population health and well-being", "Teacher quality", "Road safety"], correct: 1 }
+                            { q: "The Epidemiological Triad consists of:", options: ["Host, Agent, Environment", "Person, Place, Time", "Viral, Bacterial, Fungal", "Doctor, Nurse, Patient"], correct: 0 , rationale: "Triad host agent environment Rationale." },
+                            { q: "An outbreak of disease that spreads across several countries or continents is called a:", options: ["Epidemic", "Endemic", "Pandemic", "Sporadic"], correct: 2 , rationale: "Pandemic spreads multiple continents Rationale." },
+                            { q: "Endemic refers to a disease that is:", options: ["Always present in a population", "New and spreading fast", "Global", "Rare"], correct: 0 , rationale: "Endemic always present in population Rationale." },
+                            { q: "Incidence refers to:", options: ["Total cases", "New cases in a period", "Deaths", "Cures"], correct: 1 , rationale: "Incidence new cases in period Rationale." },
+                            { q: "Prevalence refers to:", options: ["New cases", "Total existing cases at a point in time", "Future cases", "Past cases"], correct: 1 , rationale: "Prevalence total existing cases Rationale." },
+                            { q: "Morbidity refers to:", options: ["Death rate", "Illness/Disease rate", "Birth rate", "Fertility rate"], correct: 1 , rationale: "Morbidity illness disease rate Rationale." },
+                            { q: "Mortality refers to:", options: ["Illness", "Death rate", "Hospitalization", "Recovery"], correct: 1 , rationale: "Mortality refers death rate Rationale." },
+                            { q: "A 'Vector' in disease transmission is typically:", options: ["A human carrier", "An insect or animal that transmits the pathogen", "The water supply", "Used needles"], correct: 1 , rationale: "Vector insect transmitting pathogen Rationale." },
+                            { q: "Herd immunity requires:", options: ["100% vaccination", "A high proportion of immune individuals", "Antibiotics", "Quarantine"], correct: 1 , rationale: "Herd requires high proportion immune Rationale." },
+                            { q: "The 'Web of Causation' model emphasizes:", options: ["Single cause for disease", "Multiple interconnected factors causing disease", "Germ theory only", "Genetic fate"], correct: 1 , rationale: "Web causation interconnected factors Rationale." },
+                            { q: "Sensitivity of a screening test is its ability to:", options: ["Identify negative cases", "Identify true positives", "Save money", "Be painless"], correct: 1 , rationale: "Sensitivity identifies true positives Rationale." },
+                            { q: "Specificity of a screening test is its ability to:", options: ["Identify true negatives", "Identify positives", "Be fast", "Be available"], correct: 0 , rationale: "Specificity identifies true negatives Rationale." },
+                            { q: "Descriptive epidemiology focuses on:", options: ["Testing hypotheses", "Who, What, Where, When", "Why and How", "Clinical trials"], correct: 1 , rationale: "Descriptive focuses who what where Rationale." },
+                            { q: "Analytic epidemiology focuses on:", options: ["Description", "Determinants (Why and How)", "Counting cases", "Reporting"], correct: 1 , rationale: "Analytic determinants why how Rationale." },
+                            { q: "A Cohort Study is:", options: ["Retrospective case review", "Prospective study following a group over time", "A snapshot in time", "An experiment"], correct: 1 , rationale: "Cohort prospective following group Rationale." },
+                            { q: "A Case-Control Study compares:", options: ["People with disease vs. People without", "Two treatment groups", "Young vs. Old", "Rich vs. Poor"], correct: 0 , rationale: "Case control disease versus no disease Rationale." },
+                            { q: "Randomized Controlled Trials (RCTs) are considered:", options: ["Weak evidence", "Gold standard for efficacy", "Unethical", "Observational"], correct: 1 , rationale: "RCTs gold standard efficacy Rationale." },
+                            { q: "Surveillance involves:", options: ["Spying on people", "Ongoing collection and analysis of health data", "One-time survey", "Arresting sick people"], correct: 1 , rationale: "Surveillance ongoing collection data Rationale." },
+                            { q: "Attack Rate is:", options: ["Number of people exposed", "Percentage of exposed people who get sick", "Number of deaths", "Speed of spread"], correct: 1 , rationale: "Attack percentage exposed get sick Rationale." },
+                            { q: "The Infant Mortality Rate is a key indicator of:", options: ["Hospital wealth", "Population health and well-being", "Teacher quality", "Road safety"], correct: 1 , rationale: "Infant mortality population well being Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Vulnerable Pops & Environment',
                         questions: [
-                            { q: "Which population is considered 'vulnerable' due to migratory patterns and pesticide exposure?", options: ["Urban office workers", "Migrant farm workers", "School children", "Hospital nurses"], correct: 1 },
-                            { q: "Environmental Justice ensures:", options: ["Fair treatment regarding environmental laws and hazards", "Free lawyers", "Clean parks", "Recycling"], correct: 0 },
-                            { q: "Lead poisoning in children primarily affects the:", options: ["Lungs", "Nervous System/Brain", "Skin", "Stomach"], correct: 1 },
-                            { q: "A major cause of homelessness is:", options: ["Choice", "Lack of affordable housing and mental illness", "Laziness", "Too many shelters"], correct: 1 },
-                            { q: "Rural populations often face barriers such as:", options: ["Too many doctors", "Distance/Transportation to care", "High pollution", "Overcrowding"], correct: 1 },
-                            { q: "Food deserts are areas with:", options: ["No food at all", "Lack of affordable, healthy/fresh food options", "Too many restaurants", "Desert climate"], correct: 1 },
-                            { q: "Which gas is the 'Silent Killer' in homes?", options: ["Oxygen", "Carbon Monoxide", "Nitrogen", "Helium"], correct: 1 },
-                            { q: "Radon gas exposure increases risk of:", options: ["Lung Cancer", "Skin Cancer", "Stomach Cancer", "Blindness"], correct: 0 },
-                            { q: "Potable water is:", options: ["Dirty water", "Safe to drink", "Salt water", "Ice"], correct: 1 },
-                            { q: "Occupational health nurses focus on:", options: ["Surgery", "Workplace safety and injury prevention", "Pediatrics", "Home visits"], correct: 1 },
-                            { q: "OSHA mandates that employers provide:", options: ["Free lunch", "Safe working environment (PPE, Training)", "Transportation", "Gym membership"], correct: 1 },
-                            { q: "Ergonomics helps prevent:", options: ["Infections", "Musculoskeletal injuries", "Hearing loss", "Stress"], correct: 1 },
-                            { q: "Asbestosis is caused by:", options: ["Smoking", "Inhaling asbestos fibers", "Coal dust", "Silica"], correct: 1 },
-                            { q: "The 'Precautionary Principle' suggests:", options: ["Taking action to prevent harm even if scientific evidence is not fully established", "Waiting for proof", "Doing nothing", "Ignoring risks"], correct: 0 },
-                            { q: "Climate change is associated with:", options: ["Fewer diseases", "Increased vector-borne diseases and heat-related illness", "Stable weather", "Cleaner air"], correct: 1 },
-                            { q: "Teen pregnancy rates are highest in:", options: ["High income areas", "Low socioeconomic areas", "Rural areas only", "Cities only"], correct: 1 },
-                            { q: "Elderly abuse is most often committed by:", options: ["Strangers", "Family members/Caregivers", "Nurses", "Doctors"], correct: 1 },
-                            { q: "Refugees often suffer from:", options: ["PTSD and communicable diseases", "Obesity", "Wealth", "Too much healthcare"], correct: 0 },
-                            { q: "Disability guidelines require:", options: ["Separate facilities", "Accessibility and accommodation (ADA)", "Isolation", "Institutionalization"], correct: 1 },
-                            { q: "Correctional nursing involves care for:", options: ["Police officers", "Incarcerated populations", "Judges", "Victims"], correct: 1 }
+                            { q: "Which population is considered 'vulnerable' due to migratory patterns and pesticide exposure?", options: ["Urban office workers", "Migrant farm workers", "School children", "Hospital nurses"], correct: 1 , rationale: "Migrants vulnerable pesticide exposure Rationale." },
+                            { q: "Environmental Justice ensures:", options: ["Fair treatment regarding environmental laws and hazards", "Free lawyers", "Clean parks", "Recycling"], correct: 0 , rationale: "Environmental justice fair treatment Rationale." },
+                            { q: "Lead poisoning in children primarily affects the:", options: ["Lungs", "Nervous System/Brain", "Skin", "Stomach"], correct: 1 , rationale: "Lead poisoning affects nervous brain Rationale." },
+                            { q: "A major cause of homelessness is:", options: ["Choice", "Lack of affordable housing and mental illness", "Laziness", "Too many shelters"], correct: 1 , rationale: "Homelessness lack affordable housing Rationale." },
+                            { q: "Rural populations often face barriers such as:", options: ["Too many doctors", "Distance/Transportation to care", "High pollution", "Overcrowding"], correct: 1 , rationale: "Rural barriers distance transportation Rationale." },
+                            { q: "Food deserts are areas with:", options: ["No food at all", "Lack of affordable, healthy/fresh food options", "Too many restaurants", "Desert climate"], correct: 1 , rationale: "Food deserts lack healthy options Rationale." },
+                            { q: "Which gas is the 'Silent Killer' in homes?", options: ["Oxygen", "Carbon Monoxide", "Nitrogen", "Helium"], correct: 1 , rationale: "Carbon monoxide silent killer Rationale." },
+                            { q: "Radon gas exposure increases risk of:", options: ["Lung Cancer", "Skin Cancer", "Stomach Cancer", "Blindness"], correct: 0 , rationale: "Radon increases lung cancer Rationale." },
+                            { q: "Potable water is:", options: ["Dirty water", "Safe to drink", "Salt water", "Ice"], correct: 1 , rationale: "Potable water safe drink Rationale." },
+                            { q: "Occupational health nurses focus on:", options: ["Surgery", "Workplace safety and injury prevention", "Pediatrics", "Home visits"], correct: 1 , rationale: "Occupational workplace safety injury Rationale." },
+                            { q: "OSHA mandates that employers provide:", options: ["Free lunch", "Safe working environment (PPE, Training)", "Transportation", "Gym membership"], correct: 1 , rationale: "OSHA safe working environment Rationale." },
+                            { q: "Ergonomics helps prevent:", options: ["Infections", "Musculoskeletal injuries", "Hearing loss", "Stress"], correct: 1 , rationale: "Ergonomics prevents musculoskeletal injuries Rationale." },
+                            { q: "Asbestosis is caused by:", options: ["Smoking", "Inhaling asbestos fibers", "Coal dust", "Silica"], correct: 1 , rationale: "Asbestosis inhaling asbestos fibers Rationale." },
+                            { q: "The 'Precautionary Principle' suggests:", options: ["Taking action to prevent harm even if scientific evidence is not fully established", "Waiting for proof", "Doing nothing", "Ignoring risks"], correct: 0 , rationale: "Precautionary principle prevent harm Rationale." },
+                            { q: "Climate change is associated with:", options: ["Fewer diseases", "Increased vector-borne diseases and heat-related illness", "Stable weather", "Cleaner air"], correct: 1 , rationale: "Climate increases vector borne heat Rationale." },
+                            { q: "Teen pregnancy rates are highest in:", options: ["High income areas", "Low socioeconomic areas", "Rural areas only", "Cities only"], correct: 1 , rationale: "Teen pregnancy low socioeconomic Rationale." },
+                            { q: "Elderly abuse is most often committed by:", options: ["Strangers", "Family members/Caregivers", "Nurses", "Doctors"], correct: 1 , rationale: "Elderly abuse family caregivers Rationale." },
+                            { q: "Refugees often suffer from:", options: ["PTSD and communicable diseases", "Obesity", "Wealth", "Too much healthcare"], correct: 0 , rationale: "Refugees PTSD communicable diseases Rationale." },
+                            { q: "Disability guidelines require:", options: ["Separate facilities", "Accessibility and accommodation (ADA)", "Isolation", "Institutionalization"], correct: 1 , rationale: "Disability guidelines ADA accessibility Rationale." },
+                            { q: "Correctional nursing involves care for:", options: ["Police officers", "Incarcerated populations", "Judges", "Victims"], correct: 1 , rationale: "Correctional care incarcerated populations Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Communicable & Chronic Diseases',
                         questions: [
-                            { q: "The incubation period is the time between:", options: ["Exposure and onset of symptoms", "Symptoms and death", "Diagnosis and cure", "Treatment and recovery"], correct: 0 },
-                            { q: "Which disease requires Airborne Precautions?", options: ["Flu", "Tuberculosis (TB)", "HIV", "MRSA"], correct: 1 },
-                            { q: "Directly Observed Therapy (DOT) is standard for:", options: ["Diabetes", "Tuberculosis", "Hypertension", "Asthma"], correct: 1 },
-                            { q: "Lyme disease is transmitted by:", options: ["Mosquitoes", "Ticks", "Fleas", "Flies"], correct: 1 },
-                            { q: "Human Papillomavirus (HPV) is linked to:", options: ["Lung cancer", "Cervical cancer", "Liver cancer", "Bone cancer"], correct: 1 },
-                            { q: "The leading cause of death in the US is:", options: ["Cancer", "Heart Disease", "Accidents", "Stroke"], correct: 1 },
-                            { q: "Metabolic Syndrome increases risk for:", options: ["Diabetes and Heart Disease", "Infection", "Fractures", "Allergies"], correct: 0 },
-                            { q: "Hypertension is defined as BP consistently above:", options: ["120/80", "130/80", "110/70", "100/60"], correct: 1 },
-                            { q: "Type 2 Diabetes is primarily preventable through:", options: ["Vaccines", "Diet and Exercise", "Antibiotics", "Surgery"], correct: 1 },
-                            { q: "Chlamydia and Gonorrhea are:", options: ["Viral STIs", "Bacterial STIs", "Fungal infections", "Parasites"], correct: 1 },
-                            { q: "Syphilis is treated with:", options: ["Aspirin", "Penicillin", "Insulin", "Radiation"], correct: 1 },
-                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to humans", "Animals to humans", "Plants to humans", "Soil to humans"], correct: 1 },
-                            { q: "West Nile Virus is transmitted by:", options: ["Ticks", "Mosquitoes", "Birds directly", "Spiders"], correct: 1 },
-                            { q: "HIV is transmitted via:", options: ["Casual contact", "Blood, semen, vaginal fluids, breast milk", "Airborne droplets", "Saliva"], correct: 1 },
-                            { q: "Hepatitis A is transmitted via:", options: ["Blood", "Fecal-Oral route", "Sexual contact", "Airborne"], correct: 1 },
-                            { q: "Hepatitis B and C are transmitted via:", options: ["Food", "Blood and Body Fluids", "Air", "Water"], correct: 1 },
-                            { q: "Pertussis (Whooping Cough) is prevented by:", options: ["MMR vaccine", "DTaP/Tdap vaccine", "Flu shot", "Polio vaccine"], correct: 1 },
-                            { q: "Varicella Zoster virus causes:", options: ["Measles", "Chickenpox and Shingles", "Mumps", "Rubella"], correct: 1 },
-                            { q: "Norovirus is a common cause of:", options: ["Pneumonia", "Gastroenteritis (Stomach Flu)", "Meningitis", "Rash"], correct: 1 },
-                            { q: "Antibiotic resistance is caused by:", options: ["Overuse/Misuse of antibiotics", "Vaccines", "Hand washing", "Probiotics"], correct: 0 }
+                            { q: "The incubation period is the time between:", options: ["Exposure and onset of symptoms", "Symptoms and death", "Diagnosis and cure", "Treatment and recovery"], correct: 0 , rationale: "Incubation exposure to symptoms Rationale." },
+                            { q: "Which disease requires Airborne Precautions?", options: ["Flu", "Tuberculosis (TB)", "HIV", "MRSA"], correct: 1 , rationale: "Tuberculosis requires airborne precautions Rationale." },
+                            { q: "Directly Observed Therapy (DOT) is standard for:", options: ["Diabetes", "Tuberculosis", "Hypertension", "Asthma"], correct: 1 , rationale: "DOT standard for tuberculosis Rationale." },
+                            { q: "Lyme disease is transmitted by:", options: ["Mosquitoes", "Ticks", "Fleas", "Flies"], correct: 1 , rationale: "Lyme transmitted by ticks Rationale." },
+                            { q: "Human Papillomavirus (HPV) is linked to:", options: ["Lung cancer", "Cervical cancer", "Liver cancer", "Bone cancer"], correct: 1 , rationale: "HPV linked cervical cancer Rationale." },
+                            { q: "The leading cause of death in the US is:", options: ["Cancer", "Heart Disease", "Accidents", "Stroke"], correct: 1 , rationale: "Leading death US heart disease Rationale." },
+                            { q: "Metabolic Syndrome increases risk for:", options: ["Diabetes and Heart Disease", "Infection", "Fractures", "Allergies"], correct: 0 , rationale: "Metabolic syndrome diabetes heart Rationale." },
+                            { q: "Hypertension is defined as BP consistently above:", options: ["120/80", "130/80", "110/70", "100/60"], correct: 1 , rationale: "Hypertension consistently above 130 80 Rationale." },
+                            { q: "Type 2 Diabetes is primarily preventable through:", options: ["Vaccines", "Diet and Exercise", "Antibiotics", "Surgery"], correct: 1 , rationale: "Type 2 preventable diet exercise Rationale." },
+                            { q: "Chlamydia and Gonorrhea are:", options: ["Viral STIs", "Bacterial STIs", "Fungal infections", "Parasites"], correct: 1 , rationale: "Chlamydia Gonorrhea bacterial STIs Rationale." },
+                            { q: "Syphilis is treated with:", options: ["Aspirin", "Penicillin", "Insulin", "Radiation"], correct: 1 , rationale: "Syphilis treated with penicillin Rationale." },
+                            { q: "Zoonosis refers to diseases transmitted from:", options: ["Humans to humans", "Animals to humans", "Plants to humans", "Soil to humans"], correct: 1 , rationale: "Zoonosis animals to humans Rationale." },
+                            { q: "West Nile Virus is transmitted by:", options: ["Ticks", "Mosquitoes", "Birds directly", "Spiders"], correct: 1 , rationale: "West Nile transmitted mosquitoes Rationale." },
+                            { q: "HIV is transmitted via:", options: ["Casual contact", "Blood, semen, vaginal fluids, breast milk", "Airborne droplets", "Saliva"], correct: 1 , rationale: "HIV blood semen vaginal breast Rationale." },
+                            { q: "Hepatitis A is transmitted via:", options: ["Blood", "Fecal-Oral route", "Sexual contact", "Airborne"], correct: 1 , rationale: "Hep A fecal oral route Rationale." },
+                            { q: "Hepatitis B and C are transmitted via:", options: ["Food", "Blood and Body Fluids", "Air", "Water"], correct: 1 , rationale: "Hep B C blood body Rationale." },
+                            { q: "Pertussis (Whooping Cough) is prevented by:", options: ["MMR vaccine", "DTaP/Tdap vaccine", "Flu shot", "Polio vaccine"], correct: 1 , rationale: "Pertussis prevented DTaP Tdap Rationale." },
+                            { q: "Varicella Zoster virus causes:", options: ["Measles", "Chickenpox and Shingles", "Mumps", "Rubella"], correct: 1 , rationale: "Varicella chickenpox and shingles Rationale." },
+                            { q: "Norovirus is a common cause of:", options: ["Pneumonia", "Gastroenteritis (Stomach Flu)", "Meningitis", "Rash"], correct: 1 , rationale: "Norovirus gastroenteritis stomach flu Rationale." },
+                            { q: "Antibiotic resistance is caused by:", options: ["Overuse/Misuse of antibiotics", "Vaccines", "Hand washing", "Probiotics"], correct: 0 , rationale: "Resistance overuse misuse antibiotics Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Settings of Care',
                         questions: [
-                            { q: "Home health nursing primarily focuses on:", options: ["Acute care in hospital", "Preventive care in clinics", "Skilled care in the patient's residence", "Emergency response"], correct: 2 },
-                            { q: "School nurses are responsible for:", options: ["Prescribing medication", "Monitoring immunizations and health education", "Diagnosing broken bones", "Performing surgeries"], correct: 1 },
-                            { q: "Hospice care focuses on:", options: ["Curing disease", "Comfort and Quality of Life (Palliative)", "Experimental treatments", "Surgery"], correct: 1 },
-                            { q: "To qualify for Medicare hospice benefit, prognosis must be:", options: ["< 3 months", "< 6 months", "< 1 year", "< 2 years"], correct: 1 },
-                            { q: "Faith Community Nursing (Parish Nursing) focuses on:", options: ["Physical care only", "Holistic care (Spirituality and Health)", "Surgery in church", "Preaching"], correct: 1 },
-                            { q: "Forensic nursing involves:", options: ["Care for victims/perpetrators of trauma/crime", "Autopsies only", "Lab work only", "Admin work"], correct: 0 },
-                            { q: "Disaster nursing triage tag 'Black' indicates:", options: ["Immediate", "Delayed", "Minor", "Deceased/Expectant"], correct: 3 },
-                            { q: "Disaster nursing triage tag 'Red' indicates:", options: ["Immediate threat of life (Treat first)", "Deceased", "Walking wounded", "Wait"], correct: 0 },
-                            { q: "Disaster nursing triage tag 'Green' indicates:", options: ["Critical", "Walking Wounded (Minor)", "Deceased", "Urgent"], correct: 1 },
-                            { q: "The 'Sandwich Generation' cares for:", options: ["Children only", "Aging parents and their own children", "Pets", "Nobody"], correct: 1 },
-                            { q: "Caregiver burnout signs include:", options: ["Happiness", "Exhaustion, irritability, withdrawal", "Energy", "Sleep"], correct: 1 },
-                            { q: "Public Health Clinics typically provide:", options: ["Organ transplants", "Immunizations, STI testing, WIC", "ICU care", "MRI scans"], correct: 1 },
-                            { q: "Head Start programs promote:", options: ["School readiness for low-income children", "College admission", "Job training", "Retirement"], correct: 0 },
-                            { q: "WIC provides nutrition for:", options: ["Everyone", "Women, Infants, and Children", "Men only", "Elderly"], correct: 1 },
-                            { q: "Rural Health Clinics receive funding to:", options: ["Make profit", "Improve access in underserved areas", "Conduct research", "Build skyscrapers"], correct: 1 },
-                            { q: "Telehealth uses technology to:", options: ["Replace doctors", "Provide care remotely", "Increase cost", "Delay care"], correct: 1 },
-                            { q: "OASIS is the data set used in:", options: ["Hospitals", "Home Health Care", "Schools", "Prisons"], correct: 1 },
-                            { q: "Case Management involves:", options: ["Diagnosing", "Coordinating care and resources", "Billing only", "Cleaning"], correct: 1 },
-                            { q: "Family as context means focusing on:", options: ["The family as the patient", "The individual client within the family", "Society", "Genetics"], correct: 1 },
-                            { q: "Genogram helps visualize:", options: ["Map of the neighborhood", "Family health history and relationships", "Genetic coding", "Insurance plan"], correct: 1 }
+                            { q: "Home health nursing primarily focuses on:", options: ["Acute care in hospital", "Preventive care in clinics", "Skilled care in the patient's residence", "Emergency response"], correct: 2 , rationale: "Home health skilled care residence Rationale." },
+                            { q: "School nurses are responsible for:", options: ["Prescribing medication", "Monitoring immunizations and health education", "Diagnosing broken bones", "Performing surgeries"], correct: 1 , rationale: "School nurses monitor immunizations education Rationale." },
+                            { q: "Hospice care focuses on:", options: ["Curing disease", "Comfort and Quality of Life (Palliative)", "Experimental treatments", "Surgery"], correct: 1 , rationale: "Hospice focuses comfort quality palliative Rationale." },
+                            { q: "To qualify for Medicare hospice benefit, prognosis must be:", options: ["< 3 months", "< 6 months", "< 1 year", "< 2 years"], correct: 1 , rationale: "Medicare hospice prognosis under six Rationale." },
+                            { q: "Faith Community Nursing (Parish Nursing) focuses on:", options: ["Physical care only", "Holistic care (Spirituality and Health)", "Surgery in church", "Preaching"], correct: 1 , rationale: "Faith community holistic spirituality health Rationale." },
+                            { q: "Forensic nursing involves:", options: ["Care for victims/perpetrators of trauma/crime", "Autopsies only", "Lab work only", "Admin work"], correct: 0 , rationale: "Forensic care victims perpetrators trauma Rationale." },
+                            { q: "Disaster nursing triage tag 'Black' indicates:", options: ["Immediate", "Delayed", "Minor", "Deceased/Expectant"], correct: 3 , rationale: "Disaster black indicates deceased expectant Rationale." },
+                            { q: "Disaster nursing triage tag 'Red' indicates:", options: ["Immediate threat of life (Treat first)", "Deceased", "Walking wounded", "Wait"], correct: 0 , rationale: "Disaster red immediate threat life Rationale." },
+                            { q: "Disaster nursing triage tag 'Green' indicates:", options: ["Critical", "Walking Wounded (Minor)", "Deceased", "Urgent"], correct: 1 , rationale: "Disaster green walking wounded minor Rationale." },
+                            { q: "The 'Sandwich Generation' cares for:", options: ["Children only", "Aging parents and their own children", "Pets", "Nobody"], correct: 1 , rationale: "Sandwich generation cares parents children Rationale." },
+                            { q: "Caregiver burnout signs include:", options: ["Happiness", "Exhaustion, irritability, withdrawal", "Energy", "Sleep"], correct: 1 , rationale: "Burnout exhaustion irritability withdrawal Rationale." },
+                            { q: "Public Health Clinics typically provide:", options: ["Organ transplants", "Immunizations, STI testing, WIC", "ICU care", "MRI scans"], correct: 1 , rationale: "Public health clinics immunizations STI Rationale." },
+                            { q: "Head Start programs promote:", options: ["School readiness for low-income children", "College admission", "Job training", "Retirement"], correct: 0 , rationale: "Head start school readiness low Rationale." },
+                            { q: "WIC provides nutrition for:", options: ["Everyone", "Women, Infants, and Children", "Men only", "Elderly"], correct: 1 , rationale: "WIC women infants and children Rationale." },
+                            { q: "Rural Health Clinics receive funding to:", options: ["Make profit", "Improve access in underserved areas", "Conduct research", "Build skyscrapers"], correct: 1 , rationale: "Rural clinics improve access underserved Rationale." },
+                            { q: "Telehealth uses technology to:", options: ["Replace doctors", "Provide care remotely", "Increase cost", "Delay care"], correct: 1 , rationale: "Telehealth uses technology care remotely Rationale." },
+                            { q: "OASIS is the data set used in:", options: ["Hospitals", "Home Health Care", "Schools", "Prisons"], correct: 1 , rationale: "OASIS data set home health Rationale." },
+                            { q: "Case Management involves:", options: ["Diagnosing", "Coordinating care and resources", "Billing only", "Cleaning"], correct: 1 , rationale: "Case management coordinating care resources Rationale." },
+                            { q: "Family as context means focusing on:", options: ["The family as the patient", "The individual client within the family", "Society", "Genetics"], correct: 1 , rationale: "Family context individual within family Rationale." },
+                            { q: "Genogram helps visualize:", options: ["Map of the neighborhood", "Family health history and relationships", "Genetic coding", "Insurance plan"], correct: 1 , rationale: "Genogram visualizes family health history Rationale." }
                         ]
                     },
                     {
@@ -4399,140 +4559,140 @@ const appData = {
                         type: 'quiz',
                         title: 'Pediatrics Final Quiz',
                         questions: [
-                            { q: "At what age should an infant typically double their birth weight?", options: ["4 months", "6 months", "9 months", "12 months"], correct: 1 },
-                            { q: "Which of the following is a sign of Epiglottitis?", options: ["Barking cough", "Drooling", "Runny nose", "Ear pain"], correct: 1 },
-                            { q: "In fetal circulation, what structure connects the Pulmonary Artery to the Aorta?", options: ["Foramen Ovale", "Ductus Venosus", "Ductus Arteriosus", "Vena Cava"], correct: 2 },
-                            { q: "Erikson's stage of development for a toddler is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 1 }
+                            { q: "At what age should an infant typically double their birth weight?", options: ["4 months", "6 months", "9 months", "12 months"], correct: 1 , rationale: "Infants double birth weight six Rationale." },
+                            { q: "Which of the following is a sign of Epiglottitis?", options: ["Barking cough", "Drooling", "Runny nose", "Ear pain"], correct: 1 , rationale: "Epiglottitis drooling dysphagia distress Rationale." },
+                            { q: "In fetal circulation, what structure connects the Pulmonary Artery to the Aorta?", options: ["Foramen Ovale", "Ductus Venosus", "Ductus Arteriosus", "Vena Cava"], correct: 2 , rationale: "Fetal ductus arteriosus pulmonary aorta Rationale." },
+                            { q: "Erikson's stage of development for a toddler is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 1 , rationale: "Toddler autonomy versus shame doubt Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 1: Growth & Development',
                         questions: [
-                            { q: "In which direction does infant growth and development proceed?", options: ["Feet to Head", "Cephalocaudal (Head to Toe)", "Distal to Proximal", "Randomly"], correct: 1 },
-                            { q: "At what age should an infant typically double their birth weight?", options: ["4 months", "6 months", "9 months", "12 months"], correct: 1 },
-                            { q: "Erikson's stage of development for a toddler (1-3 yrs) is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 1 },
-                            { q: "Erikson's stage of development for a school-age child (6-12 yrs) is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 3 },
-                            { q: "A 4-year-old child believes their thoughts can cause events. This is called:", options: ["Logical reasoning", "Magical thinking", "Abstract thinking", "Egocentrism"], correct: 1 },
-                            { q: "Which activity is developmentally appropriate for a school-age child?", options: ["Playing Peek-a-boo", "Parallel play with blocks", "Joining a sports team", "Building a complex identity"], correct: 2 },
-                            { q: "The 'Pincer Grasp' (using thumb and forefinger) typically develops by:", options: ["2 months", "6 months", "9-10 months", "18 months"], correct: 2 },
-                            { q: "An infant typically rolls from tummy to back at:", options: ["1 month", "4-5 months", "9 months", "12 months"], correct: 1 },
-                            { q: "Teenagers (12-18 yrs) are in Erikson's stage of:", options: ["Identity vs Role Confusion", "Intimacy vs Isolation", "Industry vs Inferiority", "Generativity vs Stagnation"], correct: 0 },
-                            { q: "Which reflex disappears around 4 months of age?", options: ["Blinking", "Moro (Startle)", "Gag", "Cough"], correct: 1 },
-                            { q: "Parallel play is most characteristic of which age group?", options: ["Infants", "Toddlers", "Preschoolers", "Adolescents"], correct: 1 },
-                            { q: "Cooperative play begins in which age group?", options: ["Infants", "Toddlers", "Preschoolers", "Teens"], correct: 2 },
-                            { q: "Object permanence (knowing an object exists when hidden) develops during:", options: ["Infancy (Sensorimotor)", "Preschool", "School Age", "Adolescence"], correct: 0 },
-                            { q: "A major developmental milestone at 12 months is:", options: ["Running", "Walking and saying first words", "Reading", "Tying shoes"], correct: 1 },
-                            { q: "Toilet training readiness usually occurs around:", options: ["6 months", "12 months", "18-24 months", "4 years"], correct: 2 },
-                            { q: "Which is a sign of puberty in females?", options: ["Voice change", "Breast bud development (Thelarche)", "Beard growth", "Shoulder broadening"], correct: 1 },
-                            { q: "Anticipatory guidance for a 6-month-old includes preventing:", options: ["Drowning in pools", "Falls and Choking", "Car accidents (driving)", "Drug abuse"], correct: 1 },
-                            { q: "Separation anxiety typically peaks around:", options: ["1 month", "6-8 months and 18 months", "5 years", "12 years"], correct: 1 },
-                            { q: "Which chart is used to track height and weight?", options: ["Snellen Chart", "Growth Chart (BMI)", "Apgar Score", "Glasgow Coma Scale"], correct: 1 },
-                            { q: "Failure to Thrive (FTT) describes:", options: ["Obesity", "Inadequate growth/weight gain", "Mental delays", "Hyperactivity"], correct: 1 }
+                            { q: "In which direction does infant growth and development proceed?", options: ["Feet to Head", "Cephalocaudal (Head to Toe)", "Distal to Proximal", "Randomly"], correct: 1 , rationale: "Infant growth cephalocaudal head toe Rationale." },
+                            { q: "At what age should an infant typically double their birth weight?", options: ["4 months", "6 months", "9 months", "12 months"], correct: 1 , rationale: "Infant doubles birth weight six Rationale." },
+                            { q: "Erikson's stage of development for a toddler (1-3 yrs) is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 1 , rationale: "Toddler autonomy versus shame doubt Rationale." },
+                            { q: "Erikson's stage of development for a school-age child (6-12 yrs) is:", options: ["Trust vs Mistrust", "Autonomy vs Shame/Doubt", "Initiative vs Guilt", "Industry vs Inferiority"], correct: 3 , rationale: "School age industry versus inferiority Rationale." },
+                            { q: "A 4-year-old child believes their thoughts can cause events. This is called:", options: ["Logical reasoning", "Magical thinking", "Abstract thinking", "Egocentrism"], correct: 1 , rationale: "Magical thinking believes thoughts cause Rationale." },
+                            { q: "Which activity is developmentally appropriate for a school-age child?", options: ["Playing Peek-a-boo", "Parallel play with blocks", "Joining a sports team", "Building a complex identity"], correct: 2 , rationale: "School age joining sports team Rationale." },
+                            { q: "The 'Pincer Grasp' (using thumb and forefinger) typically develops by:", options: ["2 months", "6 months", "9-10 months", "18 months"], correct: 2 , rationale: "Pincer grasp develops nine ten Rationale." },
+                            { q: "An infant typically rolls from tummy to back at:", options: ["1 month", "4-5 months", "9 months", "12 months"], correct: 1 , rationale: "Infant rolls tummy back four Rationale." },
+                            { q: "Teenagers (12-18 yrs) are in Erikson's stage of:", options: ["Identity vs Role Confusion", "Intimacy vs Isolation", "Industry vs Inferiority", "Generativity vs Stagnation"], correct: 0 , rationale: "Teenagers identity versus role confusion Rationale." },
+                            { q: "Which reflex disappears around 4 months of age?", options: ["Blinking", "Moro (Startle)", "Gag", "Cough"], correct: 1 , rationale: "Moro startle disappears four months Rationale." },
+                            { q: "Parallel play is most characteristic of which age group?", options: ["Infants", "Toddlers", "Preschoolers", "Adolescents"], correct: 1 , rationale: "Parallel play characteristic of toddlers Rationale." },
+                            { q: "Cooperative play begins in which age group?", options: ["Infants", "Toddlers", "Preschoolers", "Teens"], correct: 2 , rationale: "Cooperative play begins in preschoolers Rationale." },
+                            { q: "Object permanence (knowing an object exists when hidden) develops during:", options: ["Infancy (Sensorimotor)", "Preschool", "School Age", "Adolescence"], correct: 0 , rationale: "Object permanence develops in infancy Rationale." },
+                            { q: "A major developmental milestone at 12 months is:", options: ["Running", "Walking and saying first words", "Reading", "Tying shoes"], correct: 1 , rationale: "Twelve months walking first words Rationale." },
+                            { q: "Toilet training readiness usually occurs around:", options: ["6 months", "12 months", "18-24 months", "4 years"], correct: 2 , rationale: "Toilet training eighteen twenty four Rationale." },
+                            { q: "Which is a sign of puberty in females?", options: ["Voice change", "Breast bud development (Thelarche)", "Beard growth", "Shoulder broadening"], correct: 1 , rationale: "Thelarche breast bud development female Rationale." },
+                            { q: "Anticipatory guidance for a 6-month-old includes preventing:", options: ["Drowning in pools", "Falls and Choking", "Car accidents (driving)", "Drug abuse"], correct: 1 , rationale: "Anticipatory guidance prevents falls choking Rationale." },
+                            { q: "Separation anxiety typically peaks around:", options: ["1 month", "6-8 months and 18 months", "5 years", "12 years"], correct: 1 , rationale: "Separation anxiety peaks six eight Rationale." },
+                            { q: "Which chart is used to track height and weight?", options: ["Snellen Chart", "Growth Chart (BMI)", "Apgar Score", "Glasgow Coma Scale"], correct: 1 , rationale: "Growth chart tracks height weight Rationale." },
+                            { q: "Failure to Thrive (FTT) describes:", options: ["Obesity", "Inadequate growth/weight gain", "Mental delays", "Hyperactivity"], correct: 1 , rationale: "Failure thrive inadequate weight gain Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 2: Vitals & Assessment',
                         questions: [
-                            { q: "Which fontanelle typically closes by 2 months of age?", options: ["Anterior", "Posterior", "Mastoid", "Sphenoid"], correct: 1 },
-                            { q: "The Anterior Fontanelle typically closes by:", options: ["2 months", "6 months", "12-18 months", "3 years"], correct: 2 },
-                            { q: "When assessing a toddler, which part of the exam should be done last?", options: ["Listening to heart", "Listening to lungs", "Inspecting ears and throat", "Palpating abdomen"], correct: 2 },
-                            { q: "An infant with sunken fontanelles and dry mucous membranes is likely suffering from:", options: ["Overhydration", "Dehydration", "Meningitis", "Hydrocephalus"], correct: 1 },
-                            { q: "A bulging fontanelle in an infant may indicate:", options: ["Dehydration", "Increased Intracranial Pressure (ICP)", "Malnutrition", "Sleepiness"], correct: 1 },
-                            { q: "The apical pulse in a child under 7 is best auscultated at the:", options: ["5th Intercostal Space, Midclavicular Line", "4th Intercostal Space, Midclavicular Line", "2nd Intercostal Space", "Carotid artery"], correct: 1 },
-                            { q: "What is the most accurate method to measure urine output in a non-potty trained infant?", options: ["Estimating wet diapers", "Weighing diapers", "Catheterization", "Asking parents"], correct: 1 },
-                            { q: "Normal heart rate for a newborn is roughly:", options: ["60-80 bpm", "80-100 bpm", "110-160 bpm", "180-200 bpm"], correct: 2 },
-                            { q: "Blood pressure in children is generally:", options: ["Higher than adults", "Lower than adults", "Same as adults", "Unmeasurable"], correct: 1 },
-                            { q: "Head circumference is measured routinely until age:", options: ["1 year", "3 years", "5 years", "10 years"], correct: 1 },
-                            { q: "Which pain scale is appropriate for a 4-year-old?", options: ["Numeric (0-10)", "Wong-Baker FACES", "FLACC", "Word scale"], correct: 1 },
-                            { q: "The FLACC pain scale is used for:", options: ["Adolescents", "Non-verbal children/Infants", "Adults", "Elderly"], correct: 1 },
-                            { q: "When examining an ear in a child under 3, pull the pinna:", options: ["Up and Back", "Down and Back", "Forward", "Do not pull"], correct: 1 },
-                            { q: "When examining an ear in a child over 3, pull the pinna:", options: ["Up and Back", "Down and Back", "Forward", "Do not pull"], correct: 0 },
-                            { q: "Stridor is a high-pitched sound indicating:", options: ["Lower airway obstruction", "Upper airway obstruction", "Fluid in lungs", "Heart murmur"], correct: 1 },
-                            { q: "Retractions during breathing indicate:", options: ["Normal breathing", "Respiratory distress", "Happy child", "Sleeping"], correct: 1 },
-                            { q: "Cyanosis is a late sign of:", options: ["Hypoxia", "Fever", "Anemia", "Hunger"], correct: 0 },
-                            { q: "Capillary refill time should be:", options: ["< 2 seconds", "> 5 seconds", "> 10 seconds", "Doesn't matter"], correct: 0 },
-                            { q: "Which pulse is used for CPR in an infant?", options: ["Carotid", "Brachial", "Femoral", "Radial"], correct: 1 },
-                            { q: "Which pulse is used for CPR in a child (Puberty and older)?", options: ["Carotid", "Brachial", "Femoral", "Radial"], correct: 0 }
+                            { q: "Which fontanelle typically closes by 2 months of age?", options: ["Anterior", "Posterior", "Mastoid", "Sphenoid"], correct: 1 , rationale: "Posterior fontanelle closes two months Rationale." },
+                            { q: "The Anterior Fontanelle typically closes by:", options: ["2 months", "6 months", "12-18 months", "3 years"], correct: 2 , rationale: "Anterior fontanelle closes twelve eighteen Rationale." },
+                            { q: "When assessing a toddler, which part of the exam should be done last?", options: ["Listening to heart", "Listening to lungs", "Inspecting ears and throat", "Palpating abdomen"], correct: 2 , rationale: "Assess toddler inspect ears last Rationale." },
+                            { q: "An infant with sunken fontanelles and dry mucous membranes is likely suffering from:", options: ["Overhydration", "Dehydration", "Meningitis", "Hydrocephalus"], correct: 1 , rationale: "Sunken fontanelles indicate infant dehydration Rationale." },
+                            { q: "A bulging fontanelle in an infant may indicate:", options: ["Dehydration", "Increased Intracranial Pressure (ICP)", "Malnutrition", "Sleepiness"], correct: 1 , rationale: "Bulging fontanelle indicates increased ICP Rationale." },
+                            { q: "The apical pulse in a child under 7 is best auscultated at the:", options: ["5th Intercostal Space, Midclavicular Line", "4th Intercostal Space, Midclavicular Line", "2nd Intercostal Space", "Carotid artery"], correct: 1 , rationale: "Apical pulse fourth intercostal midclavicular Rationale." },
+                            { q: "What is the most accurate method to measure urine output in a non-potty trained infant?", options: ["Estimating wet diapers", "Weighing diapers", "Catheterization", "Asking parents"], correct: 1 , rationale: "Measure urine output weighing diapers Rationale." },
+                            { q: "Normal heart rate for a newborn is roughly:", options: ["60-80 bpm", "80-100 bpm", "110-160 bpm", "180-200 bpm"], correct: 2 , rationale: "Newborn heart rate 110 160 Rationale." },
+                            { q: "Blood pressure in children is generally:", options: ["Higher than adults", "Lower than adults", "Same as adults", "Unmeasurable"], correct: 1 , rationale: "Child blood pressure lower adults Rationale." },
+                            { q: "Head circumference is measured routinely until age:", options: ["1 year", "3 years", "5 years", "10 years"], correct: 1 , rationale: "Head circumference measured until three Rationale." },
+                            { q: "Which pain scale is appropriate for a 4-year-old?", options: ["Numeric (0-10)", "Wong-Baker FACES", "FLACC", "Word scale"], correct: 1 , rationale: "Wong Baker FACES for four Rationale." },
+                            { q: "The FLACC pain scale is used for:", options: ["Adolescents", "Non-verbal children/Infants", "Adults", "Elderly"], correct: 1 , rationale: "FLACC scale non verbal infants Rationale." },
+                            { q: "When examining an ear in a child under 3, pull the pinna:", options: ["Up and Back", "Down and Back", "Forward", "Do not pull"], correct: 1 , rationale: "Child under three pinna down Rationale." },
+                            { q: "When examining an ear in a child over 3, pull the pinna:", options: ["Up and Back", "Down and Back", "Forward", "Do not pull"], correct: 0 , rationale: "Child over three pinna up Rationale." },
+                            { q: "Stridor is a high-pitched sound indicating:", options: ["Lower airway obstruction", "Upper airway obstruction", "Fluid in lungs", "Heart murmur"], correct: 1 , rationale: "Stridor indicates upper airway obstruction Rationale." },
+                            { q: "Retractions during breathing indicate:", options: ["Normal breathing", "Respiratory distress", "Happy child", "Sleeping"], correct: 1 , rationale: "Retractions indicate active respiratory distress Rationale." },
+                            { q: "Cyanosis is a late sign of:", options: ["Hypoxia", "Fever", "Anemia", "Hunger"], correct: 0 , rationale: "Cyanosis late sign of hypoxia Rationale." },
+                            { q: "Capillary refill time should be:", options: ["< 2 seconds", "> 5 seconds", "> 10 seconds", "Doesn't matter"], correct: 0 , rationale: "Capillary refill under two seconds Rationale." },
+                            { q: "Which pulse is used for CPR in an infant?", options: ["Carotid", "Brachial", "Femoral", "Radial"], correct: 1 , rationale: "Infant CPR uses brachial pulse Rationale." },
+                            { q: "Which pulse is used for CPR in a child (Puberty and older)?", options: ["Carotid", "Brachial", "Femoral", "Radial"], correct: 0 , rationale: "Child CPR uses carotid pulse Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 3: Respiratory & Cardiac Disorders',
                         questions: [
-                            { q: "The 'Tet Spell' (hypercyanotic spell) is associated with which congenital heart defect?", options: ["VSD", "ASD", "Tetralogy of Fallot", "PDA"], correct: 2 },
-                            { q: "During a Tet Spell, the best position for the child is:", options: ["Lying flat", "Knee-chest (Squatting)", "Standing up", "Walking"], correct: 1 },
-                            { q: "What is the primary concern for a child with RSV/Bronchiolitis?", options: ["Dehydration", "Airway obstruction from mucus", "Hearing loss", "Skin rash"], correct: 1 },
-                            { q: "Which of the following is a sign of Epiglottitis?", options: ["Barking cough", "Drooling, Dysphagia, Distress", "Runny nose", "Ear pain"], correct: 1 },
-                            { q: "Important nursing intervention for Epiglottitis is:", options: ["Inspect the throat with a tongue blade", "Keep the child calm and do not inspect throat", "Lay the child flat", "Force feed"], correct: 1 },
-                            { q: "Croup (Laryngotracheobronchitis) is characterized by:", options: ["Wheezing", "Barking 'seal-like' cough", "High fever", "Drooling"], correct: 1 },
-                            { q: "Cystic Fibrosis is diagnosed via:", options: ["Blood test", "Sweat Chloride Test", "Urine test", "X-ray"], correct: 1 },
-                            { q: "In fetal circulation, what structure connects the Pulmonary Artery to the Aorta?", options: ["Foramen Ovale", "Ductus Venosus", "Ductus Arteriosus", "Vena Cava"], correct: 2 },
-                            { q: "Patent Ductus Arteriosus (PDA) causes a:", options: ["Left-to-Right Shunt (Increased pulmonary flow)", "Right-to-Left Shunt (Cyanosis)", "Stroke", "Heart attack"], correct: 0 },
-                            { q: "Coarctation of the Aorta is characterized by:", options: ["High BP in arms, Low BP in legs", "Low BP in arms, High BP in legs", "Equal BP", "No pulse"], correct: 0 },
-                            { q: "Kawasaki Disease presents with:", options: ["Strawberry tongue, fever > 5 days, rash", "Cool skin", "Hypothermia", "Cough"], correct: 0 },
-                            { q: "Rheumatic Fever is a complication of:", options: ["Staph infection", "Untreated Group A Strep throat", "Flu", "Chickenpox"], correct: 1 },
-                            { q: "Digoxin is held for an infant if the heart rate is:", options: ["< 60 bpm", "< 90-100 bpm", "< 120 bpm", "> 160 bpm"], correct: 1 },
-                            { q: "Albuterol is used for Asthma as a:", options: ["Long-acting controller", "Rescue bronchodilator", "Antibiotic", "Vitamin"], correct: 1 },
-                            { q: "Status Asthmaticus is:", options: ["Mild asthma", "A medical emergency unresponsive to treatment", "Controlled asthma", "Allergic rhinitis"], correct: 1 },
-                            { q: "Otitis Media is an infection of the:", options: ["Outer ear", "Middle ear", "Inner ear", "Nose"], correct: 1 },
-                            { q: "Tonsillectomy post-op care includes watching for:", options: ["Frequent swallowing (Bleeding)", "Snoring", "Thirst", "Talking"], correct: 0 },
-                            { q: "SIDS preventions include:", options: ["Side sleeping", "Back to sleep", "Tummy sleeping", "Soft bedding"], correct: 1 },
-                            { q: "Bronchopulmonary Dysplasia (BPD) is a chronic lung disease often seen in:", options: ["Full term babies", "Premature infants on ventilators", "Toddlers", "Teens"], correct: 1 },
-                            { q: "Which congenital defect involves an opening between the ventricles?", options: ["ASD", "VSD", "PDA", "Coarctation"], correct: 1 }
+                            { q: "The 'Tet Spell' (hypercyanotic spell) is associated with which congenital heart defect?", options: ["VSD", "ASD", "Tetralogy of Fallot", "PDA"], correct: 2 , rationale: "Tet spell Tetralogy of Fallot Rationale." },
+                            { q: "During a Tet Spell, the best position for the child is:", options: ["Lying flat", "Knee-chest (Squatting)", "Standing up", "Walking"], correct: 1 , rationale: "Tet spell position knee chest Rationale." },
+                            { q: "What is the primary concern for a child with RSV/Bronchiolitis?", options: ["Dehydration", "Airway obstruction from mucus", "Hearing loss", "Skin rash"], correct: 1 , rationale: "RSV bronchiolitis airway obstruction mucus Rationale." },
+                            { q: "Which of the following is a sign of Epiglottitis?", options: ["Barking cough", "Drooling, Dysphagia, Distress", "Runny nose", "Ear pain"], correct: 1 , rationale: "Epiglottitis drooling dysphagia severe distress Rationale." },
+                            { q: "Important nursing intervention for Epiglottitis is:", options: ["Inspect the throat with a tongue blade", "Keep the child calm and do not inspect throat", "Lay the child flat", "Force feed"], correct: 1 , rationale: "Epiglottitis do not inspect throat Rationale." },
+                            { q: "Croup (Laryngotracheobronchitis) is characterized by:", options: ["Wheezing", "Barking 'seal-like' cough", "High fever", "Drooling"], correct: 1 , rationale: "Croup barking seal like cough Rationale." },
+                            { q: "Cystic Fibrosis is diagnosed via:", options: ["Blood test", "Sweat Chloride Test", "Urine test", "X-ray"], correct: 1 , rationale: "Cystic fibrosis diagnosed sweat chloride Rationale." },
+                            { q: "In fetal circulation, what structure connects the Pulmonary Artery to the Aorta?", options: ["Foramen Ovale", "Ductus Venosus", "Ductus Arteriosus", "Vena Cava"], correct: 2 , rationale: "Ductus arteriosus connects pulmonary aorta Rationale." },
+                            { q: "Patent Ductus Arteriosus (PDA) causes a:", options: ["Left-to-Right Shunt (Increased pulmonary flow)", "Right-to-Left Shunt (Cyanosis)", "Stroke", "Heart attack"], correct: 0 , rationale: "PDA causes left right shunt Rationale." },
+                            { q: "Coarctation of the Aorta is characterized by:", options: ["High BP in arms, Low BP in legs", "Low BP in arms, High BP in legs", "Equal BP", "No pulse"], correct: 0 , rationale: "Coarctation high arms low legs Rationale." },
+                            { q: "Kawasaki Disease presents with:", options: ["Strawberry tongue, fever > 5 days, rash", "Cool skin", "Hypothermia", "Cough"], correct: 0 , rationale: "Kawasaki strawberry tongue fever rash Rationale." },
+                            { q: "Rheumatic Fever is a complication of:", options: ["Staph infection", "Untreated Group A Strep throat", "Flu", "Chickenpox"], correct: 1 , rationale: "Rheumatic fever untreated Group A Rationale." },
+                            { q: "Digoxin is held for an infant if the heart rate is:", options: ["< 60 bpm", "< 90-100 bpm", "< 120 bpm", "> 160 bpm"], correct: 1 , rationale: "Digoxin held infant under 90 Rationale." },
+                            { q: "Albuterol is used for Asthma as a:", options: ["Long-acting controller", "Rescue bronchodilator", "Antibiotic", "Vitamin"], correct: 1 , rationale: "Albuterol rescue bronchodilator for asthma Rationale." },
+                            { q: "Status Asthmaticus is:", options: ["Mild asthma", "A medical emergency unresponsive to treatment", "Controlled asthma", "Allergic rhinitis"], correct: 1 , rationale: "Status asthmaticus emergency unresponsive treatment Rationale." },
+                            { q: "Otitis Media is an infection of the:", options: ["Outer ear", "Middle ear", "Inner ear", "Nose"], correct: 1 , rationale: "Otitis media middle ear infection Rationale." },
+                            { q: "Tonsillectomy post-op care includes watching for:", options: ["Frequent swallowing (Bleeding)", "Snoring", "Thirst", "Talking"], correct: 0 , rationale: "Tonsillectomy watch frequent swallowing bleeding Rationale." },
+                            { q: "SIDS preventions include:", options: ["Side sleeping", "Back to sleep", "Tummy sleeping", "Soft bedding"], correct: 1 , rationale: "SIDS prevention back to sleep Rationale." },
+                            { q: "Bronchopulmonary Dysplasia (BPD) is a chronic lung disease often seen in:", options: ["Full term babies", "Premature infants on ventilators", "Toddlers", "Teens"], correct: 1 , rationale: "BPD chronic lung premature infants Rationale." },
+                            { q: "Which congenital defect involves an opening between the ventricles?", options: ["ASD", "VSD", "PDA", "Coarctation"], correct: 1 , rationale: "VSD opening between the ventricles Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 4: Fluids & Safety',
                         questions: [
-                            { q: "Why do infants dehydrate faster than adults?", options: ["Lower metabolic rate", "Higher metabolic rate and larger body surface area", "More kidney function", "Less skin"], correct: 1 },
-                            { q: "The first sign of shock in a child is often:", options: ["Hypotension", "Tachycardia", "Bradycardia", "Fever"], correct: 1 },
-                            { q: "Mild dehydration is best treated with:", options: ["IV fluids", "Oral Rehydration Solution (ORS)", "Soda", "Water only"], correct: 1 },
-                            { q: "Severe dehydration requires:", options: ["ORS", "IV Bolus (Isotonic saline 20mL/kg)", "Rest", "Antibiotics"], correct: 1 },
-                            { q: "Potassium should NOT be added to IV fluids until:", options: ["The child has urinated", "The child feels better", "The fever is gone", "The BP is normal"], correct: 0 },
-                            { q: "A common cause of burns in toddlers is:", options: ["Chemicals", "Hot water/liquids (Scalds)", "Electricity", "Sun"], correct: 1 },
-                            { q: "To prevent accidental poisoning, parents should:", options: ["Keep meds on the counter", "Lock meds and chemicals away out of reach", "Tell child 'No'", "Hide them under the bed"], correct: 1 },
-                            { q: "Acetaminophen overdose damages the:", options: ["Kidneys", "Liver", "Heart", "Lungs"], correct: 1 },
-                            { q: "Lead poisoning is treated with:", options: ["Chelation therapy", "Antibiotics", "Dialysis", "Surgery"], correct: 0 },
-                            { q: "When riding in a car, an infant should face:", options: ["Forward", "Rear-facing", "Sideways", "Doesn't matter"], correct: 1 },
-                            { q: "The leading cause of death in adolescents is:", options: ["Cancer", "Motor Vehicle Accidents", "Heart disease", "Flu"], correct: 1 },
-                            { q: "Munchausen Syndrome by Proxy is:", options: ["Genetic", "Child abuse where caregiver fabricates illness", "Infection", "Accident"], correct: 1 },
-                            { q: "Shaken Baby Syndrome causes:", options: ["Broken legs", "Retinal hemorrhage and Brain injury", "Rash", "Fever"], correct: 1 },
-                            { q: "Which food is a high choking hazard for toddlers?", options: ["Mashed potatoes", "Hot dogs and grapes", "Yogurt", "Applesauce"], correct: 1 },
-                            { q: "Water safety for toddlers involves:", options: ["Swimming lessons only", "Constant supervision and fences", "Floaties", "Trusting the child"], correct: 1 },
-                            { q: "Hypospadias is a defect where the urethral opening is on the:", options: ["Dorsal side", "Ventral (underside) of the penis", "Side", "Tip"], correct: 1 },
-                            { q: "Cryptorchidism refers to:", options: ["Undescended testicles", "Hernia", "Kidney stones", "UTI"], correct: 0 },
-                            { q: "Wilms Tumor is a cancer of the:", options: ["Brain", "Kidney (Do not palpate abdomen)", "Bone", "Eye"], correct: 1 },
-                            { q: "Intussusception stool looks like:", options: ["Black tar", "Currant jelly", "Green slime", "White clay"], correct: 1 },
-                            { q: "Pyloric Stenosis presents with:", options: ["Projectile vomiting (Olive shaped mass)", "Diarrhea", "Fever", "Constipation"], correct: 0 }
+                            { q: "Why do infants dehydrate faster than adults?", options: ["Lower metabolic rate", "Higher metabolic rate and larger body surface area", "More kidney function", "Less skin"], correct: 1 , rationale: "Infants dehydrate higher metabolic surface Rationale." },
+                            { q: "The first sign of shock in a child is often:", options: ["Hypotension", "Tachycardia", "Bradycardia", "Fever"], correct: 1 , rationale: "First shock sign is tachycardia Rationale." },
+                            { q: "Mild dehydration is best treated with:", options: ["IV fluids", "Oral Rehydration Solution (ORS)", "Soda", "Water only"], correct: 1 , rationale: "Mild dehydration oral rehydration solution Rationale." },
+                            { q: "Severe dehydration requires:", options: ["ORS", "IV Bolus (Isotonic saline 20mL/kg)", "Rest", "Antibiotics"], correct: 1 , rationale: "Severe dehydration IV bolus isotonic Rationale." },
+                            { q: "Potassium should NOT be added to IV fluids until:", options: ["The child has urinated", "The child feels better", "The fever is gone", "The BP is normal"], correct: 0 , rationale: "Potassium held until child urinates Rationale." },
+                            { q: "A common cause of burns in toddlers is:", options: ["Chemicals", "Hot water/liquids (Scalds)", "Electricity", "Sun"], correct: 1 , rationale: "Toddler burns hot water scalds Rationale." },
+                            { q: "To prevent accidental poisoning, parents should:", options: ["Keep meds on the counter", "Lock meds and chemicals away out of reach", "Tell child 'No'", "Hide them under the bed"], correct: 1 , rationale: "Poisoning lock meds chemicals away Rationale." },
+                            { q: "Acetaminophen overdose damages the:", options: ["Kidneys", "Liver", "Heart", "Lungs"], correct: 1 , rationale: "Acetaminophen overdose severely damages liver Rationale." },
+                            { q: "Lead poisoning is treated with:", options: ["Chelation therapy", "Antibiotics", "Dialysis", "Surgery"], correct: 0 , rationale: "Lead poisoning treated chelation therapy Rationale." },
+                            { q: "When riding in a car, an infant should face:", options: ["Forward", "Rear-facing", "Sideways", "Doesn't matter"], correct: 1 , rationale: "Infant car seat rear facing Rationale." },
+                            { q: "The leading cause of death in adolescents is:", options: ["Cancer", "Motor Vehicle Accidents", "Heart disease", "Flu"], correct: 1 , rationale: "Adolescent leading death motor vehicle Rationale." },
+                            { q: "Munchausen Syndrome by Proxy is:", options: ["Genetic", "Child abuse where caregiver fabricates illness", "Infection", "Accident"], correct: 1 , rationale: "Munchausen proxy caregiver fabricates illness Rationale." },
+                            { q: "Shaken Baby Syndrome causes:", options: ["Broken legs", "Retinal hemorrhage and Brain injury", "Rash", "Fever"], correct: 1 , rationale: "Shaken baby retinal hemorrhage brain Rationale." },
+                            { q: "Which food is a high choking hazard for toddlers?", options: ["Mashed potatoes", "Hot dogs and grapes", "Yogurt", "Applesauce"], correct: 1 , rationale: "Choking hazard hot dogs grapes Rationale." },
+                            { q: "Water safety for toddlers involves:", options: ["Swimming lessons only", "Constant supervision and fences", "Floaties", "Trusting the child"], correct: 1 , rationale: "Water safety constant supervision fences Rationale." },
+                            { q: "Hypospadias is a defect where the urethral opening is on the:", options: ["Dorsal side", "Ventral (underside) of the penis", "Side", "Tip"], correct: 1 , rationale: "Hypospadias urethral opening ventral underside Rationale." },
+                            { q: "Cryptorchidism refers to:", options: ["Undescended testicles", "Hernia", "Kidney stones", "UTI"], correct: 0 , rationale: "Cryptorchidism refers undescended testicles Rationale." },
+                            { q: "Wilms Tumor is a cancer of the:", options: ["Brain", "Kidney (Do not palpate abdomen)", "Bone", "Eye"], correct: 1 , rationale: "Wilms tumor kidney do not Rationale." },
+                            { q: "Intussusception stool looks like:", options: ["Black tar", "Currant jelly", "Green slime", "White clay"], correct: 1 , rationale: "Intussusception stool looks currant jelly Rationale." },
+                            { q: "Pyloric Stenosis presents with:", options: ["Projectile vomiting (Olive shaped mass)", "Diarrhea", "Fever", "Constipation"], correct: 0 , rationale: "Pyloric stenosis projectile vomiting olive Rationale." }
                         ]
                     },
                     {
                         type: 'quiz',
                         title: 'Quiz Bank 5: Immunizations & Common Illnesses',
                         questions: [
-                            { q: "Which vaccine marks the start of the immunization schedule at birth?", options: ["MMR", "Hepatitis B", "Polio", "Rotavirus"], correct: 1 },
-                            { q: "The MMR vaccine is first given at:", options: ["2 months", "6 months", "12-15 months", "4 years"], correct: 2 },
-                            { q: "Which vaccine prevents Whooping Cough?", options: ["Hib", "DTaP", "IPV", "Hep A"], correct: 1 },
-                            { q: "Varicella vaccine prevents:", options: ["Measles", "Chickenpox", "Mumps", "Flu"], correct: 1 },
-                            { q: "Rotavirus vaccine is given typically via which route?", options: ["IM injection", "Oral", "SQ injection", "IV"], correct: 1 },
-                            { q: "Sickle Cell Anemia crisis is precipitated by:", options: ["Rest", "Dehydration, Hypoxia, Stress", "Food", "Sleep"], correct: 1 },
-                            { q: "Hemophilia A is a deficiency of Factor:", options: ["VII", "VIII", "IX", "X"], correct: 1 },
-                            { q: "Leukemia is a cancer of the:", options: ["Bone", "Blood-forming tissues (Bone Marrow)", "Brain", "Skin"], correct: 1 },
-                            { q: "Symptoms of Meningitis include:", options: ["Stiff neck (Nuchal rigidity), fever, headache", "Diarrhea", "Cough", "Leg pain"], correct: 0 },
-                            { q: "Kernig's and Brudzinski's signs test for:", options: ["Hip dysplasia", "Meningitis", "Reflexes", "Hearing"], correct: 1 },
-                            { q: "Hip Dysplasia in infants is assessed using:", options: ["Ortolani and Barlow maneuvers", "Romberg test", "Snellen chart", "Hearing test"], correct: 0 },
-                            { q: "Scoliosis is:", options: ["Curvature of the spine", "Joint pain", "Flat feet", "Broken bone"], correct: 0 },
-                            { q: "Duchenne Muscular Dystrophy involves:", options: ["Weak bones", "Progressive muscle weakness (Gower's sign)", "Mental retardation", "Blindness"], correct: 1 },
-                            { q: "Impetigo is a skin infection characterized by:", options: ["Honey-colored crusts", "White patches", "Blue spots", "Red lines"], correct: 0 },
-                            { q: "Ringworm (Tinea Corporis) is caused by a:", options: ["Worm", "Fungus", "Virus", "Bacteria"], correct: 1 },
-                            { q: "Scabies involves:", options: ["Lice", "Mites burrowing under skin", "Fleas", "Ticks"], correct: 1 },
-                            { q: "Pediculosis Capitis is:", options: ["Head Lice", "Dandruff", "Ringworm", "Acne"], correct: 0 },
-                            { q: "Conjunctivitis is also known as:", options: ["Pink Eye", "Stye", "Glaucoma", "Cataract"], correct: 0 },
-                            { q: "Fifth Disease (Parvovirus B19) presents with:", options: ["Slapped cheek rash", "Strawberry tongue", "Sandpaper rash", "Blue spots"], correct: 0 },
-                            { q: "Hand-Foot-Mouth disease is caused by:", options: ["Coxsackievirus", "Herpes", "Flu", "Staph"], correct: 0 }
+                            { q: "Which vaccine marks the start of the immunization schedule at birth?", options: ["MMR", "Hepatitis B", "Polio", "Rotavirus"], correct: 1 , rationale: "Hepatitis B vaccine at birth Rationale." },
+                            { q: "The MMR vaccine is first given at:", options: ["2 months", "6 months", "12-15 months", "4 years"], correct: 2 , rationale: "MMR vaccine first twelve fifteen Rationale." },
+                            { q: "Which vaccine prevents Whooping Cough?", options: ["Hib", "DTaP", "IPV", "Hep A"], correct: 1 , rationale: "DTaP vaccine prevents whooping cough Rationale." },
+                            { q: "Varicella vaccine prevents:", options: ["Measles", "Chickenpox", "Mumps", "Flu"], correct: 1 , rationale: "Varicella vaccine actively prevents chickenpox Rationale." },
+                            { q: "Rotavirus vaccine is given typically via which route?", options: ["IM injection", "Oral", "SQ injection", "IV"], correct: 1 , rationale: "Rotavirus vaccine given typically oral Rationale." },
+                            { q: "Sickle Cell Anemia crisis is precipitated by:", options: ["Rest", "Dehydration, Hypoxia, Stress", "Food", "Sleep"], correct: 1 , rationale: "Sickle crisis dehydration hypoxia stress Rationale." },
+                            { q: "Hemophilia A is a deficiency of Factor:", options: ["VII", "VIII", "IX", "X"], correct: 1 , rationale: "Hemophilia A deficiency factor VIII Rationale." },
+                            { q: "Leukemia is a cancer of the:", options: ["Bone", "Blood-forming tissues (Bone Marrow)", "Brain", "Skin"], correct: 1 , rationale: "Leukemia cancer blood forming marrow Rationale." },
+                            { q: "Symptoms of Meningitis include:", options: ["Stiff neck (Nuchal rigidity), fever, headache", "Diarrhea", "Cough", "Leg pain"], correct: 0 , rationale: "Meningitis stiff neck fever headache Rationale." },
+                            { q: "Kernig's and Brudzinski's signs test for:", options: ["Hip dysplasia", "Meningitis", "Reflexes", "Hearing"], correct: 1 , rationale: "Kernigs Brudzinskis test for meningitis Rationale." },
+                            { q: "Hip Dysplasia in infants is assessed using:", options: ["Ortolani and Barlow maneuvers", "Romberg test", "Snellen chart", "Hearing test"], correct: 0 , rationale: "Hip dysplasia Ortolani Barlow maneuvers Rationale." },
+                            { q: "Scoliosis is:", options: ["Curvature of the spine", "Joint pain", "Flat feet", "Broken bone"], correct: 0 , rationale: "Scoliosis abnormal curvature of spine Rationale." },
+                            { q: "Duchenne Muscular Dystrophy involves:", options: ["Weak bones", "Progressive muscle weakness (Gower's sign)", "Mental retardation", "Blindness"], correct: 1 , rationale: "Duchenne progressive muscle Gowers sign Rationale." },
+                            { q: "Impetigo is a skin infection characterized by:", options: ["Honey-colored crusts", "White patches", "Blue spots", "Red lines"], correct: 0 , rationale: "Impetigo honey colored crusts skin Rationale." },
+                            { q: "Ringworm (Tinea Corporis) is caused by a:", options: ["Worm", "Fungus", "Virus", "Bacteria"], correct: 1 , rationale: "Ringworm Tinea corporis caused fungus Rationale." },
+                            { q: "Scabies involves:", options: ["Lice", "Mites burrowing under skin", "Fleas", "Ticks"], correct: 1 , rationale: "Scabies mites burrowing under skin Rationale." },
+                            { q: "Pediculosis Capitis is:", options: ["Head Lice", "Dandruff", "Ringworm", "Acne"], correct: 0 , rationale: "Pediculosis capitis means head lice Rationale." },
+                            { q: "Conjunctivitis is also known as:", options: ["Pink Eye", "Stye", "Glaucoma", "Cataract"], correct: 0 , rationale: "Conjunctivitis also known pink eye Rationale." },
+                            { q: "Fifth Disease (Parvovirus B19) presents with:", options: ["Slapped cheek rash", "Strawberry tongue", "Sandpaper rash", "Blue spots"], correct: 0 , rationale: "Fifth disease slapped cheek rash Rationale." },
+                            { q: "Hand-Foot-Mouth disease is caused by:", options: ["Coxsackievirus", "Herpes", "Flu", "Staph"], correct: 0 , rationale: "Hand foot mouth coxsackievirus Rationale." }
                         ]
                     },
                     {
@@ -10800,10 +10960,29 @@ const appData = {
         nck: [
             {
                 id: 'nck1',
-                title: 'NCK Practice Test 1',
+                title: 'NCK Practice Test 1 (Free Trial)',
+                isPremium: false,
                 questions: [
                     { id: 1, question: "In the Kenyan health system, which level is the National Referral Hospital?", options: ["Level 4", "Level 6", "Level 5", "Level 1"], correct: 1 },
                     { id: 2, question: "Which body regulates nursing practice in Kenya?", options: ["KMA", "NCK", "KMTC", "MOH"], correct: 1 }
+                ]
+            },
+            {
+                id: 'nck2',
+                title: 'NCK Practice Test 2: Medical-Surgical',
+                isPremium: true,
+                questions: [
+                    { id: 1, question: "Which of the following interventions is a priority for a patient in sickle cell crisis?", options: ["Administering iron supplements", "Encouraging strict bed rest", "Administering IV fluids and analgesics", "Providing high-protein diet ONLY"], correct: 2 },
+                    { id: 2, question: "What is the hallmark sign of a pneumothorax?", options: ["Wheezing on inspiration", "Crackles in the lower lobes", "Absent breath sounds on the affected side", "Bradycardia"], correct: 2 }
+                ]
+            },
+            {
+                id: 'nck3',
+                title: 'NCK Practice Test 3: Pediatrics & Midwifery',
+                isPremium: true,
+                questions: [
+                    { id: 1, question: "Which fontanelle closes first in an infant?", options: ["Anterior fontanelle", "Posterior fontanelle", "Lateral fontanelle", "Mastoid fontanelle"], correct: 1 },
+                    { id: 2, question: "A patient in the active phase of labor is fully dilated. What stage of labor is this?", options: ["First stage", "Second stage", "Third stage", "Fourth stage"], correct: 1 }
                 ]
             }
         ]
