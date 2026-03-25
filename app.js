@@ -284,7 +284,8 @@ function saveState() {
             year: state.user.year, // Save year
             progress: state.user.progress,
             streak: state.user.streak,
-            examSchedule: state.user.examSchedule || []
+            examSchedule: state.user.examSchedule || [],
+            isPremium: state.user.isPremium || false
         },
         theme: state.theme, // Save theme
         units: unitsState
@@ -307,6 +308,7 @@ function loadState() {
             state.user.progress = parsed.user.progress || 0;
             if (parsed.user.streak) state.user.streak = parsed.user.streak;
             state.user.examSchedule = parsed.user.examSchedule || [];
+            if (parsed.user.isPremium !== undefined) state.user.isPremium = parsed.user.isPremium;
         }
 
         // Ensure default
@@ -437,7 +439,7 @@ function renderBreadcrumbs(path) {
 
 // Render Functions
 
-// NEW: Renders the Table of Contents / Overview
+// NEW: Renders the Table of Contents / Overview with CLT grouping
 function renderUnitOverview(unitId) {
     const { unit, year } = findUnit(unitId);
     if (!unit) { contentArea.innerHTML = '<p>Unit not found.</p>'; return; }
@@ -457,7 +459,59 @@ function renderUnitOverview(unitId) {
         return;
     }
 
-    // Render TOC
+    // --- CLT: Separate lectures from quizzes ---
+    const lectures = [];
+    const quizzes = [];
+    unit.content.forEach((item, index) => {
+        if (item.type === 'quiz') {
+            quizzes.push({ ...item, originalIndex: index });
+        } else {
+            lectures.push({ ...item, originalIndex: index });
+        }
+    });
+
+    // Calculate progress (simple: based on currContentIndex relative to total)
+    const completedCount = unit.currContentIndex ? Math.min(unit.currContentIndex, unit.content.length) : 0;
+    const totalCount = unit.content.length;
+    const progressPct = Math.round((completedCount / totalCount) * 100);
+
+    // Helper to determine item status
+    function getItemStatus(originalIndex) {
+        const idx = unit.currContentIndex || 0;
+        if (originalIndex < idx) return 'completed';
+        if (originalIndex === idx) return 'in-progress';
+        return 'not-started';
+    }
+
+    function getStatusIcon(status) {
+        if (status === 'completed') return '<i class="ph ph-check"></i>';
+        if (status === 'in-progress') return '<i class="ph ph-play"></i>';
+        return '<span style="font-size: 0.65rem;">&bull;</span>';
+    }
+
+    function renderTocItem(item) {
+        const status = getItemStatus(item.originalIndex);
+        return `
+            <div class="card toc-item" 
+                 onclick="state.currentView='unit-study-${unitId}-${item.originalIndex}'; handleRoute('unit-study-${unitId}-${item.originalIndex}')"
+                 style="cursor: pointer; display: flex; align-items: center; gap: 1rem; transition: transform 0.2s; border: 1px solid var(--border-light);">
+                
+                <div class="lesson-status ${status}">
+                    ${getStatusIcon(status)}
+                </div>
+                
+                <div style="flex: 1;">
+                    <h4 style="font-size: 1rem; margin-bottom: 0.2rem;">${item.title}</h4>
+                    <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">${item.type}</span>
+                </div>
+
+                <div style="color: var(--primary);">
+                    <i class="ph ph-caret-right"></i>
+                </div>
+            </div>
+        `;
+    }
+
     const html = `
         <div class="unit-overview-container" style="max-width: 800px; margin: 0 auto;">
             <div class="card" style="margin-bottom: 2rem;">
@@ -465,42 +519,63 @@ function renderUnitOverview(unitId) {
                     <div style="font-size: 3rem; color: var(--primary); background: var(--bg-body); padding: 1rem; border-radius: var(--radius-md);">
                         <i class="ph ${unit.icon}"></i>
                     </div>
-                    <div>
+                    <div style="flex: 1;">
                         <h2 style="margin-bottom: 0.5rem;">${unit.title}</h2>
                         <span class="unit-tag" style="margin-bottom: 1rem; display: inline-block;">${unit.code}</span>
                         <p style="color: var(--text-muted); line-height: 1.6;">
                             ${unit.description || 'Master this unit by completing all lectures and the final quiz.'}
                         </p>
+                        <div style="margin-top: 1rem;">
+                            <div class="unit-progress-bar">
+                                <div class="unit-progress-bar-fill" style="width: ${progressPct}%"></div>
+                            </div>
+                            <div class="unit-progress-label">
+                                <span>${completedCount} of ${totalCount} completed</span>
+                                <span>${progressPct}%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <h3 style="margin-bottom: 1rem;">Course Material</h3>
-            <div class="toc-list" style="display: flex; flex-direction: column; gap: 0.75rem;">
-                ${unit.content.map((item, index) => `
-                    <div class="card toc-item" 
-                         onclick="state.currentView='unit-study-${unitId}-${index}'; handleRoute('unit-study-${unitId}-${index}')"
-                         style="cursor: pointer; display: flex; align-items: center; gap: 1rem; transition: transform 0.2s; border: 1px solid var(--border-light);">
-                        
-                        <div style="
-                            width: 32px; height: 32px; 
-                            background: var(--bg-body); 
-                            border-radius: 50%; 
-                            display: flex; align-items: center; justify-content: center;
-                            color: var(--text-muted);">
-                            <i class="ph ${getIconForType(item.type)}"></i>
-                        </div>
-                        
-                        <div style="flex: 1;">
-                            <h4 style="font-size: 1rem; margin-bottom: 0.2rem;">${item.title}</h4>
-                            <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">${item.type}</span>
-                        </div>
+            <!-- Action Buttons -->
+            <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                <button class="btn-primary" style="flex: 1; padding: 1.5rem; font-size: 1.2rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;" onclick="toggleTocSection('toc-lectures')">
+                    <i class="ph ph-book-open-text" style="font-size: 2rem;"></i>
+                    Lectures
+                </button>
+                <button style="flex: 1; padding: 1.5rem; font-size: 1.2rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; background: var(--bg-surface); border: 2px solid var(--primary); color: var(--primary); border-radius: var(--radius-md); cursor: pointer; transition: var(--transition);" onmouseover="this.style.background='var(--primary-light)'" onmouseout="this.style.background='var(--bg-surface)'" onclick="toggleTocSection('toc-quizzes')">
+                    <i class="ph ph-exam" style="font-size: 2rem;"></i>
+                    Practice Quizzes
+                </button>
+            </div>
 
-                        <div style="color: var(--primary);">
-                            <i class="ph ph-caret-right"></i>
-                        </div>
+            <!-- Lectures Section -->
+            <div class="toc-section" id="toc-lectures" style="display: none;">
+                <div class="toc-section-header" onclick="document.getElementById('toc-lectures').classList.toggle('collapsed')">
+                    <h4><i class="ph ph-book-open-text"></i> Lectures</h4>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="section-count">${lectures.length} lessons</span>
+                        <i class="ph ph-caret-down chevron"></i>
                     </div>
-                `).join('')}
+                </div>
+                <div class="toc-section-items">
+                    ${lectures.map(item => renderTocItem(item)).join('')}
+                </div>
+            </div>
+
+            <!-- Quizzes Section -->
+            <div class="toc-section" id="toc-quizzes" style="display: none;">
+                <div class="toc-section-header" onclick="document.getElementById('toc-quizzes').classList.toggle('collapsed')">
+                    <h4><i class="ph ph-exam"></i> Practice Quizzes</h4>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="section-count">${quizzes.length} quizzes</span>
+                        <i class="ph ph-caret-down chevron"></i>
+                    </div>
+                </div>
+                <div class="toc-section-items">
+                    ${quizzes.map(item => renderTocItem(item)).join('')}
+                </div>
             </div>
         </div>
     `;
@@ -509,6 +584,29 @@ function renderUnitOverview(unitId) {
 }
 
 // RENAMED from renderUnitView to renderUnitPlayer
+window.toggleTocSection = function (id) {
+    const el = document.getElementById(id);
+    if (el) {
+        // Toggle visibility
+        if (el.style.display === 'none' || el.style.display === '') {
+            // Hide the other section to keep the view clean
+            const otherId = id === 'toc-lectures' ? 'toc-quizzes' : 'toc-lectures';
+            const otherEl = document.getElementById(otherId);
+            if (otherEl) otherEl.style.display = 'none';
+
+            el.style.display = 'block';
+            // Ensure lists aren't collapsed initially when they are first revealed
+            el.classList.remove('collapsed');
+
+            // Smooth scroll
+            setTimeout(() => {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 50);
+        } else {
+            el.style.display = 'none';
+        }
+    }
+};
 function renderUnitPlayer(unitId, startIndex = 0) {
     const { unit } = findUnit(unitId);
 
@@ -566,6 +664,44 @@ function getIconForType(type) {
     }
 }
 
+// CLT Helper: Extract key terms from lesson body HTML
+function extractKeyTakeaways(bodyHtml) {
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = bodyHtml;
+    const strongTags = tempDiv.querySelectorAll('strong');
+    const takeaways = [];
+    const seen = new Set();
+    strongTags.forEach(el => {
+        let text = el.textContent.trim();
+        // Skip very short or duplicate entries
+        if (text.length > 2 && !seen.has(text.toLowerCase())) {
+            seen.add(text.toLowerCase());
+            // Get surrounding context from parent
+            const parentText = el.parentElement ? el.parentElement.textContent.trim() : '';
+            // Try to get a short summary — use the parent text up to 120 chars
+            let summary = parentText.length > 120 ? parentText.substring(0, 120) + '…' : parentText;
+            takeaways.push({ term: text, summary: summary });
+        }
+    });
+    // Limit to 6 most important takeaways
+    return takeaways.slice(0, 6);
+}
+
+function renderKeyTakeawaysBox(takeaways) {
+    if (!takeaways || takeaways.length === 0) return '';
+    return `
+        <div class="key-takeaways">
+            <div class="key-takeaways-header">
+                <span class="takeaway-icon"><i class="ph ph-lightbulb"></i></span>
+                Key Takeaways
+            </div>
+            <ul>
+                ${takeaways.map(t => `<li><strong>${t.term}</strong> — ${t.summary !== t.term ? t.summary : t.term}</li>`).join('')}
+            </ul>
+        </div>
+    `;
+}
+
 window.loadUnitContent = function (unitId, index) {
     const { unit } = findUnit(unitId);
     if (!unit) return;
@@ -580,12 +716,17 @@ window.loadUnitContent = function (unitId, index) {
     if (content.type === 'quiz') {
         renderUnitQuiz(display, content, unitId);
     } else {
+        // CLT: Extract key takeaways from the lesson body
+        const takeaways = extractKeyTakeaways(content.body);
+        const takeawaysHtml = renderKeyTakeawaysBox(takeaways);
+
         display.innerHTML = `
             <div class="content-header">
                 <h2>${content.title}</h2>
             </div>
             <div class="content-body">
                 ${content.body}
+                ${takeawaysHtml}
             </div>
             <div class="content-navigation">
                 <button class="icon-btn" ${index === 0 ? 'disabled' : ''} 
@@ -635,48 +776,115 @@ function renderUnitQuiz(container, quizContent, unitId) {
         quizContent: quizContent,
         answers: new Array(quizContent.questions.length).fill(null),
         container: container,
-        lessonIndex: appData.units.year1[0].content.length - 1
+        lessonIndex: appData.units.year1[0].content.length - 1,
+        currentQuestionIndex: 0  // NCLEX: track current question
     };
 
     renderUnitQuizQuestions();
 }
 
+// NCLEX-style: Render one question at a time
 window.renderUnitQuizQuestions = function () {
     if (!unitQuizState) return;
-    const { container, quizContent, answers } = unitQuizState;
+    const { container, quizContent, answers, currentQuestionIndex } = unitQuizState;
+    const total = quizContent.questions.length;
+    const qIdx = currentQuestionIndex;
+    const q = quizContent.questions[qIdx];
+    const progressPct = Math.round(((qIdx) / total) * 100);
+    const isLastQuestion = qIdx === total - 1;
+    const hasAnswered = answers[qIdx] !== null;
+
+    // Build option letters (A, B, C, D...)
+    const optionLetters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
     container.innerHTML = `
-        <div class="content-header">
-            <h2>${quizContent.title}</h2>
-            <p>Complete this quiz to finish the unit.</p>
-        </div>
-        <div style="max-width: 700px; margin: 0 auto; padding-bottom: 2rem;" id="unit-quiz-wrapper">
-            ${quizContent.questions.map((q, qIdx) => `
-                <div class="quiz-question-block" style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">${qIdx + 1}. ${q.q || q.question}</h3>
-                    <div class="quiz-options">
-                        ${q.options.map((opt, oIdx) => `
-                            <div class="quiz-option ${answers[qIdx] === oIdx ? 'selected' : ''}" 
-                                style="${answers[qIdx] === oIdx ? 'background: var(--primary-light); border-color: var(--primary); color: var(--primary-dark);' : ''}"
-                                onclick="selectUnitQuizAnswer(${qIdx}, ${oIdx})">
-                                ${opt}
-                            </div>
-                        `).join('')}
-                    </div>
+        <div style="max-width: 700px; margin: 0 auto; padding-bottom: 2rem;">
+            <!-- Quiz Header -->
+            <div class="content-header" style="margin-bottom: 0;">
+                <h2>${quizContent.title}</h2>
+            </div>
+
+            <!-- NCLEX Progress Indicator -->
+            <div class="nclex-progress">
+                <div class="nclex-progress-bar">
+                    <div class="nclex-progress-fill" style="width: ${progressPct}%"></div>
                 </div>
-            `).join('')}
-            
-            <button class="btn-primary" style="width: 100%; margin-top: 2rem;" 
-                onclick="submitUnitQuiz()">
-                Submit Quiz
-            </button>
+                <div class="nclex-progress-label">
+                    <span>Question <strong>${qIdx + 1}</strong> of <strong>${total}</strong></span>
+                    <span>${progressPct}% complete</span>
+                </div>
+            </div>
+
+            <!-- Single Question -->
+            <div class="nclex-question-card">
+                <div class="nclex-question-number">Question ${qIdx + 1}</div>
+                <h3 class="nclex-question-text">${q.q || q.question}</h3>
+                
+                <div class="quiz-options">
+                    ${q.options.map((opt, oIdx) => `
+                        <div class="quiz-option ${answers[qIdx] === oIdx ? 'selected' : ''}" 
+                            onclick="selectUnitQuizAnswer(${qIdx}, ${oIdx})">
+                            <span class="option-letter">${optionLetters[oIdx]}</span>
+                            <span class="option-text">${opt}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="nclex-navigation">
+                <button class="btn-secondary" 
+                    ${qIdx === 0 ? 'disabled style="opacity: 0.4; cursor: not-allowed;"' : ''}
+                    onclick="navigateQuizQuestion(${qIdx - 1})">
+                    <i class="ph ph-caret-left"></i> Previous
+                </button>
+
+                ${isLastQuestion
+            ? `<button class="btn-primary" 
+                        ${!hasAnswered ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}
+                        onclick="submitUnitQuiz()">
+                        Submit Quiz <i class="ph ph-check-circle"></i>
+                    </button>`
+            : `<button class="btn-primary" 
+                        ${!hasAnswered ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}
+                        onclick="navigateQuizQuestion(${qIdx + 1})">
+                        Next <i class="ph ph-caret-right"></i>
+                    </button>`
+        }
+            </div>
+
+            <!-- Question dots -->
+            <div class="nclex-dots">
+                ${quizContent.questions.map((_, i) => `
+                    <div class="nclex-dot ${i === qIdx ? 'active' : ''} ${answers[i] !== null ? 'answered' : ''}" 
+                         onclick="navigateQuizQuestion(${i})" 
+                         title="Question ${i + 1}"></div>
+                `).join('')}
+            </div>
         </div>
     `;
+};
+
+// NCLEX: Navigate to a specific question
+window.navigateQuizQuestion = function (index) {
+    if (!unitQuizState) return;
+    const total = unitQuizState.quizContent.questions.length;
+    if (index < 0 || index >= total) return;
+    unitQuizState.currentQuestionIndex = index;
+    renderUnitQuizQuestions();
 };
 
 window.selectUnitQuizAnswer = function (qIdx, oIdx) {
     if (!unitQuizState) return;
     unitQuizState.answers[qIdx] = oIdx;
+    renderUnitQuizQuestions();
+};
+
+// NCLEX: Reset quiz and start over
+window.retakeUnitQuiz = function () {
+    if (!unitQuizState) return;
+    unitQuizState.answers = new Array(unitQuizState.quizContent.questions.length).fill(null);
+    unitQuizState.currentQuestionIndex = 0;
     renderUnitQuizQuestions();
 };
 
@@ -718,7 +926,7 @@ window.submitUnitQuiz = function () {
                 </p>
                 <div style="display: flex; gap: 1rem; justify-content: center;">
                     <button class="btn-primary" onclick="reviewUnitQuiz()">Review Answers</button>
-                    <button class="btn-secondary" onclick="renderUnitQuizQuestions()">Retake Quiz</button>
+                    <button class="btn-secondary" onclick="retakeUnitQuiz()">Retake Quiz</button>
                 </div>
                 <br>
                 <button class="btn-text" style="margin-top: 1rem;" 
@@ -729,6 +937,8 @@ window.submitUnitQuiz = function () {
         </div>
     `;
 };
+
+
 
 window.reviewUnitQuiz = function () {
     if (!unitQuizState) return;
@@ -744,12 +954,20 @@ window.reviewUnitQuiz = function () {
         feedbackHtml += `
             <div class="card" style="margin-bottom: 1rem; border-left: 4px solid ${isCorrect ? 'var(--primary)' : 'var(--accent-red)'}">
                 <div style="font-weight: 600; margin-bottom: 0.5rem;">Q${idx + 1}: ${q.q || q.question}</div>
-                <div style="display: flex; gap: 1rem; font-size: 0.9rem;">
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem;">
                     <span style="color: ${isCorrect ? 'var(--primary)' : 'var(--accent-red)'}">
                         Your Answer: ${userAnswer !== null ? q.options[userAnswer] : 'Skipped'}
                     </span>
                     ${!isCorrect ? `<span style="color: var(--text-muted)">Correct: ${q.options[correctAnswer]}</span>` : ''}
                 </div>
+                ${q.rationale ? `
+                <div class="rationale-card">
+                    <div class="rationale-header">
+                        <i class="ph ph-lightbulb-filament"></i> Rationale
+                    </div>
+                    <div class="rationale-text">${q.rationale}</div>
+                </div>
+                ` : ''}
             </div>
         `;
     });
@@ -922,11 +1140,22 @@ function renderDashboard() {
     const overallProgress = Math.round((progressY1 + progressY2 + progressY3 + progressY4) / 4);
     state.user.progress = overallProgress; // Update state
 
+    // CLT: Determine the student's current year for focused CTA
+    const userYear = state.user.year || 'year-1';
+    const yearNum = parseInt(userYear.replace('year-', ''));
+    const yearNames = { 1: 'Year One', 2: 'Year Two', 3: 'Year Three', 4: 'Year Four' };
+    const yearProgress = [progressY1, progressY2, progressY3, progressY4];
+    const currentYearProgress = yearProgress[yearNum - 1] || 0;
+
     const html = `
         <div class="welcome-banner">
             <div class="welcome-text">
                 <h2>Welcome back, ${state.user.name}!</h2>
-                <p>You're making great progress. Keep up the momentum!</p>
+                <p style="margin-bottom: 1rem;">You're ${currentYearProgress}% through ${yearNames[yearNum]}. Keep it up!</p>
+                <button class="btn-primary" style="background: white; color: var(--primary-dark); font-weight: 700;"
+                    onclick="document.querySelector('[data-view=${userYear}]').click()">
+                    <i class="ph ph-play-circle"></i> Continue Learning
+                </button>
             </div>
             <div class="welcome-icon">
                 <i class="ph ph-trend-up" style="font-size: 3rem; opacity: 0.8;"></i>
@@ -963,27 +1192,31 @@ function renderDashboard() {
 
         <h3>Academic Progress</h3>
         <div class="dashboard-grid" style="margin-top: 1rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-            ${renderYearProgressCard(1, "Year One", progressY1)}
-            ${renderYearProgressCard(2, "Year Two", progressY2)}
-            ${renderYearProgressCard(3, "Year Three", progressY3)}
-            ${renderYearProgressCard(4, "Year Four", progressY4)}
+            ${renderYearProgressCard(1, "Year One", progressY1, yearNum)}
+            ${renderYearProgressCard(2, "Year Two", progressY2, yearNum)}
+            ${renderYearProgressCard(3, "Year Three", progressY3, yearNum)}
+            ${renderYearProgressCard(4, "Year Four", progressY4, yearNum)}
         </div>
     `;
     contentArea.innerHTML = html;
 }
 
-function renderYearProgressCard(year, title, progress) {
+function renderYearProgressCard(year, title, progress, currentYear) {
+    const isCurrent = year === currentYear;
     return `
-        <div class="card">
+        <div class="card" style="cursor: pointer; ${isCurrent ? 'border: 2px solid var(--primary); background: var(--primary-light);' : ''}"
+             onclick="document.querySelector('[data-view=year-${year}]').click()">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-                <h4 style="font-size: 1rem; color: var(--text-muted);">${title}</h4>
+                <h4 style="font-size: 1rem; color: ${isCurrent ? 'var(--primary-dark)' : 'var(--text-muted)'};">
+                    ${title} ${isCurrent ? '<span style="font-size: 0.7rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 10px; margin-left: 6px;">Current</span>' : ''}
+                </h4>
                 <span style="font-weight: 700; color: var(--primary);">${progress}%</span>
             </div>
             <div class="progress-bar-bg" style="margin-top: 0.5rem;">
                 <div class="progress-bar-fill" style="width: ${progress}%"></div>
             </div>
             <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
-                ${progress === 100 ? 'Completed!' : 'Keep going!'}
+                ${progress === 100 ? '✅ Completed!' : isCurrent ? 'Tap to continue →' : 'Tap to view →'}
             </p>
         </div>
     `;
@@ -1010,34 +1243,29 @@ function renderUnits(year) {
 }
 
 function createUnitCard(unit, yearStr) {
-    // yearStr might be undefined if called from quick access, handle if needed or pass strictly
-    // For toggle logic, we need to know which array it belongs to or use ID. 
-    // Since IDs are unique now (10100 etc), we can just search or pass context if easier.
-
-    // Check state directly just to be safe
     const isCompleted = unit.completed;
+    // CLT: Calculate unit content progress
+    const totalItems = unit.content ? unit.content.length : 0;
+    const completedItems = unit.currContentIndex ? Math.min(unit.currContentIndex, totalItems) : 0;
+    const unitProgressPct = totalItems > 0 ? Math.round((completedItems / totalItems) * 100) : 0;
 
     return `
-        <div class="unit-card ${isCompleted ? 'completed' : ''}" style="${isCompleted ? 'border: 2px solid var(--primary);' : ''}">
+        <div class="unit-card ${isCompleted ? 'completed' : ''}" 
+             style="${isCompleted ? 'border: 2px solid var(--primary);' : ''} cursor: pointer; position: relative;"
+             onclick="document.querySelector('.nav-item.active')?.classList.remove('active'); state.currentView='unit-view-${unit.id}'; handleRoute('unit-view-${unit.id}')">
+            ${isCompleted ? '<div style="position: absolute; top: 12px; right: 12px; background: var(--primary); color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; z-index: 1;"><i class="ph ph-check"></i></div>' : ''}
             <div class="unit-image">
                 <i class="ph ${unit.icon}"></i>
             </div>
             <div class="unit-content">
                 <span class="unit-tag">${unit.code}</span>
                 <h3>${unit.title}</h3>
-                <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
-                    <button class="btn-primary" 
-                        onclick="document.querySelector('.nav-item.active')?.classList.remove('active'); state.currentView='unit-view-${unit.id}'; handleRoute('unit-view-${unit.id}')"
-                        style="flex: 1;">
-                        Study
-                    </button>
-                    <button class="icon-btn" 
-                        onclick="toggleUnitComplete(${unit.id})"
-                        style="width: 40px; height: 40px; border-radius: var(--radius-md); background: ${isCompleted ? 'var(--primary-dark)' : 'var(--bg-body)'}; color: ${isCompleted ? 'white' : 'var(--text-muted)'};"
-                        title="Mark as Done">
-                        <i class="ph ph-check"></i>
-                    </button>
+                <div class="progress-bar-bg" style="margin-top: 0.75rem; height: 4px;">
+                    <div class="progress-bar-fill" style="width: ${unitProgressPct}%; height: 4px;"></div>
                 </div>
+                <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.4rem;">
+                    ${isCompleted ? '✅ Complete' : unitProgressPct > 0 ? `${unitProgressPct}% done` : 'Not started'}
+                </p>
             </div>
         </div>
     `;
@@ -1103,25 +1331,57 @@ function renderExam(type) {
             </div>
             
             <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
-                ${banks.map((bank, index) => `
-                    <div class="card" style="display: flex; flex-direction: column; height: 100%;">
+                ${banks.map((bank, index) => {
+        const isLocked = bank.isPremium && !state.user.isPremium;
+        return `
+                    <div class="card" style="display: flex; flex-direction: column; height: 100%; position: relative;">
+                        ${bank.isPremium ? `<div style="position: absolute; top: 1.5rem; right: 1.5rem; color: var(--primary); font-size: 1.25rem;"><i class="ph ${isLocked ? 'ph-lock-key' : 'ph-crown'}"></i></div>` : ''}
                         <div style="margin-bottom: 1rem;">
-                            <span class="unit-tag">Test Bank ${index + 1}</span>
-                            <h3 style="margin-top: 0.5rem; margin-bottom: 0.5rem;">${bank.title}</h3>
+                            <span class="unit-tag">${bank.isPremium ? 'Premium' : `Test Bank ${index + 1}`}</span>
+                            <h3 style="margin-top: 0.5rem; margin-bottom: 0.5rem; padding-right: 2rem;">${bank.title}</h3>
                             <p style="font-size: 0.9rem; color: var(--text-muted);">${bank.questions.length} Questions</p>
                         </div>
+                        ${isLocked ? `
+                        <button class="btn-primary" style="margin-top: auto; justify-content: center; background-color: var(--primary-light); color: var(--primary-dark); border: none;"
+                            onclick="showSubscriptionModal()">
+                            <i class="ph ph-lock-key-open" style="margin-right: 5px;"></i> Unlock Premium
+                        </button>
+                        ` : `
                         <button class="btn-primary" style="margin-top: auto; justify-content: center;"
                             onclick="startExam('${type}', ${index})">
                             Start Exam
                         </button>
+                        `}
                     </div>
-                `).join('')}
+                `}).join('')}
             </div>
         </div>
     `;
 
     contentArea.innerHTML = html;
 }
+
+window.showSubscriptionModal = function () {
+    document.getElementById('subscription-modal').style.display = 'flex';
+};
+
+window.closeSubscriptionModal = function () {
+    document.getElementById('subscription-modal').style.display = 'none';
+};
+
+window.subscribeToPremium = function () {
+    state.user.isPremium = true;
+    saveState();
+    closeSubscriptionModal();
+
+    // Show success message
+    alert("Welcome to Premium! You now have access to all specialized test banks.");
+
+    // Re-render the exam view to unlock buttons
+    if (state.currentView === 'nclex' || state.currentView === 'nck') {
+        renderExam(state.currentView);
+    }
+};
 
 window.startExam = function (type, bankIndex) {
     const questions = appData.exams[type][bankIndex].questions;
